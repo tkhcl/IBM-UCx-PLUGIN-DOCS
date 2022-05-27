@@ -1,0 +1,164 @@
+
+JIRA for IBM UrbanCode Deploy - Overview
+========================================
+
+# Overview
+
+
+
+### Overview
+
+
+
+
+ 
+
+
+The JIRA plug-in includes steps to automate working with JIRA issues as a process step. 
+
+
+This 
+plug-in includes these steps.
+
+
+* [Add Comments](#add_comments)
+* [Check Status](#check_status)
+* [Create 
+Issue](#create_issue)
+* [Edit Issue](#edit_issue)
+* [Transition Issue](#transition_issue)
+* [Does issues 
+exist](#does_issues_exist)
+
+
+### Compatibility
+
+
+This plug-in requires IBM UrbanCode Deploy version 6.0 or later.
+
+
+This
+ plug-in runs on all operating systems that UrbanCode Deploy supports.
+
+
+For JIRA version older than v5.0, please use 
+plugin v5 which uses the SOAP API.
+
+
+### Installation
+
+
+No special steps are required for installation. See [Installing 
+plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing 
+plug-ins in UrbanCode Deploy").
+
+
+### History
+
+Version 16
+* RFE 146322 – Modified “project” field in “Does issues 
+exists” to handle multiple project keys.
+
+
+#### Version 15
+
+
+* RFE 144997 – Add “project” field to step “Does issues 
+exists”.
+
+
+#### Version 14
+
+
+* RFE 143944 – Add support for “Does issues exists for an issue type and mark failure if 
+they exist otherwise success”.
+
+
+#### Version 13
+
+
+* RFE 119842 Add support for setting additional standard and custom 
+field values on issue create/transition.
+* Rename the Update Issue step to Transition Issue.
+* Add a new Edit Issue 
+step, for editing fields on an existing issue.
+* When creating an issue, only set the Due Date field if the specified 
+project and issue type allow it.
+
+
+#### Version 12
+
+
+Fix issue with setting proxy port.
+
+
+#### Version 11
+
+
+Add the 
+ability to trust all certificates.
+
+
+#### Version 10
+
+
+Fixes APAR PI84297: Fix response text encoding.
+
+
+#### Version 9
+
+
+
+* Fixes APAR PI79900 Support added for Http Web Proxies.
+* Added ability to create issues with Parent IDs and attach 
+labels.
+* The Create Issues step now uses a text box, instead of a select box, to define Properties. All steps will need
+ to be updated with the appropriate priority label.
+
+
+#### Version 8
+
+
+Support property file encryption.
+
+
+#### Version 
+7
+
+
+Updated step and property descriptions.
+
+
+#### Version 6
+
+
+Fixes Story 107389 Change WSDL/SOAP to RESTful services. 
+The REST API requires JIRA v5.0+. For JIRA version older than v5.0, please use plugin v5.
+
+
+#### Version 5
+
+
+Fixes APAR 
+PI37115 Steps failing with Assertion Error
+
+
+#### Version 4
+
+
+Fixes APAR PI35342 compatibility defect with IBM Urbancode
+ Deploy version 6.1.0.4 and later.
+
+
+#### Version 3
+
+
+The JIRA integration provides component process steps to create, 
+comment and resolve issues found in JIRA and publish a list of issues that were addressed in the deployment.
+
+
+
+
+|Back to ...||Latest Version|JIRA for IBM UrbanCode Deploy ||||
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[16.1090067](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JIRA/JIRA-16.1090067.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
