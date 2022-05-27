@@ -1,0 +1,50 @@
+
+PVCS - Overview
+===============
+
+# Overview
+
+
+
+### Overview
+
+
+
+
+ 
+
+
+The PVCS source configuration plug-in imports artifacts from Serena PVCS Version Manager as 
+component versions in IBM UrbanCode Deploy.
+
+
+### Compatibility
+
+
+This plug-in requires version 6.1 or later of IBM 
+UrbanCode Deploy.
+
+
+### Installation
+
+
+No special steps are required for installation. See [Installing plug-ins in 
+UrbanCode products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins 
+in UrbanCode products").
+
+
+### History
+
+
+#### Version 3.789343
+
+
+Version 3 includes a fix for APAR PI57417. The plug-in 
+now checks the agent settings for acceptance of self-signed certificates.
+
+
+
+
+|Back to ...||Latest Version|PVCS ||||
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[7.1026780](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/PvcsSourceConfig/PvcsSourceConfig-7.1026780.zip)|[Readme](README.md)|[Usage](usage.md)|[Settings](settings.md)|[Downloads](downloads.md)|
