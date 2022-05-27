@@ -1,0 +1,50 @@
+
+Microsoft TFS Work Items
+========================
+
+
+This plug-in provides steps that enable one to create and update work items in a Microsoft Team Foundation Server from 
+within an IBM UrbanCode Deploy process. Typically, one would add a comment, update the status, or even open a new work 
+item depending on the outcome of a deploy (i.e. success of failure). The plug-in must be run on an agent where the 
+Microsoft Visual Studio and Team Foundation Server plug-in for Visual Studio have been installed.
+
+
+**Platform 
+Support:**
+
+
+* This plug-in is supported to run on all Microsoft Windows operating systems that are supported by both 
+the IBM UrbanCode Deploy agent and Microsoft Team Foundation Server
+* This plug-in is supported to run against Microsoft
+ Team Foundation Server versions 2008, 2010, 2012, 2013 and 2015.
+
+
+
+Available Steps
+---------------
+
+
+Create Work 
+ItemCreates a new work item
+
+
+Change Work Item StateChange the state of an existing work item
+
+
+Add CommentAdds a 
+comment to an existing work item
+
+
+Display Work Item StatusOutputs a summary of a work item(s) to the log
+
+
+Update Work 
+ItemUpdate any field in a specified work item, overwriting or appending to the existing value
+
+
+
+
+
+|Back to ...||Latest Version|||||
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.1056533](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plugin-air-TFS-WorkItems/TFS-WorkItems-3.1056533.zip)|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|
