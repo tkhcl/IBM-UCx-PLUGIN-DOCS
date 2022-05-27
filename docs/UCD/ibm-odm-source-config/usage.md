@@ -1,0 +1,40 @@
+
+IBM Operational Decision Manager (ODM) Source Config - Usage
+============================================================
+
+# Usage
+
+
+
+### Usage
+
+
+
+
+ 
+
+
+For a full ODM plug-in usage tutorial, refer to [IBM Operational Decision Manager (ODM) with 
+UrbanCode Deploy](https://developer.ibm.com/urbancode/2017/08/02/ibm-operational-decision-manager-odm-urbancode-deploy/)
+
+
+
+To create a component by importing from Decision Center, complete the following steps. For more information, see 
+[Creating 
+components](http://www-01.ibm.com/support/knowledgecenter/SS4GSP_6.2.1/com.ibm.udeploy.doc/topics/comp_create.html 
+"Creating components").
+
+
+1. On the **Components** page in IBM UrbanCode Deploy, click **Create New Component**.
+2. In 
+the **Source Config Type** list, select **IBM ODM**.
+3. Provide all of the necessary information.
+4. Click **Save**.
+5. 
+Click the **Versions** tab for the component.
+6. Click **Import New Versions**.
+
+
+|Back to ...||Latest Version|IBM Operational Decision Manager (ODM) Source Config ||||
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[12.1100650](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm-source-config/ibm-odm-source-config-12.1100650.zip)|[Readme](README.md)|[Overview](overview.md)|[Settings](settings.md)|[Downloads](downloads.md)|
