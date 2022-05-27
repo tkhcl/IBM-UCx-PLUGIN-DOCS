@@ -1,0 +1,12 @@
+
+InfoSphere-ISD - Downloads
+==========================
+
+# Downloads
+
+- [plugins-infosphere-isd-1.1003048.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/infosphere-isd/plugins-infosphere-isd-1.1003048.zip)
+- [plugins-infosphere-isd-1.1002669.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/infosphere-isd/plugins-infosphere-isd-1.1002669.zip)
+
+|Back to ...||Latest Version|InfoSphere-ISD |||
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.1003048](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/infosphere-isd/plugins-infosphere-isd-1.1003048.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|
