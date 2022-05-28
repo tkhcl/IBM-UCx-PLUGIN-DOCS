@@ -229,7 +229,7 @@ Contents
 plug-in provides a step to extract 7-Zip archive files.  
 
 ---
-|Back to ...||7-Zip |Latest Version|
+|Back to ... | |7-Zip | Latest Version |
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](7-Zip/README.md)|[0]()|
 
@@ -240,7 +240,7 @@ plug-in provides a step to extract 7-Zip archive files.
 MicroFocus.  
 
 ---
-|Back to ...||AccuRev SCM |Latest Version|
+|Back to ... | | AccuRev SCM | Latest Version |
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](AccuRevSourceConfig/README.md)|[9.1100795](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/AccuRevSourceConfig/AccuRevSourceConfig-9.1100795.zip)|
 
@@ -251,7 +251,7 @@ This plugin allows process steps to be created that leverage the instant mount c
   data management platform provides.   Downloads:
 
 ---
-|Back to ...||Actifio |Latest Version|
+|Back to ...| | Actifio | Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](Actifio/README.md)|[0]()|
 
@@ -264,7 +264,7 @@ addresses, waiting for instances, creating a security group, and getting the pub
 Amazon [AWS SDK](http://aws.amazon.com/sdkforjava/) is required and must be downloaded from Amazon separately. 
 
 ---
-|Back to ...||Amazon EC2 |Latest Version|
+|Back to ...| | Amazon EC2 | Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](AmazonEC2/README.md)|[6.1100863](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/AmazonEC2/AmazonEC2-6.1100863.zip)|
 
