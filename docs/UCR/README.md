@@ -85,7 +85,7 @@ performance for the first full synchronization and for delta updates on subseque
   
 |Back to ...||IBM UrbanCode Deploy |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBM UrbanCode Deploy/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-urbancode-deploy/README.md)|[0]()|
 
 ## Jenkins for IBM UrbanCode Release
 
@@ -152,14 +152,13 @@ configurable process to adapt to the way you work.   Compatibility:
 
 
 The ServiceNow plug-in allows UrbanCode Release to perform create, read, update and delete operations on ServiceNow 
-records. This plug-in also evaluates SNOW approvals and resolve UrbanCode Release Deployments phase approvals.   |Back 
-to ...||Latest Version||||
+records. This plug-in also evaluates SNOW approvals and resolve UrbanCode Release Deployments phase approvals.  
 
 ---
   
 |Back to ...||ServiceNow |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ServiceNow/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](servicenow-4/README.md)|[0]()|
 
 ## Slack for IBM UrbanCode Release
 
