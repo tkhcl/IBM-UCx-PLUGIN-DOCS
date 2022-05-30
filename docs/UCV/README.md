@@ -284,14 +284,13 @@ testing from each of the Test Workbench products into a single view.   |Back to 
 ## Selenium
 
 
-**Note:** This is not a plug-in. |Back to ...||Latest Version| | :---: | :---: | :---: | |[All 
-Plugins](../../index.md)|[Velocity Plugins](../README.md)|[0]()|
+**Note:** This is not a plug-in. 
 
 ---
   
 |Back to ...||Selenium |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Selenium/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](selenium-ucv/README.md)|[0]()|
 
 ## ServiceNow
 
@@ -321,14 +320,13 @@ duplication, coding rules, potential bugs, unit tests, and complexity.
 ## TestComplete
 
 
-**Note:** This is not a plug-in. |Back to ...||Latest Version| | :---: | :---: | :---: | |[All 
-Plugins](../../index.md)|[Velocity Plugins](../README.md)|[0]()|
+**Note:** This is not a plug-in.
 
 ---
   
 |Back to ...||TestComplete |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](TestComplete/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](testcomplete-ucv/README.md)|[0]()|
 
 ## TestNG
 
