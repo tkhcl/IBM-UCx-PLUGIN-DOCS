@@ -335,7 +335,7 @@ of
   
 |Back to ...||Gradle for IBM UrbanCode Build |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Gradle for IBM UrbanCode Build/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](gradle-2/README.md)|[0]()|
 
 ## Groovy for IBM UrbanCode Build
 
@@ -458,7 +458,7 @@ TestArchitect command line interface.
   
 |Back to ...||LogiGear TestArchitect for IBM UrbanCode Build |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](LogiGear TestArchitect for IBM UrbanCode Build/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](logigear-testarchitect-2/README.md)|[0]()|
 
 ## MSBuild
 
@@ -817,7 +817,7 @@ UrbanCode Velocity plug-in uploads build data into the UrbanCode Velocity server
   
 |Back to ...||UrbanCode Velocity |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](UrbanCode Velocity/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](urbancode-velocity/README.md)|[0]()|
 
 ## Visual Studio
 
