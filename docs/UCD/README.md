@@ -1147,7 +1147,7 @@ IBM MQ for z/OS – Generate MQSC Commands -------------------------------------
   
 |Back to ...||IBM MQ for z/OS – Generate MQSC Commands |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBM MQ for zOS – Generate MQSC Commands/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBM MQ for zOS - Generate MQSC Commands/README.md)|[0]()|
 
 ## IBM MaaS360
 
