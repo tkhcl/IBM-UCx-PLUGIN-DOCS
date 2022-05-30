@@ -234,7 +234,7 @@ plug-in provides a step to extract 7-Zip archive files.
   
 |Back to ...||7-Zip |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](7-Zip/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](7-zip/README.md)|[0]()|
 
 ## AccuRev SCM
 
@@ -258,7 +258,7 @@ This plugin allows process steps to be created that leverage the instant mount c
   
 |Back to ...||Actifio |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Actifio/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](actifio/README.md)|[0]()|
 
 ## Amazon EC2
 
@@ -298,7 +298,7 @@ generic Shell step or AShell plug-in step.
   
 |Back to ...||Ansible |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Ansible/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ansible/README.md)|[0]()|
 
 ## Apache Ant
 
@@ -341,7 +341,7 @@ service on top of a cluster of computers, each of which may be prone to failures
   
 |Back to ...||Apache Hadoop |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Apache Hadoop/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](apache-hadoop/README.md)|[0]()|
 
 ## Apache Tomcat
 
@@ -378,7 +378,7 @@ Overview ========   The Apple Xcode plug-in includes steps that manage the conti
   
 |Back to ...||Apple Xcode |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Apple Xcode/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](apple-xcode/README.md)|[0]()|
 
 ## Apprenda
 
@@ -391,7 +391,7 @@ GitHub project.
   
 |Back to ...||Apprenda |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Apprenda/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](apprenda/README.md)|[0]()|
 
 ## Artifactory
 
@@ -453,7 +453,7 @@ middleware.
   
 |Back to ...||Avnet Talos |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Avnet Talos/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](avnet-talos/README.md)|[0]()|
 
 ## BMC Remedy Action Request System
 
@@ -479,7 +479,7 @@ DevOps
   
 |Back to ...||Box |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Box/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](box/README.md)|[0]()|
 
 ## CA SCM (formerly Harvest)
 
@@ -568,7 +568,7 @@ developed and supported by the UrbanCode Deploy Community on the IBM DevOps Serv
   
 |Back to ...||Cloudant |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Cloudant/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](cloudant/README.md)|[0]()|
 
 ## CyberArk
 
@@ -583,7 +583,7 @@ of various business applications. The product is built on the CyberArk Shared T
   
 |Back to ...||CyberArk |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](CyberArk/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](cyberark/README.md)|[0]()|
 
 ## DBmaestro
 
@@ -598,7 +598,7 @@ verifying the environments are identical (no drifts) to deploying (executing the
   
 |Back to ...||DBmaestro |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](DBmaestro/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](dbmaestro/README.md)|[0]()|
 
 ## Datical DB
 
@@ -611,7 +611,7 @@ struggle with database schema change across the Application Release Lifecycle. D
   
 |Back to ...||Datical DB |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Datical DB/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](datical-db/README.md)|[0]()|
 
 ## Dimensions
 
@@ -748,7 +748,7 @@ projects with speed and efficiency.   Leverage this plugin to install Git on a t
   
 |Back to ...||Git Install |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Git Install/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](git-install/README.md)|[0]()|
 
 ## GitHub-Release
 
@@ -786,7 +786,7 @@ command line to run a build script with the provided options against the defined
   
 |Back to ...||Gradle |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Gradle/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](gradle/README.md)|[0]()|
 
 ## Groovy
 
@@ -1038,7 +1038,7 @@ that use Db2 for z/OS.   The deployment process covers the tasks for the followi
   
 |Back to ...||IBM Db2 for z/OS Package |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBM Db2 for zOS Package/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-db2-for-z-os-package/README.md)|[0]()|
 
 ## IBM Globalization Pipeline
 
@@ -1053,7 +1053,7 @@ Portuguese, Spanish, and Arabic. It allows application developers to leverage th
   
 |Back to ...||IBM Globalization Pipeline |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBM Globalization Pipeline/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-globalization-pipeline/README.md)|[0]()|
 
 ## IBM IMS
 
@@ -1107,7 +1107,7 @@ software for an enterprise scenario. See the [IBM Installation Manager product
   
 |Back to ...||IBM Installation Manager |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBM Installation Manager/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-installation-manager/README.md)|[0]()|
 
 ## IBM Integration Bus (IIB) plugin Deploy step for zOS
 
@@ -1147,7 +1147,7 @@ IBM MQ for z/OS – Generate MQSC Commands -------------------------------------
   
 |Back to ...||IBM MQ for z/OS – Generate MQSC Commands |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBM MQ for zOS - Generate MQSC Commands/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-mq-for-z-os-generate-mqsc-commands/README.md)|[0]()|
 
 ## IBM MaaS360
 
@@ -1159,7 +1159,7 @@ example, you can use this plug-in to request an authentication token.   This plu
   
 |Back to ...||IBM MaaS360 |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBM MaaS360/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-maas360/README.md)|[0]()|
 
 ## IBM MobileFirst Platform (formerly Worklight)
 
@@ -1244,7 +1244,7 @@ and WebSphere Portal products as target systems.
   
 |Back to ...||IBM Rational Automation Framework for WebSphere |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBM Rational Automation Framework for WebSphere/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-rational-automation-framework-for-websphere/README.md)|[0]()|
 
 ## IBM Rational ClearCase
 
@@ -1272,7 +1272,7 @@ needs evolve.
   
 |Back to ...||IBM Rational ClearQuest |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBM Rational ClearQuest/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-rational-clearquest/README.md)|[0]()|
 
 ## IBM Rational Functional Tester (RFT)
 
@@ -1321,7 +1321,7 @@ scripts.
   
 |Back to ...||IBM Rational Quality Manager (RQM) |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBM Rational Quality Manager (RQM)/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-rational-quality-manager-rqm/README.md)|[0]()|
 
 ## IBM Rational Team Concert Work Items
 
@@ -1334,7 +1334,7 @@ The RTC Work Items plugin provides steps for the build to comment and change the
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](plugin-air-RTC-WorkItems/README.md)|[14.1126873](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plugin-air-RTC-WorkItems/ucd-plugin-air-RTC-WorkItems-14.1126873.zip)|
 
-## IBM Rational Team Concert – Build
+## IBM Rational Team Concert - Build
 
 
 No source configuration plug-in is required to use Rational Team Concert builds in IBM UrbanCode Deploy.   View a demo 
@@ -1342,9 +1342,9 @@ of this capability [here](https://developer.ibm.com/urbancode/2013/12/06/ibm-urb
 
 ---
   
-|Back to ...||IBM Rational Team Concert – Build |Latest Version|
+|Back to ...||IBM Rational Team Concert - Build |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBM Rational Team Concert – Build/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-rational-team-concert-build/README.md)|[0]()|
 
 ## IBM Rational Team Concert – SCM
 
@@ -1421,7 +1421,7 @@ steps to manage and automate the functionality and configuration of an IBM Sterl
   
 |Back to ...||IBM Sterling B2B Integrator |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBM Sterling B2B Integrator/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-sterling-b2b-integrator/README.md)|[0]()|
 
 ## IBM UrbanCode Build
 
@@ -1649,7 +1649,7 @@ Oracle that IBM’s VDP data management platform provides.   Downloads:
   
 |Back to ...||IBM VDP |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBM VDP/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-vdp/README.md)|[0]()|
 
 ## IBM WebSphere Commerce
 
@@ -1713,7 +1713,7 @@ that is performed by the plug-in’s steps.
   
 |Back to ...||IBM Workload Automation |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBM Workload Automation/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-workload-automation/README.md)|[0]()|
 
 ## IBM z/TPF Beta
 
@@ -1725,7 +1725,7 @@ IBM z/Transaction Processing Facility is a high-performance and high-reliability
   
 |Back to ...||IBM z/TPF Beta |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBM zTPF Beta/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-z-tpf-beta/README.md)|[0]()|
 
 ## IBM-MQ
 
@@ -1763,7 +1763,7 @@ Overview --------   Informatica PowerCenter is an enterprise data integration pl
   
 |Back to ...||Informatica |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Informatica/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](informatica/README.md)|[0]()|
 
 ## JBoss Application Server
 
@@ -1790,7 +1790,7 @@ typically installed in your server’s management GUI.
   
 |Back to ...||JBoss-ON |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](JBoss-ON/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](jboss-on/README.md)|[0]()|
 
 ## JIRA for IBM UrbanCode Deploy
 
@@ -1814,7 +1814,7 @@ This IBM UrbanCode Deploy Jenkins Job Manager plug-in provides support to manage
   
 |Back to ...||Jenkins Job Manager |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Jenkins Job Manager/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](jenkins-job-manager/README.md)|[0]()|
 
 ## Jenkins Pipeline
 
@@ -1876,7 +1876,7 @@ Liquibase is an open source tool that brings source control for tracking, managi
   
 |Back to ...||Liquibase |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Liquibase/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](liquibase/README.md)|[0]()|
 
 ## LogiGear TestArchitect
 
@@ -1888,7 +1888,7 @@ TestArchitect command line interface.
   
 |Back to ...||LogiGear TestArchitect |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](LogiGear TestArchitect/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](logigear-testarchitect/README.md)|[0]()|
 
 ## Maven
 
@@ -2101,7 +2101,7 @@ Deploy from Team Foundation Server (TFS). This extension is installed into TFS o
   
 |Back to ...||Microsoft Visual Studio Team Services (VSTS) |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Microsoft Visual Studio Team Services (VSTS)/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](microsoft-visual-studio-team-services-vsts/README.md)|[0]()|
 
 ## Microsoft Windows Failover Clusters
 
@@ -2177,7 +2177,7 @@ applications. This plugin sends deployment notifications to New Relic.   This pl
   
 |Back to ...||New Relic |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](New Relic/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](new-relic/README.md)|[0]()|
 
 ## Nexus
 
@@ -2226,7 +2226,7 @@ the palette. Flows can be then deployed to the runtime in a single-click. JavaSc
   
 |Back to ...||Node-RED |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Node-RED/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](node-red/README.md)|[0]()|
 
 ## Node.js
 
@@ -2239,7 +2239,7 @@ Node.js uses an event-driven, non-blocking I/O model that makes it lightweight a
   
 |Back to ...||Node.js |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Node.js/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](node-js/README.md)|[0]()|
 
 ## NuGet
 
@@ -2424,7 +2424,7 @@ The Property Utils plug-in is an automation based plugin that provides steps for
   
 |Back to ...||Property Utils |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Property Utils/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](property-utils/README.md)|[0]()|
 
 ## Puppet
 
@@ -2438,7 +2438,7 @@ repetitive tasks, quickly deploy critical applications, and proactively manage c
   
 |Back to ...||Puppet |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Puppet/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](puppet/README.md)|[0]()|
 
 ## RPM
 
@@ -2533,7 +2533,7 @@ This plugin provides a mechanism to send SMTP emails in your deployment process.
   
 |Back to ...||Send SMTP Email |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Send SMTP Email/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](send-smtp-email/README.md)|[0]()|
 
 ## ServiceNow
 
@@ -2572,7 +2572,7 @@ community supported plug-in. Community plug-ins are open source projects that ar
   
 |Back to ...||Siebel |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Siebel/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](siebel/README.md)|[0]()|
 
 ## Skytap Automation Pack
 
@@ -2585,7 +2585,7 @@ fluctuating and unpredictable demand for IBM UrbanCode Deploy workflows.
   
 |Back to ...||Skytap Automation Pack |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Skytap Automation Pack/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](skytap-automation-pack/README.md)|[0]()|
 
 ## Slack
 
@@ -2596,7 +2596,7 @@ fluctuating and unpredictable demand for IBM UrbanCode Deploy workflows.
   
 |Back to ...||Slack |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Slack/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](slack/README.md)|[0]()|
 
 ## Subversion
 
@@ -2658,7 +2658,7 @@ app management process for TIBCO applications by providing simplified process.
   
 |Back to ...||TIBCO |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](TIBCO/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](tibco/README.md)|[0]()|
 
 ## TeamCity
 
@@ -2682,7 +2682,7 @@ build agents, and build artifacts.
   
 |Back to ...||Text Utility |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Text Utility/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](text-utility/README.md)|[0]()|
 
 ## VMware AirWatch
 
@@ -2694,7 +2694,7 @@ UrbanCode Deploy to deploy an IPA to an AirWatch instance and assign an IPA to a
   
 |Back to ...||VMware AirWatch |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](VMware AirWatch/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](vmware-airwatch/README.md)|[0]()|
 
 ## Venafi
 
@@ -2706,7 +2706,7 @@ different devices. The Venafi plug-in for IBM UrbanCode Deploy contains various 
   
 |Back to ...||Venafi |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Venafi/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](venafi/README.md)|[0]()|
 
 ## Web Utilities
 
@@ -2783,7 +2783,7 @@ an IBM UrbanCode Deploy Process
   
 |Back to ...||eggPlant |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](eggPlant/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](eggplant/README.md)|[0]()|
 
 ## z/OS Dataset Writer
 
