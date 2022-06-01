@@ -3,27 +3,21 @@ Oracle WebLogic Server Resource Management
 ==========================================
 
 
-This plug-in provides steps to support automated deployment of various WebLogic server resources, such as connection 
-factories, quotas, templates, queues, JDBC data sources, file stores, and subdeployments.
+This plug-in provides steps to support automated deployment of various WebLogic server resources, such as connection factories, quotas, templates, queues, JDBC data sources, file stores, and subdeployments.
 
 
-Each step is self-contained.
- That is, connection credentials that are required to connect to the WebLogic server is contained in each step. All Step
- properties include location information for the following required files:
+Each step is self-contained. That is, connection credentials that are required to connect to the WebLogic server is contained in each step. All Step properties include location information for the following required files:
 
 
-* A JMX JAR file which contains connection 
-information file for accessing the WebLogic server
+* A JMX JAR file which contains connection information file for accessing the WebLogic server
 * JMX properties files that define the objects.
 
 
-**Platform 
-Support:**
+**Platform Support:**
 
 
 * This plug-in is supported for use with WebLogic Server version 10.3 or later.
-* This plug-in requires IBM
- UrbanCode Deploy version 6.0.1 or later.
+* This plug-in requires IBM UrbanCode Deploy version 6.0.1 or later.
 
 
 
@@ -31,9 +25,7 @@ Available Steps
 ---------------
 
 
-Refer to the 
-[documentation](https://developer.ibm.com/urbancode/plugindoc/ibmucd/resource-management-weblogic-server/2-554520/steps/
- "Installing plug-ins in UrbanCode Deploy") for a list of available steps.
+Refer to the [documentation](https://developer.ibm.com/urbancode/plugindoc/ibmucd/resource-management-weblogic-server/2-554520/steps/ "Installing plug-ins in UrbanCode Deploy") for a list of available steps.
 
 
 

@@ -17,30 +17,25 @@ Oracle SQLPlus - Overview
 ### Overview
 
 
-The Oracle SQL*Plus plug-in includes steps that run SQL scripts during deployment.
-
+The Oracle SQL\*Plus plug-in includes steps that run SQL scripts during deployment.
 
 
 ### Compatibility
 
 
-The UrbanCode Deploy automation plug-in for Oracle SQL*Plus works with Oracle 11 and later.
-
+The UrbanCode Deploy automation plug-in for Oracle SQL\*Plus works with Oracle 11 and later.
 
 
 This plug-in requires version 6.0.1 or later of IBM UrbanCode Deploy.
 
 
-**Important:** If you use the SYS account to run
- SQL scripts, add the suffix as sysdba to the Connection ID field.
+**Important:** If you use the SYS account to run SQL scripts, add the suffix as sysdba to the Connection ID field.
 
 
 ### Installation
 
 
-No special steps are required 
-for installation. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-
-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
 
 
 ### History
@@ -49,36 +44,31 @@ in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
 ####  Version 20
 
 
-* Fixed APAR 
-PH19241 Avoid memory leaks by streaming file contents instead of storing them in memory.
+* Fixed APAR PH19241Avoid memory leaks by streaming file contents instead of storing them in memory.
 
 
 #### Version 19
 
 
-* Fixed 
-APAR PH18690 Null file references. Added option to skip SQL error checking.
+* Fixed APAR PH18690Null file references. Added option to skip SQL error checking.
 
 
 #### Version 18
 
 
-* Added support for @@ 
-for SQL*Plus UCD plugin.
+* Added support for @@ for SQL\*Plus UCD plugin.
 
 
 #### Version 17
 
 
-* RFE 47981 Added a password script field that can be used to retrieve the 
-password for database authentication.
+* RFE 47981Added a password script field that can be used to retrieve the password for database authentication.
 
 
 #### Version 16
 
 
-* Fixed APAR PH03192 Plugin now reports PLS compilation 
-errors.
+* Fixed APAR PH03192Plugin now reports PLS compilation errors.
 
 
 #### Version 15
@@ -90,35 +80,30 @@ errors.
 #### Version 14
 
 
-* Fixed 
-exceptions to bubble up instead of printing a potentially unrelated error message.
+* Fixed exceptions to bubble up instead of printing a potentially unrelated error message.
 
 
 #### Version 13
 
 
-- Fixed falsely 
-reported compilation errors.
+- Fixed falsely reported compilation errors.
 
 #### Version 12
 
 
 - Fixed error when separating SQL files by commas.
 
-- Fixed bug, 
-reintroduced in version 10, when using wildcards in Run SQLPlus script step.
+- Fixed bug, reintroduced in version 10, when using wildcards in Run SQLPlus script step.
 
 #### Version 11
 
 
-- Added error handling; 
-step will now fail when ORA- messages are received.
+- Added error handling; step will now fail when ORA- messages are received.
 
 #### Version 10
 
 
-- Added error handling; step will now fail when 
-SP2- errors or compilation errors are received.
+- Added error handling; step will now fail when SP2- errors or compilation errors are received.
 
 #### Version 9
 
@@ -128,13 +113,11 @@ SP2- errors or compilation errors are received.
 #### Version 8
 
 
-
 - Authentication through Oracle Wallet support.
 
 - Added functionality for additional environment variables.
 
-#### 
-Version 7
+#### Version 7
 
 
 - Fixed bug with using wildcards in Run SQLPlus script step.
@@ -142,8 +125,7 @@ Version 7
 #### Version 6
 
 
-- Add step for running SQL 
-control files.
+- Add step for running SQL control files.
 
 #### Version 5
 

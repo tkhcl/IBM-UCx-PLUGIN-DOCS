@@ -1,5 +1,5 @@
 
-IBM Integration Bus (formerly WebSphere Message Broker) – CMP - Downloads
+IBM Integration Bus (formerly WebSphere Message Broker) - CMP - Downloads
 =========================================================================
 
 # Downloads
@@ -37,6 +37,6 @@ IBM Integration Bus (formerly WebSphere Message Broker) – CMP - Downloads
 - [WebSphereMessageBroker-CMP-15.774598.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereMessageBroker-CMP/WebSphereMessageBroker-CMP-15.774598.zip)
 - [EPL.txt](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/jenkins-ud-plugin/EPL.txt)
 
-|Back to ...||Latest Version|IBM Integration Bus (formerly WebSphere Message Broker) – CMP |||||
+|Back to ...||Latest Version|IBM Integration Bus (formerly WebSphere Message Broker) - CMP |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[47.1100834](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereMessageBroker-CMP/WebSphereMessageBroker-CMP-47.1100834.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Steps](steps.md)|

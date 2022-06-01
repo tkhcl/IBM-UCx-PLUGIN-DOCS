@@ -11,9 +11,7 @@ Mulesoft - Overview
 
 
 
- Use the MuleSoft plug-in to automate the deployment of MuleSoft applications to CloudHub. CloudHub is
- a cloud-based integration platform as a service (iPaaS) that can be used to deploy cross-cloud integration applications
- in the cloud.
+ Use the MuleSoft plug-in to automate the deployment of MuleSoft applications to CloudHub. CloudHub is a cloud-based integration platform as a service (iPaaS) that can be used to deploy cross-cloud integration applications in the cloud.
 
 
 This plug-in contains one step:
@@ -25,16 +23,13 @@ This plug-in contains one step:
 ### Step palette
 
 
-To access this plug-in in 
-the palette, click **Deployment** > **Mulesoft**.
+To access this plug-in in the palette, click **Deployment** > **Mulesoft**.
 
 
 ### Installation
 
 
-No special steps are required for installation. 
-See [Installing plug-ins in UrbanCode products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-
-products/ "Installing plug-ins in UrbanCode products").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode products").
 
 
 ### History

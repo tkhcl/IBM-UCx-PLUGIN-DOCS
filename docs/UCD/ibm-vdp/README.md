@@ -3,28 +3,22 @@ IBM VDP
 =======
 
 
-The plugin allows process steps to be created that leverage the instant mount capabilities for Microsoft SQL Server and 
-Oracle that IBM’s VDP data management platform provides.
+The plugin allows process steps to be created that leverage the instant mount capabilities for Microsoft SQL Server and Oracle that IBM’s VDP data management platform provides.
 
 
 Downloads:
 ----------
 
 
-* [Source 
-project](https://github.com/Actifio/vdp-ucd-plugin)
-* [Plug-in Installables](https://github.com/Actifio/vdp-ucd-
-plugin/releases)
+* [Source project](https://github.com/Actifio/vdp-ucd-plugin)
+* [Plug-in Installables](https://github.com/Actifio/vdp-ucd-plugin/releases)
 
 
 If you encounter issues with the plug-in, or want to send feedback:
 
 
-* Ask IBM VDP plug-in specific 
-questions on the [GitHub Issues](https://github.com/Actifio/vdp-ucd-plugin/issues) page.
-* For general plug-in issues, 
-submit questions to the [dW Answers page](https://developer.ibm.com/answers/smart-spaces/23/urbancode.html). Use the 
-following tags: urbancode | ucdev | plugins
+* Ask IBM VDP plug-in specific questions on the [GitHub Issues](https://github.com/Actifio/vdp-ucd-plugin/issues) page.
+* For general plug-in issues, submit questions to the [dW Answers page](https://developer.ibm.com/answers/smart-spaces/23/urbancode.html). Use the following tags: urbancode | ucdev | plugins
 
 
 
@@ -32,8 +26,7 @@ Available Steps
 ---------------
 
 
-SQL Server database provisioning Oracle
- database provisioning (standalone/RAC, file system/ASM)
+SQL Server database provisioning Oracle database provisioning (standalone/RAC, file system/ASM)
 
 
 

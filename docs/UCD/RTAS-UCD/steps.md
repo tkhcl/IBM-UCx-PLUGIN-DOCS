@@ -22,7 +22,6 @@ IBM Rational Test Automation Server (RTAS) - Steps
 
 
 
-
 ### Start Job
 
 
@@ -31,19 +30,13 @@ Use this step to start a job on the Rational Test Automation Server.
 
 
 
-| Name | Type | Description | 
-Required |
+| Name | Type | Description | Required |
 | --- | --- | --- | --- |
-| Allow Insecure Connections | Boolean | Enable to allow insecure connections to 
-the Rational Test Automation Server. | No |
-| File Path | String | The path to the Rational Test Automation Server file.
- | Yes |
-| Offline Token | Password | User provided offline access token for accessing the Rational Test Automation 
-Server. | Yes |
+| Allow Insecure Connections | Boolean | Enable to allow insecure connections to the Rational Test Automation Server. | No |
+| File Path | String | The path to the Rational Test Automation Server file. | Yes |
+| Offline Token | Password | User provided offline access token for accessing the Rational Test Automation Server. | Yes |
 | Rational Test Automation Server URL | String | The URL of the Rational Test Automation Server. | Yes |
-
-| Type | Enumeration | The job type to run. Valid values are APISUITE, AFTSUITE, COMPOUND, RATESCHEDULE, and 
-VUSCHEDULE. | Yes |
+| Type | Enumeration | The job type to run. Valid values are APISUITE, AFTSUITE, COMPOUND, RATESCHEDULE, and VUSCHEDULE. | Yes |
 
 
 

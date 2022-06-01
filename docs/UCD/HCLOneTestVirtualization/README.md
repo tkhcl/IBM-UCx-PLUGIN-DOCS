@@ -6,10 +6,8 @@ HCL OneTest Virtualization
 The HCL OneTest Virtualization plug-in for UrbanCode Deploy provides a step to Run HCL OneTest virtualization.
 
 
- 
-**Platform Support**
-* This plug-in runs on all operating systems that are supported by the UrbanCode Deploy agent 
-(except for z/OS)
+ **Platform Support**
+* This plug-in runs on all operating systems that are supported by the UrbanCode Deploy agent (except for z/OS)
 * This plug-in works with HCL OneTest 9.2.1 or higher.
 
 
@@ -19,7 +17,6 @@ Available Steps
 
 
 Start Stub
-
 
 
 Stop Stub
@@ -34,8 +31,7 @@ Delete Transient Environment
 Update Transient Environment
 
 
-Start 
-Scenario
+Start Scenario
 
 
 Stop Scenario

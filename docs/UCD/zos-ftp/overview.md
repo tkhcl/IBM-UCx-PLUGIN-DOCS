@@ -11,8 +11,7 @@ z/OS FTP Utility - Overview
 
 
 
-  The zOS FTP plug-in includes a step related to import hierarchical file system (HFS) artifacts from 
-another z/OS logical partition (LPAR). 
+  The zOS FTP plug-in includes a step related to import hierarchical file system(HFS) artifacts from another z/OS logical partition (LPAR). 
 
 
 This plug-in includes one step:
@@ -26,7 +25,6 @@ Step palette
 ------------
 
 
-
 To access this plug-in in the palette, click **Utilities** > **zOS FTP**.
 
 
@@ -34,21 +32,17 @@ Compatibility
 -------------
 
 
-This plug-
-in requires IBM UrbanCode Deploy version 6.0.1 or later.
+This plug-in requires IBM UrbanCode Deploy version 6.0.1 or later.
 
 
-The steps in this plug-in run on any agents that the IBM 
-UrbanCode Deploy server supports.
+The steps in this plug-in run on any agents that the IBM UrbanCode Deploy server supports.
 
 
 Installation
 ------------
 
 
-No special steps are required for installation. See 
-[Installing plug-ins in UrbanCode products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-
-products/).
+No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/).
 
 
 History

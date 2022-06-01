@@ -14,37 +14,31 @@ Microsoft IIS AdminScripts - Overview
  
 
 
-The Microsoft IIS AdminScripts plug-in includes steps that change the configuration of IIS 6 
-during a deployment.
+The Microsoft IIS AdminScripts plug-in includes steps that change the configuration of IIS 6 during a deployment.
 
 
-To add the Microsoft IIS AdminScripts plug-in steps to processes, click **Application Server > 
-IIS > IIS AdminScripts** in the step palette of the process editor.
+To add the Microsoft IIS AdminScripts plug-in steps to processes, click **Application Server > IIS > IIS AdminScripts** in the step palette of the process editor.
 
 
 ### Compatibility
 
 
-The IBM UrbanCode Deploy 
-automation plug-in for Microsoft IIS AdminScripts works with IIS 6.
+The IBM UrbanCode Deploy automation plug-in for Microsoft IIS AdminScripts works with IIS 6.
 
 
-This plug-in requires version 6.0 or later of IBM 
-UrbanCode Deploy.
+This plug-in requires version 6.0 or later of IBM UrbanCode Deploy.
 
 
 ### Installation
 
 
-No special steps are required for installation. See [Installing plug-ins in 
-UrbanCode products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/).
+No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/).
 
 
 ### History
 
 
-####
- Version 8
+#### Version 8
 
 
 Version 8 fixes a compatibility defect with IBM Urbancode Deploy version 6.1.0.4 and later.

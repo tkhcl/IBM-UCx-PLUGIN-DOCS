@@ -14,35 +14,29 @@ Shell - Overview
  
 
 
-The Shell plug-in includes steps that run commands on the target system. You can run a command 
-with or without arguments.
+The Shell plug-in includes steps that run commands on the target system. You can run a command with or without arguments.
 
 
-To add the Shell plug-in steps to processes, click **Scripting > Shell** in the step 
-palette of the process editor.
+To add the Shell plug-in steps to processes, click **Scripting > Shell** in the step palette of the process editor.
 
 
 * [Shell](steps#shell)
 * [Shell (with xargs)](steps#shell_(with_xargs))
 
 
-### 
-Compatibility
+### Compatibility
 
 
 This plug-in requires IBM UrbanCode Deploy version 6.0.1 or later.
 
 
-The steps in this plug-in run on 
-any agents that the IBM UrbanCode Deploy server supports.
+The steps in this plug-in run on any agents that the IBM UrbanCode Deploy server supports.
 
 
 ### Installation
 
 
-No special steps are required for 
-installation. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-
-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
 
 
 ### History
@@ -54,12 +48,10 @@ urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
 Update log4j 2.17.
 
 
-
 #### Version 11
 
 
-Remove log4j functionality related to: CVE-2019-17571, CVE-2020-9488. CVE-2021-4104, CVE-2022-23302, 
-CVE-2022-23305, CVE-2022-23307.
+Remove log4j functionality related to: CVE-2019-17571, CVE-2020-9488. CVE-2021-4104, CVE-2022-23302, CVE-2022-23305, CVE-2022-23307.
 
 
 #### Version 10
@@ -71,8 +63,7 @@ Add compatibility with Groovy 3.
 #### Version 9
 
 
-Support property
- file encryption.
+Support property file encryption.
 
 
 #### Version 8
@@ -84,23 +75,19 @@ Add support for encrypted property files.
 #### Version 7.800043
 
 
-Version 7 of 
-the plug-in includes a fix for APAR PI40728. The Shell (with xargs) step now correctly displays the arguments in the 
-logs.
+Version 7 of the plug-in includes a fix for APAR PI40728. The Shell (with xargs) step now correctly displays the arguments in the logs.
 
 
 #### Version 6.785165
 
 
-Version 6 includes a fix for APAR PI35342. The plug-in is now compatible with IBM 
-UrbanCode Deploy version 6.1.0.4 and later.
+Version 6 includes a fix for APAR PI35342. The plug-in is now compatible with IBM UrbanCode Deploy version 6.1.0.4 and later.
 
 
 #### Version 5.562693
 
 
-Version 5 includes a fix for a defect where the 
-Shell plug-in was not upgraded when users upgraded to IBM UrbanCode Deploy 6.1.0.2.
+Version 5 includes a fix for a defect where the Shell plug-in was not upgraded when users upgraded to IBM UrbanCode Deploy 6.1.0.2.
 
 
 

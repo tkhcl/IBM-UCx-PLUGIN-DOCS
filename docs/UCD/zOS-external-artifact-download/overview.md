@@ -15,9 +15,7 @@ z/OS External Artifact Repository - Overview
 
 
 
-The External Artifact Repository plug-in automates the downloading of IBM z/OS artifacts from a 
-[Nexus](https://www.sonatype.com/product-nexus-repository) or [JFrog Artifactory](https://jfrog.com/artifactory/) 
-repository.
+The External Artifact Repository plug-in automates the downloading of IBM z/OS artifacts from a [Nexus](https://www.sonatype.com/product-nexus-repository) or [JFrog Artifactory](https://jfrog.com/artifactory/) repository.
 
 
 
@@ -31,23 +29,19 @@ This plug-in includes one step:
 ### Step palette
 
 
-To access this plug-in in
- the palette, click **Repositories** > **Artifact** > **zOS ExternalArtifactsDownload**.
+To access this plug-in in the palette, click **Repositories** > **Artifact** > **zOS ExternalArtifactsDownload**.
 
 
 ### Compatibility
 
 
-This 
-plug-in requires 7.0.4 or later of UrbanCode Deploy.
+This plug-in requires 7.0.4 or later of UrbanCode Deploy.
 
 
 ### Installation
 
 
-No special steps are required for 
-installation. See [Installing plug-ins in UrbanCode](http://www.urbancode.com/resource/installing-plug-ins-in-urbancode-
-products/ "Installing plug-ins in UrbanCode").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode](http://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode").
 
 
 ### History
@@ -56,30 +50,25 @@ products/ "Installing plug-ins in UrbanCode").
 #### Version 4 released on April 16, 2020
 
 
-Implemented 
-the proxy changes for artifactory server
+Implemented the proxy changes for artifactory server
 
 
 #### Version 3 released
 
 
-Implemented the api key changes for artifactory 
-server
+Implemented the api key changes for artifactory server
 
 
 #### Version 2 released
 
 
-PH20336 – Fixed the default value for extRepoURL and changed the plugin to fail when 
-it is not able to download artifacts
+PH20336 – Fixed the default value for extRepoURL and changed the plugin to fail when it is not able to download artifacts
 
 
 #### Version 1 released on October 16, 2019
 
 
-Initial release. Plugin is used to 
-download artifacts from external repository like NEXUS/ARTIFACTORY and then we can use Deploy Data Sets step to do zOS 
-deployment.
+Initial release. Plugin is used to download artifacts from external repository like NEXUS/ARTIFACTORY and then we can use Deploy Data Sets step to do zOS deployment.
 
 
 

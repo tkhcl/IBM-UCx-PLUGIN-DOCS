@@ -17,8 +17,7 @@ IBM-MQ - Overview
 ### Overview
 
 
-The WebSphere MQ plug-in enables you to interact directly with the messaging 
-system.
+The WebSphere MQ plug-in enables you to interact directly with the messaging system.
 
 
 ### Compatibility
@@ -27,12 +26,10 @@ system.
 This plug-in requires version 6.0 of IBM UrbanCode Deploy.
 
 
-The UrbanCode Deploy plug-in 
-for WebSphere MQ works with WebSphere MQ versions 7.5 and newer. 
+The UrbanCode Deploy plug-in for WebSphere MQ works with WebSphere MQ versions 7.5 and newer. 
 
 
-The steps in this plug-in run on any agents that the
- IBM UrbanCode Deploy server supports.
+The steps in this plug-in run on any agents that the IBM UrbanCode Deploy server supports.
 
 
 Currently, zOS is not supported.
@@ -41,9 +38,7 @@ Currently, zOS is not supported.
 ### Installation
 
 
-No special steps are 
-required for installation. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-
-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
 
 
 ### History
@@ -52,14 +47,12 @@ plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
 #### Version 12
 
 
-Version 12
- includes the following steps:
+Version 12 includes the following steps:
 
 
 * Define Server Connection Channel
 * Define Authinfo for AUTHTYPE – IDPWOS
-* Define 
-Remote Queue
+* Define Remote Queue
 * Define Service
 
 
@@ -69,12 +62,10 @@ Remote Queue
 Version 11 includes the following update:
 
 
-* The Principals and 
-Groups properties in the Set Permissions for Object, Topic, and Queue steps are no longer required.
+* The Principals and Groups properties in the Set Permissions for Object, Topic, and Queue steps are no longer required.
 
 
 #### Version 10
-
 
 
 Version 10 includes the following update:
@@ -86,7 +77,6 @@ Version 10 includes the following update:
 #### Version 9
 
 
-
 Version 9 includes the following update:
 
 
@@ -96,13 +86,11 @@ Version 9 includes the following update:
 #### Version 8
 
 
-Version 8 includes the
- following update:
+Version 8 includes the following update:
 
 
 * Single quotes will be escaped as necessary. Previously escaped single quotes will be untouched.
-*
- GroovyRuntimeException: Stream Closed error is resolved.
+* GroovyRuntimeException: Stream Closed error is resolved.
 
 
 #### Version 7
@@ -111,33 +99,27 @@ Version 8 includes the
 Version 7 includes multiple updates:
 
 
-* 
-Define Queue: Added many new properties.
+* Define Queue: Added many new properties.
 * Define Queue Alias: Added many new properties.
-* Define Topic Subscription: 
-Added WSCHEMA, SELECTOR, and DESTQMGR properties.
+* Define Topic Subscription: Added WSCHEMA, SELECTOR, and DESTQMGR properties.
 * Alter Queue: Added FORCE flag.
 
 
 #### Version 6
 
 
-Version 6 includes
- multiple updates:
+Version 6 includes multiple updates:
 
 
 * Define Client Channel creates a Client-Connection Channel, instead of a Server-Connection Channel
-
 * Renamed Define Client Channel step to Define Client-Connection Channel
 * Added the following steps:
 * Alter Queues
-* 
-Alter Client-Connection Channel
+* Alter Client-Connection Channel
 * Alter Server-Connection Channel
 * Alter Receiver Channel
 * Alter Sender Channel
-* 
-Alter Topic
+* Alter Topic
 * Define Namelist
 * Delete Namelist
 

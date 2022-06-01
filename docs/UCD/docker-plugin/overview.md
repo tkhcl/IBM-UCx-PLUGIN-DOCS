@@ -17,39 +17,31 @@ Docker - Overview
 The Docker plug-in includes steps that map Docker images to components in IBM UrbanCode Deploy.
 
 
-
 To add the Docker plug-in steps to processes, click**Cloud > Docker** in the step palette of the process editor.
 
 
-### 
-Prerequisites
+### Prerequisites
 
 
-The Docker automation plug-in requires the [Docker source-configuration plug-
-in](https://www.urbancode.com/plugin/docker-registry/).
+The Docker automation plug-in requires the [Docker source-configuration plug-in](https://www.urbancode.com/plugin/docker-registry/).
 
 
 ### Compatibility
 
 
-The IBM UrbanCode Deploy automation plug-
-in for Docker works with Docker Version 1.0 and later.
+The IBM UrbanCode Deploy automation plug-in for Docker works with Docker Version 1.0 and later.
 
 
-This plug-in requires IBM UrbanCode Deploy version 6.1.1 or 
-later.
+This plug-in requires IBM UrbanCode Deploy version 6.1.1 or later.
 
 
-This plug-in supports agents on any operating system that is supported by IBM UrbanCode Deploy. This plug-in 
-also supports agents on Linux OS on z Systems.
+This plug-in supports agents on any operating system that is supported by IBM UrbanCode Deploy. This plug-in also supports agents on Linux OS on z Systems.
 
 
 ### Installation
 
 
-No special steps are required for installation. See 
-[Installing plug-ins in UrbanCode products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-
-products/ "Installing plug-ins in UrbanCode products").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode products").
 
 
 ### History
@@ -58,31 +50,25 @@ products/ "Installing plug-ins in UrbanCode products").
 #### Version 10
 
 
-* The Promote Image step 
-assumes a Docker Hub destination registry by default.
-* The Promote Image steps Destination Image Tag property has been 
-renamed to Destination Image and can now accept a new image and tag.
+* The Promote Image step assumes a Docker Hub destination registry by default.
+* The Promote Image steps Destination Image Tag property has been renamed to Destination Image and can now accept a new image and tag.
 
 
 #### Version 9
 
 
 * Added new Deploy Stack step.
-*
- Added new Remove Stack step.
+* Added new Remove Stack step.
 * Added new Initialize Swarm step.
 * Added new Join Swarm step.
-* Added new Leave Swarm 
-step.
+* Added new Leave Swarm step.
 * Added new Manage Swarm Join Tokens step.
 * Added new Create Service step.
 * Added new Remove Service step.
-* 
-Added new Scale Service step.
+* Added new Scale Service step.
 * Added new Update Service step.
 * Added new Create Secret step.
-* Added new Remove Secret
- step.
+* Added new Remove Secret step.
 * Added new Create Config step.
 * Added new Remove Config step.
 
@@ -90,24 +76,21 @@ Added new Scale Service step.
 #### Version 8
 
 
-* Added new Promote Image 
-step.
+* Added new Promote Image step.
 
 
 #### Version 7.922009
 
 
 * AWS EC Login Support. Must specify the hidden AWS Command Line Property to utilize.
-* 
-New Docker Logout step.
+* New Docker Logout step.
 
 
 #### Version 6
 
 
 * Added new Image Registry Resource Role.
-* Added new plugin step Create 
-Image Registry Resource.
+* Added new plugin step Create Image Registry Resource.
 
 
 #### Version 5.867423
@@ -116,21 +99,18 @@ Image Registry Resource.
 This version of the plug-in includes the following features:
 
 
-* 
-Support property file encryption.
+* Support property file encryption.
 * Added Gather Version step to Docker Template.
 
 
 #### Version 4
 
 
-This version of the
- plug-in includes the following updates to the Docker Login step:
+This version of the plug-in includes the following updates to the Docker Login step:
 
 
 * The Password is now a secure box.
-* The Email is 
-no longer required.
+* The Email is no longer required.
 
 
 #### Version 3.780462
@@ -139,8 +119,7 @@ no longer required.
 This version of the plug-in includes the following features:
 
 
-* A fix for
- an issue that is related to the Docker Login step.
+* A fix for an issue that is related to the Docker Login step.
 * The ability to set Docker environment variables.
 
 

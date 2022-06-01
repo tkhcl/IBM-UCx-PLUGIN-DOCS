@@ -11,8 +11,7 @@ Available Steps
 ---------------
 
 
-Create PackageCreate package from
- files.
+Create PackageCreate package from files.
 
 
 Install PackageInstall package on target.
@@ -21,8 +20,7 @@ Install PackageInstall package on target.
 Rollback PackageRollback package on target.
 
 
-Uninstall 
-PackageUninstall package on target.
+Uninstall PackageUninstall package on target.
 
 
 Verify InstallVerify installed files.

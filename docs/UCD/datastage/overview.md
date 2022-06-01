@@ -14,30 +14,22 @@ IBM InfoSphere DataStage - Overview
  
 
 
-This plug-in includes steps to import and export .isx and .dsx files, list a .dsx file contents, 
-and compile DataStage projects. This plug-in communicates with various command-line tools, such as: istool and dscc. 
-Each step will require one DataStage tool. Please consult the Knowledge Center if you do not know where the required 
-executable is located on your system. 
+This plug-in includes steps to import and export .isx and .dsx files, list a .dsx file contents, and compile DataStage projects. This plug-in communicates with various command-line tools, such as: istool and dscc. Each step will require one DataStage tool. Please consult the Knowledge Center if you do not know where the required executable is located on your system. 
 
 
-To add the IBM InfoSphere DataStage plug-in steps to processes, click 
-**InfoSphere> DataStage** in the step palette of the process editor.
+To add the IBM InfoSphere DataStage plug-in steps to processes, click **InfoSphere> DataStage** in the step palette of the process editor.
 
 
 ### Compatibility
 
 
-The IBM UrbanCode Deploy 
-automation plug-in for IBM InfoSphere DataStage versions 8.1 and higher. This plug-in requires version 6.0.1 or later of
- IBM UrbanCode Deploy.
+The IBM UrbanCode Deploy automation plug-in for IBM InfoSphere DataStage versions 8.1 and higher. This plug-in requires version 6.0.1 or later of IBM UrbanCode Deploy.
 
 
 ### Installation
 
 
-No special steps are required for installation. See [Installing plug-ins in 
-UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in 
-UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
 
 
 ### History
@@ -46,56 +38,45 @@ UrbanCode Deploy").
 #### Version 8
 
 
-* Fixes APAR PI99404 Added options to configure the -qs and -qspa 
-flags for the dscc command in the Compile Job or Routine step.
-* RFE 103645 Added the Delete Assets step.
-* The Default 
-value of the Abort After # Errors property in all istool steps will no longer cause errors.
-* The Export ISX Project 
-will create archives with the timestamp instead of a random number.
+* Fixes APAR PI99404Added options to configure the -qs and -qspa flags for the dscc command in the Compile Job or Routine step.
+* RFE 103645Added the Delete Assets step.
+* The Default value of the Abort After # Errors property in all istool steps will no longer cause errors.
+* The Export ISX Project will create archives with the timestamp instead of a random number.
 
 
 #### Version 7
 
 
-* Fixes APAR PI8647 Export ISX 
-Project and Import ISX Project steps fail with Unknown Operation error.
+* Fixes APAR PI8647Export ISX Project and Import ISX Project steps fail with Unknown Operation error.
 
 
 #### Version 6
 
 
-The following update has been
- made to the Export and Import DSX Project steps:
+The following update has been made to the Export and Import DSX Project steps:
 
 
-* RFE 94749 Allow the user to enable the creation of a log file, to 
-which the DataStage script output will be written.
+* RFE 94749Allow the user to enable the creation of a log file, to which the DataStage script output will be written.
 
 
 #### Version 5
 
 
-The following updates have been made to the Export
- and Import ISX Project steps: 
+The following updates have been made to the Export and Import ISX Project steps: 
 
 
-* Fixes APAR PI79600 Updated spacing and quotations.
+* Fixes APAR PI79600Updated spacing and quotations.
 * All properties are now trimmed.
-
 * Updated success and error responses.
 
 
 The following updates have been made to the Export ISX Project steps:
 
 
-* 
-Removed extraneous maxArchiveSize property.
+* Removed extraneous maxArchiveSize property.
 * Updated how the archive file names are generated.
-* Generated archive file
- names are saved as Output Properties.
+* Generated archive file names are saved as Output Properties.
 * If the -nodesign flag is set, -includeexecutable will be set automatically.
-
 
 
 #### Version 4
@@ -104,11 +85,9 @@ Removed extraneous maxArchiveSize property.
 Fixed the following bugs with the Export and Import ISX Project steps:
 
 
-* Fixes APAR PI76696 Invalid 
-spacing for additional arguments.
+* Fixes APAR PI76696Invalid spacing for additional arguments.
 * The istool path is now used properly to run the istool script.
-* Small updates to 
-reading in .dsx, .xml, or .isx files.
+* Small updates to reading in .dsx, .xml, or .isx files.
 
 
 #### Version 3
@@ -120,17 +99,13 @@ Support property file encryption.
 #### Version 2
 
 
-Added 
-functionality for importing and exporting .isx files. Support added to either warn or crash if a file is not found for 
-DSX Import Service step. MissingMethodException error has been resolved for the DSX Import Service step.
+Added functionality for importing and exporting .isx files. Support added to either warn or crash if a file is not found for DSX Import Service step. MissingMethodException error has been resolved for the DSX Import Service step.
 
 
-#### Version 
-1
+#### Version 1
 
 
-Initial Release. Added functionality for importing and export .dsx files, listing .dsx contents, and compiling 
-DataStage projects.
+Initial Release. Added functionality for importing and export .dsx files, listing .dsx contents, and compiling DataStage projects.
 
 
 

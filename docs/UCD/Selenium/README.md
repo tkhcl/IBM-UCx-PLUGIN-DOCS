@@ -3,8 +3,7 @@ Selenium
 ========
 
 
-Selenium is a testing tool which automates web applications. It can also be used to automate basic browser functions and
- administration tasks.
+Selenium is a testing tool which automates web applications.It can also be used to automate basic browser functions and administration tasks.
 
 
 The Selenium plug-in runs Selenese HTML files with Selenium RC or WebDriver.
@@ -12,7 +11,6 @@ The Selenium plug-in runs Selenese HTML files with Selenium RC or WebDriver.
 
 
 Available Steps
-
 ---------------
 
 

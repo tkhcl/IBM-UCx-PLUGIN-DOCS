@@ -18,10 +18,7 @@ The z/OS Dataset Writer plug-in helps you copy text to a mainframe dataset.
 ### Installation
 
 
-No 
-special steps are required for installation. See [Installing plug-ins in UrbanCode 
-products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in 
-UrbanCode products").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode products").
 
 
 ### History
@@ -36,8 +33,7 @@ UrbanCode products").
 #### Version 1
 
 
-* 
-Initial release (November 11, 2021)
+* Initial release (November 11, 2021)
 
 
 

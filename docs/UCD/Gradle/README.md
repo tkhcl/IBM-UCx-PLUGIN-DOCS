@@ -3,17 +3,13 @@ Gradle
 ======
 
 
-Gradle is a tool for automating common build tasks including testing and deployment. This plug-in calls the gradle 
-command line to run a build script with the provided options against the defined tasks.
+Gradle is a tool for automating common build tasks including testing and deployment. This plug-in calls the gradle command line to run a build script with the provided options against the defined tasks.
 
 
-Agent system requirements 
-Compatible Gradle version: Gradle 1.10 
+Agent system requirements Compatible Gradle version: Gradle 1.10 
 
 
-This plug-in is developed and supported by the UrbanCode Deploy Community on 
-the IBM DevOps Services platform. Click the “Visit Project” button at the top of the page to navigate to the project for
- further information.
+This plug-in is developed and supported by the UrbanCode Deploy Community on the IBM DevOps Services platform. Click the “Visit Project” button at the top of the page to navigate to the project for further information.
 
 
 

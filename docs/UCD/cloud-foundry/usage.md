@@ -23,14 +23,12 @@ Cloud Foundry - Usage
  
 
 
-For an in-depth tutorial on using auto-discovery with Cloud
- Foundry, please read the blog post:
+For an in-depth tutorial on using auto-discovery with Cloud Foundry, please read the blog post:
 
 
 
 > 
-> [Auto-Discovery with Cloud 
-Foundry](https://www.urbancode.com/2018/05/21/auto-discovery-cloud-foundry/)
+> [Auto-Discovery with Cloud Foundry](https://www.urbancode.com/2018/05/21/auto-discovery-cloud-foundry/)
 > 
 > 
 > 

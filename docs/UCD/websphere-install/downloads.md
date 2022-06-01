@@ -1,5 +1,5 @@
 
-WebSphere Application Server – Install - Downloads
+WebSphere Application Server - Install - Downloads
 ==================================================
 
 # Downloads
@@ -13,6 +13,6 @@ WebSphere Application Server – Install - Downloads
 - [WAS-Install-5.869962.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/websphere-install/WAS-Install-5.869962.zip)
 - [WAS-Install-4.810170.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/websphere-install/WAS-Install-4.810170.zip)
 
-|Back to ...||Latest Version|WebSphere Application Server – Install ||||
+|Back to ...||Latest Version|WebSphere Application Server - Install ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.975654](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/websphere-install/WAS-Install-10.975654.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|

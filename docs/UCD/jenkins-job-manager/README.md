@@ -8,7 +8,6 @@ This IBM UrbanCode Deploy Jenkins Job Manager plug-in provides support to manage
 
 
 Available Steps
-
 ---------------
 
 
@@ -19,7 +18,6 @@ Disable JobDisable a Jenkins Job
 
 
 Enable JobEnable a Jenkins Job
-
 
 
 Start JobStart a Jenkins Job

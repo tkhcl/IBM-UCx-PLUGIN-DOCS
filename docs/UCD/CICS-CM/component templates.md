@@ -16,53 +16,40 @@ CICS CM (Beta) - Component Templates
 
 * [Overview](#overview)
 * [Using a component template](#using)
-* [Updating a component 
-template](#updating)
+* [Updating a component template](#updating)
 * [More information](#more_info)
 
 
 ### Overview
 
 
-You can use component templates to reuse 
-component processes and properties across similar deployment scenarios. The CICS CM plug-in provides a CICS CM component
- template.
+You can use component templates to reuse component processes and properties across similar deployment scenarios. The CICS CM plug-in provides a CICS CM component template.
 
 
 ### Using a component template
 
 
-To use a component template, create a new component from the component 
-template:
+To use a component template, create a new component from the component template:
 
 
 1. From the **Components** tab, click **Create Component**.
-2. In the dialogue box that opens, select the 
-relevant template from the ****Template**** list. For example, **CICS CM**.
-3. Complete the *required* fields, and click
- **Save**.
+2. In the dialogue box that opens, select the relevant template from the ****Template**** list. For example,**CICS CM**.
+3. Complete the *required* fields, and click **Save**.
 
 
 ### Updating a CICS CM supplied component template
 
 
-When the CICS CM plug-in is updated, the component 
-template is updated.
+When the CICS CM plug-in is updated, the component template is updated.
 
 
-You can bind your component to a specific version of the template to avoid automatically using 
-newer versions. If you want to modify the template processes, you can copy the process and update the copy.
+You can bind your component to a specific version of the template to avoid automatically using newer versions. If you want to modify the template processes, you can copy the process and update the copy.
 
 
-### More 
-information
+### More information
 
 
-For more information about creating, using, and editing component templates, see the [Component 
-Templates](http://www.ibm.com/support/knowledgecenter/SS4GSP_6.1.1/com.ibm.udeploy.doc/topics/comp_template.html 
-"Component Templates") section of the UrbanCode Deploy documentation or watch the introductory video, [Component 
-Templates in IBM UrbanCode Deploy v6.0](https://www.youtube.com/watch?v=5qPBIayu-0E "Component Templates in IBM 
-UrbanCode Deploy v6.0").
+For more information about creating, using, and editing component templates, see the [Component Templates](http://www.ibm.com/support/knowledgecenter/SS4GSP_6.1.1/com.ibm.udeploy.doc/topics/comp_template.html "Component Templates") section of the UrbanCode Deploy documentation or watch the introductory video, [Component Templates in IBM UrbanCode Deploy v6.0](https://www.youtube.com/watch?v=5qPBIayu-0E "Component Templates in IBM UrbanCode Deploy v6.0").
 
 
 
@@ -78,12 +65,10 @@ UrbanCode Deploy v6.0").
 The *CICS CM template* contains the following processes:
 
 
-###
- **Dynamic Migration**
+### **Dynamic Migration**
 
 
-To dynamically migrate resource definitions within a change package to a CSD or BAS 
-configuration.
+To dynamically migrate resource definitions within a change package to a CSD or BAS configuration.
 
 
 The dynamic migration steps are:
@@ -91,16 +76,13 @@ The dynamic migration steps are:
 
 1. Create the migration scheme.
 2. Ready the change package.
-3. 
-Migrate change package.
+3. Migrate change package.
 
 
 ### **Dynamic Migration and Install (CSD)**
 
 
-To dynamically migrate resource definitions 
-within a change package to a CSD configuration, and then install the resource definitions to a connected CICS region.
-
+To dynamically migrate resource definitions within a change package to a CSD configuration, and then install the resource definitions to a connected CICS region.
 
 
 The dynamic migration and install steps are:
@@ -108,33 +90,23 @@ The dynamic migration and install steps are:
 
 1. Create the migration scheme.
 2. Ready the change package.
-3. Migrate 
-change package.
+3. Migrate change package.
 4. Install the change package.
 
 
-
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
-
-**Dynamic Migration** process diagram. 
-[![DynamicMigrationProcess](dynamicmigrationprocess.png)](dynamicmigrationprocess.png)
-
+**Dynamic Migration** process diagram. [![DynamicMigrationProcess](dynamicmigrationprocess.png)](dynamicmigrationprocess.png)
 
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
-
-**Dynamic Migration and Install (CSD)** process diagram. 
-[![DynamicMigrationAndInstall(CSD)Process](dynamicmigrationandinstallcsdprocess.png)](dynamicmigrationandinstallcsdprocess.png)
+**Dynamic Migration and Install (CSD)** process diagram. [![DynamicMigrationAndInstall(CSD)Process](dynamicmigrationandinstallcsdprocess.png)](dynamicmigrationandinstallcsdprocess.png)
 
 
-
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
- 
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ 
 
 
 

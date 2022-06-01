@@ -12,8 +12,7 @@ Sybase - Overview
 
 
 
-The Sybase plugin provides steps to integrate with a Sybase Adaptive Server Enterprise relational 
-database server.
+The Sybase plugin provides steps to integrate with a Sybase Adaptive Server Enterprise relational database server.
 
 
 This plug-in includes one step:
@@ -25,20 +24,16 @@ This plug-in includes one step:
 ### Compatibility
 
 
-This plug-in requires IBM 
-UrbanCode Deploy version 6.0 or later.
+This plug-in requires IBM UrbanCode Deploy version 6.0 or later.
 
 
 This plug-in runs on all operating systems that UrbanCode Deploy supports.
 
 
-
 ### Installation
 
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode 
-Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode 
-Deploy").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
 
 
 ### History
@@ -50,8 +45,7 @@ Deploy").
 Added support for Sybase source profile path with spaces in Linux.
 
 
-#### 
-Version 5
+#### Version 5
 
 
 Added SYBASE environment script sourcing for Windows.
@@ -60,15 +54,13 @@ Added SYBASE environment script sourcing for Windows.
 #### Version 4
 
 
-Removed SYBASE Home field in favor 
-of the SYBASE.sh Path to source the profile.
+Removed SYBASE Home field in favor of the SYBASE.sh Path to source the profile.
 
 
 #### Version 3
 
 
-RFE 135616 Added a property to set the SYBASE 
-environment variable.
+RFE 135616 Added a property to set the SYBASE environment variable.
 
 
 #### Version 2
@@ -77,8 +69,7 @@ environment variable.
 Added failure property to determine what action to take on SQL errors.
 
 
-#### 
-Version 1
+#### Version 1
 
 
 Initial release of the Sybase Plugin.

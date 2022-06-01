@@ -18,8 +18,7 @@ IBM Business Process Manager (WebSphere BPM) - Overview
 
 
 
-The IBM Business Process Manager source configuration plug-in imports Process 
-Application snapshots as component versions.
+The IBM Business Process Manager source configuration plug-in imports Process Application snapshots as component versions.
 
 
 
@@ -27,16 +26,13 @@ Application snapshots as component versions.
 
 
 
-This plug-in requires version 6.0.1 of IBM 
-UrbanCode Deploy.
+This plug-in requires version 6.0.1 of IBM UrbanCode Deploy.
 
 
-The IBM UrbanCode Deploy plug-in for WebSphere Business Process Manager supports Business Process 
-Manager versions 8.5 and later. Standard and Advanced editions are supported.
+The IBM UrbanCode Deploy plug-in for WebSphere Business Process Manager supports Business Process Manager versions 8.5 and later. Standard and Advanced editions are supported.
 
 
-The steps in this plug-in run on any 
-agents that the IBM UrbanCode Deploy server supports.
+The steps in this plug-in run on any agents that the IBM UrbanCode Deploy server supports.
 
 
 
@@ -44,9 +40,7 @@ agents that the IBM UrbanCode Deploy server supports.
 
 
 
-No special steps are required for 
-installation. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-
-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
 
 
 
@@ -56,34 +50,28 @@ urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
 #### Version 6
 
 
-* Fixes APAR PH08149: 
-MultipleCompilationErrorsException: The current scope already contains a variable of the name props.
-* Fixes 
-MissingPropertyException: No such property: Colections for class: import
+* Fixes APAR PH08149: MultipleCompilationErrorsException: The current scope already contains a variable of the name props.
+* Fixes MissingPropertyException: No such property: Colections for class: import
 
 
 #### Version 3
 
 
-* Fixes APAR PI98195 Adds 
-activeSince parameter to Snapshot object.
+* Fixes APAR PI98195Adds activeSince parameter to Snapshot object.
 
 
 #### Version 2
 
 
-* Updated Version name to match the names in WebSphere BPM 
-and avoid conflicts between branches.
-* Added Track property. If left blank, all snapshots in each track/branch will be 
-imported.
+* Updated Version name to match the names in WebSphere BPM and avoid conflicts between branches.
+* Added Track property. If left blank, all snapshots in each track/branch will be imported.
 * Updated Snapshot artifact name from export.zip to export.twx.
 
 
 #### Version 1
 
 
-Initial release of the IBM 
-WebSphere BPM source configuration plug-in.
+Initial release of the IBM WebSphere BPM source configuration plug-in.
 
 
 

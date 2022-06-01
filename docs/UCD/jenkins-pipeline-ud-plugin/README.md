@@ -3,8 +3,7 @@ Jenkins Pipeline
 ================
 
 
-The Jenkins Pipeline plug-in allows for interaction with UrbanCode Deploy components, such as creating a component and 
-publish artifacts to version.
+The Jenkins Pipeline plug-in allows for interaction with UrbanCode Deploy components, such as creating a component and publish artifacts to version.
 
 
 |Back to ...||Latest Version||||

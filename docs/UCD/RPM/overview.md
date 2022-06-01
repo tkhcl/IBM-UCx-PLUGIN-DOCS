@@ -14,12 +14,10 @@ RPM - Overview
  
 
 
-You can use the RPM Package Manager (RPM) to install, uninstall, and manage software packages in 
-UNIX environments.
+You can use the RPM Package Manager (RPM) to install, uninstall, and manage software packages in UNIX environments.
 
 
 With the RPM plug-in, you can automate RPM functions into your IBM UrbanCode Deploy Processes.
-
 
 
 This plug-in includes these steps:
@@ -27,8 +25,7 @@ This plug-in includes these steps:
 
 * [Install RPM](#install_rpm)
 * [Uninstall RPM](#uninstall_rpm)
-* [Update 
-RPM](#create_issue)
+* [Update RPM](#create_issue)
 
 
 ### Compatibility
@@ -37,16 +34,13 @@ RPM](#create_issue)
 This plug-in requires IBM UrbanCode Deploy version 6.0 or later.
 
 
-This plug-
-in runs on all operating systems that UrbanCode Deploy supports.
+This plug-in runs on all operating systems that UrbanCode Deploy supports.
 
 
 ### Installation
 
 
-No special steps are required for 
-installation. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-
-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
 
 
 

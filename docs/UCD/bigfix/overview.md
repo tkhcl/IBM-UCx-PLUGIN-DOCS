@@ -14,34 +14,28 @@ IBM BigFix - Overview
  
 
 
-This plug-in includes a step to create and start an action in IBM BigFix. The plug-in uses the 
-REST API to integrate with IBM BigFix. 
+This plug-in includes a step to create and start an action in IBM BigFix. The plug-in uses the REST API to integrate with IBM BigFix. 
 
 
-To add the IBM BigFix plug-in steps to processes, click **IT Management > 
-BigFix** in the step palette of the process editor.
+To add the IBM BigFix plug-in steps to processes, click **IT Management > BigFix** in the step palette of the process editor.
 
 
 ### Compatibility
 
 
-This plug-in works with IBM BigFix version 9.0
- and later.
+This plug-in works with IBM BigFix version 9.0 and later.
 
 
 The IBM BigFix server must be accessible from the IBM UrbanCode Deploy agent.
 
 
-This plug-in requires 
-version 6.0.1 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.0.1 or later of IBM UrbanCode Deploy.
 
 
 ### Installation
 
 
-No special steps are required for installation. See
- [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/
- "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
 
 
 ### History
@@ -50,8 +44,7 @@ No special steps are required for installation. See
 #### Version 1
 
 
-Initial Release. Includes a step to create
- and start a BigFix action.
+Initial Release. Includes a step to create and start a BigFix action.
 
 
 

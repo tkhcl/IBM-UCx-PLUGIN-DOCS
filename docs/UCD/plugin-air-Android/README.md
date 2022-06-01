@@ -6,10 +6,7 @@ Google Android SDK
 View a demo of this plug-in [here](https://www.youtube.com/watch?v=Qrw8hz8Jv9c)
 
 
-The Android SDK plug-in includes steps
- to achieve continuous delivery of Android applications by interacting with emulators and physical devices. Refer to the
- PDF documentation for details on software requirements and usage. The plug-in includes process steps that are related 
-to the following categories:
+The Android SDK plug-in includes steps to achieve continuous delivery of Android applications by interacting with emulators and physical devices. Refer to the PDF documentation for details on software requirements and usage. The plug-in includes process steps that are related to the following categories:
 
 
 **Application installation and removal**
@@ -17,7 +14,6 @@ to the following categories:
 
 * Install Application
 * Remove Application
-
 
 
 **Emulator management**
@@ -30,7 +26,6 @@ to the following categories:
 
 
 **Application testing**
-
 
 
 * Unit Test
@@ -47,29 +42,25 @@ to the following categories:
 
 
 Available Steps
-
 ---------------
 
 
 Install ApplicationInstalls the Android APK application.
 
 
-Remove ApplicationRemoves the Android 
-application.
+Remove ApplicationRemoves the Android application.
 
 
 Random UI TestRuns the monkey command for random UI Testing.
 
 
-UI TestRuns the specified UI test against 
-the application.
+UI TestRuns the specified UI test against the application.
 
 
 Unit TestRuns the specified unit test against the application.
 
 
-ADBRuns the Android Debug Bridge 
-command.
+ADBRuns the Android Debug Bridge command.
 
 
 AndroidRuns the Android tool command.
@@ -78,8 +69,7 @@ AndroidRuns the Android tool command.
 Create EmulatorCreates an emulator.
 
 
-Remove EmulatorRemoves an 
-emulator.
+Remove EmulatorRemoves an emulator.
 
 
 Start EmulatorStarts an emulator.

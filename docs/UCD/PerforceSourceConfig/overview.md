@@ -14,23 +14,19 @@ Perforce Helix - Overview
  
 
 
-The Perforce Helix source configuration plug-in includes a step to import artifacts from a 
-Perforce server as component versions in IBM UrbanCode Deploy.
+The Perforce Helix source configuration plug-in includes a step to import artifacts from a Perforce server as component versions in IBM UrbanCode Deploy.
 
 
 ### Compatibility
 
 
-This plug-in requires version 
-6.1.0.3 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.1.0.3 or later of IBM UrbanCode Deploy.
 
 
 ### Installation
 
 
-No special steps are required for installation. See 
-[Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ 
-"Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
 
 
 ### History
@@ -39,23 +35,20 @@ No special steps are required for installation. See
 #### Version 6
 
 
-* Succeed if most recent version is already
- imported.
+* Succeed if most recent version is already imported.
 * Use working directory instead of temp directory for temporary files.
 
 
 #### Version 5
 
 
-Support property 
-file encryption.
+Support property file encryption.
 
 
 #### Version 4
 
 
-Version 4 includes a fix for APAR PI57417. The plug-in now checks the agent settings
- for acceptance of self-signed certificates.
+Version 4 includes a fix for APAR PI57417. The plug-in now checks the agent settings for acceptance of self-signed certificates.
 
 
 #### Version 3

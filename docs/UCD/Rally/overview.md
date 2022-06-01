@@ -14,41 +14,33 @@ Rally for IBM UrbanCode Deploy - Overview
  
 
 
-The Rally plug-in for IBM UrbanCode Deploy includes steps that modify existing Rally issues and 
-create Rally defects.
+The Rally plug-in for IBM UrbanCode Deploy includes steps that modify existing Rally issues and create Rally defects.
 
 
-The Rally plug-in includes the following steps that are related to modifying existing Rally 
-issues:
+The Rally plug-in includes the following steps that are related to modifying existing Rally issues:
 
 
 * [Add Comments](#add_comments "Add Comments")
-* [Change Rally Artifact 
-Property](#change_rally_artifact_property "Change Rally Artifact Property")
-* [Change Status](#change_status "Change 
-Status")
+* [Change Rally Artifact Property](#change_rally_artifact_property "Change Rally Artifact Property")
+* [Change Status](#change_status "Change Status")
 
 
 The Rally plug-in includes the following step that is related to creating Rally defects:
 
 
-* [Create 
-Defect](#create_defect "Create Defect")
+* [Create Defect](#create_defect "Create Defect")
 
 
-To add the Rally plug-in steps to processes, click **Issue Tracking > Rally** 
-in the step palette of the process editor.
+To add the Rally plug-in steps to processes, click **Issue Tracking > Rally** in the step palette of the process editor.
 
 
 ### Compatibility
 
 
-The IBM UrbanCode Deploy automation plug-in for Rally 
-works with Rally Community, Enterprise, and Unlimited versions.
+The IBM UrbanCode Deploy automation plug-in for Rally works with Rally Community, Enterprise, and Unlimited versions.
 
 
-This plug-in requires version 6.0 or later of IBM 
-UrbanCode Deploy.
+This plug-in requires version 6.0 or later of IBM UrbanCode Deploy.
 
 
 This plug-in runs on all operating systems that IBM UrbanCode Deploy supports.
@@ -57,10 +49,7 @@ This plug-in runs on all operating systems that IBM UrbanCode Deploy supports.
 ### Installation
 
 
-
-No special steps are required for installation. See [Installing plug-ins in UrbanCode 
-products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in 
-UrbanCode products").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode products").
 
 
 ### History
@@ -69,15 +58,13 @@ UrbanCode products").
 #### Version 4.772117
 
 
-Version 4 includes support for authenticating with tokens 
-(API keys).
+Version 4 includes support for authenticating with tokens (API keys).
 
 
 #### Version 1.0.0b.672870
 
 
-Version 1.0.0b supports IBM UrbanCode Deploy version 6.0. The following 
-features were added:
+Version 1.0.0b supports IBM UrbanCode Deploy version 6.0. The following features were added:
 
 
 * Adds support for IBM UrbanCode Deploy version 6.1.0.4 and later.

@@ -26,17 +26,14 @@ IBM UrbanCode Deploy General Utilites - Steps
 ### Wait
 
 
-Use this step to
- tell the process to wait for the specified number of seconds before the process resumes.
+Use this step to tell the process to wait for the specified number of seconds before the process resumes.
 
 
 
 
-| Name | Type | 
-Description | Required |
+| Name | Type | Description | Required |
 | --- | --- | --- | --- |
-| Duration (seconds) | String | The number of seconds to wait. | Yes 
-|
+| Duration (seconds) | String | The number of seconds to wait. | Yes |
 
 
 

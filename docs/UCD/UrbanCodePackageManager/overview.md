@@ -17,9 +17,7 @@ IBM UrbanCode Package Manager - Overview
 This plug-in includes steps that create, install, and remove packages.
 
 
-To add the IBM UrbanCode 
-Package Manager plug-in steps to processes, click **Resource Tools > Package Manager** in the step palette of the 
-process editor.
+To add the IBM UrbanCode Package Manager plug-in steps to processes, click **Resource Tools > Package Manager** in the step palette of the process editor.
 
 
 ### Compatibility
@@ -28,13 +26,10 @@ process editor.
 This plug-in requires version 6.0 or later of IBM UrbanCode Deploy.
 
 
-### 
-Installation
+### Installation
 
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode 
-Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode 
-Deploy").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
 
 
 ### History

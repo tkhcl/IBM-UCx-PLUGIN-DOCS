@@ -18,12 +18,10 @@ Use the Microsoft TFS Work Items plug-in to update, add comments, and obtain sta
 
 
 
-
 ### **Step palette**
 
 
-To access this plug-in in the palette, click **Quality** > **Source** > **Issue Tracking** > 
-**Microsoft TFS**.
+To access this plug-in in the palette, click **Quality** > **Source** > **Issue Tracking** > **Microsoft TFS**.
 
 
 

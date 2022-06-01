@@ -15,28 +15,22 @@ OpenShift for IBM UrbanCode Deploy - Overview
 The OpenShift plug-in includes steps to interact with OpenShift applications in IBM UrbanCode Deploy.
 
 
-
 ### Compatibility
 
 
-This plug-in works with [OpenShift CLI 
-3.1](https://docs.openshift.com/enterprise/3.1/cli_reference/get_started_cli.html) and later.
+This plug-in works with [OpenShift CLI 3.1](https://docs.openshift.com/enterprise/3.1/cli_reference/get_started_cli.html) and later.
 
 
-The OpenShift server 
-must be accessible from the IBM UrbanCode Deploy agent.
+The OpenShift server must be accessible from the IBM UrbanCode Deploy agent.
 
 
-This plug-in requires version 6.0.1 or later of IBM UrbanCode 
-Deploy.
+This plug-in requires version 6.0.1 or later of IBM UrbanCode Deploy.
 
 
 ### Installation
 
 
-No special steps are required for installation. See [Installing plug-ins in IBM UrbanCode 
-Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in IBM 
-UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in IBM UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in IBM UrbanCode Deploy").
 
 
 ### History
@@ -46,10 +40,8 @@ UrbanCode Deploy").
 
 
 * Added a restart option to the Rollout step
-* Added the Process 
-Template and Check Pod Status steps
+* Added the Process Template and Check Pod Status steps
 * Fixes APAR PH32712. Openshift warning handled as an error causing the step to fail
-
 
 
 #### Version 17
@@ -58,28 +50,22 @@ Template and Check Pod Status steps
 * Added the Expose step and change implementation for Patch Secret from REST API to oc command
 
 
-
 #### Version 16
 
 
-* Allow using oc apply or oc create in Create Object From Template step. Indicate \deploy\ command is 
-deprecated for later versions of Openshift. Introduces the New-App, Set Triggers, Set Image, Set Env, New Build, Start 
-Build, Cancel Build, Create, Delete and Login steps. Remove login operation for every plugin step execution and if login
- parameters are given include them as part of the oc command
+* Allow using oc apply or oc create in Create Object From Template step. Indicate \deploy\ command is deprecated for later versions of Openshift. Introduces the New-App, Set Triggers, Set Image, Set Env, New Build, Start Build, Cancel Build, Create, Delete and Login steps. Remove login operation for every plugin step execution and if login parameters are given include them as part of the oc command
 
 
 #### Version 14
 
 
-* Introduces token support for Create 
-Secret, Patch Secret and Replace DeploymentConfig.
+* Introduces token support for Create Secret, Patch Secret and Replace DeploymentConfig.
 
 
 Version 13
 
 
-* Introduces the Rollout step which fixes APAR PH02968
- OpenShift plug-in does not support oc rollout command.
+* Introduces the Rollout step which fixes APAR PH02968 OpenShift plug-in does not support oc rollout command.
 
 
 #### Version 12
@@ -91,8 +77,7 @@ Version 13
 #### Version 11
 
 
-* 
-Updated to ensure all response texts are zOS compatible.
+* Updated to ensure all response texts are zOS compatible.
 
 
 #### Version 10
@@ -101,41 +86,35 @@ Updated to ensure all response texts are zOS compatible.
 * Remove oc version check before oc login.
 
 
-
 #### Version 9
 
 
 * Fix to parameter passing in Create Object From Template step.
-* Allows for pull secrets and app 
-secrets to be patched at once.
+* Allows for pull secrets and app secrets to be patched at once.
 
 
 #### Version 8
 
 
-* Create Object From Template step now allows for parameter file to be
- passed in.
+* Create Object From Template step now allows for parameter file to be passed in.
 
 
 #### Version 7
 
 
-* Fixes to Create Object from Template step. Plugin collects token automatically when 
-using REST steps. JSON files can be passed in as well as JSON.
+* Fixes to Create Object from Template step. Plugin collects token automatically when using REST steps. JSON files can be passed in as well as JSON.
 
 
 #### Version 6
 
 
-* Added step Create Object from 
-Template.
+* Added step Create Object from Template.
 
 
 #### Version 5
 
 
-* Added steps Create Secret, Patch Secret, Replace DeploymentConfig and Patch 
-DeploymentConfig.
+* Added steps Create Secret, Patch Secret, Replace DeploymentConfig and Patch DeploymentConfig.
 
 
 #### Version 4
@@ -147,24 +126,21 @@ DeploymentConfig.
 #### Version 3
 
 
-* Updated to work with oc 
-CLI 3.1.
+* Updated to work with oc CLI 3.1.
 * Changed Resource Type in Scale step to dropdown.
 
 
 #### Version 2
 
 
-* A fix for an issue related to setting 
-the `oc` script home.
+* A fix for an issue related to setting the `oc` script home.
 * The **Resource Type** field in the Scale step is now a drop-down list.
 
 
 #### Version 1
 
 
-* The 
-initial release of the plug-in includes steps to deploy, roll back, scale and tag an application in OpenShift.
+* The initial release of the plug-in includes steps to deploy, roll back, scale and tag an application in OpenShift.
 
 
 

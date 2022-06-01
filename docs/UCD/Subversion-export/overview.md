@@ -14,8 +14,7 @@ Subversion-Export - Overview
  
 
 
-The Subversion-Export plug-in automates accessing data from a Subversion directory. This plug-in 
-includes the following step:
+The Subversion-Export plug-in automates accessing data from a Subversion directory. This plug-in includes the following step:
 
 
 * [Svn Export](#svn_export)
@@ -24,20 +23,16 @@ includes the following step:
 ### Compatibility
 
 
-This plug-in requires IBM UrbanCode 
-Deploy version 6.1.0.3 or later.
+This plug-in requires IBM UrbanCode Deploy version 6.1.0.3 or later.
 
 
 This plug-in runs on all operating systems that UrbanCode Deploy supports. 
 
 
-### 
-Installation
+### Installation
 
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode 
-Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode 
-Deploy").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
 
 
 

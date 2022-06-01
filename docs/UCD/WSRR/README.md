@@ -6,35 +6,28 @@ IBM WebSphere Service Registry and Repository
 This WSRR (WebSphere Service Registry and Repository) plug-in enables you to do the following:
 
 
-* Load, activate or 
-delete Configuration Profile of WSRR server
+* Load, activate or delete Configuration Profile of WSRR server
 * Register Web Services to WSRR server
 
 
-The plug-in provides steps that 
-enables you to manage Configuration Profile and services
+The plug-in provides steps that enables you to manage Configuration Profile and services
 
 
 * Activate Configuration Profile
-* Delete Configuration 
-Profile
+* Delete Configuration Profile
 * Load Configuration Profile
 * Register Service
 
 
-The following steps provide and overview of the process you 
-follow
+The following steps provide and overview of the process you follow
 
 
-* Create resources. For the deployment of a server deployment package to a commerce server, you have to 
-populate resources manually. You can view the resources you create in the Resources view. Each resource corresponds to 
-the Commerce server.
+* Create resources. For the deployment of a server deployment package to a commerce server, you have to populate resources manually. You can view the resources you create in the Resources view. Each resource corresponds to the Commerce server.
 * Define components, applications, and environments to automate deployment.
 * Deploy.
 
 
-Refer to 
-plugin documentation for system requirements and a complete list of steps available.
+Refer to plugin documentation for system requirements and a complete list of steps available.
 
 
 

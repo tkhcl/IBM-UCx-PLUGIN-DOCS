@@ -1,5 +1,5 @@
 
-WebSphere Application Server – Deployment - Downloads
+WebSphere Application Server - Deployment - Downloads
 =====================================================
 
 # Downloads
@@ -44,6 +44,6 @@ WebSphere Application Server – Deployment - Downloads
 - [WAS-Deploy-91.771602.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-91.771602.zip)
 - [WAS-Deploy-90.760844.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-90.760844.zip)
 
-|Back to ...||Latest Version|WebSphere Application Server – Deployment |||||||
+|Back to ...||Latest Version|WebSphere Application Server - Deployment |||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[127.1131367]()|[Readme](README.md)|[Overview](overview.md)|[User permissions](user permissions.md)|[Usage](usage.md)|[Steps](steps.md)|[Roles](roles.md)|[Troubleshooting](troubleshooting.md)|

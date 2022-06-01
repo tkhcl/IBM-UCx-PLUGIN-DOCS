@@ -15,11 +15,10 @@ IBM Rational Functional Tester (RFT) - Steps
 
 
 
-### Process steps in the IBM Rational Test Workbench Functional Tester plug-in
+### Process steps in the IBM Rational Test WorkbenchFunctional Tester plug-in
 
 
-* [Run Functional 
-Test](#run_functional_test)
+* [Run Functional Test](#run_functional_test)
 
 
 
@@ -32,23 +31,18 @@ Run test using Rational Functional Tester
 
 
 
-| Name | Type | 
-Description | Required |
+| Name | Type | Description | Required |
 | --- | --- | --- | --- |
-| Iteration Count | String | Number of datapool iterations to be run.
- | No |
+| Iteration Count | String | Number of datapool iterations to be run. | No |
 | Log Format | Enumeration:
 * xml
 * html
 * text
 * TPTP
  | Format of script execution logs. | No |
-| Project 
-Directory | String | Fully qualified path to the Rational Functional Tester project directory. | Yes |
-| Script Name | 
-String | Name of the script to be executed. | Yes |
-| User Arguments | String | Additional user arguments for playback. 
-| No |
+| Project Directory | String | Fully qualified path to the Rational Functional Tester project directory. | Yes |
+| Script Name | String | Name of the script to be executed. | Yes |
+| User Arguments | String | Additional user arguments for playback. | No |
 
 
 

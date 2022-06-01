@@ -14,12 +14,10 @@ Mesos Marathon - Overview
  
 
 
-The Mesos Marathon plug-in includes steps to work with applications and tasks in a Marathon 
-instance.
+The Mesos Marathon plug-in includes steps to work with applications and tasks in a Marathon instance.
 
 
-To add the Mesos Marathon plug-in steps to processes, click **Cloud > Marathon** in the step palette of the 
-process editor.
+To add the Mesos Marathon plug-in steps to processes, click **Cloud > Marathon** in the step palette of the process editor.
 
 
 ### Compatibility
@@ -28,16 +26,13 @@ process editor.
 The Mesos Marathon plug-in works with Marathon version 1 and later.
 
 
-This plug-in
- requires version 6.0.1 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.0.1 or later of IBM UrbanCode Deploy.
 
 
 ### Installation
 
 
-No special steps are required for 
-installation. See [Installing plug-ins in UrbanCode products](https://www.urbancode.com/resource/installing-plug-ins-in-
-urbancode-products/ "Installing plug-ins in UrbanCode products").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode products").
 
 
 ### History
@@ -46,8 +41,7 @@ urbancode-products/ "Installing plug-ins in UrbanCode products").
 #### Version 1.803360
 
 
-Version 1 is 
-the initial release of the plug-in.
+Version 1 is the initial release of the plug-in.
 
 
 

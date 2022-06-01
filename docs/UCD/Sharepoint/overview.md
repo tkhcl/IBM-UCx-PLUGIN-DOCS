@@ -17,12 +17,10 @@ Microsoft SharePoint - Overview
 Microsoft SharePoint is a web application platform for common enterprise web requirements.
 
 
-The 
-Microsoft SharePoint plug-in for IBM UrbanCode Deploy includes steps to deploy .wsp and .cmp files.
+The Microsoft SharePoint plug-in for IBM UrbanCode Deploy includes steps to deploy .wsp and .cmp files.
 
 
 ### Compatibility
-
 
 
 This plug-in requires IBM UrbanCode Deploy 6.0 or later.
@@ -34,16 +32,13 @@ This plug-in requires IBM UrbanCode Deploy 6.0 or later.
 #### Version 6
 
 
-This version includes a fix
- for APAR 146529, an issue with deploying .wsp files on multiple servers nonconcurrently.
+This version includes a fix for APAR 146529, an issue with deploying .wsp files on multiple servers nonconcurrently.
 
 
 #### Version 5
 
 
-This 
-version includes a fix for APAR PI35342, a compatibility defect with IBM Urbancode Deploy version 6.1.0.4 and later.
-
+This version includes a fix for APAR PI35342, a compatibility defect with IBM Urbancode Deploy version 6.1.0.4 and later.
 
 
 #### Version 4

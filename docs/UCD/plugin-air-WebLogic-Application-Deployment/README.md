@@ -6,30 +6,20 @@ Oracle WebLogic Application Deployment
 The Oracle Weblogic Server is an application server for building and deploying enterprise JAVA application programs.
 
 
-
-The Oracle WebLogic Application Deployment plug-in provides processes to deploy, redeploy, and undeploy applications on 
-a WebLogic server. Steps are also provided to start and stop deployed applications. The plug-in includes a component 
-template to assist in setting up deployment automation.
+The Oracle WebLogic Application Deployment plug-in provides processes to deploy, redeploy, and undeploy applications on a WebLogic server. Steps are also provided to start and stop deployed applications. The plug-in includes a component template to assist in setting up deployment automation.
 
 
 **This plugin has been deprecated**
 
 
-We are currently looking
- into the prospect of open sourcing this particular plugin so that users who want to continue using it can maintain 
-their own versions. However, the [UrbanCode Deploy WLDeploy 
-Plugin](https://developer.ibm.com/urbancode/plugin/wldeploy/) will be actively supported and we encourage users to 
-transition over. Another option is [UrbanCode Deploy WebLogic-WLST 
-Plugin](https://developer.ibm.com/urbancode/plugin/oracle-weblogic-scripting-tool-wlst/), which uses Oracle’s [WebLogic 
-Scripting Tool](https://docs.oracle.com/cd/E29542_01/web.1111/e13715/toc.htm).
+We are currently looking into the prospect of open sourcing this particular plugin so that users who want to continue using it can maintain their own versions. However, the [UrbanCode Deploy WLDeploy Plugin](https://developer.ibm.com/urbancode/plugin/wldeploy/) will be actively supported and we encourage users to transition over. Another option is [UrbanCode Deploy WebLogic-WLST Plugin](https://developer.ibm.com/urbancode/plugin/oracle-weblogic-scripting-tool-wlst/), which uses Oracle’s [WebLogic Scripting Tool](https://docs.oracle.com/cd/E29542_01/web.1111/e13715/toc.htm).
 
 
 
 **Platform Support:**
 
 
-* This plug-in
- is supported for use with WebLogic Server version 10.3 or later.
+* This plug-in is supported for use with WebLogic Server version 10.3 or later.
 
 
 
@@ -37,19 +27,16 @@ Available Steps
 ---------------
 
 
-**Deploy:**Deploy
- an application to the Weblogic server.
+**Deploy:**Deploy an application to the Weblogic server.
 
 
 **Redeploy:**Deploy an application to the Weblogic server again.
 
 
-
 **Start:**Start a deployed application on the Weblogic server.
 
 
-**Stop:**Stop a deployed application on the Weblogic 
-server.
+**Stop:**Stop a deployed application on the Weblogic server.
 
 
 **Undeploy:**Remove a deployed application from the Weblogic server.

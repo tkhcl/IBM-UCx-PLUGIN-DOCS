@@ -14,35 +14,25 @@ IBM Rational Functional Tester (RFT) - Overview
  
 
 
-IBM Rational Functional Tester offers automated capabilities for functional, regression, GUI, and 
-data-driven testing. The IBM UrbanCode Deploy plug-in for Rational Functional Tester includes process steps for running 
-functional test scripts remotely on UrbanCode Deploy agent computers. Rational Functional Tester integration with 
-UrbanCode Deploy is only supported for Java Scripting and Simplified Scripting on Windows computers in the Eclipse IDE. 
-Test scripts recorded in the Visual Studio IDE are not supported.
+IBM Rational Functional Tester offers automated capabilities for functional, regression, GUI, and data-driven testing. The IBM UrbanCode Deploy plug-in for Rational Functional Tester includes process steps for running functional test scripts remotely on UrbanCode Deploy agent computers. Rational Functional Tester integration with UrbanCode Deploy is only supported for Java Scripting and Simplified Scripting on Windows computers in the Eclipse IDE. Test scripts recorded in the Visual Studio IDE are not supported.
 
 
-To use this plug-in, you must have an installation 
-of Rational Functional Tester on an UrbanCode Deploy Agent computer.
+To use this plug-in, you must have an installation of Rational Functional Tester on an UrbanCode Deploy Agent computer.
 
 
 ### Compatibility
 
 
-This plug-in requires IBM 
-UrbanCode Deploy version 6.1 or later and IBM Rational Functional Tester version 8.6.0.3 or later.
+This plug-in requires IBM UrbanCode Deploy version 6.1 or later and IBM Rational Functional Tester version 8.6.0.3 or later.
 
 
-The steps in this 
-plug-in run on any agents that are supported by both the IBM UrbanCode Deploy and the Rational Functional Tester.
+The steps in this plug-in run on any agents that are supported by both the IBM UrbanCode Deploy and the Rational Functional Tester.
 
 
-### 
-Installation
+### Installation
 
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode 
-Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode 
-Deploy").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
 
 
 

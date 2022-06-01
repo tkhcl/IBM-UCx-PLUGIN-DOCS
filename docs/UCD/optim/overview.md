@@ -14,13 +14,10 @@ IBM InfoSphere Optim - Overview
  
 
 
-IBM InfoSphere Optim Test Data Management optimizes and automates the test data management 
-process. This plug-in includes steps that run test data management commands in IBM InfoSphere Optim.
+IBM InfoSphere Optim Test Data Management optimizes and automates the test data management process. This plug-in includes steps that run test data management commands in IBM InfoSphere Optim.
 
 
-To add the IBM 
-InfoSphere Optim plug-in steps to processes, click **Data Management > Optim** in the step palette of the process 
-editor.
+To add the IBM InfoSphere Optim plug-in steps to processes, click **Data Management > Optim** in the step palette of the process editor.
 
 
 ### Compatibility
@@ -29,21 +26,16 @@ editor.
 This plug-in works with IBM InfoSphere Optim Version 9.1 and later.
 
 
-This plug-in 
-requires version 6.0 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.0 or later of IBM UrbanCode Deploy.
 
 
-The steps in this plug-in run on agents that the IBM UrbanCode 
-Deploy server supports, although this plug-in does not support agents on the IBM z/OS operating system.
+The steps in this plug-in run on agents that the IBM UrbanCode Deploy server supports, although this plug-in does not support agents on the IBM z/OS operating system.
 
 
-### 
-Installation
+### Installation
 
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode 
-Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode 
-Deploy").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
 
 
 ### History
@@ -52,8 +44,7 @@ Deploy").
 #### Version 2
 
 
-Version 2 includes a fix for APAR PI35342, a compatibility defect with IBM 
-Urbancode Deploy version 6.1.0.4 and later.
+Version 2 includes a fix for APAR PI35342, a compatibility defect with IBM Urbancode Deploy version 6.1.0.4 and later.
 
 
 

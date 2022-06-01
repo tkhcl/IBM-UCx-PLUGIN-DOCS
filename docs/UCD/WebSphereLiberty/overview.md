@@ -14,62 +14,46 @@ IBM WebSphere Liberty - Overview
  
 
 
-The IBM WebSphere Application Server Liberty profile is a lightweight configuration of IBM 
-WebSphere Application Server. It provides rapid deployment of applications for use in the development process.
+The IBM WebSphere Application Server Liberty profile is a lightweight configuration of IBM WebSphere Application Server. It provides rapid deployment of applications for use in the development process.
 
 
-This 
-plug-in includes steps that are related to working with servers in the profile, such as the following steps:
+This plug-in includes steps that are related to working with servers in the profile, such as the following steps:
 
 
-* [Create
- Server](steps#create_server)
+* [Create Server](steps#create_server)
 * [Delete Server](steps#delete_server)
 * [Start Server](steps#start_server)
-* [Stop 
-Server](steps#stop_server)
+* [Stop Server](steps#stop_server)
 
 
 The plug-in also includes steps that install, update, and uninstall applications:
 
 
-* 
-[Install or Update Application with Drop-ins](steps#install_or_update_application_via_dropins)
-* [Install or Update 
-Application with Server XML](steps#install_or_update_application_via_server_xml)
-* [Start 
-Application](steps#start_application)
+* [Install or Update Application with Drop-ins](steps#install_or_update_application_via_dropins)
+* [Install or Update Application with Server XML](steps#install_or_update_application_via_server_xml)
+* [Start Application](steps#start_application)
 * [Stop Application](steps#stop_application)
-* [Uninstall Application from Drop-
-ins](steps#uninstall_application_from_dropins)
-* [Uninstall Application with Server 
-XML](steps#uninstall_application_via_server_xml)
-* [Wait for Application to be 
-STARTED](steps#wait_for_application_to_be_started)
+* [Uninstall Application from Drop-ins](steps#uninstall_application_from_dropins)
+* [Uninstall Application with Server XML](steps#uninstall_application_via_server_xml)
+* [Wait for Application to be STARTED](steps#wait_for_application_to_be_started)
 
 
-The following plug-in steps are related to working with Liberty 
-collectives:
+The following plug-in steps are related to working with Liberty collectives:
 
 
 * [Create Collective](steps#create_collective)
 * [Join Collective](steps#join_collective)
-* [Register 
-Host](steps#register_host)
+* [Register Host](steps#register_host)
 * [Unregister Host](steps#unregister_host)
 * [Update Host](steps#update_host)
-* [Upload File 
-To Collective Host](steps#upload_file_to_collective_host)
+* [Upload File To Collective Host](steps#upload_file_to_collective_host)
 
 
-The following plug-in steps are related to working with the 
-Liberty server configuration:
+The following plug-in steps are related to working with the Liberty server configuration:
 
 
 * [Generate Component-Resource Properties](steps#generate_component-resource_properties)
-
-* [Replace Variable Values with Component-Resource Properties](steps#replace_variable_values_with_component-
-resource_properties)
+* [Replace Variable Values with Component-Resource Properties](steps#replace_variable_values_with_component-resource_properties)
 
 
 ### Compatibility
@@ -78,44 +62,26 @@ resource_properties)
 This plug-in requires version 6.0 or later of IBM UrbanCode Deploy.
 
 
-This 
-plug-in was tested with WebSphere Liberty profile versions 8.5.5.9 16.0.0.2.
+This plug-in was tested with WebSphere Liberty profile versions 8.5.5.916.0.0.2.
 
 
 ### Installation
 
 
-No special steps are 
-required for installation. See [Installing plug-ins in IBM UrbanCode 
-products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in IBM 
-UrbanCode products").
+No special steps are required for installation. See [Installing plug-ins in IBM UrbanCode products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in IBM UrbanCode products").
 
 
-To use the [Wait for Application to be STARTED](steps#wait_for_application_to_be_started) step, 
-you must complete the following steps to configure the REST connector for the WebSphere Application Server Liberty 
-profile:
+To use the [Wait for Application to be STARTED](steps#wait_for_application_to_be_started) step, you must complete the following steps to configure the REST connector for the WebSphere Application Server Liberty profile:
 
 
-* In the `server.xml` file on the server, enable the REST connector, SSL certificates, and an administrator 
-role for a user or group. You must use an administrator account to run the [Wait for Application to be 
-STARTED](steps#wait_for_application_to_be_started) step. For more information, see the documentation for your version of
- the WebSphere Application Server Liberty Profile. For example, for version 8.5, see the following topic: [Configuring 
-secure JMX connection to the Liberty 
-profile](http://www-01.ibm.com/support/knowledgecenter/SSAW57_8.5.5/com.ibm.websphere.wlp.nd.doc/ae/twlp_admin_restconnector.html?cp=SSAW57_8.5.5%2F1-3-11-0-3-3-9-1&lang=en)
-
-* Update the server to listen on all endpoints. For example, the default `server.xml` file contains a line that is 
-similar to the following example: `<httpEndpoint host="localhost" httpPort="9080" httpsPort="9443" 
-id="defaultHttpEndpoint"/>` In this code, set the host attribute to the wildcard character (*), as shown in the 
-following example: `<httpEndpoint host="*" httpPort="9080" httpsPort="9443" id="defaultHttpEndpoint"/>`
+* In the `server.xml` file on the server, enable the REST connector, SSL certificates, and an administrator role for a user or group. You must use an administrator account to run the [Wait for Application to be STARTED](steps#wait_for_application_to_be_started) step. For more information, see the documentation for your version of the WebSphere Application Server Liberty Profile. For example, for version 8.5, see the following topic: [Configuring secure JMX connection to the Liberty profile](http://www-01.ibm.com/support/knowledgecenter/SSAW57_8.5.5/com.ibm.websphere.wlp.nd.doc/ae/twlp_admin_restconnector.html?cp=SSAW57_8.5.5%2F1-3-11-0-3-3-9-1&lang=en)
+* Update the server to listen on all endpoints. For example, the default `server.xml` file contains a line that is similar to the following example: `<httpEndpoint host="localhost" httpPort="9080" httpsPort="9443" id="defaultHttpEndpoint"/>` In this code, set the host attribute to the wildcard character (\*), as shown in the following example: `<httpEndpoint host="*" httpPort="9080" httpsPort="9443" id="defaultHttpEndpoint"/>`
 
 
 ### Video
 
 
-
-Watch and learn: [Create a WebSphere Liberty collective and deploy applications using UrbanCode 
-Deploy](https://www.youtube.com/watch?v=VaYQE5d96hY&feature=youtu.be). See the related example: [Creating a collective 
-and installing a simple application](#example-installing-a-simple-web-application).
+Watch and learn: [Create a WebSphere Liberty collective and deploy applications using UrbanCode Deploy](https://www.youtube.com/watch?v=VaYQE5d96hY&feature=youtu.be). See the related example: [Creating a collective and installing a simple application](#example-installing-a-simple-web-application).
 
 
 ### History
@@ -124,29 +90,22 @@ and installing a simple application](#example-installing-a-simple-web-applicatio
 #### Version 19
 
 
-* 
-Fixes APAR PI97742 Create Collective step incorrectly encodes userPassword with linefeed added at the end.
+* Fixes APAR PI97742Create Collective step incorrectly encodes userPassword with linefeed added at the end.
 
 
-#### 
-Version 18
+#### Version 18
 
 
-* Fixes APAR PI94186 Install Server Archive step expecting bin directory and unzip not preserving file 
-permissions.
+* Fixes APAR PI94186Install Server Archive step expecting bin directory and unzip not preserving file permissions.
 
 
 #### Version 17
 
 
-* Updated plugin documentation to describe output properties created by Start Server 
-and Stop Server steps.
-* Fixes problem where output properties were not being set correctly when starting/stopping 
-servers via the collective controller.
-* RFE 100414 Added the context sensitive help for plugin step named Install or 
-Update Application with Server XML.
-* Fixes APAR PI88752 Stream the Liberty process output to the output files for the 
-associated plugin steps.
+* Updated plugin documentation to describe output properties created by Start Server and Stop Server steps.
+* Fixes problem where output properties were not being set correctly when starting/stopping servers via the collective controller.
+* RFE 100414Added the context sensitive help for plugin step named Install or Update Application with Server XML.
+* Fixes APAR PI88752Stream the Liberty process output to the output files for the associated plugin steps.
 
 
 #### Version 16
@@ -155,19 +114,16 @@ associated plugin steps.
 This release includes the following fix:
 
 
-* Implements RFE 104618 to merge
- multiple plugin-cfg.xml(s) from multiple servers and propagates it to target web servers.
+* Implements RFE 104618 to merge multiple plugin-cfg.xml(s) from multiple servers and propagates it to target web servers.
 
 
 #### Version 15
 
 
-This 
-release includes the following fix:
+This release includes the following fix:
 
 
-* Fixes APAR PI82000 Start Server Plugin step incorrectly reports failure on non-
-English platforms
+* Fixes APAR PI82000 Start Server Plugin step incorrectly reports failure on non-English platforms
 
 
 #### Version 14
@@ -176,8 +132,7 @@ English platforms
 This release includes the following fix:
 
 
-* Fixes APAR PI81234 Timeout occurs on 
-Start Application step in WAS Liberty Plugin
+* Fixes APAR PI81234 Timeout occurs on Start Application step in WAS Liberty Plugin
 
 
 #### Version 13
@@ -186,21 +141,17 @@ Start Application step in WAS Liberty Plugin
 This release includes the following fix:
 
 
-* Added 
-support to handle the case where the specified Liberty installation directory only contains the directory named wlp, not
- bin, lib, etc.
+* Added support to handle the case where the specified Liberty installation directory only contains the directory named wlp, not bin, lib, etc.
 * Added support for starting/stopping all servers in wlp.user.dir.
 
 
 #### Version 12.891854
 
 
-This 
-release includes the following fix:
+This release includes the following fix:
 
 
-* A fixes for APAR PI77192 Error in IBM WebSphere Liberty Plugin step 
-JoinCollective
+* A fixes for APAR PI77192Error in IBM WebSphere Liberty Plugin step JoinCollective
 
 
 #### Version 10.848664
@@ -209,55 +160,43 @@ JoinCollective
 This release includes the following features and fixes:
 
 
-* A step to generate
- Component-Resource properties from Liberty variable tags in the configuration files.
-* A step to replace the values of 
-Liberty variables in the configuration files with the values of Component-Resource properties.
-* A fix for problems on 
-Windows platforms related to spaces in paths.
+* A step to generate Component-Resource properties from Liberty variable tags in the configuration files.
+* A step to replace the values of Liberty variables in the configuration files with the values of Component-Resource properties.
+* A fix for problems on Windows platforms related to spaces in paths.
 
 
 #### Version 9.828195
 
 
-This release includes the following features and
- fixes:
+This release includes the following features and fixes:
 
 
-* Support for specifying multiple servers for the Start Server, Stop Server, Create Server, Delete Server, and
- Join Collective steps.
+* Support for specifying multiple servers for the Start Server, Stop Server, Create Server, Delete Server, and Join Collective steps.
 * Support for specifying wlp.user.dir in plug-in steps.
-* A fix for a character set issue when 
-you write server configuration files on z/OS.
+* A fix for a character set issue when you write server configuration files on z/OS.
 
 
 #### Version 8.802646
 
 
-This release includes the following features and
- fixes:
+This release includes the following features and fixes:
 
 
-* The plug-in now includes Register Host, Unregister Host, Update Host, and Upload File To Collective Host 
-steps.
+* The plug-in now includes Register Host, Unregister Host, Update Host, and Upload File To Collective Host steps.
 * Support for joining a server to a collective by using the collective controller.
-* Support for starting and 
-stopping a server in a collective by using the collective controller.
+* Support for starting and stopping a server in a collective by using the collective controller.
 
 
 #### Version 7.778014
 
 
-This release includes 
-the following features and fixes:
+This release includes the following features and fixes:
 
 
 * A new Join Collective step.
-* A fix for attribute names that are used in the 
-`quickStartSecurity` node.
+* A fix for attribute names that are used in the `quickStartSecurity` node.
 * A new **optionalArgs** field for the Create Collective step.
-* A fix for APAR PI60739 Start
- Server step does not complete if started on Windows.
+* A fix for APAR PI60739Start Server step does not complete if started on Windows.
 
 
 |Back to ...||Latest Version|IBM WebSphere Liberty |||||

@@ -11,31 +11,25 @@ Jenkins Pipeline - Overview
 
 
 
-Jenkins is a continuous integration server that supports interactions with other technologies by using
- a plug-in model. The Jenkins Pipeline plug-in orchestrates UrbanCode Deploy deployments as part of a pipeline in 
-Jenkins. You can complete the following tasks with this plug-in.
+Jenkins is a continuous integration server that supports interactions with other technologies by using a plug-in model. The Jenkins Pipeline plug-in orchestrates UrbanCode Deploy deployments as part of a pipeline in Jenkins. You can complete the following tasks with this plug-in.
 
 
 * Create components
 * Publish artifacts to a version
-
 * Start component version imports
 * Deploy snapshots or component versions
 * Run operational processes
-* Run the step 
-multiple times within a single job
+* Run the step multiple times within a single job
 
 
 
 ### Compatibility
 
 
-This plug-in is supported to run against Jenkins Server 2.0 or
- later.
+This plug-in is supported to run against Jenkins Server 2.0 or later.
 
 
-This plug-in runs on UrbanCode Deploy 6.1 or later. For previous versions of IBM UrbanCode Deploy, download 
-version 1.0.2 of the plug-in.
+This plug-in runs on UrbanCode Deploy 6.1 or later. For previous versions of IBM UrbanCode Deploy, download version 1.0.2 of the plug-in.
 
 
 ### Installation
@@ -44,13 +38,10 @@ version 1.0.2 of the plug-in.
 Install the Jenkins Pipeline plug-in onto a Jenkins server.
 
 
-### 
-Tutorials
+### Tutorials
 
 
-The [Jenkins Pipeline Plug-in Tutorial](https://www.urbancode.com/2017/07/11/jenkins-pipeline-tutorial/) 
-blog provides a walkthrough for a first time plug-in user. The blog contains two scenarios: 1)Component Version Import 
-and 2)Snapshot Deployment using either a pipeline or freestyle Jenkins project.
+The [Jenkins Pipeline Plug-in Tutorial](https://www.urbancode.com/2017/07/11/jenkins-pipeline-tutorial/) blog provides a walkthrough for a first time plug-in user. The blog contains two scenarios: 1)Component Version Import and 2)Snapshot Deployment using either a pipeline or freestyle Jenkins project.
 
 
 ### History
@@ -59,22 +50,19 @@ and 2)Snapshot Deployment using either a pipeline or freestyle Jenkins project.
 #### Version 2.26
 
 
-* 
-Fixed : Removed httpcore dependencies as it is no more used
+* Fixed : Removed httpcore dependencies as it is no more used
 
 
 #### Version 2.25
 
 
-* Fixed : Removed checkbox to push 
-failed build as it was causing Trigger version Import step to work improperly
+* Fixed : Removed checkbox to push failed build as it was causing Trigger version Import step to work improperly
 
 
 #### Version 2.24
 
 
-* Fixed : Fixed : 
-Updated plugin url.
+* Fixed : Fixed : Updated plugin url.
 
 
 #### Version 2.23
@@ -86,15 +74,13 @@ Updated plugin url.
 #### Version 2.22
 
 
-* RFE : 
-Add UCD Application property in Jenkins Environment Variable
+* RFE : Add UCD Application property in Jenkins Environment Variable
 
 
 #### Version 2.21
 
 
-* Fixed : UI Issue compatible for 
-save and apply button.
+* Fixed : UI Issue compatible for save and apply button.
 
 
 #### Version 2.20
@@ -103,33 +89,28 @@ save and apply button.
 * RFE 147414 : Add ucd application process log url for more details.
 
 
-####
- Version 2.19
+#### Version 2.19
 
 
 * Fixed : Addition of latest version to specified component only instead of all components.
 
 
-#### 
-Version 2.18
+#### Version 2.18
 
 
 * Fixed APAR PH28324 – Fail the Jenkins job if nothing is found to push to UCD( avoid false positive).
 
 
-
 #### Version 2.17
 
 
-* Block “Run as Alternative User” : Help text added for “Alternative Username” and “Alternative 
-Password”.
+* Block “Run as Alternative User” : Help text added for “Alternative Username” and “Alternative Password”.
 
 
 #### Version 2.16
 
 
-* Fixed APAR PH25862 – Making deploy version “not required” field to support following,
- which needs no version:
+* Fixed APAR PH25862 – Making deploy version “not required” field to support following, which needs no version:
 * 1. Operational component process.
 * 2. Application generic process.
 
@@ -137,12 +118,10 @@ Password”.
 #### Version 2.15
 
 
-* 
-Fixed APAR PH23739 – Fixed: Plugin Shows success in Jenkins job console on Cancelling process from UCD.
+* Fixed APAR PH23739 – Fixed: Plugin Shows success in Jenkins job console on Cancelling process from UCD.
 
 
-#### Version 
-2.14
+#### Version 2.14
 
 
 * Fixing CVE:CVE-2019-4233.
@@ -151,15 +130,13 @@ Fixed APAR PH23739 – Fixed: Plugin Shows success in Jenkins job console on Can
 #### Version 2.13
 
 
-* Modified process to continue if user is unable to set 
-environment variable.
+* Modified process to continue if user is unable to set environment variable.
 
 
 #### Version 2.12
 
 
 * Set component version as environment variable when pushing a new version.
-
 
 
 #### Version 2.11
@@ -171,87 +148,72 @@ environment variable.
 #### Version 2.10
 
 
-* 
-Added functionality to preemptively create environment snapshot to use during deployment.
+* Added functionality to preemptively create environment snapshot to use during deployment.
 
 
 #### Version 2.9
 
 
-* Fixed 
-401 http error when setting version properties by using latest uDeployRestClient.
+* Fixed 401 http error when setting version properties by using latest uDeployRestClient.
 
 
 #### Version 2.8
 
 
-* Fixed all Null 
-pointer and bad casting exceptions upon saving job configurations.
-* Removed administrative checkbox from global and job
- configuration of user credentials.
-* Maintenance mode is removed in UCD 6.2.4, so weve removed it in the Jenkins plugin
- too.
+* Fixed all Null pointer and bad casting exceptions upon saving job configurations.
+* Removed administrative checkbox from global and job configuration of user credentials.
+* Maintenance mode is removed in UCD 6.2.4, so weve removed it in the Jenkins plugin too.
 
 
 #### Version 2.7
 
 
-* Fixed APAR PI91900 Unfilled application process properties unable to be checked with a 
-snapshot.
+* Fixed APAR PI91900 Unfilled application process properties unable to be checked with a snapshot.
 
 
 #### Version 2.6
 
 
-* Fixed APAR PI85407 Importing component versions no longer fails when runtime properties
- arent provided.
+* Fixed APAR PI85407 Importing component versions no longer fails when runtime properties arent provided.
 
 
 #### Version 2.5
 
 
-* RFE 104275 Support for Description and Application Request Properties on 
-deployments. Going forward, all Application Process must have all required application request properties specified.
-
+* RFE 104275 Support for Description and Application Request Properties on deployments. Going forward, all Application Process must have all required application request properties specified.
 
 
 #### Version 2.4
 
 
-* Fixed APAR PI80038 Snapshot names no longer require a leading equals sign. Specify a single 
-snapshot using the following syntax: `SNAPSHOT=UCD_SNAPSHOT_NAME`
+* Fixed APAR PI80038 Snapshot names no longer require a leading equals sign. Specify a single snapshot using the following syntax: `SNAPSHOT=UCD_SNAPSHOT_NAME`
 
 
 #### Version 2.3
 
 
-* Fixed APAR PI77548 Resolving 
-component process properties.
+* Fixed APAR PI77548 Resolving component process properties.
 
 
 #### Version 2.2
 
 
-* Fixed unserializable class error during artifact publish on slave 
-node.
+* Fixed unserializable class error during artifact publish on slave node.
 * Fixed APAR PI75045 Jenkins plugin requires administrative privileges
-* Allows per job credentials as opposed to 
-global credentials only
+* Allows per job credentials as opposed to global credentials only
 
 
 #### Version 2.1
 
 
-* Fixed APAR PI69063 and PI70948 Jenkins deployment succeeds with UCD in 
-maintenance mode.
+* Fixed APAR PI69063 and PI70948 Jenkins deployment succeeds with UCD in maintenance mode.
 * Added functionality to allow deployment to wait for process completion.
 
 
 #### Version 2.0
 
 
-* 
-Initial release
+* Initial release
 
 
 

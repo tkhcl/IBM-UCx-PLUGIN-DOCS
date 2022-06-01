@@ -3,8 +3,7 @@ z/OS USS Utility
 ================
 
 
-The z/OS USS Utility plug-in automates working with USS files on the z/OS operating system. This plug-in supports 
-working with the IBM z/OS version 2.2 and later and requires UrbanCode Deploy agent on the z/OS server.
+The z/OS USS Utility plug-in automates working with USS files on the z/OS operating system. This plug-in supports working with the IBM z/OS version 2.2 and later and requires UrbanCode Deploy agent on the z/OS server.
 
 
 |Back to ...||Latest Version|||||

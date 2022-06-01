@@ -16,7 +16,6 @@ IBM Rational Integration Tester (RIT) - Steps
 
 
 Process steps in the IBM Rational Integration Tester plug-in
-
 ------------------------------------------------------------
 
 
@@ -26,7 +25,6 @@ Process steps in the IBM Rational Integration Tester plug-in
 
 
 Run RIT Test
-
 ------------
 
 
@@ -35,39 +33,22 @@ Use this step to run a test using IBM Rational Integration Tester.
 
 
 
-| Name | Type | Description | 
-Required | Property Name |
+| Name | Type | Description | Required | Property Name |
 | --- | --- | --- | --- | --- |
-| Disable Results Publishers | Boolean | When enabled, 
-results publishers that can be configured in the project are disabled. | No | noResultsPublishers |
-| Environment | 
-String | The name of the environment. | Yes | environment |
-| IBM Rational Integration Tester Installation Directory | 
-String | The fully qualified path to IBM Rational Integration Tester installation directory. | Yes | installDir |
-| 
-Input Property File | String | The path to the input properties file. | No | inputPropertyFile |
-| Project | String | 
-The IBM Rational Integration Tester project name (.ghp), relative to the project directory | Yes | ritProject |
-| 
-Project Directory | String | The fully-qualified path of the IBM Rational Integration Tester project directory. | Yes | 
-projectDir |
-| Results Publishers | String | A list of results publishers. Separate each list item with a comma. | No | 
-resultsPublishers |
-| Results server logging | Enumeration | Specifies how the Results Server URL for executed items is 
-written to the console. Valid values are absolute, ignore, and relative. | No | resultsServerLogging |
-| Test Resources 
-| String | A list of IBM Rational Integration Tester test resources. Specify each full path for each test resource. 
-Separate each list item with a semi-colon. | Yes | testResources |
+| Disable Results Publishers | Boolean | When enabled, results publishers that can be configured in the project are disabled. | No | noResultsPublishers |
+| Environment | String | The name of the environment. | Yes | environment |
+| IBM Rational Integration Tester Installation Directory | String | The fully qualified path to IBM Rational Integration Tester installation directory. | Yes | installDir |
+| Input Property File | String | The path to the input properties file. | No | inputPropertyFile |
+| Project | String | The IBM Rational Integration Tester project name (.ghp), relative to the project directory | Yes | ritProject |
+| Project Directory | String | The fully-qualified path of the IBM Rational Integration Tester project directory. | Yes | projectDir |
+| Results Publishers | String | A list of results publishers. Separate each list item with a comma. | No | resultsPublishers |
+| Results server logging | Enumeration | Specifies how the Results Server URL for executed items is written to the console. Valid values are absolute, ignore, and relative. | No | resultsServerLogging |
+| Test Resources | String | A list of IBM Rational Integration Tester test resources. Specify each full path for each test resource.Separate each list item with a semi-colon. | Yes | testResources |
 
 
 
-[Free Download WordPress 
-Themes](https://www.thewpclub.net)[Download WordPress Themes](https://www.themeslide.com)[Download WordPress Themes 
-Free](https://www.script-stack.com)[Free Download WordPress Themes](https://www.thememazing.com)[udemy free 
-download](https://www.onlinefreecourse.net)[download samsung firmware](https://www.frendx.com/firmware/)[Download Best 
-WordPress Themes Free Download](https://www.themebanks.com)[free online course](https://downloadtutorials.net)
- #primary
- 
+[Download Best WordPress Themes Free Download](https://www.thewpclub.net)[Download WordPress Themes](https://www.themeslide.com)[Premium WordPress Themes Download](https://www.script-stack.com)[Download WordPress Themes](https://www.thememazing.com)[udemy free download](https://www.onlinefreecourse.net)[download intex firmware](https://www.frendx.com/firmware/)[Download Best WordPress Themes Free Download](https://www.themebanks.com)[free download udemy course](https://downloadtutorials.net)
+ #primary 
 
 |Back to ...||Latest Version|IBM Rational Integration Tester (RIT) ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |

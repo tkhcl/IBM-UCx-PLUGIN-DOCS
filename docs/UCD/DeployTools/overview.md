@@ -14,29 +14,19 @@ IBM UrbanCode Deploy Tools - Overview
  
 
 
-The Deploy Tools plug-in provides automated post deployment verification steps to verify that 
-applications are deployed to web sites. You can use the plug-in to determine whether a deployment succeeded or failed. 
-You can also specify application and component threshold processing time.
+The Deploy Tools plug-in provides automated post deployment verification steps to verify that applications are deployed to web sites. You can use the plug-in to determine whether a deployment succeeded or failed. You can also specify application and component threshold processing time.
 
 
 This plug-in includes the following steps.
 
 
-
-* [Check Total Application Process Execution Time](https://www.urbancode.com/plugindoc/ibmucd/deploy-
-tools/7-641681/steps/#check_total_application_process_execution_time)
-* [Check Total Component Process Execution 
-Time](https://www.urbancode.com/plugindoc/ibmucd/deploy-
-tools/7-641681/steps/#check_total_component_process_execution_time)
-* [Verify 
-Deployment](https://www.urbancode.com/plugindoc/ibmucd/deploy-tools/7-641681/steps/#verify_deployment)
-* [Wait for web 
-page](https://www.urbancode.com/plugindoc/ibmucd/deploy-tools/7-641681/steps/#wait_for_web_page)
+* [Check Total Application Process Execution Time](https://www.urbancode.com/plugindoc/ibmucd/deploy-tools/7-641681/steps/#check_total_application_process_execution_time)
+* [Check Total Component Process Execution Time](https://www.urbancode.com/plugindoc/ibmucd/deploy-tools/7-641681/steps/#check_total_component_process_execution_time)
+* [Verify Deployment](https://www.urbancode.com/plugindoc/ibmucd/deploy-tools/7-641681/steps/#verify_deployment)
+* [Wait for web page](https://www.urbancode.com/plugindoc/ibmucd/deploy-tools/7-641681/steps/#wait_for_web_page)
 
 
-To add the Deploy 
-Tools plug-in steps to processes, click **Quality > Functional Testing > Simple Web Test** in the step palette of the 
-process editor
+To add the Deploy Tools plug-in steps to processes, click **Quality > Functional Testing > Simple Web Test** in the step palette of the process editor
 
 
 ### Compatibility
@@ -45,17 +35,13 @@ process editor
 This plug-in requires IBM UrbanCode Deploy version 6.0 or later.
 
 
-This plug-in 
-runs on all operating systems that the UrbanCode Deploy agents supports, except for IBM z/OS.
+This plug-in runs on all operating systems that the UrbanCode Deploy agents supports, except for IBM z/OS.
 
 
 ### Installation
 
 
-No 
-special steps are required for installation. See [Installing plug-ins in UrbanCode 
-Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode 
-Deploy").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
 
 
 ### History
@@ -64,23 +50,19 @@ Deploy").
 #### Version 8
 
 
-This version adds proxy compatibility, and includes a fix for a build issue 
-related to a missing log4j library.
+This version adds proxy compatibility, and includes a fix for a build issue related to a missing log4j library.
 
 
 #### Version 7
 
 
-This version includes a fix for APAR PI35342 compatibility defect
- with IBM Urbancode Deploy version 6.1.0.4 and later.
+This version includes a fix for APAR PI35342compatibility defect with IBM Urbancode Deploy version 6.1.0.4 and later.
 
 
 #### Version 6
 
 
-This version includes a Character Encoding 
-property for the Verify Deployment Step. This property specifies the character encoding to use when reading the response
- body from a website.
+This version includes a Character Encoding property for the Verify Deployment Step. This property specifies the character encoding to use when reading the response body from a website.
 
 
 

@@ -14,9 +14,7 @@ File System - Overview
  
 
 
-The File System plug-in imports artifacts from a local filesystem. The imported artifacts are 
-stored in a single folder. If you want to store artifacts into versioned folders, you must manually create the version 
-folders.
+The File System plug-in imports artifacts from a local filesystem. The imported artifacts are stored in a single folder. If you want to store artifacts into versioned folders, you must manually create the version folders.
 
 
 This plug-in includes one step which has no input properties:
@@ -26,32 +24,25 @@ This plug-in includes one step which has no input properties:
 
 
 
-### 
-Step palette
+### Step palette
 
 
 To access this plug-in in the palette, click **Source and Repositories** > **File System**.
 
 
-### 
-Compatibility
+### Compatibility
 
 
 This plug-in requires version 6.0 or later of IBM UrbanCode Deploy.
 
 
-For UrbanCode Deploy 6.0, both the
- agent and the server must be installed on Microsoft Windows. For UrbanCode Deploy 6.0.1 or later, only the agent is 
-required to be on a system running Microsoft Windows.
+For UrbanCode Deploy 6.0, both the agent and the server must be installed on Microsoft Windows. For UrbanCode Deploy 6.0.1 or later, only the agent is required to be on a system running Microsoft Windows.
 
 
 ### Installation
 
 
-This plug-in is installed when installing IBM
- UrbanCode Deploy. When new plug-in versions are available, see [Installing plug-ins in UrbanCode 
-Products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in 
-UrbanCode Deploy") to update the plug-in.
+This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in versions are available, see [Installing plug-ins in UrbanCode Products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy") to update the plug-in.
 
 
 ### History
@@ -63,8 +54,7 @@ UrbanCode Deploy") to update the plug-in.
 Preserve Execution Permissions option.
 
 
-####
- Verion 3
+#### Verion 3
 
 
 * Support property file encryption.
@@ -73,8 +63,7 @@ Preserve Execution Permissions option.
 #### Verion 2
 
 
-* Fixes added for running a process after creating a 
-version.
+* Fixes added for running a process after creating a version.
 
 
 #### Verion 1

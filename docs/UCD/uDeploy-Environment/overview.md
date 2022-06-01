@@ -14,8 +14,7 @@ IBM UrbanCode Deploy Environments - Overview
  
 
 
-This plug-in includes steps that create and manage environments on the IBM UrbanCode Deploy 
-server.
+This plug-in includes steps that create and manage environments on the IBM UrbanCode Deploy server.
 
 
 ### Compatibility
@@ -24,17 +23,13 @@ server.
 This plug-in requires version 6.0 or later of IBM UrbanCode Deploy.
 
 
-This plug-in is 
-supported to run on all operating systems that are supported by the IBM UrbanCode Deploy agent, including z/OS with UNIX
- System Services.
+This plug-in is supported to run on all operating systems that are supported by the IBM UrbanCode Deploy agent, including z/OS with UNIX System Services.
 
 
 ### Installation
 
 
-No special steps are required for installation. See [Installing plug-ins in IBM 
-UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in 
-IBM UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in IBM UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in IBM UrbanCode Deploy").
 
 
 ### History
@@ -43,8 +38,7 @@ IBM UrbanCode Deploy").
 #### Version 79
 
 
-RFE 121148 Removed isSecure property from Set Component 
-Environment Property to support property definition type.
+RFE 121148 Removed isSecure property from Set Component Environment Property to support property definition type.
 
 
 #### Version 78
@@ -56,7 +50,6 @@ Plugin name changed.
 #### Version 77
 
 
-
 Update for API changes in server.
 
 
@@ -66,20 +59,17 @@ Update for API changes in server.
 Fixed typo in Create Multiple Environments description.
 
 
-#### 
-Version 75
+#### Version 75
 
 
 * RFE 100937 Added Create Multiple Environments step to create multiple environments using json.
-* RFE 
-100937 Altered Add Environment to Team step to allow for multiple environments.
+* RFE 100937 Altered Add Environment to Team step to allow for multiple environments.
 
 
 #### Version 74
 
 
-RFE 83705 Added 
-Create Environment from Template step.
+RFE 83705Added Create Environment from Template step.
 
 
 #### Version 73
@@ -91,17 +81,14 @@ Support property file encryption.
 #### Version 72
 
 
-Version
- 72 includes a fix for APAR PI45948, Set environment property step may fail if run simultaneously.
+Version 72 includes a fix for APAR PI45948, Set environment property step may fail if run simultaneously.
 
 
 #### Version 68
 
 
-*
- This version includes a step that retrieves basic information about an environment.
-* The Create Environment step can 
-now provision environments with blueprints.
+* This version includes a step that retrieves basic information about an environment.
+* The Create Environment step can now provision environments with blueprints.
 * You can specify an environment profile when you create an environment.
 
 

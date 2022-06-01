@@ -14,9 +14,7 @@ IBM Rational Integration Tester (RIT) - Overview
   
 
 
-With the Rational Integration Tester (RIT) plug-in you can automate invoking a test resource 
-defined in a Rational Integration Tester test project. A test resource can be a test, test suite, or performance test.
-
+With the Rational Integration Tester (RIT) plug-in you can automate invoking a test resource defined in a Rational Integration Tester test project.A test resource can be a test, test suite, or performance test.
 
 
 This plugin includes one or more steps, click **Steps** for step details and properties.
@@ -25,29 +23,22 @@ This plugin includes one or more steps, click **Steps** for step details and pro
 ### Compatibility
 
 
-This 
-plug-in works with IBM Rational Integration Tester v8.5 or later.
+This plug-in works with IBM Rational Integration Testerv8.5 or later.
 
 
-The steps in this plug-in run on any agents that are
- supported by both the IBM UrbanCode Deploy and the Rational Test Control Panel Ant client, except for agents on z/OS.
+The steps in this plug-in run on any agents that are supported by both the IBM UrbanCode Deploy and the Rational Test Control Panel Ant client, except for agents on z/OS.
 
 
-
-This plug-in runs on all operating systems that are supported by both the IBM UrbanCode Deploy agent except for z/OS 
-and the Rational Test Control Panel Ant client.
+This plug-in runs on all operating systems that are supported by both the IBM UrbanCode Deploy agent except for z/OS and the Rational Test Control Panel Ant client.
 
 
-The Run RIT Test step must be ran on the same system that the Rational
- Integration Tester is installed.
+The Run RIT Test step must be ran on the same system that the Rational Integration Tester is installed.
 
 
 ### Installation
 
 
-No special steps are required for installation. See [Installing 
-plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing 
-plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
 
 
 

@@ -14,34 +14,28 @@ Nexus - Overview
  
 
 
-The Nexus plug-in for IBM UrbanCode Deploy includes steps for working with artifacts that are 
-hosted on a Nexus server.
+The Nexus plug-in for IBM UrbanCode Deploy includes steps for working with artifacts that are hosted on a Nexus server.
 
 
-To add the Nexus plug-in steps to processes, click **Repositories > Artifact > Nexus** in 
-the step palette of the process editor.
+To add the Nexus plug-in steps to processes, click **Repositories > Artifact > Nexus** in the step palette of the process editor.
 
 
 ### Compatibility
 
 
-The IBM UrbanCode Deploy automation plug-in for Nexus 
-works with Nexus version 2.
+The IBM UrbanCode Deploy automation plug-in for Nexus works with Nexus version 2.
 
 
 This plug-in requires version 6.0 or later of IBM UrbanCode Deploy.
 
 
-This plug-in runs on
- all operating systems that IBM UrbanCode Deploy supports.
+This plug-in runs on all operating systems that IBM UrbanCode Deploy supports.
 
 
 ### Installation
 
 
-No special steps are required for 
-installation. See [Installing plug-ins in IBM UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-
-in-urbancode-products/ "Installing plug-ins in IBM UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in IBM UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in IBM UrbanCode Deploy").
 
 
 ### History
@@ -50,8 +44,7 @@ in-urbancode-products/ "Installing plug-ins in IBM UrbanCode Deploy").
 #### Version 3
 
 
-* Updated to 
-ensure all response texts are zOS compatible.
+* Updated to ensure all response texts are zOS compatible.
 
 
 #### Version 2
@@ -61,7 +54,6 @@ ensure all response texts are zOS compatible.
 
 
 #### Version 1
-
 
 
 * Initial release of the Nexus plug-in, with support for downloading NuGet packages.
