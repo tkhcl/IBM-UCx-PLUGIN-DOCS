@@ -4,34 +4,17 @@ IBM Integration Bus (IIB) plugin Deploy step for zOS - Steps
 
 # Steps
 
-
-
 ### Steps
-
-
-
-
- 
-
-
 
 Process steps in the  plug-in
 -----------------------------
 
-
 * zOS Deploy
-
 
 Deploy a Broker Archive. This step will set the output property ‘completionCode’, representing the last completion code returned from the broker during deployment.
 
-
-
-
 Input properties for zOS Deploy
 -------------------------------
-
-
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
