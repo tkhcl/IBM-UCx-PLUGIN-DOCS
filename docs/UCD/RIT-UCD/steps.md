@@ -9,29 +9,16 @@ IBM Rational Integration Tester (RIT) - Steps
 ### Steps
 
 
-
-
- 
-
-
-
 Process steps in the IBM Rational Integration Tester plug-in
 ------------------------------------------------------------
 
 
 * [Run RIT Test](#run_rit_test)
 
-
-
-
 Run RIT Test
 ------------
 
-
 Use this step to run a test using IBM Rational Integration Tester.
-
-
-
 
 | Name | Type | Description | Required | Property Name |
 | --- | --- | --- | --- | --- |

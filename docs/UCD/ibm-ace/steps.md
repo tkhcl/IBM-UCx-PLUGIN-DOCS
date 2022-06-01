@@ -2,26 +2,10 @@
 App Connect Enterprise - Steps
 ==============================
 
-# Steps
-
-
-
-### Steps
-
-
-
-
- 
-
-
-
 Process steps in the IBM ACE plug-in
 ------------------------------------
 
-
 - [App Connect Enterprise - Steps](#app-connect-enterprise---steps)
-- [Steps](#steps)
-    - [Steps](#steps-1)
   - [Process steps in the IBM ACE plug-in](#process-steps-in-the-ibm-ace-plug-in)
   - [Create Integration Node](#create-integration-node)
   - [Create Integration Server](#create-integration-server)
@@ -34,18 +18,10 @@ Process steps in the IBM ACE plug-in
   - [Stop Integration Node](#stop-integration-node)
   - [Stop Integration Server](#stop-integration-server)
 
-
-
-
 Create Integration Node
 -----------------------
 
-
 Create an Integration Node (Broker). This command creates the WebSphere MQ queues required by the broker if they do not already exist.
-
-
-
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -56,15 +32,10 @@ Create an Integration Node (Broker). This command creates the WebSphere MQ queue
 | Service Password | String | The password for the service user ID. | No |
 | Service User ID | String | The user ID under which the broker runs. | No |
 
-
 Create Integration Server
 -------------------------
 
-
 Create integration servers.
-
-
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -72,15 +43,10 @@ Create integration servers.
 | Integration Servers | String | A list of integration servers to create. The servers must be defined on the broker. Seperate each with a comma or new line. | Yes |
 | Port | String | The port of the target integration node. | Yes |
 
-
 Delete Integration Node
 -----------------------
 
-
 Delete an Integration Node (Broker).
-
-
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -89,15 +55,10 @@ Delete an Integration Node (Broker).
 | Delete WebSphere MQ Queues | Boolean | Check this box to delete all current integration server administration security WebSphere MQ queues along with the integration node. | No |
 | Integration Node (Broker) | String | The name of the integration node to delete. | Yes |
 
-
 Delete Integration Server
 -------------------------
 
-
 Create integration servers.
-
-
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -105,15 +66,10 @@ Create integration servers.
 | Integration Servers | String | A list of integration servers to delete. The servers must be defined on the broker. Seperate each with a comma or new line. | Yes |
 | Port | String | The port of the target integration node. | Yes |
 
-
 Deploy
 ------
 
-
 Deploy a Broker Archive.
-
-
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -129,15 +85,10 @@ Deploy a Broker Archive.
 | Timeout Value | String |  This parameter specifies the maximum time in seconds that the command waits for the integration node to complete the request before returning. | No |
 | Trace File Name | String | This parameter sends internal debug trace information about a command to the specified file. | No |
 
-
 Does Integration Server Exist
 -----------------------------
 
-
 Does Integration Server Exist.
-
-
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -145,30 +96,20 @@ Does Integration Server Exist.
 | Integration Server | String | Integration Server name to identify its existence. | Yes |
 | Port | String | The port of the target integration node. | Yes |
 
-
 Start Integration Node
 ----------------------
 
-
 Starts an integration node (broker).
-
-
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | ACE Installation Directory | String | The installation directory of the IBM ACE server. For example: /opt/ibm/server. | Yes |
 | Integration Node (Broker) | String | The name of the integration node to start. | Yes |
 
-
 Start Integration Server
 ------------------------
 
-
 Start integration servers.
-
-
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -190,7 +131,6 @@ Stop Integration Server
 -----------------------
 
 Stop integration servers.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
