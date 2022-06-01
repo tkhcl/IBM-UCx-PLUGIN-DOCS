@@ -51,13 +51,6 @@ Input properties for zOS Deploy
 | MQSIPROFILE Executable | String | The absolute path to the mqsiprofile executable on your IIB server. Specifying this value will initialize your command environment. This value is required if your command environment is not initialized on startup through . | No |
 | Environment Variables | String | A file containing property entries, with each entry delimited by newlines. Entries must be in the form ‘VAR=VALUE’ (i.e. java.library.path=/opt/mqm/java/lib64:/opt/mqm/java/lib). Implemented to support z/OS using an ENVFILE. | No |
 
-
- ﻿
-
-
-[Free Download WordPress Themes](https://www.thewpclub.net)[Free Download WordPress Themes](https://www.themeslide.com)[Download WordPress Themes](https://www.script-stack.com)[Download Best WordPress Themes Free Download](https://www.thememazing.com)[udemy paid course free download](https://www.onlinefreecourse.net)[download mobile firmware](https://www.frendx.com/firmware/)[Download Best WordPress Themes Free Download](https://www.themebanks.com)[udemy free download](https://downloadtutorials.net)
- #primary 
-
 |Back to ...||Latest Version|IBM Integration Bus (IIB) plugin Deploy step for zOS ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.1127841](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-ibm-integration-bus-ucd/ucd-zOS-WebSphereMessageBroker-CMP-1.1127841.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

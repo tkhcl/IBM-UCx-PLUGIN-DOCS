@@ -19,16 +19,20 @@ Process steps in the IBM ACE plug-in
 ------------------------------------
 
 
-* [Create Integration Node](#create_integration_node)
-* [Create Integration Server](#create_integration_server)
-* [Delete Integration Node](#delete_integration_node)
-* [Delete Integration Server](#delete_integration_server)
-* [Deploy](#deploy)
-* [Does Integration Server Exist](#does_integration_server_exist)
-* [Start Integration Node](#start_integration_node)
-* [Start Integration Server](#start_integration_server)
-* [Stop Integration Node](#stop_integration_node)
-* [Stop Integration Server](#stop_integration_server)
+- [App Connect Enterprise - Steps](#app-connect-enterprise---steps)
+- [Steps](#steps)
+    - [Steps](#steps-1)
+  - [Process steps in the IBM ACE plug-in](#process-steps-in-the-ibm-ace-plug-in)
+  - [Create Integration Node](#create-integration-node)
+  - [Create Integration Server](#create-integration-server)
+  - [Delete Integration Node](#delete-integration-node)
+  - [Delete Integration Server](#delete-integration-server)
+  - [Deploy](#deploy)
+  - [Does Integration Server Exist](#does-integration-server-exist)
+  - [Start Integration Node](#start-integration-node)
+  - [Start Integration Server](#start-integration-server)
+  - [Stop Integration Node](#stop-integration-node)
+  - [Stop Integration Server](#stop-integration-server)
 
 
 
@@ -172,29 +176,20 @@ Start integration servers.
 | Integration Servers | String | A list of integration servers to start. The servers must be defined on the broker. Seperate each with a comma or new line. | Yes |
 | Port | String | The port of the target integration node. | Yes |
 
-
 Stop Integration Node
 ---------------------
 
-
 Stops an integration node (broker).
-
-
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | ACE Installation Directory | String | The installation directory of the IBM ACE server. For example: /opt/ibm/server. | Yes |
 | Integration Node (Broker) | String | The name of the integration node to stop. | Yes |
 
-
 Stop Integration Server
 -----------------------
 
-
 Stop integration servers.
-
-
 
 
 | Name | Type | Description | Required |
@@ -202,13 +197,6 @@ Stop integration servers.
 | IP | String | The IP address of the target integration node. | Yes |
 | Integration Servers | String | A list of integration servers to stop. The servers must be defined on the broker. Seperate each with a comma or new line. | Yes |
 | Port | String | The port of the target integration node. | Yes |
-
-
- ﻿
-
-
-[Download Best WordPress Themes Free Download](https://www.thewpclub.net)[Download Nulled WordPress Themes](https://www.themeslide.com)[Free Download WordPress Themes](https://www.script-stack.com)[Free Download WordPress Themes](https://www.thememazing.com)[free online course](https://www.onlinefreecourse.net)[download karbonn firmware](https://www.frendx.com/firmware/)[Premium WordPress Themes Download](https://www.themebanks.com)[udemy free download](https://downloadtutorials.net)
- #primary 
 
 |Back to ...||Latest Version|App Connect Enterprise ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |

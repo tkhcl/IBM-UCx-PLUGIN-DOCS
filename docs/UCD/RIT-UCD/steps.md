@@ -45,11 +45,6 @@ Use this step to run a test using IBM Rational Integration Tester.
 | Results server logging | Enumeration | Specifies how the Results Server URL for executed items is written to the console. Valid values are absolute, ignore, and relative. | No | resultsServerLogging |
 | Test Resources | String | A list of IBM Rational Integration Tester test resources. Specify each full path for each test resource.Separate each list item with a semi-colon. | Yes | testResources |
 
-
-
-[Download Best WordPress Themes Free Download](https://www.thewpclub.net)[Download WordPress Themes](https://www.themeslide.com)[Premium WordPress Themes Download](https://www.script-stack.com)[Download WordPress Themes](https://www.thememazing.com)[udemy free download](https://www.onlinefreecourse.net)[download intex firmware](https://www.frendx.com/firmware/)[Download Best WordPress Themes Free Download](https://www.themebanks.com)[free download udemy course](https://downloadtutorials.net)
- #primary 
-
 |Back to ...||Latest Version|IBM Rational Integration Tester (RIT) ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[5.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RIT-UCD/RIT-UCD-5.0.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
