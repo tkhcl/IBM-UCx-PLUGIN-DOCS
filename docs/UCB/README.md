@@ -20,7 +20,7 @@ Contents
 	* [CodeStation](#codestation)
 	* [CppUnit](#cppunit)
 	* [Cucumber](#cucumber)
-	* [DevOps Insights – Deployment Risk Analytics (DRA)](#devops-insights--deployment-risk-analytics-dra)
+	* [DevOps Insights - Deployment Risk Analytics (DRA)](#devops-insights---deployment-risk-analytics-dra)
 	* [Docker Build](#docker-build)
 	* [File System for IBM UrbanCode Build](#file-system-for-ibm-urbancode-build)
 	* [File Utils for IBM UrbanCode Build](#file-utils-for-ibm-urbancode-build)
@@ -76,8 +76,7 @@ Contents
 ## AccuRev
 
 
-AccuRev is a tool that provides version control for source code.   The AccuRev plug-in automates populating an AccuRev 
-workspace, creating a tag, and publishing source changes to the Changes tab of the buildlife.
+AccuRev is a tool that provides version control for source code.
 
 ---
   
@@ -88,7 +87,7 @@ workspace, creating a tag, and publishing source changes to the Changes tab of t
 ## AccuWork
 
 
-The integration with AccuWork to report on issues and add comments to them.    Available Steps
+The integration with AccuWork to report on issues and add comments to them.
 
 ---
   
@@ -99,9 +98,7 @@ The integration with AccuWork to report on issues and add comments to them.    A
 ## Ant
 
 
-Apache Ant is a software tool that automates software processes during the building or deployment of an application. Ant
-  uses an proprietary XML file to define build and deployment steps, which are referred to as targets in Ant. Ant is 
-called to run the targets in the build.xml file.  
+Apache Ant is a software tool that automates software processes during the building or deployment of an application. Ant uses an proprietary XML file to define build and deployment steps, which are referred to as targets in Ant. Ant iscalled to run the targets in the build.xml file.
 
 ---
   
@@ -112,8 +109,7 @@ called to run the targets in the build.xml file.
 ## Artifactory for IBM UrbanCode Build
 
 
-The Artifactory automation plug-in includes steps to complete the following tasks:   * Download artifacts from an 
-Artifactory repository
+The Artifactory automation plug-in includes steps to complete the following tasks:
 
 ---
   
@@ -124,8 +120,7 @@ Artifactory repository
 ## CA Harvest SCM
 
 
-The CA Harvest SCM plug-in automates integration with a CA Harvest repository. Using the plug-in you can checkout and 
-publish source changes to the Changes tab of the BuildLife.   This UrbanCode Build plug-in works with all current
+The CA Harvest SCM plug-in automates integration with a CA Harvest repository. Using the plug-in you can checkout andpublish source changes to the Changes tab of the BuildLife.
 
 ---
   
@@ -136,8 +131,7 @@ publish source changes to the Changes tab of the BuildLife.   This UrbanCode Bui
 ## Checkstyle
 
 
-Checkstyle is an analytic tool that programmers can use to verify that Java code adheres to a coding standard. It 
-provides an automated process for enforcing a coding standard.   The IBM UrbanCode Build Checkstyle plug-in uploads the
+Checkstyle is an analytic tool that programmers can use to verify that Java code adheres to a coding standard. Itprovides an automated process for enforcing a coding standard.
 
 ---
   
@@ -148,8 +142,7 @@ provides an automated process for enforcing a coding standard.   The IBM UrbanCo
 ## ClearCase Base Snapshot
 
 
-IBM Rational ClearCase provides tools for supporting software configuration management (SCM) of source code and other 
-software development assets.   The ClearCase Base Snapshot plug-in integrates IBM UrbanCode Build with IBM Rational
+IBM Rational ClearCase provides tools for supporting software configuration management (SCM) of source code and othersoftware development assets.
 
 ---
   
@@ -160,8 +153,7 @@ software development assets.   The ClearCase Base Snapshot plug-in integrates IB
 ## ClearCase UCM
 
 
-IBM Rational ClearCase provides tools for supporting software configuration management (SCM) of source code and other 
-software development assets.   The ClearCase UCM plug-in integrates IBM UrbanCode Build with Rational ClearCase allowing
+IBM Rational ClearCase provides tools for supporting software configuration management (SCM) of source code and othersoftware development assets.
 
 ---
   
@@ -172,8 +164,7 @@ software development assets.   The ClearCase UCM plug-in integrates IBM UrbanCod
 ## ClearQuest
 
 
-ClearQuest provides change tracking, process automation, reporting and lifecycle traceability for better visibility and 
-control of the software development lifecycle.   
+ClearQuest provides change tracking, process automation, reporting and lifecycle traceability for better visibility andcontrol of the software development lifecycle.
 
 ---
   
@@ -184,8 +175,7 @@ control of the software development lifecycle.
 ## Clover
 
 
-Atlassian Clover is a code coverage tool that collects and generates a report about the code covered through automatic 
-testing.   The Clover plug-in uploads Clover test results.
+Atlassian Clover is a code coverage tool that collects and generates a report about the code covered through automatictesting.
 
 ---
   
@@ -196,8 +186,7 @@ testing.   The Clover plug-in uploads Clover test results.
 ## Cobertura
 
 
-Cobertura is a Java tool that calculates the percentage of code accessed by tests.   The Cobertura plug-in contains a 
-step to upload Cobertura report results.
+Cobertura is a Java tool that calculates the percentage of code accessed by tests.
 
 ---
   
@@ -208,7 +197,7 @@ step to upload Cobertura report results.
 ## CodeStation
 
 
-The CodeStation plug-in provides steps to download artifacts from and upload artifacts to CodeStation.    Available
+The CodeStation plug-in provides steps to download artifacts from and upload artifacts to CodeStation.
 
 ---
   
@@ -219,7 +208,7 @@ The CodeStation plug-in provides steps to download artifacts from and upload art
 ## CppUnit
 
 
-CppUnit is a unit testing framework for the C++ programming language.    Available Steps
+CppUnit is a unit testing framework for the C++ programming language.
 
 ---
   
@@ -230,8 +219,7 @@ CppUnit is a unit testing framework for the C++ programming language.    Availab
 ## Cucumber
 
 
-Cucumber is a software testing tool that runs automated acceptance tests written in a behavior-driven development (BDD) 
-style. BDD testing focuses on the behaviour of the product.   The Cucumber plug-in automates the running of Cucumber
+Cucumber is a software testing tool that runs automated acceptance tests written in a behavior-driven development (BDD)style. BDD testing focuses on the behaviour of the product.
 
 ---
   
@@ -239,24 +227,21 @@ style. BDD testing focuses on the behaviour of the product.   The Cucumber plug-
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](Cucumber/README.md)|[1.922549](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Cucumber/Cucumber-1.922549.zip)|
 
-## DevOps Insights – Deployment Risk Analytics (DRA)
+## DevOps Insights - Deployment Risk Analytics (DRA)
 
 
- DevOps Insights aggregates data from multiple tools and provides insights to improve the agility, reliability, and 
-security of your applications and your DevOps process. Use its built-in dashboards and data reporting services to learn 
-where you most need to improve your developer productivity, code quality, and delivery cycle times. 
+DevOps Insights aggregates data from multiple tools and provides insights to improve the agility, reliability, andsecurity of your applications and your DevOps process. Use its built-in dashboards and data reporting services to learnwhere you most need to improve your developer productivity, code quality, and delivery cycle times.
 
 ---
   
-|Back to ...||DevOps Insights – Deployment Risk Analytics (DRA) |Latest Version|
+|Back to ...||DevOps Insights - Deployment Risk Analytics (DRA) |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](bluemix-deployment-risk-analytics/README.md)|[1.939632](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/bluemix-deployment-risk-analytics/devops-insights-deployment-risk-analytics-ubuild-1.939632.zip)|
 
 ## Docker Build
 
 
-Docker is an open platform for distributed applications for developers and sysadmins.   Leverage this plugin to build 
-Docker images with UrbanCode Build
+Docker is an open platform for distributed applications for developers and sysadmins.
 
 ---
   
@@ -267,7 +252,7 @@ Docker images with UrbanCode Build
 ## File System for IBM UrbanCode Build
 
 
-Instead of using a SCM system, the File System repository expects files to be present in the working directory.    
+Instead of using a SCM system, the File System repository expects files to be present in the working directory.
 
 ---
   
@@ -278,8 +263,7 @@ Instead of using a SCM system, the File System repository expects files to be pr
 ## File Utils for IBM UrbanCode Build
 
 
-The File Utils plug-in includes steps that automate folder and file tasks as part of a deployment process.   For 
-example, this plug-in includes steps for deleting or creating directories and for replacing tokens in a file.
+The File Utils plug-in includes steps that automate folder and file tasks as part of a deployment process.
 
 ---
   
@@ -290,8 +274,7 @@ example, this plug-in includes steps for deleting or creating directories and fo
 ## FindBugs
 
 
-FindBugs is an open source development tool which uses static analysis to look for bugs in Java code. The FindBugs 
-plugin uploads the FindBugs results generated during the build to the Analytics tab of the BuildLife.   
+FindBugs is an open source development tool which uses static analysis to look for bugs in Java code. The FindBugsplugin uploads the FindBugs results generated during the build to the Analytics tab of the BuildLife.
 
 ---
   
@@ -302,8 +285,7 @@ plugin uploads the FindBugs results generated during the build to the Analytics 
 ## Gerrit
 
 
-Gerrit is a web based code review system, facilitating online code reviews for projects using the Git version control 
-system.   Gerrit makes reviews easier by showing changes in a side-by-side display, and allowing inline comments to be
+Gerrit is a web based code review system, facilitating online code reviews for projects using the Git version controlsystem.
 
 ---
   
@@ -314,9 +296,7 @@ system.   Gerrit makes reviews easier by showing changes in a side-by-side displ
 ## Git for IBM UrbanCode Build
 
 
-Git is a distributed revision control system. Git was initially designed and developed by Linus Torvalds for Linux 
-kernel development. The Git plug-in automates cloning a Git repository, tagging source artifacts, and publishing source 
-artifact changes to the Changes page of the build life.  
+Git is a distributed revision control system. Git was initially designed and developed by Linus Torvalds for Linuxkernel development. The Git plug-in automates cloning a Git repository, tagging source artifacts, and publishing sourceartifact changes to the Changes page of the build life.
 
 ---
   
@@ -327,9 +307,7 @@ artifact changes to the Changes page of the build life.
 ## Gradle for IBM UrbanCode Build
 
 
-Loading the Gradle plugin will give users access to the Gradle Job steps for use when designing your build.   This plug-
- in is developed and supported by the UrbanCode Build Community on GitHub. Click the “Visit Project” button at the top 
-of
+Loading the Gradle plugin will give users access to the Gradle Job steps for use when designing your build.
 
 ---
   
@@ -340,8 +318,7 @@ of
 ## Groovy for IBM UrbanCode Build
 
 
-Groovy is an object-oriented programming language for the Java platform. It is a dynamic language and can be used as a 
-scripting language.   The Groovy plug-in is an automation-type plug-in that provides a step for running user-defined
+Groovy is an object-oriented programming language for the Java platform. It is a dynamic language and can be used as ascripting language.
 
 ---
   
@@ -352,8 +329,7 @@ scripting language.   The Groovy plug-in is an automation-type plug-in that prov
 ## HP Fortify
 
 
-HP’s Fortify Source Code Analyzer provides static analysis of application source code to help identify possible security
-  vulnerabilities.   The HP Fortify plugin will build and scan the project and upload the results to the HP Fortify
+HP’s Fortify Source Code Analyzer provides static analysis of application source code to help identify possible security vulnerabilities.
 
 ---
   
@@ -364,11 +340,7 @@ HP’s Fortify Source Code Analyzer provides static analysis of application sour
 ## HP Quality Center
 
 
-HP Quality Center (QC) is a set of web-based test management software offerings from the HP Software Division of 
-Hewlett-Packard, many of which were acquired from Mercury Interactive Corporation. HP Quality Center offers software 
-quality assurance, including requirements management, test management and business process testing for IT and 
-application environments. In order for this plugin to work with HP ALM 11 and later, you must open the web UI of HP ALM 
-from the agent machine, click on their ‘Add-ins Page’ link and install the ‘HP ALM Connectivity’ add-in.
+HP Quality Center (QC) is a set of web-based test management software offerings from the HP Software Division ofHewlett-Packard, many of which were acquired from Mercury Interactive Corporation. HP Quality Center offers softwarequality assurance, including requirements management, test management and business process testing for IT andapplication environments. In order for this plugin to work with HP ALM 11 and later, you must open the web UI of HP ALMfrom the agent machine, click on their ‘Add-ins Page’ link and install the ‘HP ALM Connectivity’ add-in.
 
 ---
   
@@ -379,8 +351,7 @@ from the agent machine, click on their ‘Add-ins Page’ link and install the �
 ## IBM Dependency Based Build
 
 
-The UrbanCode Build IBM Dependency Based Build plug-in automates inclusion of building traditional z/OS applications 
-such as COBOL and PL/I.   |Back to ...||Latest Version||||
+The UrbanCode Build IBM Dependency Based Build plug-in automates inclusion of building traditional z/OS applicationssuch as COBOL and PL/I.
 
 ---
   
@@ -391,9 +362,7 @@ such as COBOL and PL/I.   |Back to ...||Latest Version||||
 ## IBM Security AppScan Source
 
 
-IBM® Security AppScan® Source helps organizations lower costs and reduce risk exposure by identifying web-based and 
-mobile application source code vulnerabilities early in the software development lifecycle, so they can be fixed before 
-deployment.  
+IBM® Security AppScan® Source helps organizations lower costs and reduce risk exposure by identifying web-based andmobile application source code vulnerabilities early in the software development lifecycle, so they can be fixed beforedeployment.
 
 ---
   
@@ -404,8 +373,7 @@ deployment.
 ## IBM UrbanCode Deploy for IBM UrbanCode Build
 
 
-IBM UrbanCode Deploy provides release management and automation to improve speed, correctness, and traceability of 
-complex application deployments.   This plug-in includes steps to create component versions in IBM UrbanCode Deploy and
+IBM UrbanCode Deploy provides release management and automation to improve speed, correctness, and traceability ofcomplex application deployments.
 
 ---
   
@@ -416,8 +384,7 @@ complex application deployments.   This plug-in includes steps to create compone
 ## JIRA for IBM UrbanCode Build
 
 
-JIRA is an issue tracking product, developed by Atlassian. It is used for bug tracking, issue tracking and project 
-management.   This plugin provides a integrations with JIRA. Issues can be reported on, commented on, updated and
+JIRA is an issue tracking product, developed by Atlassian. It is used for bug tracking, issue tracking and projectmanagement.
 
 ---
   
@@ -428,8 +395,7 @@ management.   This plugin provides a integrations with JIRA. Issues can be repor
 ## JUnit for IBM UrbanCode Build
 
 
-JUnit is a unit testing framework for the Java programming language. The JUnit plug-in publishes results of a JUnit test
-  into a report.   
+JUnit is a unit testing framework for the Java programming language. The JUnit plug-in publishes results of a JUnit test into a report.
 
 ---
   
@@ -440,7 +406,7 @@ JUnit is a unit testing framework for the Java programming language. The JUnit p
 ## JaCoCo
 
 
-Plugin to upload JaCoCo report results. This plugin version also now supports grouped reports.    Available Steps
+Plugin to upload JaCoCo report results. This plugin version also now supports grouped reports.
 
 ---
   
@@ -451,8 +417,7 @@ Plugin to upload JaCoCo report results. This plugin version also now supports gr
 ## LogiGear TestArchitect for IBM UrbanCode Build
 
 
- The LogiGear TestArchitect plug-in for IBM UrbanCode Deploy and Build provides steps to run tests using the 
-TestArchitect command line interface.  
+The LogiGear TestArchitect plug-in for IBM UrbanCode Deploy and Build provides steps to run tests using theTestArchitect command line interface.
 
 ---
   
@@ -463,7 +428,7 @@ TestArchitect command line interface.
 ## MSBuild
 
 
-MSBuild is the build system for Visual Studio.   The MSBuild plugin allows running of MSBuild files. 
+MSBuild is the build system for Visual Studio.
 
 ---
   
@@ -474,8 +439,7 @@ MSBuild is the build system for Visual Studio.   The MSBuild plugin allows runni
 ## MSTest
 
 
-The MSTest.exe is used to run automated test from a command line. The MSTest plug-in uploads MSTest results generated 
-during the build to the Test tab of the BuildLife.   
+The MSTest.exe is used to run automated test from a command line. The MSTest plug-in uploads MSTest results generatedduring the build to the Test tab of the BuildLife.
 
 ---
   
@@ -486,7 +450,7 @@ during the build to the Test tab of the BuildLife.
 ## Make
 
 
-Plugin to allow running of Make files.    Available Steps
+Plugin to allow running of Make files.
 
 ---
   
@@ -497,8 +461,7 @@ Plugin to allow running of Make files.    Available Steps
 ## Maven for IBM UrbanCode Build
 
 
-Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model 
-(POM), Maven can manage building, reporting and documenting a project from a central piece of information.   The Maven
+Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model(POM), Maven can manage building, reporting and documenting a project from a central piece of information.
 
 ---
   
@@ -509,8 +472,7 @@ Apache Maven is a software project management and comprehension tool. Based on t
 ## Mercurial
 
 
-Mercurial is a cross-platform, distributed revision control tool for software developers.   The Mercurial plugin 
-automates cleaning and populating a Mercurial workspace, creating a tag, and publishing source changes to the Changes
+Mercurial is a cross-platform, distributed revision control tool for software developers.
 
 ---
   
@@ -521,9 +483,7 @@ automates cleaning and populating a Mercurial workspace, creating a tag, and pub
 ## Mocha
 
 
-Mocha is a testing framework that allows you to organize and run testcases on JavaScript that runs in a Node.js. Mocha 
-runs in a browser and provides a number of features such as: browser support, asynchronous testing, test coverage 
-reports, and use of any assertion library.  
+Mocha is a testing framework that allows you to organize and run testcases on JavaScript that runs in a Node.js. Mocharuns in a browser and provides a number of features such as: browser support, asynchronous testing, test coveragereports, and use of any assertion library.
 
 ---
   
@@ -534,7 +494,7 @@ reports, and use of any assertion library.
 ## NAnt
 
 
-Plugin to allow running of NAnt files.    Available Steps
+Plugin to allow running of NAnt files.
 
 ---
   
@@ -545,7 +505,7 @@ Plugin to allow running of NAnt files.    Available Steps
 ## NCover
 
 
-Plugin to upload NCover test results.    Available Steps
+Plugin to upload NCover test results.
 
 ---
   
@@ -557,7 +517,6 @@ Plugin to upload NCover test results.    Available Steps
 
 
 NPM is the package manager for JavaScript. The NPM plugin provides command steps to perform the following operations:
-    * Initialize a package.json file
 
 ---
   
@@ -568,7 +527,7 @@ NPM is the package manager for JavaScript. The NPM plugin provides command steps
 ## NUnit
 
 
-NUnit is a unit-testing framework for all .Net languages.   Publish NUnit test results for reporting and trending. 
+NUnit is a unit-testing framework for all .Net languages.
 
 ---
   
@@ -579,9 +538,7 @@ NUnit is a unit-testing framework for all .Net languages.   Publish NUnit test r
 ## PMD
 
 
-PMD is an open source source code analyzer for Java source code. It scans source code looking for potential programming 
-issues and produces a report of found problems. Some of the types of issues that are located are: unused variables, 
-empty catch blocks, and unnecessary loops and IF statements.  
+PMD is an open source source code analyzer for Java source code. It scans source code looking for potential programmingissues and produces a report of found problems. Some of the types of issues that are located are: unused variables,empty catch blocks, and unnecessary loops and IF statements.
 
 ---
   
@@ -592,8 +549,7 @@ empty catch blocks, and unnecessary loops and IF statements.
 ## Perforce
 
 
-Perforce is a commercial, proprietary, centralized revision control system developed by Perforce Software, Inc.    
-Support for the Perforce source control management system.
+Perforce is a commercial, proprietary, centralized revision control system developed by Perforce Software, Inc.
 
 ---
   
@@ -604,7 +560,7 @@ Support for the Perforce source control management system.
 ## Preflight
 
 
-The Preflight plug-in provides steps that can be used for developer preflight builds.    Available Steps
+The Preflight plug-in provides steps that can be used for developer preflight builds.
 
 ---
   
@@ -615,8 +571,7 @@ The Preflight plug-in provides steps that can be used for developer preflight bu
 ## QTP
 
 
-HP QuickTest Professional provides functional and regression test automation for software applications and environments,
-  and can be used for enterprise quality assurance.   The QTP plugin executes QTP tests.
+HP QuickTest Professional provides functional and regression test automation for software applications and environments, and can be used for enterprise quality assurance.
 
 ---
   
@@ -627,8 +582,7 @@ HP QuickTest Professional provides functional and regression test automation for
 ## Rake
 
 
-Rake is a utility that controls the generation of executables and other nonsource files of a Ruby program. The 
-information for building the program is in a Rake script known as a Rakefile.   The Rake plug-in automates builds that
+Rake is a utility that controls the generation of executables and other nonsource files of a Ruby program. Theinformation for building the program is in a Rake script known as a Rakefile.
 
 ---
   
@@ -639,8 +593,7 @@ information for building the program is in a Rake script known as a Rakefile.   
 ## Rally for IBM UrbanCode Build
 
 
-Rally is an agile project management tool that tracks project requirements, tests and defects.   The Rally plug-in 
-contains steps to create and update Rally defects. It also provides steps to create a report of defects and build
+Rally is an agile project management tool that tracks project requirements, tests and defects.
 
 ---
   
@@ -651,9 +604,7 @@ contains steps to create and update Rally defects. It also provides steps to cre
 ## Rational Team Concert SCM
 
 
-IBM Rational Team Concert is collaborative lifecycle management software tool for systems and software development 
-teams. It provides source control to manage source code, documents, and other artifacts that you want to place under 
-version control and share with a team.  
+IBM Rational Team Concert is collaborative lifecycle management software tool for systems and software developmentteams. It provides source control to manage source code, documents, and other artifacts that you want to place underversion control and share with a team.
 
 ---
   
@@ -664,8 +615,7 @@ version control and share with a team.
 ## Rational Team Concert Work Items
 
 
-IBM Rational Team Concert integrates task tracking, source control, and agile planning with continuous builds and a 
-configurable process to adapt to the way you work.   The RTC Work Items plugin provides steps for the build to comment,
+IBM Rational Team Concert integrates task tracking, source control, and agile planning with continuous builds and aconfigurable process to adapt to the way you work.
 
 ---
   
@@ -676,7 +626,7 @@ configurable process to adapt to the way you work.   The RTC Work Items plugin p
 ## Report Publisher
 
 
-Uploads specified files as reports to the server.    Available Steps
+Uploads specified files as reports to the server.
 
 ---
   
@@ -687,7 +637,7 @@ Uploads specified files as reports to the server.    Available Steps
 ## Reporting
 
 
-The Reporting plug-in includes a step to run saved reports in workflows.    Available Steps
+The Reporting plug-in includes a step to run saved reports in workflows.
 
 ---
   
@@ -698,8 +648,7 @@ The Reporting plug-in includes a step to run saved reports in workflows.    Avai
 ## Salesforce
 
 
-The Salesforce plug-in for UrbanCode Build uses the Force.com Migration Tool to perform file-based deployment of 
-metadata changes and Apex classes.   |Back to ...||Latest Version||||
+The Salesforce plug-in for UrbanCode Build uses the Force.com Migration Tool to perform file-based deployment ofmetadata changes and Apex classes.
 
 ---
   
@@ -710,9 +659,7 @@ metadata changes and Apex classes.   |Back to ...||Latest Version||||
 ## Selenium for IBM UrbanCode Build
 
 
-Selenium provides a set of tools to automate testing web applications. It can also be used to automate basic browser 
-functions and administration tasks. Testing is accomplished through a set of Selenium commands that are stored in a HTML
-  text file.  
+Selenium provides a set of tools to automate testing web applications. It can also be used to automate basic browserfunctions and administration tasks. Testing is accomplished through a set of Selenium commands that are stored in a HTML text file.
 
 ---
   
@@ -723,11 +670,7 @@ functions and administration tasks. Testing is accomplished through a set of Sel
 ## Shell for IBM UrbanCode Build
 
 
-A shell provides an interface for users of an operating system that provides access to the services of a kernel. 
-Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells 
-provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user 
-interface (GUI). In either category, the primary purpose of the shell is to invoke or launch another program; however, 
-shells frequently have additional capabilities such as viewing the contents of directories.
+A shell provides an interface for users of an operating system that provides access to the services of a kernel.Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shellsprovide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical userinterface (GUI). In either category, the primary purpose of the shell is to invoke or launch another program; however,shells frequently have additional capabilities such as viewing the contents of directories.
 
 ---
   
@@ -738,8 +681,7 @@ shells frequently have additional capabilities such as viewing the contents of d
 ## SonarQube (formerly Sonar)
 
 
-SonarQube is a code quality analysis tool which covers the 7 axes of code quality; comments, architecture and design, 
-duplications, coding rules, potential bugs, unit tests, and complexity.   Plugin to provide SonarQube steps for .NET and
+SonarQube is a code quality analysis tool which covers the 7 axes of code quality; comments, architecture and design,duplications, coding rules, potential bugs, unit tests, and complexity.
 
 ---
   
@@ -750,8 +692,7 @@ duplications, coding rules, potential bugs, unit tests, and complexity.   Plugin
 ## Sonargraph
 
 
-The Sonargraph plugin uploads the Sonargraph results to the Analytics tab of the BuildLife. The Sonargraph plugin is 
-capable of parsing logs from Sonargraph-Architect.   
+The Sonargraph plugin uploads the Sonargraph results to the Analytics tab of the BuildLife. The Sonargraph plugin iscapable of parsing logs from Sonargraph-Architect.
 
 ---
   
@@ -762,8 +703,7 @@ capable of parsing logs from Sonargraph-Architect.
 ## Subversion for IBM UrbanCode Build
 
 
- Subversion is an open source version control software. It is used to maintain current and previous versions of source 
-code, web pages, and documentation.   Subversion was previously developed under the Subversion software project. It is
+ Subversion is an open source version control software. It is used to maintain current and previous versions of sourcecode, web pages, and documentation.
 
 ---
   
@@ -774,8 +714,7 @@ code, web pages, and documentation.   Subversion was previously developed under 
 ## TFS Work Items
 
 
-Work items in Microsoft Team Foundation Server can document work requests such as requirements, bugs, and reviews. Work 
-items can be tracked from creation to completion.   The TFS Work Items plug-in includes steps for creating and
+Work items in Microsoft Team Foundation Server can document work requests such as requirements, bugs, and reviews. Workitems can be tracked from creation to completion.
 
 ---
   
@@ -786,8 +725,7 @@ items can be tracked from creation to completion.   The TFS Work Items plug-in i
 ## Team Foundation Server
 
 
-Microsoft Team Foundation Server (TFS) is a source code management product for collaborative software development 
-project. It provides source control, data collection, reporting, and project tracking.   The Team Foundation Server
+Microsoft Team Foundation Server (TFS) is a source code management product for collaborative software developmentproject. It provides source control, data collection, reporting, and project tracking.
 
 ---
   
@@ -798,8 +736,7 @@ project. It provides source control, data collection, reporting, and project tra
 ## UCB Utilities
 
 
-The UCB Utilities plugin can be used to interact with different aspects of UrbanCode Build, including setting properties
-  in different scopes and writing JSON files.   
+The UCB Utilities plugin can be used to interact with different aspects of UrbanCode Build, including setting properties in different scopes and writing JSON files.
 
 ---
   
@@ -810,8 +747,7 @@ The UCB Utilities plugin can be used to interact with different aspects of Urban
 ## UrbanCode Velocity
 
 
-UrbanCode Velocity provides tools to help you visualize and understand your DevOps pipelines and processes. The 
-UrbanCode Velocity plug-in uploads build data into the UrbanCode Velocity server.   |Back to ...||Latest Version|||
+UrbanCode Velocity provides tools to help you visualize and understand your DevOps pipelines and processes. TheUrbanCode Velocity plug-in uploads build data into the UrbanCode Velocity server.
 
 ---
   
@@ -822,7 +758,7 @@ UrbanCode Velocity plug-in uploads build data into the UrbanCode Velocity server
 ## Visual Studio
 
 
-The Visual Studio plug-in can be used to build solution files with Visual Studio in headless mode.    Available Steps
+The Visual Studio plug-in can be used to build solution files with Visual Studio in headless mode.
 
 ---
   
@@ -833,8 +769,7 @@ The Visual Studio plug-in can be used to build solution files with Visual Studio
 ## Xcode
 
 
-Xcode is an Integrated Development Environment (IDE) containing a suite of software development tools developed by Apple
-  for developing software for OS X and iOS.   
+Xcode is an Integrated Development Environment (IDE) containing a suite of software development tools developed by Apple for developing software for OS X and iOS.
 
 ---
   
