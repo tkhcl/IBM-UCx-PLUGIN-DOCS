@@ -5,40 +5,41 @@ Welcome to UrbanCode Velocity Plugins
 Contents
 ========
 
-* [List of all Plugins](#list-of-all-plugins)
-	* [Apache JMeter](#apache-jmeter)
-	* [Azure DevOps](#azure-devops)
-	* [BitBucket Server](#bitbucket-server)
-	* [Black Duck](#black-duck)
-	* [Code Coverage](#code-coverage)
-	* [CollabNet VersionOne](#collabnet-versionone)
-	* [Cucumber](#cucumber)
-	* [Digital.ai Agility](#digitalai-agility)
-	* [GitHub](#github)
-	* [GitLab](#gitlab)
-	* [HCL AppScan Enterprise (ASE)](#hcl-appscan-enterprise-ase)
-	* [HCL AppScan on Cloud (ASoC)](#hcl-appscan-on-cloud-asoc)
-	* [HCL OneTest](#hcl-onetest)
-	* [HCL OneTest Server](#hcl-onetest-server)
-	* [Handlebar Reporter](#handlebar-reporter)
-	* [IBM Engineering Workflow Management (EWM)](#ibm-engineering-workflow-management-ewm)
-	* [JUnit](#junit)
-	* [Jira](#jira)
-	* [Rally](#rally)
-	* [Rational Test Automation Server](#rational-test-automation-server)
-	* [Selenium](#selenium)
-	* [ServiceNow](#servicenow)
-	* [SonarQube](#sonarqube)
-	* [TestComplete](#testcomplete)
-	* [TestNG](#testng)
-	* [Twistlock](#twistlock)
+- [Welcome to UrbanCode Velocity Plugins](#welcome-to-urbancode-velocity-plugins)
+- [Contents](#contents)
+- [List of all Plugins](#list-of-all-plugins)
+	- [Apache JMeter](#apache-jmeter)
+	- [Azure DevOps](#azure-devops)
+	- [BitBucket Server](#bitbucket-server)
+	- [Black Duck](#black-duck)
+	- [Code Coverage](#code-coverage)
+	- [CollabNet VersionOne](#collabnet-versionone)
+	- [Cucumber](#cucumber)
+	- [Digital.ai Agility](#digitalai-agility)
+	- [GitHub](#github)
+	- [GitLab](#gitlab)
+	- [HCL AppScan Enterprise (ASE)](#hcl-appscan-enterprise-ase)
+	- [HCL AppScan on Cloud (ASoC)](#hcl-appscan-on-cloud-asoc)
+	- [HCL OneTest](#hcl-onetest)
+	- [HCL OneTest Server](#hcl-onetest-server)
+	- [Handlebar Reporter](#handlebar-reporter)
+	- [IBM Engineering Workflow Management (EWM)](#ibm-engineering-workflow-management-ewm)
+	- [JUnit](#junit)
+	- [Jira](#jira)
+	- [Rally](#rally)
+	- [Rational Test Automation Server](#rational-test-automation-server)
+	- [Selenium](#selenium)
+	- [ServiceNow](#servicenow)
+	- [SonarQube](#sonarqube)
+	- [TestComplete](#testcomplete)
+	- [TestNG](#testng)
+	- [Twistlock](#twistlock)
 
 # List of all Plugins
 
 ## Apache JMeter
 
-
-Meter is a testing tool to analyze and measure web application performance. The JMeter plug-in imports the test resultsdata in UrbanCode Velocity metrics.
+Meter is a testing tool to analyze and measure web application performance. The JMeter plug-in imports the test results  data in UrbanCode Velocity metrics.
 
 ---
   
@@ -48,8 +49,7 @@ Meter is a testing tool to analyze and measure web application performance. The 
 
 ## Azure DevOps
 
-
-Azure DevOps (formerly Microsoft Team Foundation Server (TFS) or Microsoft TFS)provides services to manage end-to-endflow of a development project. It contains services to share code, track work, and ship software.
+Azure DevOps (formerly Microsoft Team Foundation Server (TFS) or Microsoft TFS)provides services to manage end-to-end  flow of a development project. It contains services to share code, track work, and ship software.
 
 ---
   
@@ -59,8 +59,7 @@ Azure DevOps (formerly Microsoft Team Foundation Server (TFS) or Microsoft TFS)p
 
 ## BitBucket Server
 
-
-Bitbucket is a source code version control repository hosting service owned by Atlassian. It contains tools to managesource code for a project.
+Bitbucket is a source code version control repository hosting service owned by Atlassian. It contains tools to manage  source code for a project.
 
 ---
   
@@ -70,8 +69,7 @@ Bitbucket is a source code version control repository hosting service owned by A
 
 ## Black Duck
 
-
-Black Duck by Synopsys identifies open source related vulnerabilities in applications and containers. It tracks the open source in code, mitigate security and license compliance, and automates enforcing open source policies.
+Black Duck by Synopsys identifies open source related vulnerabilities in applications and containers. It tracks the open  source in code, mitigate security and license compliance, and automates enforcing open source policies.
 
 ---
   
@@ -81,8 +79,7 @@ Black Duck by Synopsys identifies open source related vulnerabilities in applica
 
 ## Code Coverage
 
-
-The Code Coverage plug-in allows for parsing of data from several code coverage tool. Included are LCOV, Cobertura,JaCoCo, and Clover data.
+The Code Coverage plug-in allows for parsing of data from several code coverage tool. Included are LCOV, Cobertura,  JaCoCo, and Clover data.
 
 ---
   
@@ -91,7 +88,6 @@ The Code Coverage plug-in allows for parsing of data from several code coverage 
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-coverage-core/README.md)|[1.0.30]()|
 
 ## CollabNet VersionOne
-
 
 CollabNet VersionOne is a web-based project management tool. It manages the entire software development life cycle.
 
@@ -103,8 +99,7 @@ CollabNet VersionOne is a web-based project management tool. It manages the enti
 
 ## Cucumber
 
-
-Cucumber is a software testing tool that runs automated acceptance tests written in a behavior-driven development (BDD)style. BDD testing focuses on the behaviour of the product.
+Cucumber is a software testing tool that runs automated acceptance tests written in a behavior-driven development (BDD)  style. BDD testing focuses on the behaviour of the product.
 
 ---
   
@@ -114,8 +109,7 @@ Cucumber is a software testing tool that runs automated acceptance tests written
 
 ## Digital.ai Agility
 
-
-Digital.ai.Agility is Enterprise level planning and tracking platform to build agile practices that scale across theenterprise.
+Digital.ai.Agility is Enterprise level planning and tracking platform to build agile practices that scale across the  enterprise.
 
 ---
   
@@ -125,8 +119,7 @@ Digital.ai.Agility is Enterprise level planning and tracking platform to build a
 
 ## GitHub
 
-
-GitHub is a Git repository hosting service. It provides tools to manage artifacts on the Git repository. The GitHubplug-in imports Git artifacts based on queries for issues, commits and pull requests.
+GitHub is a Git repository hosting service. It provides tools to manage artifacts on the Git repository. The GitHub  plug-in imports Git artifacts based on queries for issues, commits and pull requests.
 
 ---
   
@@ -136,8 +129,7 @@ GitHub is a Git repository hosting service. It provides tools to manage artifact
 
 ## GitLab
 
-
-GitLab provides management of git repositories. The GitLab plug-in imports issues, commits, merge requests and buildsfrom a GitLab server.
+GitLab provides management of git repositories. The GitLab plug-in imports issues, commits, merge requests and builds  from a GitLab server.
 
 ---
   
@@ -147,8 +139,7 @@ GitLab provides management of git repositories. The GitLab plug-in imports issue
 
 ## HCL AppScan Enterprise (ASE)
 
-
-AppScan Enterprise delivers scalable application security testing and risk management capabilities, to help enterprisesmanage risk and compliance. AppScan enables security, DevOps teams to collaborate, establish policies, and performtesting throughout the application development lifecycle. The AppScan Enterprise plug-in imports scan results toinsights.
+AppScan Enterprise delivers scalable application security testing and risk management capabilities, to help enterprises  manage risk and compliance. AppScan enables security, DevOps teams to collaborate, establish policies, and perform  testing throughout the application development lifecycle. The AppScan Enterprise plug-in imports scan results to  insights.
 
 ---
   
@@ -158,8 +149,7 @@ AppScan Enterprise delivers scalable application security testing and risk manag
 
 ## HCL AppScan on Cloud (ASoC)
 
-
-HCL AppScan on Cloud (ASoC) is an application security offering that allows you to scan a web URL for securityvulnerabilities.
+HCL AppScan on Cloud (ASoC) is an application security offering that allows you to scan a web URL for security  vulnerabilities.
 
 ---
   
@@ -169,8 +159,7 @@ HCL AppScan on Cloud (ASoC) is an application security offering that allows you 
 
 ## HCL OneTest
 
-
-The HCL OneTest tool provides automated software testing tools. This plug-in provides integration of Functional,Performance and Web UI testing results (JSON) into the UrbanCode Velocity server.
+The HCL OneTest tool provides automated software testing tools. This plug-in provides integration of Functional,  Performance and Web UI testing results (JSON) into the UrbanCode Velocity server.
 
 ---
   
@@ -179,7 +168,6 @@ The HCL OneTest tool provides automated software testing tools. This plug-in pro
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-onetest/README.md)|[1.0.30]()|
 
 ## HCL OneTest Server
-
 
 The HCL OneTest Server plug-in imports test results as metrics into the UrbanCode Velocity server.
 
@@ -191,8 +179,7 @@ The HCL OneTest Server plug-in imports test results as metrics into the UrbanCod
 
 ## Handlebar Reporter
 
-
-Handlebars is a simple templating language. It can be used to generate HTML or other text formats from a template andinput object.
+Handlebars is a simple templating language. It can be used to generate HTML or other text formats from a template and  input object.
 
 ---
   
@@ -202,8 +189,7 @@ Handlebars is a simple templating language. It can be used to generate HTML or o
 
 ## IBM Engineering Workflow Management (EWM)
 
-
-The IBM Engineering Workflow Management (EWM) plug-in, previously known as the IBM Rational Team Concert, providesintegration with the IBM Workflow Management (EWM) server. This plug-in imports work items from an IBM EWM server to anUrban Code Velocity value stream map.
+The IBM Engineering Workflow Management (EWM) plug-in, previously known as the IBM Rational Team Concert, provides  integration with the IBM Workflow Management (EWM) server. This plug-in imports work items from an IBM EWM server to an  Urban Code Velocity value stream map.
 
 ---
   
@@ -213,8 +199,7 @@ The IBM Engineering Workflow Management (EWM) plug-in, previously known as the I
 
 ## JUnit
 
-
-JUnit provides a testing framework for the Java programming language. The JUnit plug-in imports the test results data in UrbanCode Velocity metrics.
+JUnit provides a testing framework for the Java programming language. The JUnit plug-in imports the test results data in  UrbanCode Velocity metrics.
 
 ---
   
@@ -224,8 +209,7 @@ JUnit provides a testing framework for the Java programming language. The JUnit 
 
 ## Jira
 
-
-Jira is an issue tracking product, developed by Atlassian. The Jira plug-in provides an integration with Jira to importand work with Jira work items.
+Jira is an issue tracking product, developed by Atlassian. The Jira plug-in provides an integration with Jira to import  and work with Jira work items.
 
 ---
   
@@ -235,8 +219,7 @@ Jira is an issue tracking product, developed by Atlassian. The Jira plug-in prov
 
 ## Rally
 
-
-Rally is an Agile project management tool for planning, scheduling, and tracking iterations and releases. The Rallyplug-in provides for integration with a Rally server. It imports Rally artifacts into the UrbanCode Velocity server.
+Rally is an Agile project management tool for planning, scheduling, and tracking iterations and releases. The Rally  plug-in provides for integration with a Rally server. It imports Rally artifacts into the UrbanCode Velocity server.
 
 ---
   
@@ -246,8 +229,7 @@ Rally is an Agile project management tool for planning, scheduling, and tracking
 
 ## Rational Test Automation Server
 
-
-Rational Test Automation Server is a fully-containerized (Docker) server component used by test teams to consolidatetesting from each of the Test Workbench products into a single view.
+Rational Test Automation Server is a fully-containerized (Docker) server component used by test teams to consolidate  testing from each of the Test Workbench products into a single view.
 
 ---
   
@@ -257,8 +239,7 @@ Rational Test Automation Server is a fully-containerized (Docker) server compone
 
 ## Selenium
 
-
-**Note:** This is not a plug-in.|Back to ...||Latest Version|| :---: | :---: | :---: ||[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[0]()|
+**Note:** This is not a plug-in.
 
 ---
   
@@ -268,8 +249,7 @@ Rational Test Automation Server is a fully-containerized (Docker) server compone
 
 ## ServiceNow
 
-
-The ServiceNow plug-in for IBM UrbanCode Velocity automates the importing of ServiceNow incident management(Beta),change management and problem management data from a ServiceNow server.
+The ServiceNow plug-in for IBM UrbanCode Velocity automates the importing of ServiceNow incident management(Beta),  change management and problem management data from a ServiceNow server.
 
 ---
   
@@ -279,8 +259,7 @@ The ServiceNow plug-in for IBM UrbanCode Velocity automates the importing of Ser
 
 ## SonarQube
 
-
-SonarQube is an open source tool suite to measure and analyze the quality of source code. It focuses on the followingcode quality areas, which are referred to as the “7 axes of code quality”: comments, architecture and design,duplication, coding rules, potential bugs, unit tests, and complexity.
+SonarQube is an open source tool suite to measure and analyze the quality of source code. It focuses on the following  code quality areas, which are referred to as the “7 axes of code quality”: comments, architecture and design,  duplication, coding rules, potential bugs, unit tests, and complexity.
 
 ---
   
@@ -290,8 +269,7 @@ SonarQube is an open source tool suite to measure and analyze the quality of sou
 
 ## TestComplete
 
-
-**Note:** This is not a plug-in.|Back to ...||Latest Version|| :---: | :---: | :---: ||[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[0]()|
+**Note:** This is not a plug-in.
 
 ---
   
@@ -301,8 +279,7 @@ SonarQube is an open source tool suite to measure and analyze the quality of sou
 
 ## TestNG
 
-
-TestNG is a testing framework for Java programming. This plug-in provides integration of testing results into theUrbanCode Velocity server.
+TestNG is a testing framework for Java programming. This plug-in provides integration of testing results into the  UrbanCode Velocity server.
 
 ---
   
@@ -312,8 +289,7 @@ TestNG is a testing framework for Java programming. This plug-in provides integr
 
 ## Twistlock
 
-
-Twistlock provides container security. It is a rule-based access control policy system for Docker and Kubernetescontainers. The Twistlock plug-in imports the Twistlock data in UrbanCode Velocity metrics.
+Twistlock provides container security. It is a rule-based access control policy system for Docker and Kubernetes  containers. The Twistlock plug-in imports the Twistlock data in UrbanCode Velocity metrics.
 
 ---
   

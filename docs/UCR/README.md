@@ -5,27 +5,28 @@ Welcome to UrbanCode Release Plugins
 Contents
 ========
 
-* [List of all Plugins](#list-of-all-plugins)
-	* [Ansible Tower](#ansible-tower)
-	* [CA Nolio](#ca-nolio)
-	* [Deployment Reports](#deployment-reports)
-	* [HP Quality Center (ALM)](#hp-quality-center-alm)
-	* [IBM UrbanCode Deploy](#ibm-urbancode-deploy)
-	* [Jenkins for IBM UrbanCode Release](#jenkins-for-ibm-urbancode-release)
-	* [Jira for IBM UrbanCode Release](#jira-for-ibm-urbancode-release)
-	* [Microsoft Team Foundation Server (TFS)](#microsoft-team-foundation-server-tfs)
-	* [Rally](#rally)
-	* [Rational Team Concert v6](#rational-team-concert-v6)
-	* [ServiceNow](#servicenow)
-	* [Slack for IBM UrbanCode Release](#slack-for-ibm-urbancode-release)
-	* [XL Deploy](#xl-deploy)
+- [Welcome to UrbanCode Release Plugins](#welcome-to-urbancode-release-plugins)
+- [Contents](#contents)
+- [List of all Plugins](#list-of-all-plugins)
+	- [Ansible Tower](#ansible-tower)
+	- [CA Nolio](#ca-nolio)
+	- [Deployment Reports](#deployment-reports)
+	- [HP Quality Center (ALM)](#hp-quality-center-alm)
+	- [IBM UrbanCode Deploy](#ibm-urbancode-deploy)
+	- [Jenkins for IBM UrbanCode Release](#jenkins-for-ibm-urbancode-release)
+	- [Jira for IBM UrbanCode Release](#jira-for-ibm-urbancode-release)
+	- [Microsoft Team Foundation Server (TFS)](#microsoft-team-foundation-server-tfs)
+	- [Rally](#rally)
+	- [Rational Team Concert v6](#rational-team-concert-v6)
+	- [ServiceNow](#servicenow)
+	- [Slack for IBM UrbanCode Release](#slack-for-ibm-urbancode-release)
+	- [XL Deploy](#xl-deploy)
 
 # List of all Plugins
 
 ## Ansible Tower
 
-
-The Red Hat© Ansible© Tower centralize and control your IT infrastructure with a visual dashboard, role-based accesscontrol, job scheduling, integrated notifications and graphical inventory management.
+The Red Hat© Ansible© Tower centralize and control your IT infrastructure with a visual dashboard, role-based access  control, job scheduling, integrated notifications and graphical inventory management. The Ansible Tower plug-in
 
 ---
   
@@ -35,8 +36,7 @@ The Red Hat© Ansible© Tower centralize and control your IT infrastructure with
 
 ## CA Nolio
 
-
-The CA Nolio plug-in provides for the integration of UrbanCode Release with CA Release Automation Server. The pluginsupports sync of Applications, Environments, Application Processes, Snapshots (Deployment Plan), and Inventories. Italso handles the execution of generic processes. Both full and delta synchronization is supported.
+The CA Nolio plug-in provides for the integration of UrbanCode Release with CA Release Automation Server. The plugin  supports sync of Applications, Environments, Application Processes, Snapshots (Deployment Plan), and Inventories. It  also handles the execution of generic processes. Both full and delta synchronization is supported.
 
 ---
   
@@ -46,8 +46,7 @@ The CA Nolio plug-in provides for the integration of UrbanCode Release with CA R
 
 ## Deployment Reports
 
-
-The IBM UrbanCode Release Deployment Reports plugin provides an example of using the UCR plugin framework and Java RESTAPI client introduced in UCR 6.1.1.0 to generate email based reports. Two example report formats are included, which are rendered using data extracted from UCR via the REST API and rendered into HTML content via the Apache Velocity template engine. The reports are delivered using the same email notification configuration used by the main UCR product intowhich the plugin is deployed.
+The IBM UrbanCode Release Deployment Reports plugin provides an example of using the UCR plugin framework and Java REST  API client introduced in UCR 6.1.1.0 to generate email based reports. Two example report formats are included, which are  rendered using data extracted from UCR via the REST API and rendered into HTML content via the Apache Velocity template  engine. The reports are delivered using the same email notification configuration used by the main UCR product into  which the plugin is deployed.
 
 ---
   
@@ -57,8 +56,7 @@ The IBM UrbanCode Release Deployment Reports plugin provides an example of using
 
 ## HP Quality Center (ALM)
 
-
-The HP ALM plugin for UrbanCode Release provides visibility into project entities, such as defects and requirements,from the impact analysis view of UrbanCode Release.
+The HP ALM plugin for UrbanCode Release provides visibility into project entities, such as defects and requirements,  from the impact analysis view of UrbanCode Release.
 
 ---
   
@@ -68,8 +66,7 @@ The HP ALM plugin for UrbanCode Release provides visibility into project entitie
 
 ## IBM UrbanCode Deploy
 
-
-The IBM UrbanCode Deploy plug-in provides a full integration between IBM UrbanCode Release and IBM UrbanCode Deploy. Itreplaces the built-in integration for versions 6.1.1.5 and later of IBM UrbanCode Release. The plug-in also improvesperformance for the first full synchronization and for delta updates on subsequent synchronizations.
+The IBM UrbanCode Deploy plug-in provides a full integration between IBM UrbanCode Release and IBM UrbanCode Deploy. It  replaces the built-in integration for versions 6.1.1.5 and later of IBM UrbanCode Release. The plug-in also improves  performance for the first full synchronization and for delta updates on subsequent synchronizations.
 
 ---
   
@@ -79,8 +76,7 @@ The IBM UrbanCode Deploy plug-in provides a full integration between IBM UrbanCo
 
 ## Jenkins for IBM UrbanCode Release
 
-
-Jenkins is a continuous integration server that utilizes a plug-in model to support interactions with other DevOpsproducts. Jenkins jobs can be synchronized using the Jenkins plug-in for IBM UrbanCode Release with the UrbanCodeRelease server allowing Jenkin jobs to be ran as part of a release plan.
+Jenkins is a continuous integration server that utilizes a plug-in model to support interactions with other DevOps  products. Jenkins jobs can be synchronized using the Jenkins plug-in for IBM UrbanCode Release with the UrbanCode  Release server allowing Jenkin jobs to be ran as part of a release plan.
 
 ---
   
@@ -90,8 +86,7 @@ Jenkins is a continuous integration server that utilizes a plug-in model to supp
 
 ## Jira for IBM UrbanCode Release
 
-
-Jira is an issue tracking tool. You can use the tool to capture and organize issues, assign work, and track activities.Issues can be anything from development tasks, code errors, project tasks, help-desk tickets, or human resource requestforms. The JIRA product is developed by Atlassian.
+Jira is an issue tracking tool. You can use the tool to capture and organize issues, assign work, and track activities.  Issues can be anything from development tasks, code errors, project tasks, help-desk tickets, or human resource request  forms. The JIRA product is developed by Atlassian.
 
 ---
   
@@ -101,8 +96,7 @@ Jira is an issue tracking tool. You can use the tool to capture and organize iss
 
 ## Microsoft Team Foundation Server (TFS)
 
-
-The Microsoft TFS plugin for UrbanCode Release provides visibility into work items from the impact analysis view ofUrbanCode Release. Visual Studio Team Services (formerly VSO) is also supported.
+The Microsoft TFS plugin for UrbanCode Release provides visibility into work items from the impact analysis view of  UrbanCode Release. Visual Studio Team Services (formerly VSO) is also supported.
 
 ---
   
@@ -111,7 +105,6 @@ The Microsoft TFS plugin for UrbanCode Release provides visibility into work ite
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucr-plugin-tfs/README.md)|[5.953540](https://raw.githubusercontent.com/UrbanCode/IBM-UCR-PLUGINS/main/files/ucr-plugin-tfs/ucr-plugin-tfs-5.953540.zip)|
 
 ## Rally
-
 
 Rally is an Agile project management tool for planning, scheduling, and tracking iterations and releases.
 
@@ -123,8 +116,7 @@ Rally is an Agile project management tool for planning, scheduling, and tracking
 
 ## Rational Team Concert v6
 
-
-IBM Rational Team Concert integrates task tracking, source control, and agile planning with continuous builds and aconfigurable process to adapt to the way you work.
+IBM Rational Team Concert integrates task tracking, source control, and agile planning with continuous builds and a  configurable process to adapt to the way you work. Compatibility:
 
 ---
   
@@ -134,8 +126,7 @@ IBM Rational Team Concert integrates task tracking, source control, and agile pl
 
 ## ServiceNow
 
-
-The ServiceNow plug-in allows UrbanCode Release to perform create, read, update and delete operations on ServiceNowrecords. This plug-in also evaluates SNOW approvals and resolve UrbanCode Release Deployments phase approvals.
+The ServiceNow plug-in allows UrbanCode Release to perform create, read, update and delete operations on ServiceNow  records. This plug-in also evaluates SNOW approvals and resolve UrbanCode Release Deployments phase approvals.
 
 ---
   
@@ -144,7 +135,6 @@ The ServiceNow plug-in allows UrbanCode Release to perform create, read, update 
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](servicenow-4/README.md)|[0]()|
 
 ## Slack for IBM UrbanCode Release
-
 
 Slack is a team collaboration tool. This plug-in sends notifications to Slack in a specified channel.
 
@@ -156,8 +146,7 @@ Slack is a team collaboration tool. This plug-in sends notifications to Slack in
 
 ## XL Deploy
 
-
-The XL Deploy plug-in provides for integration of UrbanCode Release with an XebiaLabs XL Deploy server. The plug-inimports applications, environments, deployment packages, and deployment tasks from XL Deploy as objects in UrbanCodeRelease. Both full and delta synchronization are supported.
+The XL Deploy plug-in provides for integration of UrbanCode Release with an XebiaLabs XL Deploy server. The plug-in  imports applications, environments, deployment packages, and deployment tasks from XL Deploy as objects in UrbanCode  Release. Both full and delta synchronization are supported.
 
 ---
   
