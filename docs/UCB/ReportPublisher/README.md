@@ -11,8 +11,7 @@ Available Steps
 ---------------
 
 
-Publish Report Publish some files
- as a report
+Publish Report Publish some files as a report
 
 
 

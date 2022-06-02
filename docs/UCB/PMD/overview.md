@@ -14,8 +14,7 @@ PMD - Overview
  
 
 
-The PMD plug-in uploads PMD results that were generated during the build to the **Analytics** tab 
-of the BuildLife.
+The PMD plug-in uploads PMD results that were generated during the build to the **Analytics** tab of the BuildLife.
 
 
 Generate the PMD results in XML format.
@@ -24,16 +23,14 @@ Generate the PMD results in XML format.
 This plug-in includes one step:
 
 
-* [Publish PMD 
-Results](#publish_pmd_results)
+* [Publish PMD Results](#publish_pmd_results)
 
 
 
 ### Step palette
 
 
-To access this plug-in in the palette, click **Quality** > **Code 
-Analytics** > **PMD**.
+To access this plug-in in the palette, click **Quality** > **Code Analytics** > **PMD**.
 
 
 ### Compatibility
@@ -42,13 +39,10 @@ Analytics** > **PMD**.
 The step in this plug-in runs on all supported platforms.
 
 
-### 
-Installation
+### Installation
 
 
-No special steps are required for installation. See [Installing plug-ins in 
-UrbanCode](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in 
-UrbanCode").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode").
 
 
 ### History
@@ -57,8 +51,7 @@ UrbanCode").
 #### Version 5.752822 released on March 9, 2016
 
 
-Version 5.752822 includes the following 
-features and fixes:
+Version 5.752822 includes the following features and fixes:
 
 
 * Added support to handle multiple files.
@@ -67,8 +60,7 @@ features and fixes:
 #### Version 3.604308
 
 
-Version 3.604308 includes the 
-following features and fixes:
+Version 3.604308 includes the following features and fixes:
 
 
 * Added RPX dependency.
@@ -78,12 +70,10 @@ following features and fixes:
 #### Version 2.410048
 
 
-
 Version 2.410048 includes the following features and fixes:
 
 
-* Fixed an issue where communication with the UrbanCode 
-Build server would fail if it was running with an IBM JDK/JRE.
+* Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE.
 
 
 |Back to ...||Latest Version|PMD |||

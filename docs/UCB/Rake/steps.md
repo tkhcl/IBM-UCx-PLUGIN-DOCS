@@ -26,7 +26,6 @@ Rake - Steps
 ### Run Rake File
 
 
-
 Run a Rakefile file.
 
 
@@ -34,21 +33,11 @@ Run a Rakefile file.
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
-| Rake Command | String | 
-The fully-qualified path to the Rakefile file. The default is the agents GEM\_HOME environment variable.
-  | Yes |
-| 
-Rake File Directory | String | The name of the directory containing the Rakefile files to execute. The default directory
- is `rakelib`.
-  | No |
+| Rake Command | String | The fully-qualified path to the Rakefile file. The default is the agents GEM\_HOME environment variable. | Yes |
+| Rake File Directory | String | The name of the directory containing the Rakefile files to execute. The default directory is `rakelib`. | No |
 | Rake File Name | String | The name of the Rakefile file to execute. | Yes |
-| Rake Properties 
-| String | Arguments to pass to the Rake command, such as `-v` for verbose output. Enter each argument on a new line.
-  
-| No |
-| Script Content | String | The content of the Rakefile file. The content will be written to the Rake script file
- and then run.
-  | No |
+| Rake Properties | String | Arguments to pass to the Rake command, such as `-v` for verbose output. Enter each argument on a new line. | No |
+| Script Content | String | The content of the Rakefile file. The content will be written to the Rake script file and then run. | No |
 | Targets | String | The names of the targets to run in the Rakefile file. | Yes |
 
 

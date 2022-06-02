@@ -11,8 +11,7 @@ Available Steps
 ---------------
 
 
-CppUnit 
-ReportPublish CppUnit results as a Report
+CppUnit ReportPublish CppUnit results as a Report
 
 
 

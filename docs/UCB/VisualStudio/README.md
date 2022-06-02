@@ -8,7 +8,6 @@ The Visual Studio plug-in can be used to build solution files with Visual Studio
 
 
 Available Steps
-
 ---------------
 
 

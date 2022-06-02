@@ -14,23 +14,19 @@ Team Foundation Server - Overview
  
 
 
-Microsoft Team Foundation Server (TFS) allows you to manage source code for collaborative software
- development projects. 
+Microsoft Team Foundation Server (TFS) allows you to manage source code for collaborative software development projects. 
 
 
-The TFS plug-in allows the retrieval and labeling of source from TFS as well as publishing 
-source changes to the Changes tab of the build life.
+The TFS plug-in allows the retrieval and labeling of source from TFS as well as publishing source changes to the Changes tab of the build life.
 
 
 This plug-in includes the following steps:
 
 
-* [TFS 
-Changelog](#tfs_changelog)
+* [TFS Changelog](#tfs_changelog)
 * [TFS Create Label](#tfs_create_label)
 * [TFS Get Source](#tfs_get_source)
-* [TFS Quiet 
-Period](#tfs_quiet_period)
+* [TFS Quiet Period](#tfs_quiet_period)
 
 
 
@@ -40,8 +36,7 @@ Period](#tfs_quiet_period)
 To access this plug-in in the palette, click **SCM** > **TFS**.
 
 
-### 
-Compatibility
+### Compatibility
 
 
 The steps in this plug-in run on all supported platforms.
@@ -50,16 +45,13 @@ The steps in this plug-in run on all supported platforms.
 ### Installation
 
 
-No special steps are 
-required for installation. See [Installing plug-ins in UrbanCode](https://www.urbancode.com/resource/installing-plug-
-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode").
 
 
 ### History
 
 
-#### Version 9.752927 released on March 
-9, 2016
+#### Version 9.752927 released on March 9, 2016
 
 
 Version 9.752927 includes the following features and fixes:
@@ -71,23 +63,19 @@ Version 9.752927 includes the following features and fixes:
 #### Version 8.679324
 
 
-
 Version 8.679324 includes the following features and fixes:
 
 
-* Fixed a bug where an empty directory offset would not
- be treated as the current directory and the checkout step would run a workfold /map command.
+* Fixed a bug where an empty directory offset would not be treated as the current directory and the checkout step would run a workfold /map command.
 
 
 #### Version 7.604315
 
 
-
 Version 7.604315 includes the following features and fixes:
 
 
-* Fixed an issue where communication with the UrbanCode 
-Build server would fail if it was running with an IBM JDK/JRE.
+* Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE.
 
 
 |Back to ...||Latest Version|Team Foundation Server |||

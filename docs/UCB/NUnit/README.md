@@ -10,7 +10,6 @@ Publish NUnit test results for reporting and trending.
 
 
 
-
 Available Steps
 ---------------
 

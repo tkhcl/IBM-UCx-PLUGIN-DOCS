@@ -14,15 +14,13 @@ Ant - Overview
  
 
 
-The Ant plug-in is an automation plug-in. You can use the Ant plug-in during deployment to 
-automate Ant tasks that are defined in a build.xml file.
+The Ant plug-in is an automation plug-in. You can use the Ant plug-in during deployment to automate Ant tasks that are defined in a build.xml file.
 
 
 ### Compatibility
 
 
-This plug-in requires IBM UrbanCode Build
- version 6.1 or later.
+This plug-in requires IBM UrbanCode Build version 6.1 or later.
 
 
 The steps in this plug-in run on all supported platforms.
@@ -31,10 +29,7 @@ The steps in this plug-in run on all supported platforms.
 ### Installation
 
 
-No special steps
- are required for installation. See [Installing plug-ins in UrbanCode 
-Build](http://www-01.ibm.com/support/knowledgecenter/#!/SS8NMD_6.1.1/com.ibm.ucbuild.doc/topics/plugin_ch.html 
-"Installing plug-ins in UrbanCode Build").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode Build](http://www-01.ibm.com/support/knowledgecenter/#!/SS8NMD_6.1.1/com.ibm.ucbuild.doc/topics/plugin_ch.html "Installing plug-ins in UrbanCode Build").
 
 
 ### History
@@ -43,8 +38,7 @@ Build](http://www-01.ibm.com/support/knowledgecenter/#!/SS8NMD_6.1.1/com.ibm.ucb
 #### Version 7
 
 
-This version includes translated steps and 
-properties.
+This version includes translated steps and properties.
 
 
 #### Version 6

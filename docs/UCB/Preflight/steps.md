@@ -19,8 +19,7 @@ Preflight - Steps
 
 
 * [Transfer Artifacts Step](#transfer_artifacts_step)
-*
- [Transfer Source Step](#transfer_source_step)
+* [Transfer Source Step](#transfer_source_step)
 
 
 
@@ -30,15 +29,13 @@ Preflight - Steps
 
 
 
-| Name | Type | Description | 
-Required |
+| Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | serverHost | String |  | No |
 | serverPort | String |  | No |
 
 
-### Transfer 
-Source Step
+### Transfer Source Step
 
 
 
@@ -46,8 +43,7 @@ Source Step
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | serverHost | String |  | No |
-| 
-serverPort | String |  | No |
+| serverPort | String |  | No |
 
 
 

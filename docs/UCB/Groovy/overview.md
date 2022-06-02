@@ -14,8 +14,7 @@ Groovy for IBM UrbanCode Build - Overview
  
 
 
-The Groovy plug-in is an automation-type plug-in that provides a step for running user-defined 
-Groovy scripts.
+The Groovy plug-in is an automation-type plug-in that provides a step for running user-defined Groovy scripts.
 
 
 ### Compatibility
@@ -24,17 +23,13 @@ Groovy scripts.
 This plug-in requires IBM UrbanCode Build version 6.1 or later.
 
 
-The steps in 
-this plug-in run on all supported platforms.
+The steps in this plug-in run on all supported platforms.
 
 
 ### Installation
 
 
-No special steps are required for installation. See 
-[Installing plug-ins in UrbanCode 
-Build](http://www-01.ibm.com/support/knowledgecenter/#!/SS8NMD_6.1.2/com.ibm.ucbuild.doc/topics/plugin_ch.html 
-"Installing plug-ins in UrbanCode Build").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode Build](http://www-01.ibm.com/support/knowledgecenter/#!/SS8NMD_6.1.2/com.ibm.ucbuild.doc/topics/plugin_ch.html "Installing plug-ins in UrbanCode Build").
 
 
 ### History
@@ -43,22 +38,19 @@ Build](http://www-01.ibm.com/support/knowledgecenter/#!/SS8NMD_6.1.2/com.ibm.ucb
 #### Version 7
 
 
-This version of the plug-in includes 
-translated steps and properties.
+This version of the plug-in includes translated steps and properties.
 
 
 #### Version 6
 
 
-This version of the plug-in includes a fix for an issue related to 
-running scripts on Microsoft Windows.
+This version of the plug-in includes a fix for an issue related to running scripts on Microsoft Windows.
 
 
 #### Version 3
 
 
-This version of the plug-in includes the ability to run JUnit 
-test cases in Groovy steps.
+This version of the plug-in includes the ability to run JUnit test cases in Groovy steps.
 
 
 

@@ -17,8 +17,7 @@ Rake - Overview
 The Rake plug-in automates builds for a Ruby program using a Rakefile file.
 
 
-This plug-in 
-includes the one step:
+This plug-in includes the one step:
 
 
 * [Run Rake File](#rake)
@@ -28,8 +27,7 @@ includes the one step:
 ### Step palette
 
 
-To access this plug-in in the palette, click 
-**Build** > **Tools** > **Rake**.
+To access this plug-in in the palette, click **Build** > **Tools** > **Rake**.
 
 
 ### Compatibility
@@ -38,13 +36,10 @@ To access this plug-in in the palette, click
 The steps in this plug-in run on all supported platforms.
 
 
-### 
-Installation
+### Installation
 
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode 
-products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in 
-UrbanCode products").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode products").
 
 
 ### History
@@ -53,8 +48,7 @@ UrbanCode products").
 #### Version 3.75293, released on March 9, 2016
 
 
-Version 3.75293 includes the 
-following features and fixes:
+Version 3.75293 includes the following features and fixes:
 
 
 * Added RPX dependency.
@@ -63,8 +57,7 @@ following features and fixes:
 #### Version 2.358076
 
 
-Version 2.358076 is the initial 
-release of this plug-in. Released on February 2, 2014.
+Version 2.358076 is the initial release of this plug-in. Released on February 2, 2014.
 
 
 

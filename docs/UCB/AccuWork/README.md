@@ -11,15 +11,13 @@ Available Steps
 ---------------
 
 
-Add 
-CommentsAdd comments to existing issues
+Add CommentsAdd comments to existing issues
 
 
 Change StatusChange the status of existing issues
 
 
-Get DetailsRetrieve 
-information on AccuWork issues using source changes detected in AccuRev
+Get DetailsRetrieve information on AccuWork issues using source changes detected in AccuRev
 
 
 

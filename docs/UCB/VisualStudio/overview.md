@@ -14,8 +14,7 @@ Visual Studio - Overview
  
 
 
-The Visual Studio plug-in can be used to build solution files with Visual Studio in headless mode 
-as part of the build process.
+The Visual Studio plug-in can be used to build solution files with Visual Studio in headless mode as part of the build process.
 
 
 This plug-in includes one step:
@@ -25,15 +24,13 @@ This plug-in includes one step:
 
 
 
-### Step 
-palette
+### Step palette
 
 
 To access this plug-in in the palette, click **Build** > **Build Tools** > **Visual Studio**.
 
 
-### 
-Compatibility
+### Compatibility
 
 
 The step in this plug-in runs on all supported platforms.
@@ -42,24 +39,20 @@ The step in this plug-in runs on all supported platforms.
 ### Installation
 
 
-No special steps are 
-required for installation. See [Installing plug-ins in UrbanCode](https://www.urbancode.com/resource/installing-plug-
-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode").
 
 
 ### History
 
 
-#### Version 7.752908 released on March 
-9, 2016
+#### Version 7.752908 released on March 9, 2016
 
 
 Version 5.752842 includes the following features and fixes:
 
 
 * Added RPX dependency.
-* Translation for step 
-information.
+* Translation for step information.
 
 
 #### Version 4.707042
@@ -68,16 +61,14 @@ information.
 Version 4.707042 includes the following features and fixes:
 
 
-* Added a default 
-command.
+* Added a default command.
 * Updated to **devenv** to a user-specified command path.
 
 
 #### Version 3.431223
 
 
-Version 3.431223 includes 
-the following features and fixes:
+Version 3.431223 includes the following features and fixes:
 
 
 * Updated to print the log from the build even after a build failure.

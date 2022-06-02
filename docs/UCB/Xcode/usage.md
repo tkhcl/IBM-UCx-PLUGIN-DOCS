@@ -18,8 +18,7 @@ Use the Xcode plug-in to build, package, add a version, and sign iOS or OS X app
 
 
 
-### 
-**Step palette**
+### **Step palette**
 
 
 To access this plug-in in the palette, click **Build** > **Build Tools** > **Xcode**.

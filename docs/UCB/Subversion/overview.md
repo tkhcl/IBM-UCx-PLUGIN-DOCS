@@ -14,19 +14,16 @@ Subversion for IBM UrbanCode Build - Overview
  
 
 
-The Subversion plug-in automates gathering code from a Subversion repository to include in the 
-build process. Steps are also included to create Subversion branches.
+The Subversion plug-in automates gathering code from a Subversion repository to include in the build process.Steps are also included to create Subversion branches.
 
 
 This plug-in includes the following steps:
 
 
-* 
-[Svn Changelog](#svn_changelog)
+* [Svn Changelog](#svn_changelog)
 * [Svn Checkout](#svn_checkout)
 * [Svn Cleanup](#svn_cleanup)
-* [Svn Quiet 
-Period](#svn_quiet_period)
+* [Svn Quiet Period](#svn_quiet_period)
 * [Svn Tag](#svn_tag)
 
 
@@ -34,8 +31,7 @@ Period](#svn_quiet_period)
 ### Step palette
 
 
-To access this plug-in in the palette, click 
-**SCM** > **Subversion**.
+To access this plug-in in the palette, click **SCM** > **Subversion**.
 
 
 ### Compatibility
@@ -44,13 +40,10 @@ To access this plug-in in the palette, click
 The steps in this plug-in run on all supported platforms.
 
 
-### 
-Installation
+### Installation
 
 
-No special steps are required for installation. See [Installing plug-ins in 
-UrbanCode](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in 
-UrbanCode")
+No special steps are required for installation. See [Installing plug-ins in UrbanCode](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode")
 
 
 ### History
@@ -59,8 +52,7 @@ UrbanCode")
 #### Version 7.752914 released on March 9, 2016
 
 
-Version 7.752914 includes the following 
-features and fixes:
+Version 7.752914 includes the following features and fixes:
 
 
 * Added RPX dependency.
@@ -70,23 +62,19 @@ features and fixes:
 #### Version 6.673610
 
 
-Version 6.673610 includes 
-the following features and fixes:
+Version 6.673610 includes the following features and fixes:
 
 
-* Fixed an issue when a tag is copied from a branch, change logs in that branch are 
-not listed as changes for its path does not match the tag path
+* Fixed an issue when a tag is copied from a branch, change logs in that branch are not listed as changes for its path does not match the tag path
 
 
 #### Version 5.638529
 
 
-Version 5.638529 includes the 
-following features and fixes:
+Version 5.638529 includes the following features and fixes:
 
 
-* Fixed a.n issue where communication with the UrbanCode Build server would fail if it 
-was running with an IBM JDK/JRE.
+* Fixed a.n issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE.
 
 
 |Back to ...||Latest Version|Subversion for IBM UrbanCode Build |||

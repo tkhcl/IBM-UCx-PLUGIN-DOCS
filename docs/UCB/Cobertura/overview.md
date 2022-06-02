@@ -14,42 +14,35 @@ Cobertura - Overview
  
 
 
-Cobertura is a code coverage tool for software testing. It is a Java tool used to identify which 
-parts of your Java program are lacking test coverage. It is based on jcoverage a Java code coverage utility.
+Cobertura is a code coverage tool for software testing. It is a Java tool used to identify which parts of your Java program are lacking test coverage. It is based on jcoverage a Java code coverage utility.
 
 
-Use the 
-Cobertura plug-in uploads Cobertura report results as part of the build process.
+Use the Cobertura plug-in uploads Cobertura report results as part of the build process.
 
 
 This plug-in includes one step:
 
 
-* 
-[Publish Cobertura Report](#publish_cobertura_report)
+* [Publish Cobertura Report](#publish_cobertura_report)
 
 
 
 ### Step palette
 
 
-To access this plug-in in the palette, click
- **Quality** > **Code Coverage** > **Cobertura**.
+To access this plug-in in the palette, click **Quality** > **Code Coverage** > **Cobertura**.
 
 
 ### Compatibility
 
 
-The steps in this plug-in run on all supported 
-platforms.
+The steps in this plug-in run on all supported platforms.
 
 
 ### Installation
 
 
-No special steps are required for installation. See [Installing plug-ins in 
-UrbanCode](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in 
-UrbanCode").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode").
 
 
 ### History
@@ -58,8 +51,7 @@ UrbanCode").
 #### Version 5.752901 released on March 9, 2016
 
 
-Version 5.752901 includes the following 
-features and fixes:
+Version 5.752901 includes the following features and fixes:
 
 
 * Added RPX dependency.
@@ -68,12 +60,10 @@ features and fixes:
 #### Version 4.604292
 
 
-Version 4.604292 includes the following features
- and fixes:
+Version 4.604292 includes the following features and fixes:
 
 
-Fixed a communication issue that causes the UrbanCode Build server to fail if it is running with an IBM 
-JDK or JRE.
+Fixed a communication issue that causes the UrbanCode Build server to fail if it is running with an IBM JDK or JRE.
 
 
 
@@ -84,8 +74,7 @@ JDK or JRE.
 Version 3.542772 includes the following features and fixes:
 
 
-* Update to a 
-newer library version for HTTP communication.
+* Update to a newer library version for HTTP communication.
 
 
 |Back to ...||Latest Version|Cobertura |||

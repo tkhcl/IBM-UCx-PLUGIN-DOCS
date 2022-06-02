@@ -11,7 +11,6 @@ The MSBuild plugin allows running of MSBuild files.
 
 
 Available Steps
-
 ---------------
 
 

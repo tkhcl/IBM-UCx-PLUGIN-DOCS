@@ -14,21 +14,17 @@ Docker Build - Overview
  
 
 
-Docker is an open platform for distributed applications for developers and sysadmins. Leverage 
-this plugin to build Docker images with UrbanCode Build
+Docker is an open platform for distributed applications for developers and sysadmins. Leverage this plugin to build Docker images with UrbanCode Build
 
 
-The Docker plug-in includes the following steps that are 
-related to Docker:
+The Docker plug-in includes the following steps that are related to Docker:
 
 
 * [Docker Build](steps/#docker_build "docker_build")
-* [Docker Push](steps/#docker_push 
-"docker_push")
+* [Docker Push](steps/#docker_push "docker_push")
 
 
-To add the Docker plug-in steps to processes, click **Build > Build Tools > Docker** when adding new 
-steps to a job.
+To add the Docker plug-in steps to processes, click **Build > Build Tools > Docker** when adding new steps to a job.
 
 
 ### Compatibility
@@ -37,15 +33,13 @@ steps to a job.
 The IBM UrbanCode Build plug-in for Docker works with all versions of Docker
 
 
-
 This plug-in requires version 6.1.0.0 or later of IBM UrbanCode Build.
 
 
 ### Installation
 
 
-No special steps are 
-required for installation.
+No special steps are required for installation.
 
 
 ### History
@@ -54,8 +48,7 @@ required for installation.
 #### Version 2
 
 
-Version 2 supports IBM UrbanCode Build version 6.1.0.0. The 
-following features were added:
+Version 2 supports IBM UrbanCode Build version 6.1.0.0. The following features were added:
 
 
 * Added a step to push Docker images to a registry.
@@ -64,8 +57,7 @@ following features were added:
 #### Version 1
 
 
-Version 1 
-supports IBM UrbanCode Build version 6.1.0.0.
+Version 1 supports IBM UrbanCode Build version 6.1.0.0.
 
 
 * Initial release supporting building Docker images

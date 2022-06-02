@@ -3,12 +3,11 @@ JaCoCo
 ======
 
 
-Plugin to upload JaCoCo report results. This plugin version also now supports grouped reports.
+Plugin to upload JaCoCo report results.This plugin version also now supports grouped reports.
 
 
 
 Available Steps
-
 ---------------
 
 

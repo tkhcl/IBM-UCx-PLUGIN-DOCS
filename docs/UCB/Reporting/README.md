@@ -11,8 +11,7 @@ Available Steps
 ---------------
 
 
-Run Report
- Run a report and save the output.
+Run Report Run a report and save the output.
 
 
 
