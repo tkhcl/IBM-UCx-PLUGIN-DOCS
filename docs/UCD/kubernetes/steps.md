@@ -173,13 +173,7 @@ Expose a replication controller, service, or pod as a new Kubernetes service.
 | Namespace | String | The namespace on the Kubernetes server to expose the resource in. | No |
 | Password | Password | The password to access the Kubernetes server. | No |
 | Resource | String | The name of the resource to expose. For a Resource Type of File, specify a file name, directory, or URL of a file that identifies the resource to expose. | Yes |
-| Resource Type | Enumeration:
-* rc
-* service
-* pod
-* filename
-* deployment
- | Specify the way to select resources to expose. | Yes |
+| Resource Type | Enumeration: rc, service, pod, filename, deployment | Specify the way to select resources to expose. | Yes |
 | URL | String | The URL of the Kubernetes server. For example: https://10.2.2.2:8443. | No |
 | User Name | String | The user name to access the Kubernetes server. | No |
 
