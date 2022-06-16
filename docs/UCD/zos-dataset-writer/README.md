@@ -2,10 +2,28 @@
 z/OS Dataset Writer
 ===================
 
+The z/OS Dataset Writer plug-in copies text, dataset, or USS file to a mainframe dataset.
 
-The z/OS Dataset Writer plug-in to copy text to a mainframe dataset.
+Apart from copying content to a mainframe dataset, this plug-in provides the following features:
 
+* Allocates a new output dataset with the required parameter.
+* Deletes the existing output dataset to create a new one with desired parameters.
+
+Compatibility
+-------------
+
+The plug-in is compatible with:
+
+* UrbanCode Deploy version 7.0.0 or later
+* UrbanCode Deploy agents on z/OS
+* IBM z/OS version 2.1 or later
+* IBM Java 8 or 11
+
+Available Steps
+---------------
+
+Write to Sequential Dataset
 
 |Back to ...||Latest Version|||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[2.1132365]()|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.1133866](https://github.com/UrbanCode/IBM-UCD-PLUGINS/raw/main/files/zos-dataset-writer/ucd-plugins-zos-dataset-writer-3.1133866.zip)|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|
