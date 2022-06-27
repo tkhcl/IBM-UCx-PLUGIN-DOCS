@@ -4,14 +4,14 @@ z/OS Utility - Downloads
 
 # Downloads
 
-- [ucd-zos-deploy-71.1132900.zip]()
-- [ucd-zos-deploy-71.1132832.zip]()
-- [ucd-zos-deploy-70.1132810.zip]()
-- [ucd-zos-deploy-70.1132678.zip]()
-- [ucd-zos-deploy-69.1132511.zip]()
-- [ucd-zos-deploy-68.1132402.zip]()
-- [ucd-zos-deploy-68.1132343.zip]()
-- [ucd-zos-deploy-68.1131557.zip]()
+- [ucd-zos-deploy-71.1132900.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-71.1132900.zip)
+- [ucd-zos-deploy-71.1132832.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-71.1132832.zip)
+- [ucd-zos-deploy-70.1132810.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-70.1132810.zip)
+- [ucd-zos-deploy-70.1132678.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-70.1132678.zip)
+- [ucd-zos-deploy-69.1132511.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-69.1132511.zip)
+- [ucd-zos-deploy-68.1132402.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-68.1132402.zip)
+- [ucd-zos-deploy-68.1132343.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-68.1132343.zip)
+- [ucd-zos-deploy-68.1131557.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-68.1131557.zip)
 - [ucd-zos-deploy-67.1131158.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-67.1131158.zip)
 - [ucd-zos-deploy-66.1130920.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-66.1130920.zip)
 - [ucd-zos-deploy-65.1130883.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-65.1130883.zip)
