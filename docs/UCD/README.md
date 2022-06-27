@@ -2499,7 +2499,7 @@ The z/OS Dataset Writer plug-in to copy text to a mainframe dataset.
   
 |Back to ...||z/OS Dataset Writer |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](zos-dataset-writer/README.md)|[2.1132365]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](zos-dataset-writer/README.md)|[4.1134053](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/zos-dataset-writer/ucd-plugins-zos-dataset-writer-4.1134053.zip)|
 
 ## z/OS External Artifact Repository
 
@@ -2532,7 +2532,7 @@ The z/OS File Source Config plug-in automates uploading data sets, UNIX files an
   
 |Back to ...||z/OS File Source Config |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](zOSFileSourceConfig/README.md)|[7.1131549]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](zOSFileSourceConfig/README.md)|[7.1131549](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/zOSFileSourceConfig/ucd-zOSFileSourceConfig-7.1131549.zip)|
 
 ## z/OS Management Facility
 
@@ -2554,7 +2554,7 @@ The z/OS Multi Generate Artifact Information plug-in scans version artifacts and
   
 |Back to ...||z/OS Multi Generate Artifact Information |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](zos-multi-generate-artifact-info/README.md)|[6.1132902]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](zos-multi-generate-artifact-info/README.md)|[6.1132902](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-6.1132902.zip)|
 
 ## z/OS Shell
 
@@ -2565,7 +2565,7 @@ The z/OS Shell plug-in is for the z/OS only operating system. It performs the sa
   
 |Back to ...||z/OS Shell |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](java-shell/README.md)|[1.1031518](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/java-shell/java-shell-1.1031518.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](java-shell/README.md)|[2.1133862](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/java-shell/ucd-java-shell-2.1133862.zip)|
 
 ## z/OS USS Utility
 
@@ -2587,4 +2587,4 @@ The z/OS Utility plug-in includes steps for retrieving and deploying IBM z/OS ar
   
 |Back to ...||z/OS Utility |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](zos-deploy/README.md)|[71.1132900]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](zos-deploy/README.md)|[71.1132900](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/zos-deploy/ucd-zos-deploy-71.1132900.zip)|
