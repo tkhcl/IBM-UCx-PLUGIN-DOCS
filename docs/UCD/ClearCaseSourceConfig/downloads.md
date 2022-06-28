@@ -4,7 +4,7 @@ IBM Rational ClearCase - Downloads
 
 # Downloads
 
-- [ucd-ClearCaseSourceConfig-13.1131556.zip]()
+- [ucd-ClearCaseSourceConfig-13.1131556.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ClearCaseSourceConfig/ucd-ClearCaseSourceConfig-13.1131556.zip)
 - [ucd-ClearCaseSourceConfig-12.1128769.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ClearCaseSourceConfig/ucd-ClearCaseSourceConfig-12.1128769.zip)
 - [ClearCaseSourceConfig-11.1109007.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ClearCaseSourceConfig/ClearCaseSourceConfig-11.1109007.zip)
 - [ClearCaseSourceConfig-10.1056515.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ClearCaseSourceConfig/ClearCaseSourceConfig-10.1056515.zip)
@@ -15,4 +15,4 @@ IBM Rational ClearCase - Downloads
 
 |Back to ...||Latest Version|IBM Rational ClearCase ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1131556]()|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps and Roles](steps and roles.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1131556](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ClearCaseSourceConfig/ucd-ClearCaseSourceConfig-13.1131556.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps and Roles](steps and roles.md)|

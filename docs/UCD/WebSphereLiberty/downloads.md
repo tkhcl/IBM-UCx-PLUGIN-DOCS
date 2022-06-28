@@ -26,7 +26,9 @@ IBM WebSphere Liberty - Downloads
 - [WebSphere-Liberty-3.641636.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/WebSphere-Liberty-3.641636.zip)
 - [WebSphereLiberty-2.455142.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/WebSphereLiberty-2.455142.zip)
 - [WebSphereLiberty-1.423643.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/WebSphereLiberty-1.423643.zip)
-- [SampleApplications](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/SampleApplications)
+- [CreateCollectiveSampleApp.zip.003](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/SampleApplications/CreateCollectiveSampleApp.zip.003)
+- [CreateCollectiveSampleApp.zip.002](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/SampleApplications/CreateCollectiveSampleApp.zip.002)
+- [CreateCollectiveSampleApp.zip.001](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/SampleApplications/CreateCollectiveSampleApp.zip.001)
 
 |Back to ...||Latest Version|IBM WebSphere Liberty |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |

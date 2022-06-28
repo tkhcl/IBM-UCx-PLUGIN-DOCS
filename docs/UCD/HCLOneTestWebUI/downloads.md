@@ -4,6 +4,7 @@ HCL OneTest WebUI - Downloads
 
 # Downloads
 
+- [HOT-UI-WebUI-UCD-10.1.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestWebUI/HOT-UI-WebUI-UCD-10.1.zip)
 - [HOT-UI-WebUI-UCD-9.0.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestWebUI/HOT-UI-WebUI-UCD-9.0.zip)
 - [HOT-UI-WebUI-UCD-8.0.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestWebUI/HOT-UI-WebUI-UCD-8.0.zip)
 - [HOT-UI-WebUI-UCD-7.0.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestWebUI/HOT-UI-WebUI-UCD-7.0.zip)
@@ -16,4 +17,4 @@ HCL OneTest WebUI - Downloads
 
 |Back to ...||Latest Version|HCL OneTest WebUI |
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestWebUI/HOT-UI-WebUI-UCD-9.0.zip)|[Readme](README.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestWebUI/HOT-UI-WebUI-UCD-10.1.zip)|[Readme](README.md)|

@@ -4,8 +4,8 @@ IBM UrbanCode Deploy Environments - Downloads
 
 # Downloads
 
-- [ucd-uDeploy-Environment-85.1132355.zip]()
-- [ucd-uDeploy-Environment-84.1131562.zip]()
+- [ucd-uDeploy-Environment-85.1132355.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Environment/ucd-uDeploy-Environment-85.1132355.zip)
+- [ucd-uDeploy-Environment-84.1131562.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Environment/ucd-uDeploy-Environment-84.1131562.zip)
 - [ucd-uDeploy-Environment-83.1128764.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Environment/ucd-uDeploy-Environment-83.1128764.zip)
 - [uDeploy-Environment-82.1106940.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Environment/uDeploy-Environment-82.1106940.zip)
 - [uDeploy-Environment-82.1102022.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Environment/uDeploy-Environment-82.1102022.zip)
@@ -26,4 +26,4 @@ IBM UrbanCode Deploy Environments - Downloads
 
 |Back to ...||Latest Version|IBM UrbanCode Deploy Environments ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[85.1132355]()|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[85.1132355](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Environment/ucd-uDeploy-Environment-85.1132355.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|

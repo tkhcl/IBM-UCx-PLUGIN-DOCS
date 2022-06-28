@@ -22,7 +22,6 @@ Cloud Foundry - Downloads
 - [cloud-foundry-17.803300.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/cloud-foundry/cloud-foundry-17.803300.zip)
 - [cloud-foundry-17.803286.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/cloud-foundry/cloud-foundry-17.803286.zip)
 - [cloud-foundry-16.786823.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/cloud-foundry/cloud-foundry-16.786823.zip)
-- [EPL.txt](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/jenkins-ud-plugin/EPL.txt)
 
 |Back to ...||Latest Version|Cloud Foundry |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |

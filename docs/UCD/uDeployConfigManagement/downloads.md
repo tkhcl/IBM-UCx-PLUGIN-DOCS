@@ -4,9 +4,9 @@ IBM UrbanCode Deploy Configuration Management - Downloads
 
 # Downloads
 
-- [ucd-uDeployConfigManagement-17.1132359.zip]()
-- [ucd-uDeployConfigManagement-16.1131570.zip]()
-- [ucd-uDeployConfigManagement-15.1131547.zip]()
+- [ucd-uDeployConfigManagement-17.1132359.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeployConfigManagement/ucd-uDeployConfigManagement-17.1132359.zip)
+- [ucd-uDeployConfigManagement-16.1131570.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeployConfigManagement/ucd-uDeployConfigManagement-16.1131570.zip)
+- [ucd-uDeployConfigManagement-15.1131547.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeployConfigManagement/ucd-uDeployConfigManagement-15.1131547.zip)
 - [ucd-uDeployConfigManagement-14.1128763.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeployConfigManagement/ucd-uDeployConfigManagement-14.1128763.zip)
 - [uDeployConfigManagement-13.1106796.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeployConfigManagement/uDeployConfigManagement-13.1106796.zip)
 - [uDeployConfigManagement-13.1102023.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeployConfigManagement/uDeployConfigManagement-13.1102023.zip)
@@ -23,4 +23,4 @@ IBM UrbanCode Deploy Configuration Management - Downloads
 
 |Back to ...||Latest Version|IBM UrbanCode Deploy Configuration Management ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[17.1132359]()|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[17.1132359](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeployConfigManagement/ucd-uDeployConfigManagement-17.1132359.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|

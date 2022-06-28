@@ -5,7 +5,6 @@ Autosys - Downloads
 # Downloads
 
 - [Autosys-3.937202.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Autosys/Autosys-3.937202.zip)
-- [EPL.txt](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/jenkins-ud-plugin/EPL.txt)
 
 |Back to ...||Latest Version|Autosys |
 | :---: | :---: | :---: | :---: |

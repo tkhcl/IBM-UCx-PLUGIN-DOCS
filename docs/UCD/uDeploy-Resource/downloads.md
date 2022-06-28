@@ -4,8 +4,9 @@ IBM UrbanCode Deploy Resources - Downloads
 
 # Downloads
 
-- [ucd-uDeploy-Resource-82.1132357.zip]()
-- [ucd-uDeploy-Resource-81.1131560.zip]()
+- [ucd-uDeploy-Resource-83.1133534.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Resource/ucd-uDeploy-Resource-83.1133534.zip)
+- [ucd-uDeploy-Resource-82.1132357.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Resource/ucd-uDeploy-Resource-82.1132357.zip)
+- [ucd-uDeploy-Resource-81.1131560.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Resource/ucd-uDeploy-Resource-81.1131560.zip)
 - [ucd-uDeploy-Resource-80.1128767.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Resource/ucd-uDeploy-Resource-80.1128767.zip)
 - [uDeploy-Resource-79.1107192.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Resource/uDeploy-Resource-79.1107192.zip)
 - [uDeploy-Resource-79.1105463.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Resource/uDeploy-Resource-79.1105463.zip)
@@ -27,4 +28,4 @@ IBM UrbanCode Deploy Resources - Downloads
 
 |Back to ...||Latest Version|IBM UrbanCode Deploy Resources ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[82.1132357]()|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[83.1133534](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Resource/ucd-uDeploy-Resource-83.1133534.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|

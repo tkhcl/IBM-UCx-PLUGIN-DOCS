@@ -17,7 +17,6 @@ Jenkins Publisher - Downloads
 - [ibm-ucdeploy-publisher-1.4.883552.hpi](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/jenkins-ud-plugin/ibm-ucdeploy-publisher-1.4.883552.hpi)
 - [ibm-ucdeploy-publisher-1.3.874419.hpi](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/jenkins-ud-plugin/ibm-ucdeploy-publisher-1.3.874419.hpi)
 - [ibm-ucdeploy-publisher-1.3.873275.hpi](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/jenkins-ud-plugin/ibm-ucdeploy-publisher-1.3.873275.hpi)
-- [EPL.txt](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/jenkins-ud-plugin/EPL.txt)
 
 |Back to ...||Latest Version|Jenkins Publisher |||
 | :---: | :---: | :---: | :---: | :---: | :---: |

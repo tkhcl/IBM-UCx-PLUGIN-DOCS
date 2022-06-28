@@ -4,8 +4,8 @@ IBM UrbanCode Deploy Versions - Downloads
 
 # Downloads
 
-- [ucd-uDeploy-Version-71.1132358.zip]()
-- [ucd-uDeploy-Version-70.1131559.zip]()
+- [ucd-uDeploy-Version-71.1132358.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Version/ucd-uDeploy-Version-71.1132358.zip)
+- [ucd-uDeploy-Version-70.1131559.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Version/ucd-uDeploy-Version-70.1131559.zip)
 - [ucd-uDeploy-Version-69.1128768.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Version/ucd-uDeploy-Version-69.1128768.zip)
 - [uDeploy-Version-68.1114399.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Version/uDeploy-Version-68.1114399.zip)
 - [uDeploy-Version-68.1107040.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Version/uDeploy-Version-68.1107040.zip)
@@ -21,4 +21,4 @@ IBM UrbanCode Deploy Versions - Downloads
 
 |Back to ...||Latest Version|IBM UrbanCode Deploy Versions |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[71.1132358]()|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[71.1132358](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Version/ucd-uDeploy-Version-71.1132358.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|

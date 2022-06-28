@@ -8,7 +8,7 @@ HP Unified Functional Testing (QTP) - Downloads
 - [QTP-6.987837.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/QTP/QTP-6.987837.zip)
 - [QTP-4.868943.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/QTP/QTP-4.868943.zip)
 - [QTP-1.504346.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/QTP/QTP-1.504346.zip)
-- [RAM](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RAMSourceConfig/ucd-RAMSourceConfig-13.1126844.zip)
+- [com.ibm.udeploy.plugin.ram.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/QTP/RAM/com.ibm.udeploy.plugin.ram.zip)
 
 |Back to ...||Latest Version|HP Unified Functional Testing (QTP) |||
 | :---: | :---: | :---: | :---: | :---: | :---: |

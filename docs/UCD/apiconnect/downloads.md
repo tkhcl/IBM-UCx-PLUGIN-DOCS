@@ -11,7 +11,6 @@ IBM API Connect - Downloads
 - [apiconnect-3.796602.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/apiconnect/apiconnect-3.796602.zip)
 - [apiconnect-2.787664.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/apiconnect/apiconnect-2.787664.zip)
 - [apiconnect-1.782175.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/apiconnect/apiconnect-1.782175.zip)
-- [EPL.txt](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/jenkins-ud-plugin/EPL.txt)
 
 |Back to ...||Latest Version|IBM API Connect ||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |

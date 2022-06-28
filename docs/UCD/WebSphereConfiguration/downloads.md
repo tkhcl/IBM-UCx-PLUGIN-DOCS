@@ -56,9 +56,17 @@ WebSphere Application Server - Configure - Downloads
 - [WAS-Configure-33.787660.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/WAS-Configure-33.787660.zip)
 - [WAS-Configure-30.779785.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/WAS-Configure-30.779785.zip)
 - [WAS-Configure-28.777052.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/WAS-Configure-28.777052.zip)
-- [SampleProcesses](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/SampleProcesses)
-- [SampleApplications](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/SampleApplications)
-- [SampleApplicationDeployments](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/SampleApplicationDeployments)
+- [GenericProcessSample9.json](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/SampleProcesses/GenericProcessSample9.json)
+- [GenericProcessSample8.json](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/SampleProcesses/GenericProcessSample8.json)
+- [GenericProcessSample7.json](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/SampleProcesses/GenericProcessSample7.json)
+- [GenericProcessSample6.json](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/SampleProcesses/GenericProcessSample6.json)
+- [GenericProcessSample5.json](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/SampleProcesses/GenericProcessSample5.json)
+- [GenericProcessSample11.json](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/SampleProcesses/GenericProcessSample11.json)
+- [GenericProcessSample10.json](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/SampleProcesses/GenericProcessSample10.json)
+- [WebSphereConfigurationExampleSnippetApplication.json](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/SampleApplications/WebSphereConfigurationExampleSnippetApplication.json)
+- [WebSphereConfigurationExampleMigrationApplication.json](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/SampleApplications/WebSphereConfigurationExampleMigrationApplication.json)
+- [PlantsByWebSphere_SampleApp.pdf](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/SampleApplicationDeployments/PlantsByWebSphere_SampleApp.pdf)
+- [Plants1_artifacts_V4.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/SampleApplicationDeployments/Plants1_artifacts_V4.zip)
 
 |Back to ...||Latest Version|WebSphere Application Server - Configure ||||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
