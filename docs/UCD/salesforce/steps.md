@@ -12,12 +12,16 @@ Salesforce - Steps
 
 ### Process steps in the SalesForce plug-in
 
-* [Bulk Retrieve](#bulk_retrieve)
-* [Deploy](#deploy)
-* [Deploy Recent Validation](#deploy_recent)
-* [Describe Metadata](#describe_metadata)
-* [List Metadata](#list_metadata)
-* [Retrieve](#retrieve)
+- [Salesforce - Steps](#salesforce---steps)
+- [Steps](#steps)
+    - [Steps](#steps-1)
+    - [Process steps in the SalesForce plug-in](#process-steps-in-the-salesforce-plug-in)
+    - [Bulk Retrieve](#bulk-retrieve)
+    - [Deploy](#deploy)
+    - [Describe Metadata](#describe-metadata)
+    - [Deploy Recent Validation](#deploy-recent-validation)
+    - [List Metadata](#list-metadata)
+    - [Retrieve](#retrieve)
 
 
 ### Bulk Retrieve
@@ -163,4 +167,4 @@ Retrieve unpackaged, managed or unmanaged packages.
 
 |Back to ...||Latest Version|Salesforce ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1101988](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SalesForce/salesforce-9.1101988.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
