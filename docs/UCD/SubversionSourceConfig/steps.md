@@ -5,50 +5,33 @@ Subversion - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the Subversion plug-in
-
 
 * [Import Version](#import_version)
 
 
-
-
 ### Import Version
 
-
 Import artifacts from a subversion repository.
-
 
 This step has no input properties.
 
 
-
-
 ### Roles in the Subversion plug-in
 
-
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
-
 
 
 * [SubversionComponentProperties](#subversioncomponentproperties_role)
 * [SubversionImportProperties](#subversionimportproperties_role)
 
 
-
 ### SubversionComponentProperties
-
-
 
 
 | Name | Type | Description |
@@ -67,10 +50,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | User | String | The user name use to authenticate with the subversion repository. |
 | Watch for tags | Boolean | Use tags as the basis for new component versions. |
 
-
 ### SubversionImportProperties
-
-
 
 
 | Name | Type | Description |
@@ -79,8 +59,6 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 
 
 
-
-
 |Back to ...||Latest Version|Subversion ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[21.1131553]()|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[21.1131553](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SubversionSourceConfig/ucd-SubversionSourceConfig-21.1131553.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

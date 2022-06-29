@@ -5,18 +5,12 @@ InfoSphere-ISD - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the IBM InfoSphere ISD plug-in
-
 
 * [Design Time Export](#design_time_export)
 * [Design Time Import](#design_time_import)
@@ -24,15 +18,10 @@ InfoSphere-ISD - Steps
 * [Runtime Import](#runtime_import)
 
 
-
-
 ### Design Time Export
 
 
-
- Export all or selected applications and services from projects in your InfoSphere Information Services Director server into an XML output file.
-
-
+Export all or selected applications and services from projects in your InfoSphere Information Services Director server into an XML output file.
 
 
 | Name | Type | Description | Required |
@@ -47,14 +36,10 @@ InfoSphere-ISD - Steps
 | Services | String | A comma or newline delimited list of service names to export from IIS. If multiple projects or applications are given this field will be ignored. | No |
 | Username | String | Your IBM InfoSphere Information Server user ID. | No |
 
-
 ### Design Time Import
 
 
-
- Import projects, applications, and services into your InfoSphere Information Services Director server from an XML input file.
-
-
+Import projects, applications, and services into your InfoSphere Information Services Director server from an XML input file.
 
 
 | Name | Type | Description | Required |
@@ -69,14 +54,10 @@ InfoSphere-ISD - Steps
 | Services | String | A comma or newline delimited list of service names to export from IIS. If multiple projects or applications are being imported this field will be ignored. | No |
 | Username | String | Your IBM InfoSphere Information Server user ID. | No |
 
-
 ### Runtime Export
 
 
-
- Export selected runtime applications from your InfoSphere Information Services Director server into a DAT output file.
-
-
+Export selected runtime applications from your InfoSphere Information Services Director server into a DAT output file.
 
 
 | Name | Type | Description | Required |
@@ -89,14 +70,10 @@ InfoSphere-ISD - Steps
 | Password | String | Your IBM InfoSphere Information Server user ID. | No |
 | Username | String | Your IBM InfoSphere Information Server user ID. | No |
 
-
 ### Runtime Import
 
 
-
- Import runtime applications into your InfoSphere Information Services Director server from a DAT input file.
-
-
+Import runtime applications into your InfoSphere Information Services Director server from a DAT input file.
 
 
 | Name | Type | Description | Required |
@@ -107,8 +84,6 @@ InfoSphere-ISD - Steps
 | Password | String | Your IBM InfoSphere Information Server user ID. | No |
 | Replace Objects | Boolean | If a runtime application has the same name as an existing one on the system it will be replaced. | No |
 | Username | String | Your IBM InfoSphere Information Server user ID. | No |
-
-
 
 
 

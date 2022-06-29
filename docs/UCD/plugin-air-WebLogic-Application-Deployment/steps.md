@@ -5,18 +5,12 @@ Oracle WebLogic Application Deployment - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the WebLogic Application Deployment plug-in
-
 
 * [Deploy](#deploy)
 * [Redeploy](#redeploy)
@@ -25,14 +19,9 @@ Oracle WebLogic Application Deployment - Steps
 * [Undeploy](#undeploy)
 
 
-
-
 ### Deploy
 
-
 Use this step to deploy an application to the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -49,13 +38,9 @@ Use this step to deploy an application to the WebLogic server.
 | User Name | String | The user name to use to authenticate with the WebLogic server. | Yes |
 | WebLogic JAR File | String | The path to the WebLogic JAR file that executes deployments. The `weblogic.jar` file is located in the `/server/lib` directory. Specify the complete directory structure, for example: `WebLogicServer_directory/server/lib/weblogic.jar`. | Yes |
 
-
 ### Redeploy
 
-
 Use this step to redeploy an application on the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -70,13 +55,9 @@ Use this step to redeploy an application on the WebLogic server.
 | User Name | String | The user name to use to authenticate with the WebLogic server. | Yes |
 | WebLogic JAR File | String | The path to the WebLogic JAR file that executes deployments. The `weblogic.jar` file is located in the `/server/lib` directory. Specify the complete directory structure, for example: `WebLogicServer_directory/server/lib/weblogic.jar`. | Yes |
 
-
 ### Start
 
-
 Use this step to start an application on the WebLogic Server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -90,13 +71,9 @@ Use this step to start an application on the WebLogic Server.
 | User Name | String | The user name to use to authenticate with the WebLogic server. | Yes |
 | WebLogic JAR File | String | The path to the WebLogic JAR file that executes deployments. The `weblogic.jar` file is located in the `/server/lib` directory. Specify the complete directory structure, for example: `WebLogicServer_directory/server/lib/weblogic.jar`. | Yes |
 
-
 ### Stop
 
-
 Stop action to be performed on the WebLogic Server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -110,13 +87,9 @@ Stop action to be performed on the WebLogic Server.
 | User Name | String | The user name to use to authenticate with the WebLogic server. | Yes |
 | WebLogic JAR File | String | The path to the WebLogic JAR file that executes deployments. The `weblogic.jar` file is located in the `/server/lib` directory. Specify the complete directory structure, for example: `WebLogicServer_directory/server/lib/weblogic.jar`. | Yes |
 
-
 ### Undeploy
 
-
 Use this step to undeploy an applicaton on the WebLogic Server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -129,8 +102,6 @@ Use this step to undeploy an applicaton on the WebLogic Server.
 | Targets | String | A list of targets where the applications are to be undeployed.Separate each target with a comma. The target list must not contain any spaces. | No |
 | User Name | String | The user name to use to authenticate with the WebLogic server. | Yes |
 | WebLogic JAR File | String | The path to the WebLogic JAR file that executes deployments. The `weblogic.jar` file is located in the `/server/lib` directory. Specify the complete directory structure, for example: `WebLogicServer_directory/server/lib/weblogic.jar`. | Yes |
-
-
 
 
 

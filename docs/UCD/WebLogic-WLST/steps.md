@@ -5,18 +5,12 @@ Oracle WebLogic Scripting Tool (WLST) - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the Oracle WebLogic Scripting Tool (WLST) plug-in
-
 
 * [Check Server Status](#check_server_status)
 * [Deploy](#deploy)
@@ -31,14 +25,9 @@ Oracle WebLogic Scripting Tool (WLST) - Steps
 * [Undeploy](#undeploy)
 
 
-
-
 ### Check Server Status
 
-
 Use this step to check the status of a WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -52,13 +41,9 @@ Use this step to check the status of a WebLogic server.
 | User Config File | String | Overrides Username and Password. Name and location of a user configuration file which contains an encrypted username and password. | No |
 | User Key File | String | Overrides Username and Password. Name and location of the key file that is associated with the specified user configuration file and is used to decrypt it. | No |
 
-
 ### Deploy
 
-
 Use this step to deploy an application to a WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -73,13 +58,9 @@ Use this step to deploy an application to a WebLogic server.
 | User Key File | String | Overrides Username and Password. Name and location of the key file that is associated with the specified user configuration file and is used to decrypt it. | No |
 | WLST Path | String | The fully-qualified path of the Weblogic Scripting Tool directory. (ex. {oracle\_home}``/oracle\_common/common/bin/) | Yes |
 
-
 ### Deploy SOA Composite Application
 
-
 Use this step to deploy an Oracle SOA Composite Application to a WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -95,13 +76,9 @@ Use this step to deploy an Oracle SOA Composite Application to a WebLogic server
 | User Key File | String | Overrides Username and Password. Name and location of the key file that is associated with the specified user configuration file and is used to decrypt it. | No |
 | WLST Path | String | The fully-qualified path of the Weblogic Scripting Tool directory. (ex. {oracle\_home}``/oracle\_common/common/bin/) | Yes |
 
-
 ### Execute Script
 
-
 Use this step to execute user defined python script files.
-
-
 
 
 | Name | Type | Description | Required |
@@ -110,15 +87,11 @@ Use this step to execute user defined python script files.
 | Script Files | String | User defined python scripts. | Yes |
 | WLST Path | String | The fully-qualified path of the WebLogic Scripting Tool directory. (ex. {oracle\_home}``/oracle\_common/common/bin/) | Yes |
 
-
 ### Resume Server
-
 
 Use this step to resume a suspended WebLogic server.
 
 
-
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Directory Offset | String | The directory offset relative to the current working directory where the step should run. | No |
@@ -130,15 +103,11 @@ Use this step to resume a suspended WebLogic server.
 | User Key File | String | Overrides Username and Password. Name and location of the key file that is associated with the specified user configuration file and is used to decrypt it. | No |
 | WLST Path | String | The fully-qualified path of the Weblogic Scripting Tool directory. (ex. {oracle\_home}``/oracle\_common/common/bin/) | Yes |
 
-
 ### Shutdown Server
-
 
 Use this step to shut down a WebLogic server.
 
 
-
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Directory Offset | String | The directory offset relative to the current working directory where the step should run. | No |
@@ -150,13 +119,9 @@ Use this step to shut down a WebLogic server.
 | User Key File | String | Overrides Username and Password. Name and location of the key file that is associated with the specified user configuration file and is used to decrypt it. | No |
 | WLST Path | String | The fully-qualified path of the Weblogic Scripting Tool directory. (ex. {oracle\_home}``/oracle\_common/common/bin/) | Yes |
 
-
 ### Start Application
 
-
 Use this step to start a deployed application.
-
-
 
 
 | Name | Type | Description | Required |
@@ -170,13 +135,9 @@ Use this step to start a deployed application.
 | User Key File | String | Overrides Username and Password. Name and location of the key file that is associated with the specified user configuration file and is used to decrypt it. | No |
 | WLST Path | String | The fully-qualified path of the Weblogic Scripting Tool directory. (ex. {oracle\_home}``/oracle\_common/common/bin/) | Yes |
 
-
 ### Start Server
 
-
 Use this step to start a WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -194,13 +155,9 @@ Use this step to start a WebLogic server.
 | User Key File | String | Overrides Username and Password. Name and location of the key file that is associated with the specified user configuration file and is used to decrypt it. | No |
 | WLST Path | String | The fully-qualified path of the Weblogic Scripting Tool directory. (ex. {oracle\_home}``/oracle\_common/common/bin/) | Yes |
 
-
 ### Stop Application
 
-
 Use this step to stop a running application.
-
-
 
 
 | Name | Type | Description | Required |
@@ -214,13 +171,9 @@ Use this step to stop a running application.
 | User Key File | String | Overrides Username and Password. Name and location of the key file that is associated with the specified user configuration file and is used to decrypt it. | No |
 | WLST Path | String | The fully-qualified path of the Weblogic Scripting Tool directory. (ex. {oracle\_home}``/oracle\_common/common/bin/) | Yes |
 
-
 ### Suspend Server
 
-
 Use this step to suspend a WebLogic server that is running.
-
-
 
 
 | Name | Type | Description | Required |
@@ -234,13 +187,9 @@ Use this step to suspend a WebLogic server that is running.
 | User Key File | String | Overrides Username and Password. Name and location of the key file that is associated with the specified user configuration file and is used to decrypt it. | No |
 | WLST Path | String | The fully-qualified path for the Weblogic Scripting Tool directory. (ex. {oracle\_home}``/oracle\_common/common/bin/) | Yes |
 
-
 ### Undeploy
 
-
 Use this step to undeploy an application from the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -253,8 +202,6 @@ Use this step to undeploy an application from the WebLogic server.
 | User Config File | String | Overrides Username and Password. Name and location of a user configuration file which contains an encrypted username and password. | No |
 | User Key File | String | Overrides Username and Password. Name and location of the key file that is associated with the specified user configuration file and is used to decrypt it. | No |
 | WLST Path | String | The fully-qualified path of the Weblogic Scripting Tool directory. (ex. {oracle\_home}``/oracle\_common/common/bin/) | Yes |
-
-
 
 
 

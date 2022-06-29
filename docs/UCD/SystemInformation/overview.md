@@ -5,72 +5,48 @@ System Information - Overview
 # Overview
 
 
-
 ### Overview
 
 
 
 
- 
-
-
 ### Overview
-
 
 The steps in this plug-in provide information about the system on which the agent is running. You can use these steps to verify that a deployment can succeed or has succeeded by verifying the amount of disk space and the environment variables on the system.
 
-
 ### Compatibility
-
 
 This plug-in requires version 6.0 or later of IBM UrbanCode Deploy.
 
-
 This plug-in is supported to run on all operating systems that are supported by the IBM UrbanCode Deploy agent.
-
 
 **Note:** The Check Available Disk Space is not supported on the Solaris operating system
 
-
 ### Installation
-
 
 No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
 
-
 ### History
-
 
 #### Version 5
 
-
 Fixes APAR PI94880Updated from Apache Commons IO 1.4 to latest (2.2 as of now).
-
 
 #### Version 4
 
-
 Support property file encryption.
-
 
 #### Version 3
 
-
 Fixes APAR PI35342compatibility defect with IBM Urbancode Deploy version 6.1.0.4 and later.
-
 
 #### Version 2
 
-
 Add a step to check if a value matches a regex and create output properties based on the matching groups.
-
 
 #### Version 1
 
-
 Initial release of the System Information plugin.
-
-
 
 
 |Back to ...||Latest Version|System Information |||

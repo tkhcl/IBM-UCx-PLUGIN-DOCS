@@ -5,17 +5,12 @@ Amazon EC2 - Usage
 # Usage
 
 
-
 ### Usage
 
 
 
 
- 
-
-
 Use this plug-in to manage Amazon Elastic Cloud (EC2) instances as a process step.
-
 
 * Start and end an Amazon Elastic Cloud (EC2) instance.
 * Create security groups that act as virtual firewalls for your instance to control inbound and outbound traffic.
@@ -26,13 +21,9 @@ Use this plug-in to manage Amazon Elastic Cloud (EC2) instances as a process ste
 * Terminate an instance, which removes the instance and all associated data.
 
 
-
 ### **Step palette**
 
-
 To access this plug-in in the palette, click **Cloud** > **AmazonEC2**.
-
-
 
 
 |Back to ...||Latest Version|Amazon EC2 ||||

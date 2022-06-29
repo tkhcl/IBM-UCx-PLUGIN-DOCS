@@ -5,18 +5,12 @@ MicroFocus ALM (formerly HP Quality Center) - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the HP Quality Center Plugin plug-in
-
 
 * [Add Comments](#add_comments)
 * [Check Status](#check_status)
@@ -26,14 +20,9 @@ MicroFocus ALM (formerly HP Quality Center) - Steps
 * [Update Issues](#update_issues)
 
 
-
-
 ### Add Comments
 
-
 Add comments to a defect in HP Quality Center.
-
-
 
 
 | Name | Type | Description | Required |
@@ -45,20 +34,16 @@ Add comments to a defect in HP Quality Center.
 * fast
 * slow
 * warn
- | What should be done when a defect to be commented on is not found in Quality Center. Fail-fast: fail the step immediately if a defect is not found. Fail: fail the step after attempting to comment on all defects. Warn: log a warning when a defect is not found. | Yes |
+| What should be done when a defect to be commented on is not found in Quality Center. Fail-fast: fail the step immediately if a defect is not found. Fail: fail the step after attempting to comment on all defects. Warn: log a warning when a defect is not found. | Yes |
 | Password | Password | The password to authenticate with Quality Center. | No |
 | Password Script | String | If a property or script should be used to set the password, leave password blank and put the property or script here. | No |
 | Project | String | The Project in Quality Center the defect is in. | Yes |
 | Server URL | String | The base URL of the Quality Center instance. It usually ends with /qcbin. | Yes |
 | Username | String | The username to authenticate with Quality Center. | Yes |
 
-
 ### Check Status
 
-
 Ensure the status of issues are in the expected state.
-
-
 
 
 | Name | Type | Description | Required |
@@ -70,20 +55,16 @@ Ensure the status of issues are in the expected state.
 * fast
 * slow
 * warn
- | What should be done when a defect is not in the expected state. Fail-fast: fail the step immediately if a defect is not found. Fail: fail the step after publishing the report of found defects. Warn: log a warning when a defect is not found. | Yes |
+| What should be done when a defect is not in the expected state. Fail-fast: fail the step immediately if a defect is not found. Fail: fail the step after publishing the report of found defects. Warn: log a warning when a defect is not found. | Yes |
 | Password | Password | The password to authenticate with Quality Center. | No |
 | Password Script | String | If a property or script should be used to set the password, leave password blank and put the property or script here. | No |
 | Project | String | The Project in Quality Center the defect is in. | Yes |
 | Server URL | String | The base URL of the Quality Center instance. It usually ends with /qcbin. | Yes |
 | Username | String | The username to authenticate with Quality Center. | Yes |
 
-
 ### Create Issue
 
-
 Create a new defect in HP Quality Center.
-
-
 
 
 | Name | Type | Description | Required |
@@ -107,13 +88,9 @@ Create a new defect in HP Quality Center.
 | Summary | String | A summary for the new defect. Default max length is 255. | Yes |
 | Username | String | The username to authenticate with Quality Center. | Yes |
 
-
 ### Query Defects
 
-
-Query and return 
-
-
+Query and return
 
 
 | Name | Type | Description | Required |
@@ -127,13 +104,9 @@ Query and return
 | Server URL | String | The base URL of the Quality Center instance. It usually ends with /qcbin. | Yes |
 | Username | String | The username to authenticate with Quality Center. | Yes |
 
-
 ### Run Test Set
 
-
 Run a Test Set using HP Quality Center. This step is only functional on a Windows system capable of executing Visual Basic scripts. If a test doesnt have a Planned Host in the HP ALM Test Lab, you must provide a Remote Host or check the Run Locally option to run the tests on your local HP ALM server.
-
-
 
 
 
@@ -153,13 +126,9 @@ Run a Test Set using HP Quality Center. This step is only functional on a Window
 | Timeout | String | Test run timeout, in minutes. | Yes |
 | Username | String | The username to authenticate with Quality Center. | Yes |
 
-
 ### Update Issues
 
-
 Update one or more defects in HP Quality Center.
-
-
 
 
 | Name | Type | Description | Required |
@@ -173,7 +142,7 @@ Update one or more defects in HP Quality Center.
 * fast
 * slow
 * warn
- | What should be done when a defect to be updated is not found in Quality Center. Fail-fast: fail the step immediately if a defect is not found. Fail: fail the step after attempting to update all defects. Warn: log a warning when a defect is not found. | Yes |
+| What should be done when a defect to be updated is not found in Quality Center. Fail-fast: fail the step immediately if a defect is not found. Fail: fail the step after attempting to update all defects. Warn: log a warning when a defect is not found. | Yes |
 | Password | Password | The password to authenticate with Quality Center. | No |
 | Password Script | String | If a property or script should be used to set the password, leave password blank and put the property or script here. | No |
 | Priority | String | The new priority of the defect or blank to not change. Default values are ( 1-Low, 2-Medium, 3-High, 4-Very High, 5-Urgent ) | No |
@@ -183,8 +152,6 @@ Update one or more defects in HP Quality Center.
 | Status | String | The new status of the defect or blank to not change. Default values are ( Closed, Fixed, New, Open, Rejected, Reopen ) | No |
 | Summary | String | A new summary for the defect or blank to not change. Default max length is 255. | No |
 | Username | String | The username to authenticate with Quality Center. | Yes |
-
-
 
 
 

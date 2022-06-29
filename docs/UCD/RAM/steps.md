@@ -5,18 +5,12 @@ IBM Rational Asset Manager - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the IBM Rational Asset Manager Integration plug-in
-
 
 * [Categorize an Asset](#categorize_an_asset)
 * [Create Relationship to an Asset](#create_relationship_to_an_asset)
@@ -26,14 +20,9 @@ IBM Rational Asset Manager - Steps
 * [Upload Asset](#upload_asset)
 
 
-
-
 ### Categorize an Asset
 
-
 Assign one or more categories to an asset.
-
-
 
 
 | Name | Type | Description | Required |
@@ -45,13 +34,9 @@ Assign one or more categories to an asset.
 | User | String | The user name to authenticate with the repository. | No |
 | Version | String | The version for the asset. | Yes |
 
-
 ### Create Relationship to an Asset
 
-
 Create a relationship from one asset to another asset.
-
-
 
 
 | Name | Type | Description | Required |
@@ -65,13 +50,9 @@ Create a relationship from one asset to another asset.
 | Repository URL | String | The URL of the Rational Asset Manager repository. | Yes |
 | User | String | The user name to authenticate with the repository. | Yes |
 
-
 ### Download Assets
 
-
 Download assets from the IBM Rational Asset Manager repository.
-
-
 
 
 | Name | Type | Description | Required |
@@ -85,13 +66,9 @@ If the ID contains a forward slash (/), prefix the forward slash with a backslas
 | Repository URL | String | The URL of the Rational Asset Manager repository. | Yes |
 | User | String | The user name to authenticate with the repository. | No |
 
-
 ### Download Related Assets
 
-
 Download related assets of an asset.
-
-
 
 
 | Name | Type | Description | Required |
@@ -106,13 +83,9 @@ Download related assets of an asset.
 | Repository URL | String | The URL of the Rational Asset Manager repository. | Yes |
 | User | String | The user name to authenticate with the repository. | Yes |
 
-
 ### Set Attribute
 
-
 Set attribute on an asset.
-
-
 
 
 | Name | Type | Description | Required |
@@ -125,13 +98,9 @@ Set attribute on an asset.
 | User | String | The user name to authenticate with the repository. | No |
 | Version | String | The version for the asset. | Yes |
 
-
 ### Upload Asset
 
-
 Upload asset to a Rational Asset Manager repository.
-
-
 
 
 | Name | Type | Description | Required |
@@ -147,8 +116,6 @@ Upload asset to a Rational Asset Manager repository.
 
 
 
-
-
 |Back to ...||Latest Version|IBM Rational Asset Manager ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RAM/com.ibm.udeploy.plugin.ram.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

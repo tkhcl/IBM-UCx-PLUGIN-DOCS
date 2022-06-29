@@ -5,18 +5,12 @@ IBM WebSphere Liberty - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the WebSphere Liberty plug-in
-
 
 * [Create Collective](#create_collective)
 * [Create Server](#create_server)
@@ -43,14 +37,9 @@ IBM WebSphere Liberty - Steps
 * [Wait for Application to be STARTED](#wait_for_application_to_be_started)
 
 
-
-
 ### Create Collective
 
-
 Create a new collective controller configuration in the WebSphere Liberty Profile.
-
-
 
 
 | Name | Type | Description | Required |
@@ -63,13 +52,9 @@ Create a new collective controller configuration in the WebSphere Liberty Profil
 | WebSphere Liberty Installation Directory | String | The base directory of the WebSphere Liberty profile installation, such as /opt/IBM/WebSphere/Liberty/ | Yes |
 | WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp\_install\_dir}``/usr is not writable. | No |
 
-
 ### Create Server
 
-
 Create a server in the WebSphere Liberty profile.
-
-
 
 
 | Name | Type | Description | Required |
@@ -78,13 +63,9 @@ Create a server in the WebSphere Liberty profile.
 | WebSphere Liberty Installation Directory | String | The base directory for the WebSphere Liberty profile installation. For example: /opt/IBM/WebSphere/Liberty/ | Yes |
 | WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp\_install\_dir}``/usr is not writable. | No |
 
-
 ### Delete Server
 
-
 Delete a server in the WebSphere Liberty profile.
-
-
 
 
 | Name | Type | Description | Required |
@@ -93,26 +74,18 @@ Delete a server in the WebSphere Liberty profile.
 | WebSphere Liberty Installation Directory | String | The base directory of the WebSphere Liberty profile installation. For example: /opt/IBM/WebSphere/Liberty/ | Yes |
 | WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp\_install\_dir}``/usr is not writable. | No |
 
-
 ### Generate Component-Resource Properties
 
-
 Generate Component-Resource properties from variable tags in the server.xml file
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Location of the server.xml file | String | The location of the server.xml file to be processed. | Yes |
 
-
 ### Generate Plugin Config
 
-
 Generate plug-in configuration for a WebSphere Liberty server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -126,13 +99,9 @@ Generate plug-in configuration for a WebSphere Liberty server.
 | Trust Store Password | Password | The password for the trust store file. | Yes |
 | User Name | String | The user name for WebSphere Liberty. | Yes |
 
-
 ### Install Server Archive
 
-
 Install a WebSphere Liberty archive file.
-
-
 
 
 | Name | Type | Description | Required |
@@ -142,13 +111,9 @@ Install a WebSphere Liberty archive file.
 | WebSphere Liberty Installation Directory | String | The base directory of the WebSphere Liberty profile installation, such as /opt/IBM/WebSphere/Liberty/ | Yes |
 | WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp\_install\_dir}``/usr is not writable. | No |
 
-
 ### Install or Update Application with Server XML
 
-
 Install or update an application in the WebSphere Liberty profile by editing the server.xml file.
-
-
 
 
 
@@ -163,13 +128,9 @@ Install or update an application in the WebSphere Liberty profile by editing the
 | WebSphere Liberty Installation Directory | String | The base directory of the WebSphere Liberty profile installation. For example: /opt/IBM/WebSphere/Liberty/ | Yes |
 | WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp\_install\_dir}``/usr is not writable. | No |
 
-
 ### Install or Update Applications with Dropins
 
-
 Install or update an application in WebSphere Liberty by using the dropins directory.
-
-
 
 
 | Name | Type | Description | Required |
@@ -179,13 +140,9 @@ Install or update an application in WebSphere Liberty by using the dropins direc
 | WebSphere Liberty Installation Directory | String | The base directory of the WebSphere Liberty profile installation. For example: /opt/IBM/WebSphere/Liberty/ | Yes |
 | WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp\_install\_dir}``/usr is not writable. | No |
 
-
 ### Join Collective
 
-
 Join a server to the collective controlled by the designated controller.
-
-
 
 
 | Name | Type | Description | Required |
@@ -207,13 +164,9 @@ Join a server to the collective controlled by the designated controller.
 | WebSphere Liberty Installation Directory | String | The base directory of the WebSphere Liberty profile installation, such as /opt/IBM/WebSphere/Liberty/. This path is on the host where the server joining the collective resides. | Yes |
 | WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp\_install\_dir}``/usr is not writable. | No |
 
-
 ### Merge Plugin Config
 
-
 Merge multiple plugin-cfg.xml files into one xml for web servers for clarity and eliminate errors caused by dealing with multiple config files.
-
-
 
 
 
@@ -224,13 +177,9 @@ Merge multiple plugin-cfg.xml files into one xml for web servers for clarity and
 | WebSphere Liberty Installation Directory | String | The base directory for the WebSphere Liberty profile installation. For example: /opt/IBM/WebSphere/Liberty/ | Yes |
 | WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp\_install\_dir}``/usr is not writable. | No |
 
-
 ### Propagate Plugin Config
 
-
 Make the merged plugin config xml available to the web server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -239,13 +188,9 @@ Make the merged plugin config xml available to the web server.
 | Web Server Home | String | The install directory of web server.For example: /opt/IBM/HTTPServer | Yes |
 | WebSphere Plugins Home | String | Full path to top-level directory where WebSphere Plugins are installed. This directory contains libraries used to connect WebSphere Liberty servers to web servers. | Yes |
 
-
 ### Register Host
 
-
 Register a new host with the collective controlled by the designated controller.
-
-
 
 
 | Name | Type | Description | Required |
@@ -266,26 +211,18 @@ Register a new host with the collective controlled by the designated controller.
 | WebSphere Liberty Installation Directory | String | The base directory of the WebSphere Liberty profile installation, such as /opt/IBM/WebSphere/Liberty/ | Yes |
 | WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp\_install\_dir}``/usr is not writable. | No |
 
-
 ### Replace Variable Values with Component-Resource Properties
 
-
 Replace variable values in the server.xml file with Component-Resource properties
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Location of the server.xml file | String | The location of the server.xml file to be processed. | Yes |
 
-
 ### Start Application
 
-
 Start an application in the WebSphere Liberty profile.
-
-
 
 
 | Name | Type | Description | Required |
@@ -298,13 +235,9 @@ Start an application in the WebSphere Liberty profile.
 | Trust Store Password | Password | The password for the trust store file. | Yes |
 | User Name | String | The user name for WebSphere Liberty. | Yes |
 
-
 ### Start Server
 
-
 Start one or more servers in the WebSphere Liberty profile. This step will create output properties named startedServers, alreadyStartedServers, and failedServers. Servers that were successfully started will be listed in the startedServers output property. Servers that were already in the started state will be listed in the alreadyStartedServers output property. Servers that failed to start will be listed in the failedServers output property.
-
-
 
 
 
@@ -321,13 +254,9 @@ Start one or more servers in the WebSphere Liberty profile. This step will creat
 | WebSphere Liberty Installation Directory | String | The base directory of the WebSphere Liberty profile installation. For example: /opt/IBM/WebSphere/Liberty/. This path is on the host where the server being started resides. | Yes |
 | WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp\_install\_dir}``/usr is not writable. | No |
 
-
 ### Stop Application
 
-
 Stop an application in the WebSphere Liberty profile.
-
-
 
 
 | Name | Type | Description | Required |
@@ -340,13 +269,9 @@ Stop an application in the WebSphere Liberty profile.
 | Trust Store Password | Password | The password for the trust store file. | Yes |
 | User Name | String | The user name for WebSphere Liberty. | Yes |
 
-
 ### Stop Server
 
-
 Stop one or more servers in the WebSphere Liberty profile. This step will create output properties named stoppedServers, alreadyStoppedServers, and failedServers. Servers that were successfully stopped will be listed in the stoppedServers output property. Servers that were already in the stopped state will be listed in the alreadyStoppedServers output property. Servers that failed to stop will be listed in the failedServers output property.
-
-
 
 
 
@@ -363,13 +288,9 @@ Stop one or more servers in the WebSphere Liberty profile. This step will create
 | WebSphere Liberty Installation Directory | String | The base directory of the WebSphere Liberty profile installation.For example: /opt/IBM/WebSphere/Liberty/. This path is on the host where the server being stopped resides. | Yes |
 | WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp\_install\_dir}``/usr is not writable. | No |
 
-
 ### Uninstall Application from Dropins
 
-
 Uninstall an application from the WebSphere Liberty profile by using the dropins directory.
-
-
 
 
 | Name | Type | Description | Required |
@@ -379,13 +300,9 @@ Uninstall an application from the WebSphere Liberty profile by using the dropins
 | WebSphere Liberty Installation Directory | String | The base directory of the WebSphere Liberty profile installation. For example: /opt/IBM/WebSphere/Liberty/ | Yes |
 | WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp\_install\_dir}``/usr is not writable. | No |
 
-
 ### Uninstall Application with Server XML
 
-
 Uninstall an application in the WebSphere Liberty profile by editing the server.xml file.
-
-
 
 
 
@@ -396,13 +313,9 @@ Uninstall an application in the WebSphere Liberty profile by editing the server.
 | WebSphere Liberty Installation Directory | String | The base directory of the WebSphere Liberty profile installation. For example: /opt/IBM/WebSphere/Liberty/ | Yes |
 | WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp\_install\_dir}``/usr is not writable. | No |
 
-
 ### Unregister Host
 
-
 Unregisters a host and all of its associated servers from the collective.
-
-
 
 
 | Name | Type | Description | Required |
@@ -415,13 +328,9 @@ Unregisters a host and all of its associated servers from the collective.
 | WebSphere Liberty Installation Directory | String | The base directory of the WebSphere Liberty profile installation, such as /opt/IBM/WebSphere/Liberty/ | Yes |
 | WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp\_install\_dir}``/usr is not writable. | No |
 
-
 ### Update Host
 
-
 Updates the authentication information for a host that has been registered with the collective.
-
-
 
 
 
@@ -443,13 +352,9 @@ Updates the authentication information for a host that has been registered with 
 | WebSphere Liberty Installation Directory | String | The base directory of the WebSphere Liberty profile installation, such as /opt/IBM/WebSphere/Liberty/ | Yes |
 | WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp\_install\_dir}``/usr is not writable. | No |
 
-
 ### Upload File To Collective Host
 
-
 Upload a file to the target collective host.The target host must already be registered with the collective.
-
-
 
 
 
@@ -465,13 +370,9 @@ Upload a file to the target collective host.The target host must already be regi
 | Trust Store File Path | String | The path to the trust store to be used when connecting to the collective controller | Yes |
 | Trust Store Password | Password | The password for the trust store file. | Yes |
 
-
 ### Wait for Application to be STARTED
 
-
 Wait for an application to run (have a status of Started).
-
-
 
 
 | Name | Type | Description | Required |
@@ -484,8 +385,6 @@ Wait for an application to run (have a status of Started).
 | Trust Store File Path | String | The path to the trust store file. This path can be relative or absolute. | Yes |
 | Trust Store Password | Password | The password for the trust store file. | Yes |
 | User Name | String | The user name for WebSphere Liberty. | Yes |
-
-
 
 
 

@@ -5,20 +5,14 @@ IBM Rational ClearCase - Usage
 # Usage
 
 
-
 ### Usage
 
 
-
-
-  To use this plug-in, create a component to define the source and processes for the Rational ClearCase Unified Change Management (UCM) repository. The component contains the information for importing the artifacts and any processes to perform on the artifacts.
-
+To use this plug-in, create a component to define the source and processes for the Rational ClearCase Unified Change Management (UCM) repository. The component contains the information for importing the artifacts and any processes to perform on the artifacts.
 
 ### Create a component
 
-
 To create a component, complete the following steps. For more information, see [Creating components](https://devops.hcldoc.com/launch/7.1.2/#com.udeploy.doc/topics/comp_create/) topic in the product documentation.
-
 
 1. In the HCL user interface, click **Components** and then click **Create Component**.
 2. In the Create Component window, specify a name and description for the component.
@@ -29,26 +23,20 @@ To create a component, complete the following steps. For more information, see [
 6. Specify the properties for the component.See the **Setting** tab for descriptions.
 7. Click **Save**.
 
-
 ### Import a version
 
-
-When the artifacts are imported, a component version is created using the version of the package. You can specify to import a specific package version or import all versions. If importing all versions, a component version is created for each version. 
-
+When the artifacts are imported, a component version is created using the version of the package. You can specify to import a specific package version or import all versions. If importing all versions, a component version is created for each version.
 
 1. Click the **Versions** tab for the component.
 2. Click **Import New Versions**.
 3. Specify a specific version of the package to import, or leave blank to import the latest version of the package available in the repository. Additionally, enable **Import All Versions** to import all versions of a package.
 4. Click **Save**.
 
-
 ### Step palette
-
 
 To access this plug-in in the palette, click **Source and Repositories** > **ClearCase**.
 
 
-
 |Back to ...||Latest Version|IBM Rational ClearCase ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1131556]()|[Readme](README.md)|[Overview](overview.md)|[Steps and Roles](steps and roles.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1131556](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ClearCaseSourceConfig/ucd-ClearCaseSourceConfig-13.1131556.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps and Roles](steps and roles.md)|[Downloads](downloads.md)|

@@ -5,18 +5,12 @@ Microsoft IIS MS-Deploy (Azure App Service) - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the Microsoft IIS MS-Deploy plug-in
-
 
 * [Delete](#delete)
 * [Recycle Application](#recycle_application)
@@ -26,14 +20,9 @@ Microsoft IIS MS-Deploy (Azure App Service) - Steps
 * [msdeploy](#msdeploy)
 
 
-
-
 ### Delete
 
-
 Delete an IIS object.
-
-
 
 
 | Name | Type | Description | Required |
@@ -50,57 +39,41 @@ Delete an IIS object.
 * manifest
 * package
 * appHostConfig
- | The provider type for the destination argument of the delete. | Yes |
-
+| The provider type for the destination argument of the delete. | Yes |
 
 ### Recycle Application
-
 
 Recycle an application in IIS.
 
 
-
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Command Path | String | The directory location of the msdeploy.exe command-line executable: e.g., C:\Program Files\IIS\Microsoft Web Deploy V2\ | No |
 | Target Name | String | The name of the Web Site or Application, i.e. WebSite/MyApp | Yes |
 
-
 ### Start Application
-
 
 Start an application in IIS.
 
 
-
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Command Path | String | The directory location of the msdeploy.exe command-line executable: e.g., C:\Program Files\IIS\Microsoft Web Deploy V2\ | No |
 | Target Name | String | The name of the Web Site or Application, i.e. WebSite/MyApp | Yes |
 
-
 ### Stop Application
-
 
 Stop an application in IIS.
 
 
-
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Command Path | String | The directory location of the msdeploy.exe command-line executable: e.g., C:\Program Files\IIS\Microsoft Web Deploy V2\ | No |
 | Target Name | String | The name of the Web Site or Application, i.e. WebSite/MyApp | Yes |
 
-
 ### Synchronize
 
-
 Synchronize two IIS objects.
-
-
 
 
 | Name | Type | Description | Required |
@@ -119,7 +92,7 @@ Synchronize two IIS objects.
 * webServer
 * webServer60
 * appHostConfig
- | The provider type for the destination argument of the synchronize. | Yes |
+| The provider type for the destination argument of the synchronize. | Yes |
 | Options String | String | A newline separated list of options to be concatenated onto the synchronize command. i.e. -setParam:hello,value=hey\n-setParam:goodbye,value=seeya. | No |
 | Provider Destination | String | The Provider path and setting for the destination in the form path,setting1,setting2 | No |
 | Provider Source | String | The Provider path and setting for the source in the form path,setting1,setting2 | Yes |
@@ -135,15 +108,11 @@ Synchronize two IIS objects.
 * webServer
 * webServer60
 * appHostConfig
- | The provider type for the source argument of the synchronize. | Yes |
-
+| The provider type for the source argument of the synchronize. | Yes |
 
 ### msdeploy
 
-
 Run an msdeploy command
-
-
 
 
 | Name | Type | Description | Required |
@@ -155,8 +124,6 @@ Run an msdeploy command
 | Provider Source | String | The Provider path and setting for the source in the form path,setting1,setting2 | No |
 | Source Provider Type | String | The provider type for the source argument of the command. Required if providing Provider Source. | No |
 | Verb | String | The verb (operation) to be performed by msdeploy | Yes |
-
-
 
 
 

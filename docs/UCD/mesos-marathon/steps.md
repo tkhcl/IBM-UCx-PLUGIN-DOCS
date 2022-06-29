@@ -5,18 +5,12 @@ Mesos Marathon - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the Mesos Marathon plug-in
-
 
 * [Kill Tasks](#kill_tasks)
 * [Launch Application](#launch_application)
@@ -24,13 +18,9 @@ Mesos Marathon - Steps
 * [Scale Application](#scale_application)
 
 
-
 ### Kill Tasks
 
-
 End all tasks in an application.
-
-
 
 
 | Name | Type | Description | Required |
@@ -40,14 +30,9 @@ End all tasks in an application.
 
 
 
-
-
 ### Launch Application
 
-
 Start an application on Marathon.
-
-
 
 
 | Name | Type | Description | Required |
@@ -57,14 +42,9 @@ Start an application on Marathon.
 
 
 
-
-
 ### Remove Application
 
-
 Remove an application from Marathon.
-
-
 
 
 | Name | Type | Description | Required |
@@ -74,14 +54,9 @@ Remove an application from Marathon.
 
 
 
-
-
 ### Scale Application
 
-
 Scale an application within Marathon.
-
-
 
 
 | Name | Type | Description | Required |
@@ -89,9 +64,6 @@ Scale an application within Marathon.
 | Application Name | String | The name of the application to scale. | Yes |
 | Instances | String | The number of instances. | Yes |
 | Marathon URL | String | The base URL where Marathon is running. | Yes |
-
-
-
 
 
 

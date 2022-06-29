@@ -5,45 +5,30 @@ OpenShift - Overview
 # Overview
 
 
-
 ### Overview
 
 
 
 
- 
-
-
 The OpenShift source configuration plug-in supports creating component version from OpenShift.
-
 
 ### Compatibility
 
-
 This plug-in requires version 6.0 or later of IBM UrbanCode Deploy.
-
 
 This plug-in works with [OpenShift CLI 3.1](https://docs.openshift.com/enterprise/3.1/cli_reference/get_started_cli.html) and later.
 
-
 The OpenShift server must be accessible from the IBM UrbanCode Deploy agent or the agent must be installed on the OpenShift server.
-
 
 ### Installation
 
-
 No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode products").
-
 
 ### History
 
-
 #### Version 1
 
-
 Initial release of the OpenShift Source Configuration plug-in.
-
-
 
 
 

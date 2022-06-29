@@ -5,106 +5,72 @@ IBM Rational Asset Manager for IBM UrbanCode Deploy - Overview
 # Overview
 
 
-
 ### Overview
 
 
 
 
- 
-
-
 The IBM Rational Asset Manager plug-in automates importing of artifacts from a RAM repository. For more information about IBM Rational Asset Manager, see the [product documentation](https://www.ibm.com/support/knowledgecenter/SSUS84).
 
-
 This plug-in includes one step which has no input properties:
-
 
 * [Import Version](https://www.urbancode.com/plugindoc/ibmucd/file-system/4-2/steps/#import_version)
 
 
-
 ### Step palette
-
 
 To access this plug-in in the palette, click **Source and Repositories** > **Rational Asset Manager**.
 
-
 ### Compatibility
-
 
 This plug-in requires version 6.0 or later of IBM UrbanCode Deploy.
 
-
 For UrbanCode Deploy 6.0, both the agent and the server must be installed on Microsoft Windows. For UrbanCode Deploy 6.0.1 or later, only the agent is required to be on a system running Microsoft Windows.
-
 
 ### Installation
 
-
 This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in versions are available, see [Installing plug-ins in UrbanCode Products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy") to update the plug-in.
-
 
 ### History
 
-
 #### Version 10
-
 
 * APAR PI89045: add support for setting isFinished flag flag when importing versions.
 
-
 #### Version 9
-
 
 * Fixes APAR PI87707, a regression where the user who requested a manual version import was not being tracked.
 
-
 * Fixes APAR PI99336. Version Pattern property will be set to a star (\*) by default.
-
 
 #### Version 7
 
-
 * Fixes APAR PI40551. Now uses working directory for temporary artifact storage.
-
 
 #### Version 6
 
-
 * Support property file encryption.
-
 
 #### Version 5
 
-
 * Fixes APAR PI61961, Adding compatibility for later versions of Rational Asset Manager.
-
 
 #### Version 4
 
-
 * Fixes APAR PI57417. Plug-in now checks the agent settings for acceptance of self signed certificates.
-
 
 #### Version 3
 
-
 * When an error occurs looking for files for a version, the import will fail and the version will be cleaned up in UrbanCode Deploy. Fixes APAR PI43548
 
-
 #### Version 2
-
 
 * Release Rational Asset Manager connections after import
 * Fixes running a process after creating a version
 
-
 #### Version 1
 
-
 * Initial release of Rational Asset Manager source configuration plugin for UrbanCode Deploy
-
 
 |Back to ...||Latest Version|IBM Rational Asset Manager for IBM UrbanCode Deploy ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |

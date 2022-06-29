@@ -5,18 +5,12 @@ IBM WebSphere Service Registry and Repository - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the WebSphere Service Registry And Repository plug-in
-
 
 * [Activate Configuration Profile](#activate_configuration_profile)
 * [Delete Configuration Profile](#delete_configuration_profile)
@@ -24,17 +18,12 @@ IBM WebSphere Service Registry and Repository - Steps
 * [Register Service](#register_service)
 
 
-
-
 ### Activate Configuration Profile
-
 
 This step archives the currently active profile, and then makes the specified configuration profile active. The configuration profile that was previously active is saved in WSRR.
 
 
 
-
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Cell Name | String | In a stand-alone or federated node configuration, the name of the cell in which WSRR is deployed. | No |
@@ -46,15 +35,11 @@ This step archives the currently active profile, and then makes the specified co
 | WSRR Home | String | The WSRR\_INSTALL\_ROOT directory. This parameter is optional and, if omitted, defaults to the current directory. You must provide a value for this parameter if you are not running the script from the WAS\_INSTALL\_ROOT\WSRR\admin\scripts\_cell directory. | Yes |
 | WSRR User | String | The user name of the account that will interact with WSRR system | Yes |
 
-
 ### Delete Configuration Profile
-
 
 This script removes a configuration profile from WSRR.
 
 
-
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Cell Name | String | In a stand-alone or federated node configuration, the name of the cell in which WSRR is deployed. | No |
@@ -66,13 +51,9 @@ This script removes a configuration profile from WSRR.
 | WSRR Home | String | The WSRR\_INSTALL\_ROOT directory. This parameter is optional and, if omitted, defaults to the current directory. You must provide a value for this parameter if you are not running the script from the WAS\_INSTALL\_ROOT\WSRR\admin\scripts\_cell directory. | Yes |
 | WSRR User | String | The user name of the account that will interact with WSRR system | Yes |
 
-
 ### Load Configuration Profile
 
-
 This step loads a configuration profile, from a configuration profile compressed file, into WSRR.
-
-
 
 
 
@@ -89,13 +70,9 @@ This step loads a configuration profile, from a configuration profile compressed
 | WSRR Home | String | The WSRR\_INSTALL\_ROOT directory. This parameter is optional and, if omitted, defaults to the current directory. You must provide a value for this parameter if you are not running the script from the WAS\_INSTALL\_ROOT\WSRR\admin\scripts\_cell directory. | Yes |
 | WSRR User | String | The user name of the account that will interact with WSRR system | Yes |
 
-
 ### Register Service
 
-
 This script registers service using WSDL document onto WSRR.
-
-
 
 
 | Name | Type | Description | Required |
@@ -106,8 +83,6 @@ This script registers service using WSDL document onto WSRR.
 | Port Number | String | The port number of the server on which you want to register your service. | Yes |
 | WSDL Path | String | The path which includes your WSDL files. | Yes |
 | WSRR User | String | The user name of the account that will interact with WSRR system | Yes |
-
-
 
 
 

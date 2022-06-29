@@ -5,30 +5,19 @@ IBM Rational Test Workbench Web UI Tester - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the IBM Rational Test WorkbenchRTWec plug-in
-
 
 * [Run RTWec Test](#run_rtwec_test)
 
 
-
-
 ### Run RTWec Test
 
-
 Execute Eclipse Client Tests from IBM Rational Test Workbench
-
-
 
 
 | Name | Type | Description | Required |
@@ -51,8 +40,6 @@ Execute Eclipse Client Tests from IBM Rational Test Workbench
 
 
 
-
-
 |Back to ...||Latest Version|IBM Rational Test Workbench Web UI Tester ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RFT-WebUI-UCD/RFT-WebUI-UCD-9.0.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RFT-WebUI-UCD/RFT-WebUI-UCD-10.1.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

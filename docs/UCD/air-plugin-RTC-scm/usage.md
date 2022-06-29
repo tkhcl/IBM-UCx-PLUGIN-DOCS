@@ -5,15 +5,11 @@ IBM Rational Team Concert - SCM - Usage
 # Usage
 
 
-
 ### Usage
 
 
 
-
-
 To create a component by importing from Rational Team Concert source-code management, complete the following steps. For more information, see [Creating components](http://www-01.ibm.com/support/knowledgecenter/SS4GSP_6.1.1/com.ibm.udeploy.doc/topics/comp_create.html "Creating components") in the product help, and the Jazz.net article [Achieving continuous deployment with UrbanCode Deploy by integrating with Rational Team Concert](https://jazz.net/library/article/1480 "Jazz.net article").
-
 
 1. On the **Components** page in IBM UrbanCode Deploy, click **Create New Component**.
 2. In the **Source Config Type** list, select **RTC SCM**.
@@ -21,8 +17,6 @@ To create a component by importing from Rational Team Concert source-code manage
 4. Click **Save**.
 5. Click the **Versions** tab for the component.
 6. Click **Import New Versions**.
-
-
 
 
 |Back to ...||Latest Version|IBM Rational Team Concert - SCM ||||

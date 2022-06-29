@@ -5,18 +5,12 @@ Salesforce - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the SalesForce plug-in
-
 
 * [Bulk Retrieve](#bulk_retrieve)
 * [Deploy](#deploy)
@@ -26,14 +20,9 @@ Salesforce - Steps
 * [Retrieve](#retrieve)
 
 
-
-
 ### Bulk Retrieve
 
-
 Download a large number of components of a single metadata type into a set of local files.
-
-
 
 
 
@@ -57,13 +46,9 @@ Download a large number of components of a single metadata type into a set of lo
 | Unzip | String | If set to true, the retrieved components are unzipped. If set to false, the retrieved components are saved as a zip file in the retrieveTarget directory. | No |
 | User | String | SFDC User Name | Yes |
 
-
 ### Deploy
 
-
 Deploy components, code, or recent validations into your org.
-
-
 
 
 | Name | Type | Description | Required |
@@ -84,13 +69,9 @@ Deploy components, code, or recent validations into your org.
 | Test Names | String | Ignored if Test Level not set to RunSpecifiedTests.A list of Apex classes containing tests run after deployment. Separate each test with a new line. | No |
 | User | String | SFDC User Name | No |
 
-
 ### Describe Metadata
 
-
 Describe and list all metadata types and their existing objects.
-
-
 
 
 | Name | Type | Description | Required |
@@ -107,13 +88,9 @@ Describe and list all metadata types and their existing objects.
 | Socks Proxy Port | String | The port for socks connections. If left empty, 1080 is used. | No |
 | User | String | SFDC User Name | No |
 
-
 ### Deploy Recent Validation
 
-
 Deploy recently validated components.
-
-
 
 
 
@@ -133,13 +110,9 @@ Deploy recently validated components.
 | Socks Proxy Port | String | The port for socks connections. If left empty, 1080 is used. | No |
 | User | String | SFDC User Name | Yes |
 
-
 ### List Metadata
 
-
 List information on a given metadata type.
-
-
 
 
 | Name | Type | Description | Required |
@@ -160,13 +133,9 @@ List information on a given metadata type.
 | Trace | String | The path of the output file where results are stored. The default output is the console. Directing the output to a file makes it easier to extract the relevant information for your package.xml manifest file. | No |
 | User | String | SFDC User Name | No |
 
-
 ### Retrieve
 
-
 Retrieve unpackaged, managed or unmanaged packages.
-
-
 
 
 | Name | Type | Description | Required |
@@ -183,7 +152,7 @@ Retrieve unpackaged, managed or unmanaged packages.
 * retrievePkg
 * retrieveOutput
 * retrieveUnpackaged
- | The type of component to retrieve. | Yes |
+| The type of component to retrieve. | Yes |
 | SalesForce Server URL | String | SFDC Server URL (i.e. https://na17.salesforce.com) | Yes |
 | Socks Proxy Host | String | The name of a Socks server. | No |
 | Socks Proxy Port | String | The port for socks connections. If left empty, 1080 is used. | No |
@@ -192,8 +161,6 @@ Retrieve unpackaged, managed or unmanaged packages.
 
 
 
-
-
 |Back to ...||Latest Version|Salesforce ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1101988](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SalesForce/salesforce-9.1101988.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

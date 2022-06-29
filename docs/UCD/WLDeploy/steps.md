@@ -5,18 +5,12 @@ Oracle WebLogic WLDeploy - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the Oracle WebLogic WLDeploy plug-in
-
 
 * [Check Application on Targets](#check_application_on_targets)
 * [Check Targets](#check_targets)
@@ -27,14 +21,9 @@ Oracle WebLogic WLDeploy - Steps
 * [Wait for Application on Targets](#wait_for_application_on_targets)
 
 
-
-
 ### Check Application on Targets
 
-
 Check the status of an application on target servers and clusters
-
-
 
 
 | Name | Type | Description | Required |
@@ -52,13 +41,9 @@ Check the status of an application on target servers and clusters
 | User Name | String | The user name to use to connect to the WebLogic server. If the user name and password are encrypted, leave this property blank and specify the User Configuration File and User Key File properties. | No |
 | WLDeploy Ant Task JAR | String | The fully-qualified path to the WebLogic WLDeploy Ant Task JAR file or full client JAR file. This property is required when you start, stop, and check the status of targets. | Yes |
 
-
 ### Check Targets
 
-
 Examine target servers for the RUNNING status. This step will only succeed if all specified servers are RUNNING.
-
-
 
 
 | Name | Type | Description | Required |
@@ -74,13 +59,9 @@ Examine target servers for the RUNNING status. This step will only succeed if al
 | User Name | String | The user name to use to connect to the WebLogic server. If the user name and password are encrypted, leave this property blank and specify the User Configuration File and User Key File properties. | No |
 | WLDeploy Ant Task JAR | String | The fully-qualified path to the WebLogic WLDeploy Ant Task JAR file or full client JAR file. This property is required when you start, stop, and check the status of targets. | Yes |
 
-
 ### List Applications on Targets
 
-
 List all AppDeployments for each target and set as output properties.
-
-
 
 
 | Name | Type | Description | Required |
@@ -96,13 +77,9 @@ List all AppDeployments for each target and set as output properties.
 | User Name | String | The user name to use to connect to the WebLogic server. If the user name and password are encrypted, leave this property blank and specify the User Configuration File and User Key File properties. | No |
 | WLDeploy Ant Task JAR | String | The fully-qualified path to the WebLogic WLDeploy Ant Task JAR file or full client JAR file. This property is required when you start, stop, and check the status of targets. | Yes |
 
-
 ### Run WLDeploy
 
-
 Run a WLDeploy Ant task.
-
-
 
 
 | Name | Type | Description | Required |
@@ -125,7 +102,7 @@ Run a WLDeploy Ant task.
 * redeploy
 * start
 * stop
- | The wldeploy Ant task action to perform. | Yes |
+| The wldeploy Ant task action to perform. | Yes |
 | Password | Password | The password to use to connect to the WebLogic server. If the user name and password are encrypted, leave this property blank and specify the User Configuration File and User Key File properties. | No |
 | Remote | Boolean | Enable this property if you are deploying to a remote computer that is not the same computer that this agent runs on. | No |
 | Retire Timeout | String | The timeout value that specifies when to retire the currently running version. Specify this property if the wldeploy task is start, redeploy, or deploy. | No |
@@ -137,13 +114,9 @@ Run a WLDeploy Ant task.
 | User Name | String | The user name to use to connect to the WebLogic server. If the user name and password are encrypted, leave this property blank and specify the User Configuration File and User Key File properties. | No |
 | WLDeploy Ant Task JAR | String | The fully-qualified path to the WebLogic WLDeploy Ant Task JAR file or full client JAR file. This property is required when you start and stop the WebLogic server. | Yes |
 
-
 ### Start Targets
 
-
 Start the target server and clusters
-
-
 
 
 | Name | Type | Description | Required |
@@ -155,7 +128,7 @@ Start the target server and clusters
 | On Failure | Enumeration:
 * fail
 * warn
- | Choice of action when any of the targets fail to start. (Fail: Step will attempt to start all targets, and will fail at the end if any of the targets failed to start. Warn: Step will continue on if an override failure occurs, and print a warning declaring the target that failed to start.) | Yes |
+| Choice of action when any of the targets fail to start. (Fail: Step will attempt to start all targets, and will fail at the end if any of the targets failed to start. Warn: Step will continue on if an override failure occurs, and print a warning declaring the target that failed to start.) | Yes |
 | Password | Password | The password to use to connect to the WebLogic server. If the user name and password are encrypted, leave this property blank and specify the User Configuration File and User Key File properties. | No |
 | Targets | String | A comma-separated list of the names of the target servers to deploy to. For example: target1,target2. | Yes |
 | Timeout | String | The time after which the attempt to start the targets times out. Specify the value in seconds. The default value is 2 minutes. | Yes |
@@ -164,13 +137,9 @@ Start the target server and clusters
 | User Name | String | The user name to use to connect to the WebLogic server. If the user name and password are encrypted, leave this property blank and specify the User Configuration File and User Key File properties. | No |
 | WLDeploy Ant Task JAR | String | The fully-qualified path to the WebLogic WLDeploy Ant Task JAR file or full client JAR file. This property is required when you start, stop, and check the status of targets. | Yes |
 
-
 ### Stop Targets
 
-
 Stop the target server and clusters
-
-
 
 
 | Name | Type | Description | Required |
@@ -187,13 +156,9 @@ Stop the target server and clusters
 | User Name | String | The user name to use to connect to the WebLogic server. If the user name and password are encrypted, leave this property blank and specify the User Configuration File and User Key File properties. | No |
 | WLDeploy Ant Task JAR | String | The fully-qualified path to the WebLogic WLDeploy Ant Task JAR file or full client JAR file. This property is required when you start, stop, and check the status of targets. | Yes |
 
-
 ### Wait for Application on Targets
 
-
 Wait for the status of application on target servers and clusters to be running
-
-
 
 
 | Name | Type | Description | Required |
@@ -210,8 +175,6 @@ Wait for the status of application on target servers and clusters to be running
 | User Key File | String | The path to the key file where the decryption key for the user name and password are stored. | No |
 | User Name | String | The user name to use to connect to the WebLogic server. If the user name and password are encrypted, leave this property blank and specify the User Configuration File and User Key File properties. | No |
 | WLDeploy Ant Task JAR | String | The fully-qualified path to the WebLogic WLDeploy Ant Task JAR file or full client JAR file. This property is required when you start, stop, and check the status of targets. | Yes |
-
-
 
 
 

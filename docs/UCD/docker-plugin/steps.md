@@ -5,18 +5,12 @@ Docker - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the Docker plug-in
-
 
 * [Create Config](#create_config)
 * [Create Image Registry Resource](#create_image_registry_resource)
@@ -45,14 +39,9 @@ Docker - Steps
 * [Update Service](#update_service)
 
 
-
-
 ### Create Config
 
-
 Create a configuration file from a file as content.ID of the new config will be stored in the output property configID.
-
-
 
 
 
@@ -64,13 +53,9 @@ Create a configuration file from a file as content.ID of the new config will be 
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
 | File | String | Path to file holding contents of config | Yes |
 
-
 ### Create Image Registry Resource
 
-
 Create an image registry resource in the Resource Tree.
-
-
 
 
 | Name | Type | Description | Required |
@@ -90,18 +75,14 @@ Create an image registry resource in the Resource Tree.
 * ibm-containers
 * artifactory
 * amazon-ecr
- | Specify which API to connect with the Image Registry. When using IBM Containers, provide Bluemix Credentials. For Amazon ECR, use AWS access key as username and secret key as password. | Yes |
+| Specify which API to connect with the Image Registry. When using IBM Containers, provide Bluemix Credentials. For Amazon ECR, use AWS access key as username and secret key as password. | Yes |
 | Parent Resource | String | The parent resource under which the image registry resource will be created. | Yes |
 | Password | Password | The image registry password. When using IBM Containers, provide Bluemix Credentials. For Amazon ECR, use AWS access key as username and secret key as password. | Yes |
 | User Name | String | The image registry user name.When using IBM Containers, provide Bluemix Credentials. For Amazon ECR, use AWS access key as username and secret key as password. | Yes |
 
-
 ### Create Secret
 
-
 Create a secret from a file.ID of the new secret will be stored in the output property secretID.
-
-
 
 
 
@@ -113,13 +94,9 @@ Create a secret from a file.ID of the new secret will be stored in the output pr
 | File | String | Path to file holding contents of secret. | Yes |
 | Secret | String | Name of the new secret. | Yes |
 
-
 ### Create Service
 
-
 Create a new service. ID of the new service will be stored in the output property serviceID.
-
-
 
 
 
@@ -131,13 +108,9 @@ Create a new service. ID of the new service will be stored in the output propert
 | Docker Service Create Options | String | Options for the Docker service create command. For example: name serviceName | No |
 | Image | String | Image the service will run. | Yes |
 
-
 ### Deploy Stack
 
-
 Deploy a new stack or update an existing stack.
-
-
 
 
 | Name | Type | Description | Required |
@@ -149,13 +122,9 @@ Deploy a new stack or update an existing stack.
 | Docker Stack Deploy Options | String | Options for the Docker stack deploy command. For example: with-registry-auth | No |
 | Stack Name | String | The name of the stack to deploy | Yes |
 
-
 ### Docker Login
 
-
 Log in to a Docker registry.
-
-
 
 
 | Name | Type | Description | Required |
@@ -167,26 +136,18 @@ Log in to a Docker registry.
 | Password | Password | The Docker registry password. | Yes |
 | User Name | String | The Docker registry user name. | Yes |
 
-
 ### Docker Logout
 
-
 Logout of a Docker registry.
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Docker Registry | String | The Docker registry server. Leave blank to use the default, https://index.docker.io/v1/. | No |
 
-
 ### Initialize Swarm
 
-
 Initialize a swarm. Output properties will contain the manager/worker tokens and the address:port of the new swarm manager.
-
-
 
 
 
@@ -196,13 +157,9 @@ Initialize a swarm. Output properties will contain the manager/worker tokens and
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
 | Docker Swarm Init Options | String | Options for the Docker swarm init command. For example: advertise-addr | No |
 
-
 ### Join Swarm
 
-
 Join a swarm as a node and/or manager.
-
-
 
 
 | Name | Type | Description | Required |
@@ -213,13 +170,9 @@ Join a swarm as a node and/or manager.
 | Manager Host Address | String | The host:port of an existing swarm manager node. | Yes |
 | Swarm Join Token | String | Token for entry into the swarm. | Yes |
 
-
 ### Leave Swarm
 
-
 Leave the swarm.
-
-
 
 
 | Name | Type | Description | Required |
@@ -228,13 +181,9 @@ Leave the swarm.
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
 | Docker Swarm Leave Options | String | Options for the Docker swarm leave command. For example: force | No |
 
-
 ### Manage Swarm Join Tokens
 
-
 Manage join tokens. Output properties will contain the requested token and optionally the advertise address for the swarm.
-
-
 
 
 
@@ -246,15 +195,11 @@ Manage join tokens. Output properties will contain the requested token and optio
 | Docker Swarm Join-Token Type | Enumeration:
 * worker
 * manager
- | The type of swarm token to manage, worker or manager | Yes |
-
+| The type of swarm token to manage, worker or manager | Yes |
 
 ### Promote Image
 
-
 Promote an image from a source registry to a destination registry.
-
-
 
 
 | Name | Type | Description | Required |
@@ -273,7 +218,7 @@ Promote an image from a source registry to a destination registry.
 * ibm-containers
 * artifactory
 * amazon-ecr
- | Specify which API to connect with the Destination Image Registry. When using IBM Containers, provide Bluemix Credentials. For Amazon ECR, use AWS access key as username and secret key as password. | Yes |
+| Specify which API to connect with the Destination Image Registry. When using IBM Containers, provide Bluemix Credentials. For Amazon ECR, use AWS access key as username and secret key as password. | Yes |
 | Destination Image Tag | String | The tag to apply to the image in the destination registry.If not specified, the tag given in the Image field will be used. | No |
 | Destination Password | Password | The destination registry password. When using IBM Containers, provide Bluemix Credentials. For Amazon ECR, use AWS access key as username and secret key as password. | Yes |
 | Destination Registry | String | The Docker registry server the image will be promoted to. Leave blank to use the default, https://index.docker.io/v1/. | Yes |
@@ -282,13 +227,9 @@ Promote an image from a source registry to a destination registry.
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
 | Image | String | The source image to be promoted to the destination registry. For example: mysql:5.5 | Yes |
 
-
 ### Pull Docker Image
 
-
 Retrieve an image from a Docker registry.
-
-
 
 
 | Name | Type | Description | Required |
@@ -298,13 +239,9 @@ Retrieve an image from a Docker registry.
 | Image | String | The name of the image to pull. For example: mysql:5.5 | Yes |
 | Pull Options | String | Options for the pull command. For example: all-tags=false disable-content-trust=true | No |
 
-
 ### Push Docker Image
 
-
 Upload an image to a Docker registry.
-
-
 
 
 | Name | Type | Description | Required |
@@ -314,13 +251,9 @@ Upload an image to a Docker registry.
 | Image | String | The name of the image to push. For example: mysql:5.5 | Yes |
 | Push Options | String | Options for the push command. For example: disable-content-trust=true help=false | No |
 
-
 ### Remove Config
 
-
 Remove one or more configuration files.
-
-
 
 
 | Name | Type | Description | Required |
@@ -329,13 +262,9 @@ Remove one or more configuration files.
 | Docker Client Variables | String | A list, separated by newline characters, of runtime environment variables for the Docker client. For example: DOCKER\_HOST=tcp://192.0.2.100:2376 | No |
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
 
-
 ### Remove Docker Container
 
-
 Remove a Docker container.
-
-
 
 
 | Name | Type | Description | Required |
@@ -345,13 +274,9 @@ Remove a Docker container.
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
 | Docker Remove Options | String | Options for the Docker rm command. For example: link -f | No |
 
-
 ### Remove Secret
 
-
 Remove one or more secrets.
-
-
 
 
 | Name | Type | Description | Required |
@@ -360,13 +285,9 @@ Remove one or more secrets.
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
 | Secret Name | String | Name or ID of the docker secret(s) to remove. If multiple secrets are specified, separate them with spaces. | Yes |
 
-
 ### Remove Service
 
-
 Remove one or more services.
-
-
 
 
 | Name | Type | Description | Required |
@@ -375,13 +296,9 @@ Remove one or more services.
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
 | Service Name | String | Name or ID of the docker service(s) to remove. If multiple services are specified, separate them with spaces. | Yes |
 
-
 ### Remove Stack
 
-
 Remove the specified stack.
-
-
 
 
 | Name | Type | Description | Required |
@@ -390,13 +307,9 @@ Remove the specified stack.
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
 | Stack Name | String | The name of the stack to remove | Yes |
 
-
 ### Run Docker Container
 
-
 Create a Docker container and run a command in the container.
-
-
 
 
 | Name | Type | Description | Required |
@@ -407,13 +320,9 @@ Create a Docker container and run a command in the container.
 | Image | String | The image to create the container from. | Yes |
 | Run Options | String | Options for the Docker run command. For example: publish-all restart=no | No |
 
-
 ### Scale Service
 
-
 Scale one or multiple replicated services.
-
-
 
 
 | Name | Type | Description | Required |
@@ -422,13 +331,9 @@ Scale one or multiple replicated services.
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
 | Service Name | String | One or more ServiceName=ReplicaCount values. If multiple services are specified, separate them with spaces. No spaces around the equal sign. | Yes |
 
-
 ### Start Docker Container
 
-
 Start a Docker container.
-
-
 
 
 | Name | Type | Description | Required |
@@ -438,13 +343,9 @@ Start a Docker container.
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
 | Start Options | String | Options for the Docker start command. For example: attach=false | No |
 
-
 ### Stop Docker Container
 
-
 Stop a Docker container.
-
-
 
 
 | Name | Type | Description | Required |
@@ -454,13 +355,9 @@ Stop a Docker container.
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
 | Stop Options | String | Options for the Docker stop command. For example: time=30 | No |
 
-
 ### Tag Docker Image
 
-
 Tag an image into a repository.
-
-
 
 
 | Name | Type | Description | Required |
@@ -471,13 +368,9 @@ Tag an image into a repository.
 | Tag | String | This will give a new alias to an image in the repository. Use the form: [REGISTRYHOST/][USERNAME/]NAME[:TAG]. For example: hub.urbancode.com/node:0.10 | Yes |
 | Tag Options | String | Options for the Docker tag command. docker tag Options source destination | No |
 
-
 ### Update Service
 
-
 Update a service.
-
-
 
 
 | Name | Type | Description | Required |
@@ -488,21 +381,14 @@ Update a service.
 | Service Name | String | The service to update. | Yes |
 
 
-
-
 ### Roles in the Docker plug-in
-
 
 * [ImageRegistry](#imageregistry_role)
 
 
-
 ### ImageRegistry
 
-
 Role for resources that represents a Container Image Registry.
-
-
 
 
 | Name | Type | Description |
@@ -519,10 +405,8 @@ Role for resources that represents a Container Image Registry.
 | Image Registry Host | String | The Docker image registry server. |
 | Password | Password | Password used to access the image registery. When using IBM Containers, provide Bluemix Credentials. For Amazon ECR, use AWS access key as username and secret key as password. |
 | Registry Type | Enumeration:
- | Specify which API to connect with the Image Registry. When using IBM Containers, provide Bluemix Credentials. For Amazon ECR, use AWS access key as username and secret key as password. |
+| Specify which API to connect with the Image Registry. When using IBM Containers, provide Bluemix Credentials. For Amazon ECR, use AWS access key as username and secret key as password. |
 | User Name | String | User name used to access the image registery. When using IBM Containers, provide Bluemix Credentials. For Amazon ECR, use AWS access key as username and secret key as password. |
-
-
 
 
 

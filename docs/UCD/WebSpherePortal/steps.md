@@ -5,18 +5,12 @@ IBM WebSphere Portal - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the WebSphere Portal plug-in
-
 
 * [Deploy Portal WAR](#deploy_portal_war)
 * [Deploy Theme](#deploy_theme)
@@ -25,14 +19,9 @@ IBM WebSphere Portal - Steps
 * [Invoke XMLAccess script](#invoke_xmlaccess_script)
 
 
-
-
 ### Deploy Portal WAR
 
-
 Deploys a WAR on a WebSphere Portal server
-
-
 
 
 | Name | Type | Description | Required |
@@ -50,13 +39,9 @@ Deploys a WAR on a WebSphere Portal server
 | WebSphere portal server administrator username | String | WebSphere portal server administrator username | No |
 | WebSphere portal server configuration port | String | WebSphere portal server configuration port | No |
 
-
 ### Deploy Theme
 
-
 Deploys the static contents of a theme along with the related skins on a WebSphere Portal server
-
-
 
 
 
@@ -80,13 +65,9 @@ Deploys the static contents of a theme along with the related skins on a WebSphe
 | WebSphere portal server administrator username | String | WebSphere portal server administrator username | No |
 | WebSphere portal server configuration port | String | WebSphere portal server configuration port | No |
 
-
 ### Execute ConfigEngine command
 
-
 Executes the specified ConfigEngine command on a WebSphere Portal server
-
-
 
 
 | Name | Type | Description | Required |
@@ -98,13 +79,9 @@ Executes the specified ConfigEngine command on a WebSphere Portal server
 | WebSphere application server administrator password | Password | WebSphere application server administrator user password | No |
 | WebSphere portal server administrator password | Password | WebSphere portal server administrator user password | No |
 
-
 ### Install PAA
 
-
 Installs a portal application archive (.paa) on a WebSphere Portal server
-
-
 
 
 | Name | Type | Description | Required |
@@ -122,13 +99,9 @@ Installs a portal application archive (.paa) on a WebSphere Portal server
 | WebSphere application server administrator password | Password | WebSphere application server administrator user password | No |
 | WebSphere portal server administrator password | Password | WebSphere portal server administrator user password | No |
 
-
 ### Invoke XMLAccess script
 
-
 Executes an XMLAccess script on a WebSphere Portal server
-
-
 
 
 | Name | Type | Description | Required |
@@ -142,8 +115,6 @@ Executes an XMLAccess script on a WebSphere Portal server
 | WebSphere portal server administrator username | String | WebSphere portal server administrator username | No |
 | WebSphere portal server configuration port | String | WebSphere portal server configuration port | No |
 | XML script file name | String | The name of the file containing the XML script for XMLAccess tool. If left blank, the name of the component is used. | No |
-
-
 
 
 

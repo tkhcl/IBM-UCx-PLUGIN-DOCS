@@ -5,18 +5,12 @@ IBM UrbanCode Deploy Environments - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the UrbanCode Deploy Environments plug-in
-
 
 * [Add Base Resource To Environment](#add_base_resource_to_environment)
 * [Add Environment To Team](#add_environment_to_team)
@@ -34,14 +28,9 @@ IBM UrbanCode Deploy Environments - Steps
 * [Verify Inventory Status](#verify_inventory_status)
 
 
-
-
 ### Add Base Resource To Environment
 
-
 Adds a base resource to an environment as a deployment target.
-
-
 
 
 | Name | Type | Description | Required |
@@ -50,13 +39,9 @@ Adds a base resource to an environment as a deployment target.
 | Environment | String |  | Yes |
 | Resource Path | String |  | Yes |
 
-
 ### Add Environment To Team
 
-
 Adds an environment or list of environments delimited by commas to a team for a given application and type classification.
-
-
 
 
 
@@ -67,13 +52,9 @@ Adds an environment or list of environments delimited by commas to a team for a 
 | Team | String |  | Yes |
 | Type | String | The type classification to add. Leave blank to use the type Standard Environment. | No |
 
-
 ### Check If Environment Exists
 
-
 This step will succeed if the environment exists and fail if it does not.
-
-
 
 
 | Name | Type | Description | Required |
@@ -81,13 +62,9 @@ This step will succeed if the environment exists and fail if it does not.
 | Application | String | name/ID of the application that the environment belongs to. Not needed if you refer to environment by ID instead of name. | No |
 | Environment | String | name/ID of the environment. If you specify ID you dont need to specify the application. | Yes |
 
-
 ### Create Environment
 
-
 Creates an environment for the specified application.
-
-
 
 
 | Name | Type | Description | Required |
@@ -103,13 +80,9 @@ Creates an environment for the specified application.
 | Properties | String | Properties to be set on the new environment, using Java property file syntax. | No |
 | Require Approvals | Boolean | Check this box if the environment will require approval from an approval process to install versions or snapshots. | No |
 
-
 ### Create Environment Property
 
-
 Create a property for an application environment.
-
-
 
 
 | Name | Type | Description | Required |
@@ -120,13 +93,9 @@ Create a property for an application environment.
 | Property Value | String | value of the property to set. | No |
 | Secure | Boolean | check if the property should be secure. | No |
 
-
 ### Create Environment from Template
 
-
 Creates an environment from a template for the specified application.
-
-
 
 
 | Name | Type | Description | Required |
@@ -137,13 +106,9 @@ Creates an environment from a template for the specified application.
 | Environment Template ID | String | The ID of the environment template. The Environment Template ID or Name is required. | No |
 | Environment Template Name | String | The name of the environment template. The Environment Template ID or Name is required. | No |
 
-
 ### Create Multiple Environments
 
-
 Creates multiple environments using JSON format. Outputs a comma delimited list of the environment UUIDs that were created (environment.ids).
-
-
 
 
 
@@ -151,13 +116,9 @@ Creates multiple environments using JSON format. Outputs a comma delimited list 
 | --- | --- | --- | --- |
 | JSON File/Text | String | Specify a body of JSON text or a file to define Environments. Separate multiple JSON objects by using commas within an array, e.g. [{}``,{}``,{}``]. | Yes |
 
-
 ### Delete Environment
 
-
 Deletes an environment.
-
-
 
 
 | Name | Type | Description | Required |
@@ -165,13 +126,9 @@ Deletes an environment.
 | Application | String | name/ID of the application that the environment belongs to. Not needed if you refer to environment by ID instead of name. | No |
 | Environment | String | name/ID of the environment. If you specify ID you dont need to specify the application. | Yes |
 
-
 ### Get Component Environment Properties
 
-
 Get the name-value pairs of all component environment properties and sets them as output properties for this step. Secure property values cannot be resolved.
-
-
 
 
 
@@ -181,13 +138,9 @@ Get the name-value pairs of all component environment properties and sets them a
 | Component | String | name/ID of the component. | Yes |
 | Environment | String | name/ID of the environment. If you specify ID you dont need to specify the application. | Yes |
 
-
 ### Get Environment Details
 
-
 Retrieve basic configuration information about a environment.
-
-
 
 
 | Name | Type | Description | Required |
@@ -195,13 +148,9 @@ Retrieve basic configuration information about a environment.
 | Application | String | Application name or ID. (Required when using a name for the environment instead of its ID) | Yes |
 | Environment | String | Environment name or ID | Yes |
 
-
 ### Get Environment Properties
 
-
 Get the name-value pairs of all environment properties and sets them as output properties for this step. Secure property values cannot be resolved.
-
-
 
 
 
@@ -210,13 +159,9 @@ Get the name-value pairs of all environment properties and sets them as output p
 | Application | String | name/ID of the application that the environment belongs to. Not needed if you refer to environment by ID instead of name. | No |
 | Environment | String | name/ID of the environment. If you specify ID you dont need to specify the application. | Yes |
 
-
 ### Get Latest Version By Environment and Component
 
-
 Gets the latest Version of a Component in a given Environment
-
-
 
 
 | Name | Type | Description | Required |
@@ -225,13 +170,9 @@ Gets the latest Version of a Component in a given Environment
 | Component | String | Required Component Name | No |
 | Environment | String | Required Environment Name | No |
 
-
 ### Set Component Environment Property
 
-
 Sets an environment-specific property value for a component. The property must already exist.
-
-
 
 
 
@@ -243,13 +184,9 @@ Sets an environment-specific property value for a component. The property must a
 | Property Name | String | name of the property to set. | Yes |
 | Property Value | String | value of the property to set. | No |
 
-
 ### Verify Inventory Status
 
-
 Verifies that the environment has a component with a certain version in inventory.
-
-
 
 
 | Name | Type | Description | Required |
@@ -262,8 +199,6 @@ Verifies that the environment has a component with a certain version in inventor
 
 
 
-
-
 |Back to ...||Latest Version|IBM UrbanCode Deploy Environments ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[85.1132355]()|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[85.1132355](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Environment/ucd-uDeploy-Environment-85.1132355.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

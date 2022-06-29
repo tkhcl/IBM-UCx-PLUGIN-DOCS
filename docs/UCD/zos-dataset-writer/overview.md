@@ -5,14 +5,11 @@
 
 The z/OS Dataset Writer plug-in helps you copy text to a mainframe dataset.
 
-
 ## Installation
 
 No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins).
 
-
 ## History
-
 
 ### Version 4
 
@@ -36,4 +33,4 @@ Sequential output dataset must be enclosed in single quotes for a fully qualifie
 
 |Back to ...||Latest Version|z/OS Dataset Writer ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[4.1134053](https://github.com/UrbanCode/IBM-UCD-PLUGINS/raw/main/files/zos-dataset-writer/ucd-plugins-zos-dataset-writer-4.1134053.zip)|[Readme](README.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[4.1134053](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-dataset-writer/ucd-plugins-zos-dataset-writer-4.1134053.zip)|[Readme](README.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

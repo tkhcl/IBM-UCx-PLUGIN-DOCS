@@ -5,50 +5,33 @@ Maven - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the Maven plug-in
-
 
 * [Import Version](#import_version)
 
 
-
-
 ### Import Version
 
-
 Creates a new component version and imports artifacts
-
 
 This step has no input properties.
 
 
-
-
 ### Roles in the Maven plug-in
 
-
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
-
 
 
 * [MavenComponentProperties](#mavencomponentproperties_role)
 * [MavenImportProperties](#mavenimportproperties_role)
 
 
-
 ### MavenComponentProperties
-
-
 
 
 | Name | Type | Description |
@@ -69,10 +52,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | User | String | The user name for the Maven-credentialed user. |
 | Version Name Pattern | String | The range of build versions to import. Versions are defined by regular expressions. For example, to import all 1.1.\*, and 1.2.\* versions, you might type (1.[0-9]+).\*. A number of versions that is equal to the value in the Latest Build Count field is imported for each matching version. This property is only necessary when tracking older branches. |
 
-
 ### MavenImportProperties
-
-
 
 
 | Name | Type | Description |
@@ -84,8 +64,6 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 
 
 
-
-
 |Back to ...||Latest Version|Maven ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[25.1131554]()|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[25.1131554](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MavenSourceConfig/ucd-MavenSourceConfig-25.1131554.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

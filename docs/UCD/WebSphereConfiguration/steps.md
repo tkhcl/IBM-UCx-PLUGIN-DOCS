@@ -5,16 +5,11 @@ WebSphere Application Server - Configure - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
-
-
-
 ### Process steps in the WAS Configure plug-in
-
 
 * [WebSphere Create Configuration Snippet](#websphere_-_create_configuration_snippet)
 * [WebSphere Extract Configuration Data](#websphere_-_extract_configuration_data)
@@ -33,14 +28,9 @@ WebSphere Application Server - Configure - Steps
 * [WebSphere Get Compare Result](#websphere_get_compare_result)
 
 
-
-
 ### WebSphere Create Configuration Snippet
 
-
 Extract a resource and any child resources from WebSphere configuration data by resource name.
-
-
 
 
 | Name | Type | Description | Required |
@@ -52,13 +42,9 @@ Extract a resource and any child resources from WebSphere configuration data by 
 | Original Configuration File | String | Name and location of the configuration file. For example: /tmp/configData.json | Yes |
 | Paths of Resources to Extract | String | New line separated list of resource paths to extract. The values must match the path properties of resources in the configuration data. | No |
 
-
 ### WebSphere Extract Configuration Data
 
-
 Parse a WebSphere configuration file into cell, node, cluster, and server components.
-
-
 
 
 | Name | Type | Description | Required |
@@ -66,26 +52,18 @@ Parse a WebSphere configuration file into cell, node, cluster, and server compon
 | Configuration File | String | The full path to the configuration file. For example: /tmp/discoveredConfig.json | Yes |
 | Output Directory | String | The location where the extracted and templatized data is stored. | Yes |
 
-
 ### WebSphere Merge Configuration Files
 
-
 Merges all configuration data files in the working directory to one file.
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Output File | String | Name and location of a file to be created which contains the merged configuration data. | Yes |
 
-
 ### WebSphere Templatize Cell Configuration Data
 
-
 Templatize WebSphere cell configuration data.
-
-
 
 
 | Name | Type | Description | Required |
@@ -98,13 +76,9 @@ Templatize WebSphere cell configuration data.
 | Start Token Delimiter | String | The start delimiter character used to identify tokens. | Yes |
 | User Defined Tokenization | String | To tokenize or change values in the configuration data, specify a new line separated list of values in the format stringToReplace->newValue. For example, entering the value abcd1234->@NewToken@ will replace every occurrence of abcd1234 in your configuration file with @NewToken@. | No |
 
-
 ### WebSphere Templatize Cluster Configuration Data
 
-
 Templatizes WebSphere cluster configuration data
-
-
 
 
 | Name | Type | Description | Required |
@@ -119,13 +93,9 @@ Templatizes WebSphere cluster configuration data
 | User Defined Tokenization | String | To tokenize or change values in the configuration data, specify a new line separated list of values in the format stringToReplace->newValue. For example, entering the value abcd1234->@NewToken@ will replace every occurrence of abcd1234 in your configuration file with @NewToken@. | No |
 | Was Discovery Run On a Cluster Only? | Boolean | Select if the discovery process step was run against a specific cluster resource role. Clear if discovery was run against the cell. If selected, your process will not include the WebSphere Extract Configuration Data step. | No |
 
-
 ### WebSphere Templatize Node Configuration Data
 
-
 Templatizes WebSphere node configuration data.
-
-
 
 
 | Name | Type | Description | Required |
@@ -139,13 +109,9 @@ Templatizes WebSphere node configuration data.
 | User Defined Tokenization | String | To tokenize or change values in the configuration data, specify a new line separated list of values in the format stringToReplace->newValue. For example, entering the value abcd1234->@NewToken@ will replace every occurrence of abcd1234 in your configuration file with @NewToken@. | No |
 | Was Discovery Run On a Node Only? | Boolean | Select if the discovery process step was run against a specific node resource role. Clear if discovery was run against the cell. If selected, your process will not include the WebSphere Extract Configuration Data step. | No |
 
-
 ### WebSphere Templatize Server Configuration Data
 
-
 Templatize WebSphere Server configuration data.
-
-
 
 
 | Name | Type | Description | Required |
@@ -161,13 +127,9 @@ Templatize WebSphere Server configuration data.
 | User Defined Tokenization | String | To tokenize or change values in the configuration data, specify a new line separated list of values in the format stringToReplace->newValue. For example, entering the value abcd1234->@NewToken@ will replace every occurrence of abcd1234 in your configuration file with @NewToken@. | No |
 | Was Discovery Run On a Server Only? | Boolean | Select if the discovery process step was run against a specific server resource role. Clear if discovery was run against the cell. If selected, your process will not include the WebSphere Extract Configuration Data step. | No |
 
-
 ### WebSphere Templatize Server for Cluster Configuration Data
 
-
 Templatizes WebSphere cluster Member configuration data
-
-
 
 
 | Name | Type | Description | Required |
@@ -184,13 +146,9 @@ Templatizes WebSphere cluster Member configuration data
 | User Defined Tokenization | String | To tokenize or change values in the configuration data, specify a new line separated list of values in the format stringToReplace->newValue. For example, entering the value abcd1234->@NewToken@ will replace every occurrence of abcd1234 in your configuration file with @NewToken@. | No |
 | Was Discovery Run On a Server Only? | Boolean | Select if the discovery process step was run against a specific server resource role. Clear if discovery was run against the cell. If selected, your process will not include the WebSphere Extract Configuration Data step. | No |
 
-
 ### WebSphere Templatize Snippet Configuration Data
 
-
 Templatize a snippet of configuration data.
-
-
 
 
 | Name | Type | Description | Required |
@@ -206,13 +164,9 @@ Templatize a snippet of configuration data.
 | Start Token Delimiter | String | The start delimiter character used to identify tokens. | Yes |
 | User Defined Tokenization | String | To tokenize or change values in the configuration data, specify a new line separated list of values in the format stringToReplace->newValue. For example, entering the value abcd1234->@NewToken@ will replace every occurrence of abcd1234 in your configuration file with @NewToken@. | No |
 
-
 ### WebSphere Configuration Apply
 
-
 Apply the configuration for a given resource.
-
-
 
 
 | Name | Type | Description | Required |
@@ -222,7 +176,7 @@ Apply the configuration for a given resource.
 * SOAP
 * RMI
 * NONE
- | The type of connection to use with the wsadmin tool. | Yes |
+| The type of connection to use with the wsadmin tool. | Yes |
 | Host | String | The host name of the server to connect to. | No |
 | Logging Level | Enumeration:
 * 0
@@ -231,7 +185,7 @@ Apply the configuration for a given resource.
 * 3
 * 4
 * 5
- | The logging and trace level to use when applying the configuration. | No |
+| The logging and trace level to use when applying the configuration. | No |
 | Only Update/Create Configuration Objects | Boolean | When selected, configuration objects that exist in WebSphere Application Server but are not present in the configuration file are not deleted when the configuration is applied. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
 | Port | String | The port to connect to. | No |
@@ -241,13 +195,9 @@ Apply the configuration for a given resource.
 | WebSphere Configuration File | String | The configuration file that contains the configuration data to apply. | No |
 | WebSphere Configuration Types | String | A newline or comma separated list of the configuration types to be available for Configuration Discovery and Apply steps. | No |
 
-
 ### WebSphere Configuration Compare
 
-
 Export the live cell configuration based on the same object types in the input configuration and compare them.
-
-
 
 
 | Name | Type | Description | Required |
@@ -259,7 +209,7 @@ Export the live cell configuration based on the same object types in the input c
 * SOAP
 * RMI
 * NONE
- | The type of connection to use with the wsadmin tool. | Yes |
+| The type of connection to use with the wsadmin tool. | Yes |
 | Host | String | The host name of the server to connect to. | No |
 | Logging Level | Enumeration:
 * 0
@@ -268,7 +218,7 @@ Export the live cell configuration based on the same object types in the input c
 * 3
 * 4
 * 5
- | The logging and trace level to use for configuration comparison. | No |
+| The logging and trace level to use for configuration comparison. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
 | Port | String | The port to connect to. | No |
 | Profile Path | String | The directory location of the WebSphere profile to use. For example: /opt/IBM/WebSphere/Profiles/DefaultDmgr01 | No |
@@ -278,13 +228,9 @@ Export the live cell configuration based on the same object types in the input c
 | WebSphere Configuration File | String | The configuration file that contains the configuration data to apply. | No |
 | WebSphere Configuration Types | String | A newline or comma separated list of the configuration types (WebSphere objects) to be available for Configuration Discovery and Apply steps. | No |
 
-
 ### WebSphere Configuration Discovery
 
-
 Discover all known configuration objects and create resources for each under a root resource, apply the correct role, and set the role properties.
-
-
 
 
 | Name | Type | Description | Required |
@@ -295,14 +241,14 @@ Discover all known configuration objects and create resources for each under a r
 * SOAP
 * RMI
 * NONE
- | The type of connection to use with the wsadmin tool. | Yes |
+| The type of connection to use with the wsadmin tool. | Yes |
 | Host | String | The host name of the server to connect to. | No |
 | Limit Discovery Scope | Enumeration:
 * None
 * Cell
 * Cell and Clusters
 * Node
- | By default, when discovery is run at a scope (Cell, Node, Server, or Cluster), discovery will get configuration data for all objects underneath that scope. For example, if discovery is run at the Cell scope, all Nodes, Clusters, and Servers will also be discovered. Use this field to limit the scope of discovery. For example, if this field is set to Cell, only the Cell configuration will be discovered (configuration data for Nodes, Clusters, and Servers will not be discovered). | No |
+| By default, when discovery is run at a scope (Cell, Node, Server, or Cluster), discovery will get configuration data for all objects underneath that scope. For example, if discovery is run at the Cell scope, all Nodes, Clusters, and Servers will also be discovered. Use this field to limit the scope of discovery. For example, if this field is set to Cell, only the Cell configuration will be discovered (configuration data for Nodes, Clusters, and Servers will not be discovered). | No |
 | Logging Level | Enumeration:
 * 0
 * 1
@@ -310,7 +256,7 @@ Discover all known configuration objects and create resources for each under a r
 * 3
 * 4
 * 5
- | Select the logging and trace level to use for configuration discovery. | No |
+| Select the logging and trace level to use for configuration discovery. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
 | Port | String | The port to connect to. | No |
 | Profile Path | String | The directory location of the WebSphere profile to use. For example: /opt/IBM/WebSphere/Profiles/DefaultDmgr01 | No |
@@ -319,13 +265,9 @@ Discover all known configuration objects and create resources for each under a r
 | WebSphere Configuration Types | String | A newline or comma separated list of the configuration types (WebSphere objects) to be available for Configuration Discovery and Apply steps. | No |
 | wsadmin Max Heap | String | The javaoption passed to the wsadmin command. | No |
 
-
 ### WebSphere Configuration Partial Apply
 
-
 Apply the configuration for a given resource.
-
-
 
 
 | Name | Type | Description | Required |
@@ -335,7 +277,7 @@ Apply the configuration for a given resource.
 * SOAP
 * RMI
 * NONE
- | The type of connection to use with the wsadmin tool. | Yes |
+| The type of connection to use with the wsadmin tool. | Yes |
 | Host | String | The host name of the server to connect to. | No |
 | Logging Level | Enumeration:
 * 0
@@ -344,7 +286,7 @@ Apply the configuration for a given resource.
 * 3
 * 4
 * 5
- | The logging and trace level to use when applying the configuration. | No |
+| The logging and trace level to use when applying the configuration. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
 | Port | String | The port to connect to. | No |
 | Profile Path | String | The directory location of the WebSphere profile to use. For example: /opt/IBM/WebSphere/Profiles/DefaultDmgr01 | No |
@@ -353,13 +295,9 @@ Apply the configuration for a given resource.
 | WebSphere Configuration File | String | The configuration file that contains the configuration data to apply. | No |
 | WebSphere Configuration Types | String | A newline or comma separated list of the configuration types (WebSphere objects) which will be created/updated. Configuration types not in this list will not be created/updated. If a configuraiton type is specified but does not exist in your configuration data, no action is taken. If this field is blank, all supported object types in the configuration data will be created/updated. | No |
 
-
 ### WebSphere Configuration Partial Remove
 
-
 Remove the configuration for a given resource.
-
-
 
 
 | Name | Type | Description | Required |
@@ -369,7 +307,7 @@ Remove the configuration for a given resource.
 * SOAP
 * RMI
 * NONE
- | The type of connection to use with the wsadmin tool. | Yes |
+| The type of connection to use with the wsadmin tool. | Yes |
 | Host | String | The host name of the server to connect to. | No |
 | Logging Level | Enumeration:
 * 0
@@ -378,7 +316,7 @@ Remove the configuration for a given resource.
 * 3
 * 4
 * 5
- | The logging and trace level to use when applying the configuration. | No |
+| The logging and trace level to use when applying the configuration. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
 | Port | String | The port to connect to. | No |
 | Profile Path | String | The directory location of the WebSphere profile to use. For example: /opt/IBM/WebSphere/Profiles/DefaultDmgr01 | No |
@@ -387,13 +325,9 @@ Remove the configuration for a given resource.
 | WebSphere Configuration File | String | The configuration file that contains the configuration data to apply. | No |
 | WebSphere Configuration Types | String | A newline or comma separated list of the configuration types (WebSphere objects) which will be removed. Configuration types not in this list will not be remove. If a configuraiton type is specified but does not exist in your configuration data, no action is taken. If this field is blank, all supported object types in the configuration data will be removed. | No |
 
-
 ### WebSphere Get Compare Result
 
-
 This step will report on the result of the WebSphere Configuration Compare step. It will create output properties indicating the result the comparison and a link to the comparison process.
-
-
 
 
 | Name | Type | Description | Required |
@@ -407,9 +341,7 @@ This step will report on the result of the WebSphere Configuration Compare step.
 * 3
 * 4
 * 5
- | The logging/trace level for the configuration compare | No |
-
-
+| The logging/trace level for the configuration compare | No |
 
 
 

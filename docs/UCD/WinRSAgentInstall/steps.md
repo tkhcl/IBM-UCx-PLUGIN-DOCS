@@ -5,33 +5,21 @@ WinRS Agent Install - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the WinRS Agent Install plug-in
-
 
 * [WinRS Agent Install](#winrs_agent_install)
 
 
-
-
 ### WinRS Agent Install
-
 
 Install agent to remote machine using WinRS
 
-
 Before you can run this step, you must configure the target system as described in [Installing agents on Windows through WinRS](http://www-01.ibm.com/support/knowledgecenter/SS4GSP_6.1.2/com.ibm.udeploy.install.doc/topics/agent_install_winrs.html) in the product documentation.
-
-
 
 
 | Name | Type | Description | Required |
@@ -51,8 +39,6 @@ Before you can run this step, you must configure the target system as described 
 
 
 
-
-
 |Back to ...||Latest Version|WinRS Agent Install |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[12.1131558]()|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[12.1131558](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WinRSAgentInstall/ucd-WinRSAgentInstall-12.1131558.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

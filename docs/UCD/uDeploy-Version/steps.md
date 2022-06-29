@@ -5,13 +5,7 @@ IBM UrbanCode Deploy Versions - Steps
 # Steps
 
 
-
 ### Steps
-
-
-
-
- 
 
 
 
@@ -21,7 +15,6 @@ IBM UrbanCode Deploy Versions - Steps
 Process steps in the UrbanCode Deploy Versions plug-in
 ------------------------------------------------------
 
-
 * [Add Status to Version](#add_status_to_version)
 * [Add Version Link](#add_version_link)
 * [Create Version](#create_version)
@@ -29,29 +22,20 @@ Process steps in the UrbanCode Deploy Versions plug-in
 * [Remove Status from Version](#remove_status_from_version)
 
 
-
-
 Add Status to Version
 ---------------------
 
-
 Add a status to a Component Version
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Status | String | The status to be applied to the Component Version. | No |
 
-
 Add Version Link
 ----------------
 
-
 Creates or removes a link on a component version which can direct users to supplementary information related to the execution.
-
-
 
 
 
@@ -63,14 +47,10 @@ Creates or removes a link on a component version which can direct users to suppl
 | URL | String | The website the user will be directed to when the link title is clicked. | Yes |
 | Version Name/ID | String | Name or ID of version where link will be assigned. Ignored if ‘Component’s latest version’ is selected | Yes |
 
-
 Create Version
 --------------
 
-
 Create a Component Version and optionally upload files into it.
-
-
 
 
 | Name | Type | Description | Required |
@@ -82,14 +62,10 @@ Create a Component Version and optionally upload files into it.
 | Upload Files | Boolean | Upload files from the current working directory to the version after creation? | No |
 | Version Name | String | The name of the version to remove the status from. | Yes |
 
-
 Get Version Properties
 ----------------------
 
-
 Get the properties of a specific Version in the output properties of this step.
-
-
 
 
 | Name | Type | Description | Required |
@@ -97,14 +73,10 @@ Get the properties of a specific Version in the output properties of this step.
 | Component | String | (Optional) The name or ID of the component whose version has desired properties. | No |
 | Version | String | The name or ID of the version with desired properties. If specifying a version name, you must specify a component. | Yes |
 
-
 Remove Status from Version
 --------------------------
 
-
 Remove a status from a Component Version
-
-
 
 
 | Name | Type | Description | Required |
@@ -113,8 +85,6 @@ Remove a status from a Component Version
 
 
 
-
-
 |Back to ...||Latest Version|IBM UrbanCode Deploy Versions |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[71.1132358]()|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[71.1132358](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Version/ucd-uDeploy-Version-71.1132358.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

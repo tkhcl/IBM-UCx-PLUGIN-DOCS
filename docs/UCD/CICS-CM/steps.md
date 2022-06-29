@@ -5,18 +5,12 @@ CICS CM (Beta) - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the CICS CM plug-in
-
 
 * [Backout change package](#backout_change_package)
 * [Create migration scheme](#create_migration_scheme)
@@ -26,14 +20,9 @@ CICS CM (Beta) - Steps
 * [Ready change package](#ready_change_package)
 
 
-
-
 ### Backout change package
 
-
 Backout a change package to reverse a migration event.
-
-
 
 
 | Name | Type | Description | Required |
@@ -41,13 +30,9 @@ Backout a change package to reverse a migration event.
 | Change Package | String | The name of the change package to be backed out. The default value is ``${p:cicscm.changePackage}``. | Yes |
 | Migration Scheme | String | The name of the migration scheme used in the migration event that is to be backed out. The default value is ``${p:Create migration scheme/migrationScheme}``. | Yes |
 
-
 ### Create migration scheme
 
-
 Dynamically create a migration scheme with a single migration path.
-
-
 
 
 | Name | Type | Description | Required |
@@ -57,13 +42,9 @@ Dynamically create a migration scheme with a single migration path.
 | Target Configuration | String | The name of the target configuration. The default value is ``${p:cicscm.targetConfig}``. | Yes |
 | Transformation Rule Set | String | The name of the transformation rule set. | No |
 
-
 ### Install change package (CSD)
 
-
 Install the resource definitions in a change package from a CSD configuration.
-
-
 
 
 | Name | Type | Description | Required |
@@ -74,13 +55,9 @@ Install the resource definitions in a change package from a CSD configuration.
 | Discard resources | Boolean | Tick box to discard resources before installation. By default, the box is checked. | No |
 | Target Configuration | String | The name of the target configuration. The default value is ``${p:cicscm.targetConfig}``. | Yes |
 
-
 ### Migrate change package
 
-
 Migrate a change package.
-
-
 
 
 | Name | Type | Description | Required |
@@ -88,13 +65,9 @@ Migrate a change package.
 | Change Package | String | The name of the change package to be migrated. The default value is ``${p:cicscm.changePackage}``. | Yes |
 | Migration Scheme | String | The name of the migration scheme to be used in the migration. The default value is ``${p:Create migration scheme/migrationScheme}``. | Yes |
 
-
 ### Query change package
 
-
 Query a change package for names, groups and types of resource definitions within the package.
-
-
 
 
 
@@ -102,13 +75,9 @@ Query a change package for names, groups and types of resource definitions withi
 | --- | --- | --- | --- |
 | Change Package | String | The name of the change package to be queried. The default value is ``${p:cicscm.changePackage}``. | Yes |
 
-
 ### Ready change package
 
-
 Ready a change package for migration.
-
-
 
 
 | Name | Type | Description | Required |
@@ -118,19 +87,12 @@ Ready a change package for migration.
 
 
 
-
-
 ### Default input parameters
 
 
 
 
- 
-
-
 There are default input parameters that are available for all CICS CM Beta plug-in steps. To view the default properties, select**Show Hidden Properties** on any step configuration page. For more information, see [Properties](http://www-01.ibm.com/support/knowledgecenter/SS4GSP_6.1.1/com.ibm.udeploy.doc/topics/ud_properties_overview.html).
-
-
 
 
 
@@ -142,51 +104,34 @@ There are default input parameters that are available for all CICS CM Beta plug-
 | Password | ``${p?:cicscm.password}`` | The user name password to connect to the CICS CM server. |
 
 
-
 ### Output properties
 
 
 
 
- 
-
-
-
 ### Output properties in the UrbanCode Deploy CICSConfiguration Manager Beta plug-in.
-
 
 * [Overview of CICS CM output properties](#overview_cicscm_output_properties)
 * [Create Migration Scheme step output property](#create_migration_scheme_output_property)
 * [Query Change Package step output properties](#query_change_package_output_properties)
 
 
-
-
 ### Overview of CICS CM output properties
-
 
 Two of the CICS CM UrbanCode Deploy steps have output properties.
 
-
 ### Create migration scheme
 
-
 Dynamically create a migration scheme with a single migration path.
-
-
 
 
 | Name | Type | Description |
 | --- | --- | --- |
 | migrationScheme | String | A random 8 alphanumeric string that is generated for the name of the new migration scheme. |
 
-
 ### Query change package step output properties
 
-
 Query a change package for names, groups, and types of resource definitions within the package.
-
-
 
 
 | Name | Type | Description |
@@ -197,8 +142,6 @@ Query a change package for names, groups, and types of resource definitions with
 
 
 
-
-
 |Back to ...||Latest Version|CICS CM (Beta) |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Component Templates](component templates.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS-CM/UCD_CM_Plugin.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Component Templates](component templates.md)|[Downloads](downloads.md)|

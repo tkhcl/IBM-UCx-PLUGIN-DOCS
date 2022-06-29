@@ -5,19 +5,13 @@ IBM DataPower Configuration Manager - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 Process steps in the DataPower plug-in
 --------------------------------------
-
 
 * [Backup Device](#backup_device)
 * [Backup Domains](#backup_domains)
@@ -50,29 +44,20 @@ Process steps in the DataPower plug-in
 * [Upload from Definition](#upload_from_definition)
 
 
-
-
 Backup Device
 -------------
 
-
 Backup all domains on a device (minus key/certificate files)
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Backup file | String | DataPower export file to create/overwrite | No |
 
-
 Backup Domains
 --------------
 
-
 Backup one or more domains on a device (minus key/certificate files)
-
-
 
 
 | Name | Type | Description | Required |
@@ -81,14 +66,10 @@ Backup one or more domains on a device (minus key/certificate files)
 | Backup file | String | DataPower export file to create/overwrite | No |
 | Domain name | String | Name of the first domain to backup | No |
 
-
 Checkpoint Delete
 -----------------
 
-
 Delete a checkpoint in a domain
-
-
 
 
 | Name | Type | Description | Required |
@@ -96,14 +77,10 @@ Delete a checkpoint in a domain
 | Checkpoint name | String | Name of checkpoint | No |
 | Domain name | String | Name of a domain containing the checkpoint | No |
 
-
 Checkpoint Restore
 ------------------
 
-
 Restore a domain from a checkpoint
-
-
 
 
 | Name | Type | Description | Required |
@@ -111,14 +88,10 @@ Restore a domain from a checkpoint
 | Checkpoint name | String | Name of checkpoint | No |
 | Domain name | String | Name of a domain to restore from a checkpoint | No |
 
-
 Checkpoint Save
 ---------------
 
-
 Checkpoint the current state of a domain
-
-
 
 
 | Name | Type | Description | Required |
@@ -126,28 +99,20 @@ Checkpoint the current state of a domain
 | Checkpoint name | String | Name of checkpoint | No |
 | Domain name | String | Name of a domain to checkpoint | No |
 
-
 Create Domain
 -------------
 
-
 Create a new domain
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | New domain name | String | Name of the domain to create (letters, numbers, hyphen, underscore, no blanks) | No |
 
-
 Crypto Identity Credential from Definition
 ------------------------------------------
 
-
 Create/overwrite a crypto identity credential based on a definition file
-
-
 
 
 | Name | Type | Description | Required |
@@ -155,14 +120,10 @@ Create/overwrite a crypto identity credential based on a definition file
 | Definition file | String | Definition file for crypto identity credential | No |
 | Domain name | String | Name of the target domain | No |
 
-
 Crypto Validation Credential from Definition
 --------------------------------------------
 
-
 Create/overwrite a crypto validation credential based on a definition file
-
-
 
 
 | Name | Type | Description | Required |
@@ -170,28 +131,20 @@ Create/overwrite a crypto validation credential based on a definition file
 | Definition file | String | Definition file for crypto validation credential | No |
 | Domain name | String | Name of the target domain | No |
 
-
 Delete Domain
 -------------
 
-
 Delete a domain
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Domain name | String | Name of the domain to delete | No |
 
-
 Download Files
 --------------
 
-
 Download target files or all files from a filestore
-
-
 
 
 | Name | Type | Description | Required |
@@ -201,14 +154,10 @@ Download target files or all files from a filestore
 | Target files (blank means all) | String | All files if empty or target files e.g. <downloadFiles><file>/folderA/fileA.xml</file></downloadFiles> | No |
 | To directory | String | This local directory will contain the downloaded files | Yes |
 
-
 Export Object
 -------------
 
-
 Export an object from a domain on a device
-
-
 
 
 | Name | Type | Description | Required |
@@ -221,14 +170,10 @@ Export an object from a domain on a device
 | Object Class | String | Object class. Specify ‘all-classes’ to export every class. e.g. MultiProtocolGateway or WSGateway | Yes |
 | Object Name | String | Object name. Specify ‘all-objects’ to export every object. e.g. name of service | Yes |
 
-
 Export Objects
 --------------
 
-
 Export objects from a domain on a device
-
-
 
 
 | Name | Type | Description | Required |
@@ -240,29 +185,21 @@ Export objects from a domain on a device
 | Include reference files? | Boolean | Include referenced files when exporting? | No |
 | Include reference objects? | Boolean | Include referenced objects when exporting? | No |
 
-
 Flush Document Cache
 --------------------
-
 
 Flush the domain’s document cache. Optionally specify a XML Manager.
 
 
-
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Domain name | String | Name of the domain to flush. | Yes |
 | XML Manager | String | The name of a XML Manager to flush. Optional. | No |
-
 
 Flush Stylesheet Cache
 ----------------------
 
-
 Flush the domain’s stylesheet cache. Optionally specify a XML Manager.
-
-
 
 
 | Name | Type | Description | Required |
@@ -270,28 +207,20 @@ Flush the domain’s stylesheet cache. Optionally specify a XML Manager.
 | Domain name | String | Name of the domain to flush. | Yes |
 | XML Manager | String | The name of a XML Manager to flush. Optional. | No |
 
-
 Host Alias Remove
 -----------------
 
-
 Remove a host alias
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Host alias name | String | Host alias (e.g. www.ibm.com) | No |
 
-
 Host Alias Set
 --------------
 
-
 Set a host alias
-
-
 
 
 | Name | Type | Description | Required |
@@ -302,16 +231,12 @@ Set a host alias
 | State | Enumeration:
 * enabled
 * disabled
- | Whether enabled or disabled | No |
-
+| Whether enabled or disabled | No |
 
 Import (Basic)
 --------------
 
-
 Import a DataPower export file (e.g. .zip) into a domain
-
-
 
 
 | Name | Type | Description | Required |
@@ -319,14 +244,10 @@ Import a DataPower export file (e.g. .zip) into a domain
 | Domain name | String | Name of the target domain | No |
 | Import File | String | DataPower export file to import | No |
 
-
 Import (Definition)
 -------------------
 
-
 Import a DataPower export file (e.g. .zip) into a domain
-
-
 
 
 | Name | Type | Description | Required |
@@ -335,14 +256,10 @@ Import a DataPower export file (e.g. .zip) into a domain
 | Domain name | String | Name of the target domain | No |
 | Import File | String | DataPower export file to import | No |
 
-
 Import (Deployment Policy Object)
 ---------------------------------
 
-
 Import a DataPower export file (e.g. .zip) into a domain using a deployment policy object
-
-
 
 
 
@@ -353,14 +270,10 @@ Import a DataPower export file (e.g. .zip) into a domain using a deployment poli
 | Domain name | String | Name of the target domain | No |
 | Import File | String | DataPower export file to import | No |
 
-
 Invoke any deploy.ant.xml target
 --------------------------------
 
-
 Invoke any deploy.ant.xml target – prefer predefined steps to this one
-
-
 
 
 | Name | Type | Description | Required |
@@ -371,14 +284,10 @@ Invoke any deploy.ant.xml target – prefer predefined steps to this one
 | Target Environment | String | Target environment (e.g. dev, sit, uat, prod) | No |
 | Target name | String | Name of the target (e.g. domain-restart) | No |
 
-
 Load Balancer Group from Definition
 -----------------------------------
 
-
 Create/overwrite a load balancer group based on a definition file
-
-
 
 
 | Name | Type | Description | Required |
@@ -386,42 +295,30 @@ Create/overwrite a load balancer group based on a definition file
 | Definition file | String | Definition file for load balancer group | No |
 | Domain name | String | Name of the target domain | No |
 
-
 Quiesce Domain
 --------------
 
-
 Quiesce a domain
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Domain name | String | Name of the domain to quiesce | No |
 
-
 Restart Domain
 --------------
 
-
 Restart a domain
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Domain name | String | Name of the domain to restart | No |
 
-
 Restore Backup
 --------------
 
-
 Restore one or more domains from backup file (see Backup Device or Backup Domains)
-
-
 
 
 | Name | Type | Description | Required |
@@ -430,28 +327,20 @@ Restore one or more domains from backup file (see Backup Device or Backup Domain
 | Backup file | String | DataPower export file | No |
 | Domain name | String | Name of the first domain to restore | No |
 
-
 Save Configuration
 ------------------
 
-
 Save the in-memory configuration in a domain to permanent storage
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Domain name | String | Name of the domain | No |
 
-
 Set Log Level
 -------------
 
-
 Set the log level for the default log in a domain
-
-
 
 
 | Name | Type | Description | Required |
@@ -466,30 +355,22 @@ Set the log level for the default log in a domain
 * critic
 * alert
 * emerg
- | Default log level in domain | No |
-
+| Default log level in domain | No |
 
 Unquiesce Domain
 ----------------
 
-
 Unquiesce a domain
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Domain name | String | Name of the domain to unquiesce | No |
 
-
 Upload Files
 ------------
 
-
 Upload files
-
-
 
 
 | Name | Type | Description | Required |
@@ -500,22 +381,16 @@ Upload files
 | Include Files | String | A list of patterns, separated by newline characters, that describe the files to upload. The default, \*\*/\*, includes all files. | Yes |
 | To directory | String | Target directory | No |
 
-
 Upload from Definition
 ----------------------
 
-
 Create/overwrite files/directories based on a definition file
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Definition file | String | Definition file for files and directories to upload | No |
 | Domain name | String | Name of the target domain | No |
-
-
 
 
 

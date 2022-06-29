@@ -5,49 +5,34 @@ AccuRev SCM - Steps and Roles
 # Steps and Roles
 
 
-
 ### Steps and Roles
-
-
-
 
 
 
 Process steps in the AccuRev plug-in
 ------------------------------------
 
-
 * [Import Version](#import_version)
-
-
 
 
 ### Import Version
 
-
 Creates a new component version and imports artifacts from AccuRev.
 
-
 This step has no input properties.
-
 
 
 Roles in the AccuRev plug-in
 ----------------------------
 
-
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
-
 
 
 * [AccuRevComponentProperties](#accurevcomponentproperties_role)
 * [AccuRevImportProperties](#accurevimportproperties_role)
 
 
-
 ### AccuRevComponentProperties
-
-
 
 
 | Name | Type | Description |
@@ -65,10 +50,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | Stream | String | Specify a Stream or Workspace to retrieve artifacts from. If empty, the Depot name will be used. If a Workspace is specified, the checkboxes and manual import values for Promote Transactions, Issues, and Snapshot will be ignored. A version will be created based on the runtime timestamp and file contents of the Workspace. |
 | Username | String | Specify a user with permissions to access the AccuRev Depot and Stream. |
 
-
 ### AccuRevImportProperties
-
-
 
 
 | Name | Type | Description |
@@ -77,8 +59,6 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | Stream Snapshots | String | Specify a Stream Snapshot to import. Only valid for a non-Workspace Stream. Separate multiple Snapshots with a comma. Example: snap-stream1, snap-stream2 |
 | Transaction Numbers | String | Specify a Promote Transaction Number to import. Only valid for a non-Workspace Stream. Separate multiple Transaction Numbers with commas. Example: 80, 120, 184 |
 | Version Name Tag | String | Specify a tag to append to the versions name. |
-
-
 
 
 

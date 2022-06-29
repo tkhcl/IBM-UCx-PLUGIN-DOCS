@@ -5,29 +5,19 @@ Nexus Source Config - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Import Version
 
-
 Creates a new component version and imports artifacts
-
 
 This step has no input properties.
 
 
-
 ### NexusComponentProperties
-
-
 
 
 | Name | Type | Description |
@@ -42,17 +32,12 @@ This step has no input properties.
 | Repository ID | String | The Nexus repository ID. |
 | User | String | The user name for the Nexus user. |
 
-
 ### NexusImportProperties
-
-
 
 
 | Name | Type | Description |
 | --- | --- | --- |
 | Specific version | String |  |
-
-
 
 
 

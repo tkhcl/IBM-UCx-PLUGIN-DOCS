@@ -5,30 +5,19 @@ IBM Rational Performance Tester (RPT) - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the IBM Rational Test WorkbenchRPT plug-in
-
 
 * [Run RPT Test](#run_rpt_test)
 
 
-
-
 ### Run RPT Test
 
-
 Execute Web UI Tests from IBM Rational Test Workbench
-
-
 
 
 | Name | Type | Description | Required |
@@ -51,8 +40,6 @@ Execute Web UI Tests from IBM Rational Test Workbench
 
 
 
-
-
 |Back to ...||Latest Version|IBM Rational Performance Tester (RPT) ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RPT-UCD/RPT-UCD-8.0.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.2](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RPT-UCD/RPT-UCD-9.2.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

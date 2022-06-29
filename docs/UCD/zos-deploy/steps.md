@@ -5,16 +5,11 @@ z/OS Utility - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
-
-
-
 ### Process steps in the zOS Utility plug-in
-
 
 * [Allocate Data Set](#allocate_data_set)
 * [Allocate Data Set From Existing](#allocate_data_set_from_existing)
@@ -35,14 +30,9 @@ z/OS Utility - Steps
 * [Delete Dataset](#delete_dataset)
 
 
-
-
 ### Allocate Data Set
 
-
 Allocate a non-SMS-managed data set. **Note:** To create a GDG version add (+1) along with GDG base. An output property **DatasetName** will contain the actual GDG version dataset name that is created and can be referred in successive steps of the process.
-
-
 
 
 | Name | Type | Description | Required |
@@ -52,14 +42,14 @@ Allocate a non-SMS-managed data set. **Note:** To create a GDG version add (+1) 
 * K
 * M
 * U
- | Select the unit to use when allocating average record length. U specifies single-record units (bytes). K specifies thousand-record units (kilobytes). M specifies million-record units (megabytes). () specifies the system default value. | No |
+| Select the unit to use when allocating average record length. U specifies single-record units (bytes). K specifies thousand-record units (kilobytes). M specifies million-record units (megabytes). () specifies the system default value. | No |
 | Block Size | String | Specify the number of bytes of data to place in each block, based on the record length. | Yes |
 | Data Set Name | String | Data set name. If the single quotation marks are omitted, the users data set prefix from the TSO profile is automatically appended to the front of the data set name. | Yes |
 | Data Set Name Type | Enumeration:
 * —
 * LIBRARY
 * PDS
- | LIBRARY, PDS or Default() | No |
+| LIBRARY, PDS or Default() | No |
 | Delete Existing Data Set | Boolean | Select to delete dataset if already exist before allocation. | No |
 | Directory Blocks | String | The number of directory blocks to allocate. Specify zero for a sequential data set. Specifying LIBRARY in the data set name might override a setting of zero directory blocks. | No |
 | Primary Quantity | String | Specify the primary quantity in average record units. | Yes |
@@ -75,23 +65,19 @@ Allocate a non-SMS-managed data set. **Note:** To create a GDG version add (+1) 
 * F,M
 * V,B,M
 * V,M
- |  | No |
+|  | No |
 | Record Length | String |  | Yes |
 | Secondary Quantity | String | Specify the secondary quantity in average record units. | Yes |
 | Space Units | Enumeration:
 * BLKS
 * TRACKS
 * CYLINDERS
- | BLKS, TRKS, CYLS | Yes |
+| BLKS, TRKS, CYLS | Yes |
 | Volume Serial | String | Leave blank to use the system default volume. | No |
-
 
 ### Allocate Data Set From Existing
 
-
 Create a data set with the attributes of an existing model data set. **Note:** To create a GDG version add (+1) along with GDG base. An output property **DatasetName** will contain the actual GDG version dataset name that is created and can be referred in successive steps of the process.
-
-
 
 
 | Name | Type | Description | Required |
@@ -106,16 +92,12 @@ Create a data set with the attributes of an existing model data set. **Note:** T
 * BLKS
 * TRACKS
 * CYLINDERS
- | BLKS, TRKS, CYLS or default() | No |
+| BLKS, TRKS, CYLS or default() | No |
 | Volume Serial | String | Leave blank to use the system default volume. | No |
-
 
 ### Allocate SMS Managed Data Set
 
-
 Allocate an SMS-managed data set. **Note:** To create a GDG version add (+1) along with GDG base. An output property **DatasetName** will contain the actual GDG version dataset name that is created and can be referred in successive steps of the process.
-
-
 
 
 | Name | Type | Description | Required |
@@ -126,26 +108,18 @@ Allocate an SMS-managed data set. **Note:** To create a GDG version add (+1) alo
 | Management Class | String | Leave blank to use the default management class. | No |
 | Storage Class | String | Leave blank to use the default storage class. | No |
 
-
 ### Copy Artifacts
 
-
 Load artifacts from a local repository.
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Directory Offset | String | The working directory to use when running the command. This directory is relative to the current working directory. | Yes |
 
-
 ### Copy Data Set
 
-
 Copy a data set.
-
-
 
 
 | Name | Type | Description | Required |
@@ -156,13 +130,9 @@ Copy a data set.
 | Load Module Dataset | Boolean | Select to use the IEBCOPY COPYMOD control statement when copying load modules. | No |
 | To PDS | String | Specify the name of the target PDS. | Yes |
 
-
 ### Deploy Data Sets
 
-
 Deploy data sets and HFS files
-
-
 
 
 | Name | Type | Description | Required |
@@ -179,9 +149,9 @@ Deploy data sets and HFS files
 * INVENTORY
 * RUNTIME
 * ```${p?:delta.deploy.value}```
- | Specify **FULL** deployment type to replace all artifacts with artifacts in the current component version. Specify **INVENTORY** deployment type, a delta deployment, to reduce the deployment time significantly by deploying only the changes between artifacts. The comparison is based on identity attributes including lastModifiedTimestamp and customer properties starting with SYS.id. Specify **RUNTIME** deployment type, a delta deployment, to use checksum logic to compare artifacts to be deployed with the same artifacts in the target environment. This check is done for every artifact. Only artifacts with checksums that don’t match are considered as changed and used for deployment.**Note:*** Two artifacts are considered the same when at least one attribute can be used for comparison and all attributes that are used for comparison match exactly.
+| Specify **FULL** deployment type to replace all artifacts with artifacts in the current component version. Specify **INVENTORY** deployment type, a delta deployment, to reduce the deployment time significantly by deploying only the changes between artifacts. The comparison is based on identity attributes including lastModifiedTimestamp and customer properties starting with SYS.id. Specify **RUNTIME** deployment type, a delta deployment, to use checksum logic to compare artifacts to be deployed with the same artifacts in the target environment. This check is done for every artifact. Only artifacts with checksums that don’t match are considered as changed and used for deployment.**Note:*** Two artifacts are considered the same when at least one attribute can be used for comparison and all attributes that are used for comparison match exactly.
 * The attributes used for delta deployment type are explained in the table below.
- | Yes |
+| Yes |
 | HFS Directory mappings | String | Specify target directory mappings to deploy HFS files. It can be either be a single target directory or mapping similar to PDS mapping with source and target directories. | No |
 |  |  | **Hidden Properties (below)** |  |
 | Binder API Path | String | Path to include binder shared libraries(iewbndd6.so/iewbnddx.so) for RUNTIME delta deployment | Yes |
@@ -195,10 +165,7 @@ Deploy data sets and HFS files
 | Resource Id | String | Resource Id | Yes |
 | Component Id | String | Component Id | Yes |
 
-
 For each artifact in a delta deployment, the following attributes are compared to the latest inventory version of the same artifact.
-
-
 
 
 | Parameter | Where Used | Description |
@@ -207,26 +174,18 @@ For each artifact in a delta deployment, the following attributes are compared t
 | Custom properties starting with **SYS.id** (aka identification properties) | INVENTORY | These properties provide an open framework for the customer or provider to add additional attributes to indicate whether two artifacts are the same. Two artifacts are considered the same when all attributes that are used for comparison match exactly. |
 | checksum | RUNTIME | The checksum value is determined when the version is packaged. During a **RUNTIME** deployment, the checksum is calculated for the artifact in the target environment and compared with the checksum calculated during the version creation. These properties can be hash or binder information for load modules. |
 
-
 ### FTP Artifacts
 
-
 Load artifacts from a remote repository using FTP.
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Directory Offset | String | The working directory to use when running the command. This directory is relative to the current working directory. | Yes |
 
-
 ### Generate Artifact Information
 
-
 Generate text information for selected version artifacts. The information is sent to the text output property for use by later steps. **Note:** From version 51, groovy string methods are not interpreted in Template input since the code is rewritten in Java. Use our new plugin <https://www.urbancode.com/plugin/z-os-utility-generate-artifact-information/> to generate multiple templates using a single step
-
-
 
 
 | Name | Type | Description | Required |
@@ -248,12 +207,12 @@ Generate text information for selected version artifacts. The information is sen
 * DeletedFile
 * GenericArtifactGroup
 * GenericArtifact
- | Generate information for each artifact of the selected type. | Yes |
+| Generate information for each artifact of the selected type. | Yes |
 | Order By | Enumeration:
 * ASC
 * DESC
 * SHIPLIST
- |  | Yes |
+|  | Yes |
 | Resource Name Filter | String | Specify a filter to use on the resource name. The resource can be data set member, file, or generic artifact. Java regular expression matching is used if the filter starts and ends with a forward slash (/). For example, specify /.\*LOAD/ to match any text that ends with LOAD. If the filter is not a regular expression, exact matching is used. | No |
 | Target Data Set Name Filter | String | Specify a filter to use on the target data set name. Java regular expression matching is used if the filter starts and ends with a forward slash (/). For example, specify /.\*LOAD/ to match any text that ends with LOAD. If the filter is not a regular expression, exact matching is used. | No |
 | Template | String | Specify the template to use to generate text. The text output property contains the generated text from this step. Subsequent steps can access this text with the``${p:stepName/text}`` property. Add separators, including line breaks, in the template as needed. Use ``${propname}`` to access custom properties. The following built-in properties are available: ``${sourceDataset}`` for the source dataset name. ``${dataset}`` for the target dataset name. ``${member}`` for the member name. ``${deployType}`` for the deployment type. ``${artifactGroup}`` for the generic artifact group name. ``${artifact}`` for the generic artifact name. ``${directory}`` for the directory name. ``${file}`` for the file name. ``${inputsUrl}`` for the url of the inputs. All property names are case-sensitive. Do not use the built-in names for custom properties. | Yes |
@@ -263,39 +222,27 @@ Generate text information for selected version artifacts. The information is sen
 | Component Name | String | Component Name | No |
 | Resource Id | String | Resource Id | Yes |
 
-
 ### Remove All Versions
-
 
 Remove all versions in an environment.
 
 
-
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Dry Run | Boolean | Select to specify a dry run, which does not delete versions. Instead, the versions to be deleted are written to the output log for verification. | No |
 
-
 ### Remove Redundant Versions
-
 
 Remove redundant versions in an environment. Redundant versions are versions that are completely replaced by subsequent versions.
 
 
-
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Dry Run | Boolean | Select to specify a dry run, which does not delete versions. Instead, the versions to be deleted are written to the output log for verification. | No |
 
-
 ### Replace Tokens MVS
 
-
 Replace tokens in MVS data set using properties.
-
-
 
 
 | Name | Type | Description | Required |
@@ -310,13 +257,9 @@ Replace tokens in MVS data set using properties.
 | Property Prefix | String | Specify a prefix to use to determine which properties are included in token replacement. Leave blank to use all properties. | No |
 | Start Token Delimiter | String | The start delimiter character to use for identifying tokens. | No |
 
-
 ### Rollback Data Sets
 
-
 Rollback data sets and HFS files to a backup created in the previous deployment.
-
-
 
 
 | Name | Type | Description | Required |
@@ -328,7 +271,7 @@ Rollback data sets and HFS files to a backup created in the previous deployment.
 * true
 * false
 * ```${p?:prevent.risky.rollback}```
- | Set to TRUE to prevent risky rollback. A risky rollback tries to rollback modules that have been replaced by a subsequent version. | Yes |
+| Set to TRUE to prevent risky rollback. A risky rollback tries to rollback modules that have been replaced by a subsequent version. | Yes |
 | Run to Check Risk Only | Boolean | Select to do a dry run which only checks for risky rollback. No actual rollback is done when doing a dry run. The step will fail when risk is detected, otherwise, the step will pass. | No |
 |  |  | **Hidden Properties (below)** |  |
 | Deployment Base Path | String | The base location to store deployment results and backups for rollback. | Yes |
@@ -341,13 +284,9 @@ Rollback data sets and HFS files to a backup created in the previous deployment.
 | Resource Id | String | Resource Id | Yes |
 | Component Id | String | Component Id | Yes |
 
-
 ### Run MVS Command
 
-
 Run MVS system commands.
-
-
 
 
 | Name | Type | Description | Required |
@@ -356,13 +295,9 @@ Run MVS system commands.
 | MVS Commands | String | Specify a list, separated by newline characters, of MVS system commands to run. | Yes |
 | Stop On Fail | Boolean | Select to stop running commands after a command fails. | No |
 
-
 ### Run TSO or ISPF Command
 
-
 Run TSO and ISPF commands using the ISPF gateway.
-
-
 
 
 | Name | Type | Description | Required |
@@ -375,15 +310,11 @@ Run TSO and ISPF commands using the ISPF gateway.
 | TSO Or ISPF | Enumeration:
 * TSO
 * ISPF
- | Only ISPF supports return code. | Yes |
-
+| Only ISPF supports return code. | Yes |
 
 ### Submit Job
 
-
 Submit job. **Note:** Using passphrase in place of password is supported from JMON version v2.9.14. Passphrase authentication is enabled by setting property PASS\_PHRASE to ON in JMON configurations. JMON binaries with passphrase support are copied to #HLQ#.SBUZAUTH dataset from agent version 7.1.2.0 after agent install or upgrade.
-
-
 
 
 | Name | Type | Description | Required |
@@ -405,7 +336,7 @@ Submit job. **Note:** Using passphrase in place of password is supported from JM
 * TRUE
 * FALSE
 * ``${p:jes.use.run.id}``
- | Set it to TRUE to submit the job using the Agent Id (or) impersonation Id used to run this step. Set it to FALSE to submit the job with a specific UserId and password/passticket. | Yes |
+| Set it to TRUE to submit the job using the Agent Id (or) impersonation Id used to run this step. Set it to FALSE to submit the job with a specific UserId and password/passticket. | Yes |
 | Host Name | String | Host Name or IP address to connect JMON | Yes |
 | Job Monitor Port | String | JES job monitor port (1-65535). Default is 6715. | Yes |
 | User Name | String | User Name | No |
@@ -415,13 +346,9 @@ Submit job. **Note:** Using passphrase in place of password is supported from JM
 | IRRRacf Native Library Path | String | Specify the path to the System Access Facility (SAF) native library, which is libIRRRacf.so. There is one library for 31-bit Java and one for 64-bit Java. You must specify the path of the appropriate library based on the version of Java that you are running. The default value is /usr/lib. | Yes |
 | Print job output of each job in separate page | Boolean | When mutliple jobs are submitted in a single plugin step, check this box to get each output in separate page. First page will be blank and output will start from second page | No |
 
-
 ### Wait For Job
 
-
 Wait for a submitted job to complete. **Note:** Using passphrase in place of password is supported from JMON version v2.9.14. Passphrase authentication is enabled by setting property PASS\_PHRASE to ON in JMON configurations. JMON binaries with passphrase support are copied to #HLQ#.SBUZAUTH dataset from agent version 7.1.2.0 after agent install or upgrade.
-
-
 
 
 | Name | Type | Description | Required |
@@ -436,7 +363,7 @@ Wait for a submitted job to complete. **Note:** Using passphrase in place of pas
 * TRUE
 * FALSE
 * ``${p:jes.use.run.id}``
- | Set it to TRUE to submit job using the Agent Id (or) impersonation Id used to run this step. Set it to FALSE to submit job with a specific UserId and password/passticket. | Yes |
+| Set it to TRUE to submit job using the Agent Id (or) impersonation Id used to run this step. Set it to FALSE to submit job with a specific UserId and password/passticket. | Yes |
 | Host Name | String | Host Name or IP address to connect JMON | Yes |
 | Job Monitor Port | String | JES job monitor port (1-65535). Default is 6715. | Yes |
 | User Name | String | User Name | No |
@@ -445,13 +372,9 @@ Wait for a submitted job to complete. **Note:** Using passphrase in place of pas
 | IRRRacf.jar File | String | Specify the full path to the System Access Facility (SAF) JAR file, which is IRRRacf.jar. The default value is /usr/include/java\_classes/IRRRacf.jar. | Yes |
 | IRRRacf Native Library Path | String | Specify the path to the System Access Facility (SAF) native library, which is libIRRRacf.so. There is one library for 31-bit Java and one for 64-bit Java. You must specify the path of the appropriate library based on the version of Java that you are running. The default value is /usr/lib. | Yes |
 
-
 ### Delete Dataset
 
-
 Deletes a dataset PDS or Sequential.
-
-
 
 
 | Name | Type | Description | Required |
@@ -461,8 +384,6 @@ Deletes a dataset PDS or Sequential.
 
 
 
-
-
 |Back to ...||Latest Version|z/OS Utility |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[71.1132900](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/zos-deploy/ucd-zos-deploy-71.1132900.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[71.1132900](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-71.1132900.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Downloads](downloads.md)|

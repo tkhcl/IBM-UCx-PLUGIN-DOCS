@@ -5,18 +5,12 @@ IBM UrbanCode Deploy Tools - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the Deploy Tools plug-in
-
 
 * [Check Total Application Process Execution Time](#check_total_application_process_execution_time)
 * [Check Total Component Process Execution Time](#check_total_component_process_execution_time)
@@ -24,14 +18,9 @@ IBM UrbanCode Deploy Tools - Steps
 * [Wait for web page](#wait_for_web_page)
 
 
-
-
 ### Check Total Application Process Execution Time
 
-
 Check the run time of the application process and fail if the time is greater than the specified threshold.
-
-
 
 
 | Name | Type | Description | Required |
@@ -39,13 +28,9 @@ Check the run time of the application process and fail if the time is greater th
 | Component Process Request ID | String |  | Yes |
 | Timeout | String | The number of seconds that the application process is allowed to run. | Yes |
 
-
 ### Check Total Component Process Execution Time
 
-
 Check the run time of the component process and fail if the time is greater than a specified threshold.
-
-
 
 
 | Name | Type | Description | Required |
@@ -53,13 +38,9 @@ Check the run time of the component process and fail if the time is greater than
 | Component Process Request ID | String |  | Yes |
 | Timeout | String | The number of seconds that the component process is allowed to run. | Yes |
 
-
 ### Verify Deployment
 
-
 Verify the deployment of an application by using the HTTP interface.
-
-
 
 
 | Name | Type | Description | Required |
@@ -73,13 +54,9 @@ Verify the deployment of an application by using the HTTP interface.
 | User Name | String | The user name to use for authentication. | No |
 | Verification String | String | The string to search for in the response to verify the correct deployment. | Yes |
 
-
 ### Wait for web page
 
-
 Wait for a web page to become accessible and to contain specified text.
-
-
 
 
 | Name | Type | Description | Required |
@@ -97,8 +74,6 @@ Wait for a web page to become accessible and to contain specified text.
 | URL | String | The URL to use to verify deployment. | Yes |
 | User Name | String | The user name to use for authentication. | No |
 | Verification String | String | The string to search for in the response to verify the correct deployment. | Yes |
-
-
 
 
 

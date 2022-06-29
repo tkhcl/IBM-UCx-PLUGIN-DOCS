@@ -5,31 +5,20 @@ IBM Cognos - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the Cognos plug-in
-
 
 * [Export](#export)
 * [Import](#import)
 
 
-
-
 ### Export
 
-
 Export content from the content store to an archive file in the deployment directory within your Cognos home.
-
-
 
 
 
@@ -47,13 +36,9 @@ Export content from the content store to an archive file in the deployment direc
 | Password | Password | The password of the administrator user. (default: ``${p:resource/crnPassword}``) | Yes |
 | UserID | String | An administrator user ID that is capable of importing/exporting content. | Yes |
 
-
 ### Import
 
-
 Import content from an archive to the Cognos content store.
-
-
 
 
 | Name | Type | Description | Required |
@@ -69,8 +54,6 @@ Import content from an archive to the Cognos content store.
 | Password | Password | The password of the administrator user. (default: ``${p:resource/crnPassword}``) | Yes |
 | Target Directory | String | If this is a new deployment specification, provide the search path of the directory in the Cognos content store where your artifact will be deployed. | No |
 | UserID | String | An administrator user ID that is capable of importing/exporting content. | Yes |
-
-
 
 
 

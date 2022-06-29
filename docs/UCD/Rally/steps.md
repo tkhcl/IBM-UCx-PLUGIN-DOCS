@@ -5,18 +5,12 @@ Rally for IBM UrbanCode Deploy - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the Rally plug-in
-
 
 * [Add Comments](#add_comments)
 * [Change Rally Artifact Property](#change_rally_artifact_property)
@@ -24,14 +18,9 @@ Rally for IBM UrbanCode Deploy - Steps
 * [Create Defect](#create_defect)
 
 
-
-
 ### Add Comments
 
-
 Add comments to Rally defects, tasks, and stories.
-
-
 
 
 | Name | Type | Description | Required |
@@ -51,13 +40,9 @@ Add comments to Rally defects, tasks, and stories.
 | User Name | String | The user name for the Rally server. | No |
 | User Story IDs | String | A list of user story IDs, separated by commas, to add a comment to. | No |
 
-
 ### Change Rally Artifact Property
 
-
 Update a Rally artifact property.
-
-
 
 
 | Name | Type | Description | Required |
@@ -77,13 +62,9 @@ Update a Rally artifact property.
 | Rally Workspace Name | String | The Rally workspace to use. | Yes |
 | User Name | String | The user name for the Rally server. | No |
 
-
 ### Change Status
 
-
 Update the status of a Rally defect
-
-
 
 
 | Name | Type | Description | Required |
@@ -95,7 +76,7 @@ Update the status of a Rally defect
 * Open
 * Fixed
 * Closed
- | The new state for the artifacts. | Yes |
+| The new state for the artifacts. | Yes |
 | Password | Password | The password for the Rally server. | No |
 | Proxy Host | String | The proxy host name, if there is a proxy between the agent and the Rally server. | No |
 | Proxy Password | Password | The proxy password, if there is a proxy between the agent and the Rally server. | No |
@@ -106,13 +87,9 @@ Update the status of a Rally defect
 | Rally Workspace Name | String | The Rally workspace to use. | Yes |
 | User Name | String | The user name for the Rally server. | No |
 
-
 ### Create Defect
 
-
 Create a defect in Rally.
-
-
 
 
 | Name | Type | Description | Required |
@@ -125,7 +102,7 @@ Create a defect in Rally.
 * Test
 * Staging
 * Production
- | The environment of the defect. | No |
+| The environment of the defect. | No |
 | Found in Build | String | The build where the defect was found. | No |
 | Password | Password | The password for the Rally server. | No |
 | Priority | Enumeration:
@@ -133,7 +110,7 @@ Create a defect in Rally.
 * High Attention
 * Normal
 * Low
- | The priority of the defect. | No |
+| The priority of the defect. | No |
 | Project Name | String | Specify a Rally project key to create a defect for the project, and not for a specific user story. You must specify a project key or a requirement key in the User Story ID field. | No |
 | Proxy Host | String | The proxy host name, if there is a proxy between the agent and the Rally server. | No |
 | Proxy Password | Password | The proxy password, if there is a proxy between the agent and the Rally server. | No |
@@ -147,18 +124,16 @@ Create a defect in Rally.
 * Major Problem
 * Minor Problem
 * Cosmetic
- | The severity of the defect. | No |
+| The severity of the defect. | No |
 | State | Enumeration:
 * Submitted
 * Open
 * Fixed
 * Closed
- | The state of the defect. | Yes |
+| The state of the defect. | Yes |
 | Submitted By | String | The name of the defect submitter. This name must match a user name in Rally. | No |
 | User Name | String | The user name for the Rally server. | No |
 | User Story ID | String | Specify a Rally user story to create a defect for a specific user story. You must specify a user story ID or a project key in the Project Name field. | No |
-
-
 
 
 

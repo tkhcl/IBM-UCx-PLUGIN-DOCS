@@ -5,30 +5,19 @@ Microsoft SQL Server SQLCmd - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the Microsoft SQL Server SQLCmd plug-in
-
 
 * [Run SQLCmd scripts](#run_sqlcmd_scripts)
 
 
-
-
 ### Run SQLCmd scripts
 
-
 Run SQLCmd scripts in sorted order
-
-
 
 
 | Name | Type | Description | Required |
@@ -47,8 +36,6 @@ Run SQLCmd scripts in sorted order
 | Use Dedicated Admin Connection | Boolean | Select here to use a dedicated admin connection. | No |
 | Use Trusted Connection | Boolean | Select here to use a trusted connection instead of user/password. | No |
 | User name | String | The user name for the scripts to be run as. | No |
-
-
 
 
 

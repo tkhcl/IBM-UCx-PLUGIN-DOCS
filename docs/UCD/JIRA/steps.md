@@ -5,19 +5,13 @@ JIRA for IBM UrbanCode Deploy - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 Process steps in the JIRA plug-in
 ---------------------------------
-
 
 * [Add Comments](#add_comments)
 * [Check Status](#check_status)
@@ -27,15 +21,10 @@ Process steps in the JIRA plug-in
 * [Transition Issue](#transition_issue)
 
 
-
-
 Add Comments
 ------------
 
-
 Use this step to add comments from the current changelog to the matching JIRA issues.
-
-
 
 
 | Name | Type | Description | Required |
@@ -45,7 +34,7 @@ Use this step to add comments from the current changelog to the matching JIRA is
 * WARN\_ONLY
 * FAIL\_FAST
 * FAIL\_ON\_NO\_UPDATES
- | The action to take when an unknown issue ID is found. | Yes |
+| The action to take when an unknown issue ID is found. | Yes |
 | Issue IDs | String | A list of issue IDs to update. Separated by commas and/or newline characters. | Yes |
 | JIRA Base URL | String | The URL of the JIRA server. | Yes |
 | Password | Password | The password to use to connect to the JIRA server. | No |
@@ -55,14 +44,10 @@ Use this step to add comments from the current changelog to the matching JIRA is
 | Trust All Certificates | Boolean | Select this option to allow insecure connections to the server. | No |
 | User Name | String | The user name to use to connect to the JIRA server. | No |
 
-
 Check Status
 ------------
 
-
 Check JIRA Issues
-
-
 
 
 | Name | Type | Description | Required |
@@ -72,7 +57,7 @@ Check JIRA Issues
 * FAIL\_FAST
 * FAIL\_ON\_NO\_UPDATES
 * FAIL\_ON\_ANY\_FAILURE
- | The action to take when an issue ID cannot be found. | Yes |
+| The action to take when an issue ID cannot be found. | Yes |
 | Issue IDs | String | A list of issue IDs to check. Separated by commas and/or newline characters. | Yes |
 | JIRA Base URL | String | The URL of the JIRA server. | Yes |
 | Password | Password | The password to use to connect to the JIRA server. | No |
@@ -83,14 +68,10 @@ Check JIRA Issues
 | Trust All Certificates | Boolean | Select this option to allow insecure connections to the server. | No |
 | User Name | String | The user name to use to connect to the JIRA server. | No |
 
-
 Create Issue
 ------------
 
-
 Use this step to create a new issue in a JIRA Bug Tracker.
-
-
 
 
 | Name | Type | Description | Required |
@@ -115,14 +96,10 @@ Use this step to create a new issue in a JIRA Bug Tracker.
 | Trust All Certificates | Boolean | Select this option to allow insecure connections to the server. | No |
 | User Name | String | The user name to use to connect to the JIRA server. | No |
 
-
 Does issues exist
 -----------------
 
-
 Check if issues with specified issue type exists
-
-
 
 
 | Name | Type | Description | Required |
@@ -134,7 +111,7 @@ Check if issues with specified issue type exists
 * Story
 * Sub-task
 * Task
- | Type of issue. | Yes |
+| Type of issue. | Yes |
 | JIRA Base URL | String | The URL of the JIRA server. | Yes |
 | Password | Password | The password to use to connect to the JIRA server. | No |
 | Password Script | String | The property or script to use to authenticate with the JIRA server. If this method is used to authenticate with the server, leave the Password property blank. | No |
@@ -149,18 +126,14 @@ Check if issues with specified issue type exists
 * To Do
 * Resolved
 * Done
- | Search issues for sepcified status. | Yes |
+| Search issues for sepcified status. | Yes |
 | Trust All Certificates | Boolean | Select this option to allow insecure connections to the server. | No |
 | User Name | String | The user name to use to connect to the JIRA server. | No |
-
 
 Edit Issue
 ----------
 
-
 Use this step to edit fields on an existing JIRA issue.
-
-
 
 
 | Name | Type | Description | Required |
@@ -172,7 +145,7 @@ Use this step to edit fields on an existing JIRA issue.
 * FAIL\_FAST
 * FAIL\_ON\_NO\_UPDATES
 * FAIL\_ON\_ANY\_FAILURE
- | The action to perform when an unknown issue ID is found. | Yes |
+| The action to perform when an unknown issue ID is found. | Yes |
 | Fix Versions | String | Fix versions to be added to the issue. Separated by commas and/or newline characters. | No |
 | Issue IDs | String | A list of issue IDs to edit. Separated by commas and/or newline characters. | Yes |
 | JIRA Base URL | String | The URL of the JIRA server. | Yes |
@@ -183,14 +156,10 @@ Use this step to edit fields on an existing JIRA issue.
 | Trust All Certificates | Boolean | Select this option to allow insecure connections to the server. | No |
 | User Name | String | The user name to use to connect to the JIRA server. | No |
 
-
 Transition Issue
 ----------------
 
-
 Use this step to perform JIRA issue transitions.
-
-
 
 
 | Name | Type | Description | Required |
@@ -202,7 +171,7 @@ Use this step to perform JIRA issue transitions.
 * FAIL\_FAST
 * FAIL\_ON\_NO\_UPDATES
 * FAIL\_ON\_ANY\_FAILURE
- | The action to perform when an unknown issue ID is found. | Yes |
+| The action to perform when an unknown issue ID is found. | Yes |
 | Issue IDs | String | A list of issue IDs. Separated by commas and/or newline characters. | Yes |
 | JIRA Base URL | String | The URL of the JIRA server. | Yes |
 | Password | Password | The password to use to connect to the JIRA server. | No |
@@ -213,8 +182,6 @@ Use this step to perform JIRA issue transitions.
 | Transition Name | String | The transition action to perform upon the issues. For example, Resolve Issue or Close Issue. | Yes |
 | Trust All Certificates | Boolean | Select this option to allow insecure connections to the server. | No |
 | User Name | String | The user name to use to connect to the JIRA server. | No |
-
-
 
 
 

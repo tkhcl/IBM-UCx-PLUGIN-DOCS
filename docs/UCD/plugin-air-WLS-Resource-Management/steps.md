@@ -5,18 +5,12 @@ Oracle WebLogic Server Resource Management - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the WebLogic Server Resource Management plug-in
-
 
 * [Create Capacity](#create_capacity)
 * [Create Connection Factory](#create_connection_factory)
@@ -74,14 +68,9 @@ Oracle WebLogic Server Resource Management - Steps
 * [Update Work Manager](#update_work_manager)
 
 
-
-
 ### Create Capacity
 
-
 Use this step to create a capacity on the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -96,13 +85,9 @@ Use this step to create a capacity on the WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Create Connection Factory
 
-
 Use this step to create a JMS connection factory on the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -118,13 +103,9 @@ Use this step to create a JMS connection factory on the WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Create Distributed Queue
 
-
 Use this step to create a distributed queue on the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -142,13 +123,9 @@ Use this step to create a distributed queue on the WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Create Distributed Topic
 
-
 Use this step to create a distributed topic on the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -166,13 +143,9 @@ Use this step to create a distributed topic on the WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Create File Store
 
-
 Use this step to create a file store on the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -187,13 +160,9 @@ Use this step to create a file store on the WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Create JDBC Data Source
 
-
 Use this step to create a JDBC data source on the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -208,13 +177,9 @@ Use this step to create a JDBC data source on the WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Create JDBC Store
 
-
 Use this step to create a JDBC store on the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -229,13 +194,9 @@ Use this step to create a JDBC store on the WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Create JMS Server
 
-
 Use this step to create a JMS server on the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -250,13 +211,9 @@ Use this step to create a JMS server on the WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Create Max Threads Constraint
 
-
 Use this step to creates a max-threads constraint on the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -271,13 +228,9 @@ Use this step to creates a max-threads constraint on the WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Create Min Threads Constraint
 
-
 Use this step to create a min-threads constraint on the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -292,13 +245,9 @@ Use this step to create a min-threads constraint on the WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Create Module
 
-
 Use this step to create a module on the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -313,13 +262,9 @@ Use this step to create a module on the WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Create Queue
 
-
 Use this step to create a queue on the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -335,13 +280,9 @@ Use this step to create a queue on the WebLogic server.
 | WebLogic Hostname | String | The name of the host where WebLogic server is located. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Create Quota
 
-
 Use this step to creates a quota on a WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -357,13 +298,9 @@ Use this step to creates a quota on a WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Create SAF Imported Destination
 
-
 Use this step to create a store-and-forward (SAF) imported destination on the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -379,13 +316,9 @@ Use this step to create a store-and-forward (SAF) imported destination on the We
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Create SubDeployment
 
-
 Use this step to create a subdeployment on the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -401,13 +334,9 @@ Use this step to create a subdeployment on the WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic Server. | Yes |
 
-
 ### Create Template
 
-
 Use this step to create a template.
-
-
 
 
 | Name | Type | Description | Required |
@@ -423,13 +352,9 @@ Use this step to create a template.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Create Topic
 
-
 Use this step to create a topic on the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -445,13 +370,9 @@ Use this step to create a topic on the WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Create Work Manager
 
-
 Use this step to create a work manager on the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -466,13 +387,9 @@ Use this step to create a work manager on the WebLogic server.
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 | Work Manager Name | String | The name of the work manager to create. | Yes |
 
-
 ### Delete Capacity
 
-
 Use this step to delete a capacity from the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -487,13 +404,9 @@ Use this step to delete a capacity from the WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Delete Connection Factory
 
-
 Use this step to delete a JMS connection factory from the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -509,13 +422,9 @@ Use this step to delete a JMS connection factory from the WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Delete Distributed Queue
 
-
 Use this step to delete a distributed queue from the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -533,13 +442,9 @@ Use this step to delete a distributed queue from the WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Delete Distributed Topic
 
-
 Use this step to delete a distributed topic from the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -557,13 +462,9 @@ Use this step to delete a distributed topic from the WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Delete File Store
 
-
 Use this step to delete a file store from the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -578,13 +479,9 @@ Use this step to delete a file store from the WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Delete JDBC Data Source
 
-
 Use this step to delete a JDBC data source from the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -599,13 +496,9 @@ Use this step to delete a JDBC data source from the WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Delete JDBC Store
 
-
 Use this step to delete a JDBC store from the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -620,13 +513,9 @@ Use this step to delete a JDBC store from the WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Delete JMS Server
 
-
 Use this step to delete a JMS server from the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -641,13 +530,9 @@ Use this step to delete a JMS server from the WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Delete Max Threads Constraint
 
-
 Use this step to delete a max threads constraint from the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -662,13 +547,9 @@ Use this step to delete a max threads constraint from the WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Delete Min Threads Constraint
 
-
 Use this step to delete a min-threads constraint from the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -683,13 +564,9 @@ Use this step to delete a min-threads constraint from the WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Delete Module
 
-
 Use this step to delete a module from the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -704,13 +581,9 @@ Use this step to delete a module from the WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Delete Queue
 
-
 Use this step to delete a queue on the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -726,13 +599,9 @@ Use this step to delete a queue on the WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Delete Quota
 
-
 Use this step to delete a quota in the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -748,13 +617,9 @@ Use this step to delete a quota in the WebLogic server.
 | WebLogic Hostname | String | The name of the host where WebLogic server is located. | Yes |
 | WebLogic Port | String | The port number of the WebLogic Server. | Yes |
 
-
 ### Delete SAF Imported Destination
 
-
 Use this step to delete a store-and-Forward (SAF) imported destination from the WebLogic server.
-
-
 
 
 
@@ -771,13 +636,9 @@ Use this step to delete a store-and-Forward (SAF) imported destination from the 
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Delete SubDeployment
 
-
-Use this step to delete a subdeployment from the WebLogic server. 
-
-
+Use this step to delete a subdeployment from the WebLogic server.
 
 
 | Name | Type | Description | Required |
@@ -793,13 +654,9 @@ Use this step to delete a subdeployment from the WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Delete Template
 
-
 Use this step to delete a template on the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -815,13 +672,9 @@ Use this step to delete a template on the WebLogic server.
 | WebLogic Hostname | String | The name of the host where WebLogic server is located. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Delete Topic
 
-
 Use this step to delete a topic from the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -837,13 +690,9 @@ Use this step to delete a topic from the WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Delete Work Manager
 
-
 Use this step to delete a work manager from the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -858,13 +707,9 @@ Use this step to delete a work manager from the WebLogic server.
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 | Work Manager Name | String | The name of the work manager to delete. | Yes |
 
-
 ### Update Capacity
 
-
 Use this step to update a capacity on the WebLogic server. If the capacity does not exist, it is created.
-
-
 
 
 
@@ -880,13 +725,9 @@ Use this step to update a capacity on the WebLogic server. If the capacity does 
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic Server. | Yes |
 
-
 ### Update Connection Factory
 
-
 Use this step to update a JMS connection factory on the WebLogic server. If the JMS connection factory does not exist, it is created.
-
-
 
 
 
@@ -903,13 +744,9 @@ Use this step to update a JMS connection factory on the WebLogic server. If the 
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Update Distributed Queue
 
-
 Use this step to update a distributed queue on the WebLogic server. If the distributed queue does not exist, it is created.
-
-
 
 
 
@@ -928,13 +765,9 @@ Use this step to update a distributed queue on the WebLogic server. If the distr
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic Server. | Yes |
 
-
 ### Update Distributed Topic
 
-
 Use this step to update a distributed topic on the WebLogic server. If the distributed topic does not exist, it is created.
-
-
 
 
 
@@ -953,13 +786,9 @@ Use this step to update a distributed topic on the WebLogic server. If the distr
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Update File Store
 
-
 Use this step to update a file store on the WebLogic server. If the file store does not exist, the file store is created.
-
-
 
 
 
@@ -975,13 +804,9 @@ Use this step to update a file store on the WebLogic server. If the file store d
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Update JDBC Data Source
 
-
 Use this step to update a JDBC data source on the WebLogic server. If the JDBC data source does not exist, it is created.
-
-
 
 
 
@@ -997,13 +822,9 @@ Use this step to update a JDBC data source on the WebLogic server. If the JDBC d
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Update JDBC Store
 
-
 Use this step to updates a JDBC store on the WebLogic server. If the JDBC store does not exist, the step creates the JDBC store.
-
-
 
 
 
@@ -1019,13 +840,9 @@ Use this step to updates a JDBC store on the WebLogic server. If the JDBC store 
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Update JMS Server
 
-
 Use this step to update a JMS server on the WebLogic server. If the JMS server does not exist, it is created.
-
-
 
 
 
@@ -1041,13 +858,9 @@ Use this step to update a JMS server on the WebLogic server. If the JMS server d
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Update Max Threads Constraint
 
-
 Use this step to update a max-threads constraint on the WebLogic server. If the max-threads constraint does not exist, it is created.
-
-
 
 
 
@@ -1063,13 +876,9 @@ Use this step to update a max-threads constraint on the WebLogic server. If the 
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Update Min Threads Constraint
 
-
 Use this step to update a min-threads constraint on the WebLogic server. If the min-threads constraint does not exist, it is created.
-
-
 
 
 
@@ -1085,13 +894,9 @@ Use this step to update a min-threads constraint on the WebLogic server. If the 
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Update Module
 
-
 Use this step to update a module on the WebLogic server. If the module does not exist, it is created.
-
-
 
 
 
@@ -1107,13 +912,9 @@ Use this step to update a module on the WebLogic server. If the module does not 
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Update Queue
 
-
 Use this step toupdate a queue on the WebLogic server. If the queue does not exist, it is created.
-
-
 
 
 
@@ -1130,13 +931,9 @@ Use this step toupdate a queue on the WebLogic server. If the queue does not exi
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Update Quota
 
-
 Use this step to update a quota in the WebLogic server. If the quota does not exist, he quota is created.
-
-
 
 
 
@@ -1153,13 +950,9 @@ Use this step to update a quota in the WebLogic server. If the quota does not ex
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic Server. | Yes |
 
-
 ### Update SAF Imported Destination
 
-
 Use this step to update a store-and-forward (SAF) imported destination on the WebLogic server. If the store-and-forward imported destination does not exist, the destination is created.
-
-
 
 
 
@@ -1176,13 +969,9 @@ Use this step to update a store-and-forward (SAF) imported destination on the We
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Update SubDeployment
 
-
 Use this step to update a subdeployment on the Weblogic server. If the subdeployment does not exist, it is created.
-
-
 
 
 
@@ -1199,13 +988,9 @@ Use this step to update a subdeployment on the Weblogic server. If the subdeploy
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Update Template
 
-
 Use this step to update a template. If the template does not exist, the template is created.
-
-
 
 
 
@@ -1222,13 +1007,9 @@ Use this step to update a template. If the template does not exist, the template
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Update Topic
 
-
 Use this step to update a topic on the WebLogic server. If the topic does not exist, the topic is created.
-
-
 
 
 
@@ -1245,13 +1026,9 @@ Use this step to update a topic on the WebLogic server. If the topic does not ex
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Update Work Manager
 
-
 Use this step to update a work manager on the WebLogic server. If the work manager does not exist, it is created.
-
-
 
 
 
@@ -1266,8 +1043,6 @@ Use this step to update a work manager on the WebLogic server. If the work manag
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 | Work Manager Name | String | The name of the Work Manager to update. | Yes |
-
-
 
 
 

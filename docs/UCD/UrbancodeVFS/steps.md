@@ -5,17 +5,12 @@ IBM UrbanCode Deploy Versioned File Storage - Steps
 # Steps
 
 
-
 ### Steps
-
-
-
 
 
 
 Process steps in the UrbanCode Deploy Versioned File Storage plug-in
 --------------------------------------------------------------------
-
 
 * [Download Artifacts](#download_artifacts)
 * [Download Artifacts for zOS](#download_artifacts_for_zos)
@@ -25,15 +20,10 @@ Process steps in the UrbanCode Deploy Versioned File Storage plug-in
 * [Compare version Artifacts for zOS](#compare_zos_artifacts)
 
 
-
-
 Download Artifacts
 ------------------
 
-
 Download artifacts from a VFS server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -50,20 +40,15 @@ Download artifacts from a VFS server.
 * false
 * true
 * FULL
- | Sync transfers only changed files, removing files that exist only in the previously deployed version. Clean removes all files not contained in the currently deployed version | No |
+| Sync transfers only changed files, removing files that exist only in the previously deployed version. Clean removes all files not contained in the currently deployed version | No |
 | Verify File Integrity | Boolean | When enabled, verifies downloaded files match their hash. Enabling this may reduce performance. | No |
 
-
- 
 
 
 Compare version Artifacts for zOS
 ---------------------------------
 
-
 Compare two zOS version artifacts with new package format
-
-
 
 
 | Name | Type | Description | Required |
@@ -73,16 +58,11 @@ Compare two zOS version artifacts with new package format
 | Component Name | String | Name of the component that contains versions. | Yes |
 
 
- 
-
 
 Download Artifacts for zOS
 --------------------------
 
-
 Download zOS component artifacts from a VFS server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -90,16 +70,11 @@ Download zOS component artifacts from a VFS server.
 | Directory Offset | String | The working directory to use when executing this command. This is relative to current working directory. | Yes |
 
 
- 
-
 
 Sync Artifacts
 --------------
 
-
 Compare local artifacts with the artifacts expected to be on the resource according to its inventory, and remediate any differences.
-
-
 
 
 | Name | Type | Description | Required |
@@ -111,16 +86,11 @@ Compare local artifacts with the artifacts expected to be on the resource accord
 | Verify File Integrity | Boolean | When enabled, verifies downloaded files match their hash. Enabling this may reduce performance. | No |
 
 
- 
-
 
 Upload Artifacts
 ----------------
 
-
 Upload artifacts to a VFS server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -132,16 +102,11 @@ Upload artifacts to a VFS server.
 | Text File Extensions | String | A comma separated list of extensions of files need to be converted to a new character set on download (e.g. txt,properties,log). This should be used in cases where the OS the files are being deployed to requires a different character set than the one uploading the files into the server. | No |
 
 
- 
-
 
 Verify Local Artifacts
 ----------------------
 
-
 Compare artifacts on local machine with inventory.
-
-
 
 
 | Name | Type | Description | Required |
@@ -152,8 +117,6 @@ Compare artifacts on local machine with inventory.
 
 
 
-
-
 |Back to ...||Latest Version|IBM UrbanCode Deploy Versioned File Storage |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[42.1132833]()|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[42.1132833](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/ucd-UrbancodeVFS-42.1132833.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

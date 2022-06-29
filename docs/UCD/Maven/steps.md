@@ -5,28 +5,18 @@ Maven Resolve - Steps
 # Steps
 
 
-
 ### Steps
-
-
-
 
 
 
 ### Process steps in the Maven Resolve plug-in
 
-
 * [Maven Resolve](#maven_resolve)
-
-
 
 
 ### Maven Resolve
 
-
 Resolve artifacts from Maven.
-
-
 
 
 | Name | Type | Description | Required |
@@ -40,8 +30,6 @@ Resolve artifacts from Maven.
 | Repository Url | String | The base URL of the Maven repository. | Yes |
 | Repository User name | String | The user name to authenticate with Maven. | No |
 | Verify Hash | Boolean | Verify hashes after the file is downloaded. | No |
-
-
 
 
 

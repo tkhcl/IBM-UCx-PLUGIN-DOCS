@@ -2,45 +2,31 @@
 Oracle WebLogic Server Security Management
 ==========================================
 
-
 The Oracle WebLogic Server security features provide end-to-end security for applications on the WebLogic server.
-
 
 The Oracle WebLogic Server Security Management plug-in provides processes to work with WebLogic Server security configurations. Steps are provided to create and manage role mappers, roles, realms, and authentication providers.
 
-
 **Platform Support:**
 
-
 * This plug-in is supported for use with WebLogic Server version 10g or later.
-
 
 
 Available Steps
 ---------------
 
-
 Create Role MapperCreate a role mapper.
-
 
 Create or Update Authentication ProviderCreate or update an authentication provider.
 
-
 Create or Update RealmCreate or update a realm.
-
 
 Manage Users and GroupsManage users and groups from a security realm by using an XML file.
 
-
 Manage RolesManage roles on the WebLogic server by using an XML file.
-
 
 Update Authentication ProviderUpdate an authentication provider.
 
-
 Update RealmUpdate a realm on the WebLogic server.
-
-
 
 
 

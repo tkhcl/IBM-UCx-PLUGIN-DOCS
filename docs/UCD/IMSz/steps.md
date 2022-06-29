@@ -5,30 +5,19 @@ IBM IMS - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the IMS plug-in
-
 
 * Execute IMS Command
 
 
-
-
 ### Execute IMS Command
 
-
 Allows execution of IMS type-1 and type-2 commands.
-
-
 
 
 *Input properties for the Execute IMS Command step*| Name | Type | Description | Required |
@@ -42,8 +31,6 @@ Allows execution of IMS type-1 and type-2 commands.
 | Show Output | String | The output data set to display in the log. Use a comma to separate multiple data sets. Specify ALL for all data sets. | No |
 | Timeout | String | Number of seconds to wait for the command to complete before terminating.  | No |
 | Wait For Command | Boolean | Whether to wait for the command to complete. If Wait for Command is unchecked, the input for Timeout, Show Output, Max Lines, and Max Return Code are ignored. | No |
-
-
 
 
 

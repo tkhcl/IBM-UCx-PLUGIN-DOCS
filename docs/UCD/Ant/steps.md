@@ -5,30 +5,19 @@ Apache Ant - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the Apache Ant plug-in
-
 
 * [Ant](#ant)
 
 
-
-
 ### Ant
 
-
 Run an Ant script.
-
-
 
 
 | Name | Type | Description | Required |
@@ -42,8 +31,6 @@ Run an Ant script.
 | Properties | String | These properties are passed to the Ant command processor and are available by name in the Ant script. Enter each argument on a separate line in the following format: *name*=*value*. | No |
 | Script Content | String | Defines the content of the Ant script. The content is written to the Ant script file and then the file is run. | No |
 | Targets | String | One or more names of the targets to run in the Ant script file. Do not specify a target if you are using the default target. | No |
-
-
 
 
 

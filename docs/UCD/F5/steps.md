@@ -5,18 +5,12 @@ F5 BIG-IP - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the F5 plug-in
-
 
 * [Add Pool Member](#add_pool_member)
 * [Confirm Disabled Node](#confirm_disabled_node)
@@ -41,14 +35,9 @@ F5 BIG-IP - Steps
 * [Remove Pool Member](#remove_pool_member)
 
 
-
-
 ### Add Pool Member
 
-
 Add a node to a pool.
-
-
 
 
 | Name | Type | Description | Required |
@@ -62,13 +51,9 @@ Add a node to a pool.
 | Timeout | String | Connection timeout, in seconds, to the F5 appliance. | Yes |
 | User Name | String | The username for the F5 appliance. | Yes |
 
-
 ### Confirm Disabled Node
 
-
 This step succeeds if the node is offline and disabled. The step fails if the node is online or enabled.
-
-
 
 
 
@@ -81,13 +66,9 @@ This step succeeds if the node is offline and disabled. The step fails if the no
 | Server URL | String | The URL of the F5 appliance. This can be the IP address or domain name of the appliance, including the protocol and port number. For example: https://f5.example.com:8443 or http://192.0.2.1:8443. | Yes |
 | User Name | String | The username for the F5 appliance. | Yes |
 
-
 ### Confirm Enabled Node
 
-
 This step succeeds if the node is online and enabled. The step fails if the node is offline or disabled.
-
-
 
 
 
@@ -99,13 +80,9 @@ This step succeeds if the node is online and enabled. The step fails if the node
 | Server URL | String | The URL of the F5 appliance. This can be the IP address or domain name of the appliance, including the protocol and port number. For example: https://f5.example.com:8443 or http://192.0.2.1:8443. | Yes |
 | User Name | String | The username for the F5 appliance. | Yes |
 
-
 ### Create Address Data Group
 
-
 Create or modify an address data group. A data group is also known as a class.
-
-
 
 
 | Name | Type | Description | Required |
@@ -116,7 +93,7 @@ Create or modify an address data group. A data group is also known as a class.
 * WARN\_ONLY
 * OVERWRITE
 * FAIL
- | Select the action to take if a data group with the same name already exists. | No |
+| Select the action to take if a data group with the same name already exists. | No |
 | Netmask List | String | The netmasks of the address data group members. Separate multiple netmasks with commas or newline characters. Specify 255.255.255.255 as the default if netmask is unknown. | Yes |
 | Partition | String | The partition where the iRules reside. Typically, accept the default value of Common unless you manage multiple partitions. | Yes |
 | Password | Password | The password for the F5 appliance. | Yes |
@@ -124,13 +101,9 @@ Create or modify an address data group. A data group is also known as a class.
 | Timeout | String | Connection timeout, in seconds, to the F5 appliance. | Yes |
 | User Name | String | The username for the F5 appliance. | Yes |
 
-
 ### Create External Data Group
 
-
 Create an external data group from a file in the data group file list. A data group is also known as a class.
-
-
 
 
 
@@ -141,30 +114,26 @@ Create an external data group from a file in the data group file list. A data gr
 * DEFAULT
 * FILE\_FORMAT\_UNKNOWN
 * FILE\_FORMAT\_CSV
- | Select the file format for the data group. | No |
+| Select the file format for the data group. | No |
 | File Mode | Enumeration:
 * DEFAULT
 * FILE\_MODE\_TYPE\_READ
 * FILE\_MODE\_TYPE\_READ\_WRITE
- | Select the file mode for the data group. | No |
+| Select the file mode for the data group. | No |
 | File Name | String | The data group file object for the specified data group. This file must exist in the data group file list in F5. | Yes |
 | If Data Group already exists | Enumeration:
 * WARN\_ONLY
 * FAIL
- | Select the action to take if a data group with the same name already exists. | No |
+| Select the action to take if a data group with the same name already exists. | No |
 | Partition | String | The partition where the iRules reside. Typically, accept the default value of Common unless you manage multiple partitions. | Yes |
 | Password | Password | The password for the F5 appliance. | Yes |
 | Server URL | String | The URL of the F5 appliance. This can be the IP address or domain name of the appliance, including the protocol and port number. For example: https://f5.example.com:8443 or http://192.0.2.1:8443. | Yes |
 | Timeout | String | Connection timeout, in seconds, to the F5 appliance. | Yes |
 | User Name | String | The username for the F5 appliance. | Yes |
 
-
 ### Create Node
 
-
 Create a node.
-
-
 
 
 | Name | Type | Description | Required |
@@ -179,13 +148,9 @@ Create a node.
 | Timeout | String | Connection and monitor timeout, in seconds, to the F5 appliance. | Yes |
 | User Name | String | The username for the F5 appliance. | Yes |
 
-
 ### Create Pool
 
-
 Create a pool.
-
-
 
 
 | Name | Type | Description | Required |
@@ -195,15 +160,15 @@ Create a pool.
 * SERVICE\_DOWN\_ACTION\_RESET
 * SERVICE\_DOWN\_ACTION\_DROP
 * SERVICE\_DOWN\_ACTION\_RESELECT
- | Select the action to take when a pool member is unavailable. | Yes |
+| Select the action to take when a pool member is unavailable. | Yes |
 | Allow NAT | Enumeration:
 * STATE\_ENABLED
 * STATE\_DISABLED
- | Select to allow network address translation (NAT). | Yes |
+| Select to allow network address translation (NAT). | Yes |
 | Allow SNAT | Enumeration:
 * STATE\_ENABLED
 * STATE\_DISABLED
- | Select to allow secure network address translation (SNAT). | Yes |
+| Select to allow secure network address translation (SNAT). | Yes |
 | IP ToS to Client | String | Specify the outbound Type of Service (ToS) level for the pool. Leave blank to use the default value. | No |
 | IP ToS to Server | String | Specify the inbound Type of Service (ToS) level for the pool. Leave blank to use the default value. | No |
 | Link QoS to Client | String | Specify the outbound Level of Service (LoS) level for the pool. Leave blank to use the default value. | No |
@@ -224,7 +189,7 @@ Create a pool.
 * LB\_METHOD\_LEAST\_SESSIONS
 * LB\_METHOD\_DYNAMIC\_RATIO\_MEMBER
 * LB\_METHOD\_L3\_ADDR
- | Select the load-balancing method for the pool from the list. | Yes |
+| Select the load-balancing method for the pool from the list. | Yes |
 | Monitors | String | A list of monitors to assign to the pool, separated by commas or newline characters. | No |
 | Partition | String | The partition to create the pool on. Typically, accept the default value of Common unless you manage multiple partitions. | Yes |
 | Password | Password | The password for the F5 appliance. | Yes |
@@ -234,13 +199,9 @@ Create a pool.
 | Timeout | String | Connection timeout, in seconds, to the F5 appliance. | Yes |
 | User Name | String | The username for the F5 appliance. | Yes |
 
-
 ### Create String Data Group
 
-
 Create or modify a string data group. A data group is also known as a class.
-
-
 
 
 | Name | Type | Description | Required |
@@ -249,7 +210,7 @@ Create or modify a string data group. A data group is also known as a class.
 * WARN\_ONLY
 * OVERWRITE
 * FAIL
- | Select the action to take if a data group with the same name already exists. | No |
+| Select the action to take if a data group with the same name already exists. | No |
 | Partition | String | The partition where the iRules reside. Typically, accept the default value of Common unless you manage multiple partitions. | Yes |
 | Password | Password | The password for the F5 appliance. | Yes |
 | Server URL | String | The URL of the F5 appliance. This can be the IP address or domain name of the appliance, including the protocol and port number. For example: https://f5.example.com:8443 or http://192.0.2.1:8443. | Yes |
@@ -258,13 +219,9 @@ Create or modify a string data group. A data group is also known as a class.
 | Timeout | String | Connection timeout, in seconds, to the F5 appliance. | Yes |
 | User Name | String | The username for the F5 appliance. | Yes |
 
-
 ### Create Value Data Group
 
-
 Create or modify a value data group. A data group is also known as a class. A value is also known as an integer.
-
-
 
 
 
@@ -274,7 +231,7 @@ Create or modify a value data group. A data group is also known as a class. A va
 * WARN\_ONLY
 * OVERWRITE
 * FAIL
- | Select the action to take if a data group with the same name already exists. | No |
+| Select the action to take if a data group with the same name already exists. | No |
 | Partition | String | The partition where the iRules reside. Typically, accept the default value of Common unless you manage multiple partitions. | Yes |
 | Password | Password | The password for the F5 appliance. | Yes |
 | Server URL | String | The URL of the F5 appliance. This can be the IP address or domain name of the appliance, including the protocol and port number. For example: https://f5.example.com:8443 or http://192.0.2.1:8443. | Yes |
@@ -283,13 +240,9 @@ Create or modify a value data group. A data group is also known as a class. A va
 | Value Data Group Name | String | The name of the value data group to create. | Yes |
 | Value Member List | String | The list of integer members associated with the value data group. Separate multiple integers with commas or newline characters. | No |
 
-
 ### Create iRule
 
-
 Create the specified iRule
-
-
 
 
 | Name | Type | Description | Required |
@@ -297,7 +250,7 @@ Create the specified iRule
 | If iRule exists | Enumeration:
 * WARN\_ONLY
 * FAIL\_FAST
- | Select the action to take if an iRule with the same name already exists. | No |
+| Select the action to take if an iRule with the same name already exists. | No |
 | Partition | String | The partition where the iRule resides. Typically, accept the default value of Common unless you manage multiple partitions. | Yes |
 | Password | Password | The password for the F5 appliance. | Yes |
 | Server URL | String | The URL of the F5 appliance. This can be the IP address or domain name of the appliance, including the protocol and port number. For example: https://f5.example.com:8443 or http://192.0.2.1:8443. | Yes |
@@ -306,13 +259,9 @@ Create the specified iRule
 | iRule Definition | String | Enter text that defines an iRule, or the full path to an iRule definition file. If you specify a file, the file is read and uploaded as the iRule definition. | Yes |
 | iRule Name | String | The name of the iRule to create. | Yes |
 
-
 ### Delete Data Group
 
-
 Delete a data group. A data group is also known as a class.
-
-
 
 
 | Name | Type | Description | Required |
@@ -321,20 +270,16 @@ Delete a data group. A data group is also known as a class.
 | If Class does not exist | Enumeration:
 * WARN\_ONLY
 * FAIL
- | Select the action to take if a class with the specified name does not exist. | No |
+| Select the action to take if a class with the specified name does not exist. | No |
 | Partition | String | The partition where the iRules reside. Typically, accept the default value of Common unless you manage multiple partitions. | Yes |
 | Password | Password | The password for the F5 appliance. | Yes |
 | Server URL | String | The URL of the F5 appliance. This can be the IP address or domain name of the appliance, including the protocol and port number. For example: https://f5.example.com:8443 or http://192.0.2.1:8443. | Yes |
 | Timeout | String | Connection timeout, in seconds, to the F5 appliance. | Yes |
 | User Name | String | The username for the F5 appliance. | Yes |
 
-
 ### Delete Node
 
-
 Delete a node.
-
-
 
 
 | Name | Type | Description | Required |
@@ -346,13 +291,9 @@ Delete a node.
 | Timeout | String | Connection timeout, in seconds, to the F5 appliance. | Yes |
 | User Name | String | The username for the F5 appliance. | Yes |
 
-
 ### Delete Pool
 
-
 Delete a pool.
-
-
 
 
 | Name | Type | Description | Required |
@@ -364,13 +305,9 @@ Delete a pool.
 | Timeout | String | Connection timeout, in seconds, to the F5 appliance. | Yes |
 | User Name | String | The username for the F5 appliance. | Yes |
 
-
 ### Delete iRule
 
-
 Delete an iRule
-
-
 
 
 | Name | Type | Description | Required |
@@ -378,7 +315,7 @@ Delete an iRule
 | If iRule exists | Enumeration:
 * WARN\_ONLY
 * FAIL\_FAST
- | Select the action to take if an iRule with the specified name does not exist. | No |
+| Select the action to take if an iRule with the specified name does not exist. | No |
 | Partition | String | The partition where the iRule resides. Typically, accept the default value of Common unless you manage multiple partitions. | Yes |
 | Password | Password | The password for the F5 appliance. | Yes |
 | Server URL | String | The URL of the F5 appliance. This can be the IP address or domain name of the appliance, including the protocol and port number. For example: https://f5.example.com:8443 or http://192.0.2.1:8443. | Yes |
@@ -386,13 +323,9 @@ Delete an iRule
 | User Name | String | The username for the F5 appliance. | Yes |
 | iRule Name | String | The name of the iRule to delete. | Yes |
 
-
 ### Disable Node
 
-
 Disable a specified node for all pools and ports.
-
-
 
 
 | Name | Type | Description | Required |
@@ -407,13 +340,9 @@ Disable a specified node for all pools and ports.
 | Timeout | String | Connection timeout, in seconds, for the F5 appliance. | Yes |
 | User Name | String | The username for the F5 appliance. | Yes |
 
-
 ### Disable Pool Member
 
-
 Disable a node in a specified pool.
-
-
 
 
 | Name | Type | Description | Required |
@@ -431,13 +360,9 @@ Disable a node in a specified pool.
 | User Name | String | The username for the F5 appliance. | Yes |
 | Wait for existing connections | Boolean | Select to wait for all current connections to close after disabling the node in the pool and before completing the step. | No |
 
-
 ### Enable Node
 
-
 Enable a specified node for all pools and ports.
-
-
 
 
 | Name | Type | Description | Required |
@@ -448,13 +373,9 @@ Enable a specified node for all pools and ports.
 | Server URL | String | The URL of the F5 appliance. The protocol and port number are optional. For example: https://f5.example.com:8443 or f5.example.com or 192.0.2.1:8443. | Yes |
 | User Name | String | The username for the F5 appliance. | Yes |
 
-
 ### Enable Pool Member
 
-
 Enable a node in a specified pool.
-
-
 
 
 | Name | Type | Description | Required |
@@ -469,13 +390,9 @@ Enable a node in a specified pool.
 | Timeout | String | The connection timeout, in seconds, for the F5 appliance. | Yes |
 | User Name | String | The username for the F5 appliance. | Yes |
 
-
 ### Get iRule Statistics
 
-
 Retrieve statistics for an iRule.
-
-
 
 
 | Name | Type | Description | Required |
@@ -483,7 +400,7 @@ Retrieve statistics for an iRule.
 | If iRule does not exist | Enumeration:
 * WARN\_ONLY
 * FAIL
- | Select the action to take if an iRule with the specified name does not exist. | No |
+| Select the action to take if an iRule with the specified name does not exist. | No |
 | Partition | String | The partition where the iRules reside. Typically, accept the default value of Common unless you manage multiple partitions. | Yes |
 | Password | Password | The password for the F5 appliance. | Yes |
 | Server URL | String | The URL of the F5 appliance. This can be the IP address or domain name of the appliance, including the protocol and port number. For example: https://f5.example.com:8443 or http://192.0.2.1:8443. | Yes |
@@ -491,13 +408,9 @@ Retrieve statistics for an iRule.
 | User Name | String | The username for the F5 appliance. | Yes |
 | iRule Names | String | A list of iRule names to retrieve statistics for. Separate multiple iRule names with commas or newline characters. If blank, all iRule statistics are returned. | No |
 
-
 ### Modify External Data Group
 
-
 Modify the file format and mode of an external data group. A data group is also known as a class.
-
-
 
 
 
@@ -508,25 +421,21 @@ Modify the file format and mode of an external data group. A data group is also 
 * DEFAULT
 * FILE\_FORMAT\_UNKNOWN
 * FILE\_FORMAT\_CSV
- | Select the file format for the data group. | No |
+| Select the file format for the data group. | No |
 | File Mode | Enumeration:
 * DEFAULT
 * FILE\_MODE\_TYPE\_READ
 * FILE\_MODE\_TYPE\_READ\_WRITE
- | Select the file mode for the data group. | No |
+| Select the file mode for the data group. | No |
 | Partition | String | The partition where the iRules reside. Typically, accept the default value of Common unless you manage multiple partitions. | Yes |
 | Password | Password | The password for the F5 appliance. | Yes |
 | Server URL | String | The URL of the F5 appliance. This can be the IP address or domain name of the appliance, including the protocol and port number. For example: https://f5.example.com:8443 or http://192.0.2.1:8443. | Yes |
 | Timeout | String | Connection timeout, in seconds, to the F5 appliance. | Yes |
 | User Name | String | The username for the F5 appliance. | Yes |
 
-
 ### Remove Pool Member
 
-
 Remove a node from a pool.
-
-
 
 
 | Name | Type | Description | Required |
@@ -539,8 +448,6 @@ Remove a node from a pool.
 | Server URL | String | The URL of the F5 appliance. This can be the IP address or domain name of the appliance, including the protocol and port number. For example: https://f5.example.com:8443 or http://192.0.2.1:8443. | Yes |
 | Timeout | String | Connection timeout, in seconds, to the F5 appliance. | Yes |
 | User Name | String | The username for the F5 appliance. | Yes |
-
-
 
 
 

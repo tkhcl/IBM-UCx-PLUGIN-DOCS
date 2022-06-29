@@ -5,16 +5,11 @@ CICS TS - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
-
-
-
 ### Process steps in the CICS TS plug-in
-
 
 * [Check available status of resources](#check_available_status_of_resources)
 * [Check enable status of resources](#check_enable_status_of_resources)
@@ -45,14 +40,9 @@ CICS TS - Steps
 * [Undeploy bundles](#undeploy_bundles)
 
 
-
-
 ### Check available status of resources
 
-
 Check if installed resources are available or unavailable. Requires CICS TS V5.2 or later.
-
-
 
 
 | Name | Type | Description | Required |
@@ -62,13 +52,9 @@ Check if installed resources are available or unavailable. Requires CICS TS V5.2
 | Resource Type | Enumeration:BUNDLE | The type of resource to check. | Yes |
 | Timeout (s) | String | The number of seconds to make retry attempts before a timeout occurs. The valid range is 0-1800, where 0 means no retry attempts are made. The default is 15 seconds | No |
 
-
 ### Check enable status of resources
 
-
 Check if installed resources are enabled or disabled.
-
-
 
 
 | Name | Type | Description | Required |
@@ -78,13 +64,9 @@ Check if installed resources are enabled or disabled.
 | Resource Type | Enumeration:ATOMSERV, BUNDLE, CMDT, DB2ENTRY, EPADAPT, EPADSET, EVNTBIND, EXTRATDQ, INTRATDQ, JVMSERV, LIBRARY, LOCFILE, LOCTRAN, PIPELINE, PROCTYP, PROGRAM, URIMAP | The type of resource to check. | Yes |
 | Timeout (s) | String | The number of seconds to make retry attempts before a timeout occurs. The valid range is 0-1800, where 0 means no retry attempts are made. The default is 15 seconds | No |
 
-
 ### Check open status of resources
 
-
 Check if installed resources are open or closed.
-
-
 
 
 | Name | Type | Description | Required |
@@ -94,13 +76,9 @@ Check if installed resources are open or closed.
 | Resource Type | Enumeration:CMDT, EXTRATDQ, LOCFILE, TCPIPS | The type of resource to check. | Yes |
 | Timeout (s) | String | The number of seconds to make retry attempts before a timeout occurs. The valid range is 0-1800, where 0 means no retry attempts are made. The default is 15 seconds | No |
 
-
 ### Check status of an application
 
-
 Check if an installed cloud enabled CICS application is available, unavailable, enabled, or disabled. Requires CICS TS V5.1 or later.
-
-
 
 
 | Name | Type | Description | Required |
@@ -110,13 +88,9 @@ Check if an installed cloud enabled CICS application is available, unavailable, 
 | Expected Status | Enumeration:AVAILABLE, DISABLED, ENABLED, UNAVAILABLE | The expected status. | Yes |
 | Timeout (s) | String | The number of seconds to make retry attempts before a timeout occurs. The valid range is 0-1800. Leave this field blank to not retry. | No |
 
-
 ### Close resources
 
-
 Close installed resources.
-
-
 
 
 | Name | Type | Description | Required |
@@ -124,13 +98,9 @@ Close installed resources.
 | Resource Name List | String | A comma-separated list of resource names. | Yes |
 | Resource Type | Enumeration:CMDT, EXTRATDQ, LOCFILE, TCPIPS | The type of resource to close. | Yes |
 
-
 ### Deploy application
 
-
 Deploy a cloud enabled CICS application. Requires CICS TS V5.1 or V5.2 with APAR PI56706, or V5.3 or later.
-
-
 
 
 | Name | Type | Description | Required |
@@ -142,13 +112,9 @@ Deploy a cloud enabled CICS application. Requires CICS TS V5.1 or V5.2 with APAR
 | State | Enumeration:AVAILABLE, DISABLED, ENABLED | The target state of the application. | Yes |
 | Timeout (s) | String | The number of seconds to make retry attempts before a timeout occurs. The valid range is 1-1800. The default value is 300. | No |
 
-
 ### Deploy bundle
 
-
 Deploy a CICS bundle. Requires CICS TS V5.1 or V5.2 with APAR PI56706, or V5.3 or later.
-
-
 
 
 | Name | Type | Description | Required |
@@ -161,13 +127,9 @@ Deploy a CICS bundle. Requires CICS TS V5.1 or V5.2 with APAR PI56706, or V5.3 o
 | State | Enumeration:AVAILABLE, DISABLED, ENABLED | The target state of the bundle. | Yes |
 | Timeout (s) | String | The number of seconds to wait for the bundle to deploy before a timeout occurs. Further processing of the bundle by CICS might occur after the timeout. The valid range is 1-1800. The default value is 300. | No |
 
-
 ### Disable application
 
-
 Disable an installed cloud enabled CICS application. Requires CICS TS V5.1 or later.
-
-
 
 
 | Name | Type | Description | Required |
@@ -175,13 +137,9 @@ Disable an installed cloud enabled CICS application. Requires CICS TS V5.1 or la
 | Application Definition | String | The name of the CICS application definition. The default value is ``${p:cics.application.definition.name}``. | Yes |
 | Application Version | String | The application version in major.minor.micro format (for example, 1.2.345). The default value is ``${p:cics.application.version}``. | Yes |
 
-
 ### Disable resources
 
-
 Disable installed resources.
-
-
 
 
 | Name | Type | Description | Required |
@@ -189,13 +147,9 @@ Disable installed resources.
 | Resource Name List | String | A comma-separated list of resource names. | Yes |
 | Resource Type | Enumeration:ATOMSERV, BUNDLE, CMDT, DB2ENTRY, EPADAPT, EPADSET, EVNTBIND, EXTRATDQ, INTRATDQ, JVMSERV, LIBRARY, LOCFILE, LOCTRAN, PIPELINE, PROCTYP, PROGRAM, URIMAP | The type of resource to disable. | Yes |
 
-
 ### Discard resources
 
-
 Discard installed resources.
-
-
 
 
 | Name | Type | Description | Required |
@@ -203,13 +157,9 @@ Discard installed resources.
 | Resource Name List | String | A comma-separated list of resource names. | Yes |
 | Resource Type | Enumeration:ATOMSERV, BUNDLE, CMDT, CONNECT, DB2CONN, DB2ENTRY, DB2TRN, DOCTEMP, EXTRATDQ, INDTDQ, INTRATDQ, IPCONN, JRNLMODL, JRNLNAME, JVMSERV, LIBRARY, LOCFILE, LOCTRAN, MQCON, PIPELINE, PROCTYP, PROGRAM, REMFILE, REMTDQ, TCPIPS, TERMNL, TRANCLAS, TSMODEL, URIMAP, WEBSERV | The type of resource to discard. | Yes |
 
-
 ### Enable application
 
-
 Enable an installed cloud enabled CICS application. Requires CICS TS V5.1 or later.
-
-
 
 
 | Name | Type | Description | Required |
@@ -217,13 +167,9 @@ Enable an installed cloud enabled CICS application. Requires CICS TS V5.1 or lat
 | Application Definition | String | The name of the CICS application definition. The default value is ``${p:cics.application.definition.name}``. | Yes |
 | Application Version | String | The application version in major.minor.micro format (for example, 1.2.345). The default value is ``${p:cics.application.version}``. | Yes |
 
-
 ### Enable resources
 
-
 Enable installed resources.
-
-
 
 
 | Name | Type | Description | Required |
@@ -231,39 +177,27 @@ Enable installed resources.
 | Resource Name List | String | A comma-separated list of resource names. | Yes |
 | Resource Type | Enumeration:ATOMSERV, BUNDLE, CMDT, DB2ENTRY, EPADAPT, EPADSET, EVNTBIND, EXTRATDQ, INTRATDQ, JVMSERV, LIBRARY, LOCFILE, LOCTRAN, PIPELINE, PROCTYP, PROGRAM, URIMAP | The type of resource to enable. | Yes |
 
-
 ### Install BAS resource descriptions
 
-
 Install resource descriptions from the CICSPlex SM data repository using BAS.
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Resource Description List | String | A comma-separated list of resource description names. | Yes |
 
-
 ### Install BAS resource groups
 
-
 Install resource groups from the CICSPlex SM data repository using BAS.
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Resource Group List | String | A comma-separated list of resource group names. | Yes |
 
-
 ### Install BAS resources
 
-
 Install resource definitions from the CICSPlex SM data repository using BAS.
-
-
 
 
 | Name | Type | Description | Required |
@@ -272,13 +206,9 @@ Install resource definitions from the CICSPlex SM data repository using BAS.
 | Resource Type | Enumeration:ATOMDEF, BUNDDEF, DB2CDEF, DB2EDEF, DB2TDEF, DOCDEF, EJCODEF, EJDJDEF, ENQMDEF, FILEDEF, IPCONDEF, JRNMDEF, JVMSVDEF, LIBDEF, LSRDEF, MAPDEF, MQCONDEF, PARTDEF, PIPEDEF, PROCDEF, PROFDEF, PROGDEF, PRTNDEF, RQMDEF, TCPDEF, TDQDEF, TERMDEF, TRANDEF, TRNCLDEF, TSMDEF, TYPTMDEF, URIMPDEF, WEBSVDEF | The type of resource to install. | Yes |
 | Version | String | The version of the resource to install. The default value is 1. | Yes |
 
-
 ### Install CSD groups or lists
 
-
 Install resources contained in groups or lists from the CSD.
-
-
 
 
 | Name | Type | Description | Required |
@@ -286,13 +216,9 @@ Install resources contained in groups or lists from the CSD.
 | Group or List | Enumeration:CSDGROUP, CSDLIST | Specify whether to install from a CSD group or list. | Yes |
 | Group or List Name | String | A comma-separated list of CSD groups or lists. | Yes |
 
-
 ### Install CSD resources
 
-
 Install resources from the CSD.
-
-
 
 
 | Name | Type | Description | Required |
@@ -301,41 +227,29 @@ Install resources from the CSD.
 | Resource Name List | String | A comma-separated list of resource names. | Yes |
 | Resource Type | Enumeration:ATOMDEF, BUNDDEF, DB2CDEF, DB2EDEF, DB2TDEF, DOCDEF, EJCODEF, EJDJDEF, ENQMDEF, FILEDEF, IPCONDEF, JRNMDEF, JVMSVDEF, LIBDEF, LSRDEF, MAPDEF, MQCONDEF, PARTDEF, PIPEDEF, PROCDEF, PROFDEF, PROGDEF, PRTNDEF, RQMDEF, TCPDEF, TDQDEF, TERMDEF, TRANDEF, TRNCLDEF, TSMDEF, TYPTMDEF, URIMPDEF, WEBSVDEF | The type of resource to install. | Yes |
 
-
 ### Make application available
-
 
 Make an installed cloud enabled CICS application available. Requires CICS TS V5.2 or later.
 
 
-
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Application Definition | String | The name of the CICS application definition. The default value is ``${p:cics.application.definition.name}``. | Yes |
 | Application Version | String | The application version in major.minor.micro format (for example, 1.2.345). The default value is ``${p:cics.application.version}``. | Yes |
 
-
 ### Make application unavailable
-
 
 Make an installed cloud enabled CICS application unavailable. Requires CICS TS V5.2 or later.
 
 
-
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Application Definition | String | The name of the CICS application definition. The default value is ``${p:cics.application.definition.name}``. | Yes |
 | Application Version | String | The application version in major.minor.micro format (for example, 1.2.345). The default value is ``${p:cics.application.version}``. | Yes |
 
-
 ### Make resources available
 
-
 Make installed bundle resources available. Requires CICS TS V5.2 or later.
-
-
 
 
 | Name | Type | Description | Required |
@@ -343,13 +257,9 @@ Make installed bundle resources available. Requires CICS TS V5.2 or later.
 | Resource Name List | String | A comma-separated list of resource names. | Yes |
 | Resource Type | Enumeration:BUNDLE | The type of resource to make available. | Yes |
 
-
 ### Make resources unavailable
 
-
 Make installed bundle resources unavailable. Requires CICS TS V5.2 or later.
-
-
 
 
 | Name | Type | Description | Required |
@@ -357,13 +267,9 @@ Make installed bundle resources unavailable. Requires CICS TS V5.2 or later.
 | Resource Name List | String | A comma-separated list of resource names. | Yes |
 | Resource Type | Enumeration:BUNDLE | The type of resource to make unavailable. | Yes |
 
-
 ### New copy resources
 
-
 New copy installed program or doctemplate resources.
-
-
 
 
 | Name | Type | Description | Required |
@@ -373,13 +279,9 @@ New copy installed program or doctemplate resources.
 | Resource Type | Enumeration:DOCTEMP, PROGRAM | The type of resource to new copy. | Yes |
 | Retry Interval (s) | String | The number of seconds to wait before retrying a new copy of the resource. | No |
 
-
 ### Open resources
 
-
 Open installed resources.
-
-
 
 
 | Name | Type | Description | Required |
@@ -387,13 +289,9 @@ Open installed resources.
 | Resource Name List | String | A comma-separated list of resource names. | Yes |
 | Resource Type | Enumeration:CMDT, EXTRATDQ, LOCFILE, TCPIPS | The type of resource to open. | Yes |
 
-
 ### Phase in resources
 
-
 Phase in installed program or bundle resources. Phase in for a bundle resource type requires CICS TS V5.3 or later.
-
-
 
 
 | Name | Type | Description | Required |
@@ -401,26 +299,18 @@ Phase in installed program or bundle resources. Phase in for a bundle resource t
 | Resource Name List | String | A comma-separated list of resource names. | Yes |
 | Resource Type | Enumeration:BUNDLE, PROGRAM | The type of resource to phase in. | Yes |
 
-
 ### Scan pipelines
 
-
 Scan installed pipeline resources.
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Pipeline List | String | A comma-separated list of pipelines. | Yes |
 
-
 ### Undeploy application
 
-
 Undeploy a cloud enabled CICS application. Requires CICS TS V5.1 or V5.2 with APAR PI56706, or V5.3 or later.
-
-
 
 
 | Name | Type | Description | Required |
@@ -430,13 +320,9 @@ Undeploy a cloud enabled CICS application. Requires CICS TS V5.1 or V5.2 with AP
 | State | Enumeration:DISABLED, DISCARDED, UNAVAILABLE | The target state of the application. | Yes |
 | Timeout (s) | String | The number of seconds to make retry attempts before a timeout occurs. The valid range is 1-1800. The default value is 300. | No |
 
-
 ### Undeploy bundles
 
-
 Undeploy CICS bundles. Requires CICS TS V5.1 or V5.2 with APAR PI56706, or V5.3 or later.
-
-
 
 
 | Name | Type | Description | Required |
@@ -449,11 +335,7 @@ Undeploy CICS bundles. Requires CICS TS V5.1 or V5.2 with APAR PI56706, or V5.3 
 
 
 
-
-
 ### Output properties
-
-
 
 
 
@@ -462,22 +344,15 @@ Undeploy CICS bundles. Requires CICS TS V5.1 or V5.2 with APAR PI56706, or V5.3 
 * [How to view output properties](#view_outputprops)
 * [Use cics.response.errors in a post-processing script](#post-processing)
 
-
 ### Overview of output properties
-
 
 A step in UrbanCode Deploy is able to return output properties. These can be used in the step post-processing script and to pass information between steps. For an example workflow using output properties, see [Properties](http://www.ibm.com/support/knowledgecenter/SS4GSP_7.2.0/com.ibm.udeploy.doc/topics/ud_properties_overview.html "Properties") in the UrbanCode Deploy documentation.
 
-
 ### The cics.response.errors output property
-
 
 If the CICS TS plug-in step fails (because CICS returns an error, for example) the step returns the cics.response.errors output property.
 
-
 Thispropertys value consists ofa JSON document of error codes, one set for each resource in the resource list.The following elements are returned in the JSON document:
-
-
 
 
 |  |  |
@@ -493,49 +368,38 @@ Thispropertys value consists ofa JSON document of error codes, one set for each 
 | resp1Name | The plain text equivalent of the resp value. |
 | resp2 | The CICS RESP2 code or the CICSPlex SM API EYUDA reason code as a numeric value. |
 
-
 ### How to view output properties
 
-
 You can view a steps output properties in the **Log** tab of the **Process Request** window.Next to the desired step name, click on the **Input/Output** **properties** icon. In the popup that follows, click **View Output Properties**.
-
 
 ![Image showing the location output properties in the Process Request window](hover_properties.png?resize=318%2C112)Image showing the location output properties in the Process Request window
 The following is a sample of the cics.response.errors output when NEWCOPY fails with a NODATA error:
 
 
-
 ```
 
-
 [{"action":"NEWCOPY","attribute":"","errorCode":"","reasonName":"","resourceName":"NOTEXIST","resourceType":"PROGRAM","resp1Name":"","resp2":"","responseName":"NODATA"}``]
-
 
 ```
 
 ### Use cics.response.errors in a post-processing script
 
-
 You can configure a post-processing script to run after a step finishes. Post-processing scripts can be used to ensure that the expected results occurred, and to pass properties between steps. For more information on using and storing reusable post-processing scripts, see the [Post-processing scripts](http://www.ibm.com/support/knowledgecenter/SS4GSP_6.1.1/com.ibm.udeploy.doc/topics/comp_postProcess.html) section of the Urban Code Deploy documentation.
-
 
 The following is a usage example of a post-processing script for the *New copy resources* step in the CICS TS plug-in:
 
-
 The **New copy resources** step instructs CICS to reload the resource the next time it is requested. The step fails in CICS with a NODATA response if the resource was not already loaded, however in most cases, this failure can be ignored as CICS will automatically load the resource when it is next used.
 
-
 The following script analyses the cics.response.errors output property and providing the only errors are NODATA, will change the step to be successful:
-
 
 
 ```
 var exit = properties.get('exitCode');
 commandOut.println("Running the post-processing script.");
 if (exit == 0) {
- commandOut.println("The main step passed.");
+commandOut.println("The main step passed.");
 properties.put('Status', 'Success');
-}`` 
+}``
 else {
 commandOut.println("The main step failed. Analysing its errors...");
 var responseErrors = JSON.parse(properties.get("cics.response.errors"));
@@ -551,17 +415,17 @@ break;
 if (responseErrors.length > 0 && i == responseErrors.length) {
 commandOut.println("All errors were NODATA. The step will succeed.");
 properties.put("Status", "Success");
-}`` 
+}``
 else {
 commandOut.println("Not all errors were NODATA. The step will be failed.");
 properties.put("Status", "Failure");
 }``
-}`` 
+}``
 else {
 commandOut.println("No error records found. The step will be failed.");
 properties.put("Status", "Failure");
 }``
-}`` 
+}``
 else {
 commandOut.println("No CICS response errors found!")
 }``
@@ -570,46 +434,32 @@ commandOut.println("No CICS response errors found!")
 ```
 
 
-
 ### Defining and deleting resource definitions
-
-
 
 
 
 Using the [z/OS Utility plug-in](https://www.urbancode.com/plugin/z-os-utility/ "z/OS Utility plug-in") **Submit Job** step you can perform the following actions in CICS:
 
-
 * Run DFHCSDUP to define or delete resource definitions in the CSD.
 * Run EYU9XDBT to define or delete resource definitions in the CPSM data repository.
 
-
 In the following example, DFHCSDUP is run withreplace tokens @CICSHLQ@,@CSD@, and @CSDUPDATE@.
-
 
 ![Image showing the Submit Job step configured to define some CICS resources](define-delete-screen2.png?resize=587%2C447)Image showing the Submit Job step configured to define some CICS resources
 **Replace tokens** allow you to customize values in your JCL templates, in order to use the same JCL in different deployment scenarios.
 
-
 For example, a token such as *@CSD@* can be linked to a matching UrbanCode Deploy property, *cics.jcl.csd*. This property is then assigned a value, such as *CICSTS53.CICS.DFHCSD*, which canbe set attheenvironment level, or wherever is most suitable.
-
 
 For more details on the **Submit Job** and **Wait For Job** steps, see the Steps page for the [z/OS Utility plug-in](https://www.urbancode.com/plugin/z-os-utility/).
 
 
-
 ### Default input properties
-
 
 The following properties are present on all CICS TS plug-in steps. You can view them on any step configuration page by selecting the **Show Hidden Properties** check box.
 
-
 These properties are typically environment or component-specific. To reduce manual configuration, you can define properties at an application, environment, or resource level.
 
-
 For an example of how to setup a CICS installation as an UrbanCode Deploy resource, see the *Setting up resources for simple management of properties* on the Usage page. More information on usage of properties, see the [Properties](http://www-01.ibm.com/support/knowledgecenter/SS4GSP_7.2.0/com.ibm.udeploy.doc/topics/ud_properties_overview.html) topic in the UrbanCode Deploy documentation.
-
-
 
 
 | Name | Default value | Description |
@@ -627,14 +477,12 @@ For an example of how to setup a CICS installation as an UrbanCode Deploy resour
 ```
 /u/myuser/keystore.jks
 
-
 ```
 
 or
 
 ```
 file:///u/myuser/keystore.jks
-
 
 ```
 
@@ -643,7 +491,6 @@ file:///u/myuser/keystore.jks
 ```
 safkeyring:///<keyring name>
 
-
 ```
 
 -For keys contained in RACF keyrings that are stored in hardware with ICSF, use
@@ -651,9 +498,8 @@ safkeyring:///<keyring name>
 ```
 safkeyringhw:///<keyring name>
 
-
 ```
- |
+|
 | Keystore Type | ``${p?:cics.kstype}`` | The type of the keystore that provides credentials for client-certificate authentication, if SSL is enabled. If unspecified, the agents default Java keystore type is used. For keys contained in RACF keyrings, use JCERACFKS when the keys are stored in software, or JCECCARACFKS when the keys are stored in hardware with ICSF. |
 | Keystore Password | ``${p?:cics.kspassword}`` | The password of the keystore that provides credentials for client-certificate authentication, if SSL is enabled. For keys contained in RACF keyrings, leave this value empty. |
 | Truststore Location | ``${p?:cics.tslocation}`` | The location of the truststore that verifies credentials, if SSL is enabled.
@@ -662,14 +508,12 @@ safkeyringhw:///<keyring name>
 ```
 /u/myuser/truststore.jks
 
-
 ```
 
 or
 
 ```
 file:///u/myuser/truststore.jks
-
 
 ```
 
@@ -678,7 +522,6 @@ file:///u/myuser/truststore.jks
 ```
 safkeyring:///<keyring name>
 
-
 ```
 
 -For certificates contained in RACF keyrings that are stored in hardware with ICSF, use
@@ -686,14 +529,12 @@ safkeyring:///<keyring name>
 ```
 safkeyringhw:///<keyring name>
 
-
 ```
- |
+|
 | Truststore Type | ``${p?:cics.tstype}`` | The type of the truststore that verifies credentials, if SSL is enabled. If unspecified, uses the agents default Java keystore type. For certificates contained in RACF keyrings, use JCERACFKS when the certificates are stored in software, or JCECCARACFKS when the certificates are stored in hardware with ICSF. |
 | Truststore Password | ``${p?:cics.tspassword}`` | The password of the truststore that verifies credentials, if SSL is enabled. For certificates contained in RACF keyrings, leave this value empty. |
 
 
-
 |Back to ...||Latest Version|CICS TS ||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[43.20220310.2307]()|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Component Templates](component templates.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[44.20220614.1106](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-44.20220614-1106.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Component Templates](component templates.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

@@ -5,25 +5,17 @@ IBM UrbanCode Deploy General Utilites - Usage
 # Usage
 
 
-
 ### Usage
 
 
 
 
- 
-
-
 With the **Wait** step you can suspend processing for a specified number of seconds.
-
 
 
 ### **Step palette**
 
-
 To access this plug-in in the palette, click **Utilities** > **General Utilities**.
-
-
 
 
 |Back to ...||Latest Version|IBM UrbanCode Deploy General Utilites ||||

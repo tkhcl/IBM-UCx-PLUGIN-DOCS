@@ -5,18 +5,12 @@ IBM InfoSphere DataStage - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the DataStage plug-in
-
 
 * [Compile Job or Routine](#compile_job_or_routine)
 * [DSX Import Service](#dsx_import_service)
@@ -28,14 +22,9 @@ IBM InfoSphere DataStage - Steps
 * [List DSX File Contents](#list_dsx_file_contents)
 
 
-
-
 ### Compile Job or Routine
 
-
 Compile a DataStage job or routine silently. Note: All environmental dependencies must be set before this step runs, otherwise dialog boxes are displayed on the agent server and the process stops. The step continues normally after the dialog boxes are confirmed.
-
-
 
 
 
@@ -45,7 +34,7 @@ Compile a DataStage job or routine silently. Note: All environmental dependencie
 | Compile | Enumeration:
 * JOB
 * ROUTINE
- | Select whether to compile a job or a routine. | Yes |
+| Select whether to compile a job or a routine. | Yes |
 | DataStage Script Path | String | Specify the full path to the client directory where the DataStage scripts are located. | Yes |
 | Domain | String | The host name of the services tier computer, including an optional port number. For example: localhost:8080 | No |
 | Force Compile | Boolean | Select to force the compilation of parallel jobs. | No |
@@ -57,13 +46,9 @@ Compile a DataStage job or routine silently. Note: All environmental dependencie
 | Rule Set | String | Specify rule set(s) to provision. Use \* to provision all rule sets. | No |
 | Username | String | The user name to use to attach to the project. | Yes |
 
-
 ### DSX Import Service
 
-
 Import objects from a .dsx file to a repository. This step works only on tiers where the ASBNode node agent is installed. You can specify multiple projects and files in the step.
-
-
 
 
 
@@ -76,7 +61,7 @@ Import objects from a .dsx file to a repository. This step works only on tiers w
 * 0
 * Overwrite
 * OverwriteReadOnly
- | Specify how to overwrite existing objects in the repository. If you do not change this option from the default, attempting to re-import existing objects causes an error.Yes, Include Read-Only Items additionally replaces read-only items. By default, existing read-only items are not overwritten. | No |
+| Specify how to overwrite existing objects in the repository. If you do not change this option from the default, attempting to re-import existing objects causes an error.Yes, Include Read-Only Items additionally replaces read-only items. By default, existing read-only items are not overwritten. | No |
 | Password | Password | The password to use to connect to the domain. | No |
 | Project | String | Specify the project to import the .dsx files to. | Yes |
 | Selected Imports | String | Specify options here to import selected objects from a .dsx file. You specify the object type and the object name. You can specify a full name or anabbreviated name for the object type.Separate each argument with a space.For more information see the IBM InfoSphere DataStage Programmers Guide. | No |
@@ -84,13 +69,9 @@ Import objects from a .dsx file to a repository. This step works only on tiers w
 | Username | String | The user name to use to connect to the domain. | No |
 | Verbose | Boolean | Select to generate a full report of the objects imported. By default, only import errors are reported. | No |
 
-
 ### Delete Assets
 
-
 Delete InfoSphere DataStage or QualityStage assets.
-
-
 
 
 | Name | Type | Description | Required |
@@ -105,7 +86,7 @@ Delete InfoSphere DataStage or QualityStage assets.
 * 10
 * 20
 * 50
- | Stops the deletion after the specified number of errors. | No |
+| Stops the deletion after the specified number of errors. | No |
 | Assets | String | Specify a list of InfoSphere DataStage and QualityStage assets to delete. Separate each asset with newlines or commas.A .txt file may also be specified that contains the same structure. Example: project/folder/asset\_name.suffix. View the `istool Delete` CLI documentation for a complete list of suffixes. The specified server will be appended to the beginning of each asset. | Yes |
 | Domain | String | If you do not specify this parameter, the primary domain server is used for the connection. Example: is-server.ibm.com:9445 | No |
 | Password | Password | The password for the domain username. | No |
@@ -113,13 +94,9 @@ Delete InfoSphere DataStage or QualityStage assets.
 | Username | String | The name of a user on the domain. | No |
 | istool Path | String | Full path to the InformationServer/istools/cli folder where the istool script is located. | Yes |
 
-
 ### Export DSX Project
 
-
 Export InfoSphere DataStage project level components to a .dsx file.
-
-
 
 
 | Name | Type | Description | Required |
@@ -132,13 +109,9 @@ Export InfoSphere DataStage project level components to a .dsx file.
 | Username | String | The user name to use to connect to the application server. | No |
 | Verbose | Boolean | Select to switch the verbose option on. | No |
 
-
 ### Export ISX Project
 
-
 Export InfoSphere DataStage or QualityStage assets to a specified .isx file.
-
-
 
 
 | Name | Type | Description | Required |
@@ -153,7 +126,7 @@ Export InfoSphere DataStage or QualityStage assets to a specified .isx file.
 * 10
 * 20
 * 50
- | Stops the export after the specified number of errors. | No |
+| Stops the export after the specified number of errors. | No |
 | Domain | String | If you do not specify this parameter, the primary domain server is used for the connection. Example: is-server.ibm.com:9445 | No |
 | Password | Password | The password for the domain username. | No |
 | Preview | Boolean | Select to view run the command without changing the repository. | No |
@@ -164,13 +137,9 @@ Export InfoSphere DataStage or QualityStage assets to a specified .isx file.
 | Username | String | The name of a user on the domain. | No |
 | istool Path | String | Full path to the InformationServer/istools/cli folder where the istool script is located. | Yes |
 
-
 ### Import DSX Project
 
-
 Import InfoSphere DataStage project level components from a .dsx or .xml file into a repository. You can specify one project and a list of file names to import. If the DSX Import Service is available, use it to import .dsx files.
-
-
 
 
 
@@ -185,13 +154,9 @@ Import InfoSphere DataStage project level components from a .dsx or .xml file in
 | Username | String | The user name to use to connect to the service tier computer. | No |
 | Verbose | Boolean | Select to generate a full report of the objects imported. By default, only import errors are reported. | No |
 
-
 ### Import ISX Project
 
-
 Import InfoSphere DataStage or QualityStage assets from a previously exported .isx file.
-
-
 
 
 
@@ -207,7 +172,7 @@ Import InfoSphere DataStage or QualityStage assets from a previously exported .i
 * 10
 * 20
 * 50
- | Stops the import after the specified number of errors. | No |
+| Stops the import after the specified number of errors. | No |
 | Domain | String | If you do not specify this parameter, the primary domain server is used for the connection. Example: is-server.ibm.com:9445 | No |
 | ISX Archive Files | String | List the .isx files to import assets from. Seperate each file with a newlines or commas. A .txt file may also be specified that contains the same structure. Example: Project.isx | Yes |
 | Password | Password | The password for the domain username. | No |
@@ -215,20 +180,16 @@ Import InfoSphere DataStage or QualityStage assets from a previously exported .i
 * 0
 * PREVIEW
 * REPLACE
- | Specify Preview to view run the command without changing the repository. Specify Replace to overwrite existing assets with imported assets of the same identity. | No |
+| Specify Preview to view run the command without changing the repository. Specify Replace to overwrite existing assets with imported assets of the same identity. | No |
 | Project | String | Specifies that InfoSphere DataStage and QualityStage assets are to be imported to the target project.This will be the top level of the DataStage projects you are importing. Example: Jobs | Yes |
 | Response File | String | Specifies the name and path of a response file that contains assets that failed to import during a run of a previous istool import command. Not supported with the preview parameter. | No |
 | Server | String | Specifies that InfoSphere DataStage and QualityStage assets are to be imported to the target server. Example: IS-SERVER | Yes |
 | Username | String | The name of a user on the domain. | No |
 | istool Path | String | Full path to the InformationServer/istools/cli folder where the istool script is located. | Yes |
 
-
 ### List DSX File Contents
 
-
 List the objects that a .dsx file contains. This step works only on tiers where the ASBNode node agent is installed.
-
-
 
 
 
@@ -236,8 +197,6 @@ List the objects that a .dsx file contains. This step works only on tiers where 
 | --- | --- | --- | --- |
 | DSX File Path | String | Specify the .dsx file to list. You can specify a full path name, which can be local or remote. Alternately, specify a text file that contains a list of file names. | Yes |
 | DataStage Script Path | String | Specify the full path to the node agent \bin directory where the DataStage scripts are located. | Yes |
-
-
 
 
 

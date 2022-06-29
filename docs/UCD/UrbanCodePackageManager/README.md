@@ -2,30 +2,21 @@
 IBM UrbanCode Package Manager
 =============================
 
-
 Plugin integration for Urbancode Package Manager.
-
 
 
 Available Steps
 ---------------
 
-
 Create PackageCreate package from files.
-
 
 Install PackageInstall package on target.
 
-
 Rollback PackageRollback package on target.
-
 
 Uninstall PackageUninstall package on target.
 
-
 Verify InstallVerify installed files.
-
-
 
 
 

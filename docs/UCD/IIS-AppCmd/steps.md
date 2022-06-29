@@ -5,16 +5,11 @@ Microsoft IIS AppCmd - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
-
-
-
 ### Process steps in the IIS AppCmd plug-in
-
 
 * [AppCmd](#appcmd)
 * [Create Application](#create_application)
@@ -33,14 +28,9 @@ Microsoft IIS AppCmd - Steps
 * [Stop Site](#stop_site)
 
 
-
-
 ### AppCmd
 
-
 Run an arbitrary appcmd command.
-
-
 
 
 | Name | Type | Description | Required |
@@ -52,13 +42,9 @@ Run an arbitrary appcmd command.
 | Object Type | String | The object type that the command should be run against. | Yes |
 | Timeout | Integer | Timeout, in seconds, at which the step will fail if action is not yet complete. | No |
 
-
 ### Create Application
 
-
 Create an Application in IIS.
-
-
 
 
 | Name | Type | Description | Required |
@@ -69,13 +55,9 @@ Create an Application in IIS.
 | Virtual Path | String | The virtual path that this application should be created under. | Yes |
 | Timeout | Integer | Timeout, in seconds, at which the step will fail if action is not yet complete. | No |
 
-
 ### Create Application Pool
 
-
 Create an Application Pool in IIS.
-
-
 
 
 | Name | Type | Description | Required |
@@ -85,13 +67,9 @@ Create an Application Pool in IIS.
 | Command Path | String | The directory location of the AppCmd command-line executable: e.g., C:\Windows\system32\inetsrv\ | No |
 | Timeout | Integer | Timeout, in seconds, at which the step will fail if action is not yet complete. | No |
 
-
 ### Create Site
 
-
 Create a new Web Site in IIS.
-
-
 
 
 | Name | Type | Description | Required |
@@ -101,13 +79,9 @@ Create a new Web Site in IIS.
 | Site Name | String | The name of the Web Site to create, e.g. DefaultWebSite. | Yes |
 | Timeout | Integer | Timeout, in seconds, at which the step will fail if action is not yet complete. | No |
 
-
 ### Create Virtual Directory
 
-
 Create a new Virtual Directory in IIS.
-
-
 
 
 | Name | Type | Description | Required |
@@ -119,13 +93,9 @@ Create a new Virtual Directory in IIS.
 | Virtual Path | String | The virtual path of the virtual directory. | Yes |
 | Timeout | Integer | Timeout, in seconds, at which the step will fail if action is not yet complete. | No |
 
-
 ### Create or update application from XML
 
-
 Create or update existing application using user supplied XML
-
-
 
 
 | Name | Type | Description | Required |
@@ -136,13 +106,9 @@ Create or update existing application using user supplied XML
 | Command Path | String | The directory location of the AppCmd command-line executable: e.g., C:\Windows\system32\inetsrv\ | No |
 | Timeout | Integer | Timeout, in seconds, at which the step will fail if action is not yet complete. | No |
 
-
 ### Delete Application
 
-
 Delete an Application from IIS.
-
-
 
 
 | Name | Type | Description | Required |
@@ -152,13 +118,9 @@ Delete an Application from IIS.
 | ID | String | The Application path or URL of the application to delete, e.g. Default Web Site/Application. | Yes |
 | Timeout | Integer | Timeout, in seconds, at which the step will fail if action is not yet complete. | No |
 
-
 ### Delete Application Pool
 
-
 Delete an Application Pool from IIS.
-
-
 
 
 | Name | Type | Description | Required |
@@ -168,13 +130,9 @@ Delete an Application Pool from IIS.
 | Command Path | String | The directory location of the AppCmd command-line executable: e.g., C:\Windows\system32\inetsrv\ | No |
 | Timeout | Integer | Timeout, in seconds, at which the step will fail if action is not yet complete. | No |
 
-
 ### Delete Site
 
-
 Delete a Web Site from IIS.
-
-
 
 
 | Name | Type | Description | Required |
@@ -184,13 +142,9 @@ Delete a Web Site from IIS.
 | Site Name | String | The name of the Web Site to delete, e.g. DefaultWebSite. | Yes |
 | Timeout | Integer | Timeout, in seconds, at which the step will fail if action is not yet complete. | No |
 
-
 ### Delete Virtual Directory
 
-
 Delete a Virtual Directory from IIS.
-
-
 
 
 | Name | Type | Description | Required |
@@ -200,13 +154,9 @@ Delete a Virtual Directory from IIS.
 | Virtual Directory Path | String | Virtual Directory Path or URL to be deleted, e.g. Default Web Site/subdir. | Yes |
 | Timeout | Integer | Timeout, in seconds, at which the step will fail if action is not yet complete. | No |
 
-
 ### Recycle Application Pool
 
-
 Recycle an Application Pool in IIS.
-
-
 
 
 | Name | Type | Description | Required |
@@ -216,13 +166,9 @@ Recycle an Application Pool in IIS.
 | Command Path | String | The directory location of the AppCmd command-line executable: e.g., C:\Windows\system32\inetsrv\ | No |
 | Timeout | Integer | Timeout, in seconds, at which the step will fail if action is not yet complete. | No |
 
-
 ### Start Application Pool
 
-
 Start an Application Pool in IIS.
-
-
 
 
 | Name | Type | Description | Required |
@@ -232,13 +178,9 @@ Start an Application Pool in IIS.
 | Command Path | String | The directory location of the AppCmd command-line executable: e.g., C:\Windows\system32\inetsrv\ | No |
 | Timeout | Integer | Timeout, in seconds, at which the step will fail if action is not yet complete. | No |
 
-
 ### Start Site
 
-
 Start a Web Site in IIS.
-
-
 
 
 | Name | Type | Description | Required |
@@ -248,13 +190,9 @@ Start a Web Site in IIS.
 | Site Name | String | The name of the Web Site to delete, e.g. DefaultWebSite. | Yes |
 | Timeout | Integer | Timeout, in seconds, at which the step will fail if action is not yet complete. | No |
 
-
 ### Stop Application Pool
 
-
 Stop an Application Pool in IIS.
-
-
 
 
 | Name | Type | Description | Required |
@@ -264,13 +202,9 @@ Stop an Application Pool in IIS.
 | Command Path | String | The directory location of the AppCmd command-line executable: e.g., C:\Windows\system32\inetsrv\ | No |
 | Timeout | Integer | Timeout, in seconds, at which the step will fail if action is not yet complete. | No |
 
-
 ### Stop Site
 
-
 Stop a Web Site in IIS.
-
-
 
 
 | Name | Type | Description | Required |
@@ -279,8 +213,6 @@ Stop a Web Site in IIS.
 | Command Path | String | The directory location of the AppCmd command-line executable: e.g., C:\Windows\system32\inetsrv\ | No |
 | Site Name | String | The name of the Web Site to delete, e.g. DefaultWebSite. | Yes |
 | Timeout | Integer | Timeout, in seconds, at which the step will fail if action is not yet complete. | No |
-
-
 
 
 

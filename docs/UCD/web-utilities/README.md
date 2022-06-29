@@ -2,24 +2,17 @@
 Web Utilities
 =============
 
-
 The Web Utilities plug-in includes steps for interacting with web sites and web services.
-
 
 
 Available Steps
 ---------------
 
-
 Send HTTP CallSends an HTTP call to a URL with headers and data.
-
 
 Upload to FTP ServerUpload a file to an FTP Server.
 
-
 Delete from FTP ServerRemove a file or folder from an FTP Server.
-
-
 
 
 

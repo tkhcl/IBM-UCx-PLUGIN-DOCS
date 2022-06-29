@@ -5,30 +5,19 @@ CA SCM (formerly Harvest) - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the CA SCM plug-in
-
 
 * [Harvest Checkout](#harvest_checkout)
 
 
-
-
 ### Harvest Checkout
 
-
 Use hco to checkout files from CA SCM
-
-
 
 
 | Name | Type | Description | Required |
@@ -39,8 +28,6 @@ Use hco to checkout files from CA SCM
 | State | String | The State to checkout from. | Yes |
 | Use Only Package Versions | Boolean | Check here to only get versions from the package specified. | No |
 | View Path | String | The view path to use. | Yes |
-
-
 
 
 

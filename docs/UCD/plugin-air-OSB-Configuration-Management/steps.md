@@ -5,30 +5,20 @@ Oracle Service Bus Configuration Management - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
-
-
-
 ### Process steps in the OSB Management plug-in
-
 
 * [Apply Customization](#apply_customization)
 * [Import Configuration](#import_configuration)
 * [Import Configuration and Apply Customization](#import_configuration_and_apply_customization)
 
 
-
-
 ### Apply Customization
 
-
 Customize Oracle Service Bus with an XML file.
-
-
 
 
 | Name | Type | Description | Required |
@@ -41,13 +31,9 @@ Customize Oracle Service Bus with an XML file.
 | UserId | String | User ID | Yes |
 | WebLogic Dependencies | String | The class path to the WebLogic dependencies that are required to run Oracle Service Bus commands. | Yes |
 
-
 ### Import Configuration
 
-
 Import a configuration into Oracle Service Bus with a JAR file.
-
-
 
 
 | Name | Type | Description | Required |
@@ -62,13 +48,9 @@ Import a configuration into Oracle Service Bus with a JAR file.
 | UserId | String | User ID | Yes |
 | WebLogic Dependencies | String | The class path to the WebLogic dependencies that are required to run Oracle Service Bus commands. | Yes |
 
-
 ### Import Configuration and Apply Customization
 
-
 Import a configuration into Oracle Service Bus with a JAR file and customize Oracle Service Bus with an XML file in the same WebLogic session.
-
-
 
 
 | Name | Type | Description | Required |
@@ -83,8 +65,6 @@ Import a configuration into Oracle Service Bus with a JAR file and customize Ora
 | Timeout | String | Specify a timeout value, in milliseconds, to wait for the configuration task to run. | No |
 | UserId | String | User ID | Yes |
 | WebLogic Dependencies | String | The class path to the WebLogic dependencies that are required to run Oracle Service Bus commands. | Yes |
-
-
 
 
 

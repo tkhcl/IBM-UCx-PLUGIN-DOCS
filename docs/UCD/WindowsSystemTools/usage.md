@@ -5,17 +5,12 @@ Microsoft Windows System Tools - Usage
 # Usage
 
 
-
 ### Usage
 
 
 
 
- 
-
-
 Use the Windows System Tools plug-in to automate a number of systems tools for the Microsoft Windows operating system.
-
 
 * Manage Windows features
 * Update the Registry Key
@@ -25,13 +20,9 @@ Use the Windows System Tools plug-in to automate a number of systems tools for t
 * Restart the computer
 
 
-
 ### **Step palette**
 
-
 To access this plug-in in the palette, click **System Utility** > **Windows** > **WindowSystemTools**.
-
-
 
 
 |Back to ...||Latest Version|Microsoft Windows System Tools |||||

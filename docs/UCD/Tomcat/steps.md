@@ -5,16 +5,11 @@ Apache Tomcat - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
-
-
-
 ### Process steps in the Tomcat plug-in
-
 
 * [Check Application Status](#check_application_status)
 * [Deploy Application](#deploy_application)
@@ -25,14 +20,9 @@ Apache Tomcat - Steps
 * [Undeploy Application](#undeploy_application)
 
 
-
-
 ### Check Application Status
 
-
 Check the status of a deployed application against an expected status.
-
-
 
 
 | Name | Type | Description | Required |
@@ -43,13 +33,9 @@ Check the status of a deployed application against an expected status.
 | Tomcat Manager URL | String | The URL of the Tomcat Manager interface. | Yes |
 | Tomcat Manager User Name | String | The user name to use to log in to the Tomcat Manager interface. | Yes |
 
-
 ### Deploy Application
 
-
 Deploy a web application to Tomcat.
-
-
 
 
 | Name | Type | Description | Required |
@@ -61,13 +47,9 @@ Deploy a web application to Tomcat.
 | Tomcat Manager User Name | String | The user name to use to log in to the Tomcat Manager interface. | Yes |
 | War File Path | String | The path to the WAR file to be deployed. | Yes |
 
-
 ### Start Application
 
-
 Start a web application that is deployed on Tomcat.
-
-
 
 
 | Name | Type | Description | Required |
@@ -77,13 +59,9 @@ Start a web application that is deployed on Tomcat.
 | Tomcat Manager URL | String | The URL of the Tomcat Manager interface. | Yes |
 | Tomcat Manager User Name | String | The user name to use to log in to the Tomcat Manager interface. | Yes |
 
-
 ### Start Tomcat
 
-
 Start Tomcat on the agent machine.
-
-
 
 
 | Name | Type | Description | Required |
@@ -97,13 +75,9 @@ Start Tomcat on the agent machine.
 | Port | String | The port that the step uses to detect when the Tomcat instance is running. You can specify any of the connector ports that your instance is configured with. | No |
 | Startup timeout (in seconds) | String | The value that the step uses to wait for the Tomcat instance to complete the boot process before continuing. You must provide a port value, which is used to detect when the boot process is complete. | No |
 
-
 ### Stop Application
 
-
 Stop a deployed web application on Tomcat.
-
-
 
 
 | Name | Type | Description | Required |
@@ -113,13 +87,9 @@ Stop a deployed web application on Tomcat.
 | Tomcat Manager URL | String | The URL of the Tomcat Manager interface. | Yes |
 | Tomcat Manager User Name | String | The user name to use to log in to the Tomcat Manager interface. | Yes |
 
-
 ### Stop Tomcat
 
-
 Stop Tomcat on the agent computer.
-
-
 
 
 | Name | Type | Description | Required |
@@ -133,13 +103,9 @@ Stop Tomcat on the agent computer.
 | Port | String | Enter a port for the step to use to detect when the Tomcat instance is stopped. You can specify any of the connector ports that your instance is configured with. | No |
 | Shutdown timeout (in seconds) | String | Enter a value to have the step to wait for the Tomcat instance to complete the shutdown sequence before continuing. You have to provide a port value lower than the port value used to detect when the shutdown process is complete. | No |
 
-
 ### Undeploy Application
 
-
 Undeploy a web application on Tomcat.
-
-
 
 
 | Name | Type | Description | Required |
@@ -148,8 +114,6 @@ Undeploy a web application on Tomcat.
 | Tomcat Manager Password | Password | The password to use to log in to the Tomcat Manager interface. | Yes |
 | Tomcat Manager URL | String | The URL of the Tomcat Manager interface. | Yes |
 | Tomcat Manager User Name | String | The user name to use to log in to the Tomcat Manager interface. | Yes |
-
-
 
 
 

@@ -5,18 +5,12 @@ Artifactory - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the Artifactory plug-in
-
 
 * [Download Latest Build for SNAPSHOT](#download_latest_build_for_snapshot)
 * [Download NuGet Package](#download_nuget_package)
@@ -27,14 +21,9 @@ Artifactory - Steps
 * [Set Item Properties](#set_item_properties)
 
 
-
-
 ### Download Latest Build for SNAPSHOT
 
-
 Retrieve the latest build artifact within a SNAPSHOT.
-
-
 
 
 | Name | Type | Description | Required | Property Name |
@@ -49,13 +38,9 @@ Retrieve the latest build artifact within a SNAPSHOT.
 | User Name | String | The user name to authenticate with the Artifactory server. | No | username |
 | Version | String | The version of the build artifact. For example: 3.8-SNAPSHOT | Yes | version |
 
-
 ### Download NuGet Package
 
-
 Download a NuGet package from a NuGet repository.
-
-
 
 
 | Name | Type | Description | Required | Property Name |
@@ -67,13 +52,9 @@ Download a NuGet package from a NuGet repository.
 | Repository User name | String | The user name to authenticate with Artifactory. | No | username |
 | Verify Hash | Boolean | Select to verify hash values after the files are downloaded. | No | checkHash |
 
-
 ### Download version (Maven build)
 
-
 Download all files under a specified version of a repository that was built with Maven.
-
-
 
 
 | Name | Type | Description | Required | Property Name |
@@ -88,13 +69,9 @@ Download all files under a specified version of a repository that was built with
 | Verify Hash | Boolean | Select to verify hash values after the files are downloaded. | No | checkHash |
 | Versions | String | A list of versions to download, separated by newline characters. Use the following format: groupId/artifactId/version | Yes | artifacts |
 
-
 ### Download version (non-Maven build)
 
-
 Download all files under specified version of a repository (non-Maven).
-
-
 
 
 | Name | Type | Description | Required | Property Name |
@@ -110,13 +87,9 @@ Download all files under specified version of a repository (non-Maven).
 | Verify Hash | Boolean | Select to verify hash values after the files are downloaded. | No | checkHash |
 | Versions | String | A list of folders and subfolders to download, separated by newline characters. Use the following format: path/to/artifact/version | Yes | artifacts |
 
-
 ### Promote Build
 
-
 Change the status of a build, optionally moving or copying the build to a target repository.
-
-
 
 
 | Name | Type | Description | Required | Property Name |
@@ -137,13 +110,9 @@ Change the status of a build, optionally moving or copying the build to a target
 | Target Repository | String | The target repository for the build artifacts and dependencies. | Yes | buildTarget |
 | User Name | String | The user name to authenticate with the Artifactory server. | No | username |
 
-
 ### Retrieve Build Artifacts Archive
 
-
 Retrieve an archive file that contains all the artifacts for a specific build.
-
-
 
 
 | Name | Type | Description | Required | Property Name |
@@ -154,7 +123,7 @@ Retrieve an archive file that contains all the artifacts for a specific build.
 * tar
 * tar.gz
 * tgz
- | Select the merge type of the archive file to return. | No | buildType |
+| Select the merge type of the archive file to return. | No | buildType |
 | Artifactory Base URL | String | The base URL of the Artifactory server. For example: http://server.example.com:8081/artifactory | Yes | url |
 | Build Name | String | The name of the build to download. | Yes | buildName |
 | Build Number | String | Specify the build to download by number. Cannot be used with Build Status. | No | buildNumber |
@@ -163,13 +132,9 @@ Retrieve an archive file that contains all the artifacts for a specific build.
 | Status | String | Specify the build to download by status. Cannot be used with Build Number. | No | buildStatus |
 | User Name | String | The user name to authenticate with the Artifactory server. | No | username |
 
-
 ### Set Item Properties
 
-
 Attach properties to a file or folder.
-
-
 
 
 | Name | Type | Description | Required | Property Name |
@@ -181,8 +146,6 @@ Attach properties to a file or folder.
 | Properties | String | Specify a list of properties to set. Place each entry on a separate line. Use the following format: key=value. Separate multiple values for a key with commas, and add a backslash (\) before the following special characters: comma (,), backslash(\), vertical bar (|), and equal sign (=). Do not use a backslash before the equal sign between the key and the value or before commas used to separate multiple values. For example: osVersions=Windows\=7\,10,Linux\=16.04 LTS\ | Yes | properties |
 | Recursive | Boolean | Select to attach properties recursively if the Artifact Path is a directory. | No | recursive |
 | User Name | String | The user name to authenticate with the Artifactory server. | No | username |
-
-
 
 
 

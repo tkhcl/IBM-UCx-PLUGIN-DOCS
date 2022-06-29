@@ -5,31 +5,20 @@ IBM UrbanCode DBUpgrader - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the DBUpgrader plug-in
-
 
 * [Rollback DB](#rollback_db)
 * [Upgrade DB](#upgrade_db)
 
 
-
-
 ### Rollback DB
 
-
 Return the database to a previous version.
-
-
 
 
 | Name | Type | Description | Required |
@@ -46,13 +35,9 @@ Return the database to a previous version.
 | Update Version SQL | String | An SQL statement to update the current version of the database. Use the first question mark (?) for the RELEASE\_NAME value, and the second mark (?) for the VER value.Example: `INSERT INTO DB_VERSION (RELEASE_NAME,VER) VALUES(?,?)`. | Yes |
 | User | String | The user name for the account that has access to the database. The user account must have enough permissions to complete the SQL queries that you provide it. | Yes |
 
-
 ### Upgrade DB
 
-
 Update the database.
-
-
 
 
 | Name | Type | Description | Required |
@@ -67,8 +52,6 @@ Update the database.
 | URL | String | The URL of the database that UrbanCode Deploy server uses to communicate with the database. For example, you can use the **``${p:environment/db.url}``** property. | Yes |
 | Update Version SQL | String | An SQL statement to update the current version of the database. Use the first question mark (?) for the RELEASE\_NAME value, and the second mark (?) for the VER value.Example: `INSERT INTO DB_VERSION (RELEASE_NAME,VER) VALUES(?,?)`. | Yes |
 | User | String | The user name for the account that has access to the database. The user account must have enough permissions to complete the SQL queries that you provide it. | Yes |
-
-
 
 
 

@@ -5,18 +5,12 @@ z/OS Management Facility - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the zOSMF plug-in
-
 
 * [Create Workflow](#create_workflow)
 * [Run Published Software Service Template](#run_published_software_service_template)
@@ -25,14 +19,9 @@ z/OS Management Facility - Steps
 * [zOSMF Cloud Provisioning Discovery](#zosmf_cloud_provisioning_discovery)
 
 
-
-
 ### Create Workflow
 
-
 Use this step to create a workflow.
-
-
 
 
 | Name | Type | Description | Required |
@@ -49,13 +38,9 @@ Use this step to create a workflow.
 | Workflow Definition File | String | Location of the workflow definition file, which is the primary XML file for the workflow definition. If the workflow definition file resides in a data set member, specify the fully qualified data set name including the member name. Ensure that the data set is cataloged.If the workflow definition file resides in a z/OS UNIX file, specify the fully qualified path name of the file beginning with the forward slash (/) and including the file name. For example: /usr/lpp/zosmf/V2R1/samples/workflow\_sample\_automation.xml. | Yes |
 | Workflow Name | String | A unique name for the workflow up to 100 characters. The name cannot contain the following symbols: less-than (<), greater-than (>), or ampersand (&). Each workflow name must be unique. | Yes |
 
-
 ### Run Published Software Service Template
 
-
 Use this step to define the input properties for the Run Published Software Service template.
-
-
 
 
 
@@ -79,13 +64,9 @@ Use this step to define the input properties for the Run Published Software Serv
 | Wait For Provision | Boolean | Indicates to wait for the provision to complete. The default is to wait for the provision to complete. If this property is not enabled, the value on the Timeout property is ignored. | No |
 | Write Job Log to Output | Boolean | If checked, the job log is stored to step output property. The Resource Role property name is zosmf.workflowJoblog. | No |
 
-
 ### Software Services Instance Discovery
 
-
 Use this step to discover all the software instances. Also use to create resources for each software instance under a root resource, apply the correct role, and set the properties.
-
-
 
 
 
@@ -97,13 +78,9 @@ Use this step to discover all the software instances. Also use to create resourc
 | zOSMF User | String | The zOSMF user to use. | No |
 | zOSMF User | String | The zOSMF password to use. | No |
 
-
 ### Start Workflow
 
-
 Use this step to start a workflow.
-
-
 
 
 | Name | Type | Description | Required |
@@ -123,13 +100,9 @@ Use this step to start a workflow.
 | Workflow Key | String | The workflow key of the workflow to be started. | Yes |
 | Write Job Log to Output | Boolean | Indicates if the job log file is stored based on the zosmf.workflowJoblog step output property. The default is no. | No |
 
-
 ### zOSMF Cloud Provisioning Discovery
 
-
 Use this step to discover if the zOSMF service is available by checking the URL specified in zosmf.url agent property. If it is available, the zOSMFService role is assigned to the resource and the properties are set.
-
-
 
 
 
@@ -140,27 +113,19 @@ Use this step to discover if the zOSMF service is available by checking the URL 
 | Resource | String | The resource to configure. | No |
 
 
-
-
 ### Roles in the zOSMF plug-in
 
-
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
-
 
 
 * [zOSMFService](#zosmfservice_role)
 * [zOSMFSoftwareInstance](#zosmfsoftwareinstance_role)
 
 
-
 ### zOSMFService
 
 
-
- Role for resources that represent zOSMF Service.
-
-
+Role for resources that represent zOSMF Service.
 
 
 | Name | Type | Description |
@@ -177,14 +142,10 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | zOSMF User | String | The zOSMF user to use. The Resource Role property name is zosmf.user. |
 | zOSMF Version | String | The z/OSMF level. The Resource Role property name is zosmf.zosmf\_version. |
 
-
 ### zOSMFSoftwareInstance
 
 
-
- Role for resources that represent a software instance.
-
-
+Role for resources that represent a software instance.
 
 
 | Name | Type | Description |
@@ -200,8 +161,6 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | State | String | The current state of the software. The Resource Role property name is instance.state. |
 | Tenant Name | String | The name of the tenant. The Resource Role property name is instance.tenant-name. |
 | Type | String | The type of software instance. |
-
-
 
 
 

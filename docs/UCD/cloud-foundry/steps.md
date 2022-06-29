@@ -5,18 +5,12 @@ Cloud Foundry - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the CloudFoundry plug-in
-
 
 * [Bind Service](#bind_service)
 * [CF Auto-Configure](#cf_auto-configure)
@@ -42,14 +36,9 @@ Cloud Foundry - Steps
 * [Unmap Route](#unmap_route)
 
 
-
-
 ### Bind Service
 
-
 Bind a CF service instance onto a CF application.
-
-
 
 
 | Name | Type | Description | Required |
@@ -65,13 +54,9 @@ Bind a CF service instance onto a CF application.
 | Skip SSL Validation | Boolean | If checked, SSL validation will be skipped. | No |
 | Space | String | The name of the space within the organization that the application will be deployed. (e.g some-space) | No |
 
-
 ### CF Auto-Configure
 
-
 Discover and configure all organizations and spaces for each organization into a resource tree in Urbancode Deploy.
-
-
 
 
 
@@ -84,13 +69,9 @@ Discover and configure all organizations and spaces for each organization into a
 | Resource | String | The Resource being configured | No |
 | Skip SSL Validation | Boolean | If checked, SSL validation will be skipped. | No |
 
-
 ### CF Discovery
 
-
 This step will discover if Cloud Foundry is on an agent by checking common installation paths.If it is, it will assign the role to the resource and set the command path property.
-
-
 
 
 
@@ -101,13 +82,9 @@ This step will discover if Cloud Foundry is on an agent by checking common insta
 | Override CF CLI Path | String | Provide the full path to the cf executable file to override the auto discovery path. | No |
 | Resource | String | The Resource being configured | No |
 
-
 ### Create Domain
 
-
 Create a domain in an org.
-
-
 
 
 | Name | Type | Description | Required |
@@ -122,13 +99,9 @@ Create a domain in an org.
 | Skip SSL Validation | Boolean | If checked, SSL validation will be skipped. | No |
 | Space | String | The name of the space within the organization that the application will be deployed. (e.g some-space) | No |
 
-
 ### Create Route
 
-
 Create a url route in a space.
-
-
 
 
 | Name | Type | Description | Required |
@@ -144,13 +117,9 @@ Create a url route in a space.
 | Skip SSL Validation | Boolean | If checked, SSL validation will be skipped. | No |
 | Space | String | The name of the space within the organization that the application will be deployed. (e.g some-space) | No |
 
-
 ### Create Service
 
-
 Create a new Cloud Foundry Service.
-
-
 
 
 | Name | Type | Description | Required |
@@ -167,13 +136,9 @@ Create a new Cloud Foundry Service.
 | Skip SSL Validation | Boolean | If checked, SSL validation will be skipped. | No |
 | Space | String | The name of the space within the organization that the application will be deployed. (e.g some-space) | No |
 
-
 ### Create Subdomain
 
-
 Create a subdomain in an org.
-
-
 
 
 | Name | Type | Description | Required |
@@ -189,13 +154,9 @@ Create a subdomain in an org.
 | Space | String | The name of the space within the organization that the application will be deployed. (e.g some-space) | No |
 | Subdomain | String | Name of the subdomain i.e. myapp of myapp.domain.org. | Yes |
 
-
 ### Create or Update User-Provided Service
 
-
 Create or update a user-provided service instance.
-
-
 
 
 | Name | Type | Description | Required |
@@ -213,13 +174,9 @@ Create or update a user-provided service instance.
 | Space | String | The name of the space within the organization that the application will be deployed. (e.g some-space) | Yes |
 | User-Provided Service | String | The name of the user-provided service | Yes |
 
-
 ### Delete App
 
-
 Delete an application.
-
-
 
 
 | Name | Type | Description | Required |
@@ -235,13 +192,9 @@ Delete an application.
 | Skip SSL Validation | Boolean | If checked, SSL validation will be skipped. | No |
 | Space | String | The name of the space within the organization that the application will be deployed. (e.g some-space) | No |
 
-
 ### Delete Domain
 
-
 Delete a domain.
-
-
 
 
 | Name | Type | Description | Required |
@@ -256,13 +209,9 @@ Delete a domain.
 | Skip SSL Validation | Boolean | If checked, SSL validation will be skipped. | No |
 | Space | String | The name of the space within the organization that the application will be deployed. (e.g some-space) | No |
 
-
 ### Delete Route
 
-
 Delete a route.
-
-
 
 
 | Name | Type | Description | Required |
@@ -278,13 +227,9 @@ Delete a route.
 | Skip SSL Validation | Boolean | If checked, SSL validation will be skipped. | No |
 | Space | String | The name of the space within the organization that the application will be deployed. (e.g some-space) | No |
 
-
 ### Delete Service
 
-
 Delete a Cloud Foundry Service.
-
-
 
 
 | Name | Type | Description | Required |
@@ -299,13 +244,9 @@ Delete a Cloud Foundry Service.
 | Skip SSL Validation | Boolean | If checked, SSL validation will be skipped. | No |
 | Space | String | The name of the space within the organization that the application will be deployed. (e.g some-space) | No |
 
-
 ### Delete Subdomain
 
-
 Delete a subdomain.
-
-
 
 
 | Name | Type | Description | Required |
@@ -321,13 +262,9 @@ Delete a subdomain.
 | Space | String | The name of the space within the organization that the application will be deployed. (e.g some-space) | No |
 | Subdomain | String | Name of the subdomain i.e. myapp of myapp.domain.org. | Yes |
 
-
 ### Execute CF Script
 
-
 Execute a CF script. The context will be setup with the authenticated user and target space. cf.command line will be available to the script.
-
-
 
 
 
@@ -344,13 +281,9 @@ Execute a CF script. The context will be setup with the authenticated user and t
 | Skip SSL Validation | Boolean | If checked, SSL validation will be skipped. | No |
 | Space | String | The name of the space within the organization that the application will be deployed. (e.g some-space) | No |
 
-
 ### Execute CF bash file
 
-
 Execute a bash file. The context will be setup with the authenticated user and target space. CF command line will be available to the bash script. The sh command must be available from the command line.
-
-
 
 
 
@@ -367,13 +300,9 @@ Execute a bash file. The context will be setup with the authenticated user and t
 | Skip SSL Validation | Boolean | If checked, SSL validation will be skipped. | No |
 | Space | String | The name of the space within the organization that the application will be deployed. (e.g some-space) | No |
 
-
 ### Map Route
 
-
 Add a url route to an application.
-
-
 
 
 | Name | Type | Description | Required |
@@ -390,13 +319,9 @@ Add a url route to an application.
 | Skip SSL Validation | Boolean | If checked, SSL validation will be skipped. | No |
 | Space | String | The name of the space within the organization that the application will be deployed. (e.g some-space) | No |
 
-
 ### Push Application
 
-
 Push application with or without a manifest file. If a manifest file is found then properties are used as overrides.
-
-
 
 
 
@@ -427,15 +352,11 @@ Push application with or without a manifest file. If a manifest file is found th
 | Sub-domain | String | Define a sub-domain for your application. This is useful to ensure that the URL route for the application is unique within the domain. | No |
 | Timeout | String | Maximum time (in seconds) to wait for application start, other server side timeouts may apply. | No |
 
-
 ### Restart App
-
 
 Restart an application.
 
 
-
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | API | String | A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net. | Yes |
@@ -448,15 +369,11 @@ Restart an application.
 | Skip SSL Validation | Boolean | If checked, SSL validation will be skipped. | No |
 | Space | String | The name of the space within the organization that the application will be deployed. (e.g some-space) | No |
 
-
 ### Start App
-
 
 Start an application.
 
 
-
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | API | String | A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net. | Yes |
@@ -469,15 +386,11 @@ Start an application.
 | Skip SSL Validation | Boolean | If checked, SSL validation will be skipped. | No |
 | Space | String | The name of the space within the organization that the application will be deployed. (e.g some-space) | No |
 
-
 ### Stop App
-
 
 Stop an application.
 
 
-
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | API | String | A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net. | Yes |
@@ -490,13 +403,9 @@ Stop an application.
 | Skip SSL Validation | Boolean | If checked, SSL validation will be skipped. | No |
 | Space | String | The name of the space within the organization that the application will be deployed. (e.g some-space) | No |
 
-
 ### Unbind Service
 
-
 Unbind a CF Service from a cf.application.
-
-
 
 
 | Name | Type | Description | Required |
@@ -512,13 +421,9 @@ Unbind a CF Service from a cf.application.
 | Skip SSL Validation | Boolean | If checked, SSL validation will be skipped. | No |
 | Space | String | The name of the space within the organization that the application will be deployed. (e.g some-space) | No |
 
-
 ### Unmap Route
 
-
 Remove a url route to an application.
-
-
 
 
 | Name | Type | Description | Required |
@@ -536,13 +441,9 @@ Remove a url route to an application.
 | Space | String | The name of the space within the organization that the application will be deployed. (e.g some-space) | No |
 
 
-
-
 ### Roles in the CloudFoundry plug-in
 
-
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
-
 
 
 * [CloudFoundryApp](#cloudfoundryapp_role)
@@ -551,72 +452,54 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 * [CloudFoundrySpace](#cloudfoundryspace_role)
 
 
-
 ### CloudFoundryApp
-
 
 Role for resources that represents a Cloud Foundry application within an organization and space in a Cloud Foundry instance.
 
 
 
-
-
 | Name | Type | Description | Reference |
 | --- | --- | --- | --- |
-| cf.app | String | The Name of the Cloud Foundry application. | 
+| cf.app | String | The Name of the Cloud Foundry application. |
 ``${p:resource/cf.app}`` |
 
-
 ### CloudFoundryController
-
 
 Role for resources that represents a Cloud Controller in a Cloud Foundry instance.
 
 
-
-
 | Name | Type | Description | Reference |
 | --- | --- | --- | --- |
-| cf.api | String | The url of the Cloud Foundry API endpoint. | 
+| cf.api | String | The url of the Cloud Foundry API endpoint. |
 ``${p:resource/cf.api}`` |
-| cf.commandPath | String | The path to the directory where the cf command line executable resides. You may reference this property as cf.commandPath. | 
+| cf.commandPath | String | The path to the directory where the cf command line executable resides. You may reference this property as cf.commandPath. |
 ``${p:resource/cf.commandPath}`` |
-| cf.password | Password | The Cloud Foundry password to use. | 
+| cf.password | Password | The Cloud Foundry password to use. |
 ``${p:resource/cf.password}`` |
-| cf.username | String | The Cloud Foundry username. | 
+| cf.username | String | The Cloud Foundry username. |
 ``${p:resource/cf.username}`` |
 
-
 ### CloudFoundryOrganization
-
 
 Role for resources that represents a Cloud Foundry organization in a Cloud Foundry instance.
 
 
 
-
-
 | Name | Type | Description | Reference |
 | --- | --- | --- | --- |
-| cf.org | String | The Name of the Cloud Foundry organization. | 
+| cf.org | String | The Name of the Cloud Foundry organization. |
 ``${p:resource/cf.org}`` |
 
-
 ### CloudFoundrySpace
-
 
 Role for resources that represents a Cloud Foundry space within an organization in a Cloud Foundry instance.
 
 
 
-
-
 | Name | Type | Description | Reference |
 | --- | --- | --- | --- |
-| cf.space | String | The Name of the Cloud Foundry space. | 
+| cf.space | String | The Name of the Cloud Foundry space. |
 ``${p:resource/cf.space}`` |
-
-
 
 
 

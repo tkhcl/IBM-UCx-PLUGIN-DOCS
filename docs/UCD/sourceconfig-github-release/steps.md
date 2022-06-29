@@ -5,50 +5,33 @@ GitHub-Release - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the GitHub Release plug-in
-
 
 * [Import Version](#import_version)
 
 
-
-
 ### Import Version
 
-
 Creates a new component version and downloads the archive to the CodeStation.
-
 
 This step has no input properties.
 
 
-
-
 ### Roles in the GitHub Release plug-in
 
-
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
-
 
 
 * [GitHubReleaseComponentProperties](#githubreleasecomponentproperties_role)
 * [GitHubReleaseImportProperties](#githubreleaseimportproperties_role)
 
 
-
 ### GitHubReleaseComponentProperties
-
-
 
 
 | Name | Type | Description |
@@ -61,17 +44,12 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | Preserve Execute Permissions | Boolean | For Linux and UNIX operating systems, select this property to retain the execute permissions of each file. |
 | User | String | The username to use to connect to the GitHub repository, if authentication is required. |
 
-
 ### GitHubReleaseImportProperties
-
-
 
 
 | Name | Type | Description |
 | --- | --- | --- |
 | GitHub Release Tag Name | String | Import the GitHub tag name. For example:20. |
-
-
 
 
 

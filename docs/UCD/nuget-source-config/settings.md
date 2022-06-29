@@ -5,47 +5,31 @@ NuGet - Settings
 # Settings
 
 
-
 ### Settings
-
-
-
 
 
 
 ### Process steps in the NuGet plug-in
 
-
 * [Import Version](#import_version)
-
-
 
 
 ### Import Version
 
-
 Create a new component version and import artifacts from a NuGet repository.
-
 
 This step has no input properties.
 
 
-
-
 ### Roles in the NuGet plug-in
 
-
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
-
 
 * [NuGetComponentProperties](#nugetcomponentproperties_role)
 * [NuGetImportProperties](#nugetimportproperties_role)
 
 
-
 ### NuGetComponentProperties
-
-
 
 
 | Name | Type | Description |
@@ -63,10 +47,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | Trust All Certificates | Boolean | Select to accept all SSL certificates when authenticating with the NuGet repository. |
 | User | String | The user name used to authenticate with the NuGet repository. |
 
-
 ### NuGetImportProperties
-
-
 
 
 | Name | Type | Description |
@@ -74,8 +55,6 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | NuGet Version | String | The version of the NuGet artifacts to import. |
 | Rename Version | String | If a version is specified on the NuGet Version property, replace the version with the value specified in this property for the imported artifacts. |
 | Version Description | String | An optional description to add to the versions that are imported into UrbanCode Deploy. |
-
-
 
 
 

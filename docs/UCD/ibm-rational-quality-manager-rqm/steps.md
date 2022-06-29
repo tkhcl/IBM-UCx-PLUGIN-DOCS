@@ -5,31 +5,20 @@ IBM Rational Quality Manager (RQM) - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the Rational Quality Manager plug-in
-
 
 * [Execute Test Case](#execute_test_case)
 * [Execute Test Suite](#execute_test_suite)
 
 
-
-
 ### Execute Test Case
 
-
 Execute a test case.
-
-
 
 
 | Name | Type | Description | Required |
@@ -44,13 +33,9 @@ Execute a test case.
 | Test Case Execution Record ID | String | The numeric ID of the test case execution record to run. | Yes |
 | Test Script ID | String | The numeric ID of the test script to run in the test case. | No |
 
-
 ### Execute Test Suite
 
-
 Execute a test suite.
-
-
 
 
 | Name | Type | Description | Required |
@@ -64,8 +49,6 @@ Execute a test suite.
 | Repository URL | String | The repository URL of the Rational Quality Manager server. For example, https://hostname:9443/qm. | Yes |
 | Test Script IDs | String | The numeric IDs of the test scripts, separated by commas, that are steps in the test suite. | No |
 | Test Suite Execution Record ID | String | The numeric ID of the test suite execution record to run. | Yes |
-
-
 
 
 

@@ -5,30 +5,19 @@ HP LoadRunner - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the HP LoadRunner plug-in
-
 
 * [Run Test Scenario](#run_test_scenario)
 
 
-
-
 ### Run Test Scenario
 
-
 Invoke the HP LoadRunner controller using the WLRun command-line utility and analyze the results with the AnalysisUI command-line utility. This step will execute a test scenario, save the results, and generate an HTML report.
-
-
 
 
 
@@ -38,8 +27,6 @@ Invoke the HP LoadRunner controller using the WLRun command-line utility and ana
 | LoadRunner Results Name | String | The name of the new directory that will contain the results of your test scenario. This directory will be created under the steps working directory. Your HTML report will be created in this directory with the name specified in your analysis template. The default UCD\_ANALYSIS\_TEMPLATE will name the HTML report An\_Report1.html. | Yes |
 | Template Name | String | The name of your HP LoadRunner Analysis template. The default value of UCD\_ANALYSIS\_TEMPLATE will import a custom template into the HP LoadRunner Analysis tool. This template is included with the plugin and generates a detailed HTML report in the agents working directory when used during analysis. You may also create your own template in the HP LoadRunner Analysis UI and specify its name to use it during analysis. Please see the plugin documentation for more details. | Yes |
 | Test Scenario Path | String | The path to your test scenario file (.LRS file).Either specify an absolute path(i.e. C:\Users\Administrator\Controller\scenario\Test Scenario.lrs) or a path that is relative to your working directory (i.e. Test Scenario.lrs). | Yes |
-
-
 
 
 

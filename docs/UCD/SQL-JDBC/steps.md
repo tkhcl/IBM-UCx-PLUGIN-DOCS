@@ -5,31 +5,20 @@ SQL-JDBC - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the SQL-JDBC plug-in
-
 
 * [Execute SQL Scripts](#execute_sql_scripts)
 * [Execute SQL Scripts with PassTicket Authentication](#execute_sql_scripts_with_passticket_authentication)
 
 
-
-
 ### Execute SQL Scripts
 
-
 Execute SQL scripts using JDBC driver.
-
-
 
 
 | Name | Type | Description | Required |
@@ -43,7 +32,7 @@ Execute SQL scripts using JDBC driver.
 * abort
 * continue
 * stop
- | Action to perform when statement fails: continue, stop, abort. | Yes |
+| Action to perform when statement fails: continue, stop, abort. | Yes |
 | Exclude Files | String | Enter a new line separated set of file filters for the files to exclude from the execution. | No |
 | Files | String | A white-space or comma separated list of sqlfiles to run. These will run in order as opposed to files grabbed using Include Files. This also takes precedence meaning if this is set Include File box will be ignored. | No |
 | Include Files | String | Enter a new line separated set of file filters for the sql scripts to execute. | No |
@@ -53,13 +42,9 @@ Execute SQL scripts using JDBC driver.
 | SQL Statement Delimiter | String | String that separates SQL statements. | Yes |
 | User | String | The user name used to connect to the database. | Yes |
 
-
 ### Execute SQL Scripts with PassTicket Authentication
 
-
 Execute SQL scripts using JDBC driver and PassTicket authentication.
-
-
 
 
 | Name | Type | Description | Required |
@@ -73,7 +58,7 @@ Execute SQL scripts using JDBC driver and PassTicket authentication.
 * abort
 * continue
 * stop
- | Action to perform when statement fails: continue, stop, abort. | Yes |
+| Action to perform when statement fails: continue, stop, abort. | Yes |
 | Exclude Files | String | Enter a new line separated set of file filters for the files to exclude from the execution. | No |
 | Files | String | A white-space or comma separated list of sqlfiles to run. These will run in order as opposed to files grabbed using Include Files. This also takes precedence meaning if this is set Include File box will be ignored. | No |
 | IRRRacf Native Library Path | String | Specify the path to the System Access Facility (SAF) native library, libIRRRacf.so. There is one library for 31-bit Java and one for 64-bit Java. You must point to the path of the appropriate library based on the version of Java you are running. The default value is /usr/lib. | Yes |
@@ -83,8 +68,6 @@ Execute SQL scripts using JDBC driver and PassTicket authentication.
 | Print Result Sets | Boolean | Print result sets from the statements. | No |
 | SQL Statement Delimiter | String | String that separates SQL statements. | Yes |
 | User | String | The user name used to connect to the database. | Yes |
-
-
 
 
 

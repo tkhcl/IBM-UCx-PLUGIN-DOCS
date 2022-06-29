@@ -5,18 +5,12 @@ IBM AppScan Enterprise - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the AppScan plug-in
-
 
 * [Configure Job Options](#configure_job_options)
 * [Create Scan](#create_scan)
@@ -28,14 +22,9 @@ IBM AppScan Enterprise - Steps
 * [Wait for Scan](#wait_for_scan)
 
 
-
-
 ### Configure Job Options
 
-
 Configure scan job options.
-
-
 
 
 | Name | Type | Description | Required |
@@ -46,7 +35,7 @@ Configure scan job options.
 * true
 * false
 * ``${p?:component/appscan.httpAuth}``
- | Check this field to enable Basic/NTLM authentication. | No |
+| Check this field to enable Basic/NTLM authentication. | No |
 | HTTP Password | Password |  | No |
 | HTTP User | String |  | No |
 | Password | Password | Password to log into ASE. | Yes |
@@ -60,17 +49,13 @@ Configure scan job options.
 * true
 * false
 * ``${p?:component/appscan.setAuto}``
- | Set to true to automatically login with the given Scan Site User and Scan Site Password. | No |
+| Set to true to automatically login with the given Scan Site User and Scan Site Password. | No |
 | Site URL | String | URL of site to scan. If there is already at least one starting URL associated with the scan, input here will add to the list of URLs. | No |
 | User | String | Username to log into ASE. | Yes |
 
-
 ### Create Scan
 
-
 Create an AppScan security scan.
-
-
 
 
 | Name | Type | Description | Required |
@@ -84,13 +69,9 @@ Create an AppScan security scan.
 | Template Name | String | Name of the template to use to create the scan and report pack. Must be a valid template that you have access to in the Templates directory or any of its subfolders. | Yes |
 | User | String | Username to log into ASE. | Yes |
 
-
 ### Delete Folder Item
 
-
 Delete a folder item, such as a Scan or Report, from the AppScan Scans view.
-
-
 
 
 | Name | Type | Description | Required |
@@ -100,13 +81,9 @@ Delete a folder item, such as a Scan or Report, from the AppScan Scans view.
 | Password | Password | Password to log into ASE. | Yes |
 | User | String | Username to log into ASE. | Yes |
 
-
 ### List Templates
 
-
 Retrieve and print a list of available job templates.
-
-
 
 
 | Name | Type | Description | Required |
@@ -115,13 +92,9 @@ Retrieve and print a list of available job templates.
 | Password | Password | Password to log into ASE. | Yes |
 | User | String | Username to log into ASE. | Yes |
 
-
 ### Retrieve PDF Report
 
-
 Retrieve report from AppScan Enterprise. Reports are saved as a PDF file named AppScanReportOutput-[date]-[time].zip
-
-
 
 
 | Name | Type | Description | Required |
@@ -134,13 +107,9 @@ Retrieve report from AppScan Enterprise. Reports are saved as a PDF file named A
 | Scan Name | String | The name of the scan within the application. The format is {scanName}`` ({scanFIID}``). For example, Test Scan (171). | No |
 | User | String | Username to log into ASE. | Yes |
 
-
 ### Retrieve Report
 
-
 Retrieve report pack summary and specific report information from AppScan Enterprise. Reports are saved as a xml files named [reportFIID]-Summary.xml and [reportFIID]-[reportName].xml
-
-
 
 
 
@@ -153,13 +122,9 @@ Retrieve report pack summary and specific report information from AppScan Enterp
 | Report Name | String | The name of the report within the report pack to retrieve the issue counts. If empty, then no report counts will be retrieved. | No |
 | User | String | Username to log into ASE. | Yes |
 
-
 ### Run Scan
 
-
 Run an AppScan security scan.
-
-
 
 
 | Name | Type | Description | Required |
@@ -172,13 +137,9 @@ Run an AppScan security scan.
 | Timeout | String | Timeout, in minutes, at which the step will fail if the scan is not yet complete. Minimum is 5 minutes. | No |
 | User | String | Username to log into ASE. | Yes |
 
-
 ### Wait for Scan
 
-
 Wait for an AppScan Scan to complete.
-
-
 
 
 | Name | Type | Description | Required |
@@ -188,8 +149,6 @@ Wait for an AppScan Scan to complete.
 | Scan FIID | String | FIID of the scan to wait for. This is found in the scan URL. | Yes |
 | Timeout | String | Timeout, in minutes, at which the step will fail if the scan is not yet complete. Leave empty to wait indefinitely. | No |
 | User | String | Username to log into ASE. | Yes |
-
-
 
 
 

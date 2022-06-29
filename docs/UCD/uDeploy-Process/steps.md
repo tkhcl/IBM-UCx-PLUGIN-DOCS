@@ -5,31 +5,20 @@ IBM UrbanCode Deploy Process - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the IBM UrbanCode Deploy Processes plug-in
-
 
 * [Set Link on Process Request](#set_link_on_process_request)
 * [Set Process Request Property](#set_process_request_property)
 
 
-
-
 ### Set Link on Process Request
 
-
 Creates or removes a link on a process request that can direct users to supplementary information related to the process execution.
-
-
 
 
 
@@ -39,13 +28,9 @@ Creates or removes a link on a process request that can direct users to suppleme
 | Process Request ID | String | The ID of the process request to update. You can use this field to set a property on a parent or unrelated process request. | Yes |
 | URL | String | The URL to link to. If blank, the link is removed. | No |
 
-
 ### Set Process Request Property
 
-
 Sets a property on a process request.
-
-
 
 
 | Name | Type | Description | Required |
@@ -57,8 +42,6 @@ Sets a property on a process request.
 
 
 
-
-
 |Back to ...||Latest Version|IBM UrbanCode Deploy Process ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[11.1132356]()|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[11.1132356](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Process/ucd-uDeploy-Process-11.1132356.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

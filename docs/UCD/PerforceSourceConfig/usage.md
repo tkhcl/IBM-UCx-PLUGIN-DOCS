@@ -5,17 +5,12 @@ Perforce Helix - Usage
 # Usage
 
 
-
 ### Usage
 
 
 
 
- 
-
-
 To create a component by importing from Perforce, complete the following steps. For more information, see [Creating components](http://www-01.ibm.com/support/knowledgecenter/SS4GSP_6.2.1/com.ibm.udeploy.doc/topics/comp_create.html "Creating components").
-
 
 1. On the **Components** page in IBM UrbanCode Deploy, click **Create New Component**.
 2. In the **Source Config Type** list, select **Perforce**.
@@ -23,7 +18,6 @@ To create a component by importing from Perforce, complete the following steps. 
 4. Click **Save**.
 5. Click the **Versions** tab for the component.
 6. Click **Import New Versions**.
-
 
 |Back to ...||Latest Version|Perforce Helix ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |

@@ -5,18 +5,12 @@ Microsoft BizTalk - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the Biztalk plug-in
-
 
 * [Add Biztalk Application](#add_biztalk_application)
 * [Add Biztalk Resource](#add_biztalk_resource)
@@ -31,14 +25,9 @@ Microsoft BizTalk - Steps
 * [Uninstall Biztalk Application](#uninstall_biztalk_application)
 
 
-
-
 ### Add Biztalk Application
 
-
 Create a BizTalk application in the BizTalk Management database.
-
-
 
 
 | Name | Type | Description | Required |
@@ -50,13 +39,9 @@ Create a BizTalk application in the BizTalk Management database.
 | Default | Boolean | When selected, the new application is set as the default application for the BizTalk group. | No |
 | Description | String | Description of the application. Must be enclosed in double quotation marks. | No |
 
-
 ### Add Biztalk Resource
 
-
 Add an artifact to a BizTalk application
-
-
 
 
 | Name | Type | Description | Required |
@@ -76,13 +61,9 @@ Add an artifact to a BizTalk application
 | Thumbprint | String | Thumbprint property of the certificate. A thumbprint is a digest of data. The property must be enclosed in double quotation marks. Required for Certificates, and not used for any other resource type. | No |
 | Type | Enumeration | Select the type of resource to add. Note: Depending on the resource type, other input properties can be required or optional. | Yes |
 
-
 ### Export Biztalk Application
 
-
 Exports a Biztalk Application
-
-
 
 
 | Name | Type | Description | Required |
@@ -95,13 +76,9 @@ Exports a Biztalk Application
 | BizTalk Resource Spec | String | Specify the full path to the Resource Spec file(e.g. C:\Files\MyResourceSpec.xml) | No |
 | BizTalk SQL Server | String | Specify the Name of the SQL Server instance hosting the BizTalk Management database, If not provided, the name of the SQL Server instance running on the server the uDeploy agent is running on is used is used | No |
 
-
 ### Export Biztalk Application Bindings
 
-
 Exports Biztalk Application Bindings
-
-
 
 
 | Name | Type | Description | Required |
@@ -115,13 +92,9 @@ Exports Biztalk Application Bindings
 | Export BizTalk Assembly Name | String | Specify the BizTalk Assembly Name to export the bindings | No |
 | Export BizTalk Bindings from Application | String | Specify the BizTalk Application to export the bindings | No |
 
-
 ### Import Bindings
 
-
 Import bindings to a BizTalk application or group
-
-
 
 
 | Name | Type | Description | Required |
@@ -133,13 +106,9 @@ Import bindings to a BizTalk application or group
 | Group Level | Boolean | Select to import the binding file into the current group. If you select this property, do not specify BizTalk Application Name. | No |
 | Source | Boolean | Full path of the binding file to import, including the file name. Paths that include spaces must be enclosed in quotation marks. | Yes |
 
-
 ### Import or Upgrade Biztalk Application
 
-
 Installs or updates a Biztalk Application
-
-
 
 
 | Name | Type | Description | Required |
@@ -151,13 +120,9 @@ Installs or updates a Biztalk Application
 | Biztalk File | String | Specify the upgrade file name, accepted file type are msi for major/minor application changes or xml for binding changes to an existing application | Yes |
 | Powershell Executable location | String | If the Powershell executable is not in the system path please specify (e.g. C:\winnt\powershell.exe | No |
 
-
 ### Remove Biztalk Application
 
-
 Removes a Biztalk Application
-
-
 
 
 | Name | Type | Description | Required |
@@ -168,13 +133,9 @@ Removes a Biztalk Application
 | Biztalk Database Server | String | Server containing the BizTalk Management database (Default: .) | No |
 | Powershell Executable location | String | If the Powershell executable is not in the system path please specify (e.g. C:\winnt\powershell.exe | No |
 
-
 ### Restart BizTalk host
 
-
 Restarts a BizTalk host instance
-
-
 
 
 | Name | Type | Description | Required |
@@ -182,13 +143,9 @@ Restarts a BizTalk host instance
 | Host Instance | String | BizTalk Host Instance name (Default: root\MicrosoftBizTalkServer) | No |
 | Powershell Executable location | String | If the Powershell executable is not in the system path please specify (e.g. C:\winnt\powershell.exe | No |
 
-
 ### Start Biztalk Application
 
-
 Starts Biztalk Application
-
-
 
 
 | Name | Type | Description | Required |
@@ -198,13 +155,9 @@ Starts Biztalk Application
 | Biztalk Database Server | String | Server containing the BizTalk Management database (Default: .) | No |
 | Powershell Executable location | String | If the Powershell executable is not in the system path please specify (e.g. C:\winnt\powershell.exe | No |
 
-
 ### Stop Biztalk Application
 
-
 Performs a Full Stop of Biztalk Application
-
-
 
 
 | Name | Type | Description | Required |
@@ -214,13 +167,9 @@ Performs a Full Stop of Biztalk Application
 | Biztalk Database Server | String | Server containing the BizTalk Management database (Default: .) | No |
 | Powershell Executable location | String | If the Powershell executable is not in the system path please specify (e.g. C:\winnt\powershell.exe | No |
 
-
 ### Uninstall Biztalk Application
 
-
 Uninstalls a local Biztalk Application
-
-
 
 
 | Name | Type | Description | Required |
@@ -228,8 +177,6 @@ Uninstalls a local Biztalk Application
 | Biztalk Application Name | String | Specify the Biztalk Application to uninstall | Yes |
 | Biztalk BTSTask Executable location | String | If the Btsadm executable is not in the system path please specify (e.g. C:\Program Files (x86)\Microsoft BizTalk Server 2010\BTSTask.exe | No |
 | Powershell Executable location | String | If the Powershell executable is not in the system path please specify (e.g. C:\winnt\powershell.exe | No |
-
-
 
 
 

@@ -5,29 +5,21 @@ Artifactory Source Config - Roles
 # Roles
 
 
-
 ### Roles
-
-
 
 
 
 Roles in the Artifactory plug-in
 --------------------------------
 
-
 The following roles are added automatically to resources. You cannot add these roles manually.
-
 
 * [ArtifactoryComponentProperties](#artifactorycomponentproperties_role)
 * [ArtifactoryImportProperties](#artifactoryimportproperties_role)
 
 
-
 ArtifactoryComponentProperties
 ------------------------------
-
-
 
 
 | Name | Type | Description | Reference |
@@ -59,21 +51,15 @@ ArtifactoryComponentProperties
 | Version Name Pattern | String | If set, only the versions with names matching this regular expression will be imported. For each group matching the first capturing group, the requested number of latest builds are loaded into IBM UrbanCode Deploy. Use this property only when tracking older branches that contain new builds. Example: To return n versions of each 1.0.\*, 1.1.\*, 1.2.\*, and so on, use the following regular expression: (1.[0-9]+).\* | ``${p:component/ArtifactoryComponentProperties/versionPattern}`` |
 
 
- 
-
 
 ArtifactoryImportProperties
 ---------------------------
-
-
 
 
 | Name | Type | Description | Reference |
 | --- | --- | --- | --- |
 | Specific version | String | If set, only the versions with names matching this regular expression are imported. For each group matching the first capturing group, the desired number of latest builds are loaded into IBM UrbanCode Deploy. If Version Name Pattern is set in the plug-in configuration, versions specified by the version name pattern are filtered out before this regular expression is used as a filter. Example: To return n versions of each 1.0.\*, 1.1.\*, 1.2.\*, and so on, use the following regular expression: (1.[0-9]+).\* |  |
 | Version Description | String | An optional description to add to the versions that are imported into UrbanCode Deploy. |  |
-
-
 
 
 

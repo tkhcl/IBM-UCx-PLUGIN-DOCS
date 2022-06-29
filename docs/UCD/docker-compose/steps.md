@@ -5,18 +5,12 @@ Docker Compose - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the Docker Compose plug-in
-
 
 * [Create Child Resources](#create_child_resources)
 * [Launch Docker Compose Application](#launch_docker_compose_application)
@@ -24,14 +18,9 @@ Docker Compose - Steps
 * [Scale Docker Compose Application](#scale_docker_compose_application)
 
 
-
-
 ### Create Child Resources
 
-
 Create child resources of the component from Compose application resources. Dynamically generate an overrides file for docker-compose.yml based on the selected component versions at deployment.
-
-
 
 
 
@@ -40,13 +29,9 @@ Create child resources of the component from Compose application resources. Dyna
 | Component Template | String | The template to use when creating components from Compose application resources. You can use component templates to store different sets of registry credentials. | No |
 | Compose Files | String | A list of paths to Compose YAML files, separated by newline characters. The default Compose file is docker-compose.yml. | No |
 
-
 ### Launch Docker Compose Application
 
-
 Start all of the application services that are defined in a Compose file. Invoke docker-compose up for compose file version less than or equal 2, and docker stack deploy when version is 3+.This specialized step is expected to be follow the Create Resource Tree step.
-
-
 
 
 
@@ -60,13 +45,9 @@ Start all of the application services that are defined in a Compose file. Invoke
 | Stack Name | String | Name to give to the stack when compose file version is 3+. | No |
 | docker-compose Command Path | String | Full path to the docker-compose executable, or command name (docker-compose) if it is on the $PATH environment variable. Default value is docker-compose. | No |
 
-
 ### Run Docker Compose
 
-
 Run any docker-compose command through this generalized step. It is highly suggested to use a commands specific step if available.
-
-
 
 
 
@@ -97,7 +78,7 @@ Run any docker-compose command through this generalized step. It is highly sugge
 * stop
 * unpause
 * up
- | Select the docker-compose command to run. | Yes |
+| Select the docker-compose command to run. | Yes |
 | Compose Files | String | A list of paths to Compose YAML files, separated by newline characters. The default Compose file is docker-compose.yml. | No |
 | Compose Options | String | Specify additional command-line options for the general docker-compose command. | No |
 | Do Not Delete Script | Boolean | Select to save the plugins generated executable script to analyze and run manually later. | No |
@@ -105,13 +86,9 @@ Run any docker-compose command through this generalized step. It is highly sugge
 | Project Name | String | Specify an alternate project name. By default, the project name is the directory name. | No |
 | docker-compose Command Path | String | Full path to the docker-compose executable, or command name (docker-compose) if it is on the $PATH environment variable. Default value is docker-compose. | No |
 
-
 ### Scale Docker Compose Application
 
-
 Scale a service by assigning a number of available containers.(docker-compose scale)
-
-
 
 
 | Name | Type | Description | Required |
@@ -124,8 +101,6 @@ Scale a service by assigning a number of available containers.(docker-compose sc
 | Service and Container Pairs | String | List of services and number of container pairs delimited by newlines or commas. Each pair is separated by an equals (=) sign. For example: service=num | Yes |
 | Timeout | String | Specify in seconds a shutdown timeout. Default is 10 seconds. | No |
 | docker-compose Command Path | String | Full path to the docker-compose executable, or command name (docker-compose) if it is on the $PATH environment variable. Default value is docker-compose. | No |
-
-
 
 
 

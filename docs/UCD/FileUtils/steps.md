@@ -5,16 +5,11 @@ File Utils - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
-
-
-
 ### Process steps in the File Utils plug-in
-
 
 * [Copy Directory](#copy_directory)
 * [Create .zip File](#create_.zip_file)
@@ -36,15 +31,10 @@ File Utils - Steps
 * [Update XML File with XPath](#update_xml_file_with_xpath)
 
 
-
-
 Copy Directory
 --------------
 
-
 Copy the contents of a directory to other directories. This step overwrites files but does not delete files.
-
-
 
 
 | Name | Type | Description | Required |
@@ -60,16 +50,11 @@ Copy the contents of a directory to other directories. This step overwrites file
 | Source Directory | String | The directory to copy. | Yes |
 
 
- 
-
 
 Create .zip File
 ----------------
 
-
 Create a .zip file.
-
-
 
 
 | Name | Type | Description | Required |
@@ -84,16 +69,11 @@ Create a .zip file.
 | Update existing | Boolean | Select to update or overwrite the destination file if a file with that name already exists. | No |
 
 
- 
-
 
 Create Directories
 ------------------
 
-
 Create a set of directories, including nested directories.
-
-
 
 
 | Name | Type | Description | Required |
@@ -101,16 +81,11 @@ Create a set of directories, including nested directories.
 | Directories | String | A list of directories to create, separated by newline characters. | Yes |
 
 
- 
-
 
 Create File
 -----------
 
-
 Create a text file.
-
-
 
 
 | Name | Type | Description | Required |
@@ -121,16 +96,11 @@ Create a text file.
 | Overwrite if exists | Boolean | Select to overwrite an existing file with the same name. | No |
 
 
- 
-
 
 Delete Files and Directories
 ----------------------------
 
-
 Delete files and directories.
-
-
 
 
 | Name | Type | Description | Required |
@@ -142,16 +112,11 @@ Delete files and directories.
 | Include | String | A list of patterns, separated by newline characters, that describe the files and directories to delete. For example, specify \*\*/\* to delete all files. | Yes |
 
 
- 
-
 
 Flip Line Endings
 -----------------
 
-
 Convert file line endings between UNIX and Microsoft Windows formats.
-
-
 
 
 | Name | Type | Description | Required |
@@ -160,21 +125,16 @@ Convert file line endings between UNIX and Microsoft Windows formats.
 * os
 * windows
 * unix
- | The line ending type to use. | No |
+| The line ending type to use. | No |
 | Excludes | String | A list of patterns, separated by newline characters, that describe the files to skip. | No |
 | Includes | String | A list of patterns, separated by newline characters, that describe the files to convert. | Yes |
 
-
- 
 
 
 Get text of XML text node
 -------------------------
 
-
 Get text of XML text node using xpath
-
-
 
 
 | Name | Type | Description | Required |
@@ -184,16 +144,11 @@ Get text of XML text node using xpath
 | xPath | String | A XPath expression that specify element to get text of. For example, specify /root/foo to get all foo elements text under the root element. In case of xpath resulting into multiple matching nodes then first node data will be returned | Yes |
 
 
- 
-
 
 Monitor File Contents
 ---------------------
 
-
 Monitor a file for a token. The step continues when the token is found, and fails if the token is not found in the specified time. This step is similar to the UNIX tail command, and ignores content in the file that is present before the step starts.
-
-
 
 
 | Name | Type | Description | Required |
@@ -205,16 +160,11 @@ Monitor a file for a token. The step continues when the token is found, and fail
 | Timeout (s) | String | The time, in seconds, to wait for a match to the regular expression. The step fails if a match is not found before the timeout expires. | Yes |
 
 
- 
-
 
 Move Directory
 --------------
 
-
 Move the contents of a directory to another directory.
-
-
 
 
 | Name | Type | Description | Required |
@@ -226,16 +176,11 @@ Move the contents of a directory to another directory.
 | Source Directory | String | The directory to move. | Yes |
 
 
- 
-
 
 Read Properties From XML File
 -----------------------------
 
-
 Parse an XML file to search for properties defined by element names.
-
-
 
 
 | Name | Type | Description | Required |
@@ -246,16 +191,11 @@ Parse an XML file to search for properties defined by element names.
 | XML File | String | The full path to the XML file to read properties from. | Yes |
 
 
- 
-
 
 Read Property File
 ------------------
 
-
 Read properties from a file and set them as output properties for the step.
-
-
 
 
 | Name | Type | Description | Required |
@@ -264,16 +204,11 @@ Read properties from a file and set them as output properties for the step.
 | Property File | String | The name of the property file to read. | Yes |
 
 
- 
-
 
 Replace Tokens
 --------------
 
-
 Replace tokens in files using properties.
-
-
 
 
 | Name | Type | Description | Required |
@@ -290,16 +225,11 @@ Replace tokens in files using properties.
 | Start Token Delimiter | String | The start delimiter character used to identify tokens. | No |
 
 
- 
-
 
 Search Files and Folders
 ------------------------
 
-
 Search for Files and Folders in a custom directory or default working directory.
-
-
 
 
 | Name | Type | Description | Required |
@@ -310,16 +240,11 @@ Search for Files and Folders in a custom directory or default working directory.
 | Use Custom Directory | Boolean | Select to use custom directory | No |
 
 
- 
-
 
 Synchronize Directories
 -----------------------
 
-
 Move new files in a source directory to a destination directory, and delete files in the destination directory that are not in the source directory. Synchronization is based on the time stamp of the file.
-
-
 
 
 | Name | Type | Description | Required |
@@ -333,16 +258,11 @@ Move new files in a source directory to a destination directory, and delete file
 | Source Directory | String | The synchronization source directory. | Yes |
 
 
- 
-
 
 Untar Tarball
 -------------
 
-
 Extract a .tar file.
-
-
 
 
 | Name | Type | Description | Required |
@@ -354,19 +274,14 @@ Extract a .tar file.
 * none
 * gzip
 * bzip2
- | Select the compression algorithm for the .tar file. | No |
+| Select the compression algorithm for the .tar file. | No |
 
-
- 
 
 
 Unzip
 -----
 
-
 Extract a .zip file.
-
-
 
 
 | Name | Type | Description | Required |
@@ -379,16 +294,11 @@ Extract a .zip file.
 | Overwrite files | Boolean | If selected, files are overwritten even if they are newer than files in the .zip file. | No |
 
 
- 
-
 
 Update INI File
 ---------------
 
-
 Update a file in the Microsoft Windows INI format. This step supports property sections.
-
-
 
 
 | Name | Type | Description | Required |
@@ -402,16 +312,11 @@ Update a file in the Microsoft Windows INI format. This step supports property s
 | Use ‘#’ character for comments | Boolean | Select to use the number sign (#) to indicate a comment. Clear to use the semicolon (;) to indicate a comment. | No |
 
 
- 
-
 
 Update Java Properties File
 ---------------------------
 
-
 Add, remove, or update properties in a Java properties file.
-
-
 
 
 | Name | Type | Description | Required |
@@ -427,16 +332,11 @@ Add, remove, or update properties in a Java properties file.
 | Use System Encoding | Boolean | Select to use the local character encoding of the agent when accessing the properties file. | No |
 
 
- 
-
 
 Update XML File with XPath
 --------------------------
 
-
 Update XML files using XPath to locate items to edit.
-
-
 
 
 | Name | Type | Description | Required |
@@ -447,7 +347,7 @@ Update XML files using XPath to locate items to edit.
 * WARN\_ONLY
 * FAIL\_FAST
 * FAIL\_ON\_ANY\_FAILURE
- | The action to perform when an malformed xml is found. | Yes |
+| The action to perform when an malformed xml is found. | Yes |
 | Fail if no match found | Boolean | Select to configure the step to fail if any of the XPath expressions do not return a match. | No |
 | File Excludes | String | A list of patterns, separated by newline characters, the describe the files to skip. | No |
 | File Includes | String | A list of patterns, separated by newline characters, that describe the files to modify. | Yes |
@@ -457,8 +357,6 @@ Update XML files using XPath to locate items to edit.
 | Replace with text | String | A list of XPath expression-replacement pairs, separated by newline characters. Use the format expression->replacement. For example, specify /root/foo/text()->bar to replace the text for all foo elements under the root element with bar. The step does nothing if the specified expression does not exist in the source files. For XML documents using a default namespace, XPath expressions are represented like /:root/:foo/text(). For XML documents using prefixed namespaces, XPath expressions are represented like /ns:root/foo/text() or /ns:root/ns:foo/text() or /ns1:root/ns2:foo/text(). | No |
 | Set Attributes | String | A list of XPath expression-content pairs, separated by newline characters. Use the format expression->content. For example, specify /root/foo/@bar->my\_bar to replace the bar attribute value for all foo elements under the root element with my\_bar. The XPath expression must end with the /@name of the attribute to insert or update. For XML documents using a default namespace, XPath expressions are represented like /:root/:foo/@bar. For XML documents using prefixed namespaces, XPath expressions are represented like /ns:root/foo/@bar or /ns:root/ns:foo/@bar or /ns1:root/ns2:foo/@bar. | No |
 | Source Directory Offset | String | The directory relative to the current working directory that contains the files to operate on. | No |
-
-
 
 
 

@@ -5,18 +5,12 @@ IBM UrbanCode Package Manager - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the UrbanCode Package Manager plug-in
-
 
 * [Create Package](#create_package)
 * [Install Package](#install_package)
@@ -25,14 +19,9 @@ IBM UrbanCode Package Manager - Steps
 * [Verify Install](#verify_install)
 
 
-
-
 ### Create Package
 
-
 Create package from files.
-
-
 
 
 | Name | Type | Description | Required |
@@ -45,13 +34,9 @@ Create package from files.
 | Package Type | String | The type of the package. | Yes |
 | Package Version | String | The version of the package. | Yes |
 
-
 ### Install Package
 
-
 Install package on target.
-
-
 
 
 | Name | Type | Description | Required |
@@ -65,13 +50,9 @@ Install package on target.
 | User impersonation name | String | User account name on the agent to impersonate. | No |
 | User impersonation password | Password | Password for the impersonated account on the agent. Only needed on Windows. | No |
 
-
 ### Rollback Package
 
-
 Rollback package on target.
-
-
 
 
 | Name | Type | Description | Required |
@@ -84,13 +65,9 @@ Rollback package on target.
 | User impersonation name | String | User account name on the agent to impersonate. | No |
 | User impersonation password | Password | Password for the impersonated account on the agent. Only needed on Windows. | No |
 
-
 ### Uninstall Package
 
-
 Uninstall package on target.
-
-
 
 
 | Name | Type | Description | Required |
@@ -103,13 +80,9 @@ Uninstall package on target.
 | User impersonation name | String | User account name on the agent to impersonate. | No |
 | User impersonation password | Password | Password for the impersonated account on the agent. Only needed on Windows. | No |
 
-
 ### Verify Install
 
-
 Verify installed files.
-
-
 
 
 | Name | Type | Description | Required |
@@ -121,8 +94,6 @@ Verify installed files.
 | User impersonation name | String | User account name on the agent to impersonate. | No |
 | User impersonation password | Password | Password for the impersonated account on the agent. Only needed on Windows. | No |
 | Verification Properties | String | Properties given to the package manager during verify. Enter each property on a separate line. Entries will most likely be in the form: -Dkey=value | No |
-
-
 
 
 

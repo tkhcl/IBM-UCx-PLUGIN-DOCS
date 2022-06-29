@@ -5,31 +5,20 @@ Shell - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the Shell plug-in
-
 
 * [Shell](#shell)
 * [Shell (with xargs)](#shell_(with_xargs))
 
 
-
-
 ### Shell
 
-
 Use this step to run a shell or batch script.
-
-
 
 
 | Name | Type | Description | Required |
@@ -40,13 +29,9 @@ Use this step to run a shell or batch script.
 | Output File | String | Specify this property only if the **Daemon** property is enabled.The path of the file to which the command output is directed. To discard the output, leave this property blank. The output is captured if an output file is specified. | No |
 | Shell Script | String | The script code to execute. | Yes |
 
-
 ### Shell (with xargs)
 
-
 Use this step to run a shell or batch script a number of times equal to a multi-valued input.
-
-
 
 
 | Name | Type | Description | Required |
@@ -62,8 +47,6 @@ Use this step to run a shell or batch script a number of times equal to a multi-
 
 
 
-
-
 |Back to ...||Latest Version|Shell ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[12.1131568]()|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[12.1131568](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/ucd-Shell-12.1131568.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

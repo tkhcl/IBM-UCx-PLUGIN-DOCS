@@ -5,18 +5,12 @@ Oracle WebLogic Integration Resource Management - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the WLI Resource Management plug-in
-
 
 * [Create FTP EG](#create_ftp_eg)
 * [Create File EG](#create_file_eg)
@@ -32,14 +26,9 @@ Oracle WebLogic Integration Resource Management - Steps
 * [Update XML Cache Entry](#update_xml_cache_entry)
 
 
-
-
 ### Create FTP EG
 
-
 Create an FTP Event Generator onthe WebLogic Integration server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -52,13 +41,9 @@ Create an FTP Event Generator onthe WebLogic Integration server.
 | WebLogic Bin Directory | String | The fully-qualified path to the bin directory containing the wlst executable | Yes |
 | WebLogic setDomainEnv Path | String | The fully-qualified path to the setDomainEnv executable in your WebLogic installation. | Yes |
 
-
 ### Create File EG
 
-
 Create a file event generator on WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -71,13 +56,9 @@ Create a file event generator on WebLogic server.
 | WebLogic Bin Directory | String | The fully-qualified path to the bin directory containing the wlst executable. | Yes |
 | WebLogic setDomainEnv Path | String | The fully-qualified path to the setDomainEnv executable in your WebLogic installation. | Yes |
 
-
 ### Create JMS EG
 
-
 Create a JMS event generator on the WebLogic Integration server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -90,13 +71,9 @@ Create a JMS event generator on the WebLogic Integration server.
 | WebLogic Bin Directory | String | The fully-qualified path to the bin directory containing the wlst executable | Yes |
 | WebLogic setDomainEnv Path | String | The fully-qualified path to the setDomainEnv executable in your WebLogic installation. | Yes |
 
-
 ### Create XML Cache Entry
 
-
 Create an entry in the XML cache.
-
-
 
 
 | Name | Type | Description | Required |
@@ -109,13 +86,9 @@ Create an entry in the XML cache.
 | WebLogic setDomainEnv Path | String | The fully-qualified path to the setDomainEnv executable in your WebLogic installation. | Yes |
 | XML File Path | String | The fully-qualified path for the XML file to be added to the XML cache. | Yes |
 
-
 ### Delete FTP EG
 
-
 Use this step to delete an FTP event generator on the WebLogic Integration server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -128,13 +101,9 @@ Use this step to delete an FTP event generator on the WebLogic Integration serve
 | WebLogic Bin Directory | String | The fully-qualified path to the bin directory containing the wlst executable | Yes |
 | WebLogic setDomainEnv Path | String | The fully-qualified path to the setDomainEnv executable in your WebLogic installation. | Yes |
 
-
 ### Delete File EG
 
-
 Delete a file event generator on the WebLogic Integration server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -147,13 +116,9 @@ Delete a file event generator on the WebLogic Integration server.
 | WebLogic Bin Directory | String | Path to the bin directory containing the wlst executable | Yes |
 | WebLogic setDomainEnv Path | String | Full path to the setDomainEnv executable in your WebLogic installation. | Yes |
 
-
 ### Delete JMS EG
 
-
 Delete a JMS event generator on the WebLogic Integration server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -166,13 +131,9 @@ Delete a JMS event generator on the WebLogic Integration server.
 | WebLogic Bin Directory | String | The fully-qualified path to the bin directory containing the wlst executable | Yes |
 | WebLogic setDomainEnv Path | String | The fully-qualified path to the setDomainEnv executable in your WebLogic installation. | Yes |
 
-
 ### Delete XML Cache Entry
 
-
 Delete an entry from the XML Cache.
-
-
 
 
 | Name | Type | Description | Required |
@@ -184,13 +145,9 @@ Delete an entry from the XML Cache.
 | WebLogic Bin Directory | String | The fully-qualified path to the bin directory containing the wlst executable | Yes |
 | WebLogic setDomainEnv Path | String | The fully-qualified path to the setDomainEnv executable in your WebLogic installation. | Yes |
 
-
 ### Update FTP EG
 
-
 Update an FTP event generator onthe WebLogic Integration server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -204,13 +161,9 @@ Update an FTP event generator onthe WebLogic Integration server.
 | WebLogic Bin Directory | String | The fully-qualified path to the bin directory containing the wlst executable | Yes |
 | WebLogic setDomainEnv Path | String | The fully-qualified path to the setDomainEnv executable in your WebLogic installation. | Yes |
 
-
 ### Update File EG
 
-
 Update a file event generator on the WebLogic integration server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -224,13 +177,9 @@ Update a file event generator on the WebLogic integration server.
 | WebLogic Bin Directory | String | The fully-qualified path to the bin directory containing the wlst executable | Yes |
 | WebLogic setDomainEnv Path | String | The fully-qualified path to the setDomainEnv executable in your WebLogic installation. | Yes |
 
-
 ### Update JMS EG
 
-
 Update an JMS event generator on the WebLogic Integration server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -244,13 +193,9 @@ Update an JMS event generator on the WebLogic Integration server.
 | WebLogic Bin Directory | String | The fully-qualified path to the bin directory containing the wlst executable | Yes |
 | WebLogic setDomainEnv Path | String | The fully-qualified path to the setDomainEnv executable in your WebLogic installation. | Yes |
 
-
 ### Update XML Cache Entry
 
-
 Update an entry in the XML Cache.
-
-
 
 
 | Name | Type | Description | Required |
@@ -262,8 +207,6 @@ Update an entry in the XML Cache.
 | WebLogic Bin Directory | String | The fully-qualified path to the bin directory containing the wlst executable | Yes |
 | WebLogic setDomainEnv Path | String | The fully-qualified path to the setDomainEnv executable in your WebLogic installation. | Yes |
 | XML File Path | String | The fully-qualified path for the XML file to be added to the XML cache. | Yes |
-
-
 
 
 

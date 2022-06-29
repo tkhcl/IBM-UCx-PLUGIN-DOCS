@@ -5,18 +5,12 @@ IBM UrbanCode Deploy Configuration Management - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the IBM UrbanCode Deploy Configuration Management plug-in
-
 
 * [Batch Import Properties](#batch_import_properties)
 * [Import Properties](#import_properties)
@@ -24,14 +18,9 @@ IBM UrbanCode Deploy Configuration Management - Steps
 * [Install Template](#install_template)
 
 
-
-
 ### Batch Import Properties
 
-
 Import Component Environment Properties from a properties file.
-
-
 
 
 | Name | Type | Description | Required |
@@ -40,13 +29,9 @@ Import Component Environment Properties from a properties file.
 | Excludes | String | Property files or directories containing property files to exclude. | No |
 | Includes | String | Property files or directories containing property files to include. | Yes |
 
-
 ### Import Properties
 
-
 Import Component Environment Properties from a properties file.
-
-
 
 
 | Name | Type | Description | Required |
@@ -56,13 +41,9 @@ Import Component Environment Properties from a properties file.
 | Properties File | String | The properties file to import. | Yes |
 | Template File | String | The property file to output property resolution values to. | Yes |
 
-
 ### Import Resource Properties
 
-
 Import Resource Properties from a properties file.
-
-
 
 
 | Name | Type | Description | Required |
@@ -70,13 +51,9 @@ Import Resource Properties from a properties file.
 | Properties File | String | The properties file to import. This file must be in EBCDIC format for z/OS systems. | Yes |
 | Resource Name | String | The path/id of the resource to import properties to. | Yes |
 
-
 ### Install Template
 
-
 Install a configuration template from IBM UrbanCode Deploy.
-
-
 
 
 | Name | Type | Description | Required |
@@ -88,8 +65,6 @@ Install a configuration template from IBM UrbanCode Deploy.
 
 
 
-
-
 |Back to ...||Latest Version|IBM UrbanCode Deploy Configuration Management ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[17.1132359]()|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[17.1132359](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeployConfigManagement/ucd-uDeployConfigManagement-17.1132359.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

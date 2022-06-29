@@ -5,32 +5,21 @@ IBM Installation Manager - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the IBM Installation Manager plug-in
-
 
 * [Execute Response File](#execute_response_file)
 * [Install or Upgrade IBM Installation Manager](#install_or_upgrade_ibm_installation_manager)
 * [Uninstall IBM Installation Manager](#uninstall_ibm_installation_manager)
 
 
-
-
 ### Execute Response File
 
-
 Run a response file with IBM Installation Manager.
-
-
 
 
 | Name | Type | Description | Required |
@@ -42,13 +31,9 @@ Run a response file with IBM Installation Manager.
 | Response File Variables | String | This field applies only to IBM Installation Manager 1.8 and later. Use one comma to separate variables and two commas if a value contains a comma: var1=val1,,val2,,val3,var2=val4,var3=val5 | No |
 | Secure Storage File | String | Specify a secure storage file that contains passwords for repositories that require authentication. | No |
 
-
 ### Install or Upgrade IBM Installation Manager
 
-
 Install or upgrade IBM Installation Manager.
-
-
 
 
 | Name | Type | Description | Required |
@@ -60,15 +45,11 @@ Install or upgrade IBM Installation Manager.
 | Mode | Enumeration:
 * administrator
 * nonadministrator
- | Administrator/root or nonadministrator are supported. Group is not supported. | Yes |
-
+| Administrator/root or nonadministrator are supported. Group is not supported. | Yes |
 
 ### Uninstall IBM Installation Manager
 
-
 Uninstall IBM Installation Manager
-
-
 
 
 | Name | Type | Description | Required |
@@ -77,9 +58,7 @@ Uninstall IBM Installation Manager
 | Mode | Enumeration:
 * administrator
 * nonadministrator
- | Administrator/root or nonadministrator are supported. Group is not supported. | Yes |
-
-
+| Administrator/root or nonadministrator are supported. Group is not supported. | Yes |
 
 
 

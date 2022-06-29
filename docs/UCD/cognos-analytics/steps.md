@@ -5,33 +5,22 @@ IBM Cognos Analytics - Steps
 # Steps
 
 
-
 ### Steps
 
-
-
-
- 
 
 
 
 Process steps in the Cognos Analytics plug-in
 ---------------------------------------------
 
-
 * [Export](#export)
 * [Import](#import)
-
-
 
 
 Export
 ------
 
-
 Export content from the content store to an archive file in the deployment directory within your Cognos home.
-
-
 
 
 
@@ -49,14 +38,10 @@ Export content from the content store to an archive file in the deployment direc
 | Password | Password | The password associated withthe administrator’s user ID. The default is the value in the ``${p:resource/crnPassword}`` property. | Yes |
 | UserID | String | The administrator user ID that has import and export privileges. | Yes |
 
-
 Import
 ------
 
-
 Import content from an archive to the Cognos Analytics content store.
-
-
 
 
 | Name | Type | Description | Required |
@@ -72,8 +57,6 @@ Import content from an archive to the Cognos Analytics content store.
 | Password | Password | The password associated withthe administrator’s user ID. The default is the value in the ``${p:resource/crnPassword}`` property. | Yes |
 | Target Directory | String | If this is a new deployment specification, provide the search path of the directory in the Cognos Analytics content store where the artifact is deployed. | No |
 | User ID | String | The administrator user ID that has import and export privileges. | Yes |
-
-
 
 
 |Back to ...||Latest Version|IBM Cognos Analytics ||||

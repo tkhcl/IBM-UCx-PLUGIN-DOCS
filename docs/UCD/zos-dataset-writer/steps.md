@@ -12,8 +12,6 @@
 Use this step to write input text to a sequential dataset. **Note:** To create a GDG version add (+1) along with GDG base. An output property **DatasetName** will contain the actual GDG version dataset name that is created and can be referred in successive steps of the process.
 
 
-
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Source Type | Enumeration: TEXT / DATASET / FILE / ${p?:dataset.writer.source.type} | Source of data for writing into Output sequential dataset. Select DATASET to write from a PDS member or sequential dataset, FILE to write from a USS file, or TEXT to write text to output sequential dataset. | Yes |
@@ -31,7 +29,6 @@ Use this step to write input text to a sequential dataset. **Note:** To create a
 | Record Length | String | Specify the record length. | Yes |
 | Block Size | String | Specify the number of bytes of data to place in each block, based on the record length. | Yes |
 
-
 |Back to ...||Latest Version|z/OS Dataset Writer ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[4.1134053](https://github.com/UrbanCode/IBM-UCD-PLUGINS/raw/main/files/zos-dataset-writer/ucd-plugins-zos-dataset-writer-4.1134053.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[4.1134053](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-dataset-writer/ucd-plugins-zos-dataset-writer-4.1134053.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

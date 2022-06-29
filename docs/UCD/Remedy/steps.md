@@ -5,18 +5,12 @@ BMC Remedy Action Request System - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the BMC Remedy plug-in
-
 
 * [Check Entry](#check_entry)
 * [Create Entry](#create_entry)
@@ -24,14 +18,9 @@ BMC Remedy Action Request System - Steps
 * [Update Entry](#update_entry)
 
 
-
-
 ### Check Entry
 
-
 Check an entry in a form in BMC Remedy.
-
-
 
 
 | Name | Type | Description | Required |
@@ -45,13 +34,9 @@ Check an entry in a form in BMC Remedy.
 | Server Host | String | The server that BMC ARSystem resides on | Yes |
 | User | String | The user to authenticate in BMC Remedy. | Yes |
 
-
 ### Create Entry
 
-
 Create an entry in a form in BMC Remedy.
-
-
 
 
 | Name | Type | Description | Required |
@@ -64,13 +49,9 @@ Create an entry in a form in BMC Remedy.
 | Server Host | String | The server that BMC ARSystem resides on | Yes |
 | User | String | The user to authenticate in BMC Remedy. | Yes |
 
-
 ### Import Definitions
 
-
 Import the definitions from a file to the server. Objects already defined will be replaced. Administrator privleges on the server are required for this command.
-
-
 
 
 
@@ -83,13 +64,9 @@ Import the definitions from a file to the server. Objects already defined will b
 | Server Host | String | The server that BMC ARSystem resides on | Yes |
 | User | String | The user to authenticate in BMC Remedy. | Yes |
 
-
 ### Update Entry
 
-
 Update an entry in a form in BMC Remedy.
-
-
 
 
 | Name | Type | Description | Required |
@@ -102,8 +79,6 @@ Update an entry in a form in BMC Remedy.
 | Port | String | The port that BMC ARSystem listens on | Yes |
 | Server Host | String | The server that BMC ARSystem resides on | Yes |
 | User | String | The user to authenticate in BMC Remedy. | Yes |
-
-
 
 
 

@@ -5,20 +5,14 @@ Artifactory Source Config - Usage
 # Usage
 
 
-
 ### Usage
 
 
-
-
- Use the Artifactory Source Configuration plug-in to import artifacts from an Artifactory repository as the component version.
-
+Use the Artifactory Source Configuration plug-in to import artifacts from an Artifactory repository as the component version.
 
 For a detailed usage explanation, see [Integrating Artifactory with IBM UrbanCode Deploy](https://www.urbancode.com/2017/02/15/integrating-artifactory-ibm-urbancode-deploy/).
 
-
 To create a component by importing from Artifactory, complete the following steps. For more information, see [Creating components](http://www-01.ibm.com/support/knowledgecenter/SS4GSP_6.2.1/com.ibm.udeploy.doc/topics/comp_create.html "Creating components").
-
 
 1. On the **Components** page in IBM UrbanCode Deploy, click **Create New Component**.
 2. In the **Source Config Type** list, select **Artifactory**.
@@ -27,14 +21,10 @@ To create a component by importing from Artifactory, complete the following step
 5. Click the **Versions** tab for the component.
 6. Click **Import New Versions**.
 
-
 Step palette
 ------------
 
-
 To access this plugin in the palette, click **Source and Repositories** > **Artifactory**.
-
-
 
 
 |Back to ...||Latest Version|Artifactory Source Config |||||

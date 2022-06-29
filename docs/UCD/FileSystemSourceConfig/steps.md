@@ -5,50 +5,33 @@ File System - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the File System plug-in
-
 
 * [Import Version](#import_version)
 
 
-
-
 ### Import Version
 
-
 Creates a new component version and imports artifacts
-
 
 This step has no input properties.
 
 
-
-
 ### Roles in the File System plug-in
 
-
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
-
 
 
 * [FileSystemComponentProperties](#filesystemcomponentproperties_role)
 * [FileSystemImportProperties](#filesystemimportproperties_role)
 
 
-
 ### FileSystemComponentProperties
-
-
 
 
 | Name | Type | Description |
@@ -60,10 +43,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | Preserve Execute Permissions | Boolean | For Linux and UNIX operating systems, enable this property to retain the execute permissions for each file. |
 | Version Name Pattern | String | A pattern for each version name. You can use the ``${version}`` variable to include an automatically incremented version number. For example, the mycomp\_``${version}`` pattern produces versions such as mycomp\_1, mycomp\_2, and so on. This parameter is meaningful only if the Always Use Name Pattern property is enabled. |
 
-
 ### FileSystemImportProperties
-
-
 
 
 | Name | Type | Description |
@@ -73,8 +53,6 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 
 
 
-
-
 |Back to ...||Latest Version|File System ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.1131567]()|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.1131567](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemSourceConfig/ucd-FileSystemSourceConfig-10.1131567.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

@@ -5,30 +5,19 @@ IBM Security Access Manager (WebSEAL) - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the IBM Security Access Manager plug-in
-
 
 * [Reverse Proxy: Update Configuration Entry](#reverse_proxy:_update_configuration_entry)
 
 
-
-
 ### Reverse Proxy: Update Configuration Entry
 
-
 Update one or more configuration entries by stanza on the Reverse Proxy Instances resource.
-
-
 
 
 
@@ -41,8 +30,6 @@ Update one or more configuration entries by stanza on the Reverse Proxy Instance
 | Password | Password | The password to log on to the ISAM server. | Yes |
 | Stanza ID | String | The name of the resource stanza entry. For example, server. Note: This name cannot contain the string /entry\_name unless it is the start of the stanza name. ie /entry\_name/name is valid but /name/entry\_name is not. | Yes |
 | Username | String | The user name to log on to the ISAM server. | Yes |
-
-
 
 
 

@@ -5,18 +5,12 @@ IBM MobileFirst Platform Foundation on IBM Containers - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the IBM MobileFirst Platform Foundation on IBM Bluemix Container Deployment Automation plug-in
-
 
 * [Create Databases](#create_databases)
 * [Create Server Container (Create database, Prepare, Push and Start Container)](#create_server_container_(create_database,_prepare,_push_and_start_container))
@@ -34,14 +28,9 @@ IBM MobileFirst Platform Foundation on IBM Containers - Steps
 * [Un-Deploy Apps and Adapters from a Runtime](#un-deploy_apps_and_adapters_from_a_runtime)
 
 
-
-
 ### Create Databases
 
-
 Based on the number of projects placed under /usr/projects folder, which is part of the artifacts directory, this step iteratively creates the Admin and Runtime databases. The database is created as a service in IBM Bluemix and bound to a IBM Bluemix Application.
-
-
 
 
 | Name | Type | Description | Required |
@@ -58,13 +47,9 @@ Based on the number of projects placed under /usr/projects folder, which is part
 | DB Service Plan | String | Bluemix database service plan | Yes |
 | DB Type (sqldb or cloudantNoSQLDB) | String | Type of the DB for IBM MobileFirst Platform Foundation to usesqldb or cloudantNoSQLDB are accepted | Yes |
 
-
 ### Create Server Container (Create database, Prepare, Push and Start Container)
 
-
 Create the IBM MobileFirst Platform Foundation container in IBM Bluemix as a single stepCreate the admin and runtime databases, Prepare the image, Push the image to the IBM Bluemix container image registry, Start the container
-
-
 
 
 
@@ -96,13 +81,9 @@ Create the IBM MobileFirst Platform Foundation container in IBM Bluemix as a sin
 | Server Memory | String | Assign a memory size limit to the container in megabytes (MB) | Yes |
 | Trace Specification | String | Trace specification to be applied to IBM MobileFirst Platform Foundation | No |
 
-
 ### Create Server Container Group (Create database, Prepare, Push and Start Container Group)
 
-
 Create the IBM MobileFirst Platform Foundation container group in IBM Bluemix as a single stepCreate the admin and runtime databases, Prepare the image, Push the image to the IBM Bluemix container image registry, Start the container group.
-
-
 
 
 
@@ -134,13 +115,9 @@ Create the IBM MobileFirst Platform Foundation container group in IBM Bluemix as
 | Server Memory | String | Assign a memory size limit to the container in megabytes (MB) | Yes |
 | Trace Specification | String | Trace specification to be applied to IBM MobileFirst Platform Foundation | No |
 
-
 ### Deploy Apps and Adapters
 
-
 From the artifacts directory (/usr/projects folder), iteratively deploy all the apps and adapters in to the running IBM MobileFist Platform Foundation container runtime.
-
-
 
 
 
@@ -154,14 +131,10 @@ From the artifacts directory (/usr/projects folder), iteratively deploy all the 
 | Server IP | String | IP address that the IBM MobileFirst Platform Foundation container | Yes |
 | Server Port (HTTPS) | String | Server Port (HTTPS) | Yes |
 
-
 ### Prepare and Push Analytics Image
 
 
-
 Prepare the IBM MobileFirst Platform Foundation Operational Analytics Image and pushes it to the IBM Bluemix Container image registry to the corresponding organization and space.
-
-
 
 
 | Name | Type | Description | Required |
@@ -175,13 +148,9 @@ Prepare the IBM MobileFirst Platform Foundation Operational Analytics Image and 
 | Bluemix User | String | Bluemix user ID or email address | Yes |
 | Container Artifacts Folder | String | Container Artifacts un-zipped location | Yes |
 
-
 ### Prepare and Push Server Image
 
-
 Prepares the IBM MobileFirst Platform Foundation Image and pushes it to the IBM Bluemix Container image registry to the corresponding organization and space.
-
-
 
 
 | Name | Type | Description | Required |
@@ -195,13 +164,9 @@ Prepares the IBM MobileFirst Platform Foundation Image and pushes it to the IBM 
 | Container Artifacts Folder | String | Container Artifacts un-zipped location | Yes |
 | Server Image Tag | String | Tag to be used for tagging the IBM MobileFirst Platform Foundation image | Yes |
 
-
 ### Remove Existing Container
 
-
 Removes the existing IBM MobileFirst Platform Foundation single node container (existing in any state).
-
-
 
 
 
@@ -215,13 +180,9 @@ Removes the existing IBM MobileFirst Platform Foundation single node container (
 | Bluemix User | String | Bluemix user ID or email address | Yes |
 | Container Name | String | Name of the IBM MobileFirst Platform Foundation container to be removed | Yes |
 
-
 ### Remove Existing Container Group
 
-
 Removes the existing IBM MobileFirst Platform Foundation container group (existing in any state).
-
-
 
 
 
@@ -235,14 +196,10 @@ Removes the existing IBM MobileFirst Platform Foundation container group (existi
 | Bluemix User | String | Bluemix user ID or email address | Yes |
 | Container Group Name | String | Name of the IBM MobileFirst Platform Foundation container group | Yes |
 
-
 ### Remove Server Runtime
 
 
-
 Removes a specified runtime from a running IBM MobileFirst Platform Foundation container or container group on IBM Bluemix.It can also delete the runtime database, if selected.
-
-
 
 
 | Name | Type | Description | Required |
@@ -267,13 +224,9 @@ Removes a specified runtime from a running IBM MobileFirst Platform Foundation c
 | Server IP | String | The IP address the IBM MobileFirst Platform Foundation container is bound to. | Yes |
 | Server Port (HTTPS) | String | The HTTPS port number exposed on the IBM MobileFirst Platform Foundation container. | Yes |
 
-
 ### Start Analytics Container
 
-
 Start IBM MobileFirst Platform Foundation Operational Analytics Container on IBM Bluemix, based on the configurations provided. This uses the image tag from the IBM Bluemix image registry to create the container.
-
-
 
 
 
@@ -303,13 +256,9 @@ Start IBM MobileFirst Platform Foundation Operational Analytics Container on IBM
 | Server Memory | String | Assign a memory size limit to the container in megabytes (MB) | Yes |
 | Trace Specification | String | Trace specification to be applied | No |
 
-
 ### Start Analytics Container Group
 
-
 Start the IBM MobileFirst Platform Foundation Operational Anlaytics Container Group on IBM Bluemix, based on the configurations provided. This uses the image tag from the IBM Bluemix image registry to create the container group.
-
-
 
 
 
@@ -339,13 +288,9 @@ Start the IBM MobileFirst Platform Foundation Operational Anlaytics Container Gr
 | Server Memory | String | Assign a memory size limit to the container in megabytes (MB) | Yes |
 | Trace Specification | String | Trace specification to be applied to IBM MobileFirst Platform Foundation | No |
 
-
 ### Start Server Container
 
-
 Start the IBM MobileFirst Platform Foundation Container on IBM Bluemix, based on the configurations provided. This uses the image tag from the IBM Bluemix image registry to create the container.
-
-
 
 
 | Name | Type | Description | Required |
@@ -372,13 +317,9 @@ Start the IBM MobileFirst Platform Foundation Container on IBM Bluemix, based on
 | Server Memory | String | Assign a memory size limit to the container in megabytes (MB) | Yes |
 | Trace Specification | String | Trace specification to be applied to IBM MobileFirst Platform Foundation | No |
 
-
 ### Start Server Container Group
 
-
 Start the IBM MobileFirst Platform Foundation Container group (clustering) on IBM Bluemix, based on the configurations provided. This uses the image tag from the IBM Bluemix image registry to create the container group.
-
-
 
 
 
@@ -406,13 +347,9 @@ Start the IBM MobileFirst Platform Foundation Container group (clustering) on IB
 | Server Memory | String | Assign a memory size limit to the container in megabytes (MB) | Yes |
 | Trace Specification | String | Trace specification to be applied to IBM MobileFirst Platform Foundation | No |
 
-
 ### Un-Deploy Apps and Adapters from a Runtime
 
-
-Apps and adapters provided with comma separated, are undeployed from the specified runtime, in the running IBM MobileFirst Foundation Platform Container. 
-
-
+Apps and adapters provided with comma separated, are undeployed from the specified runtime, in the running IBM MobileFirst Foundation Platform Container.
 
 
 | Name | Type | Description | Required |
@@ -426,8 +363,6 @@ Apps and adapters provided with comma separated, are undeployed from the specifi
 | Server IP | String | IP address that the IBM MobileFirst Platform Foundation container | Yes |
 | Server Port (HTTPS) | String | Server Port (HTTPS) | Yes |
 | Server Runtime Name | String | Runtime that need to be modified | Yes |
-
-
 
 
 

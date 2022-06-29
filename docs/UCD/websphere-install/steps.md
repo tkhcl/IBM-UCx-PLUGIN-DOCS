@@ -5,18 +5,12 @@ WebSphere Application Server - Install - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the WASInstall plug-in
-
 
 * [Create Deployment Manager Profile](#create_deployment_manager_profile)
 * [Create Node Profile](#create_node_profile)
@@ -32,14 +26,9 @@ WebSphere Application Server - Install - Steps
 * [Uninstall WebSphere Application Server](#uninstall_websphere_application_server)
 
 
-
-
 ### Create Deployment Manager Profile
 
-
 Creates a Deployment Manager Profile
-
-
 
 
 | Name | Type | Description | Required |
@@ -56,13 +45,9 @@ Creates a Deployment Manager Profile
 | WAS Profile Name | String | Name of the new profile to create | No |
 | WAS Profile Path | String | Directory to place the new profile in | No |
 
-
 ### Create Node Profile
 
-
 Creates a Node profile
-
-
 
 
 | Name | Type | Description | Required |
@@ -79,13 +64,9 @@ Creates a Node profile
 | WAS Profile Name | String | Name of the new profile to create | No |
 | WAS Profile Path | String | Directory to place the new profile in | No |
 
-
 ### Install WebSphere Application Server
 
-
 Installs Webshere Application Server
-
-
 
 
 | Name | Type | Description | Required |
@@ -99,13 +80,9 @@ Installs Webshere Application Server
 | WAS Install Path | String | Path WAS is installed to (for example, /opt/IBM/WebSphere/AppServer). | No |
 | WAS Version | String | Version of WAS ND to install as described in the source repository (for example, com.ibm.websphere.ND.v85\_8.5.5000.20130514\_1044) | No |
 
-
 ### Remove Deployment Manager Profile
 
-
 Removes a Deployment Manager profile
-
-
 
 
 | Name | Type | Description | Required |
@@ -115,13 +92,9 @@ Removes a Deployment Manager profile
 | WAS Profile Name | String | Name of the profile to remove | No |
 | WAS Profile Path | String | Directory of the profile | No |
 
-
 ### Remove Node Profile
 
-
 Removes a node profile
-
-
 
 
 | Name | Type | Description | Required |
@@ -131,13 +104,9 @@ Removes a node profile
 | WAS Profile Name | String | Name of the profile to remove | No |
 | WAS Profile Path | String | Directory of the node | No |
 
-
 ### Start Deployment Manager
 
-
 Starts the Deployment Manager
-
-
 
 
 | Name | Type | Description | Required |
@@ -147,13 +116,9 @@ Starts the Deployment Manager
 | WAS Install Path | String | Path WAS is installed to (for example, /opt/IBM/WebSphere/AppServer). | No |
 | WAS Profile Name | String | Name of the new Deployment Manager | No |
 
-
 ### Start Node
 
-
 Starts a Node
-
-
 
 
 | Name | Type | Description | Required |
@@ -163,13 +128,9 @@ Starts a Node
 | WAS Install Path | String | Path WAS is installed to (for example, /opt/IBM/WebSphere/AppServer) | No |
 | WAS Profile Name | String | Name of the profile to start | No |
 
-
 ### Start and Register Node
 
-
 Starts and registers a node
-
-
 
 
 | Name | Type | Description | Required |
@@ -180,13 +141,9 @@ Starts and registers a node
 | WAS Deployment Manager Port | String | Port of the deployment manager | No |
 | WAS Profile Path | String | Directory to place the new profile in | No |
 
-
 ### Stop Deployment Manager
 
-
 Stops the Deployment Manager
-
-
 
 
 | Name | Type | Description | Required |
@@ -196,13 +153,9 @@ Stops the Deployment Manager
 | WAS Install Path | String | Path WAS is installed to (for example, /opt/IBM/WebSphere/AppServer) | No |
 | WAS Profile Name | String | Name of the profile to stop | No |
 
-
 ### Stop Node
 
-
 Stops a Node
-
-
 
 
 | Name | Type | Description | Required |
@@ -212,13 +165,9 @@ Stops a Node
 | WAS Install Path | String | Path WAS is installed to (for example, /opt/IBM/WebSphere/AppServer) | No |
 | WAS Profile Name | String | Name of the profile to stop | No |
 
-
 ### Stop WebSphere Application Server Process
 
-
-Stops the Webshere Application Server process 
-
-
+Stops the Webshere Application Server process
 
 
 | Name | Type | Description | Required |
@@ -227,13 +176,9 @@ Stops the Webshere Application Server process
 | WAS Admin Username | String | WAS user with administrator privileges | No |
 | WAS Install Path | String | Path WAS is installed to (for example, /opt/IBM/WebSphere/AppServer) | No |
 
-
 ### Uninstall WebSphere Application Server
 
-
 Uninstalls Webshere Application Server
-
-
 
 
 | Name | Type | Description | Required |
@@ -241,8 +186,6 @@ Uninstalls Webshere Application Server
 | IBM Installation Manager install path | String | Path IBM Installation Manager is installed to. | No |
 | Version | String | Version of WAS to uninstall (for example, com.ibm.websphere.ND.v85\_8.5.5000.20130514\_1044) | No |
 | WAS Install Path | String | Path WAS is installed to (for example, /opt/IBM/WebSphere/AppServer) | No |
-
-
 
 
 

@@ -5,49 +5,32 @@ IBM UrbanCode Build - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the uBuild plug-in
-
 
 * [Import Version](#import_version)
 
 
-
-
 ### Import Version
 
-
 Create a new component version and import artifacts.
-
 
 This step has no input properties.
 
 
-
-
 ### Roles in the uBuild plug-in
 
-
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
-
 
 
 * [uBuildComponentProperties](#ubuildcomponentproperties_role)
 
 
-
 ### uBuildComponentProperties
-
-
 
 
 | Name | Type | Description |
@@ -64,8 +47,6 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 
 
 
-
-
 |Back to ...||Latest Version|IBM UrbanCode Build ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[12.1131550]()|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[12.1131550](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuildSourceConfig/ucd-uBuildSourceConfig-12.1131550.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

@@ -5,18 +5,12 @@ Oracle WebLogic Server Security Management - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the WLS Security Management plug-in
-
 
 * [Create Role Mapper](#create_role_mapper)
 * [Create or Update Authentication Provider](#create_or_update_authentication_provider)
@@ -27,14 +21,9 @@ Oracle WebLogic Server Security Management - Steps
 * [Update Realm](#update_realm)
 
 
-
-
 ### Create Role Mapper
 
-
 Use this step to create a role mapper on a WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -50,13 +39,9 @@ Use this step to create a role mapper on a WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Create or Update Authentication Provider
 
-
 Use this step to create an authentication provider on the WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -72,13 +57,9 @@ Use this step to create an authentication provider on the WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | Weblogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Create or Update Realm
 
-
 Use this step to create or update a realm on a WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -92,13 +73,9 @@ Use this step to create or update a realm on a WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Manage Users and or Groups
 
-
 Use this step to manage users and groups that are associated with a security realm by using an XML file.
-
-
 
 
 
@@ -112,13 +89,9 @@ Use this step to manage users and groups that are associated with a security rea
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 | XML File Path | String | The path to the XML file that defines the actions to take for the specified users and groups. An example XML file, which is named `users_groups.xml`, is located in the `/extras` directory. | Yes |
 
-
 ### Manages Roles
 
-
 Use this step to manages roles on a WebLogic server using an XML file.
-
-
 
 
 | Name | Type | Description | Required |
@@ -131,13 +104,9 @@ Use this step to manages roles on a WebLogic server using an XML file.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Update Authentication Provider
 
-
 Use this step to update an authentication provider on a WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -153,13 +122,9 @@ Use this step to update an authentication provider on a WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-
 ### Update Realm
 
-
 Use this step to update a security realm on a WebLogic server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -172,8 +137,6 @@ Use this step to update a security realm on a WebLogic server.
 | User Name | String | The user name to use to authenticate with the WebLogic server. | Yes |
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
-
-
 
 
 

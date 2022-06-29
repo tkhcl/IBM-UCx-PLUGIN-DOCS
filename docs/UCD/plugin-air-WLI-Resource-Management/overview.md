@@ -5,20 +5,14 @@ Oracle WebLogic Integration Resource Management - Overview
 # Overview
 
 
-
 ### Overview
 
 
 
 
- 
-
-
 The WebLogic Integration Resource Management plug-in automates the creation, update, and deletion of objects within WebLogic Integration objects as part of the deploy process.
 
-
 The plug-in includes the following steps:
-
 
 * [Create FTP EG](#create_ftp_eg)
 * [Create File EG](#create_file_eg)
@@ -33,31 +27,21 @@ The plug-in includes the following steps:
 * [Update JMS EG](#update_jms_eg)
 * [Update XML Cache Entry](#update_xml_cache_entry)
 
-
 ### Compatibility
-
 
 This plug-in requires version 6.0.1 and later of IBM UrbanCode Deploy.
 
-
 This plug-in supports WebLogic Server versions 10g and later.
-
 
 The steps in this plug-in run on any agents that the IBM UrbanCode Deploy server supports.
 
-
 ### Installation
-
 
 No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
 
-
 ### History
 
-
 #### Initial version 1.485262 released on May 22, 2014
-
-
 
 
 |Back to ...||Latest Version|Oracle WebLogic Integration Resource Management |||||

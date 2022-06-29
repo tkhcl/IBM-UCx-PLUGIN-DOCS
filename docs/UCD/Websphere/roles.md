@@ -5,16 +5,11 @@ WebSphere Application Server - Deployment - Roles
 # Roles
 
 
-
 ### Roles
 
 
 
-
-
-
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
-
 
 * [PortalServer](#portalserver_role)
 * [WebSphereCell](#webspherecell_role)
@@ -25,13 +20,9 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 * [WebSphereServer](#websphereserver_role)
 
 
-
 ### PortalServer
 
-
 Role for resources that represent a Portal Server.
-
-
 
 
 | Name | Type | Description | Property |
@@ -45,13 +36,9 @@ Role for resources that represent a Portal Server.
 | Server Name | String | The name of the WebSphere Application Server that this resource represents. | ``${p?:resource/websphere.server}`` |
 | Websphere administrator password | Password | The Websphere administrator password to use. | ``${p?:resource/websphere.password}`` |
 
-
 ### WebSphereCell
 
-
 Role for resources that represents a WebSphere Cell
-
-
 
 
 | Name | Type | Description | Property |
@@ -75,13 +62,9 @@ Role for resources that represents a WebSphere Cell
 | WebSphere Profile Path | String | The path to the directory where the profile for the cell resides. | ``${p?:resource/websphere.profilePath}`` |
 | WebSphere User | String | The WebSphere user to use. | ``${p?:resource/websphere.user}`` |
 
-
 ### WebSphereCluster
 
-
 Role for resources that represents a WebSphere server cluster.
-
-
 
 
 | Name | Type | Description | Property |
@@ -99,13 +82,9 @@ Role for resources that represents a WebSphere server cluster.
 | Server Type | String | The server type for this WebSphere server cluster. Acceptable values are: PROXY\_SERVER, APPLICATION\_SERVER, ONDEMAND\_ROUTER. | ``${p?:resource/websphere.servercluster.servertype}`` |
 | Short Name | String | The short name for this WebSphere server cluster. | ``${p?:resource/websphere.servercluster.shortname}`` |
 
-
 ### WebSphereDynamicCluster
 
-
 Role for resources that represents a WebSphere dynamic cluster.
-
-
 
 
 | Name | Type | Description | Property |
@@ -123,13 +102,9 @@ Role for resources that represents a WebSphere dynamic cluster.
 | Server Type | String | The server type for this WebSphere dynamic cluster. | ``${p?:resource/websphere.dynamiccluster.servertype}`` |
 | Strict Isolation Enabled | String | The Strict Isolation Enabled property for this WebSphere dynamic cluster. | ``${p?:resource/websphere.dynamiccluster.strictisolationenabled}`` |
 
-
 ### WebSphereNode
 
-
 Role for resources that represents a WebSphere node
-
-
 
 
 | Name | Type | Description | Property |
@@ -141,13 +116,9 @@ Role for resources that represents a WebSphere node
 | Profile Name | String | The profile name for this WebSphere node. | ``${p?:resource/websphere.node.profilename}`` |
 | Short Name | String | The short name for this WebSphere node. | ``${p?:resource/websphere.node.shortname}`` |
 
-
 ### WebSphereNodeGroup
 
-
 Role for resources that represents a WebSphere node group.
-
-
 
 
 | Name | Type | Description | Property |
@@ -156,16 +127,11 @@ Role for resources that represents a WebSphere node group.
 | Name | String | The name for this WebSphere node group. | ``${p?:resource/websphere.nodegroup.name}`` |
 | Short Name | String | The short name for this WebSphere node group. | ``${p?:resource/websphere.nodegroup.shortname}`` |
 
-
 ### WebSphereServer
-
 
 Role for resources that represents a WebSphere server
 
-
 </table –>
-
-
 
 
 | Name | Type | Description | Property |
@@ -187,8 +153,6 @@ Role for resources that represents a WebSphere server
 | Short Name | String | The short name for this WebSphere server. | ``${p?:resource/websphere.server.shortname}`` |
 
 
-
-
 |Back to ...||Latest Version|WebSphere Application Server - Deployment |||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[127.1131367]()|[Readme](README.md)|[Overview](overview.md)|[User permissions](user permissions.md)|[Usage](usage.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[127.1131367](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/ucd-WebSphere-127.1131367.zip)|[Readme](README.md)|[Overview](overview.md)|[User permissions](user permissions.md)|[Usage](usage.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

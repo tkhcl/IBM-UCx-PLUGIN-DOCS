@@ -5,32 +5,19 @@ IBM MQ for z/OS - Generate MQSC Commands - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the MQ for zOS plug-in
-
 
 * [Generate MQSC Commands](#generate_mqsc_commands)
 
 
-
-
 ### Generate MQSC Commands
 
-
 Generate MQSC commands from the base, overrides and properties files.
-
-
-
-
 
 
 
@@ -48,15 +35,9 @@ Generate MQSC commands from the base, overrides and properties files.
 
 
 
-
-
-
-
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | mqscResourceDefinitions | String | Set to the MQSC form of the resource definitions. This property is used as input to the next step in the UCD process. |
-
-
 
 
 

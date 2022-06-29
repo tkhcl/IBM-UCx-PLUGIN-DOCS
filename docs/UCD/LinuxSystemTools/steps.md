@@ -5,16 +5,11 @@ Linux System Tools - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
-
-
-
 ### Process steps in the Linux System Tools plug-in
-
 
 * [Add group](#add_group)
 * [Add user](#add_user)
@@ -24,14 +19,9 @@ Linux System Tools - Steps
 * [Update fstab](#update_fstab)
 
 
-
-
 ### Add group
 
-
 Use this step to add a user group to this Linux system.
-
-
 
 
 | Name | Type | Description | Required |
@@ -39,13 +29,9 @@ Use this step to add a user group to this Linux system.
 | New group name | String | The name of the group to be added. | Yes |
 | Users to add to group | String | One or more users to add to the group. List each user on a separate line. | No |
 
-
 ### Add user
 
-
 Use this step to add a user to this Linux system.
-
-
 
 
 | Name | Type | Description | Required |
@@ -53,13 +39,9 @@ Use this step to add a user to this Linux system.
 | New user name | String | The name of the user to be added. | Yes |
 | New users group | String | The name of an existing group to add the user to. Do not specify this property if the user is not being added to a group. | No |
 
-
 ### Change file ownership
 
-
 Use this step to set the ownership of the files and directories in the current working directory.
-
-
 
 
 | Name | Type | Description | Required |
@@ -69,26 +51,18 @@ Use this step to set the ownership of the files and directories in the current w
 | New Owner | String | The name of the new owner of the files. | No |
 | Type | Enumeration | The file types for which to change owners. Specify **both**, **file**, or **directory**. | No |
 
-
 ### Reboot
 
-
 Use this step to reboot the Linux operating system.
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Time | String | The time that the reboot is to occur. To start the reboot immediately, specify **now**. You can specify the number of minutes to wait before starting the reboot, by specifying **+*minutes***. For example, +2, indicates to wait 2 minutes before the reboot starts. You can also specify an absolute time in this format: ***hh:mm***. For example,entering 10:00 starts the reboot at 10:00 am. | No |
 
-
 ### Set file permissions
 
-
 Use this step to set the permissions of files and directories in the current working directory.
-
-
 
 
 | Name | Type | Description | Required |
@@ -98,13 +72,9 @@ Use this step to set the permissions of files and directories in the current wor
 | Permission String | String | The permission string to apply to the matched files. For example, 0777 or a+x. | No |
 | Type | Enumeration | The type of files on which permission is to be set. Specify **both**, **file**, or **directory**. | No |
 
-
 ### Update fstab
 
-
 Use this step to update, add, or remove rules from the file system table (fstab).
-
-
 
 
 | Name | Type | Description | Required |
@@ -115,8 +85,6 @@ Use this step to update, add, or remove rules from the file system table (fstab)
 | File permissions | String | Enter the permission for the fstab file, for example, 644. If a value is not specified, the new file permissions are based on the ***umask*** value. | No |
 | Remove rules | String | A list of devices to remove. List each device on a separate line. Do not specify the full fstab rule here, just the source device. | No |
 | fstab file path | String | The the path, including the file name, to the fstab file if it is not located at `/etc/fstab`. | No |
-
-
 
 
 

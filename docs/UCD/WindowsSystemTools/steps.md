@@ -5,18 +5,12 @@ Microsoft Windows System Tools - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the Windows System Tools plug-in
-
 
 * [Add Or Overwrite Registry Key](#add_or_overwrite_registry_key)
 * [Check File Contents](#check_file_contents)
@@ -38,14 +32,9 @@ Microsoft Windows System Tools - Steps
 * [Run Scheduled Task](#run_scheduled_task)
 
 
-
-
 ### Add Or Overwrite Registry Key
 
-
 Adds or Overwrites a Key to the Registry
-
-
 
 
 | Name | Type | Description | Required |
@@ -63,15 +52,11 @@ Adds or Overwrites a Key to the Registry
 * REG\_DWORD\_LITTLE\_ENDIAN
 * REG\_NONE
 * REG\_EXPAND\_SZ
- | Select the data type for the Registry Value Name. | Yes |
-
+| Select the data type for the Registry Value Name. | Yes |
 
 ### Check File Contents
 
-
 Check file contents against a regular expression.
-
-
 
 
 | Name | Type | Description | Required |
@@ -81,13 +66,9 @@ Check file contents against a regular expression.
 | File to scan | String | The name of the file to scan. | Yes |
 | Regular Expression | String | The regular expression used to scan the file contents. | Yes |
 
-
 ### Configure DCOM Settings
 
-
 Configure DCOM Settings
-
-
 
 
 | Name | Type | Description | Required |
@@ -99,22 +80,18 @@ Configure DCOM Settings
 * 4
 * 5
 * 6
- | Select the DCOM Authentication Level | Yes |
+| Select the DCOM Authentication Level | Yes |
 | Enable Remote DCOM | Boolean | This will Enable Remote DCOM  | No |
 | Impersonation Level | Enumeration:
 * 1
 * 2
 * 3
 * 4
- | Select the DCOM Impersonation Level | Yes |
-
+| Select the DCOM Impersonation Level | Yes |
 
 ### Create Message Queues
 
-
 Create Message Queues
-
-
 
 
 | Name | Type | Description | Required |
@@ -122,13 +99,9 @@ Create Message Queues
 | Non-Transactional Queues | String | A new line separated list of non-transactional message queues to create. Ex: .\newQueue1 or .\Private$\newPrivateQueue1 | No |
 | Transactional Queues | String | A new line separated list of transactional message queues to create. Ex: .\newQueue1 or .\Private$\newPrivateQueue1 | No |
 
-
 ### Create Windows Event Log
 
-
 Creates a new event log and a new event source.
-
-
 
 
 | Name | Type | Description | Required |
@@ -140,13 +113,9 @@ Creates a new event log and a new event source.
 | Powershell executable location | String | The path including the powershell executable unless on the path. | No |
 | Sources | String | A comma separated list of the names of the event log sources, such as application programs that write to the event log. | Yes |
 
-
 ### Create Windows Scheduled Task
 
-
 Creates a new scheduled task for Windows.
-
-
 
 
 | Name | Type | Description | Required |
@@ -167,19 +136,15 @@ Creates a new scheduled task for Windows.
 * ONSTART
 * ONLOGON
 * ONIDLE
- | The type of the schedule to be created. | Yes |
+| The type of the schedule to be created. | Yes |
 | Start Date(mm/dd/yyyy) | String | The first date that this schedule should run on. This value will be ignored for schedule types that it is invalid for. | No |
 | Start Time(HH:mm) | String | The start time to run the task. This value is required for Once schedule type. | No |
 | Task Name | String | The Name of the scheduled task. | Yes |
 | Type Modifier | String | The modifier to invoke schtasks with. Please refer to your Operating System documentation for allowed values for the schedule type. | No |
 
-
 ### Delete Registry Key
 
-
 Deletes a Key from the Registry
-
-
 
 
 | Name | Type | Description | Required |
@@ -188,26 +153,18 @@ Deletes a Key from the Registry
 | Registry Key | String | Specify the Registry Key (ie HKLM\Software\MyCo). | Yes |
 | Registry Value | String | Specify a single value of a Registry key to delete. | No |
 
-
 ### Delete Scheduled Task
 
-
 Delete a scheduled task for Windows.
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Task Name | String | The Name of the scheduled task. | Yes |
 
-
 ### Disable Windows Features
 
-
 Disable specific Windows Features. This only works with Windows 7 family of Windows.
-
-
 
 
 | Name | Type | Description | Required |
@@ -217,13 +174,9 @@ Disable specific Windows Features. This only works with Windows 7 family of Wind
 | Dism executable location | String | The path including the dism executable unless on the path. | No |
 | Features | String | A comma and/or new-line separated list of features to disable. Do not include /featurename: | Yes |
 
-
 ### Enable Windows Features
 
-
 Enable specific Windows Features. This only works with Windows 7 family of Windows.
-
-
 
 
 | Name | Type | Description | Required |
@@ -233,26 +186,18 @@ Enable specific Windows Features. This only works with Windows 7 family of Windo
 | Dism executable location | String | The path including the dism executable unless on the path. | No |
 | Features | String | A comma and/or new-line separated list of features to enable. Do not include /featurename: | Yes |
 
-
 ### End Scheduled Task
 
-
 End a scheduled task.
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Task Name | String | The Name of the scheduled task. | Yes |
 
-
 ### Export Registry Subkey to File
 
-
 Exports registry subkey to a file
-
-
 
 
 | Name | Type | Description | Required |
@@ -261,13 +206,9 @@ Exports registry subkey to a file
 | Force File Overwrite  | Boolean | When enabled, this step will overwrite the destination file if it exists | No |
 | Registry Key | String | Specify the Registry Key to export (ie HKLM\Software\MyCo) | Yes |
 
-
 ### Import Registry Files
 
-
 Imports a file containg registry keys
-
-
 
 
 | Name | Type | Description | Required |
@@ -276,13 +217,9 @@ Imports a file containg registry keys
 | Include Files | String | Enter a new line separated set of file filters to import intothe registry. | Yes |
 | Source Directory | String | Specify the Source Directory | Yes |
 
-
 ### Log off Notification
 
-
 Sends a message warning to logged on users to log off
-
-
 
 
 | Name | Type | Description | Required |
@@ -294,15 +231,11 @@ Sends a message warning to logged on users to log off
 | Windows Server Version | Enumeration:
 * 2003
 * 2008
- | Select the server version the plugin will run on | Yes |
-
+| Select the server version the plugin will run on | Yes |
 
 ### Log off Sessions
 
-
 Logs off sessions on a server
-
-
 
 
 | Name | Type | Description | Required |
@@ -313,13 +246,9 @@ Logs off sessions on a server
 | Session state filter | String | Provide a regular expression if you want to filter the sessions affected by this step by their state. Leave blank for all session states. | No |
 | Wait Time Between Retries (seconds) | String | This specifies the amount of time to wait between retries. | Yes |
 
-
 ### Modify ACLs
 
-
 Assign ACLs to files or folders.
-
-
 
 
 | Name | Type | Description | Required |
@@ -329,7 +258,7 @@ Assign ACLs to files or folders.
 * cacls
 * icacls
 * xcacls
- | Select whether to use cacls, xcacls, or icacls to modify permissions | Yes |
+| Select whether to use cacls, xcacls, or icacls to modify permissions | Yes |
 | Continue on access denied errors | Boolean | Check this option to continue on access denied errors. Adds /C option. | No |
 | Deny user accesss | String | Deny specified user access. Uses /D option (/deny in ICACLS). If using XCACLS or CACLS, specify the user. With ICACLS, this denies specified rights to the user, requiring an input of the form, user:perm | No |
 | Directory Offset | String | The working directory to use when executing this command. This is relative to current working directory. | Yes |
@@ -341,13 +270,9 @@ Assign ACLs to files or folders.
 | Replace without verify | Boolean | Replace users rights without verify. Adds /Y option. Only valid with Use XCACLS option. | No |
 | Revoke users rights | String | Revoke specified users access rights (only valid with Edit ACLs instead of replacing option unless using ICACLS). Uses /R option. | No |
 
-
 ### Reboot
 
-
 Reboot the os
-
-
 
 
 | Name | Type | Description | Required |
@@ -355,21 +280,15 @@ Reboot the os
 | Agent Service Name | String | If Windows machine restarts but the step is failing, enter the Agent Service Name here. | No |
 | Time | String | The time in seconds to wait to reboot. | Yes |
 
-
 ### Run Scheduled Task
 
-
 Run a scheduled task.
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Immediately | Boolean | Check to run this task immediately. | Yes |
 | Task Name | String | The Name of the scheduled task. | Yes |
-
-
 
 
 

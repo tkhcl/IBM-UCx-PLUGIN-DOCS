@@ -6,17 +6,17 @@ Process steps in the IBM ACE plug-in
 ------------------------------------
 
 - [App Connect Enterprise - Steps](#app-connect-enterprise---steps)
-  - [Process steps in the IBM ACE plug-in](#process-steps-in-the-ibm-ace-plug-in)
-  - [Create Integration Node](#create-integration-node)
-  - [Create Integration Server](#create-integration-server)
-  - [Delete Integration Node](#delete-integration-node)
-  - [Delete Integration Server](#delete-integration-server)
-  - [Deploy](#deploy)
-  - [Does Integration Server Exist](#does-integration-server-exist)
-  - [Start Integration Node](#start-integration-node)
-  - [Start Integration Server](#start-integration-server)
-  - [Stop Integration Node](#stop-integration-node)
-  - [Stop Integration Server](#stop-integration-server)
+- [Process steps in the IBM ACE plug-in](#process-steps-in-the-ibm-ace-plug-in)
+- [Create Integration Node](#create-integration-node)
+- [Create Integration Server](#create-integration-server)
+- [Delete Integration Node](#delete-integration-node)
+- [Delete Integration Server](#delete-integration-server)
+- [Deploy](#deploy)
+- [Does Integration Server Exist](#does-integration-server-exist)
+- [Start Integration Node](#start-integration-node)
+- [Start Integration Server](#start-integration-server)
+- [Stop Integration Node](#stop-integration-node)
+- [Stop Integration Server](#stop-integration-server)
 
 Create Integration Node
 -----------------------
@@ -140,4 +140,4 @@ Stop integration servers.
 
 |Back to ...||Latest Version|App Connect Enterprise ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[5.1132110]()|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1134007](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-ace/ucd-plugins-ibm-ace-6.1134007.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

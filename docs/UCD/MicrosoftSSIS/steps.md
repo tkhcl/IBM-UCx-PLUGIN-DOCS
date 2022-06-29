@@ -5,30 +5,19 @@ Microsoft SSIS - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the Microsoft SSIS plug-in
-
 
 * [Deploy](#deploy)
 
 
-
-
 ### Deploy
 
-
 Deploy a DTSX file from a local file system to a Microsoft SQL database.
-
-
 
 
 | Label | Type | Description | Required |
@@ -42,8 +31,6 @@ Deploy a DTSX file from a local file system to a Microsoft SQL database.
 | SQL Password | String | The password related to the specified Microsoft SQL database user to authenticate with. This is required only if SQL authentication is being used. If this is not specified, Windows authentication will be used. | No |
 | SQL Server Name | String | SQL Server name. Required when specifying a non-local or non-default server when deploying an SSIS package. (SERVERNAME\INSTANCENAME) | No |
 | SQL Username | String | The username with package deployment permissions on the Microsoft SQL database. This is required only if SQL authentication is being used. If this is not specified, Windows authentication will be used. | No |
-
-
 
 
 

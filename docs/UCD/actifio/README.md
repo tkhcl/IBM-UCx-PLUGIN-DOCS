@@ -2,9 +2,7 @@
 Actifio
 =======
 
-
 This plugin allows process steps to be created that leverage the instant mount capabilities for databases that Actifio’s data management platform provides.
-
 
 Downloads
 ----------

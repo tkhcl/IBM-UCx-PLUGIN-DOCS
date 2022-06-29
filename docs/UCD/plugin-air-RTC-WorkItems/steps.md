@@ -5,18 +5,12 @@ IBM Rational Team Concert Work Items - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the RTC Work Items plug-in
-
 
 * [Add Work Item Comments](#add_work_item_comments)
 * [Change Work Item Status](#change_work_item_status)
@@ -24,14 +18,9 @@ IBM Rational Team Concert Work Items - Steps
 * [Create Work Item](#create_work_item)
 
 
-
-
 ### Add Work Item Comments
 
-
 Add Comments to an RTC Work Item
-
-
 
 
 | Name | Type | Description | Required |
@@ -44,13 +33,9 @@ Add Comments to an RTC Work Item
 | User Name | String | The user name to be used to connect to the RTC server. | Yes |
 | Work Item ID | String | The ID number of the RTC work item to add comments to. | Yes |
 
-
 ### Change Work Item Status
 
-
 Change the status of an RTC Work Item
-
-
 
 
 | Name | Type | Description | Required |
@@ -63,13 +48,9 @@ Change the status of an RTC Work Item
 | User Name | String | The user name to be used to connect to the RTC server. | Yes |
 | Work Item ID | String | The ID number of the RTC work item to add comments to. | Yes |
 
-
 ### Check Work Item Status
 
-
 Check a work item for a specific status.
-
-
 
 
 | Name | Type | Description | Required |
@@ -81,13 +62,9 @@ Check a work item for a specific status.
 | User Name | String | The user name to use to connect to the Rational Team Concert server. | Yes |
 | Work Item ID | String | The ID number of the Rational Team Concert work item to check. | Yes |
 
-
 ### Create Work Item
 
-
 Create an RTC Work Item
-
-
 
 
 | Name | Type | Description | Required |
@@ -104,8 +81,6 @@ Create an RTC Work Item
 | Work Item Summary | String | The summary/title for the new work item. | Yes |
 | Work Item Tags | String | List of tags to assign the new work item. Separate each tag by a new line or comma. | No |
 | Work Item Type | String | The type of work item you want to create, for example Defect, Task, Story, Risk, etc. This field is case sensitive. | Yes |
-
-
 
 
 

@@ -5,19 +5,13 @@ IBM-MQ - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 Process steps in the WebSphereMQ plug-in
 ----------------------------------------
-
 
 * [Alter Client-Connection Channel](#alter_client-connection_channel)
 * [Alter Queue](#alter_queue)
@@ -66,15 +60,10 @@ Process steps in the WebSphereMQ plug-in
 * [Stop Queue Manager](#stop_queue_manager)
 
 
-
-
 Alter Client-Connection Channel
 -------------------------------
 
-
 Modify the parameters of an existing client connection channel
-
-
 
 
 | Name | Type | Description | Required |
@@ -97,16 +86,12 @@ Modify the parameters of an existing client connection channel
 * NetBIOS
 * SPX
 * TCP
- | The protcol which the channel will use to transmit messages. | No |
-
+| The protcol which the channel will use to transmit messages. | No |
 
 Alter Queue
 -----------
 
-
 Modify the parameters of an existing local queue
-
-
 
 
 | Name | Type | Description | Required |
@@ -120,7 +105,7 @@ Modify the parameters of an existing local queue
 * NONE
 * ENABLED
 * DISABLED
- | Enable or Disable messages ability to be retrieved from the queue. | No |
+| Enable or Disable messages ability to be retrieved from the queue. | No |
 | Is Batch | Boolean | Batch multiple commands in one script file and run using Run MSQC Script command. | Yes |
 | Maximum Message Length | String | Specify the maximum length of a message that can be transmitted on the channel. Value of 0 will default to the local queue manager’s maximum value. Default value is 4194304. | No |
 | Maximum Queue Depth | String | Specify the maximum number of messages that are allowed on the queue. Default value is 999999999. | No |
@@ -128,12 +113,12 @@ Modify the parameters of an existing local queue
 * NONE
 * PRIORITY
 * FIFO
- | Specify method of retrieving messages from the queue. | No |
+| Specify method of retrieving messages from the queue. | No |
 | Put Messages | Enumeration:
 * NONE
 * ENABLED
 * DISABLED
- | Enable or Disable messages ability to be placed on the queue. | No |
+| Enable or Disable messages ability to be placed on the queue. | No |
 | Queue Manager Name | String | The name of the QueueManager to delete the Namelist on. | Yes |
 | Queue Name | String | The name of the Queuewhose parameters will be altered | Yes |
 | Script File | String | The name of the file to write the script to. | Yes |
@@ -141,26 +126,22 @@ Modify the parameters of an existing local queue
 * NONE
 * NOSHARE
 * SHARE
- | Share or restrict the queue from being opened for input by more than one instance of an application. | No |
+| Share or restrict the queue from being opened for input by more than one instance of an application. | No |
 | Trigger Control | Enumeration:
 * NONE
 * NOTRIGGER
 * TRIGGER
- | Allow or disallow this queue to be automatically started by a trigger. | No |
+| Allow or disallow this queue to be automatically started by a trigger. | No |
 | Usage | Enumeration:
 * NONE
 * NORMAL
 * XMITQ
- | Make the queue either a Local or Tranmission queue. Do not change property while there are messages on the queue. | No |
-
+| Make the queue either a Local or Tranmission queue. Do not change property while there are messages on the queue. | No |
 
 Alter Receiver Channel
 ----------------------
 
-
 Modify the parameters of an existing receiver channel
-
-
 
 
 | Name | Type | Description | Required |
@@ -177,7 +158,7 @@ Modify the parameters of an existing receiver channel
 * NONE
 * NORMAL
 * FAST
- | This property specifies the speed at which nonpersistent messages are being sent. | No |
+| This property specifies the speed at which nonpersistent messages are being sent. | No |
 | Queue Manager Name | String | The name of the QueueManager to delete the Namelist on. | Yes |
 | Script File | String | The name of the file to write the script to. | Yes |
 | Transport Type | Enumeration:
@@ -186,16 +167,12 @@ Modify the parameters of an existing receiver channel
 * TCP
 * NETBIOS
 * SPX
- | This property specifies the transport type to be used. | No |
-
+| This property specifies the transport type to be used. | No |
 
 Alter Sender Channel
 --------------------
 
-
 Modify the parameters of an existing sender channel
-
-
 
 
 | Name | Type | Description | Required |
@@ -216,7 +193,7 @@ Modify the parameters of an existing sender channel
 * NONE
 * NORMAL
 * FAST
- | This property specifies the speed at which nonpersistent messages are being sent. | No |
+| This property specifies the speed at which nonpersistent messages are being sent. | No |
 | Queue Manager Name | String | The name of the QueueManager to delete the Namelist on. | Yes |
 | Script File | String | The name of the file to write the script to. | Yes |
 | Transmission Queue Name | String | The property specifies the name of the tranmission queue from which messages are retrieved. | No |
@@ -226,16 +203,12 @@ Modify the parameters of an existing sender channel
 * TCP
 * NETBIOS
 * SPX
- | This property specifies the transport type to be used. | No |
-
+| This property specifies the transport type to be used. | No |
 
 Alter Server-Connection Channel
 -------------------------------
 
-
 Modify the parameters of an existing server connection channel
-
-
 
 
 | Name | Type | Description | Required |
@@ -258,16 +231,12 @@ Modify the parameters of an existing server connection channel
 * NetBIOS
 * SPX
 * TCP
- | The protcol which the channel will use to transmit messages. | No |
-
+| The protcol which the channel will use to transmit messages. | No |
 
 Alter Topic
 -----------
 
-
 Modify the parameters of an existing Topic
-
-
 
 
 | Name | Type | Description | Required |
@@ -279,7 +248,7 @@ Modify the parameters of an existing Topic
 * ASPARENT
 * NO
 * YES
- | The default message persistence when applications specify the MQPER\_PERSISTENCE\_AS\_TOPIC\_DEF option. Select YES if messages on this queue will survive the restart of the queue manager. | No |
+| The default message persistence when applications specify the MQPER\_PERSISTENCE\_AS\_TOPIC\_DEF option. Select YES if messages on this queue will survive the restart of the queue manager. | No |
 | Default Priority | Enumeration:
 * NONE
 * ASPARENT
@@ -292,13 +261,13 @@ Modify the parameters of an existing Topic
 * 7
 * 8
 * 9
- | The default priority of messages published to the topic. | No |
+| The default priority of messages published to the topic. | No |
 | Default Put Response | Enumeration:
 * NONE
 * ASPARENT
 * SYNC
 * ASYNC
- | The default put response when applications specify the MQPMO\_RESPONSE\_AS\_DEF option. | No |
+| The default put response when applications specify the MQPMO\_RESPONSE\_AS\_DEF option. | No |
 | Delete Script File After Execution | Boolean | Delete the script file after executing it. | Yes |
 | Description | String | Plain-text comment. Maximum length of 64 characters. | No |
 | Is Batch | Boolean | Batch multiple commands in one script file and run using Run MSQC Script command. | Yes |
@@ -308,32 +277,32 @@ Modify the parameters of an existing Topic
 * DISABLED
 * ENABLED
 * ONLY
- | Specifies whether multicast is allowable in the topic tree. | No |
+| Specifies whether multicast is allowable in the topic tree. | No |
 | Non-Persistent Message Delivery | Enumeration:
 * NONE
 * ASPARENT
 * ALL
 * ALLAVAIL
 * ALLDUR
- | Delivery mechanism for non-persistent messages published to this topic. | No |
+| Delivery mechanism for non-persistent messages published to this topic. | No |
 | Persistent Message Delivery | Enumeration:
 * NONE
 * ASPARENT
 * ALL
 * ALLAVAIL
 * ALLDUR
- | Delivery mechanism for persistent messages published to this topic. | No |
+| Delivery mechanism for persistent messages published to this topic. | No |
 | Proxy Subscription | Enumeration:
 * NONE
 * FIRSTUSE
 * FORCE
- | Controls when a proxy subscription is sent for this topic to neighboring queue managers when in a publish/subscribe cluster or hierarchy. | No |
+| Controls when a proxy subscription is sent for this topic to neighboring queue managers when in a publish/subscribe cluster or hierarchy. | No |
 | Publish Messages | Enumeration:
 * NONE
 * ASPARENT
 * ENABLED
 * DISABLED
- | Controls whether messages can be published to this topic. | No |
+| Controls whether messages can be published to this topic. | No |
 | Queue Manager Name | String | The name of the Queue Manager to delete the Namelist on. | Yes |
 | Script File | String | The name of the file to write the script to. | Yes |
 | Subscription | Enumeration:
@@ -341,22 +310,18 @@ Modify the parameters of an existing Topic
 * ASPARENT
 * ENABLED
 * DISABLED
- | Controls whether applications are permitted to subscribe to this topic. | No |
+| Controls whether applications are permitted to subscribe to this topic. | No |
 | Topic Name | String | The name of the Topic to alter. | Yes |
 | Type | Enumeration:
 * NONE
 * NONE
 * LOCAL
- | The type of topic. | No |
-
+| The type of topic. | No |
 
 Configure Channel SSL
 ---------------------
 
-
 Configure the Secure Sockets Layer (SSL) settings for a channel.
-
-
 
 
 | Name | Type | Description | Required |
@@ -406,18 +371,14 @@ Configure the Secure Sockets Layer (SSL) settings for a channel.
 * ECDHE\_ECDSA\_NULL\_SHA256
 * TLS\_RSA\_WITH\_NULL\_NULL
 * TLS\_RSA\_WITH\_RC4\_128\_SHA256
- | Select the cipher specification to use on the channel. | No |
+| Select the cipher specification to use on the channel. | No |
 | SSL Peer | String | The filter text to compare with the Distinguished Name of the certificate from the peer queue manager or client at the other end of the channel. For example: ‘CN=First, CN=Second, O=IBM, C=US’ | No |
 | Script File | String | The name of the file to write the script to. | Yes |
-
 
 Configure Queue Manager SSL
 ---------------------------
 
-
 Configure the Secure Sockets Layer (SSL) settings for a queue manager.
-
-
 
 
 | Name | Type | Description | Required |
@@ -434,16 +395,12 @@ Configure the Secure Sockets Layer (SSL) settings for a queue manager.
 * 128\_BIT
 * 192\_BIT
 * 128\_BIT,192\_BIT
- | Select whether Suite B-compliant cryptography is used and what strength is required. | Yes |
-
+| Select whether Suite B-compliant cryptography is used and what strength is required. | Yes |
 
 Create Queue Manager
 --------------------
 
-
 Run the command to create a queue manager.
-
-
 
 
 | Name | Type | Description | Required |
@@ -453,14 +410,10 @@ Run the command to create a queue manager.
 | Queue Manager Description | String | A description of the queue manager. Maximum of 64 characters. | No |
 | Queue Manager Name | String | The name of the queue manager to create. | Yes |
 
-
 Define Authinfo– IDPWOS
 -----------------------
 
-
 Define authinfo for AUTHTYPE(IDPWOS).
-
-
 
 
 | Name | Type | Description | Required |
@@ -472,14 +425,10 @@ Define authinfo for AUTHTYPE(IDPWOS).
 | Queue Manager Name | String | The name of the queue manager to work with. | Yes |
 | Script File | String | The name of the file to write the script to. | Yes |
 
-
 Define Client-Connection Channel
 --------------------------------
 
-
 Define a client connection channel.
-
-
 
 
 | Name | Type | Description | Required |
@@ -491,14 +440,10 @@ Define a client connection channel.
 | Queue Manager Name | String | The name of the queue manager to work with. | Yes |
 | Script File | String | The name of the file to write the script to. | Yes |
 
-
 Define Namelist
 ---------------
 
-
 Define a namelist.
-
-
 
 
 | Name | Type | Description | Required |
@@ -512,14 +457,10 @@ Define a namelist.
 | Queue Manager Name | String | The name of the queue manager to work with. | Yes |
 | Script File | String | The name of the file to write the script to. | Yes |
 
-
 Define Queue
 ------------
 
-
 Define a queue.
-
-
 
 
 | Name | Type | Description | Required |
@@ -532,7 +473,7 @@ Define a queue.
 * NONE
 * ENABLED
 * DISABLED
- | Enable or Disable messages ability to be retrieved from the queue. | No |
+| Enable or Disable messages ability to be retrieved from the queue. | No |
 | Is Batch | Boolean | Select to combine multiple commands in one script file and run by using the Run MQ Batch Script step. | Yes |
 | Maximum Message Length | String | Specify the maximum length of a message that can be transmitted on the channel. Value of 0 will default to the local queue manager’s maximum value. Default value is 4194304. | No |
 | Maximum Queue Depth | String | Specify the maximum number of messages that are allowed on the queue. Default value is 999999999. | No |
@@ -540,44 +481,40 @@ Define a queue.
 * NONE
 * PRIORITY
 * FIFO
- | Specify method of retrieving messages from the queue. | No |
+| Specify method of retrieving messages from the queue. | No |
 | Put Messages | Enumeration:
 * NONE
 * ENABLED
 * DISABLED
- | Enable or Disable messages ability to be placed on the queue. | No |
+| Enable or Disable messages ability to be placed on the queue. | No |
 | Queue Manager Name | String | The name of the queue manager to work with. | Yes |
 | Queue Name | String | The name of the queue to define. | Yes |
 | Replace | Enumeration:
 * NONE
 * NOREPLACE
 * REPLACE
- | This option controls whether any existing definition is to be replaced with this one. Any object with a different disposition is not changed. View WebSphere MQ ‘ALTER QLOCAL’ documentation for intricacies with the FORCE flag. | No |
+| This option controls whether any existing definition is to be replaced with this one. Any object with a different disposition is not changed. View WebSphere MQ ‘ALTER QLOCAL’ documentation for intricacies with the FORCE flag. | No |
 | Script File | String | The name of the file to write the script to. | Yes |
 | Sharability | Enumeration:
 * NONE
 * NOSHARE
 * SHARE
- | Share or restrict the queue from being opened for input by more than one instance of an application. | No |
+| Share or restrict the queue from being opened for input by more than one instance of an application. | No |
 | Trigger Control | Enumeration:
 * NONE
 * NOTRIGGER
 * TRIGGER
- | Allow or disallow this queue to be automatically started by a trigger. | No |
+| Allow or disallow this queue to be automatically started by a trigger. | No |
 | Usage | Enumeration:
 * NONE
 * NORMAL
 * XMITQ
- | Make the queue either a Local or Tranmission queue. Do not change property while there are messages on the queue. | No |
-
+| Make the queue either a Local or Tranmission queue. Do not change property while there are messages on the queue. | No |
 
 Define Queue Alias
 ------------------
 
-
 Define a queue alias.
-
-
 
 
 | Name | Type | Description | Required |
@@ -590,13 +527,13 @@ Define a queue alias.
 * IGNORE
 * ENABLED
 * DISABLED
- | Enable or Disable messages ability to be retrieved from the queue. | No |
+| Enable or Disable messages ability to be retrieved from the queue. | No |
 | Is Batch | Boolean | Select to combine multiple commands in one script file and run by using the Run MQ Batch Script step. | Yes |
 | Put Messages | Enumeration:
 * IGNORE
 * ENABLED
 * DISABLED
- | Enable or Disable messages ability to be placed on the queue. | No |
+| Enable or Disable messages ability to be placed on the queue. | No |
 | Queue Alias Name | String | The name of the queue alias to define. (QALIAS) | Yes |
 | Queue Manager Name | String | The name of the queue manager to work with. | Yes |
 | Queue Name | String | The name of the queue to be alias. (TARGET) | Yes |
@@ -604,17 +541,13 @@ Define a queue alias.
 * IGNORE
 * NOREPLACE
 * REPLACE
- | This option controls whether any existing definition is to be replaced with this one. Any object with a different disposition is not changed. View WebSphere MQ ‘ALTER QLOCAL’ documentation for intricacies with the FORCE flag. | No |
+| This option controls whether any existing definition is to be replaced with this one. Any object with a different disposition is not changed. View WebSphere MQ ‘ALTER QLOCAL’ documentation for intricacies with the FORCE flag. | No |
 | Script File | String | The name of the file to write the script to. | Yes |
-
 
 Define Receive Channel
 ----------------------
 
-
 Define a receive channel.
-
-
 
 
 | Name | Type | Description | Required |
@@ -626,14 +559,10 @@ Define a receive channel.
 | Queue Manager Name | String | The name of the queue manager to work with. | Yes |
 | Script File | String | The name of the file to write the script to. | Yes |
 
-
 Define Remote Queue
 -------------------
 
-
 Define Remote Queue.
-
-
 
 
 | Name | Type | Description | Required |
@@ -645,14 +574,10 @@ Define Remote Queue.
 | Queue Name | String | The name of the queue to create. | Yes |
 | Script File | String | The name of the file to write the script to. | Yes |
 
-
 Define Sender Channel
 ---------------------
 
-
 Define a sender channel.
-
-
 
 
 | Name | Type | Description | Required |
@@ -666,14 +591,10 @@ Define a sender channel.
 | Queue Name | String | The name of the queue for the sender channel to use. | Yes |
 | Script File | String | The name of the file to write the script to. | Yes |
 
-
 Define Server Connection Channel
 --------------------------------
 
-
 Define a Server connection channel.
-
-
 
 
 | Name | Type | Description | Required |
@@ -685,14 +606,10 @@ Define a Server connection channel.
 | Queue Manager Name | String | The name of the queue manager to work with. | Yes |
 | Script File | String | The name of the file to write the script to. | Yes |
 
-
 Define Service
 --------------
 
-
 Define a service.
-
-
 
 
 | Name | Type | Description | Required |
@@ -704,14 +621,10 @@ Define a service.
 | Script File | String | The name of the file to write the script to. | Yes |
 | Service Name | String | The name of the service to create. | Yes |
 
-
 Define Topic
 ------------
 
-
 Define a topic.
-
-
 
 
 | Name | Type | Description | Required |
@@ -724,14 +637,10 @@ Define a topic.
 | Topic Name | String | The name of the topic to define. | Yes |
 | Topic String | String | The string of the topic to define. | Yes |
 
-
 Define Topic Subscription
 -------------------------
 
-
 Define a topic subscription.
-
-
 
 
 | Name | Type | Description | Required |
@@ -747,7 +656,7 @@ Define a topic subscription.
 * COMPAT
 * MSGPROP
 * RFH2
- | The manner in which publish and subscribe properties are added to messages sent to the subscription. | Yes |
+| The manner in which publish and subscribe properties are added to messages sent to the subscription. | Yes |
 | Queue Manager Name | String | The name of the queue manager to work with. | Yes |
 | Script File | String | The name of the file to write the script to. | Yes |
 | Selector | String | A selector that is applied to messages published to the topic. (SELECTOR) | No |
@@ -757,16 +666,12 @@ Define a topic subscription.
 * NONE
 * CHAR
 * TOPIC
- | The schema to be used when interpreting any wildcard characters in the topic string. (WSCHEMA) | Yes |
-
+| The schema to be used when interpreting any wildcard characters in the topic string. (WSCHEMA) | Yes |
 
 Delete Certificate
 ------------------
 
-
 Delete a certificate.
-
-
 
 
 | Name | Type | Description | Required |
@@ -780,16 +685,12 @@ Delete a certificate.
 * pkcs12
 * jks
 * jceks
- | Select the type of the key database. | Yes |
-
+| Select the type of the key database. | Yes |
 
 Delete Channel
 --------------
 
-
 Delete a channel.
-
-
 
 
 | Name | Type | Description | Required |
@@ -801,14 +702,10 @@ Delete a channel.
 | Queue Manager Name | String | The name of the queue manager to work with. | Yes |
 | Script File | String | The name of the file to write the script to. | Yes |
 
-
 Delete Namelist
 ---------------
 
-
 Delete a namelist.
-
-
 
 
 | Name | Type | Description | Required |
@@ -820,14 +717,10 @@ Delete a namelist.
 | Queue Manager Name | String | The name of the queue manager to work with. | Yes |
 | Script File | String | The name of the file to write the script to. | Yes |
 
-
 Delete Queue
 ------------
 
-
 Delete a queue.
-
-
 
 
 | Name | Type | Description | Required |
@@ -839,14 +732,10 @@ Delete a queue.
 | Queue Name | String | The name of the queue to delete. | Yes |
 | Script File | String | The name of the file to write the script to. | Yes |
 
-
 Delete Queue Alias
 ------------------
 
-
 Delete a queue alias.
-
-
 
 
 | Name | Type | Description | Required |
@@ -858,14 +747,10 @@ Delete a queue alias.
 | Queue Manager Name | String | The name of the queue manager to work with. | Yes |
 | Script File | String | The name of the file to write the script to. | Yes |
 
-
 Delete Queue Manager
 --------------------
 
-
 Run the command to delete a queue manager.
-
-
 
 
 | Name | Type | Description | Required |
@@ -873,14 +758,10 @@ Run the command to delete a queue manager.
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Queue Manager Name | String | The name of the queue manager to delete. | Yes |
 
-
 Delete Topic
 ------------
 
-
 Delete a topic.
-
-
 
 
 | Name | Type | Description | Required |
@@ -892,14 +773,10 @@ Delete a topic.
 | Script File | String | The name of the file to write the script to. | Yes |
 | Topic Name | String | The name of the topic to delete. | Yes |
 
-
 Delete Topic Subscription
 -------------------------
 
-
 Delete a topic subscription.
-
-
 
 
 | Name | Type | Description | Required |
@@ -911,14 +788,10 @@ Delete a topic subscription.
 | Script File | String | The name of the file to write the script to. | Yes |
 | Subscription Name | String | The name of the subscription to delete. | Yes |
 
-
 Enable Queue Triggering
 -----------------------
 
-
 Enable triggering on a queue.
-
-
 
 
 | Name | Type | Description | Required |
@@ -935,16 +808,12 @@ Enable triggering on a queue.
 * FIRST
 * EVERY
 * DEPTH
- | The trigger type for the queue. | Yes |
-
+| The trigger type for the queue. | Yes |
 
 Import Certificate
 ------------------
 
-
 Import a certificate.
-
-
 
 
 | Name | Type | Description | Required |
@@ -961,7 +830,7 @@ Import a certificate.
 * pkcs12
 * jks
 * jceks
- | The type of the source key database. | Yes |
+| The type of the source key database. | Yes |
 | Target DB | String | The full path file name of the target key database. | Yes |
 | Target Password | Password | The password for the target key database. | Yes |
 | Target Type | Enumeration:
@@ -969,16 +838,12 @@ Import a certificate.
 * pkcs12
 * jks
 * jceks
- | The type of the target key database. | Yes |
-
+| The type of the target key database. | Yes |
 
 Manage Queue Depth
 ------------------
 
-
 Manange the queue depth.
-
-
 
 
 | Name | Type | Description | Required |
@@ -993,14 +858,10 @@ Manange the queue depth.
 | Queue Name | String | The name of the queue to edit. | Yes |
 | Script File | String | The name of the file to write the script to. | Yes |
 
-
 Receive Certificate
 -------------------
 
-
 Receive a certificate.
-
-
 
 
 | Name | Type | Description | Required |
@@ -1013,7 +874,7 @@ Receive a certificate.
 | File Type | Enumeration:
 * binary
 * ascii
- | Select the type of the certificate file. | Yes |
+| Select the type of the certificate file. | Yes |
 | Target DB | String | The full path file name of the target key database. | Yes |
 | Target Password | Password | The password for the target key database. | Yes |
 | Target Type | Enumeration:
@@ -1021,16 +882,12 @@ Receive a certificate.
 * pkcs12
 * jks
 * jceks
- | The type of the target key database. | Yes |
-
+| The type of the target key database. | Yes |
 
 Run MQ Batch Script
 -------------------
 
-
 Run a WebSphere MQ script that contains MQ control commands that were created by other plug-in steps.
-
-
 
 
 
@@ -1041,14 +898,10 @@ Run a WebSphere MQ script that contains MQ control commands that were created by
 | Queue Manager Name | String | The name of the queue manager to work with. | Yes |
 | Script File | String | The name of the file to run. | Yes |
 
-
 Run MQ Script
 -------------
 
-
 Run a custom WebSphere MQ script that contains MQ control commands.
-
-
 
 
 | Name | Type | Description | Required |
@@ -1058,14 +911,10 @@ Run a custom WebSphere MQ script that contains MQ control commands.
 | Queue Manager Name | String | The name of the queue manager to work with. | Yes |
 | Script Data | String | The script to run. | Yes |
 
-
 Set Channel Monitoring Level
 ----------------------------
 
-
 Set the monitoring level for a channel.
-
-
 
 
 | Name | Type | Description | Required |
@@ -1080,18 +929,14 @@ Set the monitoring level for a channel.
 * LOW
 * MEDIUM
 * HIGH
- | The monitoring level to set for the channel. | Yes |
+| The monitoring level to set for the channel. | Yes |
 | Queue Manager Name | String | The name of the queue manager to work with. | Yes |
 | Script File | String | The name of the file to write the script to. | Yes |
-
 
 Set Max Message Size On Queue
 -----------------------------
 
-
 Set the maximum message size for a queue.
-
-
 
 
 | Name | Type | Description | Required |
@@ -1104,14 +949,10 @@ Set the maximum message size for a queue.
 | Queue Name | String | The name of the queue to edit. | Yes |
 | Script File | String | The name of the file to write the script to. | Yes |
 
-
 Set Permissions For Object
 --------------------------
 
-
 Set the permissions for a given object and type.
-
-
 
 
 | Name | Type | Description | Required |
@@ -1124,14 +965,10 @@ Set the permissions for a given object and type.
 | Queue Manager Name | String | The name of the queue manager to work with. | Yes |
 | Type | String | The type of the object. | Yes |
 
-
 Set Permissions For Queue
 -------------------------
 
-
 Set the permissions for a given queue.
-
-
 
 
 | Name | Type | Description | Required |
@@ -1143,14 +980,10 @@ Set the permissions for a given queue.
 | Queue Manager Name | String | The name of the queue manager to work with. | Yes |
 | Queue Name | String | The name of the queue. | Yes |
 
-
 Set Permissions For Topic
 -------------------------
 
-
 Set the permissions for a given topic.
-
-
 
 
 | Name | Type | Description | Required |
@@ -1162,14 +995,10 @@ Set the permissions for a given topic.
 | Queue Manager Name | String | The name of the queue manager to work with. | Yes |
 | Topic Name | String | The name of the topic. | Yes |
 
-
 Set Queue Usage Type
 --------------------
 
-
 Set the usage attribute for a queue.
-
-
 
 
 | Name | Type | Description | Required |
@@ -1183,16 +1012,12 @@ Set the usage attribute for a queue.
 | Usage | Enumeration:
 * XMITQ
 * NORMAL
- | The usage attribute to set for the queue. | Yes |
-
+| The usage attribute to set for the queue. | Yes |
 
 Start Channel
 -------------
 
-
 Start a channel.
-
-
 
 
 | Name | Type | Description | Required |
@@ -1204,14 +1029,10 @@ Start a channel.
 | Queue Manager Name | String | The name of the queue manager to work with. | Yes |
 | Script File | String | The name of the file to write the script to. | Yes |
 
-
 Start Queue Manager
 -------------------
 
-
 Start a queue manager.
-
-
 
 
 | Name | Type | Description | Required |
@@ -1220,14 +1041,10 @@ Start a queue manager.
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Queue Manager Name | String | The name of the queue manager to start. | Yes |
 
-
 Stop Channel
 ------------
 
-
 Stop a channel.
-
-
 
 
 | Name | Type | Description | Required |
@@ -1239,14 +1056,10 @@ Stop a channel.
 | Queue Manager Name | String | The name of the queue manager to work with. | Yes |
 | Script File | String | The name of the file to write the script to. | Yes |
 
-
 Stop Queue Manager
 ------------------
 
-
 Stop a queue manager.
-
-
 
 
 | Name | Type | Description | Required |
@@ -1254,8 +1067,6 @@ Stop a queue manager.
 | Additional Arguments | String | Any additional arguments to pass to the start queue manager command. | No |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Queue Manager Name | String | The name of the queue manager to stop. | Yes |
-
-
 
 
 

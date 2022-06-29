@@ -5,27 +5,19 @@ IBM UrbanCode PHP CLI Tool - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
 **Run UrbanCode PHP CLI .php**
-
 
 cd $UrbanCode PHP CLI php UrbanCode PHP CLI .php action argument
 
 
 
 
-
-
-
- | **Action** | **Argument** | **Description** |
+| **Action** | **Argument** | **Description** |
 | addTeamToComponent | [required] Team name or ID[optional] Component name or ID | Add a component to a team. If the component is not passed as argument, all the components available in UrbanCode Deploywill be added to the team. |
 | addTeamToResource | [required] Team name or ID[optional] Resource name or ID | Add a resource to a team. If the resource is not passed as argument, all the resources available in UrbanCode Deploywill be added to the team. |
 | backup |  | Run a complete back up of UrbanCode Deploy. |
@@ -51,7 +43,6 @@ cd $UrbanCode PHP CLI php UrbanCode PHP CLI .php action argument
 | upgradeComponentTemplate | [required] Path to component template JSON file | Upgrade a component template from a JSON file. Creates the component template if missing in target UrbanCode Deployserver. |
 | ver |  | Prints information about UrbanCode PHP CLI version and supported UrbanCode Deployversions |
 | waitRequestCompletion | [required] ID of process request | Polls the request until its completed. Returns completion status. |
-
 
 
 |Back to ...||Latest Version|IBM UrbanCode PHP CLI Tool |||||

@@ -5,45 +5,30 @@ IBM Installation Manager - Overview
 # Overview
 
 
-
 ### Overview
 
 
 
 
- 
-
-
 The IBM Installation Manager plug-in for IBM UrbanCode Deploy includes steps that install, upgrade, and uninstall IBM Installation Manager. The plug-in also includes a step to run response files with IBM Installation Manager. To add the IBM Installation Manager plug-in step to processes, click **Installers > IBM > Installation Manager** in the step palette of the process editor.
-
 
 ### Installation
 
-
 No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
-
 
 ### History
 
-
 #### Version 4
-
 
 Initial GitHub Release
 
-
 #### Version 3
-
 
 This release adds support for installing, uninstalling, and upgrading IBM Installation Manager.
 
-
 #### Version 1
 
-
 Initial release of the standard version of the plug-in.
-
-
 
 
 |Back to ...||Latest Version|IBM Installation Manager ||

@@ -5,18 +5,12 @@ IBM Integration Bus (formerly WebSphere Message Broker) - CMP - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the WebSphere Message BrokerCMP plug-in
-
 
 * [Create Execution Group](#create_execution_group)
 * [Create Integration Node](#create_integration_node)
@@ -39,14 +33,9 @@ IBM Integration Bus (formerly WebSphere Message Broker) - CMP - Steps
 * [Stop Message Flows](#stop_message_flows)
 
 
-
-
 ### Create Execution Group
 
-
 Create execution groups, but only if they do not exist.
-
-
 
 
 | Name | Type | Description | Required |
@@ -66,13 +55,9 @@ Create execution groups, but only if they do not exist.
 | Use SSL | Boolean | Administration security authentication/authorization. This option is only available in IIB version 10. | No |
 | Username | String | Username for secure authentication. Explicit user authentication only available with IIB 10. | No |
 
-
 ### Create Integration Node
 
-
 Create an Integration Node (Broker). This command will create the WebSphere MQ queues required by the broker if they dont already exist.
-
-
 
 
 
@@ -85,13 +70,9 @@ Create an Integration Node (Broker). This command will create the WebSphere MQ q
 | Service Password | String | The password for the service user ID. This is only required for IIB version 9. | No |
 | Service User ID | String | The user ID under which the broker runs. This is only required for IIB version 9. | No |
 
-
 ### Create Or Update Configurable Service
 
-
 Create a configurable service if it doesnt exist. If it does, update its properties.
-
-
 
 
 | Name | Type | Description | Required |
@@ -114,13 +95,9 @@ Create a configurable service if it doesnt exist. If it does, update its propert
 | Use SSL | Boolean | Administration security authentication/authorization. This option is only available in IIB version 10. | No |
 | Username | String | Username for secure authentication. Explicit user authentication only available with IIB 10. | No |
 
-
 ### Delete Applications
 
-
 Delete an application or multiple applications deployed to an execution group by name.
-
-
 
 
 
@@ -143,13 +120,9 @@ Delete an application or multiple applications deployed to an execution group by
 | Use SSL | Boolean | Administration security authentication/authorization. This option is only available in IIB version 10. | No |
 | Username | String | Username for secure authentication. Explicit user authentication only available with IIB 10. | No |
 
-
 ### Delete BAR File Contents
 
-
 Delete all contents that have been deployed using a BAR file name that matches the given regular expression. Useful for deploying into shared execution groups.
-
-
 
 
 
@@ -172,13 +145,9 @@ Delete all contents that have been deployed using a BAR file name that matches t
 | Use SSL | Boolean | Administration security authentication/authorization. This option is only available in IIB version 10. | No |
 | Username | String | Username for secure authentication. Explicit user authentication only available with IIB 10. | No |
 
-
 ### Delete Configurable Service
 
-
 Delete a configurable service.
-
-
 
 
 | Name | Type | Description | Required |
@@ -199,13 +168,9 @@ Delete a configurable service.
 | Use SSL | Boolean | Administration security authentication/authorization. This option is only available in IIB version 10. | No |
 | Username | String | Username for secure authentication. Explicit user authentication only available with IIB 10. | No |
 
-
 ### Delete Execution Group
 
-
 Delete the specified execution group from the broker. This will also remove any resources used by the execution group.
-
-
 
 
 
@@ -226,13 +191,9 @@ Delete the specified execution group from the broker. This will also remove any 
 | Use SSL | Boolean | Administration security authentication/authorization. This option is only available in IIB version 10. | No |
 | Username | String | Username for secure authentication. Explicit user authentication only available with IIB 10. | No |
 
-
 ### Delete Integration Node
 
-
 Delete an Integration Node (Broker).
-
-
 
 
 | Name | Type | Description | Required |
@@ -242,13 +203,9 @@ Delete an Integration Node (Broker).
 | IIB Installation Directory | String | The installation directory of the IIB server. (e.g. /opt/ibm/server) | Yes |
 | Integration Node (Broker) | String | The name of the integration node to create. | Yes |
 
-
 ### Deploy
 
-
 Deploy a Broker Archive. This step will set the output property completionCode, representing the last completion code returned from the broker during deployment.
-
-
 
 
 
@@ -260,7 +217,7 @@ Deploy a Broker Archive. This step will set the output property completionCode, 
 * full
 * incremental
 * ``${p?:iib.deployType}``
- | Specify either an incremental or full deployment. You may specify the ``${p?:iib.deployType}`` option and set the iib.deployType property to either incremental or full at any level in the property hierarchy. | No |
+| Specify either an incremental or full deployment. You may specify the ``${p?:iib.deployType}`` option and set the iib.deployType property to either incremental or full at any level in the property hierarchy. | No |
 | Environment Variables | String | A file or list containing property entries, with each entry delimited by newlines. Entries must be in the form VAR=VALUE (i.e. java.library.path=/opt/mqm/java/lib64: /opt/mqm/java/lib). Implemented to support z/OS using an ENVFILE. | No |
 | Execution Groups | String | Comma or new line separated list of Execution Groups to Deploy to. | Yes |
 | IBM Integration Bus Version | String | Enter the version of the installed IBM Integration Bus. This determines which API will be required. For example: 10.0.0.1 | Yes |
@@ -276,13 +233,9 @@ Deploy a Broker Archive. This step will set the output property completionCode, 
 | Use SSL | Boolean | Administration security authentication/authorization. This option is only available in IIB version 10. | No |
 | Username | String | Username for secure authentication. Explicit user authentication only available with IIB 10. | No |
 
-
 ### Does Execution Group Exist
 
-
 Sets an output property named exists with true or false based on the existence of the specified Execution Group.
-
-
 
 
 
@@ -304,13 +257,9 @@ Sets an output property named exists with true or false based on the existence o
 | Use SSL | Boolean | Administration security authentication/authorization. This option is only available in IIB version 10. | No |
 | Username | String | Username for secure authentication. Explicit user authentication only available with IIB 10. | No |
 
-
 ### Override Bar Properties
 
-
 Overrides configuration properties inside a Broker Archive file. This step is not compatible with WebSphere Message Broker version 7.
-
-
 
 
 
@@ -326,16 +275,12 @@ Overrides configuration properties inside a Broker Archive file. This step is no
 * fastFail
 * bestEffort
 * warn
- | Choice of action when overrides fail on a particular bar file. (Fast Fail: Step will fail right away. Best Effort: Step will attempt to override properties on all bar files, and will fail at the end if any override failures occurred. Useful to pinpoint which bar files are invalid. Warn: Step will continue on if an override failure occurs, and print a warning declaring the bar file that failed.) | No |
+| Choice of action when overrides fail on a particular bar file. (Fast Fail: Step will fail right away. Best Effort: Step will attempt to override properties on all bar files, and will fail at the end if any override failures occurred. Useful to pinpoint which bar files are invalid. Warn: Step will continue on if an override failure occurs, and print a warning declaring the bar file that failed.) | No |
 | Properties | String | A new line separated list of properties to set in the format name=value, or a Property file. (You must specify either Properties or a Properties File, not both) | Yes |
-
 
 ### Restart Execution Groups
 
-
 Restart execution groups if they exist on the broker.
-
-
 
 
 | Name | Type | Description | Required |
@@ -355,13 +300,9 @@ Restart execution groups if they exist on the broker.
 | Use SSL | Boolean | Administration security authentication/authorization. This option is only available in IIB version 10. | No |
 | Username | String | Username for secure authentication. Explicit user authentication only available with IIB 10. | No |
 
-
 ### Set Execution Group Properties
 
-
 Set runtime properties for an execution group.
-
-
 
 
 | Name | Type | Description | Required |
@@ -382,13 +323,9 @@ Set runtime properties for an execution group.
 | Use SSL | Boolean | Administration security authentication/authorization. This option is only available in IIB version 10. | No |
 | Username | String | Username for secure authentication. Explicit user authentication only available with IIB 10. | No |
 
-
 ### Set Integration Node Properties
 
-
 Set Runtime Properties for the Integration Node (broker).
-
-
 
 
 | Name | Type | Description | Required |
@@ -408,13 +345,9 @@ Set Runtime Properties for the Integration Node (broker).
 | Use SSL | Boolean | Administration security authentication/authorization. This option is only available in IIB version 10. | No |
 | Username | String | Username for secure authentication. Explicit user authentication only available with IIB 10. | No |
 
-
 ### Set Message Flows Properties
 
-
 Sets runtime properties on a list of message flows.
-
-
 
 
 | Name | Type | Description | Required |
@@ -438,29 +371,21 @@ Sets runtime properties on a list of message flows.
 | Use SSL | Boolean | Administration security authentication/authorization. This option is only available in IIB version 10. | No |
 | Username | String | Username for secure authentication. Explicit user authentication only available with IIB 10. | No |
 
-
 ### Start Integration Node
-
 
 Start an Integration Node (Broker).
 
 
-
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | IIB Installation Directory | String | The installation directory of the IIB server. (e.g. /opt/ibm/server) | Yes |
 | Integration Node (Broker) | String | The name of the integration node to create. | Yes |
 
-
 ### Start Message Flows
-
 
 Start Message Flows that are stopped.
 
 
-
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Channel | String | The name of the channel to use. Must be defined on the queue manager. Specify this value if you are using below version 10 of IIB. | No |
@@ -479,13 +404,9 @@ Start Message Flows that are stopped.
 | Use SSL | Boolean | Administration security authentication/authorization. This option is only available in IIB version 10. | No |
 | Username | String | Username for secure authentication. Explicit user authentication only available with IIB 10. | No |
 
-
 ### Stop Integration Node
 
-
 Stop an Integration Node (Broker).
-
-
 
 
 | Name | Type | Description | Required |
@@ -493,13 +414,9 @@ Stop an Integration Node (Broker).
 | IIB Installation Directory | String | The installation directory of the IIB server. (e.g. /opt/ibm/server) | Yes |
 | Integration Node (Broker) | String | The name of the integration node to create. | Yes |
 
-
 ### Stop Message Flows
 
-
 Stop Message Flows that are running.
-
-
 
 
 | Name | Type | Description | Required |
@@ -519,8 +436,6 @@ Stop Message Flows that are running.
 | Trace File | String | The file to use for trace logging. If not set trace logging will be disabled. | No |
 | Use SSL | Boolean | Administration security authentication/authorization. This option is only available in IIB version 10. | No |
 | Username | String | Username for secure authentication. Explicit user authentication only available with IIB 10. | No |
-
-
 
 
 

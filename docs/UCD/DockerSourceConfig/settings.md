@@ -5,43 +5,28 @@ Docker Registry - Settings
 # Settings
 
 
-
 ### Settings
-
-
-
 
 
 
 ### Process steps in the Docker plug-in
 
-
 * [Import Version](#import_version)
-
-
 
 
 ### Import Version
 
-
 Creates a new component version for a tag
-
 
 This step has no input properties.
 
 
-
-
 ### Roles in the Docker plug-in
-
 
 * [DockerTagImport](#dockertagimport_role)
 
 
-
 ### DockerTagImport
-
-
 
 
 | Name | Type | Description |
@@ -61,8 +46,6 @@ This step has no input properties.
 | Registry Type | Enumeration: | Specify which API to connect with the Docker Registry. When using IBM Containers, provide IBM Cloud Credentials. For Amazon ECR, use AWS access key as username and secret key as password |
 | Registry Username | String | The username used to login to the Docker registry. For Amazon ECR, use access key |
 | Regular Expression for Tag Selection | String | Provide regular expression to select tags to create component versions for. |
-
-
 
 
 

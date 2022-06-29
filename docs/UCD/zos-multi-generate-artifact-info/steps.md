@@ -5,29 +5,20 @@ z/OS Multi Generate Artifact Information - Steps
 # Steps
 
 
-
 ### Steps
-
-
 
 
 
 Process steps in the zOS Multi Generate Artifact Information plug-in
 --------------------------------------------------------------------
 
-
 * [Generate Multiple Artifact Information](#generate_multiple_artifact_information)
-
-
 
 
 Generate Multiple Artifact Information
 --------------------------------------
 
-
 Generate multiple text information for selected version artifacts. The information is sent to the output properties for use by later steps. **Note:** Action filter is applicable only if **Backup** is enabled in **deploy data sets** step
-
-
 
 
 | Name | Type | Description | Required | Property Name |
@@ -46,10 +37,6 @@ Generate multiple text information for selected version artifacts. The informati
 
 
 
-
-
-
-
 |Back to ...||Latest Version|z/OS Multi Generate Artifact Information ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1132902](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-6.1132902.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1132902](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-6.1132902.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

@@ -5,18 +5,12 @@ CyberArk - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the CyberArk plug-in
-
 
 * [Authenticate Conjur](#authenticate_conjur)
 * [Get Password from CCP (Web Service)](#get_password_from_ccp_(web_service))
@@ -24,14 +18,9 @@ CyberArk - Steps
 * [Get Variable from Conjur](#get_variable_from_conjur)
 
 
-
-
 ### Authenticate Conjur
 
-
 Authenticate Conjur using API Key to get a short-lived access token
-
-
 
 
 | Name | Type | Description | Required |
@@ -44,17 +33,12 @@ Authenticate Conjur using API Key to get a short-lived access token
 | Ouput PropertyAccess Token | String | Process Request Property for storing the retrieved access token | Yes |
 | Proxy | String | Proxy, leave it blank if no proxy is needed | No |
 
-
 ### Get Password from CCP (Web Service)
 
 
+Retrieve a password from CyberArk AIM Central Credential Provider via an HTTP request.
 
- Retrieve a password from CyberArk AIM Central Credential Provider via an HTTP request.
-
-
- The Central Credential Provider is installed remote to the agent on a central IIS server. This step will set the prefix/username, <prefix>/address, and <prefix>/password properties at either the component process request level or the generic process request level.
-
-
+The Central Credential Provider is installed remote to the agent on a central IIS server. This step will set the prefix/username, <prefix>/address, and <prefix>/password properties at either the component process request level or the generic process request level.
 
 
 | Name | Type | Description | Required |
@@ -71,16 +55,11 @@ Authenticate Conjur using API Key to get a short-lived access token
 | Server URL | String | The URL of your CyberArk server. This property should be specified in the format https://<host:port>/AIMWebService/api/accounts. | Yes |
 | Trust Invalid Certificates | Boolean | Check this box to trust all SSL certificates on the agent machine. This will trust any certificate returned from the CyberArk server during connection. | No |
 
-
 ### Get Password from CP (CLI Utility)
-
 
 Retrieve a password from CyberArk AIM Credential Provider via the clipasswordsdk command line utillity on the agent machine. This step will set the CyberArk/username,
 
-
- CyberArk/address, and CyberArk/password properties at either the component process request level or the generic process request level.
-
-
+CyberArk/address, and CyberArk/password properties at either the component process request level or the generic process request level.
 
 
 
@@ -95,13 +74,9 @@ Retrieve a password from CyberArk AIM Credential Provider via the clipasswordsdk
 | Path | String | Full path to clipasswordsdk.E.g. /opt/CARKaim/sdk/clipasswordsdk | Yes |
 | Safe | String | Safe name | Yes |
 
-
 ### Get Variable from Conjur
 
-
 Get Variable from Conjur
-
-
 
 
 | Name | Type | Description | Required |
@@ -111,7 +86,7 @@ Get Variable from Conjur
 | Api Version | Enumeration:
 * v4
 * v5
- | Api Version | Yes |
+| Api Version | Yes |
 | Conjur URL | String | Url of Conjur, eg https://eval.conjur.org | Yes |
 | Ouput PropertyVariable | String | Process Request Property for storing the retrieved variable | Yes |
 | Proxy | String | Proxy, leave it blank if no proxy is needed | No |
@@ -119,8 +94,6 @@ Get Variable from Conjur
 
 
 
-
-
 |Back to ...||Latest Version|CyberArk |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[4.1098501](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/cyberark/cyberark-4.1098501.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|

@@ -2,34 +2,24 @@
 z/OS Management Facility
 ========================
 
+The z/OS Management Facility (zOSMF) plug-in provides functions to discover software instances provisioned by [z/OSMF Cloud Provisioning](https://www.ibm.com/systems/z/os/zos/features/zosmf/) or [z/OS Provisioning Toolkit](https://developer.ibm.com/mainframe/products/zospt/).
 
-The z/OS Management Facility (zOSMF) plug-in provides functions to discover software instances provisioned by [z/OSMF Cloud Provisioning](https://www.ibm.com/systems/z/os/zos/features/zosmf/) or [z/OS Provisioning Toolkit](https://developer.ibm.com/mainframe/products/zospt/). 
-
-
-The zOS Management Facility plug-in includes steps to create and manage z/OSMF workflows and software service templates. 
-
+The zOS Management Facility plug-in includes steps to create and manage z/OSMF workflows and software service templates.
 
 **Platform Support:**
-
 
 * z/OSMF Cloud Provisioning is available on z/OS V2R2 (PTF UI42847, UI46543), V2R1 (PTF UI43814) and later
 * This plug-in requires UrbanCode Deploy 6.2.0 or later.Specific resource icons for z/OS software instances are used in UrbanCode Deploy 6.2.6 and later
 
 
-
 Available Steps
 ---------------
 
+Create WorkflowCreate a workflow.
 
-Create WorkflowCreate a workflow. 
+Start WorkflowStart a workflow.
 
-
-Start WorkflowStart a workflow. 
-
-
-Run Published Software Service TemplateDefine input properties for the Run Published Software Service template. 
-
-
+Run Published Software Service TemplateDefine input properties for the Run Published Software Service template.
 
 
 

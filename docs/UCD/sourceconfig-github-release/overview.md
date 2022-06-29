@@ -5,61 +5,42 @@ GitHub-Release - Overview
 # Overview
 
 
-
 ### Overview
 
 
 
 
- 
-
-
 The Github Release plug-in automates importing artifacts from a GitHub repository. You can import ZIP and TAR archive files into your UrbanCode Deploy server. The plug-in creates a component version of release in the UrbanCode Deploy server for the specified release being imported. You can specify a specific version to import or use the default to import the latest version.
-
 
 When creating the component, youll supply information described on the Import Version step. After the component is created use the Components page in the user interface to import a version of the artifacts.
 
-
 This plug-in includes one step which has no input properties:
-
 
 * [Import Version](Steps/#import_version)
 
 
-
 ### Step palette
-
 
 To access this plug-in in the palette, click **Source and Repositories** > **GitHub Release**.
 
 
-
 ### Installation
-
 
 No special steps are required for installation. See [Installing plug-ins in UrbanCode](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode").
 
-
 ### History
-
 
 #### Version 3
 
-
 * PH24721 – GIT-RELEASE UCD PLUG-IN does not use BASE64-ENCODE forUSERNAME/ PASSWORD / AUTHENTICATION HEADER.
-
 
 #### Version 2
 
-
 * Fixing CVE:CVE-2019-4233.
-
 
 #### Version 1
 
-
 * Initial release of GitHub Release source configuration plugin.
-
 
 |Back to ...||Latest Version|GitHub-Release |||
 | :---: | :---: | :---: | :---: | :---: | :---: |

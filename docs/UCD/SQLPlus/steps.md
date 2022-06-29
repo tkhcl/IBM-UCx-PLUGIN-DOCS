@@ -5,31 +5,20 @@ Oracle SQLPlus - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the Oracle SQL\*Plus plug-in
-
 
 * [Run SQLPlus script](#run_sqlplus_script)
 * [SQLPlus through Control File](#sqlplus_through_control_file)
 
 
-
-
 ### Run SQLPlus script
 
-
 Run SQLPlus script
-
-
 
 
 | Name | Type | Description | Required |
@@ -46,16 +35,12 @@ Run SQLPlus script
 * true
 * false
 * ``${p?:skipSqlErrors}``
- | Ignore any PLS, SP2, and ORA errors encountered during script execution. Select True to skip error, or false to fail on errors. You may also select the parameterized value ``${p?:skipSqlErrors}``, which will look for the skipSqlErrors property in UCD. If the property isnt defined, the value will be false. | No |
+| Ignore any PLS, SP2, and ORA errors encountered during script execution. Select True to skip error, or false to fail on errors. You may also select the parameterized value ``${p?:skipSqlErrors}``, which will look for the skipSqlErrors property in UCD. If the property isnt defined, the value will be false. | No |
 | User name | String | The user name for the scripts to be run as. Leave this property blank, and specify Oracle Home, if you wish to use Oracle Wallet authentication. | No |
-
 
 ### SQLPlus through Control File
 
-
 Run SQLPlus scripts using control files for orchestration.
-
-
 
 
 | Name | Type | Description | Required |
@@ -66,11 +51,9 @@ Run SQLPlus scripts using control files for orchestration.
 | Mode | Enumeration:
 * check
 * deploy
- | Whether to do a deployment or just check that the control files match the valid syntax and all sql files are found. Both modes will do an initial check. | No |
+| Whether to do a deployment or just check that the control files match the valid syntax and all sql files are found. Both modes will do an initial check. | No |
 | Oracle Home | String | Optional field to specify the ORACLE\_HOME environment variable value. This field is required to authenticate through Oracle Wallet. | No |
 | SQLPlus Executable | String | The full path to the sqlplus executable scripts to be run or the command to run if it is on the path. | Yes |
-
-
 
 
 

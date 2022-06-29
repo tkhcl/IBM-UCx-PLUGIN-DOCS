@@ -5,22 +5,14 @@ IBM Business Process Manager (WebSphere BPM) - Settings
 # Settings
 
 
-
 ### Settings
 
 
 
 
- 
-
-
-
 ### Process properties in the WebSphere BPM plug-in
 
-
 ### IBM WebSphere BPM Component Properties
-
-
 
 
 | Name | Type | Description |
@@ -32,17 +24,12 @@ IBM Business Process Manager (WebSphere BPM) - Settings
 | Username | String | Username to authenticate with the WebSphere BPM server. |
 | WebSphere BPM URL | String | Base URL for the WebSphere BPM server. |
 
-
 ### IBM WebSphere BPM Import Properties
-
-
 
 
 | Name | Type | Description |
 | --- | --- | --- |
 | Snapshot Name | String | Specify a Snapshots name or acronym to import. |
-
-
 
 
 

@@ -5,32 +5,22 @@ Artifactory Source Config - Steps
 # Steps
 
 
-
 ### Steps
-
-
 
 
 
 Process steps in the Artifactory plug-in
 ----------------------------------------
 
-
 * [Import Version](#import_version)
-
-
 
 
 Import Version
 --------------
 
-
 Creates a new component version and imports artifacts from Artifactory.
 
-
 This step has no input properties.
-
-
 
 
 

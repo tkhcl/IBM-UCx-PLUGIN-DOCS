@@ -5,15 +5,11 @@ Linux System Tools - Usage
 # Usage
 
 
-
 ### Usage
 
 
 
-
-
 Use the Linx System Tools plug-in to complete a number of Linux administrator tasks.
-
 
 * Create users and groups.
 * Add users to groups.
@@ -23,13 +19,9 @@ Use the Linx System Tools plug-in to complete a number of Linux administrator ta
 * Change the file system table.
 
 
-
 ### **Step palette**
 
-
 To access this plug-in in the palette, click **System Utility** > **Linux** > **System Tools**.
-
-
 
 
 |Back to ...||Latest Version|Linux System Tools ||||

@@ -5,18 +5,12 @@ IBM UrbanCode Deploy Applications - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the IBM UrbanCode Deploy Applications plug-in
-
 
 * [Add Application To Team](#add_application_to_team)
 * [Add Component To Application](#add_component_to_application)
@@ -39,14 +33,9 @@ IBM UrbanCode Deploy Applications - Steps
 * [Run Application Process](#run_application_process)
 
 
-
-
 ### Add Application To Team
 
-
 Adds an application or a list of applications delimited by commas to a team for a given type classification.
-
-
 
 
 
@@ -56,13 +45,9 @@ Adds an application or a list of applications delimited by commas to a team for 
 | Team | String |  | Yes |
 | Type | String | The type classification to add. Leave blank to use the type Standard Application. | No |
 
-
 ### Add Component To Application
 
-
 Adds a component to an application.
-
-
 
 
 | Name | Type | Description | Required |
@@ -70,13 +55,9 @@ Adds a component to an application.
 | Application Name | String |  | Yes |
 | Component Name | String |  | Yes |
 
-
 ### Add Tag To Application
 
-
 Adds a tag to an application.
-
-
 
 
 | Name | Type | Description | Required |
@@ -84,26 +65,18 @@ Adds a tag to an application.
 | Application Name | String |  | Yes |
 | Tag Name | String |  | Yes |
 
-
 ### Check If Application Exists
 
-
 This step will succeed if the application exists and fail if it does not.
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Application | String |  | Yes |
 
-
 ### Check If Application Process Exists
 
-
 This step will succeed if the application process exists and fail if it does not.
-
-
 
 
 | Name | Type | Description | Required |
@@ -111,13 +84,9 @@ This step will succeed if the application process exists and fail if it does not
 | Application Name | String |  | Yes |
 | Application Process Name | String |  | Yes |
 
-
 ### Create Application
 
-
 Creates an application.
-
-
 
 
 | Name | Type | Description | Required |
@@ -127,13 +96,9 @@ Creates an application.
 | Default Notification Scheme | String | The notification scheme for this application(will default to none if not specified). | No |
 | Enforce Complete Snapshots | Boolean | Check this box if the application should require anexplicit version for each component. | No |
 
-
 ### Create Application From Template
 
-
 Creates an application from a template and add existing components. Supported by UCD v6.2.3.1 and greater.
-
-
 
 
 
@@ -148,26 +113,18 @@ Creates an application from a template and add existing components. Supported by
 | Template Name | String | The name of the template to use. If you are using an application template, either this field or Template ID are required. | No |
 | Template Version | String | The version of the template to use. Leave blank to use latest. | No |
 
-
 ### Create Application Process
 
-
 Creates an application process.
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | JSON body | String | JSON request body that represents the process to be created. | Yes |
 
-
 ### Create Application Property
 
-
 Creates a property for an application.
-
-
 
 
 | Name | Type | Description | Required |
@@ -177,13 +134,9 @@ Creates a property for an application.
 | Property Value | String | value of the property to set. | No |
 | Secure | Boolean | check if the property should be secure. | No |
 
-
 ### Create Multiple Applications
 
-
 Creates multiple applications using a JSON format. Outputs a comma delimited list of the application UUIDs that were created (application.ids). Supported by UCD v6.2.3.1 and greater.
-
-
 
 
 
@@ -191,13 +144,9 @@ Creates multiple applications using a JSON format. Outputs a comma delimited lis
 | --- | --- | --- | --- |
 | JSON File/Text | String | Specify a body of JSON text or a file to define Applications. Separate multiple JSON objects by using commas within an array, e.g. [{}``,{}``,{}``]. | Yes |
 
-
 ### Create Snapshot
 
-
 Create a snapshot for an environment, specifying the list of versions to include.
-
-
 
 
 | Name | Type | Description | Required |
@@ -207,13 +156,9 @@ Create a snapshot for an environment, specifying the list of versions to include
 | Snapshot Name | String |  | Yes |
 | Versions | String | A newline-separated list of versions to add to the snapshot. Each line must be of this format: [component name or ID]=[version name or ID] | Yes |
 
-
 ### Create Snapshot Of Environment
 
-
 Create a snapshot for an environment, specifying the list of versions to include.
-
-
 
 
 | Name | Type | Description | Required |
@@ -223,52 +168,36 @@ Create a snapshot for an environment, specifying the list of versions to include
 | Environment | String | Name or ID of the environment to base the snapshot on | Yes |
 | Snapshot Name | String |  | Yes |
 
-
 ### Delete Application
 
-
 Deletes an application
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Application | String | Name or ID of the application to delete | Yes |
 
-
 ### Get Application Details
 
-
 Retrieve basic configuration information about a application.
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Application | String | Application name or ID | Yes |
 
-
 ### Get Components in Application
 
-
 Get a list of components in an application.
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Application | String | Name or ID of the application | Yes |
 
-
 ### Get Environments in Application
 
-
 Get a list of environments in an application.
-
-
 
 
 | Name | Type | Description | Required |
@@ -277,13 +206,9 @@ Get a list of environments in an application.
 | Application | String | Name or ID of the application | Yes |
 | Inactive environments | Boolean | check if inactive environments should be included in the list. | No |
 
-
 ### Remove Component From Application
 
-
 Removes component(s) from an application
-
-
 
 
 | Name | Type | Description | Required |
@@ -291,13 +216,9 @@ Removes component(s) from an application
 | Application | String | Name or ID of the application from which the components are to be removed | Yes |
 | Components | String | Names or IDs of the components to be removed. Mention one component name per line. | Yes |
 
-
 ### Remove Tag from Application
 
-
 Removes a tag from an application.
-
-
 
 
 | Name | Type | Description | Required |
@@ -305,13 +226,9 @@ Removes a tag from an application.
 | Application Name | String |  | Yes |
 | Tag Name | String |  | Yes |
 
-
 ### Run Application Process
 
-
 Runs an application process.
-
-
 
 
 | Name | Type | Description | Required |
@@ -326,8 +243,6 @@ Runs an application process.
 
 
 
-
-
 |Back to ...||Latest Version|IBM UrbanCode Deploy Applications ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[84.1132353]()|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[84.1132353](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Application/ucd-uDeploy-Application-84.1132353.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

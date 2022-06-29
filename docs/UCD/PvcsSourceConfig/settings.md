@@ -5,25 +5,16 @@ PVCS - Settings
 # Settings
 
 
-
 ### Settings
 
 
 
 
- 
-
-
-
 ### Settings in the PVCS plug-in
-
 
 ### Create Component
 
-
 The following settings are available when you create a component by using the PVCS plug-in.
-
-
 
 
 | Name | Type | Description |
@@ -40,13 +31,9 @@ The following settings are available when you create a component by using the PV
 | Project Path | String | Path to the project. |
 | User | String |  |
 
-
 ### Import New Versions
 
-
 The following settings are available when you import new component versions by using the PVCS plug-in.
-
-
 
 
 | Name | Type | Description |
@@ -55,8 +42,6 @@ The following settings are available when you import new component versions by u
 | Label | String | Pull the latest files with this label. (Specify only one of these values) |
 | Promo Group | String | Pull the latest files in this promotion group. (Specify only one of these values) |
 | Version Name | String | Name of the resulting component version. |
-
-
 
 
 

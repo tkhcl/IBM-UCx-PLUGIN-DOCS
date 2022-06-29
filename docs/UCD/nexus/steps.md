@@ -5,30 +5,19 @@ Nexus - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the Nexus plug-in
-
 
 * [Download NuGet package](#download_nuget_package)
 
 
-
-
 ### Download NuGet package
 
-
 Download a NuGet package from a Nexus repository.
-
-
 
 
 | Name | Type | Description | Required |
@@ -37,8 +26,6 @@ Download a NuGet package from a Nexus repository.
 | Packages | String | A list of packages to download, separated by newline characters. Use the following format: repositoryName/packageID/packageVersion | Yes |
 | Repository Password | Password | The password to authenticate with Nexus. | No |
 | Repository Username | String | The user name to authenticate with Nexus. | No |
-
-
 
 
 

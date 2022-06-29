@@ -5,30 +5,20 @@ z/OS USS Utility - Steps
 # Steps
 
 
-
 ### Steps
-
-
-
 
 
 
 Process steps in the Replace Token USS plug-in
 ----------------------------------------------
 
-
 * [Replace Tokens USS](#replace_tokens_uss)
-
-
 
 
 Replace Tokens USS
 ------------------
 
-
 Replace tokens in files using properties.
-
-
 
 
 | Name | Type | Description | Required | Property Name |
@@ -43,8 +33,6 @@ Replace tokens in files using properties.
 | Property List | String | The property used to determine the tokens to replace in the target file. For example, if you specify ``${p:environment/allProperties}`` the names of all component environment properties are used as tokens and the property values as the replacements. Similarly, ``${p:component/allProperties}``,``${p:environment/allProperties}`` all components and component environment properties are used as tokens. The values specified on Start Token Delimiter and Property Prefix propeties apply. For example, if you specify @ for the start and end token delimiters and a property named token1 exists, the step searches for @token1@ to replace. | No | envPropValues |
 | Property Prefix | String | Specify a prefix to use to determine which properties are included in token replacement. Leave blank to include all properties. | No | propertyPrefix |
 | Start Token Delimiter | String | The start delimiter character used to identify tokens. | No | startDelimiter |
-
-
 
 
 

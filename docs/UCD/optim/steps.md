@@ -5,32 +5,21 @@ IBM InfoSphere Optim - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the InfoSphere Optim plug-in
-
 
 * [Convert Request](#convert_request)
 * [Extract Request](#extract_request)
 * [Insert Request](#insert_request)
 
 
-
-
 ### Convert Request
 
-
 Runs an convert request against a database to mask values.
-
-
 
 
 | Name | Type | Description | Required |
@@ -42,13 +31,9 @@ Runs an convert request against a database to mask values.
 | Override / Override File | String | Either the file name of an override file or the contents of an override file. | No |
 | Request Name | String | The name of the convert request stored in Optim. | Yes |
 
-
 ### Extract Request
 
-
 Runs an extract request against a database.
-
-
 
 
 | Name | Type | Description | Required |
@@ -60,13 +45,9 @@ Runs an extract request against a database.
 | Override / Override File | String | Either the file name of an override file or the contents of an override file. | No |
 | Request Name | String | The name of the extract request stored in Optim. | Yes |
 
-
 ### Insert Request
 
-
 Runs an insert request against a database.
-
-
 
 
 | Name | Type | Description | Required |
@@ -77,8 +58,6 @@ Runs an insert request against a database.
 | Output File | String | If specified, the output will be written to this file. | No |
 | Override / Override File | String | Either the file name of an override file or the contents of an override file. | No |
 | Request Name | String | The name of the insert request stored in Optim. | Yes |
-
-
 
 
 

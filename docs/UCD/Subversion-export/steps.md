@@ -5,30 +5,19 @@ Subversion-Export - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the Subversion-Export plug-in
-
 
 * [Svn Export](#svn_export)
 
 
-
-
 ### Svn Export
 
-
 Use this step to checkout or export data from the Subversion repository.
-
-
 
 
 | Name | Type | Description | Required |
@@ -41,8 +30,6 @@ Use this step to checkout or export data from the Subversion repository.
 | Repository Url | String | The base URL of the Subversion repository. | Yes |
 | Repository User Name | String | The user name to authenticate with the Subversion repository. | No |
 | Revision | String | Revision level to export. If nothing is specified for this property, the export is at the head level. | No |
-
-
 
 
 

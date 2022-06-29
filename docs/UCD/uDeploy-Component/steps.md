@@ -5,18 +5,12 @@ IBM UrbanCode Deploy Components - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the IBM UrbanCode Deploy Components plug-in
-
 
 * [Add Component To Team](#add_component_to_team)
 * [Check If Component Exists](#check_if_component_exists)
@@ -29,14 +23,9 @@ IBM UrbanCode Deploy Components - Steps
 * [Create Multiple Components](#create_multiple_comp)
 
 
-
-
 ### Add Component To Team
 
-
 Adds a component to a team for a given type classification.
-
-
 
 
 | Name | Type | Description | Required |
@@ -45,26 +34,18 @@ Adds a component to a team for a given type classification.
 | Team | String |  | Yes |
 | Type | String | The type classification to add. Leave blank to use the type Standard Component. | No |
 
-
 ### Check If Component Exists
 
-
 This step will succeed if the component exists and fail if it doesnt.
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Component | String |  | Yes |
 
-
 ### Create Component
 
-
 Creates a new component.
-
-
 
 
 | Name | Type | Description | Required |
@@ -75,7 +56,7 @@ Creates a new component.
 | Default Version Type | Enumeration:
 * Full
 * Incremental
- | The types of versions to create automatically upon import. | Yes |
+| The types of versions to create automatically upon import. | Yes |
 | Import Versions Automatically | Boolean | Check to import versions automatically. | No |
 | Source Config Properties | String | Insert properties to pass in for the source config plugin. One per line, name=value format. | No |
 | Source Config Type | Enumeration:
@@ -92,17 +73,13 @@ Creates a new component.
 * TFS
 * TFS\_SCM
 * uBuild
- | The source config plugin for this component. | Yes |
+| The source config plugin for this component. | Yes |
 | Template Name | String | If this component uses a template, enter its name here. | No |
 | Template Version | String | If this component uses a template version, enter the version number here. | No |
 
-
 ### Create Component Property
 
-
 Creates or sets an existing component property.
-
-
 
 
 | Name | Type | Description | Required |
@@ -112,65 +89,45 @@ Creates or sets an existing component property.
 | Property Value | String | value of the property to set. | No |
 | Secure? | Boolean | check if the property should be secure. | No |
 
-
 ### Delete Component
 
-
 Deletes a component
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Component | String | Name or ID of the component to delete | Yes |
 
-
 ### Get Applications Using Component
 
-
 Get a list of applications using a component name or ID.
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Component | String | Name or ID of the component | Yes |
 
-
 ### Get Component Details
 
-
 Retrieve basic configuration information about a component.
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Component | String | Component name or ID | Yes |
 
-
 ### Get Component Properties
 
-
 Retrieve the basic properties for a component.
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Component | String |  | Yes |
 
-
 ### Create Multiple Components
 
-
 Creates multiple components.
-
-
 
 
 | Name | Type | Description | Required |
@@ -179,8 +136,6 @@ Creates multiple components.
 
 
 
-
-
 |Back to ...||Latest Version|IBM UrbanCode Deploy Components ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[78.1132354]()|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[78.1132354](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Component/ucd-uDeploy-Component-78.1132354.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

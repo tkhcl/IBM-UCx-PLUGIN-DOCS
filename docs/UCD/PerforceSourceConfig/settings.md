@@ -5,27 +5,17 @@ Perforce Helix - Settings
 # Settings
 
 
-
 ### Settings
 
-
-
-
- 
 
 
 
 ### Settings in the Perforce Helix plug-in
 
 
-
-
 ### Create Component
 
-
 The following settings are available when you create a component by using the Perforce Helix plug-in.
-
-
 
 
 | Name | Type | Description |
@@ -38,8 +28,6 @@ The following settings are available when you create a component by using the Pe
 | Template | String | Template client specification. |
 | Text File Extensions | String | A comma-separated list of extensions of files to convert to a new character set on download. Use this field when the operating system that the files are deployed to requires a different character set than the operating system used when uploading files to the server. For example: txt,properties,log |
 | User | String |  |
-
-
 
 
 

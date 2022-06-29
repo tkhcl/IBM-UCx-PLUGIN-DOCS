@@ -5,18 +5,12 @@ IBM Operational Decision Manager (ODM) - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the IBM ODM plug-in
-
 
 * [Delete XOM](#delete_data_model)
 * [Delete Rule Archive](#delete_rule_archive)
@@ -27,14 +21,9 @@ IBM Operational Decision Manager (ODM) - Steps
 * [Set Property](#set_property)
 
 
-
-
 ### Delete XOM
 
-
 Delete a XOM from a Rule Execution Server.
-
-
 
 
 
@@ -46,13 +35,9 @@ Delete a XOM from a Rule Execution Server.
 | Resource | String | The resource to delete from the Rule Execution Server. Use the following format: xomName/xomVersion. | Yes |
 | User Name | String | The user name to use to log in to the Rule Execution Server console. | No |
 
-
 ### Delete Rule Archive
 
-
 Delete a ruleset or ruleapp archive from a Rule Execution Server.
-
-
 
 
 
@@ -64,13 +49,9 @@ Delete a ruleset or ruleapp archive from a Rule Execution Server.
 | Resource | String | The resource to delete from the Rule Execution Server. For a ruleset archive, use the following format: ruleAppName/ruleAppVersion/ruleSetName/ruleSetVersion. For a ruleapp archive, use the following format: ruleAppName/ruleAppVersion. | Yes |
 | User Name | String | The user name to use to log in to the Rule Execution Server console. | No |
 
-
 ### Deploy Data Model
 
-
 Deploy an XOM resource to a Rule Execution Server instance of IBM Operational Decision Manager.
-
-
 
 
 
@@ -83,13 +64,9 @@ Deploy an XOM resource to a Rule Execution Server instance of IBM Operational De
 | User Name | String | The user name to use to log in to the Rule Execution Server console. | No |
 | XOM File | String | The XOM resource (Java archive or .zip file) to deploy to the Rule Execution Server. | Yes |
 
-
 ### Deploy Rule Archive
 
-
 Deploy a RuleSet or RuleApp archive to IBM Operational Decision Manager.
-
-
 
 
 | Name | Type | Description | Required |
@@ -101,7 +78,7 @@ Deploy a RuleSet or RuleApp archive to IBM Operational Decision Manager.
 * REPLACE\_MERGING\_POLICY
 * ADD\_AT\_END\_RULESET\_MERGING\_POLICY
 * REPLACE\_RULESET\_MERGING\_POLICY
- | Select the merge policy to use to process the RuleApp archive to automatically assign the version. The policy supersedes any explicitly set values.. | No |
+| Select the merge policy to use to process the RuleApp archive to automatically assign the version. The policy supersedes any explicitly set values.. | No |
 | Password | Password | The password to use to log in to the Rule Execution Server console. | No |
 | Port | String | The port number of the Rule Execution Server console. | Yes |
 | RuleApp Archive | String | The full path to the RuleApp archive that contains the ruleset to deploy. | Yes |
@@ -114,15 +91,11 @@ Deploy a RuleSet or RuleApp archive to IBM Operational Decision Manager.
 * NONE
 * MAJOR\_VERSION\_POLICY
 * MINOR\_VERSION\_POLICY
- | Select the version policy to use to process the RuleApp archive to automatically assign the version. The policy supersedes any explicitly set values. | No |
-
+| Select the version policy to use to process the RuleApp archive to automatically assign the version. The policy supersedes any explicitly set values. | No |
 
 ### Fetch Rule Archive
 
-
 Fetch a ruleset or ruleapp archive from a Rule Execution Server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -133,13 +106,9 @@ Fetch a ruleset or ruleapp archive from a Rule Execution Server.
 | Resource | String | The resource to fetch from the Rule Execution Server. For a ruleset archive, use the following format: ruleAppName/ruleAppVersion/ruleSetName/ruleSetVersion. For a ruleapp archive, use the following format: ruleAppName/ruleAppVersion. If no version is specified, the highest will be fetched. | Yes |
 | User Name | String | The user name to use to log in to the Rule Execution Server console. | No |
 
-
 ### Fetch XOM
 
-
 Fetch a XOM resource from a Rule Execution Server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -150,13 +119,9 @@ Fetch a XOM resource from a Rule Execution Server.
 | Resource | String | The resource to fetch from the Rule Execution Server. Use the following format: xomName/xomVersion. If no version is specified, the highest will be fetched. | Yes |
 | User Name | String | The user name to use to log in to the Rule Execution Server console. | No |
 
-
 ### Set Property
 
-
 Create or update a property value for a RuleApp or RuleSet on a Rule Execution Server instance of IBM Operational Decision Manager.
-
-
 
 
 
@@ -170,8 +135,6 @@ Create or update a property value for a RuleApp or RuleSet on a Rule Execution S
 | Property Value | String | The new property value. | No |
 | Resource | String | The resource path for the property to be updated. For a ruleApp, use the format: ruleAppName/ruleAppVersion.For a ruleSet, use the format: ruleAppName/ruleAppVersion/ruleSetName/ruleSetVersion | Yes |
 | User Name | String | The user name to use to log in to the Rule Execution Server console. | No |
-
-
 
 
 

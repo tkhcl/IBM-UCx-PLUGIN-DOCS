@@ -5,13 +5,9 @@ Oracle WebLogic Application Deployment - Usage
 # Usage
 
 
-
 ### Usage
 
 
-
-
- 
 
 
 * [Before you begin](#before_you_begin)
@@ -19,30 +15,21 @@ Oracle WebLogic Application Deployment - Usage
 * [Examples](#example)
 
 
-
 ### **Before you begin**
 
-
-To use this plug-in, the Oracle WebLogic Server version 10g or later and agent must be installed. 
-
+To use this plug-in, the Oracle WebLogic Server version 10g or later and agent must be installed.
 
 
 ### **Step palette**
 
-
 To access this plug-in in the palette, click **Application Server** > **WebLogic** > **WebLogic Application Deployment**.
-
 
 
 ### **Example: Deploying an application on Oracle WebLogic Server**
 
-
 When you deploy an application using the WebLogic Application Server plug-in, you only need to use the [Deploy](https://www.urbancode.com/plugindoc/ibmucd/weblogic-application-server/3-489466/steps/#deploy) step:
 
-
 [![deployweblogic](deployweblogic.gif)](deployweblogic.gif)
-
-
 
 
 |Back to ...||Latest Version|Oracle WebLogic Application Deployment ||||

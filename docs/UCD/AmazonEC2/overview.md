@@ -5,23 +5,16 @@ Amazon EC2 - Overview
 # Overview
 
 
-
 ### Overview
 
 
 
 
- 
-
-
 The Amazon EC2 plug-in automates managing an Amazon Elastic Cloud (EC2) instance as a process step.
 
-
-Amazon EC2 provides scalable computing capacity on the Amazon Web Services (AWS) cloud. 
-
+Amazon EC2 provides scalable computing capacity on the Amazon Web Services (AWS) cloud.
 
 This plug-in includes these steps:
-
 
 * [Associate IPs](#associate_ips)
 * [Create Security Group](#steps)
@@ -32,25 +25,17 @@ This plug-in includes these steps:
 * [Terminate Instances](#terminate_instances)
 * [Wait for instances](#wait_for_instances)
 
-
 ### Compatibility
-
 
 This plug-in requires IBM UrbanCode Deploy version 6.0 or later.
 
-
 This plug-in runs on all operating systems that UrbanCode Deploy supports.
-
 
 This plug-in requires the Amazon AWS SDK v1.3.7 or later.
 
-
 ### Installation
 
-
 No special steps are required for installation. This plug-in is included with the installation of IBM Urban Code Deploy. If you have to install the plug-in again, see [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
-
-
 
 
 |Back to ...||Latest Version|Amazon EC2 ||||
