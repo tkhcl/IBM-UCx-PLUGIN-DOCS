@@ -2003,7 +2003,7 @@ Use the OpenShift source configuration plug-in to manually or automatically crea
 
 ---
 
-|Back to ...||OpenShift |Latest Version|
+|Back to ...||OpenShift Source|Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](OpenShiftSourceConfig/README.md)|[6.1034331](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/OpenShiftSourceConfig/OpenShiftSourceConfig-6.1034331.zip)|
 
@@ -2014,9 +2014,9 @@ OpenShift provides application lifecycle management functionality and DevOps too
 
 ---
 
-|Back to ...||OpenShift |Latest Version|
+|Back to ...||OpenShift Automation |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](OpenShiftSourceConfig/README.md)|[18.1108805](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/openshift/openshift-18.1108805.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](openshift/README.md)|[18.1108805](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/openshift/openshift-18.1108805.zip)|
 
 ## Oracle SQLPlus
 
