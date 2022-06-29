@@ -9,4 +9,4 @@ JUnit - Downloads
 
 |Back to ...||Latest Version|JUnit |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[0](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-junit/ucv-ext-junit-1.0.66.tar.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.66](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-junit/ucv-ext-junit-1.0.66.tar.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|
