@@ -190,7 +190,6 @@ Contents
 	- [SAP Change and Transport System (CTS)](#sap-change-and-transport-system-cts)
 	- [SQL-JDBC](#sql-jdbc)
 	- [Salesforce](#salesforce)
-	- [Salesforce](#salesforce-1)
 	- [Selenium](#selenium)
 	- [Send SMTP Email](#send-smtp-email)
 	- [ServiceNow](#servicenow)
@@ -2216,17 +2215,6 @@ The SQL-JDBC plugin is a database-independent plug-in. It allows users to run SQ
 |Back to ...||SQL-JDBC |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](SQL-JDBC/README.md)|[12.1100867](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQL-JDBC/SQL-JDBC-12.1100867.zip)|
-
-## Salesforce
-
-
-The Salesforce plug-in for IBM UrbanCode Deploy uses the Force.com Migration Tool to perform file-based deployment of metadata changes and Apex classes. These artifacts typically progress through a lifecycle in which IBM UrbanCode Deploy environments are mapped to Salesforce.com organizations.
-
----
-
-|Back to ...||SalesForce |Latest Version|
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](SalesForce/README.md)|[9.1101988](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SalesForce/salesforce-9.1101988.zip)|
 
 ## Salesforce
 
