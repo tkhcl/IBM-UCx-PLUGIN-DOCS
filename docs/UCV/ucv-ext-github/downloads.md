@@ -4,19 +4,18 @@ GitHub - Downloads
 
 # Downloads
 
-- [ucv-ext-github:1.3.29.tar]()
-- [ucv-ext-github:1.2.25.tar]()
-- [ucv-ext-github:1.2.24.tar]()
-- [ucv-ext-github:1.1.22.tar]()
-- [ucv-ext-github:1.1.20.tar]()
-- [ucv-ext-github:1.1.18.tar]()
-- [ucv-ext-github:1.1.15.tar]()
-- [ucv-ext-github:1.1.9.tar]()
-- [ucv-ext-github:1.1.1.tar]()
-- [ucv-ext-github:1.0.49.tar]()
-- [ucv-ext-github:1.0.42.tar]()
-- [ucv-ext-github:1.0.40.tar]()
+- [ucv-ext-github-1.2.25.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github-1.2.25.tar.zip)
+- [ucv-ext-github-1.2.24.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github-1.2.24.tar.zip)
+- [ucv-ext-github-1.1.9.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github-1.1.9.tar.zip)
+- [ucv-ext-github-1.1.22.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github-1.1.22.tar.zip)
+- [ucv-ext-github-1.1.20.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github-1.1.20.tar.zip)
+- [ucv-ext-github-1.1.18.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github-1.1.18.tar.zip)
+- [ucv-ext-github-1.1.15.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github-1.1.15.tar.zip)
+- [ucv-ext-github-1.1.1.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github-1.1.1.tar.zip)
+- [ucv-ext-github-1.0.49.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github-1.0.49.tar.zip)
+- [ucv-ext-github-1.0.42.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github-1.0.42.tar.zip)
+- [ucv-ext-github-1.0.40.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github-1.0.40.tar.zip)
 
 |Back to ...||Latest Version|GitHub |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.3.29]()|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[0](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github-1.2.25.tar.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|
