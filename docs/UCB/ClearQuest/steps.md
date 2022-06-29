@@ -5,18 +5,12 @@ ClearQuest - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the ClearQuest plug-in
-
 
 * [Add Comment](#add_comment)
 * [Create Defect](#create_defect)
@@ -24,14 +18,9 @@ ClearQuest - Steps
 * [Resolve Issue](#resolve_issue)
 
 
-
-
 ### Add Comment
 
-
 Add Comments from the current changelog to matching ClearQuest Defects
-
-
 
 
 | Name | Type | Description | Required |
@@ -40,13 +29,9 @@ Add Comments from the current changelog to matching ClearQuest Defects
 | Comment | String | The content of the comment. | Yes |
 | Defect ID | String | The ID of the defect to place the comment on. | Yes |
 
-
 ### Create Defect
 
-
 Create a new defect in a ClearQuest Defect Tracker
-
-
 
 
 | Name | Type | Description | Required |
@@ -59,13 +44,9 @@ Create a new defect in a ClearQuest Defect Tracker
 | Priority | String | The priority level of the defect. | No |
 | Severity | String | The severity level of the defect. | Yes |
 
-
 ### Publish Defect Report
 
-
 Create a Report of ClearQuest defects from the current changelog
-
-
 
 
 | Name | Type | Description | Required |
@@ -73,13 +54,9 @@ Create a Report of ClearQuest defects from the current changelog
 | ClearQuest Server |  | The ClearQuest server. This may be configured under the System tab. | Yes |
 | Defect ID Pattern | String | This is a regular expression to locate ClearQuest-defect ids within changelog comments.You may add () around the portion of the pattern which identifies the actual Issue ID. The pattern TST-[0-9]+ would match (returning the same string as issue ids) TST-1 and TST-932415, but not match TST-a, TST-, or TST.1. The pattern Issue:\[(TST-[0-9]+)\] would match Issue:[TST-1] using issue id TST-1 | Yes |
 
-
 ### Resolve Issue
 
-
 Resolve a ClearQuest Defect
-
-
 
 
 | Name | Type | Description | Required |
@@ -89,22 +66,15 @@ Resolve a ClearQuest Defect
 | Resolution | String | The resolution which resolved the issue. | No |
 
 
-
-
 ### Roles in the ClearQuest plug-in
 
-
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
-
 
 
 * [ClearQuest Server](#clearquest_server_role)
 
 
-
 ### ClearQuest Server
-
-
 
 
 | Name | Type | Description |
@@ -116,8 +86,6 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | Password | Password | The user password. |
 | Scripted Password | String | If you would prefer to resolve the password with a script, enter it here. |
 | Username | String | The username to connect to the ClearQuest database. |
-
-
 
 
 

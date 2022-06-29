@@ -5,20 +5,14 @@ Salesforce - Steps
 # Steps
 
 
-
 ### Steps
 
-
-
-
- 
 
 
 
 
 Process steps in the SalesForce plug-in
 ---------------------------------------
-
 
 * [Bulk Retrieve](#bulk_retrieve)
 * [Deploy](#deploy)
@@ -28,15 +22,10 @@ Process steps in the SalesForce plug-in
 * [Retrieve](#retrieve)
 
 
-
-
 Bulk Retrieve
 -------------
 
-
 Download a large number of components of a single metadata type into a set of local files..
-
-
 
 
 | Name | Type | Description | Required |
@@ -51,14 +40,10 @@ Download a large number of components of a single metadata type into a set of lo
 | Salesforce |  | Select a Salesforce server from the list or specify a property whose value is the property sheet UUID of the relevant Salesforce integration. | Yes |
 | Unzip | String | If set to true, the retrieved components are unzipped. If set to false, the retrieved components are saved as a zip file in the retrieveTarget directory. | No |
 
-
 Deploy
 ------
 
-
 Deploy components, code, or recent validations into your org.
-
-
 
 
 | Name | Type | Description | Required |
@@ -73,17 +58,13 @@ Deploy components, code, or recent validations into your org.
 * RunSpecifiedTests
 * RunLocalTests
 * RunAllTestsInOrg
- | Specifies which tests are run as part of a deployment. The test level is enforced regardless of the types of components that are present in the deployment package. | No |
+| Specifies which tests are run as part of a deployment. The test level is enforced regardless of the types of components that are present in the deployment package. | No |
 | Test Names | String | Ignored if ‘Test Level’ not set to ‘RunSpecifiedTests’.A list of Apex classes containing tests run after deployment. Separate each test with a new line. | No |
-
 
 Deploy Recent Validation
 ------------------------
 
-
 Deploy recently validated components.
-
-
 
 
 | Name | Type | Description | Required |
@@ -94,14 +75,10 @@ Deploy recently validated components.
 | Salesforce |  | Select a Salesforce server from the list or specify a property whose value is the property sheet UUID of the relevant Salesforce integration. | Yes |
 | Session ID | String | Required if username and password aren’t specified. The ID of an active Salesforce session or the OAuth access token. | No |
 
-
 Describe Metadata
 -----------------
 
-
 Describe and list all metadata types and their existing objects.
-
-
 
 
 | Name | Type | Description | Required |
@@ -110,14 +87,10 @@ Describe and list all metadata types and their existing objects.
 | Jar Path | String | Path to the Salesforce jar (ex. lib/ant-salesforce.jar) | Yes |
 | Salesforce |  | Select a Salesforce server from the list or specify a property whose value is the property sheet UUID of the relevant Salesforce integration. | Yes |
 
-
 List Metadata
 -------------
 
-
 List information on a given metadata type.
-
-
 
 
 | Name | Type | Description | Required |
@@ -130,14 +103,10 @@ List information on a given metadata type.
 | Salesforce |  | Select a Salesforce server from the list or specify a property whose value is the property sheet UUID of the relevant Salesforce integration. | Yes |
 | Trace | String | The path of the output file where results are stored. The default output is the console. Directing the output to a file makes it easier to extract the relevant information for your package.xml manifest file. | No |
 
-
 Retrieve
 --------
 
-
 Retrieve unpackaged, managed or unmanaged packages.
-
-
 
 
 | Name | Type | Description | Required |
@@ -149,29 +118,22 @@ Retrieve unpackaged, managed or unmanaged packages.
 * retrievePkg
 * retrieveOutput
 * retrieveUnpackaged
- | The type of component to retrieve. | Yes |
+| The type of component to retrieve. | Yes |
 | Salesforce |  | Select a Salesforce server from the list or specify a property whose value is the property sheet UUID of the relevant Salesforce integration. | Yes |
 | Unpackaged | String | Required if ‘Unpackaged’ is specified. The path and name of a file manifest that specifies the components to retrieve. You must specify either Unpackaged or Package Names, but not both. (i.e. codepkg/package.xml) | No |
-
-
 
 
 Roles in the SalesForce plug-in
 -------------------------------
 
-
 The plug-in adds these property groups automatically to resources. You cannot add these property groups manually.
-
 
 
 * [Salesforce](#salesforce_role)
 
 
-
 Salesforce
 ----------
-
-
 
 
 | Name | Type | Description |
@@ -179,9 +141,6 @@ Salesforce
 | Password | Password | SFDC Password. This may need to be appended with an authentication token if this agent resides outside of the trusted domain. See SalesForce documentation for further detail. |
 | SalesForce Server URL | String | SFDC Server URL (i.e. https://na17.salesforce.com) |
 | User | String | SFDC User Name |
-
-
-
 
 
 

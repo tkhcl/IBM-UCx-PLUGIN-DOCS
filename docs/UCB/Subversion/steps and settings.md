@@ -5,18 +5,12 @@ Subversion for IBM UrbanCode Build - Steps and Settings
 # Steps and Settings
 
 
-
 ### Steps and Settings
 
 
 
 
- 
-
-
-
 ### Process steps in the Subversion plug-in
-
 
 * [Svn Changelog](#svn_changelog)
 * [Svn Checkout](#svn_checkout)
@@ -25,14 +19,9 @@ Subversion for IBM UrbanCode Build - Steps and Settings
 * [Svn Tag](#svn_tag)
 
 
-
-
 ### Svn Changelog
 
-
 Perform a Subversion changelog and publish the results.
-
-
 
 
 | Name | Type | Description | Required |
@@ -42,13 +31,9 @@ Perform a Subversion changelog and publish the results.
 | Start Date | String | The begin date to include in the changelog. Use the one of the following formats:`yyyy-MM-dd HH:mm:ss z`, `E MMM dd HH:mm:ss zzz yyyy`, or milliseconds since the Unix Epoch. | No |
 | Start Revision | String | The revision level to start the changelog. | No |
 
-
 ### Svn Checkout
 
-
 Checkout or export code from a Subversion repository.
-
-
 
 
 | Name | Type | Description | Required |
@@ -57,13 +42,9 @@ Checkout or export code from a Subversion repository.
 | Date | String | The date of the source code to checkout. Use the one of the following formats: `yyyy-MM-dd HH:mm:ss z`, `E MMM dd HH:mm:ss zzz yyyy`, or milliseconds since the Unix Epoch. | No |
 | Tag | String | The revision level of the source code to check out. | No |
 
-
 ### Svn Cleanup
 
-
 Perform a cleanup of the Subversion working directory.
-
-
 
 
 
@@ -71,13 +52,9 @@ Perform a cleanup of the Subversion working directory.
 | --- | --- | --- | --- |
 | Source Config |  |  | No |
 
-
 ### Svn Quiet Period
 
-
 Perform a Subversion changelog for a quiet period detection and publish the results.
-
-
 
 
 
@@ -88,13 +65,9 @@ Perform a Subversion changelog for a quiet period detection and publish the resu
 | Start Date | String | The date to start including data in the changelog.Use one of the following formats:`yyyy-MM-dd HH:mm:ss z`, `E MMM dd HH:mm:ss zzz yyyy`, or milliseconds since the Unix Epoch. | No |
 | Start Revision | String | The beginning revision level to include in the changelog. | No |
 
-
 ### Svn Tag
 
-
 Create a branch or tag in Subversion of the specified branch, tag, or date.
-
-
 
 
 
@@ -106,10 +79,7 @@ Create a branch or tag in Subversion of the specified branch, tag, or date.
 | Tag | String | The name of the tag you are creating. | No |
 
 
-
- The following settings are available when you import component versions by using the Subversion plug-in.
-
-
+The following settings are available when you import component versions by using the Subversion plug-in.
 
 
 | Name | Type | Description |
@@ -123,8 +93,6 @@ Create a branch or tag in Subversion of the specified branch, tag, or date.
 
 
 
-
-
 | Name | Type | Description |
 | --- | --- | --- |
 | Directory Offset | String | Override the root directory of the template to an offset from the current job working directory. You can use a period(.) for the current job working directory. Leave this property blank to have the job working directory changed to the predefined root directory of the template. |
@@ -135,8 +103,6 @@ Create a branch or tag in Subversion of the specified branch, tag, or date.
 | Repository |  | The name of the repository to use. |
 | Source | String | The path to the project source relative to the repository URL. |
 | Tags | String | The path to the project tags directory relative to the repository URL. |
-
-
 
 
 

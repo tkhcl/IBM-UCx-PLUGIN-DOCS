@@ -5,30 +5,19 @@ Selenium for IBM UrbanCode Build - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the Selenium plug-in
-
 
 * [Run Test Suite](#run_test_suite)
 
 
-
-
 ### Run Test Suite
 
-
 Run a Selenium test suite
-
-
 
 
 | Name | Type | Description | Required |
@@ -40,8 +29,6 @@ Run a Selenium test suite
 | Test Results | String | The fully-qualified path of the test results file. For example: `C:\Documents\testResults.html`. | Yes |
 | Test Suite | String | The fully-qualified path to the HTML suite file. For example: `C:\Documents\testSuite.html`. | Yes |
 | Web Browser | String | The web browser to run the tests. For example: `*firefox`. For list of supported browsers, see the Selenium website. | Yes |
-
-
 
 
 

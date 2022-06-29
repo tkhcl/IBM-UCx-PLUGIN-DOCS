@@ -5,18 +5,12 @@ Rational Team Concert SCM - Steps and Settings
 # Steps and Settings
 
 
-
 ### Steps and Settings
 
 
 
 
- 
-
-
-
 ### Process steps in the Rational Team Concert plug-in
-
 
 * [RTC Changelog](#rtc_changelog)
 * [RTC Checkout](#rtc_checkout)
@@ -25,14 +19,9 @@ Rational Team Concert SCM - Steps and Settings
 * [RTC Quiet Period](#rtc_quiet_period)
 
 
-
-
 ### RTC Changelog
 
-
 Create a RTC changelog. The default timeframe for creating the changelog is between the previous BuildLife and the current BuildLife.
-
-
 
 
 
@@ -40,25 +29,17 @@ Create a RTC changelog. The default timeframe for creating the changelog is betw
 | --- | --- | --- | --- |
 | Start BuildLife ID | String | The BuildLife ID to begin the changelog. | No |
 
-
 ### RTC Checkout
-
 
 Checkout source from the RTC repository. There are no input properties for this step.
 
-
 ### RTC Cleanup
-
 
 Clean the current working directory. There are no input properties for this step.
 
-
 ### RTC Create Baseline
 
-
 Create a baseline in RTC.
-
-
 
 
 | Name | Type | Description | Required |
@@ -66,13 +47,9 @@ Create a baseline in RTC.
 | Label | String | The name of the baseline. | Yes |
 | Message | String | A description of the baseline. | No |
 
-
 ### RTC Quiet Period
 
-
 Check the RTC history for quiet period detection and publish the results.
-
-
 
 
 | Name | Type | Description | Required |
@@ -81,20 +58,14 @@ Check the RTC history for quiet period detection and publish the results.
 | Start Date | String | Start the changelog at the specified date. Enter the date in one of the following formats: `yyyy-MM-dd HH:mm:ss z`, `E MMM dd HH:mm:ss zzz yyyy`, or in milliseconds since Unix Epoch. | No |
 
 
-
 ### Settings in the Rational Team Concert SCM plug-in
 
-
-The following settings are available when you import component versions by using the Rational Team Concert SCM plug-in. 
-
+The following settings are available when you import component versions by using the Rational Team Concert SCM plug-in.
 
 * [RTC Repository](#rtc_repository_role)
 * [RTC Source Config](#rtc_source_config_role)
 
-
 ### RTC Repository
-
-
 
 
 | Name | Type | Description |
@@ -106,14 +77,10 @@ The following settings are available when you import component versions by using
 | RTC Server URL | String | The fully-qualified URL of the RTC server. For example, `https://www.mycompany.com:9443/jazz`. |
 | RTC User Name | String | The user name to use to connect to the RTC server. |
 
-
 ### RTC Source Config
 
 
-
- This is an RTC source configuration.
-
-
+This is an RTC source configuration.
 
 
 | Name | Type | Description |
@@ -131,8 +98,6 @@ The following settings are available when you import component versions by using
 | Snapshot | String | Specify a snapshot name or alias to build from a snapshot. |
 | Stream | String | The name or alias of the default flow target stream for the workspace. |
 | Workspace Name | String | The name of the workspace to use. If the workspace does not exist, it is created. You can use an alias for existing workspaces. |
-
-
 
 
 

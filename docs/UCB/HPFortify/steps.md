@@ -5,18 +5,12 @@ HP Fortify - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the HP Fortify plug-in
-
 
 * [Fortify Build](#fortify_build)
 * [Fortify Clean](#fortify_clean)
@@ -24,14 +18,9 @@ HP Fortify - Steps
 * [Fortify Upload](#fortify_upload)
 
 
-
-
 ### Fortify Build
 
-
 Run a build using Fortify
-
-
 
 
 | Name | Type | Description | Required |
@@ -42,13 +31,9 @@ Run a build using Fortify
 | Java Memory Setting | String | An optional argument given to the HP Fortify scan to allocate its maximum memory. Example: -Xmx1200m | No |
 | SourceAnalyzer Options | String | A list of new-line or space separated options to add to the SourceAnalyzer command. Example: -64 | No |
 
-
 ### Fortify Clean
 
-
-Run a clean with the Fortify SourceAnalyzer 
-
-
+Run a clean with the Fortify SourceAnalyzer
 
 
 | Name | Type | Description | Required |
@@ -58,13 +43,9 @@ Run a clean with the Fortify SourceAnalyzer
 | Java Memory Setting | String | An optional argument given to the HP Fortify scan to allocate its maximum memory. Example: -Xmx1200m | No |
 | SourceAnalyzer Options | String | A list of new-line or space separated options to add to the SourceAnalyzer command. Example: -64 | No |
 
-
 ### Fortify Scan
 
-
 Run a scan using Fortify and upload the results to uBuild
-
-
 
 
 | Name | Type | Description | Required |
@@ -76,13 +57,9 @@ Run a scan using Fortify and upload the results to uBuild
 | Scan File | String | The output file of the scan. The file name must be in FVDL format. | Yes |
 | SourceAnalyzer Options | String | A list of new-line or space separated options to add to the SourceAnalyzer command. Example: -64 | No |
 
-
 ### Fortify Upload
 
-
 Upload the Fortify scan output to the HP Fortify and uBuild servers
-
-
 
 
 | Name | Type | Description | Required |
@@ -94,22 +71,15 @@ Upload the Fortify scan output to the HP Fortify and uBuild servers
 | Version | String | The Project Version name in the HP Fortify server to upload results to. | Yes |
 
 
-
-
 ### Roles in the HP Fortify plug-in
 
-
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
-
 
 
 * [HP Fortify Configuration](#hp_fortify_configuration_role)
 
 
-
 ### HP Fortify Configuration
-
-
 
 
 | Name | Type | Description |
@@ -119,8 +89,6 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | Password | Password | Password to login to the HP Fortify server |
 | Server URL | String | URL to the HP Fortify server web interface. This should include protocol and port if needed. Eg. http://fortify.example.com:8080 |
 | Username | String | Username to login to the HP Fortify server |
-
-
 
 
 

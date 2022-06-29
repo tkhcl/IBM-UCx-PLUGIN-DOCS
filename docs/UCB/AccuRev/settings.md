@@ -5,19 +5,12 @@ AccuRev - Settings
 # Settings
 
 
-
 ### Settings
 
 
 
 
- 
-
-
-
-The following settings are available when you import component versions by using the AccuRev plug-in. 
-
-
+The following settings are available when you import component versions by using the AccuRev plug-in.
 
 
 | Name | Type | Description |
@@ -30,8 +23,6 @@ The following settings are available when you import component versions by using
 | User Name | String | The user name to be used to connect to the AccuRev server. |
 
 
-
-
 | Name | Type | Description |
 | --- | --- | --- |
 | Directory Offset | String | The directory offset of the working directory for the current job. Use a period (.) to clone into the current working directory. |
@@ -41,8 +32,6 @@ The following settings are available when you import component versions by using
 | Repository |  | The AccuRev repository to be used. |
 | Revision | String | The version that is to be checked out. |
 | Stream | String | The stream that is to be checked out. |
-
-
 
 
 

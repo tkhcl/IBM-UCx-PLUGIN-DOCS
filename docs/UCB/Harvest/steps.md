@@ -5,18 +5,12 @@ CA Harvest SCM - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the Harvest plug-in
-
 
 * [Harvest Changelog](#harvest_changelog)
 * [Harvest Checkout](#harvest_checkout)
@@ -24,14 +18,9 @@ CA Harvest SCM - Steps
 * [Harvest Quiet Period](#harvest_quiet_period)
 
 
-
-
 ### Harvest Changelog
 
-
 Perform a Harvest changelog and publish the results.
-
-
 
 
 | Name | Type | Description | Required |
@@ -41,13 +30,9 @@ Perform a Harvest changelog and publish the results.
 | Source Config |  |  | No |
 | Start Date | String | Start changelog at this date. Will check the beginning of dd, so if you want the full day included add one day (mm/dd/yyy) | No |
 
-
 ### Harvest Checkout
 
-
 Perform a Harvest checkout of the workflows source
-
-
 
 
 | Name | Type | Description | Required |
@@ -56,26 +41,18 @@ Perform a Harvest checkout of the workflows source
 | Date | String | Date of sourcecode to checkout (yyyy-MM-dd HH:mm:ss z OR E MMM dd HH:mm:ss zzz yyyy OR milliseconds since Unix Epoch). Defaults to the current time. | No |
 | Source Config |  |  | No |
 
-
 ### Harvest Cleanup
 
-
 Perform a cleanup of the Harvest working directory
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Source Config |  |  | No |
 
-
 ### Harvest Quiet Period
 
-
 Perform a Harvest changelog for quiet period detection and publish most recent change date within the period.
-
-
 
 
 
@@ -86,26 +63,18 @@ Perform a Harvest changelog for quiet period detection and publish most recent c
 | Start Date | String | Start changelog at this date (yyyy-MM-dd HH:mm:ss z OR E MMM dd HH:mm:ss zzz yyyy OR milliseconds since Unix Epoch) | No |
 
 
-
-
 ### Roles in the Harvest plug-in
 
-
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
-
 
 
 * [Harvest Repository](#harvest_repository_role)
 * [Harvest Source Repo](#harvest_source_repo_role)
 
 
-
 ### Harvest Repository
 
-
 Global settings for accessing Harvest repositories.
-
-
 
 
 | Name | Type | Description |
@@ -116,17 +85,14 @@ Global settings for accessing Harvest repositories.
 | Repository Password | Password | The password to use for access to Harvest repositories |
 | Repository Username | String | The username to use for access to Harvest repositories |
 
-
 ### Harvest Source Repo
-
-
 
 
 | Name | Type | Description |
 | --- | --- | --- |
 | Checkout Includes | String | Files included for the checkout command. Wildcards are allowed. For example specify \*.js to include all .js files. |
 | Checkout Method | Enumeration:
- | The method used to checkout files. All methods with the exception of browse requires a package. Update:Copy items and reserve them for check in. Browse:Copy items but do not reserve them to be checked back in. Reserve Only:Do not copy any data but marks items as reserved to be checked back in. Synchronize: Identify the versions of the files on the client using the signature file. Concurrent Update: Copy items and reserve them for check in. The reserved version is created on a branch. |
+| The method used to checkout files. All methods with the exception of browse requires a package. Update:Copy items and reserve them for check in. Browse:Copy items but do not reserve them to be checked back in. Reserve Only:Do not copy any data but marks items as reserved to be checked back in. Synchronize: Identify the versions of the files on the client using the signature file. Concurrent Update: Copy items and reserve them for check in. The reserved version is created on a branch. |
 | Directory Offset | String | The directory offset from the current jobs working directory. Use a period (.) to clone into the current working directory. |
 | Exclude Filters | String | A list of usernames to exclude. |
 | File Filters | String | Restrict the changelog to the files matching the specified patterns. Specify each pattern on a new line.Start each line with a plus sign (+) to include or a minus sign (-) to exclude files matching the patterns. You can use asterick (\*), double-asterick (\*\*), and question mark (?) as wildcards in the pattern. |
@@ -137,8 +103,6 @@ Global settings for accessing Harvest repositories.
 | Snapshot | String | The name of the snapshot view. The state specified must have Snapshot Views enabled. |
 | State | String | The state in which the user is running the project. For example: Dev. |
 | View Path | String | The path to the Harvest repository in the Harvest server. For example: \TestRepo. |
-
-
 
 
 

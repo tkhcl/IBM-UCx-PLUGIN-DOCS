@@ -5,31 +5,20 @@ Cucumber - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the Cucumber plug-in
-
 
 * [Compile Step Definition](#compile_step_definition)
 * [Run Testing](#run_testing)
 
 
-
-
 ### Compile Step Definition
 
-
 Compile the step definitions.
-
-
 
 
 | Name | Type | Description | Required |
@@ -42,13 +31,9 @@ Compile the step definitions.
 | Step Definitions Base | String | The bases directory of the step definitions. For example, /opt/step\_definitions/. | Yes |
 | Step Definitions Include | String | The step definitions to include. Use the double-astrick(\*\*) to include all directories and the astrick(\*) to include all files. For example, the pattern dist/\*\*/\*.java retrieves the all JAVA files. | Yes |
 
-
 ### Run Testing
 
-
 Run the test scenarios.
-
-
 
 
 | Name | Type | Description | Required |
@@ -62,8 +47,6 @@ Run the test scenarios.
 | Step Definitions | String | The directory containing the step definitions. | Yes |
 | Strict | Boolean | Undefined and pending steps are treated as errors. | No |
 | Tags | String | Run test scenarios with the same tag as TAG\_EXPRESSION. | No |
-
-
 
 
 

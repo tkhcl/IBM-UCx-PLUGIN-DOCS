@@ -5,32 +5,21 @@ Xcode - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the Xcode plug-in
-
 
 * [Apple Generic Versioning](#apple_generic_versioning)
 * [Package Application](#package_application)
 * [Xcode Build](#xcode_build)
 
 
-
-
 ### Apple Generic Versioning
 
-
 Apply a marketing or technical version to a project using the agvtool command.
-
-
 
 
 | Name | Type | Description | Required |
@@ -39,13 +28,9 @@ Apply a marketing or technical version to a project using the agvtool command.
 | Version | String | The technical version to set. | No |
 | agvtool Path | String | The fully-qualified path of the agvtool command. | Yes |
 
-
 ### Package Application
 
-
 Package the application to a .ipa file using the xcrun tool.
-
-
 
 
 | Name | Type | Description | Required |
@@ -60,13 +45,9 @@ Package the application to a .ipa file using the xcrun tool.
 | Timeout | String | The number of seconds to keep the keychain unlocked. Set the value to 0 to disable timeout on the keychain. | No |
 | xcrun Path | String | The fully-qualified path to the xcrun tool. The default value is /usr/bin/xcrun. | Yes |
 
-
 ### Xcode Build
 
-
 Build an Xcode project using the xcodebuild command.
-
-
 
 
 | Name | Type | Description | Required |
@@ -87,8 +68,6 @@ Build an Xcode project using the xcodebuild command.
 | Toolchain | String | Use the toolchain with identifier or name. | No |
 | Workspace File | String | The relative path to the workspace file to build. To build a project, leave this property blank. | No |
 | xcodebuild Path | String | The full path to xcodebuild. | Yes |
-
-
 
 
 

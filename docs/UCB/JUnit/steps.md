@@ -5,30 +5,19 @@ JUnit for IBM UrbanCode Build - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the JUnit plug-in
-
 
 * [JUnit Report](#junit_report)
 
 
-
-
 ### JUnit Report
 
-
 Use this step to publish JUnit results as a report.
-
-
 
 
 | Name | Type | Description | Required |
@@ -39,8 +28,6 @@ Use this step to publish JUnit results as a report.
 | Request Timeout | String | The timeout value in milliseconds to use for the HTTP requests sent to the UCB server. | No |
 | Source Directory | String | The directory that contains the test output. | Yes |
 | Truncate Test Suite Name | Boolean | Remove the package name from the published test suite name. If this property is not enabled, the full class name of the test suite is included. | No |
-
-
 
 
 

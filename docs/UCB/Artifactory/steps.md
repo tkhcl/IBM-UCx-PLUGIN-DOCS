@@ -5,32 +5,21 @@ Artifactory for IBM UrbanCode Build - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the Artifactory plug-in
-
 
 * [Download From Repository](#download_from_repository)
 * [Upload Build Information](#upload_build_information)
 * [Upload To Repository](#upload_to_repository)
 
 
-
-
 ### Download From Repository
 
-
 Download artifacts from an Artifactory repository
-
-
 
 
 | Name | Type | Description | Required |
@@ -40,13 +29,9 @@ Download artifacts from an Artifactory repository
 | Target Paths | String | A list of target paths to download. Specify each target path in a separate line. Target path should not contain the repository name. | Yes |
 | Verify Hash | Boolean | Verify hash value after each artifact download is completed. | No |
 
-
 ### Upload Build Information
 
-
 Upload artifacts to an Artifactory repository
-
-
 
 
 | Name | Type | Description | Required |
@@ -54,13 +39,9 @@ Upload artifacts to an Artifactory repository
 | Artifactory |  |  | Yes |
 | Build Info Json File | String | Specify the build info json file containing the build information to be uploaded | Yes |
 
-
 ### Upload To Repository
 
-
 Upload artifacts to an Artifactory repository
-
-
 
 
 | Name | Type | Description | Required |
@@ -74,22 +55,15 @@ Upload artifacts to an Artifactory repository
 | Target Path | String | The target path of the artifacts in Artifactory. | No |
 
 
-
-
 ### Roles in the Artifactory plug-in
 
-
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
-
 
 
 * [Artifactory](#artifactory_role)
 
 
-
 ### Artifactory
-
-
 
 
 | Name | Type | Description |
@@ -98,8 +72,6 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | Password | Password | The password to use to log in to Artifactory repository. |
 | Artifactory Url | String | The fully-qualified base URL of the Artifactory repository. For example: http://192.168.1.1:8081/artifactory. |
 | Password Script | String | The property script to use instead of the Password property to connect to the Artifactory repository. If using this property, do not specify a value for the Password property. |
-
-
 
 
 

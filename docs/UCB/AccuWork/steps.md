@@ -5,32 +5,21 @@ AccuWork - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the AccuWork plug-in
-
 
 * [Add Comments](#add_comments)
 * [Change Status](#change_status)
 * [Get Details](#get_details)
 
 
-
-
 ### Add Comments
 
-
 Use this step to add comments to one or more existing issues.
-
-
 
 
 | Name | Type | Description | Required |
@@ -39,13 +28,9 @@ Use this step to add comments to one or more existing issues.
 | Comment | String | The comment text to add. | Yes |
 | Issue ID List | String | A comma-separated list of issue IDs for which a comment is added.If you do not specify a value for this property, a comment is added to all issues detected through source changes in AccuRev on the current build life. | No |
 
-
 ### Change Status
 
-
 Use this step to change the status of one or more existing issues.
-
-
 
 
 | Name | Type | Description | Required |
@@ -53,15 +38,11 @@ Use this step to change the status of one or more existing issues.
 | AccuWork Config |  | The name of the AccuWork integration. | Yes |
 | Issue ID List | String | A comma-separated list of issue IDs for which the status is changed. If you do not specify a value for this property, all issues detected through source changes in AccuRev on the current build life are changed. | No |
 | New Status | Enumeration:
- | The new status for the issues. | Yes |
-
+| The new status for the issues. | Yes |
 
 ### Get Details
 
-
 Use this step to retrieve information about issues using source changes detected in AccuRev.
-
-
 
 
 
@@ -71,11 +52,7 @@ Use this step to retrieve information about issues using source changes detected
 
 
 
-
-
 The following settings are available when you import component versions by using the AccuWork plug-in.
-
-
 
 
 
@@ -88,8 +65,6 @@ The following settings are available when you import component versions by using
 | Password Script | String | If you wish to use another property for your password, do not specify a value for the **Password** property, instead; enter a value in this property. For example: ```${p:AccuWorkPassword}```. |
 | Repository Host | String | The hostname and port of the AccuRev server. Specify in format: `host:port`. |
 | User Name | String | The user name to be used to connect to the AccuWork server. |
-
-
 
 
 

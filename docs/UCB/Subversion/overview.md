@@ -5,20 +5,14 @@ Subversion for IBM UrbanCode Build - Overview
 # Overview
 
 
-
 ### Overview
 
 
 
 
- 
-
-
 The Subversion plug-in automates gathering code from a Subversion repository to include in the build process.Steps are also included to create Subversion branches.
 
-
 This plug-in includes the following steps:
-
 
 * [Svn Changelog](#svn_changelog)
 * [Svn Checkout](#svn_checkout)
@@ -27,55 +21,38 @@ This plug-in includes the following steps:
 * [Svn Tag](#svn_tag)
 
 
-
 ### Step palette
-
 
 To access this plug-in in the palette, click **SCM** > **Subversion**.
 
-
 ### Compatibility
-
 
 The steps in this plug-in run on all supported platforms.
 
-
 ### Installation
-
 
 No special steps are required for installation. See [Installing plug-ins in UrbanCode](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode")
 
-
 ### History
-
 
 #### Version 7.752914 released on March 9, 2016
 
-
 Version 7.752914 includes the following features and fixes:
-
 
 * Added RPX dependency.
 * Added translation.
 
-
 #### Version 6.673610
-
 
 Version 6.673610 includes the following features and fixes:
 
-
 * Fixed an issue when a tag is copied from a branch, change logs in that branch are not listed as changes for its path does not match the tag path
-
 
 #### Version 5.638529
 
-
 Version 5.638529 includes the following features and fixes:
 
-
 * Fixed a.n issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE.
-
 
 |Back to ...||Latest Version|Subversion for IBM UrbanCode Build |||
 | :---: | :---: | :---: | :---: | :---: | :---: |

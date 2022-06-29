@@ -5,18 +5,12 @@ File Utils for IBM UrbanCode Build - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the File Utils plug-in
-
 
 * [Copy Directory](#copy_directory)
 * [Create .zip File](#create_.zip_file)
@@ -37,14 +31,9 @@ File Utils for IBM UrbanCode Build - Steps
 * [Update XML File with XPath](#update_xml_file_with_xpath)
 
 
-
-
 ### Copy Directory
 
-
 Copy the contents of a directory to other directories. This step overwrites files but does not delete files.
-
-
 
 
 | Name | Type | Description | Required |
@@ -55,13 +44,9 @@ Copy the contents of a directory to other directories. This step overwrites file
 | Rename Rules | String | A list of rules, separated by newline characters, for renaming the files in the destination directories. Use the format FROM->TO. For example, specify a.txt->b.txt to rename files named a.txt to b.txt and use \*.java->\*.java.bak to change file suffixes from .java to .java.bak. Rules are applied in the order that they are specified. No more than one rule is applied to a file. | No |
 | Source Directory | String | The directory to copy. | Yes |
 
-
 ### Create .zip File
 
-
 Create a .zip file.
-
-
 
 
 | Name | Type | Description | Required |
@@ -74,26 +59,18 @@ Create a .zip file.
 | Include | String | A list of patterns, separated by newline characters, that describe the files and directories to include. For example: \*\*/\* | Yes |
 | Update existing | Boolean | Select to update or overwrite the destination file if a file with that name already exists. | No |
 
-
 ### Create Directories
 
-
 Create a set of new directories including parent directories.
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Directories | String | A list of directories to create, separated by newline characters. | Yes |
 
-
 ### Create File
 
-
 Create a file.
-
-
 
 
 | Name | Type | Description | Required |
@@ -102,13 +79,9 @@ Create a file.
 | File Name | String | The name of the file. | Yes |
 | Overwrite if exists | Boolean | Select to overwrite an existing file with the same name. | No |
 
-
 ### Delete Files and Directories
 
-
 Delete files and directories.
-
-
 
 
 | Name | Type | Description | Required |
@@ -119,13 +92,9 @@ Delete files and directories.
 | Follow Symlinks | Boolean | Select to follow symlinks when deleting. | No |
 | Include | String | A list of patterns, separated by newline characters, that describe the files and directories to delete. For example, specify \*\*/\* to delete all files. | Yes |
 
-
 ### Flip Line Endings
 
-
 Convert file line endings between UNIX and Microsoft Windows formats.
-
-
 
 
 | Name | Type | Description | Required |
@@ -134,17 +103,13 @@ Convert file line endings between UNIX and Microsoft Windows formats.
 * os
 * windows
 * unix
- | The line ending type to use. | No |
+| The line ending type to use. | No |
 | Excludes | String | A list of patterns, separated by newline characters, that describe the files to skip. | No |
 | Includes | String | A list of patterns, separated by newline characters, that describe the files to convert. | Yes |
 
-
 ### Monitor File Contents
 
-
 Monitor a file for a token. The step continues when the token is found, and fails if the token is not found in the specified time. This step is similar to the UNIX tail command, and ignores content in the file that is present before the step starts.
-
-
 
 
 | Name | Type | Description | Required |
@@ -155,13 +120,9 @@ Monitor a file for a token. The step continues when the token is found, and fail
 | Regular Expression | String | A regular expression that describes the token to match in the file. | Yes |
 | Timeout (s) | String | The time, in seconds, to wait for a match to the regular expression. The step fails if a match is not found before the timeout expires. | Yes |
 
-
 ### Move Directory
 
-
 Move the contents of a directory to another directory.
-
-
 
 
 | Name | Type | Description | Required |
@@ -172,13 +133,9 @@ Move the contents of a directory to another directory.
 | Rename Rules | String | A list of rules, separated by newline characters, for renaming the files in the destination directories. Use the format FROM->TO. For example, specify a.txt->b.txt to rename files named a.txt to b.txt and use \*.java->\*.java.bak to change file suffixes from .java to .java.bak. Rules are applied in the order that they are specified. No more than one rule is applied to a file. | No |
 | Source Directory | String | The directory to move. | Yes |
 
-
 ### Read Properties From XML File
 
-
 Parse an XML file to search for properties defined by element names.
-
-
 
 
 | Name | Type | Description | Required |
@@ -188,13 +145,9 @@ Parse an XML file to search for properties defined by element names.
 | Property Keys | String | A list of elements, separated by newline characters, whose values will be used for properties. Use dot notation to refer to nested elements. For example, specify foo.bar.baz to retrieve the value of the baz element under the bar element under the foo element. | Yes |
 | XML File | String | The full path to the XML file to read properties from. | Yes |
 
-
 ### Read Property File
 
-
 Read properties from a file and set them as output properties for the step.
-
-
 
 
 | Name | Type | Description | Required |
@@ -202,13 +155,9 @@ Read properties from a file and set them as output properties for the step.
 | Directory Offset | String | The directory relative to the current working directory that contains the files to operate on. | No |
 | Property File | String | The name of the property file to read. | Yes |
 
-
 ### Replace Tokens
 
-
 Replace tokens in files using properties.
-
-
 
 
 | Name | Type | Description | Required |
@@ -223,13 +172,9 @@ Replace tokens in files using properties.
 | Property Prefix | String | Specify a prefix to use to determine which properties are included in token replacement. Leave blank to include all properties. | No |
 | Start Token Delimiter | String | The start delimiter character used to identify tokens. | No |
 
-
 ### Synchronize Directories
 
-
 Move new files in a source directory to a destination directory, and delete files in the destination directory that are not in the source directory. Synchronization is based on the time stamp of the file.
-
-
 
 
 | Name | Type | Description | Required |
@@ -242,13 +187,9 @@ Move new files in a source directory to a destination directory, and delete file
 | Preserve In Target Include Files | String | A list of patterns, separated by newline characters, that describe files to include for preservation in the target directories. | No |
 | Source Directory | String | The synchronization source directory. | Yes |
 
-
 ### Untar Tarball
 
-
 Extract a .tar file.
-
-
 
 
 | Name | Type | Description | Required |
@@ -260,15 +201,11 @@ Extract a .tar file.
 * none
 * gzip
 * bzip2
- | Select the compression algorithm for the .tar file. | No |
-
+| Select the compression algorithm for the .tar file. | No |
 
 ### Unzip
 
-
 Extract a .zip file.
-
-
 
 
 | Name | Type | Description | Required |
@@ -279,13 +216,9 @@ Extract a .zip file.
 | Include Files | String | A list of patterns, separated by commas or spaces, that describe the files in the archive to extract. | Yes |
 | Overwrite files | Boolean | If selected, files are overwritten even if they are newer than files in the .zip file. | No |
 
-
 ### Update INI File
 
-
 Update a file in the Microsoft Windows INI format. This step supports property sections.
-
-
 
 
 | Name | Type | Description | Required |
@@ -296,13 +229,9 @@ Update a file in the Microsoft Windows INI format. This step supports property s
 | Update properties | String | A list of name-value pairs to update, separated by newline characters. Use the format section\name=value. Comments that precede a property line are added to the property. Comment lines begin with a semicolon (;) or number sign (#). To update properties in subsections, add the full path of the parent sections to the property name, using a backslash (\) as a separator. For example, specify section1\section2\propertyName=value to update the propertyName property in the section2 subsection of the section1 section. | No |
 | Use # character for comments | Boolean | Select to use the number sign (#) to indicate a comment. Clear to use the semicolon (;) to indicate a comment. | No |
 
-
 ### Update Property File
 
-
 Add, remove, or update properties in a properties file.
-
-
 
 
 | Name | Type | Description | Required |
@@ -315,13 +244,9 @@ Add, remove, or update properties in a properties file.
 | File Includes | String | A list of patterns, separated by newline characters, that describe the property files to edit. | Yes |
 | Remove properties | String | A list of names of properties to remove, separated by newline characters. | No |
 
-
 ### Update XML File with XPath
 
-
 Update XML files using XPath to locate items to edit.
-
-
 
 
 | Name | Type | Description | Required |
@@ -335,8 +260,6 @@ Update XML files using XPath to locate items to edit.
 | Replace with text | String | A list of XPath expression-replacement pairs, separated by newline characters. Use the format expression->replacement. For example, specify /root/foo/@bar->my\_bar to replace the bar attribute value for all foo elements under the root element with my\_bar. The step does nothing if the specified expression does not exist in the source files. | No |
 | Set Attributes | String | A list of XPath expression-content pairs, separated by newline characters. Use the format expression->content. For example, specify /root/foo/@bar->my\_bar to replace the bar attribute value for all foo elements under the root element with my\_bar. The XPath expression must end with the /@name of the attribute to insert or update. | No |
 | Source Directory Offset | String | The directory relative to the current working directory that contains the files to operate on. | No |
-
-
 
 
 

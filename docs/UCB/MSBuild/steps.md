@@ -5,30 +5,19 @@ MSBuild - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the MSBuild plug-in
-
 
 * [Run MSBuild](#run_msbuild)
 
 
-
-
 ### Run MSBuild
 
-
 Invoke MSBuild
-
-
 
 
 | Name | Type | Description | Required |
@@ -46,9 +35,7 @@ Invoke MSBuild
 * normal
 * detailed
 * diagnostic
- | The verbosity level. | No |
-
-
+| The verbosity level. | No |
 
 
 

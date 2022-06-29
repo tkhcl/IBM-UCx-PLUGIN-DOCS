@@ -5,34 +5,22 @@ SonarQube (formerly Sonar) - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the SonarQube plug-in
-
 
 * [Run SonarQube](#run_sonarqube)
 * [Run SonarQube for .NET](#run_sonarqube_for_.net)
 
 
-
-
 ### Run SonarQube
-
 
 Run SonarQube to get information about source and tests from SonarQube
 
-
- if(Boolean.valueOf(createPom) && !automation) { errors.automation = Must Specify a Url if Pom is to be created }`` if(Boolean.valueOf(createPom) && !srcDir) { errors.srcDir = Must Specify a Source Directory if Pom is to be created }`` if(Boolean.valueOf(createPom) && !binDir) { errors.binDir = Must Specify an Artifact Directory if Pom is to be created }`` if(Boolean.valueOf(createPom) && !projName) { errors.projName = Must Specify a Project Name if Pom is to be created }`` if(Boolean.valueOf(createPom) && !artifactId) { errors.artifactId = Must Specify an Artifact ID if Pom is to be created }`` if(!Boolean.valueOf(createPom) && ( srcDir || binDir || projName || artifactId)) { errors.srcDir = This must be empty if a POM.xml does not need to be created; errors.binDir = This must be empty if a POM.xml does not need to be created; errors.projName = This must be empty if a POM.xml does not need to be created; errors.artifactId = This must be empty if a POM.xml does not need to be created; }``
-
-
+if(Boolean.valueOf(createPom) && !automation) { errors.automation = Must Specify a Url if Pom is to be created }`` if(Boolean.valueOf(createPom) && !srcDir) { errors.srcDir = Must Specify a Source Directory if Pom is to be created }`` if(Boolean.valueOf(createPom) && !binDir) { errors.binDir = Must Specify an Artifact Directory if Pom is to be created }`` if(Boolean.valueOf(createPom) && !projName) { errors.projName = Must Specify a Project Name if Pom is to be created }`` if(Boolean.valueOf(createPom) && !artifactId) { errors.artifactId = Must Specify an Artifact ID if Pom is to be created }`` if(!Boolean.valueOf(createPom) && ( srcDir || binDir || projName || artifactId)) { errors.srcDir = This must be empty if a POM.xml does not need to be created; errors.binDir = This must be empty if a POM.xml does not need to be created; errors.projName = This must be empty if a POM.xml does not need to be created; errors.artifactId = This must be empty if a POM.xml does not need to be created; }``
 
 
 | Name | Type | Description | Required |
@@ -51,16 +39,11 @@ Run SonarQube to get information about source and tests from SonarQube
 | Source Directory | String | Relative path from the Pom file to directory where source resides if a Pom file needs to be created. | No |
 | Version | String | Version identifier of your artifact | No |
 
-
 ### Run SonarQube for .NET
-
 
 Run SonarQube to get information about source and tests from SonarQube for .NET
 
-
- if(Boolean.valueOf(createPom) && !automation) { errors.automation = Must Specify a Url if Pom is to be created }`` if(Boolean.valueOf(createPom) && !slnName) { errors.slnName = Must Specify a Solution file (.sln) if Pom is to be created }`` if(Boolean.valueOf(createPom) && !projName) { errors.projName = Must Specify a Project Name if Pom is to be created }`` if(Boolean.valueOf(createPom) && !artifactId) { errors.artifactId = Must Specify an Artifact ID if Pom is to be created }`` if(!Boolean.valueOf(createPom) && ( slnName || projName || artifactId)) { errors.slnName = This must be empty if a POM.xml does not need to be created; errors.projName = This must be empty if a POM.xml does not need to be created; errors.artifactId = This must be empty if a POM.xml does not need to be created; }``
-
-
+if(Boolean.valueOf(createPom) && !automation) { errors.automation = Must Specify a Url if Pom is to be created }`` if(Boolean.valueOf(createPom) && !slnName) { errors.slnName = Must Specify a Solution file (.sln) if Pom is to be created }`` if(Boolean.valueOf(createPom) && !projName) { errors.projName = Must Specify a Project Name if Pom is to be created }`` if(Boolean.valueOf(createPom) && !artifactId) { errors.artifactId = Must Specify an Artifact ID if Pom is to be created }`` if(!Boolean.valueOf(createPom) && ( slnName || projName || artifactId)) { errors.slnName = This must be empty if a POM.xml does not need to be created; errors.projName = This must be empty if a POM.xml does not need to be created; errors.artifactId = This must be empty if a POM.xml does not need to be created; }``
 
 
 | Name | Type | Description | Required |
@@ -80,22 +63,15 @@ Run SonarQube to get information about source and tests from SonarQube for .NET
 | Version | String | Version identifier of your artifact | No |
 
 
-
-
 ### Roles in the SonarQube plug-in
 
-
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
-
 
 
 * [SonarQube Server Configuration](#sonarqube_server_configuration_role)
 
 
-
 ### SonarQube Server Configuration
-
-
 
 
 | Name | Type | Description |
@@ -106,8 +82,6 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | Database Username | String | The username with credentials to the SonarQube database (sonar.jdbc.username) |
 | SonarQube Url | String | Location to talk to SonarQube. |
 | SonarQube Version | String | The version of SonarQube if it is less than 1.8 or want to use a specific version. |
-
-
 
 
 

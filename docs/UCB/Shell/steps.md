@@ -5,31 +5,20 @@ Shell for IBM UrbanCode Build - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the Shell plug-in
-
 
 * [Shell](#shell)
 * [Shell (with xargs)](#shell_(with_xargs))
 
 
-
-
 ### Shell
 
-
 Run a shell or batch script.
-
-
 
 
 | Name | Type | Description | Required |
@@ -39,13 +28,9 @@ Run a shell or batch script.
 | Output File | String | Set this value only if Daemon is selected. Enter the path of a file to direct command output to. Leave blank to discard the output. The output is not captured if an output file is specified. | No |
 | Shell Script | String | Enter the script code to run. | Yes |
 
-
 ### Shell (with xargs)
 
-
 Run a shell or batch script a number of times equal to a multi-valued input.
-
-
 
 
 | Name | Type | Description | Required |
@@ -56,8 +41,6 @@ Run a shell or batch script a number of times equal to a multi-valued input.
 | Output File | String | Enter the path of a file to direct command output to. Leave blank to discard the output. The output is not captured if an output file is specified. | No |
 | Shell Script | String | Enter the script code to run. | Yes |
 | xargs | String | The comma-separated values to use as input to the script. The values are passed as input to the script. | Yes |
-
-
 
 
 

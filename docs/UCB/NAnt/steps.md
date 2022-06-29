@@ -5,30 +5,19 @@ NAnt - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the NAnt plug-in
-
 
 * [Run NAnt](#run_nant)
 
 
-
-
 ### Run NAnt
 
-
 Execute a NAnt script
-
-
 
 
 | Name | Type | Description | Required |
@@ -41,8 +30,6 @@ Execute a NAnt script
 | NAnt Script File | String | The name of the nant script file. | Yes |
 | Script Content | String |  | No |
 | Target Name | String | The name of the target(s) to run in the nant script file. | No |
-
-
 
 
 

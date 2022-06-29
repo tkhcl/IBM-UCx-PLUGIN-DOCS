@@ -5,13 +5,8 @@ UrbanCode Velocity - Steps
 # Steps
 
 
-
 ### Steps
 
-
-
-
- 
 
 
 
@@ -19,20 +14,14 @@ UrbanCode Velocity - Steps
 Process steps in the Urbancode Velocity plug-in
 -----------------------------------------------
 
-
 * [Upload Metrics Data](#upload_metrics_data)
 * [Upload build data](#upload_build_data)
-
-
 
 
 Upload Metrics Data
 -------------------
 
-
 Use this step to upload a metrics data to UrbanCode Velocity.
-
-
 
 
 | Name | Type | Description | Required | Property Name |
@@ -45,14 +34,10 @@ Use this step to upload a metrics data to UrbanCode Velocity.
 | UrbanCode Velocity Server |  | Select an UrbanCode Velocity server from the list or specify a property whose value is the property sheet UUID of the relevant UrbanCode Velocity integration. | Yes | automation |
 | Value | String | Value that UrbanCode Velocity uses to process the metric data. Provide the value in key:value format. For example: value:{passed: 30,failed: 0}``. | Yes | value |
 
-
 Upload build data
 -----------------
 
-
 Upload build information to UrbanCode Velocity.
-
-
 
 
 | Name | Type | Description | Required | Property Name |
@@ -65,24 +50,17 @@ Upload build information to UrbanCode Velocity.
 | Version Name | String | The version name to be associated with the build information in UrbanCode Velocity. | Yes | versionName |
 
 
-
-
 Roles in the Urbancode Velocity plug-in
 ---------------------------------------
 
-
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
-
 
 
 * [UrbanCode Velocity](#urbancode_velocity_role)
 
 
-
 UrbanCode Velocity
 ------------------
-
-
 
 
 | Name | Type | Description | Reference |
@@ -90,8 +68,6 @@ UrbanCode Velocity
 | Access Key | Password | The user access key to use for authenticating requests that are sent to UrbanCode Velocity. |  |
 | Tenant Id | String | The tenant Id of the UrbanCode Velocity server. |  |
 | URL | String | The UrbanCode Velocity server URL including protocol and port, if needed. Example: https://ucv.domain.com:8444 |  |
-
-
 
 
 |Back to ...||Latest Version|UrbanCode Velocity ||

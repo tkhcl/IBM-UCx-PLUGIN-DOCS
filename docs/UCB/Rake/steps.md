@@ -5,30 +5,19 @@ Rake - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the Rake plug-in
-
 
 * [Run Rake File](#run_rake_file)
 
 
-
-
 ### Run Rake File
 
-
 Run a Rakefile file.
-
-
 
 
 | Name | Type | Description | Required |
@@ -39,8 +28,6 @@ Run a Rakefile file.
 | Rake Properties | String | Arguments to pass to the Rake command, such as `-v` for verbose output. Enter each argument on a new line. | No |
 | Script Content | String | The content of the Rakefile file. The content will be written to the Rake script file and then run. | No |
 | Targets | String | The names of the targets to run in the Rakefile file. | Yes |
-
-
 
 
 

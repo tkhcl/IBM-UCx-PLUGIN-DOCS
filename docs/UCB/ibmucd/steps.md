@@ -5,18 +5,12 @@ IBM UrbanCode Deploy for IBM UrbanCode Build - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the UrbanCode Deploy server plug-in
-
 
 * [Add Component Version Status](#add_component_version_status)
 * [Create Auth Token](#create_auth_token)
@@ -33,14 +27,9 @@ IBM UrbanCode Deploy for IBM UrbanCode Build - Steps
 * [Upload Artifacts To Version](#upload_artifacts_to_version)
 
 
-
-
 ### Add Component Version Status
 
-
 Add a status to an existing component version.
-
-
 
 
 | Name | Type | Description | Required |
@@ -50,13 +39,9 @@ Add a status to an existing component version.
 | Status Name | String | The name of the status in IBM UrbanCode Deploy server or IBM UrbanCode Build server that you want to add to the version | Yes |
 | Version Name | String | The name of the version in IBM UrbanCode Deploy server. | Yes |
 
-
 ### Create Auth Token
 
-
 Create an auth token for a user in UrbanCode Deploy server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -65,18 +50,14 @@ Create an auth token for a user in UrbanCode Deploy server.
 | Expiration Time | String | The expiration time, specified as a number of minutes, to set for the newly created authentication token in UrbanCode Deploy server. | Yes |
 | IBM UrbanCode Deploy Server |  | Select a UrbanCode Deploy server from the list or specify a property whose value is the property sheet UUID of the relevant UrbanCode Deploy server integration. | Yes |
 | Log4j Logging Level | Enumeration:
- | Configure the level of Log4j messages to output to the console. | No |
+| Configure the level of Log4j messages to output to the console. | No |
 | Scope | Enumeration:
- | The scope of the property to create, for this auth token. | Yes |
+| The scope of the property to create, for this auth token. | Yes |
 | Username | String | The username for whom the auth token will be created in UrbanCode Deploy server. | Yes |
-
 
 ### Create Component Version
 
-
 Create a component version in IBM UrbanCode Deploy server and optionally upload files to it.
-
-
 
 
 
@@ -101,13 +82,9 @@ Create a component version in IBM UrbanCode Deploy server and optionally upload 
 | Upload Files | Boolean | Check to upload files to the created version. | No |
 | Version Name | String | The name of the version to create in IBM UrbanCode Deploy server. | Yes |
 
-
 ### Create Environment Snapshot
 
-
 Create a snapshot of an environment, including all component versions in its inventory. You may also add component versions to this snapshot.
-
-
 
 
 
@@ -119,17 +96,13 @@ Create a snapshot of an environment, including all component versions in its inv
 | Environment Name/ID | String | The name or ID of the environment to snapshot. | Yes |
 | Exclude Unmapped Components | Boolean | Exclude components that are not mapped to any resources in the environment. | No |
 | Log4j Logging Level | Enumeration:
- | Configure the level of Log4j messages to output to the console. | No |
+| Configure the level of Log4j messages to output to the console. | No |
 | Snapshot Name | String | The name of the new snapshot. | Yes |
 | UrbanCode Deploy Server |  | Select a UrbanCode Deploy server from the list or specify a property whose value is the property sheet UUID of the relevant UrbanCode Deploy server integration. | Yes |
 
-
 ### Create Version Link
 
-
 Create a link on a version that links back to the build life
-
-
 
 
 | Name | Type | Description | Required |
@@ -140,13 +113,9 @@ Create a link on a version that links back to the build life
 | Link Name | String | The name of the link being created on the version | No |
 | Link URL | String | The URL of the link being created on the version | No |
 
-
 ### Delete Auth Token
 
-
 Delete the auth token that has been potentially created by the Create Auth Token step.
-
-
 
 
 
@@ -154,15 +123,11 @@ Delete the auth token that has been potentially created by the Create Auth Token
 | --- | --- | --- | --- |
 | IBM UrbanCode Deploy Server |  | Select a UrbanCode Deploy server from the list or specify a property whose value is the property sheet UUID of the relevant UrbanCode Deploy server integration. | Yes |
 | Log4j Logging Level | Enumeration:
- | Configure the level of Log4j messages to output to the console. | No |
-
+| Configure the level of Log4j messages to output to the console. | No |
 
 ### Deploy Component Version
 
-
 Deploy a component version in IBM UrbanCode Deploy server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -176,19 +141,15 @@ Deploy a component version in IBM UrbanCode Deploy server.
 | Environment Name | String | The name of the application environment to deploy the component to. | Yes |
 | IBM UrbanCode Deploy Server |  | Select a UrbanCode Deploy server from the list or specify a property whose value is the property sheet UUID of the relevant UrbanCode Deploy server integration. | Yes |
 | Log4j Logging Level | Enumeration:
- | Configure the level of Log4j messages to output to the console. | No |
+| Configure the level of Log4j messages to output to the console. | No |
 | Properties | String | The properties to set on the application process request. Enter each property on a new line. Separate the property name and value with =. | No |
 | Snapshot | String | Optionally create a snapshot after a successful deployment. This new snapshot will contain the component versions that were deployed. | No |
 | Version Name | String | The name or ID of the component version to deploy. This version must exist in the specified component as well. | Yes |
 | Wait Timeout | String | The number of seconds to wait for the process to complete before failing. A value of -1 will wait indefinitely. If the step has been configured to skip waiting for the process to complete, this timeout will have no effect. | No |
 
-
 ### Deploy With Snapshot
 
-
 Deploy an application snapshot in IBM UrbanCode Deploy server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -201,18 +162,14 @@ Deploy an application snapshot in IBM UrbanCode Deploy server.
 | Environment Name/ID | String | The name or ID of the application environment in which to deploy the snapshot. | Yes |
 | IBM UrbanCode Deploy Server |  | Select a UrbanCode Deploy server from the list or specify a property whose value is the property sheet UUID of the relevant UrbanCode Deploy server integration. | Yes |
 | Log4j Logging Level | Enumeration:
- | Configure the level of Log4j messages to output to the console. | No |
+| Configure the level of Log4j messages to output to the console. | No |
 | Properties | String | The properties to set on the application process request. Enter each property on a new line. Separate the property name and value with =. | No |
 | Snapshot Name/ID | String | The name or ID of the application snapshot to deploy. | Yes |
 | Wait Timeout | String | The number of seconds to wait for the process to complete before failing. A value of -1 will wait indefinitely. If the step has been configured to skip waiting for the process to complete, this timeout will have no effect. | No |
 
-
 ### Invoke Buztool
 
-
 Invoke Buztool
-
-
 
 
 | Name | Type | Description | Required |
@@ -221,18 +178,14 @@ Invoke Buztool
 | Output | String | Path to the file where the output of version creation is written. | No |
 | Ship List Path | String | The path to the shiplist file for artifacts to upload to UrbanCode Deploy server. | No |
 | Type | Enumeration:
- | The type of the version to create. Set to full to create a full version. | No |
+| The type of the version to create. Set to full to create a full version. | No |
 | UrbanCode Deploy Agent Home Directory | String | The path to the UrbanCode Deploy agent directory. | Yes |
 | Verbose | Boolean | Display Buztools trace logs. | No |
 | Version Name | String | The name of the version to create in UrbanCode Deploy server. | No |
 
-
 ### Set Component Version Properties
 
-
 Set properties on an existing component version.
-
-
 
 
 | Name | Type | Description | Required |
@@ -247,13 +200,9 @@ Set properties on an existing component version.
 | Send Work Items | Boolean | Add work items as a property. | No |
 | Version Name | String | The name of the version in IBM UrbanCode Deploy server. | Yes |
 
-
 ### Upload All Artifact Sets
 
-
 Upload all artifact sets to IBM UrbanCode Deploy server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -269,13 +218,9 @@ Upload all artifact sets to IBM UrbanCode Deploy server.
 | Send Test Success Percentage | Boolean | Add test success percentage as a property. | No |
 | Send Work Items | Boolean | Add work items as a property. | No |
 
-
 ### Upload Artifact Set
 
-
 Upload an artifact set to IBM UrbanCode Deploy server.
-
-
 
 
 | Name | Type | Description | Required |
@@ -288,13 +233,9 @@ Upload an artifact set to IBM UrbanCode Deploy server.
 | IBM UrbanCode Deploy Server |  | Select a UrbanCode Deploy server from the list or specify a property whose value is the property sheet UUID of the relevant UrbanCode Deploy server integration. | Yes |
 | Suppress Artifact Set Dir | Boolean | Check to not include a directory with the artifact set name in IBM UrbanCode Deploy server. | No |
 
-
 ### Upload Artifacts To Version
 
-
 Upload artifacts to an existing component version in IBM UrbanCode Deploy server
-
-
 
 
 | Name | Type | Description | Required |
@@ -307,22 +248,15 @@ Upload artifacts to an existing component version in IBM UrbanCode Deploy server
 | Version Name | String | The name of the version to create in IBM UrbanCode Deploy server. | Yes |
 
 
-
-
 ### Roles in the UrbanCode Deploy plug-in
 
-
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
-
 
 
 * [IBM UrbanCode Deploy](#ibm_urbancode_deploy_role)
 
 
-
 ### IBM UrbanCode Deploy
-
-
 
 
 | Name | Type | Description |
@@ -333,9 +267,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | Password Script | String | If you wish to use a property for your password, leave the Password field blank and enter a property scriptlet here. |
 | Username | String | The username to be used to connect to the IBM UrbanCode Deploy server. Leave empty if you want to use an auth token. |
 | Version | Enumeration:
- | The version of IBM UrbanCode Deploy server. |
-
-
+| The version of IBM UrbanCode Deploy server. |
 
 
 

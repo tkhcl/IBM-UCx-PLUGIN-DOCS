@@ -5,18 +5,12 @@ CodeStation - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the CodeStation plug-in
-
 
 * [Download Another Project Artifacts](#download_another_project_artifacts)
 * [Download Artifacts](#download_artifacts)
@@ -25,14 +19,9 @@ CodeStation - Steps
 * [Upload Artifacts](#upload_artifacts)
 
 
-
-
 ### Download Another Project Artifacts
 
-
 Download artifact set files from a different CodeStation project.
-
-
 
 
 | Name | Type | Description | Required |
@@ -48,18 +37,14 @@ Download artifact set files from a different CodeStation project.
 * NONE
 * SET\_ALL
 * SET\_EXECUTE\_ONLY
- | Select how you would like CodeStation to handle setting file permissions on download: NoneDont copy any permissions,Set AllSet all permissions from the original file,Set Execute Bits OnlySet only the execute bits from the original file. | Yes |
+| Select how you would like CodeStation to handle setting file permissions on download: NoneDont copy any permissions,Set AllSet all permissions from the original file,Set Execute Bits OnlySet only the execute bits from the original file. | Yes |
 | Project | String | The name of the project. | No |
 | Use CodeStation Cache | Boolean | Check this box if you would like to use the local CodeStation cache when downloading artifacts | No |
 | Workflow | String | The name of the workflow. | No |
 
-
 ### Download Artifacts
 
-
 Download artifact set files from CodeStation.
-
-
 
 
 | Name | Type | Description | Required |
@@ -70,18 +55,14 @@ Download artifact set files from CodeStation.
 * NONE
 * SET\_ALL
 * SET\_EXECUTE\_ONLY
- | Select how you would like CodeStation to handle setting file permissions on download: NoneDont copy any permissions,Set AllSet all permissions from the original file,Set Execute Bits OnlySet only the execute bits from the original file. | Yes |
+| Select how you would like CodeStation to handle setting file permissions on download: NoneDont copy any permissions,Set AllSet all permissions from the original file,Set Execute Bits OnlySet only the execute bits from the original file. | Yes |
 | Project | String | The name of the project. | No |
 | Use CodeStation Cache | Boolean | Check this box if you would like to use the local CodeStation cache when downloading dependencies. | No |
 | Workflow | String | The name of the workflow. | No |
 
-
 ### Download Dependencies
 
-
 Download dependencies from CodeStation.
-
-
 
 
 | Name | Type | Description | Required |
@@ -91,18 +72,14 @@ Download dependencies from CodeStation.
 * NONE
 * SET\_ALL
 * SET\_EXECUTE\_ONLY
- | Select how you would like CodeStation to handle setting file permissions on download: NoneDont copy any permissions,Set AllSet all permissions from the original file,Set Execute Bits OnlySet only the execute bits from the original file. | Yes |
+| Select how you would like CodeStation to handle setting file permissions on download: NoneDont copy any permissions,Set AllSet all permissions from the original file,Set Execute Bits OnlySet only the execute bits from the original file. | Yes |
 | Project | String | The name of the project. | No |
 | Use CodeStation Cache | Boolean | Check this box if you would like to use the local CodeStation cache when downloading dependencies. | No |
 | Workflow | String | The name of the workflow. | No |
 
-
 ### Upload All Artifacts
 
-
 Upload all configured artifact sets to CodeStation.
-
-
 
 
 | Name | Type | Description | Required |
@@ -113,29 +90,25 @@ Upload all configured artifact sets to CodeStation.
 * EXCLUDE
 * INCLUDE\_ALL
 * INCLUDE\_NON\_EMPTY
- | Select how you would like CodeStation to handle uploading directories: ExcludeNo directories are included in the file list,Include AllAll directories, empty or not, are included in the file list, Include Non-EmptyNon-empty directories are included in the file list. | Yes |
+| Select how you would like CodeStation to handle uploading directories: ExcludeNo directories are included in the file list,Include AllAll directories, empty or not, are included in the file list, Include Non-EmptyNon-empty directories are included in the file list. | Yes |
 | Permissions | Enumeration:
 * BEST\_EFFORT
 * FILE\_EXECUTE\_ONLY
 * NONE
 * REQUIRED
- | Select how you would like CodeStation to handle uploading permissions: Best EffortAttempt to read permissions, but failures are non-fatal, File Execute OnlyAttempt to read file execute permission, but failures are non-fatal, NoneNo permissions are read,RequiredPermissions must be read successfully. | Yes |
+| Select how you would like CodeStation to handle uploading permissions: Best EffortAttempt to read permissions, but failures are non-fatal, File Execute OnlyAttempt to read file execute permission, but failures are non-fatal, NoneNo permissions are read,RequiredPermissions must be read successfully. | Yes |
 | Project | String | The name of the project. | No |
 | Request Timeout | String | The timeout value in milliseconds for http requests | No |
 | Symlinks | Enumeration:
 * AS\_LINK
 * EXCLUDE
 * FOLLOW
- | Select how you would like CodeStation to handle uploading symlinks: As LinkSymlinks are inluded in the list as symlinks,Exclude Symlinks and the files or directories that they point to are excluded, FollowSymlinks are treated as regular files or directories. | Yes |
+| Select how you would like CodeStation to handle uploading symlinks: As LinkSymlinks are inluded in the list as symlinks,Exclude Symlinks and the files or directories that they point to are excluded, FollowSymlinks are treated as regular files or directories. | Yes |
 | Workflow | String | The name of the workflow. | No |
-
 
 ### Upload Artifacts
 
-
 Upload a specific artifact set to CodeStation.
-
-
 
 
 | Name | Type | Description | Required |
@@ -147,24 +120,22 @@ Upload a specific artifact set to CodeStation.
 * EXCLUDE
 * INCLUDE\_ALL
 * INCLUDE\_NON\_EMPTY
- | Select how you would like CodeStation to handle uploading directories: ExcludeNo directories are included in the file list,Include AllAll directories, empty or not, are included in the file list, Include Non-EmptyNon-empty directories are included in the file list. | Yes |
+| Select how you would like CodeStation to handle uploading directories: ExcludeNo directories are included in the file list,Include AllAll directories, empty or not, are included in the file list, Include Non-EmptyNon-empty directories are included in the file list. | Yes |
 | Fail If Not Found | Boolean | Force the upload step to fail when the directory containing artifacts does not exist or there are no artifacts in the directory. | No |
 | Permissions | Enumeration:
 * BEST\_EFFORT
 * FILE\_EXECUTE\_ONLY
 * NONE
 * REQUIRED
- | Select how you would like CodeStation to handle uploading permissions: Best EffortAttempt to read permissions, but failures are non-fatal, File Execute OnlyAttempt to read file execute permission, but failures are non-fatal, NoneNo permissions are read,RequiredPermissions must be read successfully. | Yes |
+| Select how you would like CodeStation to handle uploading permissions: Best EffortAttempt to read permissions, but failures are non-fatal, File Execute OnlyAttempt to read file execute permission, but failures are non-fatal, NoneNo permissions are read,RequiredPermissions must be read successfully. | Yes |
 | Project | String | The name of the project. | No |
 | Request Timeout | String | The timeout value in milliseconds for http requests | No |
 | Symlinks | Enumeration:
 * AS\_LINK
 * EXCLUDE
 * FOLLOW
- | Select how you would like CodeStation to handle uploading symlinks: As LinkSymlinks are inluded in the list as symlinks,Exclude Symlinks and the files or directories that they point to are excluded, FollowSymlinks are treated as regular files or directories. | Yes |
+| Select how you would like CodeStation to handle uploading symlinks: As LinkSymlinks are inluded in the list as symlinks,Exclude Symlinks and the files or directories that they point to are excluded, FollowSymlinks are treated as regular files or directories. | Yes |
 | Workflow | String | The name of the workflow. | No |
-
-
 
 
 

@@ -5,30 +5,19 @@ Maven for IBM UrbanCode Build - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the Maven plug-in
-
 
 * [Maven Build](#maven_build)
 
 
-
-
 ### Maven Build
 
-
 Run a Maven build
-
-
 
 
 | Name | Type | Description | Required |
@@ -43,8 +32,6 @@ Run a Maven build
 | Maven Version | Enumeration: | The version of Maven to run. | Yes |
 | Properties | String | The properties to pass to Maven. Enter each argument on a separate line in the following format: name=value | No |
 | Script Content | String | Optional: Specify the content of the Maven script. The content is written to the file specified by the Maven POM File field, and then run. | No |
-
-
 
 
 

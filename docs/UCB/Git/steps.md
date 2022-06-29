@@ -5,16 +5,11 @@ Git for IBM UrbanCode Build - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
-
-
-
 ### Process steps in the Git plug-in
-
 
 * [Create GitHub Status](#create_github_status)
 * [Git Changelog](#git_changelog)
@@ -24,14 +19,9 @@ Git for IBM UrbanCode Build - Steps
 * [Git Quiet Period](#git_quiet_period)
 
 
-
-
 ### Create GitHub Status
 
-
 Create a commit status in GitHub or GitHub Enterprise.
-
-
 
 
 | Name | Type | Description | Required |
@@ -42,13 +32,9 @@ Create a commit status in GitHub or GitHub Enterprise.
 | Source Config |  |  | No |
 | State | Enumeration: | The state of the status. | Yes |
 
-
 ### Git Changelog
 
-
 Perform a Git changelog and publish the results.
-
-
 
 
 | Name | Type | Description | Required |
@@ -60,13 +46,9 @@ Perform a Git changelog and publish the results.
 | Start Date | String | Start changelog at this date (yyyy-MM-dd HH:mm:ss z OR E MMM dd HH:mm:ss zzz yyyy OR milliseconds since Unix Epoch) | No |
 | Start Revision | String | Start changelog at this revision | No |
 
-
 ### Git Checkout
 
-
 Perform a Git checkout of the workflows source
-
-
 
 
 | Name | Type | Description | Required |
@@ -75,26 +57,18 @@ Perform a Git checkout of the workflows source
 | Date | String | Date of sourcecode to checkout (yyyy-MM-dd HH:mm:ss z OR E MMM dd HH:mm:ss zzz yyyy OR milliseconds since Unix Epoch). Defaults to the current time. | No |
 | Source Config |  |  | No |
 
-
 ### Git Cleanup
 
-
 Perform a cleanup of the Git working directory
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Source Config |  |  | No |
 
-
 ### Git Create Tag
 
-
 Create a tag in Git of the specified working copy.
-
-
 
 
 | Name | Type | Description | Required |
@@ -103,13 +77,9 @@ Create a tag in Git of the specified working copy.
 | Source Config |  |  | No |
 | Tag | String | The tag name to create | Yes |
 
-
 ### Git Quiet Period
 
-
 Perform a Git changelog for quiet period detection and publish most recent change date within the period.
-
-
 
 
 | Name | Type | Description | Required |
@@ -119,25 +89,17 @@ Perform a Git changelog for quiet period detection and publish most recent chang
 | Start Date | String | Start changelog at this date (yyyy-MM-dd HH:mm:ss z OR E MMM dd HH:mm:ss zzz yyyy OR milliseconds since Unix Epoch) | No |
 
 
-
-
 ### Roles in the Git plug-in
 
-
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
-
 
 * [Git Repository](#git_repository_role)
 * [Git Source Repo](#git_source_repo_role)
 
 
-
 ### Git Repository
 
-
 Global settings for accessing git repositories.
-
-
 
 
 | Name | Type | Description |
@@ -150,10 +112,7 @@ Global settings for accessing git repositories.
 | Repository Username | String | The username to use for http(s) access to repositories |
 | Use Author Email | Boolean | The plugin will use the committer’s email instead of the author’s name.By default, the author name is used. |
 
-
 ### Git Source Repo
-
-
 
 
 | Name | Type | Description |
@@ -165,8 +124,6 @@ Global settings for accessing git repositories.
 | Remote Name | String | The name to use for the remote (defaults to origin) |
 | Remote URL | String | The path to the project repository e.g. username/project. The value of Remote URL will be appended to the repositorys Base URL |
 | Repository |  | Select the Git Repository |
-
-
 
 
 

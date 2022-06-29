@@ -5,18 +5,12 @@ Team Foundation Server - Steps and Settings
 # Steps and Settings
 
 
-
 ### Steps and Settings
 
 
 
 
- 
-
-
-
 ### Process steps in the TFS plug-in
-
 
 * [TFS Changelog](#tfs_changelog)
 * [TFS Create Label](#tfs_create_label)
@@ -24,14 +18,9 @@ Team Foundation Server - Steps and Settings
 * [TFS Quiet Period](#tfs_quiet_period)
 
 
-
-
 ### TFS Changelog
 
-
 Use this step to perform a Team Foundation Server (TFS) changelog and publish the results.
-
-
 
 
 
@@ -40,13 +29,9 @@ Use this step to perform a Team Foundation Server (TFS) changelog and publish th
 | End Date | String | The date that the changelog is to end. Specify in one of the following formats: `yyyy-MM-dd HH:mm:ss z`, `E MMM dd HH:mm:ss zzz yyyy`, or milliseconds since Unix Epoch. | No |
 | Start Date | String | The date that the changelog is to begin. Specify in one of the following formats: `yyyy-MM-dd HH:mm:ss z`, `E MMM dd HH:mm:ss zzz yyyy`, or milliseconds since Unix Epoch. | No |
 
-
 ### TFS Create Label
 
-
 Use this step to create a label in TFS.
-
-
 
 
 | Name | Type | Description | Required |
@@ -55,26 +40,18 @@ Use this step to create a label in TFS.
 | Message | String | The message text for the commit. | Yes |
 | Source Date | String | The date of the initial source to get in milliseconds. | Yes |
 
-
 ### TFS Get Source
 
-
 Use this step to perform a TFS get source action.
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Date | String | The date of sourcecode to checkout in one of the following formats: `yyyy-MM-dd HH:mm:ss z`, `E MMM dd HH:mm:ss zzz yyyy`, or milliseconds since Unix Epoch. The default value is the requested build date for the workflow. | No |
 
-
 ### TFS Quiet Period
 
-
 Use this step to perform a TFS changelog for quiet period detection and publish the most recent change date within the period.
-
-
 
 
 
@@ -84,21 +61,15 @@ Use this step to perform a TFS changelog for quiet period detection and publish 
 | Start Date | String | The date that the changelog is to begin. Specify the date in one of the following formats: `yyyy-MM-dd HH:mm:ss z`, `E MMM dd HH:mm:ss zzz yyyy`, or in milliseconds since Unix Epoch. | No |
 
 
-
 ### Settings in the TFS plug-in
 
-
-The following settings are available when you import component versions by using the TFS plug-in. 
-
+The following settings are available when you import component versions by using the TFS plug-in.
 
 * [TFS Repository](#tfs_repository_role)
 * [TFS Source Config](#tfs_source_config_role)
 
 
-
 ### TFS Repository
-
-
 
 
 | Name | Type | Description |
@@ -108,13 +79,10 @@ The following settings are available when you import component versions by using
 | Password Script | String | The script or property to lookup the password. If using a script or property, do not specify a value for the Password property. |
 | TFS Server URL | String | The URL of the TFS server. For example: `http://tfs.domain.com:8080`. |
 | TFS Server Version | Enumeration
- | The version number of the TFS server. |
+| The version number of the TFS server. |
 | User Name | String | The user name to use to authenticate with the TFS server. Enter the user name in the following format: `domain\user`. |
 
-
 ### TFS Source Config
-
-
 
 
 | Name | Type | Description |
@@ -132,8 +100,6 @@ The following settings are available when you import component versions by using
 | Revert Versioned Files | Boolean | Reverse any versioned files during cleanup step. This feature runs the undo command for the workspace. |
 | Source Location | String | The location of the project source in TFS. For example: $/Test-Project. |
 | Workspace Name | String | The name of the TFS workspace. |
-
-
 
 
 

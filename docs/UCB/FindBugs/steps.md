@@ -5,30 +5,19 @@ FindBugs - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the FindBugs plug-in
-
 
 * [Publish Results](#publish_results)
 
 
-
-
 ### Publish Results
 
-
 Publish FindBugs results to a build life. This reads the XML output of FindBugs.
-
-
 
 
 | Name | Type | Description | Required |
@@ -38,8 +27,6 @@ Publish FindBugs results to a build life. This reads the XML output of FindBugs.
 | Include Patterns | String | Patterns for including FindBugs XML in the report, one per line. Patterns can include ?, \*, or \*\*. | Yes |
 | Only Summary Counts | Boolean | Only publish the counts of findings to the report and not individual finding details. | No |
 | Report Name | String | The name of the report published to the build life | Yes |
-
-
 
 
 

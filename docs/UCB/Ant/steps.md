@@ -5,30 +5,19 @@ Ant - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the Ant plug-in
-
 
 * [Ant](#ant)
 
 
-
-
 ### Ant
 
-
 Run an Ant script.
-
-
 
 
 | Name | Type | Description | Required |
@@ -41,8 +30,6 @@ Run an Ant script.
 | Properties | String | Properties to pass to Ant. These properties are available by name in the Ant script. Enter each argument on a new line in the following format: name=value | No |
 | Script Content | String | Optional: Specify the content of the Ant script. The content is written to the file specified by the Ant Script File field, and then run. | No |
 | Targets | String | The names of the targets to run in the Ant script file. If blank, the default target is used. | No |
-
-
 
 
 

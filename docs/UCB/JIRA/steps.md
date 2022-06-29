@@ -5,18 +5,12 @@ JIRA for IBM UrbanCode Build - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the JIRA plug-in
-
 
 * [Add Comments](#add_comments)
 * [Check Status](#check_status)
@@ -25,14 +19,9 @@ JIRA for IBM UrbanCode Build - Steps
 * [Update Issue](#update_issue)
 
 
-
-
 ### Add Comments
 
-
 Add comments to JIRA issues detected by parsing the source change comments of the build life.
-
-
 
 
 
@@ -40,35 +29,27 @@ Add comments to JIRA issues detected by parsing the source change comments of th
 | --- | --- | --- | --- |
 | Comment | String | The template to use for adding a comment to JIRA Issues. | Yes |
 | Fail Mode | Enumeration:
- | What should be done when an issue can not be commented on. | Yes |
+| What should be done when an issue can not be commented on. | Yes |
 | Issue ID Pattern | String | A regular expression that represents the IDs to search for in the build life source change comments.Eg. TEST-[0-9]+ | Yes |
 | JIRA Workspace |  |  | Yes |
 
-
 ### Check Status
 
-
 Validate the status of JIRA issues detected by parsing the source change comments of the build life.
-
-
 
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Fail Mode | Enumeration:
- | What should be done when an unexpected status is found. | Yes |
+| What should be done when an unexpected status is found. | Yes |
 | Issue ID Pattern | String | A regular expression that represents the IDs to search for in the build life source change comments.Eg. TEST-[0-9]+ | Yes |
 | JIRA Workspace |  |  | Yes |
 | Status Name | String | The status to that we expect the issue to be in. | Yes |
 
-
 ### Create Issue
 
-
 Create a new issue in JIRA. The type of issue created is configurable.
-
-
 
 
 | Name | Type | Description | Required |
@@ -81,13 +62,9 @@ Create a new issue in JIRA. The type of issue created is configurable.
 | Project Key | String | The project key in JIRA | Yes |
 | Summary | String | The summary for this issue. | Yes |
 
-
 ### Publish Issue Report
 
-
 Create a report of JIRA issues detected by parsing the source change comments of the build life.
-
-
 
 
 
@@ -96,13 +73,9 @@ Create a report of JIRA issues detected by parsing the source change comments of
 | Issue ID Pattern | String | A regular expression that represents the IDs to search for in the build life source change comments.Eg. TEST-[0-9]+ | Yes |
 | JIRA Workspace |  |  | Yes |
 
-
 ### Update Issue
 
-
 Update JIRA issues detected by parsing the source change comments of the build life.
-
-
 
 
 | Name | Type | Description | Required |
@@ -113,22 +86,15 @@ Update JIRA issues detected by parsing the source change comments of the build l
 | JIRA Workspace |  |  | Yes |
 
 
-
-
 ### Roles in the JIRA plug-in
 
-
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
-
 
 
 * [Automation](#automation_role)
 
 
-
 ### Automation
-
-
 
 
 | Name | Type | Description |
@@ -138,10 +104,8 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | Password | Password | The password to be used to connect to the JIRA server. |
 | Password Script | String | If you wish to use a script or server:property lookups for your password, leave the Password field blank and enter it here. |
 | Server Version | Enumeration:
- | Specify the version of your JIRA server, chose the highest version available without going over your current version (versions 3.9 and above have been reported to workwith the 3.11 integration). |
+| Specify the version of your JIRA server, chose the highest version available without going over your current version (versions 3.9 and above have been reported to workwith the 3.11 integration). |
 | User Name | String | The user name to be used to connect to the JIRA server. |
-
-
 
 
 

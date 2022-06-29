@@ -5,30 +5,19 @@ Mocha - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the Mocha plug-in
-
 
 * [Run Test](#run_test)
 
 
-
-
 ### Run Test
 
-
 Run unit tests.
-
-
 
 
 | Name | Type | Description | Required |
@@ -37,8 +26,6 @@ Run unit tests.
 | Path of Result File | String | The path where the result file is to be placed. | Yes |
 | Reporter | String | The reporter to use for generating the Mocha test report. | Yes |
 | Test Directory | String | The directory that contains the test files. | Yes |
-
-
 
 
 

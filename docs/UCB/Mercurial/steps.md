@@ -5,18 +5,12 @@ Mercurial - Steps
 # Steps
 
 
-
 ### Steps
 
 
 
 
- 
-
-
-
 ### Process steps in the Mercurial plug-in
-
 
 * [Mercurial Changelog](#mercurial_changelog)
 * [Mercurial Checkout](#mercurial_checkout)
@@ -25,14 +19,9 @@ Mercurial - Steps
 * [Mercurial Quiet Period](#mercurial_quiet_period)
 
 
-
-
 ### Mercurial Changelog
 
-
 Perform a Mercurial changelog and publish the results.
-
-
 
 
 | Name | Type | Description | Required |
@@ -45,13 +34,9 @@ Perform a Mercurial changelog and publish the results.
 | Start Date | String | Start changelog at this date (yyyy-MM-dd HH:mm:ss z OR E MMM dd HH:mm:ss zzz yyyy OR milliseconds since Unix Epoch) | No |
 | Start Revision | String | Start changelog at this revision | No |
 
-
 ### Mercurial Checkout
 
-
 Perform a Mercurial clone and checkout of the workflows source
-
-
 
 
 | Name | Type | Description | Required |
@@ -63,26 +48,18 @@ Perform a Mercurial clone and checkout of the workflows source
 | Revision | String | Override the revision to check out | No |
 | Source Config |  |  | No |
 
-
 ### Mercurial Cleanup
 
-
 Perform a cleanup of the Mercurial working directory
-
-
 
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Source Config |  |  | No |
 
-
 ### Mercurial Create Tag
 
-
 Create a tag in Mercurial of the specified working copy.
-
-
 
 
 | Name | Type | Description | Required |
@@ -92,13 +69,9 @@ Create a tag in Mercurial of the specified working copy.
 | Source Config |  |  | No |
 | Tag | String | The tag name to create | No |
 
-
 ### Mercurial Quiet Period
 
-
 Perform a Mercurial changelog for quiet period detection and publish most recent change date within the period.
-
-
 
 
 
@@ -109,26 +82,18 @@ Perform a Mercurial changelog for quiet period detection and publish most recent
 | Start Date | String | Start changelog at this date (yyyy-MM-dd HH:mm:ss z OR E MMM dd HH:mm:ss zzz yyyy OR milliseconds since Unix Epoch) | No |
 
 
-
-
 ### Roles in the Mercurial plug-in
 
-
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
-
 
 
 * [Mercurial Repository](#mercurial_repository_role)
 * [Mercurial Source Config](#mercurial_source_config_role)
 
 
-
 ### Mercurial Repository
 
-
 A placeholder for using the hg scm system. The remote repository is configured on a per workflow basis.
-
-
 
 
 
@@ -140,10 +105,7 @@ A placeholder for using the hg scm system. The remote repository is configured o
 | Repository Base URL | String | A url prefix for source configurations to specify a relative path to the hg repository (e.g. https://hg.example.com/repos/or ssh://hg.example.com/repos/) |
 | Username | String | The username to use for http(s) access repositories |
 
-
 ### Mercurial Source Config
-
-
 
 
 | Name | Type | Description |
@@ -154,8 +116,6 @@ A placeholder for using the hg scm system. The remote repository is configured o
 | File Filters | String | Restrict changelog to files matching these patterns. Lines start with + to include, andto exclude.Wildcards \*, \*\*, and ? are allowed. |
 | Remote URL | String | The path to the project repository. May be either absolute e.g. https://hg.example.com/repos/example/or ssh://hg.example.com/repos/example/, or relatative to the repository base url e.g. example |
 | Repository |  | Select the Mercurial Repository |
-
-
 
 
 
