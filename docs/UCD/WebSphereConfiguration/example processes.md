@@ -15,47 +15,47 @@ These processes are only examples. Tailor these processes for your environment.
 
 **Important:** The provided sample processes use the ampersand (@) as the start and end delimiters. For example, the templatize steps create tokens that look like this example: @websphere.cell@. If the templatize steps are modified to use different delimiters, the Replace Tokens steps in the Apply component processes must be updated to use the correct delimiters.
 
-**[WebSphere Example 1 Discover & Templatize Configuration Data (WAS ND with Cluster)](https://www.urbancode.com/plugindoc/ibmucd/ibm-configure/1-2/example-processes/websphere-example-1-discover-templatize-configuration-data-was-nd-with-cluster/)**
+**[WebSphere Example 1 Discover & Templatize Configuration Data (WAS ND with Cluster)](#websphere--example-1--discover--templatize-configuration-data-was-nd-with-cluster)**
 
 This process converts configuration data from a WebSphere Application Server Network Deployment instance into templates that can be applied to other WebSphere Application Server Network Deployment instances. Use this process if your environment contains a WebSphere Application Server cluster and you want to use the multiplicity feature.
 
-**[WebSphere Example 2 Discover & Templatize Configuration Data (WAS ND with standalone server)](https://www.urbancode.com/plugindoc/ibmucd/ibm-configure/1-2/example-processes/websphere-example-2-discover-templatize-configuration-data-was-nd-with-standalone-server/)**
+**[WebSphere Example 2 Discover & Templatize Configuration Data (WAS ND with standalone server)](#websphere--example-2--discover--templatize-configuration-data-was-nd-with-standalone-server)**
 
 This process converts configuration data from a WebSphere Application Server Network Deployment instance into templates that can be applied to other WebSphere Application Server Network Deployment instances. Use this process if your environment contains a non-clustered (stand-alone) installation of WebSphere Application Server.
 
-**[WebSphere Example 3 Discover & Templatize Configuration Data (WAS Base)](https://www.urbancode.com/plugindoc/ibmucd/ibm-configure/1-2/example-processes/websphere-example-3-discover-templatize-configuration-data-was-base/)**
+**[WebSphere Example 3 Discover & Templatize Configuration Data (WAS Base)](#websphere--example-3--discover--templatize-configuration-data-was-base)**
 
 This process converts configuration data from a WebSphere Application Server Base instance into templates that can be applied to other WebSphere Application Server Base instances. Use this process if you are using WebSphere Application Server Base.
 
-**[WebSphere Example 4 Discover & Templatize Configuration Data (WAS ND with Cluster No Multiplicity)](https://www.urbancode.com/plugindoc/ibmucd/ibm-configure/1-2/example-processes/websphere-example-4-discover-templatize-configuration-data-was-nd-with-cluster-no-multiplicity/)**
+**[WebSphere Example 4 Discover & Templatize Configuration Data (WAS ND with Cluster No Multiplicity)](#websphere--example-4--discover--templatize-configuration-data-was-nd-with-cluster--no-multiplicity)**
 
 This process converts configuration data from a WebSphere Application Server Network Deployment instance into templates that can be applied to other WebSphere Application Server Network Deployment instances. Use this process if your environment contains clusters and you do not want to use the cluster multiplicity feature.
 
-**[WebSphere Example 5 Discover & Templatize Cluster Configuration Data Only (Multiplicity)](http://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-configure/1-2/example-processes/websphere-example-5-discover-templatize-cluster-configuration-data-only-multiplicity/)**
+**[WebSphere Example 5 Discover & Templatize Cluster Configuration Data Only (Multiplicity)](#websphere--example-5--discover--templatize-cluster-configuration-data-only-multiplicity)**
 
 This process converts configuration data for a single cluster from a WebSphere Application Server Network Deployment instance into templates that can be applied to other WebSphere Application Server Network Deployment instances. Use this process if your WebSphere Application Server Network Deployment environment contains clusters, you want to use the cluster multiplicity feature, and you want to templatize configuration information for one cluster only. Cells, nodes, and additional servers and clusters are not discovered and templatized. You can use this process in large WebSphere Application Server Network Deployment environments where discovering the cell and all nodes, servers, and clusters might take a long time.
 
-**[WebSphere Example 6 Discover & Templatize Cluster Configuration Data Only (No Multiplicity)](http://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-configure/1-2/example-processes/websphere-example-6-discover-templatize-cluster-configuration-data-only-no-multiplicity/)**
+**[WebSphere Example 6 Discover & Templatize Cluster Configuration Data Only (No Multiplicity)](#websphere--example-6--discover--templatize-cluster-configuration-data-only-no-multiplicity)**
 
 This process converts configuration data for a single cluster from a WebSphere Application Server Network Deployment instance into templates that can be applied to other WebSphere Application Server Network Deployment instances. Use this process if your WebSphere Application Server Network Deployment environment contains clusters, you do not want to use the cluster multiplicity feature, and you want to templatize configuration information for one cluster only. Cells, nodes, and additional servers and clusters are not discovered and templatized. You can use this process in large WebSphere Application Server Network Deployment environments where discovering the cell and all nodes, servers, and clusters might take a long time.
 
-**[WebSphere Example 7 Discover & Templatize Configuration Data (WAS ND with Dynamic Cluster)](http://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-configure/1-2/example-processes/websphere-example-7-discover-templatize-configuration-data-was-nd-with-dynamic-cluster/)**
+**[WebSphere Example 7 Discover & Templatize Configuration Data (WAS ND with Dynamic Cluster)](#websphere--example-7--discover--templatize-configuration-data-was-nd-with-dynamic-cluster)**
 
 This process converts configuration data for a WebSphere Application Server Network Deployment instance with a dynamic cluster into templates that can be applied to other WebSphere Application Server Network Deployment instances. Use this process if your WebSphere Application Server Network Deployment environment contains a dynamic cluster.
 
-**[WebSphere Example 8 Discover & Templatize Cell Configuration Data](http://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-configure/1-2/example-processes/websphere-example-8-discover-templatize-cell-configuration-data/)**
+**[WebSphere Example 8 Discover & Templatize Cell Configuration Data](#websphere--example-8--discover--templatize-cell-configuration-data)**
 
 This process converts configuration data from a WebSphere Application Server cell into a template that can be applied to other WebSphere Application Server instances.
 
-**[WebSphere Example 9 Discover & Templatize Node Configuration Data](http://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-configure/1-2/example-processes/websphere-example-9-discover-templatize-node-configuration-data/)**
+**[WebSphere Example 9 Discover & Templatize Node Configuration Data](#websphere--example-9--discover--templatize-node-configuration-data)**
 
 This process converts configuration data from a WebSphere Application Server node into a template that can be applied to other WebSphere Application Server instances.
 
-**[WebSphere Example 10 Discover & Templatize Server Configuration Data](http://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-configure/1-2/example-processes/websphere-example-10-discover-templatize-server-configuration-data/)**
+**[WebSphere Example 10 Discover & Templatize Server Configuration Data](#websphere--example-10--discover--templatize-server-configuration-data)**
 
 This process converts configuration data from a WebSphere Application Server server into a template that can be applied to other WebSphere Application Server instances.
 
-**[WebSphere Example 11 Discover & Templatize Cluster Configuration Data](http://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-configure/1-2/example-processes/websphere-example-11-discover-templatize-cluster-configuration-data/)**
+**[WebSphere Example 11 Discover & Templatize Cluster Configuration Data](#websphere--example-11--discover--templatize-cluster-configuration-data)**
 
 This process converts configuration data from a WebSphere Application Server cluster into a template that can be applied to other WebSphere Application Server instances.
 
@@ -64,7 +64,7 @@ This process converts configuration data from a WebSphere Application Server clu
 
 
 
-This process converts configuration data from a WebSphere Application Server cluster into a template that can be applied to other WebSphere Application Server instances. This process is not installed with the WebSphere Application Server Configure plug-in. You must manually import this process into IBM UrbanCode Deploy. [Download the process (JSON file)](http://public.dhe.ibm.com/software/products/UrbanCode/plugins/ibmucd/WebSphereConfiguration/SampleProcesses/GenericProcessSample11.json).
+This process converts configuration data from a WebSphere Application Server cluster into a template that can be applied to other WebSphere Application Server instances. This process is not installed with the WebSphere Application Server Configure plug-in. You must manually import this process into IBM UrbanCode Deploy. [Download the process (JSON file)](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/WebSphereConfiguration/SampleProcesses/GenericProcessSample11.json).
 
 Use this process if you want to capture and templatize WebSphere Application Server configuration at the cluster scope only.
 
@@ -94,7 +94,7 @@ The steps in this process follow this general flow:
 
 **Considerations**
 
-* For static clusters, manage and templatize the server members separately. See [WebSphere Example 10 Discover & Templatize Server](http://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-configure/1-2/example-processes/websphere-example-10-discover-templatize-server-configuration-data/).
+* For static clusters, manage and templatize the server members separately. See [WebSphere Example 10 Discover & Templatize Server](#websphere--example-10--discover--templatize-server-configuration-data)
 * For dynamic clusters, this process creates a dynamic cluster server template in the component version artifacts.
 * This process creates a component with the following naming convention: Cluster - *cluster\_name*. The cluster configuration data is stored as a component version artifact, as shown in the following screen capture.[![Cluster JSON files](process11.png)](process11.png)
 
@@ -103,7 +103,7 @@ The steps in this process follow this general flow:
 
 
 
-This process converts configuration data from a WebSphere Application Server server into a template that can be applied to other WebSphere Application Server instances. This process is not installed with the WebSphere Application Server Configure plug-in. You must manually import this process into IBM UrbanCode Deploy. [Download the process (JSON file)](http://public.dhe.ibm.com/software/products/UrbanCode/plugins/ibmucd/WebSphereConfiguration/SampleProcesses/GenericProcessSample10.json).
+This process converts configuration data from a WebSphere Application Server server into a template that can be applied to other WebSphere Application Server instances. This process is not installed with the WebSphere Application Server Configure plug-in. You must manually import this process into IBM UrbanCode Deploy. [Download the process (JSON file)](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/WebSphereConfiguration/SampleProcesses/GenericProcessSample10.json).
 
 Use this process if you want to capture and templatize WebSphere Application Server configuration at the server scope only.
 
@@ -140,7 +140,7 @@ The steps in this process follow this general flow:
 
 
 
-This process converts configuration data from a WebSphere Application Server node into a template that can be applied to other WebSphere Application Server instances. This process is not installed with the WebSphere Application Server Configure plug-in. You must manually import this process into IBM UrbanCode Deploy. [Download the process (JSON file)](http://public.dhe.ibm.com/software/products/UrbanCode/plugins/ibmucd/WebSphereConfiguration/SampleProcesses/GenericProcessSample9.json).
+This process converts configuration data from a WebSphere Application Server node into a template that can be applied to other WebSphere Application Server instances. This process is not installed with the WebSphere Application Server Configure plug-in. You must manually import this process into IBM UrbanCode Deploy. [Download the process (JSON file)](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/WebSphereConfiguration/SampleProcesses/GenericProcessSample9.json).
 
 Use this process if you want to capture and templatize WebSphere Application Server configuration at the node scope only.
 
@@ -178,7 +178,7 @@ The steps in this process follow this general flow:
 
 
 
-This process converts configuration data from a WebSphere Application Server cell into a template that can be applied to other WebSphere Application Server instances. This process is not installed with the WebSphere Application Server Configure plug-in. You must manually import this process into IBM UrbanCode Deploy. [Download the process (JSON file)](http://public.dhe.ibm.com/software/products/UrbanCode/plugins/ibmucd/WebSphereConfiguration/SampleProcesses/GenericProcessSample8.json).
+This process converts configuration data from a WebSphere Application Server cell into a template that can be applied to other WebSphere Application Server instances. This process is not installed with the WebSphere Application Server Configure plug-in. You must manually import this process into IBM UrbanCode Deploy. [Download the process (JSON file)](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/WebSphereConfiguration/SampleProcesses/GenericProcessSample8.json).
 
 Use this process if you want to capture and templatize WebSphere Application Server configuration at the cell scope only.
 
@@ -242,7 +242,7 @@ The following example code shows a node name (`NODE_NAME`) and node host name (`
 
 
 
-This process retrieves configuration data from a WebSphere Application Server Network Deployment instance with a dynamic cluster and converts the data into templates that can be applied to other WebSphere Application Server Network Deployment instances. This process is not installed with the WebSphere Application Server Configure plug-in. You must manually import this process into IBM UrbanCode Deploy. [Download the process (JSON file)](http://public.dhe.ibm.com/software/products/UrbanCode/plugins/ibmucd/WebSphereConfiguration/SampleProcesses/GenericProcessSample7.json).
+This process retrieves configuration data from a WebSphere Application Server Network Deployment instance with a dynamic cluster and converts the data into templates that can be applied to other WebSphere Application Server Network Deployment instances. This process is not installed with the WebSphere Application Server Configure plug-in. You must manually import this process into IBM UrbanCode Deploy. [Download the process (JSON file)](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/WebSphereConfiguration/SampleProcesses/GenericProcessSample7.json).
 
 Use this process if your WebSphere Application Server Network Deployment environment contains a dynamic cluster.
 
@@ -288,7 +288,7 @@ The steps in this process follow this general flow:
 
 
 
-This process retrieves configuration data of a single cluster from a WebSphere Application Server Network Deployment instance and converts the data into templates that can be applied to other WebSphere Application Server Network Deployment instances. This process is not installed with the WebSphere Application Server Configure plug-in. You must manually import this process into IBM UrbanCode Deploy. [Download the process (JSON file)](http://public.dhe.ibm.com/software/products/UrbanCode/plugins/ibmucd/WebSphereConfiguration/SampleProcesses/GenericProcessSample6.json).
+This process retrieves configuration data of a single cluster from a WebSphere Application Server Network Deployment instance and converts the data into templates that can be applied to other WebSphere Application Server Network Deployment instances. This process is not installed with the WebSphere Application Server Configure plug-in. You must manually import this process into IBM UrbanCode Deploy. [Download the process (JSON file)](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/WebSphereConfiguration/SampleProcesses/GenericProcessSample6.json).
 
 Use this process if your WebSphere Application Server Network Deployment environment contains clusters, you do not want to use the cluster multiplicity feature, and you want to templatize only configuration information for one cluster. Cells, nodes, and additional servers and clusters are not discovered and templatized. Use this process in large WebSphere Application Server Network Deployment environments where discovering the cell and all nodes, servers, and clusters might take a long time.
 
@@ -355,7 +355,7 @@ The steps in this process follow this general flow:
 
 
 
-This process retrieves configuration data from a single cluster in a WebSphere Application Server Network Deployment instance and converts the data into templates that can be applied to other WebSphere Application Server Network Deployment instances. This process is not installed with the WebSphere Application Server Configure plug-in. You must manually import this process into IBM UrbanCode Deploy. [Download the process (JSON file)](http://public.dhe.ibm.com/software/products/UrbanCode/plugins/ibmucd/WebSphereConfiguration/SampleProcesses/GenericProcessSample5.json).
+This process retrieves configuration data from a single cluster in a WebSphere Application Server Network Deployment instance and converts the data into templates that can be applied to other WebSphere Application Server Network Deployment instances. This process is not installed with the WebSphere Application Server Configure plug-in. You must manually import this process into IBM UrbanCode Deploy. [Download the process (JSON file)](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/WebSphereConfiguration/SampleProcesses/GenericProcessSample5.json).
 
 Use this process if your WebSphere Application Server Network Deployment environment contains clusters, you want to use the cluster multiplicity feature, and you want to templatize only configuration information for one cluster. Cells, nodes, and additional servers and clusters are not discovered and templatized. Use this process in large WebSphere Application Server Network Deployment environments where discovering the cell and all nodes, servers, and clusters might take a long time.
 
@@ -449,11 +449,11 @@ The steps in this process follow this general flow:
 
 **Considerations**
 
-* To templatize only cluster configuration data, and not cell and node configuration data, see sample processes [WebSphere Example 5 Discover & Templatize Cluster Configuration Data Only (Multiplicity)](http://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-configure/1-2/example-processes/websphere-example-5-discover-templatize-cluster-configuration-data-only-multiplicity/) and [WebSphere Example 6 Discover & Templatize Cluster Configuration Data Only (No Multiplicity)](http://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-configure/1-2/example-processes/websphere-example-6-discover-templatize-cluster-configuration-data-only-no-multiplicity/).
+* To templatize only cluster configuration data, and not cell and node configuration data, see sample processes [WebSphere Example 5 Discover & Templatize Cluster Configuration Data Only (Multiplicity)](#websphere--example-5--discover--templatize-cluster-configuration-data-only-multiplicity) and [WebSphere Example 6 Discover & Templatize Cluster Configuration Data Only (No Multiplicity)](#websphere--example-6--discover--templatize-cluster-configuration-data-only-no-multiplicity).
 * This process creates component versions for components that are provided with the plug-in: Cell Config, Cluster Config No Multiplicity, and Node Config. To create other components, possibly based on the provided component templates, update the steps that create component versions.
 * This process creates components for each cluster member that you templatize. The components are based on the provided WebSphere Server Config component template.
 * To templatize more than one cluster member, add more WebSphere Templatize Server Configuration Data steps and more steps that create components and component versions.
-* If there are no major differences between cluster members, consider using the multiplicity feature. See the example process [WebSphere Example 1 Discover & Templatize Configuration Data (WAS ND with Cluster)](http://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-configure/1-2/example-processes/websphere-example-1-discover-templatize-configuration-data-was-nd-with-cluster/).
+* If there are no major differences between cluster members, consider using the multiplicity feature. See the example process [WebSphere Example 1 Discover & Templatize Configuration Data (WAS ND with Cluster)](#websphere--example-1--discover--templatize-configuration-data-was-nd-with-cluster).
 
 
 ### WebSphere – Example 3 – Discover & Templatize Configuration Data (WAS Base)
@@ -496,7 +496,7 @@ The steps in this process follow this general flow:
 **Considerations**
 
 * This process creates component versions for components that are provided with the plug-in. To create other components, possibly based on the provided component templates, update the steps that create component versions.
-* This process is designed to templatize one WebSphere Application Server instance. The server configuration data is saved as a component version artifact for the provided Server Config component. To templatize additional servers, create additional components with the provided WebSphere Server Config component template. The sample process [WebSphere Example 4 Discover & Templatize Configuration Data (WAS ND with Cluster No Multiplicity)](http://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-configure/1-2/example-processes/websphere-example-4-discover-templatize-configuration-data-was-nd-with-cluster-no-multiplicity/) contains steps that create components, which you can use as a reference.
+* This process is designed to templatize one WebSphere Application Server instance. The server configuration data is saved as a component version artifact for the provided Server Config component. To templatize additional servers, create additional components with the provided WebSphere Server Config component template. The sample process [WebSphere Example 4 Discover & Templatize Configuration Data (WAS ND with Cluster No Multiplicity)](#websphere--example-4--discover--templatize-configuration-data-was-nd-with-cluster--no-multiplicity) contains steps that create components, which you can use as a reference.
 
 
 ### WebSphere – Example 2 – Discover & Templatize Configuration Data (WAS ND with standalone server)
@@ -539,7 +539,7 @@ The steps in this process follow this general flow:
 **Considerations**
 
 * This process creates component versions for components that are provided with the plug-in. To create other components, possibly based on the provided component templates, update the steps that create component versions.
-* This process is designed to templatize one WebSphere Application Server instance. The server configuration data is saved as a component version artifact for the provided Server Config component. To templatize additional servers, create additional components with the provided WebSphere Server Config component template. The sample process [WebSphere Example 4 Discover & Templatize Configuration Data (WAS ND with Cluster No Multiplicity)](http://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-configure/1-2/example-processes/websphere-example-4-discover-templatize-configuration-data-was-nd-with-cluster-no-multiplicity/) contains steps that create components, which you can use as a reference.
+* This process is designed to templatize one WebSphere Application Server instance. The server configuration data is saved as a component version artifact for the provided Server Config component. To templatize additional servers, create additional components with the provided WebSphere Server Config component template. The sample process [WebSphere Example 4 Discover & Templatize Configuration Data (WAS ND with Cluster No Multiplicity)](#websphere--example-4--discover--templatize-configuration-data-was-nd-with-cluster--no-multiplicity) contains steps that create components, which you can use as a reference.
 
 
 ### WebSphere – Example 1 – Discover & Templatize Configuration Data (WAS ND with Cluster)
@@ -584,7 +584,7 @@ The steps in this process follow this general flow:
 
 **Considerations**
 
-* To templatize cluster configuration data only (and not cell and node configuration data), see sample processes [WebSphere Example 5 Discover & Templatize Cluster Configuration Data Only (Multiplicity)](http://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-configure/1-2/example-processes/websphere-example-5-discover-templatize-cluster-configuration-data-only-multiplicity/) and [WebSphere Example 6 Discover & Templatize Cluster Configuration Data Only (No Multiplicity)](http://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-configure/1-2/example-processes/websphere-example-6-discover-templatize-cluster-configuration-data-only-no-multiplicity/).
+* To templatize cluster configuration data only (and not cell and node configuration data), see sample processes [WebSphere Example 5 Discover & Templatize Cluster Configuration Data Only (Multiplicity)](#websphere--example-5--discover--templatize-cluster-configuration-data-only-multiplicity) and [WebSphere Example 6 Discover & Templatize Cluster Configuration Data Only (No Multiplicity)](#websphere--example-6--discover--templatize-cluster-configuration-data-only-no-multiplicity).
 * This process creates component versions for components that are provided with the plug-in. To create other components, possibly based on the provided component templates, update the steps that create component versions.
 
 
