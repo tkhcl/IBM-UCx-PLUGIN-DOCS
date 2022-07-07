@@ -30,6 +30,10 @@ History
 
 -------
 
+### Version 3.0.11
+
+* Fix for Changed API.
+
 ### Version 3.0.5
 
 * User access key related changes.

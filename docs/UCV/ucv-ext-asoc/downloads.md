@@ -4,6 +4,7 @@ HCL AppScan on Cloud (ASoC) - Downloads
 
 # Downloads
 
+- [ucv-ext-asoc-3.0.11.tar.zip](https://hclcr.io/files/devops/accelerate/plugins/ucv-ext-asoc/ucv-ext-asoc:3.0.11.tar)
 - [ucv-ext-asoc-3.0.5.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-asoc/ucv-ext-asoc-3.0.5.tar.zip)
 - [ucv-ext-asoc-3.0.1.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-asoc/ucv-ext-asoc-3.0.1.tar.zip)
 - [ucv-ext-asoc-2.0.1.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-asoc/ucv-ext-asoc-2.0.1.tar.zip)
