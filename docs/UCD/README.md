@@ -2247,7 +2247,7 @@ This plugin provides a mechanism to send SMTP emails in your deployment process.
 
 |Back to ...||Send SMTP Email |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](send-smtp-email/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](send-smtp-email/README.md)|[0](https://github.com/UrbanCode/Send-SMTP-Email-UCD)|
 
 ## ServiceNow
 
