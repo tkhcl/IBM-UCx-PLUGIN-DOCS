@@ -20,4 +20,4 @@ Send an SMTP email
 
 |Back to ...||Latest Version|
 | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0](https://github.com/UrbanCode/Send-SMTP-Email-UCD)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1](https://github.com/UrbanCode/Send-SMTP-Email-UCD/releases/download/1/smtp-email-open-dev.zip)|
