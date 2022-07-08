@@ -12,14 +12,18 @@ Amazon EC2 - Steps
 
 ### Process steps in the AmazonEC2 plug-in
 
-* [Associate IPs](#associate_ips)
-* [Create Security Group](#create_security_group)
-* [Deregister Instances with LoadBalancer](#deregister_instances_with_loadbalancer)
-* [Get Public DNS](#get_public_dns)
-* [Launch Instances](#launch_instances)
-* [Register Instances with LoadBalancer](#register_instances_with_loadbalancer)
-* [Terminate Instances](#terminate_instances)
-* [Wait for instances](#wait_for_instances)
+- [Amazon EC2 - Steps](#amazon-ec2---steps)
+- [Steps](#steps)
+    - [Steps](#steps-1)
+    - [Process steps in the AmazonEC2 plug-in](#process-steps-in-the-amazonec2-plug-in)
+    - [Associate IPs](#associate-ips)
+    - [Create Security Group](#create-security-group)
+    - [Deregister Instances with LoadBalancer](#deregister-instances-with-loadbalancer)
+    - [Get Public DNS](#get-public-dns)
+    - [Launch Instances](#launch-instances)
+    - [Register Instances with LoadBalancer](#register-instances-with-loadbalancer)
+    - [Terminate Instances](#terminate-instances)
+    - [Wait for instances](#wait-for-instances)
 
 
 ### Associate IPs
@@ -43,20 +47,23 @@ Create a security group from a file.
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | AWS Jar | String | The fully qualified path to the JAR file for the AWS SDK. | Yes |
-| Access Key ID | String | The EC2 access key ID value that is used to log in
-. | Yes |
-| Definition File | String | The file that describes the allowed IPs and ports for the security group. Create the file in the following format:  `<SecurityGroup name="*name*" description="description" vpcId="ID optional"><ipPermission protocol="tcp" fromPort="22" toPort="22"><ipRange value="0.0.0.0/0"/></ipPermission></SecuirtyGroup>`
-If this property is blank, an empty security group is created.
-| No |
-| Description | String | The description of the security group to create. This property is used if you are not using a file to add permissions. | No |
+| Access Key ID | String | The EC2 access key ID value that is used to log in. | Yes |
+| Definition File | String | The file that describes the allowed IPs and ports for the security group.     | No |
+|                 |        | Create the file in the following format:                                      |    |
+|                 |        | `<SecurityGroup name="*name*" description="description" vpcId="ID optional">` |    |  
+|                 |        | `<ipPermission protocol="tcp" fromPort="22" toPort="22">`                     |    |
+|                 |        | `<ipRange value="0.0.0.0/0"/></ipPermission></SecuirtyGroup>`                 |    |
+|                 |        | If this property is blank, an empty security group is created.                |    |
+| Description | String | The description of the security group to create.                      | No |
+|             |        | This property is used if you are not using a file to add permissions. |    |
 | Name | String | The name of the security group to create. This property is used if you are not using a file to add permissions. | No |
+|      |        | This property is used if you are not using a file to add permissions.                                           |   |
 | Secret Key | String | The EC2 secret key value. | Yes |
 | VPC ID | String | The ID of the virtual private cloud (VPC) to use, if you are not using a file to add permissions. | No |
 
 ### Deregister Instances with LoadBalancer
 
 This step deregisters instances with an Amazon load balancing feature.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -70,7 +77,6 @@ This step deregisters instances with an Amazon load balancing feature.
 
 Get the public Domain Name System (DNS) hostname for the specified instance IDs. Results are returned in a comma-separated list in the **dns** property.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | AWS Jar | String | The fully qualified path to the JAR file for the AWS SDK. | Yes |
@@ -81,7 +87,6 @@ Get the public Domain Name System (DNS) hostname for the specified instance IDs.
 ### Launch Instances
 
 Launch instances of the given Amazon Machine Image (AMI).
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -100,7 +105,6 @@ Launch instances of the given Amazon Machine Image (AMI).
 
 Register an instance with an Amazon Load Balancer.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | AWS Jar | String | The fully qualified path to the JAR file for the AWS SDK. | Yes |
@@ -113,7 +117,6 @@ Register an instance with an Amazon Load Balancer.
 
 Terminate instances with the given instance IDs.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | AWS Jar | String | The fully qualified path to the JAR file for the AWS SDK. | Yes |
@@ -125,7 +128,6 @@ Terminate instances with the given instance IDs.
 
 Wait for instances to be in a certain state.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | AWS Jar | String | The fully qualified path to the JAR file for the AWS SDK. | Yes |
@@ -134,8 +136,6 @@ Wait for instances to be in a certain state.
 | Secret Key | String | The EC2 secret key value. | Yes |
 | State | String | The expected instance state. | Yes |
 | Timeout | String | The timeout value for this step. | Yes |
-
-
 
 |Back to ...||Latest Version|Amazon EC2 ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
