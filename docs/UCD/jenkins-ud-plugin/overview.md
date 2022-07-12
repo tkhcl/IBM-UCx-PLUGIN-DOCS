@@ -4,10 +4,7 @@ Jenkins Publisher - Overview
 
 # Overview
 
-
 ### Overview
-
-
 
 Jenkins is a continuous integration server that supports interactions with other technologies by using a plug-in model. This plug-in is installed into the Jenkins server and provides the ability to publish artifacts into an IBM UrbanCode Deploy component.
 
@@ -89,7 +86,6 @@ For earlier versions of IBM UrbanCode Deploy, download version 1.0.2 of the plug
 #### Version 1.2.9
 
 Fix issue where single build updated properties on all versions. Fixed exception handling.
-
 
 |Back to ...||Latest Version|Jenkins Publisher |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
