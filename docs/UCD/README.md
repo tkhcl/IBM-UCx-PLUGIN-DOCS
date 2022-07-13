@@ -1488,7 +1488,7 @@ This plug-in includes steps for installing and updating applications in the IBM 
 
 |Back to ...||IBM WebSphere Liberty |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](WebSphereLiberty/README.md)|[21.1100824](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/WebSphereLiberty-21.1100824.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](WebSphereLiberty/README.md)|[21.1134888](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/ucd-WebSphereLiberty-21.1134888.zip)|
 
 ## IBM WebSphere Portal
 
