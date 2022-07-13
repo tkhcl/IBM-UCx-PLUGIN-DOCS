@@ -63,6 +63,9 @@ To use the [Wait for Application to be STARTED](steps#wait_for_application_to_be
 Watch and learn: [Create a WebSphere Liberty collective and deploy applications using UrbanCode Deploy](https://www.youtube.com/watch?v=VaYQE5d96hY&feature=youtu.be). See the related example: [Creating a collective and installing a simple application](#example-installing-a-simple-web-application).
 
 ### History
+#### Version 22
+
+* Minor Fix – to pick JAVA_HOME set as per agent on linux machine
 
 #### Version 19
 
