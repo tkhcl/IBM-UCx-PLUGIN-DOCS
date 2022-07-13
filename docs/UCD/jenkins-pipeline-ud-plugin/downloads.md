@@ -4,6 +4,7 @@ Jenkins Pipeline - Downloads
 
 # Downloads
 
+- [ibm-ucdeploy-build-steps-2.27.1134919.hpi](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/jenkins-pipeline-ud-plugin/ibm-ucdeploy-build-steps-2.27.1134919.hpi)
 - [ibm-ucdeploy-build-steps-2.26.1127981.hpi](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/jenkins-pipeline-ud-plugin/ibm-ucdeploy-build-steps-2.26.1127981.hpi)
 - [ibm-ucdeploy-build-steps-2.25.1127189.hpi](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/jenkins-pipeline-ud-plugin/ibm-ucdeploy-build-steps-2.25.1127189.hpi)
 - [ibm-ucdeploy-build-steps-2.23.1112404.hpi](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/jenkins-pipeline-ud-plugin/ibm-ucdeploy-build-steps-2.23.1112404.hpi)
@@ -35,4 +36,4 @@ Jenkins Pipeline - Downloads
 
 |Back to ...||Latest Version|Jenkins Pipeline |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[2.26.1127981](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/jenkins-pipeline-ud-plugin/ibm-ucdeploy-build-steps-2.26.1127981.hpi)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[2.27.1134919](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/jenkins-pipeline-ud-plugin/ibm-ucdeploy-build-steps-2.27.1134919.hpi)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|

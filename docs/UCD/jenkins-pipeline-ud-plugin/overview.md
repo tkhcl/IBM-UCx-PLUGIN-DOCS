@@ -30,6 +30,12 @@ The [Jenkins Pipeline Plug-in Tutorial](https://community.ibm.com/community/user
 
 ### History
 
+#### Version 2.27
+
+* Fixed : 401 unauthorised error while pushing artifacts to IBM UrbanCode Deploy server.
+* Added Global Fields for Skip Application Properties Import and Always Create New Client.
+* Added fields for Extensions of files to Convert field and Charset to push artifacts to component version step.
+
 #### Version 2.26
 
 * Fixed : Removed httpcore dependencies as it is no more used
@@ -147,4 +153,4 @@ The [Jenkins Pipeline Plug-in Tutorial](https://community.ibm.com/community/user
 
 |Back to ...||Latest Version|Jenkins Pipeline |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[2.26.1127981](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/jenkins-pipeline-ud-plugin/ibm-ucdeploy-build-steps-2.26.1127981.hpi)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[2.27.1134919](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/jenkins-pipeline-ud-plugin/ibm-ucdeploy-build-steps-2.27.1134919.hpi)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
