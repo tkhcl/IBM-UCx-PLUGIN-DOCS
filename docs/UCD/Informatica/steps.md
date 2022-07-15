@@ -12,16 +12,20 @@ Informatica - Steps
 
 ### Process steps in the Informatica plug-in
 
-* [Apply Label](#apply_label)
-* [Assign Permission](#assign_permission)
-* [Create Dynamic Deployment Group](#create_dynamic_deployment_group)
-* [Create Folder](#create_folder)
-* [Create Static Deployment Group](#create_static_deployment_group)
-* [Deploy Deployment Group](#deploy_deployment_group)
-* [Import Objects](#import_objects)
-* [Roll Back Deployment Group](#roll_back_deployment_group)
-* [Run PMREP Command](#run_pmrep_command)
-* [Validate Deployment Group](#validate_deployment_group)
+- [Informatica - Steps](#informatica---steps)
+- [Steps](#steps)
+    - [Steps](#steps-1)
+    - [Process steps in the Informatica plug-in](#process-steps-in-the-informatica-plug-in)
+    - [Apply Label](#apply-label)
+    - [Assign Permission](#assign-permission)
+    - [Create Dynamic Deployment Group](#create-dynamic-deployment-group)
+    - [Create Folder](#create-folder)
+    - [Create Static Deployment Group](#create-static-deployment-group)
+    - [Deploy Deployment Group](#deploy-deployment-group)
+    - [Import Objects](#import-objects)
+    - [Roll Back Deployment Group](#roll-back-deployment-group)
+    - [Run PMREP Command](#run-pmrep-command)
+    - [Validate Deployment Group](#validate-deployment-group)
 
 
 ### Apply Label
@@ -256,4 +260,4 @@ Validate a deployed deployment group in the target server.
 
 |Back to ...||Latest Version|Informatica |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[v31](https://github.com/UrbanCode/Informatica-UCD/releases/download/31/Informatica-UCD-v31.ad2156b.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|

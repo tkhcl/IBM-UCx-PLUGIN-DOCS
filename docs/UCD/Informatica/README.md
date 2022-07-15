@@ -41,4 +41,4 @@ Available Steps
 
 |Back to ...||Latest Version||||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[v31](https://github.com/UrbanCode/Informatica-UCD/releases/download/31/Informatica-UCD-v31.ad2156b.zip)|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|

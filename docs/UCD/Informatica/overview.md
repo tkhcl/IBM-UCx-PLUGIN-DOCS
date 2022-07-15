@@ -47,4 +47,4 @@ Release notes can be found on the [Informatica GitHub project](https://github.co
 
 |Back to ...||Latest Version|Informatica |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|[Readme](README.md)|[Steps](steps.md)|[Usage](usage.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[v31](https://github.com/UrbanCode/Informatica-UCD/releases/download/31/Informatica-UCD-v31.ad2156b.zip)|[Readme](README.md)|[Steps](steps.md)|[Usage](usage.md)|

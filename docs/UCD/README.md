@@ -1565,7 +1565,7 @@ Overview Informatica PowerCenter is an enterprise data integration platform.
 
 |Back to ...||Informatica |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](informatica/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](Informatica/README.md)|[v31](https://github.com/UrbanCode/Informatica-UCD/releases/download/31/Informatica-UCD-v31.ad2156b.zip)|
 
 ## JBoss Application Server
 
