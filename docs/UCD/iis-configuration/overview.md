@@ -1,16 +1,9 @@
 
-Microsoft IIS - Configure - Overview
-====================================
+# Microsoft IIS - Configure - Overview
 
-# Overview
+## Overview
 
-
-### Overview
-
-
-
-
-The IISConfigure plug-in includes steps to discover IIS configurations, and to apply configurations and applications to IIS instances. To learn more about the IISConfigure plug-in, watch the [tutorial video](#videoembed).
+The IISConfigure plug-in includes steps to discover IIS configurations, and to apply configurations and applications to IIS instances. To learn more about the IISConfigure plug-in, watch the [tutorial video](https://www.youtube.com/embed/XaJbWQQMRR0).
 
 To add the IISConfigure plug-in steps to processes, click **IISConfiguration > Discovery** in the step palette of the process editor.
 
@@ -32,9 +25,11 @@ This plug-in supports agents that are running on Microsoft Windows.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode products").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode products").
 
-### History
+## History
+
+### Versions
 
 #### Version 11
 
@@ -44,13 +39,12 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 * A topology discovery can be run without editing and saving the properties of the webServer group after an auto-discovery.
 
-####  Version 8
+#### Version 8
 
 * Error and debugging information prints correctly to the output log in UrbanCode Deploy.
 * IISApp resource roles can be added to other IISApp resource roles.
 
 Other Versions:
-
 
 #### Version 7
 
@@ -86,8 +80,6 @@ Other Versions:
 * Fixed issue where plug-in might not automatically import example processes, component templates, and applications.
 * Added plug-in dependencies for various plug-in steps that are used in example processes, component templates, and applications.
 * Fixed issue where topology discovery resource role attributes did not parse colons (:) properly.
-
-
 
 |Back to ...||Latest Version|Microsoft IIS - Configure |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |

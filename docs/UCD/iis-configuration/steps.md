@@ -1,30 +1,29 @@
 
-Microsoft IIS - Configure - Steps
-=================================
+# Microsoft IIS - Configure - Steps
 
-# Steps
-
-
-### Steps
-
-
-
+## Steps
 
 ### Process steps in the IISConfigure plug-in
 
-* [IIS Configuration Apply](#iis_configuration_apply)
-* [IIS Configuration Auto-Discovery](#iis_configuration_auto-discovery)
-* [IIS Configuration Discovery](#iis_configuration_discovery)
-* [IIS Configuration Live Compare](#iis_configuration_live_compare)
-* [IIS Configuration Replace Tokens](#iis_configuration_replace_tokens)
-* [IIS Configuration Tokenize Configuration File](#iis_configuration_tokenize_configuration_file)
-* [IIS Configuration Topology Discovery](#iis_configuration_topology_discovery)
-
+- [Microsoft IIS - Configure - Steps](#microsoft-iis---configure---steps)
+  - [Steps](#steps)
+    - [Process steps in the IISConfigure plug-in](#process-steps-in-the-iisconfigure-plug-in)
+    - [IIS Configuration Apply](#iis-configuration-apply)
+    - [IIS Configuration Auto-Discovery](#iis-configuration-auto-discovery)
+    - [IIS Configuration Discovery](#iis-configuration-discovery)
+    - [IIS Configuration Live Compare](#iis-configuration-live-compare)
+    - [IIS Configuration Replace Tokens](#iis-configuration-replace-tokens)
+    - [IIS Configuration Tokenize Configuration File](#iis-configuration-tokenize-configuration-file)
+    - [IIS Configuration Topology Discovery](#iis-configuration-topology-discovery)
+    - [Roles in the IIS-Configuration plug-in](#roles-in-the-iis-configuration-plug-in)
+    - [IISApp](#iisapp)
+    - [IISAppPool](#iisapppool)
+    - [IISSite](#iissite)
+    - [IISWebServer](#iiswebserver)
 
 ### IIS Configuration Apply
 
 Apply a configuration or application to an IIS instance.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -36,14 +35,12 @@ Apply a configuration or application to an IIS instance.
 
 Discover an IIS configuration.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 
 ### IIS Configuration Discovery
 
 Configure detailed information in IIS.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -84,7 +81,6 @@ Replace tokens in the configuration file.
 
 Replace property values with tokens in Web Deploy configuration files.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Properties To Tokenize | String | Specify a list of properties and their replacement tokens, separated by newline characters. Use the following format: property=token. For example: aProperty=@token@\nanotherProperty=@anotherToken@ | Yes |
@@ -94,27 +90,22 @@ Replace property values with tokens in Web Deploy configuration files.
 
 Discover an IIS configuration.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | AppCmd Path | String | The full path to the AppCmd.exe executable file. | Yes |
 
-
 ### Roles in the IIS-Configuration plug-in
 
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
-
 
 * [IISApp](#iisapp_role)
 * [IISAppPool](#iisapppool_role)
 * [IISSite](#iissite_role)
 * [IISWebServer](#iiswebserver_role)
 
-
 ### IISApp
 
 Role for resources that represents an IIS application
-
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -124,7 +115,6 @@ Role for resources that represents an IIS application
 ### IISAppPool
 
 Role for resources that represents an IIS application pool
-
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -137,7 +127,6 @@ Role for resources that represents an IIS application pool
 
 Role for resources that represents an IIS Site
 
-
 | Name | Type | Description |
 | --- | --- | --- |
 | iis.site.name | String | The name for this resource role |
@@ -149,15 +138,12 @@ Role for resources that represents an IIS Site
 
 Role for resources that represents an IIS root
 
-
 | Name | Type | Description |
 | --- | --- | --- |
 | iis.webserver.name | String | The name for this resource role |
 | iis.wwwroot.path | String | Path to wwwroot on the agents environment. This is used to locate the wwwroot path to perform configuration discover/apply actions |
 | iis.appCmdFile | String | Path to the AppCmd.exe file. This is used to locate the AppCmd.exe file so that it can be utilized in topology discoveries |
 | iis.webDeployPath | String | Path to the MSDeploy.exe file. This is used to locate MSDeploy.exe so that we can utilize it for configuration discover/apply actions |
-
-
 
 |Back to ...||Latest Version|Microsoft IIS - Configure |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
