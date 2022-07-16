@@ -1,24 +1,16 @@
 
-IBM WebSphere Liberty - Usage
-=============================
+# IBM WebSphere Liberty - Usage
 
-# Usage
+## Usage
 
-
-### Usage
-
-
-
-
-* [Example: Creating a collective and installing a simple application](https://www.urbancode.com/plugindoc/ibmucd/websphere-liberty/1-2/usage/example-installing-a-simple-web-application/)
-* [Example: Installing an application on WebSphere Application Server Liberty Profile](https://www.urbancode.com/plugindoc/ibmucd/websphere-liberty/1-2/usage/example-installing-an-application-on-websphere-application-server-liberty-profile/)
+- [IBM WebSphere Liberty - Usage](#ibm-websphere-liberty---usage)
+  - [Usage](#usage)
+    - [Example: Creating a collective and installing a simple application](#example-creating-a-collective-and-installing-a-simple-application)
+    - [Example: Installing an application on WebSphere Application Server Liberty Profile](#example-installing-an-application-on-websphere-application-server-liberty-profile)
 
 ### Example: Creating a collective and installing a simple application
 
-
-
-
-The `[CreateCollectiveSampleApp.zip](http://public.dhe.ibm.com/software/products/UrbanCode/plugins/ibmucd/WebSphereLiberty/SampleApplications/CreateCollectiveSampleApp.zip)` file contains an example IBM UrbanCode Deploy application that creates a WebSphere Liberty collective and deploys a simple web application to the servers in the collective. The sample application runs processes to complete the following tasks:
+The [CreateCollectiveSampleApp.zip](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/WebSphereLiberty/SampleApplications/CreateCollectiveSampleApp.zip.txt) file contains an example IBM UrbanCode Deploy application that creates a WebSphere Liberty collective and deploys a simple web application to the servers in the collective. The sample application runs processes to complete the following tasks:
 
 * Create a Liberty server and collective.
 * Register a target host with the collective.
@@ -57,11 +49,7 @@ https://*CollectiveControllerHost*:9443/adminCenter
 
 Log in to the Liberty Admin Center. For the sample application, the default administrator ID is `admin` and the default password is `adminpwd`. Click the **Explore** icon and to display the applications, servers, and other information that is associated with the collective that the sample application created.
 
-
 ### Example: Installing an application on WebSphere Application Server Liberty Profile
-
-
-
 
 The following component process installs a Java EE application on the WebSphere Application Server Liberty Profile. In this example, the application binary files are in the component. Also, the environment contains an installation of the Liberty profile and a server that is running. The process runs the following steps in order:
 
@@ -72,7 +60,6 @@ The following component process installs a Java EE application on the WebSphere 
 
 [![A component process that uses the steps in the Liberty Profile plug-in to an install an application](examples_websphereliberty_install_app_a.gif)](examples_websphereliberty_install_app_a.gif)
 A component process that uses the steps in the Liberty Profile plug-in to install an application
-
 
 |Back to ...||Latest Version|IBM WebSphere Liberty |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
