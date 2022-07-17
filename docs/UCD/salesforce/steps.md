@@ -1,20 +1,12 @@
 
-Salesforce - Steps
-==================
+# Salesforce - Steps
 
-# Steps
-
-
-### Steps
-
-
-
+## Steps
 
 ### Process steps in the SalesForce plug-in
 
 - [Salesforce - Steps](#salesforce---steps)
-- [Steps](#steps)
-    - [Steps](#steps-1)
+  - [Steps](#steps)
     - [Process steps in the SalesForce plug-in](#process-steps-in-the-salesforce-plug-in)
     - [Bulk Retrieve](#bulk-retrieve)
     - [Deploy](#deploy)
@@ -23,11 +15,9 @@ Salesforce - Steps
     - [List Metadata](#list-metadata)
     - [Retrieve](#retrieve)
 
-
 ### Bulk Retrieve
 
 Download a large number of components of a single metadata type into a set of local files.
-
 
 
 | Name | Type | Description | Required |
@@ -54,7 +44,6 @@ Download a large number of components of a single metadata type into a set of lo
 
 Deploy components, code, or recent validations into your org.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Check Only | Boolean | Check this box to perform a test deployment (validation) of components without saving the components in the target org. After the validation finishes with passing tests, it might qualify for deployment without rerunning tests (Deploy Recent Validation step). | No |
@@ -77,7 +66,6 @@ Deploy components, code, or recent validations into your org.
 
 Describe and list all metadata types and their existing objects.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | API Version | String | The API version to use for the metadata. The default is 34.0. | Yes |
@@ -95,8 +83,6 @@ Describe and list all metadata types and their existing objects.
 ### Deploy Recent Validation
 
 Deploy recently validated components.
-
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -117,7 +103,6 @@ Deploy recently validated components.
 ### List Metadata
 
 List information on a given metadata type.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -141,7 +126,6 @@ List information on a given metadata type.
 
 Retrieve unpackaged, managed or unmanaged packages.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Jar Path | String | Path to the Salesforce jar (ex. lib/ant-salesforce.jar) | Yes |
@@ -152,18 +136,15 @@ Retrieve unpackaged, managed or unmanaged packages.
 | Proxy Port | String | The HTTP/FTP proxy port number. If nothing is entered, 80 will be used. | No |
 | Proxy Username | String | The proxy user. | No |
 | Retrieve Target | String | Required. The root of the directory structure into which the metadata files are retrieved. (i.e. codepkg) | Yes |
-| Retrieve Type | Enumeration:
-* retrievePkg
-* retrieveOutput
-* retrieveUnpackaged
-| The type of component to retrieve. | Yes |
+| Retrieve Type | Enumeration:               | The type of component to retrieve. | Yes |
+|               |  - retrievePkg             |                                    |     |
+|               |  - retrieveOutput          |                                    |     |
+|               |  - retrieveUnpackaged      |                                    |     |
 | SalesForce Server URL | String | SFDC Server URL (i.e. https://na17.salesforce.com) | Yes |
 | Socks Proxy Host | String | The name of a Socks server. | No |
 | Socks Proxy Port | String | The port for socks connections. If left empty, 1080 is used. | No |
 | Unpackaged | String | Required if Unpackaged is specified. The path and name of a file manifest that specifies the components to retrieve. You must specify either Unpackaged or Package Names, but not both. (i.e. codepkg/package.xml) | No |
 | User | String | SFDC User Name | No |
-
-
 
 |Back to ...||Latest Version|Salesforce ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |

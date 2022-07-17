@@ -1,14 +1,7 @@
 
-Salesforce - Overview
-=====================
+# Salesforce - Overview
 
-# Overview
-
-
-### Overview
-
-
-
+## Overview
 
 The Salesforce plug-in includes steps that use the Force.com Migration Tool to deploy metadata changes and Apex classes.For a detailed tutorial and example use-cases, refer to the [Usage](#usage) page.
 
@@ -22,7 +15,7 @@ This plug-in requires version 6.0 or later of IBM UrbanCode Deploy.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
 
 ### History
 
@@ -65,7 +58,6 @@ Version 2 of the plug-in includes the following steps: List Metadata, Describe M
 #### Version 1
 
 Version 1 is the initial release of the plug-in.
-
 
 |Back to ...||Latest Version|Salesforce ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
