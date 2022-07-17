@@ -1,12 +1,10 @@
 
-Welcome to UrbanCode Build Plugins
-==================================
+# Welcome to UrbanCode Build Plug-ins
 
-Contents
-========
+## Contents
 
-- [Welcome to UrbanCode Build Plugins](#welcome-to-urbancode-build-plugins)
-- [Contents](#contents)
+- [Welcome to UrbanCode Build Plug-ins](#welcome-to-urbancode-build-plug-ins)
+	- [Contents](#contents)
 - [List of all Plugins](#list-of-all-plugins)
 	- [AccuRev](#accurev)
 	- [AccuWork](#accuwork)
