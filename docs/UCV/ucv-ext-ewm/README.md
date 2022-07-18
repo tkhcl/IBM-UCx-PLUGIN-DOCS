@@ -8,4 +8,4 @@ Urban Code Velocity value stream map.
 
 |Back to ...||Latest Version||||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.15](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ewm/ucv-ext-ewm-1.1.15.tar.zip)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.27](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-ewm/ucv-ext-ewm:1.1.27.tar)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
