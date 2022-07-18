@@ -36,6 +36,7 @@ History
 ### Version 1.1.27
 
 * Added change sets related data to history section of VSM dot.
+
 ### Version 1.0.2
 
 * Initial release
