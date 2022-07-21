@@ -47,15 +47,18 @@ The following tables describe the properties used to configure the integration. 
 * The General Configuration Properties table describes configuration properties used by all plug-in integrations.
 * The GitHub Configuration Properties table describes the GitHub configuration properties that define the connection and communications with the GitHub server. When using the JSON method to integrate the plug-in these properties are coded within the `properties` configuration property.
 
+#### General Configuration Properties table
+
 | Name | Description | Required | Property Name |
 | --- | --- | ---| --- |
 | NA | The version of the plug-in that you want to use. To view available versions, click the **Version History** tab. If a value is not specified, the latest version is used. | No | image |
 | Integration Name | An assigned name to the value stream. | Yes | name |
 | Logging Level | The level of Log4j messages to display in the log file. Valid values are: all, debug, info, warn, error, fatal, off, and trace. | No | loggingLevel |
-| NA | List of configuration properties used to connect and communicate with the GitHub server. Enclose the properties within braces. | Yes |
-properties |
+| NA | List of configuration properties used to connect and communicate with the GitHub server. Enclose the properties within braces. | Yes | properties |
 |  | The name of the tenant. | Yes | tenant_id |
 | NA | Unique identifier assigned to the plug-in. The value for the GitHub plug-in is `ucv-ext-github` | Yes | type |
+
+#### GitHub Configuration Properties table
 
 | Name | Type | Description | Required | Project Name |
 | --- | --- | --- | --- | --- |
@@ -76,32 +79,25 @@ The following example can be used as a template to define the integration within
 
 ```json
 
-"integrations":[
-{
-"type":"ucv-ext-github",
-"tenant_id":"tenant-id",
-
-"name":"github-integration-name",
-"properties":{
-"owner":"owner-name",
-
-"repositories":[
-"repo1",
-"repo2",
-"repo3"
-],
-
-"apiUrl":"github-api-url",
-"token":"generated-token",
-"ucvAccessKey":"generated-access-key",
-
-"proxyServer": "*proxy_server_url*",
-"proxyUsername": "*proxy_server_user_name*",
-
-"proxyPassword": "*proxy_server_password*"
-}``
-}``
-]
+"integrations":[ {
+    "type":"ucv-ext-github",
+    "tenant_id":"tenant-id",
+    "name":"github-integration-name",
+    "properties":{
+        "owner":"owner-name",
+        "repositories":[ 
+            "repo1",
+            "repo2",
+            "repo3"
+        ],
+        "apiUrl":"github-api-url",
+        "token":"generated-token",
+        "ucvAccessKey":"generated-access-key",
+        "proxyServer": "*proxy_server_url*",
+        "proxyUsername": "*proxy_server_user_name*",
+        "proxyPassword": "*proxy_server_password*"
+    }
+} ]
 
 ```
 

@@ -48,14 +48,18 @@ property name when using a JSON file.
 * The General Configuration Properties table describes configuration properties used by all plug-in integrations.
 * The Jira Configuration Properties table describes the configuration properties that define the connection and communications with the Jira server. When using the JSON method to integrate the plug-in these properties are coded within the `properties` configuration property.
 
+#### General Configuration table
+
 | Name | Description | Required |
 | --- | --- | --- |
 | image | The version of the plug-in that you want to use. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-jira/tags). If a value is not specified, the latest version is used. | No |
 | name | An assigned name to the value stream. | Yes |
 | loggingLevel | The level of Log4j messages to log. Valid values are: all, debug, info, warn, error, fatal, off, and trace. The default is info. | No |
 | properties | List of plug-in configuration properties used to connect and communicate with the Jira server. Enclose the properties within braces. | Yes |
-| tenant\_id | The name of the tenant. | Yes |
+| tenant_id | The name of the tenant. | Yes |
 | type | Unique identifier assigned to the plug-in. The value for the Jira plug-in is `ucv-ext-jira` | Yes |
+
+#### Jira Configuration Properties table
 
 | Name | Type | Description | Required | Property Name |
 | --- | --- | --- | --- | --- |
@@ -72,6 +76,7 @@ property name when using a JSON file.
 | URL | String | The base URL of the Jira server. | Yes | baseUrl |
 | User Name | String | The user name used to authenticate with the Jira server. | No | username |
 
+
 #### Example
 
 The following example can be used as a template to include the Jira plug-in integration into the JSON file. Copy and paste the template into the JSON file
@@ -79,31 +84,24 @@ and make the appropriate changes.
 
 ```json
 
-"integrations": [
-{
+"integrations": [ {
 "type": "ucv-ext-jira",
-"tenant_id":
-"*tenantid*",
+"tenant_id": "*tenantid*",
 "name": "Jira_Plugin ",
 "properties": {
-"baseUrl": "*jira\_server\_url*",
-
-"username": "*jira\_server\_user\_name*",
-"password": "*jira\_server\_password*",
-
-"consumer_key": null,
-"consumer_secret": null,
-"access_token": null,
-"access_token_secret":
-null,
-"jiraJql":"*project in ("John-Project")*",
-"proxyServer": "*proxy\_server\_url*",
-
-"proxyUsername": "*proxy\_server\_user\_name*",
-"proxyPassword": "*proxy\_server\_password*"
-}``
-
-}``  ]
+    "baseUrl": "*jira_server_url*",
+    "username": "*jira_server_user_name*",
+    "password": "*jira_server_password*",
+    "consumer_key": null,
+    "consumer_secret": null,
+    "access_token": null,
+    "access_token_secret": null,
+    "jiraJql":"*project in ("John-Project")*",
+    "proxyServer": "*proxy_server_url*",
+    "proxyUsername": "*proxy_server_user_name*",
+    "proxyPassword": "*proxy_server_password*"
+    }
+} ]
 ```
 
 |Back to ...||Latest Version|Jira |||
