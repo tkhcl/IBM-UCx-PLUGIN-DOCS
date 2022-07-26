@@ -1621,7 +1621,7 @@ The IIS-AppCmd plugin is an automation based plugin. It is used during the deplo
 
 |Back to ...||Microsoft IIS AppCmd |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](IIS-AppCmd/README.md)|[6.1108801](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IIS-AppCmd/IIS-AppCmd-6.1108801.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](IIS-AppCmd/README.md)|[7.1138456](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IIS-AppCmd/ucd-IIS-AppCmd-7.1138456.zip)|
 
 ## Microsoft IIS MS-Deploy (Azure App Service)
 
