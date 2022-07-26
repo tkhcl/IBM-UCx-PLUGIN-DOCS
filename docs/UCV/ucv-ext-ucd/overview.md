@@ -31,21 +31,7 @@ History
 
 ### Version 1.0.10
 
-* Internal release related changes
-
-### Version 1.0.9
-
-* Fixed Error: Variable $_v0_inventories got invalid value
-* Deployment Status Error Fix
-
-### Version 1.0.8
-
-* Reduced vulnerability
-
-### Version 1.0.5
-
-* Re-branding of Urbancode Launch Plugin to Urbancode Deploy.
-
+* Initial release.
 
 
 |Back to ...||Latest Version|Urbancode Deploy |||
