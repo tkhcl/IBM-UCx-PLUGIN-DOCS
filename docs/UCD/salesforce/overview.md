@@ -19,6 +19,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 10
+
+Resolved property validation issue due to which plugin was unable to load in some UCD versions.
+
 #### Version 9
 
 Added hidden fields for pollWaitMillis and maxPoll parameters to various steps.
@@ -61,4 +65,4 @@ Version 1 is the initial release of the plug-in.
 
 |Back to ...||Latest Version|Salesforce ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1101988](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SalesForce/salesforce-9.1101988.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.1138575](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SalesForce/ucd-salesforce-10.1138575.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
