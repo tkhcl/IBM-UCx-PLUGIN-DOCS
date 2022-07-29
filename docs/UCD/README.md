@@ -1621,7 +1621,7 @@ The IIS-AppCmd plugin is an automation based plugin. It is used during the deplo
 
 |Back to ...||Microsoft IIS AppCmd |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](IIS-AppCmd/README.md)|[6.1108801](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IIS-AppCmd/IIS-AppCmd-6.1108801.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](IIS-AppCmd/README.md)|[7.1138456](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IIS-AppCmd/ucd-IIS-AppCmd-7.1138456.zip)|
 
 ## Microsoft IIS MS-Deploy (Azure App Service)
 
@@ -2041,7 +2041,7 @@ The Salesforce plug-in for IBM UrbanCode Deploy uses the Force.com Migration Too
 
 |Back to ...||Salesforce |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](salesforce/README.md)|[9.1101988](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SalesForce/salesforce-9.1101988.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](salesforce/README.md)|[10.1138575](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SalesForce/ucd-salesforce-10.1138575.zip)|
 
 ## Selenium
 
@@ -2211,7 +2211,7 @@ The Web Utilities plug-in includes steps for interacting with web sites and web 
 
 |Back to ...||Web Utilities |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](web-utilities/README.md)|[16.1107121](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/web-utilities-16.1107121.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](web-utilities/README.md)|[17.1138530](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/ucd-web-utilities-17.1138530.zip)|
 
 ## WebSphere Application Server - Configure
 
@@ -2281,7 +2281,7 @@ Apart from copying content to a mainframe dataset, this plug-in provides the fol
 
 |Back to ...||z/OS Dataset Writer |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](zos-dataset-writer/README.md)|[4.1134355](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-dataset-writer/ucd-plugins-zos-dataset-writer-4.1134355.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](zos-dataset-writer/README.md)|[4.1138411](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-dataset-writer/ucd-plugins-zos-dataset-writer-4.1138411.zip)|
 
 ## z/OS External Artifact Repository
 
@@ -2361,4 +2361,4 @@ The z/OS Utility plug-in includes steps for retrieving and deploying IBM z/OS ar
 
 |Back to ...||z/OS Utility |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](zos-deploy/README.md)|[72.1134247](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-72.1134247.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](zos-deploy/README.md)|[73.1138577](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-73.1138577.zip)|
