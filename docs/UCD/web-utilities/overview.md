@@ -30,6 +30,14 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 17
+
+* Minor bug fix for the timeout property
+
+#### Version 16
+
+* Configure timeout for HTTP calls.
+
 #### Version 15
 
 * New Delete from FTP Server step.
