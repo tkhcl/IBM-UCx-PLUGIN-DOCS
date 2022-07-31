@@ -1961,7 +1961,7 @@ The PowerShell plug-in provides a step for running user-defined PowerShell scrip
 
 |Back to ...||PowerShell |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](PowerShell/README.md)|[9.1025820](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/powershell-integration/PowerShell-Integration-9.1025820.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](powershell-integration/README.md)|[9.1025820](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/powershell-integration/PowerShell-Integration-9.1025820.zip)|
 
 ## Property Utils
 
