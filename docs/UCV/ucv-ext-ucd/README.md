@@ -8,4 +8,4 @@ The Deploy Plugin for Accelerate imports deployment data from UrbanCode Deploy i
 
 |Back to ...||Latest Version||||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.11](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-ucd/ucv-ext-ucd:1.0.11.tar)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.12](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-ucd/ucv-ext-ucd:1.0.12.tar)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
