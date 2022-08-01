@@ -1,14 +1,7 @@
 
-IBM DataPower Configuration Manager - Overview
-==============================================
+# IBM DataPower Configuration Manager - Overview
 
-# Overview
-
-
-### Overview
-
-
-
+## Overview
 
 The IBM DataPower configuration manager plug-in includes steps to work with WebSphere DataPower appliances.
 
@@ -24,7 +17,7 @@ This plug-in supports agents running on the versions of Linux and Microsoft Wind
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy"). A Java SDK that contains tools.jar is required to run all DataPower plug-in steps.
+No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy"). A Java SDK that contains tools.jar is required to run all DataPower plug-in steps.
 
 ### How-To
 
@@ -111,7 +104,6 @@ Export Object step added. Added support for the back tick (`) character.
 #### Version 8
 
 Initial release of the standard version of the plug-in.
-
 
 |Back to ...||Latest Version|IBM DataPower Configuration Manager ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |

@@ -11,7 +11,7 @@ The component-level and application-level processes provided by Deploy fit natur
 
 **General Support:**
 
-This plug-in is developed and supported by IBM UrbanCode with assistance from the IBM UrbanCode Development Community. The underlying DCM client, which the plugin is based off of, is supported on a best effort basis. Anyone is welcome to contribute to the plug-in or the DCM client on GitHub. Click the *Visit Project* button above to see the source code. To download the latest plug-in or dcm release, navigate to the GitHub repository and click the *release* tab. All new DataPower plug-in versions will be listed there. We suggest that you follow the GitHub repository to stay up-to-date with the latest changes. Older versions can be found on our [ftp site](https://www.urbancode.com/uc-downloads/plugins/ibmucd/datapower/).
+This plug-in is developed and supported by IBM UrbanCode with assistance from the IBM UrbanCode Development Community. The underlying DCM client, which the plugin is based off of, is supported on a best effort basis. Anyone is welcome to contribute to the plug-in or the DCM client on GitHub. Click the *Visit Project* button above to see the source code. To download the latest plug-in or dcm release, navigate to the GitHub repository and click the *release* tab. All new DataPower plug-in versions will be listed there. We suggest that you follow the GitHub repository to stay up-to-date with the latest changes. Older versions can be found on the [Downloads Page](downloads.md).
 
 **Source Code:**
 
