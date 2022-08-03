@@ -4,6 +4,7 @@ App Connect Enterprise - Downloads
 
 # Downloads
 
+- [ucd-plugins-ibm-ace-7.1138742.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-ace/ucd-plugins-ibm-ace-7.1138742.zip)
 - [ucd-plugins-ibm-ace-6.1134007.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-ace/ucd-plugins-ibm-ace-6.1134007.zip)
 - [ucd-plugins-ibm-ace-5.1132110.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-ace/ucd-plugins-ibm-ace-5.1132110.zip)
 - [ucd-plugins-ibm-ace-4.1125884.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-ace/ucd-plugins-ibm-ace-4.1125884.zip)

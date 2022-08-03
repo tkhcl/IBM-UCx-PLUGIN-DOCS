@@ -27,6 +27,14 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 7.0
+
+* Implemented auth for StartIntegrationServer and StopIntegrationServer
+
+#### Version 6.0
+
+* Implemented auth for Create Integration Server Steps and Does integration server exist
+
 #### Version 5.0
 
 * Support for IBM ACE Version 12 added
