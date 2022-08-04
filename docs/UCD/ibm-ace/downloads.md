@@ -4,6 +4,7 @@ App Connect Enterprise - Downloads
 
 # Downloads
 
+- [ucd-plugins-ibm-ace-7.1138742.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-ace/ucd-plugins-ibm-ace-7.1138742.zip)
 - [ucd-plugins-ibm-ace-6.1134007.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-ace/ucd-plugins-ibm-ace-6.1134007.zip)
 - [ucd-plugins-ibm-ace-5.1132110.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-ace/ucd-plugins-ibm-ace-5.1132110.zip)
 - [ucd-plugins-ibm-ace-4.1125884.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-ace/ucd-plugins-ibm-ace-4.1125884.zip)
@@ -14,4 +15,4 @@ App Connect Enterprise - Downloads
 
 |Back to ...||Latest Version|App Connect Enterprise ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1134007](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-ace/ucd-plugins-ibm-ace-6.1134007.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[7.1138742](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ucd-plugins-ibm-ace-7.1138742.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|
