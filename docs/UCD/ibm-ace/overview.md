@@ -57,4 +57,4 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 |Back to ...||Latest Version|App Connect Enterprise ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[7.1138742](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-ace/ucd-plugins-ibm-ace-7.1138742.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[7.1138742](https://github.com/UrbanCode/IBM-UCD-PLUGINS/raw/main/files/ibm-ace/ucd-plugins-ibm-ace-7.1138742.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

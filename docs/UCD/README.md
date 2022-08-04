@@ -331,7 +331,7 @@ IBM App Connect Enterprise (ACE) combines the technologies of IBM Integration Bu
 
 |Back to ...||App Connect Enterprise |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-ace/README.md)|[6.1134007](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-ace/ucd-plugins-ibm-ace-6.1134007.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-ace/README.md)|[7.1138742](https://github.com/UrbanCode/IBM-UCD-PLUGINS/raw/main/files/ibm-ace/ucd-plugins-ibm-ace-7.1138742.zip)|
 
 ## Apple Xcode
 
