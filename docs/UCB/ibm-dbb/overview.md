@@ -16,7 +16,7 @@ The IBM Dependency Based Build (DBB) plug-in allow for inclusion of builds for z
 
 This plug-in includes one step:
 
-* [Build](https://www.urbancode.com/plugindoc/urbancode-build/ibm-dependency-based-build-2/1-2/steps/#build)
+* [Build](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCB/ibm-dbb/steps.html#build)
 
 
 ### Step palette
@@ -31,7 +31,7 @@ The plug-in runs on any agents that the IBM UrbanCode Build server supports.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/).
+No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins).
 
 ### History
 
