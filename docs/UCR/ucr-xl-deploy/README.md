@@ -14,7 +14,7 @@ urbancode | release | plugins | xl
 deploy](https://developer.ibm.com/answers/search.html?f=&type=question&redirect=search%2Fsearch&sort=relevance&q=urbancode+%7C+release+%7C+plugins+%7C+xl+deploy).
 **Note** The Open Link in New Tab function can interfere with the search terms in the link.
 * If no search results are
-found, submit your question on the [answers page](https://developer.ibm.com/answers/smart-spaces/23/urbancode.html).
+found, submit your question on the [answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion).
 Categorize your question with the following tags so that the most qualified people see and answer your inquiry:
 urbancode, release, plugins, and xl deploy.
 
