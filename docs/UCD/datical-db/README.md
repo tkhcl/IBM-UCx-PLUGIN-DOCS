@@ -18,7 +18,7 @@ If you encounter issues with the plug-in, or want to send feedback:
 
 * [Reach out to the Datical team](http://www-304.ibm.com/partnerworld/gsd/solutiondetails.do?solution=50447&lc=en&stateCd=P&tab=1) for any questions about plug-in usage.
 * Ask Datical DB plug-in specific questions on the [GitHub Issues](https://github.com/IBM-UrbanCode/DaticalDB-UCD-UCB/issues) page.
-* For general plug-in issues, submit questions to the [dW Answers page](https://developer.ibm.com/answers/smart-spaces/23/urbancode.html). Use the following tags: urbancode | ucdev | plugins
+* For general plug-in issues, submit questions to the [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins
 
 
 Available Steps

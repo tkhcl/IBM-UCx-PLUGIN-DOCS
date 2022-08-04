@@ -19,7 +19,7 @@ For an in-depth tutorial on using auto-discovery with Cloud Foundry, please read
 
 
 >
-> [Auto-Discovery with Cloud Foundry](https://www.urbancode.com/2018/05/21/auto-discovery-cloud-foundry/)
+> [Auto-Discovery with Cloud Foundry](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2022/07/06/auto-discovery-with-cloud-foundry)
 >
 >
 >

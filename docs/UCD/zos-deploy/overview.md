@@ -30,7 +30,7 @@ The plug-in also includes steps that are related to running z/OS commands, submi
 * Copy Data Set
 * Replace Tokens MVS
 
-To learn how to import components from data sets in IBM z/OS, see [Deploying to the z/OS platform](http://www.ibm.com/support/knowledgecenter/SS4GSP_6.2.0/com.ibm.udeploy.doc/topics/deploying_zos.html).
+To learn how to import components from data sets in IBM z/OS, see [Deploying to the z/OS platform](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=integrating-deploying-components-zos-platform).
 
 The plug-in also includes the Generate Artifact Information step, which scans version artifacts and generates text based on a template. The output text can be used as an input property for subsequent steps. Use the Generate Artifact Information to process data sets or members in a component version. You can also use the Generate Artifact Information step to select a set of artifacts to process, by applying filters on data set names, member names, deployment types, and custom properties.
 
@@ -48,7 +48,7 @@ The plug-in also includes steps that are related to managing redundant increment
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/). You must install and configure the z/OS deployment tools before you use the plug-in. To learn how to install and configure the z/OS deployment tools, see [Deploying to the z/OS platform](http://www.ibm.com/support/knowledgecenter/SS4GSP_6.1.1/com.ibm.udeploy.doc/topics/deploying_zos.html). You must configure the job server component before you run the following steps: Submit Job and Wait For Job.
+No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins). You must install and configure the z/OS deployment tools before you use the plug-in. To learn how to install and configure the z/OS deployment tools, see [Deploying to the z/OS platform](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=integrating-deploying-components-zos-platform). You must configure the job server component before you run the following steps: Submit Job and Wait For Job.
 
 ### History
 
@@ -181,7 +181,7 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 * Ported following steps to run from a non-zOS agent as well
 + Submit job
 + Wait for job
-* Moved FTP plugin step into a new plugin ( https://www.urbancode.com/plugin/z-os-ftp-utility/ )
+* Moved FTP plugin step into a new plugin ( https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-ftp/ )
 * Added permission checks for ISPF work directory and file
 * Fixed incompatible code with Java 7 (Earlier versions of this plugin required Java 8. Based on a request, we ported the plugins to run with Java 7 & 8 as well.
 * Enhancement on runtime delta deployment

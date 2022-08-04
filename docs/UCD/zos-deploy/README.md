@@ -29,7 +29,7 @@ The Submit Job and Wait For Job steps require the job server component that is i
 
 The plug-in also includes the Generate Artifact Information step, which scans version artifacts and generates text based on a template. The output text can be used as an input property to subsequent steps. Use the Generate Artifact Information step to batch-process data sets or members in a component version. You can also use the Generate Artifact Information step to select a subset of artifacts to process by applying filters on data set names, member names, deployment types, and custom properties.
 
-For more information and examples, see the [Usage page in the plug-in documentation](https://developer.ibm.com/urbancode/plugindoc/ibmucd/zos-utility-plug/1-2/usage/).
+For more information and examples, see the [Usage page in the plug-in documentation](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/overview.html).
 
 
 |          Back to ...          |                                |                                                        Latest Version                                                         ||||||

@@ -24,7 +24,7 @@ This plug-in supports agents running Microsoft Windows, Linux, and Mac OS.
 
 ### Installation
 
-The Cloud Foundry command-line utility must be installed on the agent computer. Install the Cloud Foundry command-line utility from the [GitHub repository](https://github.com/cloudfoundry/cli/releases). No other special steps are required for installing the plug-in in IBM UrbanCode Deploy. See [Installing plug-ins in IBM UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in IBM UrbanCode Deploy").
+The Cloud Foundry command-line utility must be installed on the agent computer. Install the Cloud Foundry command-line utility from the [GitHub repository](https://github.com/cloudfoundry/cli/releases). No other special steps are required for installing the plug-in in IBM UrbanCode Deploy. See [Installing plug-ins in IBM UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in IBM UrbanCode Deploy").
 
 ### History
 

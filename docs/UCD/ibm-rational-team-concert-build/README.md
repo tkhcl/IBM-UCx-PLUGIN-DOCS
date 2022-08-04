@@ -4,7 +4,7 @@ IBM Rational Team Concert - Build
 
 No source configuration plug-in is required to use Rational Team Concert builds in IBM UrbanCode Deploy.
 
-View a demo of this capability [here](https://developer.ibm.com/urbancode/2013/12/06/ibm-urbancode-deploy-integration-rational-team-concert-build/). Read about a full deployment architecture and process using WAS, BPM, and RTC [here](https://developer.ibm.com/urbancode/2015/09/18/continuous-integration-with-urbancode-deploy-and-ibm-business-process-server/).
+View a demo of this capability [here](https://youtu.be/1WSpLKsekr0). Read about a full deployment architecture and process using WAS, BPM, and RTC [here](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/20/bpserver).
 
 You can now continuously build and deploy your applications with Rational Team Concert Build and IBM UrbanCode Deploy. You can use IBM UrbanCode Deploy to define the application components and the processes that are required to manage an application in test and production environments. The IBM UrbanCode Deploy process design tool makes it easy to define the steps required to deploy a new version of an application.
 

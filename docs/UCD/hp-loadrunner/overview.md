@@ -24,7 +24,7 @@ You must run this plugin in an agent environment with an instance of HP LoadRunn
 
 ### Installation
 
-Installing this plugin requires no special steps. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
+Installing this plugin requires no special steps. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
 
 ### History
 

@@ -16,7 +16,7 @@ Refer to the documentation link on right for a complete set of steps.
 
 
 * Search on our answers page (note that the Open Link in New Tab function can interfere with the search terms in the link): [dW Answers: urbancode | deploy | plugins | Powershell](https://developer.ibm.com/answers/search.html?f=&type=question&redirect=search%2Fsearch&sort=relevance&q=urbancode+%7C+deploy+%7C+plugins+%7C+powershell)
-* If there are no search results, submit your issue as a question to our [answers page](https://developer.ibm.com/answers/smart-spaces/23/urbancode.html). Use the following tags: urbancode | deploy | plugins | Powershell.
+* If there are no search results, submit your issue as a question to our [answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | deploy | plugins | Powershell.
 
 
 |Back to ...||Latest Version||||

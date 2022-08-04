@@ -14,7 +14,7 @@ Downloads:
 If you encounter issues with the plug-in, or want to send feedback:
 
 * Ask Box plug-in specific questions on the [GitHub Issues](https://github.com/UrbanCode/Box-UCD/issues) page.
-* For general plug-in issues, submit questions to our [dW Answers page](https://developer.ibm.com/answers/smart-spaces/23/urbancode.html). Use the following tags: ucdev | urbancode | plugins
+* For general plug-in issues, submit questions to our [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: ucdev | urbancode | plugins
 
 
 Available Steps

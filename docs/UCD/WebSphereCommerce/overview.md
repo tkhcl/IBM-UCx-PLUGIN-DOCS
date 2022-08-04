@@ -26,7 +26,7 @@ A typical deployment includes the following procedures:
 
 This plug-in requires version 6.0.1 or later of IBM UrbanCode Deploy.
 
-This plug-in also requires version 80 or later of the [WebSphere Application ServerDeployment](https://www.urbancode.com/plugin/ibm-websphere-application-deployment-2/) plug-in.
+This plug-in also requires version 80 or later of the [WebSphere Application ServerDeployment](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Websphere/) plug-in.
 
 The IBM UrbanCode Deploy plug-in for WebSphere Commerce works with WebSphere Commerce versions 7.0 and earlier. All editions are supported, including the Express, Enterprise and Professional editions.
 
@@ -34,7 +34,7 @@ The steps in this plug-in run on any agents that the IBM UrbanCode Deploy server
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
 
 ### History
 

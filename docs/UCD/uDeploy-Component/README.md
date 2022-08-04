@@ -3,7 +3,7 @@ IBM UrbanCode Deploy Components
 ===============================
 
 
-uDeploy is Urbancode’s application release automation tool. For more information, see [UrbanCode Deploy](https://developer.ibm.com/urbancode/products/urbancode-deploy/)
+uDeploy is Urbancode’s application release automation tool. For more information, see [UrbanCode Deploy](https://www.ibm.com/cloud/urbancode)
 
 Component for creating and managing IBM UrbanCode Deploy components.
 

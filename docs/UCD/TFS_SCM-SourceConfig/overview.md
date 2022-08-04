@@ -29,7 +29,7 @@ This plug-in supports agents that are running on Microsoft Windows.
 
 Microsoft .NET Framework 3.5 must be installed on the agent computer where the plug-in is installed.
 
-No special steps are required for installing the plug-in. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installing the plug-in. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
 
 ### History
 

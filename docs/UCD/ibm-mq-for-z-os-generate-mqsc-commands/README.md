@@ -13,7 +13,7 @@ Further information about the plugin
 ------------------------------------
 
 
-More detailed information and examples, with specific syntax, can be found in the associated white paper: [IBM MQ for zOS – Generate MQSC Commands](http://developer.ibm.com/urbancode/plugindoc/ibmucd/ibm-mq-for-zos/1-2/ibm-mq-for-zos-generate-mqsc-commands-2/)
+More detailed information and examples, with specific syntax, can be found in the associated white paper: [IBM MQ for zOS – Generate MQSC Commands](https://github.com/IBM-UrbanCode/IBM-MQ-zOS-UCD/blob/master/doc/white_paper/IBM%20MQ%20for%20zOS%20Generate%20MQSC%20Commands.pdf)
 
 
 Downloads:
@@ -26,7 +26,7 @@ If you encounter issues with the plug-in, or want to send feedback:
 
 * See the [plug-in documentation](https://github.com/IBM-UrbanCode/IBM-MQ-zOS-UCD/tree/master/doc).
 * Ask IBM MQ for z/OS – Generate MQSC Commands plug-in specific questions on the [GitHub Issues](https://github.com/IBM-UrbanCode/IBM-MQ-zOS-UCD/issues) page.
-* For general plug-in issues, submit questions to the [dW Answers page](https://developer.ibm.com/answers/smart-spaces/23/urbancode.html). Use the following tags: urbancode | ucdev | plugins
+* For general plug-in issues, submit questions to the [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins
 
 
 Available Steps

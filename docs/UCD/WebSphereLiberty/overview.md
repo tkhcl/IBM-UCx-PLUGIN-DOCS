@@ -51,7 +51,7 @@ This plug-in was tested with WebSphere Liberty profile versions 8.5.5.916.0.0.2.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in IBM UrbanCode products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in IBM UrbanCode products").
+No special steps are required for installation. See [Installing plug-ins in IBM UrbanCode products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in IBM UrbanCode products").
 
 To use the [Wait for Application to be STARTED](steps#wait_for_application_to_be_started) step, you must complete the following steps to configure the REST connector for the WebSphere Application Server Liberty profile:
 

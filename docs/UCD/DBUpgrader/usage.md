@@ -77,7 +77,7 @@ When DB Upgrader runs on Product Version 2, it uses both XML files. Because each
 
 ### **Tutorials**
 
-The Deploying a simple web application tutorial in the UrbanCode Deploy documentation uses the DBUpgrader plug-in [Lesson 2: Creating component processes](https://www.ibm.com/support/knowledgecenter/SS4GSP_6.1.3/com.ibm.udeploy.tutorial.doc/topics/webapp_component_processes.html). Go to the section that is labeled Creating a component process for the database component within the lesson.
+The Deploying a simple web application tutorial in the UrbanCode Deploy documentation uses the DBUpgrader plug-in [Lesson 2: Creating component processes](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=tutorials-deploying-simple-web-application). Go to the section that is labeled Creating a component process for the database component within the lesson.
 
 
 ### Database Version table and XML file

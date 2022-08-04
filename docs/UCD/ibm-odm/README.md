@@ -12,9 +12,9 @@ This plug-in includes steps to work with rules and versions in IBM Operational D
 Installation
 ------------
 
-The IBM-ODM plug-in can be installed by following the steps that are outlined in [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
+The IBM-ODM plug-in can be installed by following the steps that are outlined in [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
 
-For importing component versions from IBM Decision Center, also install the [IBM Operational Decision Manager Source Config plug-in](https://developer.ibm.com/urbancode/plugin/ibm-operational-decision-manager-source-config/ "IBM Operational Decision Manager Source Config plug-in").
+For importing component versions from IBM Decision Center, also install the [IBM Operational Decision Manager Source Config plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ibm-odm-source-config/ "IBM Operational Decision Manager Source Config plug-in").
 
 
 

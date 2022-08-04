@@ -64,7 +64,7 @@ cics.password
 ```
 | Sysplex |
 
-For more general information on property inheritance, see [Referring to properties](http://www.ibm.com/support/knowledgecenter/SS4GSP_6.1.0/com.ibm.udeploy.reference.doc/topics/ud_properties_using.html).
+For more general information on property inheritance, see [Referring to properties](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=deployment-properties).
 
 ### Deploying new load modules and performing a NEWCOPY on the related programs
 

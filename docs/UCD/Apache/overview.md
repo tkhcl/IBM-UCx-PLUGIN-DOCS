@@ -14,8 +14,8 @@ The Apache HTTP Server plug-in provides steps to automate starting and stopping 
 
 This plug-in includes these steps.
 
-* [Start](https://www.urbancode.com/plugindoc/ibmucd/apache-http-server/2-641617/steps/#start "Start")
-* [Stop](https://www.urbancode.com/plugindoc/ibmucd/apache-http-server/2-641617/steps/#stop "Stop")
+* [Start](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Apache/steps.html#stop "Start")
+* [Stop](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Apache/steps.html#start "Stop")
 
 ### Compatibility
 

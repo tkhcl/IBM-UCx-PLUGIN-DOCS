@@ -11,7 +11,7 @@ WebSphere Application Server - Deployment - Usage
 
 * [Specifying multiple profiles with the websphere.profilePath property](#specifying-multiple-profiles-with-the-websphere-profilepath-property)
 * [Deploying WebSphere applications to multiple clusters in the same cell](https://www.urbancode.com/resource/deploying-websphere-applications-to-multiple-clusters-in-the-same-cell/)
-* [Example: Installing the PlantsbyWebSphere application](https://www.urbancode.com/resource/example-installing-the-plantsbywebsphere-application/)
+* [Example: Installing the PlantsbyWebSphere application](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2022/06/16/example-installing-the-plantsbywebsphere-applicati)
 
 Specifying multiple profiles
 ----------------------------

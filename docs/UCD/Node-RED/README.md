@@ -16,7 +16,7 @@ For details on how the plug-in is constructed, how it works internally, or how t
 If you encounter issues with the plug-in, or want to send feedback:
 
 * Ask Node-RED plug-in specific questions on the [GitHub Issues](https://github.com/UrbanCode/Node-RED-UCD/issues) page.
-* For general plug-in issues, submit questions to our [dW Answers page](https://developer.ibm.com/answers/smart-spaces/23/urbancode.html). Use the following tags: urbancode | ucdev | plugins
+* For general plug-in issues, submit questions to our [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins
 
 
 Available Steps

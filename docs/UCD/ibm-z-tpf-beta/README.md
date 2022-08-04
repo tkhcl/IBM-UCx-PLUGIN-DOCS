@@ -27,7 +27,7 @@ The z/TPF plug-ins require IBM UrbanCode™ Deploy 6.1 or later.
 Installation
 ------------
 
-See [Installing plug-ins in IBM UrbanCode products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/).
+See [Installing plug-ins in IBM UrbanCode products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins).
 
 Release Notes
 -------------

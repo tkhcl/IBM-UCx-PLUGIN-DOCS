@@ -92,7 +92,7 @@ Ready a change package for migration.
 
 
 
-There are default input parameters that are available for all CICS CM Beta plug-in steps. To view the default properties, select**Show Hidden Properties** on any step configuration page. For more information, see [Properties](http://www-01.ibm.com/support/knowledgecenter/SS4GSP_6.1.1/com.ibm.udeploy.doc/topics/ud_properties_overview.html).
+There are default input parameters that are available for all CICS CM Beta plug-in steps. To view the default properties, select**Show Hidden Properties** on any step configuration page. For more information, see [Properties](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=deployment-properties).
 
 
 

@@ -13,8 +13,8 @@ IBM Rational Test Workbench Web UI Tester - Usage
 Use the Rational Test Workbench Web UI Tester plugin to continuously initiate the test and compound test run from IBM UrbanCode Deploy.From version 9.0, Rational Test Workbench Web UI Tester is the new name for Rational Test Workbench Eclipse Client. **Before you begin**
 
 * Install IBM Rational Test Workbench Web UI Tester version 8.7 or later and UrbanCode Deploy agent on the computer where the tests will be run.
-* Install UrbanCode Deploy server and deploy the plugin on the server. For information about installing UrbanCode Deploy, see its [documentation](http://www-01.ibm.com/support/knowledgecenter/SS4GSP_6.1.1/com.ibm.udeploy.install.doc/topics/install_ch.html).
-* Install UrbanCode Deploy Agent and connect it to UrbanCode Deploy server. See the [documentation](http://www-01.ibm.com/support/knowledgecenter/SS4GSP_6.1.1/com.ibm.udeploy.install.doc/topics/agent_install_ov.html).
+* Install UrbanCode Deploy server and deploy the plugin on the server. For information about installing UrbanCode Deploy, see its [documentation](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=installing).
+* Install UrbanCode Deploy Agent and connect it to UrbanCode Deploy server. See the [documentation](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=installing-agents).
 * Ensure that Rational Test Workbench Web UI Tester is not running.
 * To initiate the mobile test runs, ensure that all the devices are set to the passive mode and the playback-ready apk files are installed.
 
@@ -26,7 +26,7 @@ After deploying the Rational Test WorkbenchWeb UI Tester plugin on the server, c
 
 1. To create a workflow for the newly created component process, click the component process. The Tools view displays the available plugin steps.
 2. From Rational Test Workbench > Eclipse Client, drag the **Run RTWec Test** step to the design space.
-3. Specify the properties for the step. For information about the properties, see the [Steps](https://www.urbancode.com/plugindoc/steps-rtwec) page.
+3. Specify the properties for the step. For information about the properties, see the [Steps](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/RFT-WebUI-UCD/steps.html) page.
 4. After you configure the step properties, save the step by clicking Save.
 
 A typical process for the Rational Test Workbench Web UI Testerplugin will look like the following snapshot:

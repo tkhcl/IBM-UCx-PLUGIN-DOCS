@@ -12,7 +12,7 @@ IBM Integration Bus (formerly WebSphere Message Broker) - CMP - Usage
 
 ### IIB Integration With UrbanCode Deploy
 
-The [IIB Integration With UrbanCode Deploy](https://www.urbancode.com/2017/05/18/iib-integration-urbancode-deploy/) blog post contains in depth usage of the IIB plugin.
+The [IIB Integration With UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/27/iib-integration-with-urbancode-deploy) blog post contains in depth usage of the IIB plugin.
 
 ### Usage Documentation
 
@@ -155,7 +155,7 @@ The Deploy Sequentially and Deploy Concurrently steps are very similar, but cont
 Download JSON: [Create alreadyDeployed Application Property](CreatealreadyDeployedApplicationProperty.txt) process
 
 
-This deployment solution requires the use of a generic process to properly enable the the parallel deployment strategy. The downloadable JSON file above is my configured generic process to give you a jump start in recreating this example. Simply import this process into your IBM UrbanCode Deploy server to have a readily available generic process. (The file may need to be renamed to have the .json extension.) Ensure you set the Default Resource in the **Configuration > Basic Settings** as this will make the following configuration step easier. The **Create Application Property** process will create and set the **alreadyDeployed** application property for a specified application. This process utilizes the [IBM UrbanCode Deploy Applications](https://www.urbancode.com/plugin/ibm-urbancode-deploy-applications/) plug-ins Create Application Property step.
+This deployment solution requires the use of a generic process to properly enable the the parallel deployment strategy. The downloadable JSON file above is my configured generic process to give you a jump start in recreating this example. Simply import this process into your IBM UrbanCode Deploy server to have a readily available generic process. (The file may need to be renamed to have the .json extension.) Ensure you set the Default Resource in the **Configuration > Basic Settings** as this will make the following configuration step easier. The **Create Application Property** process will create and set the **alreadyDeployed** application property for a specified application. This process utilizes the [IBM UrbanCode Deploy Applications](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uDeploy-Application/) plug-ins Create Application Property step.
 
 
 [![](setproperty-2.png)](setproperty-2.png)

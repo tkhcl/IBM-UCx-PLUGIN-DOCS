@@ -15,7 +15,7 @@ Use the IBM Rational Test Automation Server plug-in to start a job on the Ration
 To use the plug-in:
 
 1. Install the UrbanCode Deploy server. For install information, see the installation topics in the [UrbanCode Deploy documentation](http://www.ibm.com/support/knowledgecenter/SS4GSP/ucd_welcome.html).
-2. Install the Service Virtualization plug-in on the UrbanCode Deploy server. See  [Installing plug-ins](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/) for details.
+2. Install the Service Virtualization plug-in on the UrbanCode Deploy server. See  [Installing plug-ins](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins) for details.
 3. Install the UrbanCode Deploy agent and connect it to the UrbanCode Deploy server. For information, see [UrbanCode Deploy documentation](http://www.ibm.com/support/knowledgecenter/SS4GSP/ucd_welcome.html).
 
 ### Step palette

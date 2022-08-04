@@ -14,7 +14,7 @@ The IBM Rational Asset Manager plug-in automates importing of artifacts from a R
 
 This plug-in includes one step which has no input properties:
 
-* [Import Version](https://www.urbancode.com/plugindoc/ibmucd/file-system/4-2/steps/#import_version)
+* [Import Version](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/FileSystemSourceConfig/steps.html#import_version)
 
 
 ### Step palette
@@ -29,7 +29,7 @@ For UrbanCode Deploy 6.0, both the agent and the server must be installed on Mic
 
 ### Installation
 
-This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in versions are available, see [Installing plug-ins in UrbanCode Products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy") to update the plug-in.
+This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in versions are available, see [Installing plug-ins in UrbanCode Products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy") to update the plug-in.
 
 ### History
 

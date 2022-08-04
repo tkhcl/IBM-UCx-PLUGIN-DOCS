@@ -13,7 +13,7 @@ IBM Business Process Manager (WebSphere BPM) for IBM UrbanCode Deploy - Usage
 * [Deploying to an offline Process Server](https://www.urbancode.com/plugindoc/ibmucd/websphere-bpm/1-2/usage/deployments-offline-process-server/)
 * [Deploying to an online Process Server](https://www.urbancode.com/plugindoc/ibmucd/websphere-bpm/1-2/usage/deployments-online-process-server/)
 * [Creating Versions without a Build or CI Tool](https://www.urbancode.com/docs/creating-versions-without-a-build-or-ci-tool/): Import IBM Business Process Manager artifacts with our suggested approach.
-* [Continuous Integration with UrbanCode Deploy and IBM Business Process Server](https://www.urbancode.com/2015/09/18/continuous-integration-with-urbancode-deploy-and-ibm-business-process-server/): Sample deployment architecture and process using IBM WebSphere Application Server (WAS), Business Process Manager (BPM), and Rational Team Concert (RTC).
+* [Continuous Integration with UrbanCode Deploy and IBM Business Process Server](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/20/bpserver): Sample deployment architecture and process using IBM WebSphere Application Server (WAS), Business Process Manager (BPM), and Rational Team Concert (RTC).
 
 ### Deploying to an offline Process Server
 

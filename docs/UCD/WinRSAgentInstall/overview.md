@@ -18,11 +18,11 @@ This plug-in requires IBM UrbanCode Deploy version 6.1 or later.
 
 This plug-in works with versions of Windows that have Windows PowerShell, including Windows Server 2003, 2008, and 2012.
 
-The step can run on any Windows operating system. However, to install an agent on the target system, that target system must be configured as described in [Installing agents on Windows through WinRS](http://www-01.ibm.com/support/knowledgecenter/SS4GSP_6.1.2/com.ibm.udeploy.install.doc/topics/agent_install_winrs.html) in the product documentation.
+The step can run on any Windows operating system. However, to install an agent on the target system, that target system must be configured as described in [Installing agents on Windows through WinRS](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=agents-installing-windows-through-winrs) in the product documentation.
 
 ### **Installation**
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
 
 ### Release Notes
 

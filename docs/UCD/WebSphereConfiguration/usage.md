@@ -13,8 +13,8 @@ WebSphere Application Server - Configure - Usage
 
 You can find more information about this plug-in:
 
-* Blog post: [More flexibility improves configuration data management in WebSphere Application Server Configure plug-in](https://www.urbancode.com/2017/03/13/flexibility-improves-configuration-data-management-websphere-application-server-configure-plug/)
-* Blog post: [Managing WebSphere configurations with JSON snippets](https://www.urbancode.com/2016/10/03/managing-websphere-configurations-json-snippets-two-approaches/)
+* Blog post: [More flexibility improves configuration data management in WebSphere Application Server Configure plug-in](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/25/more-flexibility-improves-configuration-data-manag)
+* Blog post: [Managing WebSphere configurations with JSON snippets](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/25/managing-websphere-configurations-with-json-snippe)
 * Blog post: [How to create a new WebSphere Application Server from a process](https://www.urbancode.com/resource/how-to-create-a-new-websphere-application-server-from-a-process/)
 * Video: [Using Snippets to Manage Configuration Data](https://youtu.be/I6H3daJ6XSc)
 * Video: [Partial Apply and Partial Remove Steps](https://youtu.be/Qhf1r8_mljc)
@@ -26,8 +26,8 @@ These pages provide usage information about this plug-in:
 ### WebSphere Application Server configurations
 
 * [Getting started with managing WebSphere Application Server configurations](https://www.urbancode.com/resource/getting-started-with-managing-websphere-application-server-configurations/)
-* [Managing WebSphere Application Server configurations](https://www.urbancode.com/resource/managing-websphere-application-server-configurations/)
-* [Converting WebSphere Application Server configuration data into templates](https://www.urbancode.com/resource/converting-websphere-application-server-configuration-data-into-templates/)
+* [Managing WebSphere Application Server configurations](https://community.ibm.com/community/user/wasdevops/communities/community-home/recent-community-blogs?communitykey=9adfe6b6-2e23-4895-8b27-38b93b5e152c)
+* [Converting WebSphere Application Server configuration data into templates](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/25/converting-websphere-application-server-configurat?CommunityKey=9adfe6b6-2e23-4895-8b27-38b93b5e152c)
 + [Including Service Integration Buses](https://www.urbancode.com/resource/including-service-integration-buses/)
 * [Comparing configurations with live WebSphere Application Server instances](https://www.urbancode.com/resource/comparing-configurations-with-live-websphere-application-server-instances/)
 + Smart Compare: [Ignoring Property objects during comparison](https://youtu.be/xeGiIKNuuX0)
@@ -41,9 +41,9 @@ These pages provide usage information about this plug-in:
 
 * [Configuration snippet overview](https://www.urbancode.com/resource/configuration-snippet-overview/)
 * Video: [Using Snippets to Manage Configuration Data](https://youtu.be/I6H3daJ6XSc)
-* [Creating configuration snippets](https://www.urbancode.com/2016/12/07/creating-configuration-snippets/)
-* [Managing configurations with snippet collections](https://www.urbancode.com/resource/managing-configurations-with-snippet-collections/)
-* [Tokenizing values in snippet files](https://www.urbancode.com/resource/tokenizing-values-in-snippet-files/)
+* [Creating configuration snippets](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/22/creating-configuration-snippets)
+* [Managing configurations with snippet collections](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/25/managing-configurations-with-snippet-collections)
+* [Tokenizing values in snippet files](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/25/tokenizing-values-in-snippet-files)
 * [Managing individual configuration objects with snippets](https://www.urbancode.com/resource/managing-individual-configuration-objects-with-snippets/)
 * [Creating a WebSphere Application Server with a Snippet](https://www.urbancode.com/resource/creating-a-websphere-application-server-with-a-snippet/)
 
@@ -62,7 +62,7 @@ These pages provide usage information about this plug-in:
 ### Partial Configuration Changes
 
 * [Drawbacks of using the Partial Apply/Remove Steps](https://www.urbancode.com/resource/drawbacks-of-using-partial-apply-remove/)
-* [Applying and removing partial configurations](https://www.urbancode.com/resource/applying-and-removing-partial-configurations/)
+* [Applying and removing partial configurations](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2022/07/06/applying-and-removing-partial-configurations/)
 * Video: [Partial Apply and Partial Remove Steps](https://youtu.be/I6H3daJ6XSc)
 
 

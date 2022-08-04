@@ -161,7 +161,7 @@ The **Registry Type** property must be set to `Artifactory` otherwise a differen
 
 ### General Source Config Specification
 
-To create a component by importing from Docker, complete the following steps. For more information, see [Creating components](http://www-01.ibm.com/support/knowledgecenter/SS4GSP_6.2.1/com.ibm.udeploy.doc/topics/comp_create.html "Creating components") in the product help.
+To create a component by importing from Docker, complete the following steps. For more information, see [Creating components](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=components-creating "Creating components") in the product help.
 
 1. On the **Components** page in IBM UrbanCode Deploy, click **Create New Component**.
 2. In the **Source Config Type** list, select **Docker**.

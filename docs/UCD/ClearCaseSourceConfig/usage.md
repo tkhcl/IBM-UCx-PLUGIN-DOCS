@@ -12,7 +12,7 @@ To use this plug-in, create a component to define the source and processes for t
 
 ### Create a component
 
-To create a component, complete the following steps. For more information, see [Creating components](https://devops.hcldoc.com/launch/7.1.2/#com.udeploy.doc/topics/comp_create/) topic in the product documentation.
+To create a component, complete the following steps. For more information, see [Creating components](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=components-creating) topic in the product documentation.
 
 1. In the HCL user interface, click **Components** and then click **Create Component**.
 2. In the Create Component window, specify a name and description for the component.

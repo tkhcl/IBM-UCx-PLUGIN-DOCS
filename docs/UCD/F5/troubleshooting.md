@@ -10,7 +10,7 @@ F5 BIG-IP - Troubleshooting
 
 
 
-**Tip:** For more questions and answers, see the [UrbanCode forum on IBM developerWorks](https://developer.ibm.com/answers/smart-spaces/23/urbancode.html "UrbanCode forum").
+**Tip:** For more questions and answers, see the [UrbanCode forum on IBM developerWorks](https://community.ibm.com/community/user/wasdevops/urbancode-discussion "UrbanCode forum").
 
 #### Truststore file does not exist
 

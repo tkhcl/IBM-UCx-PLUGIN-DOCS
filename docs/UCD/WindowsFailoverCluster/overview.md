@@ -16,7 +16,7 @@ This plug-in provides steps that manage the nodes in a Windows physical failover
 This plugin requires version 6.0 or later of IBM UrbanCode Deploy. It was tested to work with Windows Server 2008 R2 Datacenter Edition.
 ### Installation and upgrade
 
-No special steps are required for installation or upgrade. See[Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/).
+No special steps are required for installation or upgrade. See[Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins).
 ### History
 
 Version 6 (April 1, 2019): Fixed groovy-2.4.15 collectAll regression.

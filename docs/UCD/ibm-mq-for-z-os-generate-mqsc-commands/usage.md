@@ -23,7 +23,7 @@ The plugin expects the triplet of files to be present. Valid values must be defi
 
 The plugin is designed to be defined as a step in an IBM UCD process:
 
-[![Defining the UCD process to include the IBM MQ for z/OS Generate MQSC Commands plugin](s4-1024x576.gif)](https://www.urbancode.com/plugindoc/ibm-mq-zos-generate-mqsc-commands/s4/)
+[![Defining the UCD process to include the IBM MQ for z/OS Generate MQSC Commands plugin](s4-1024x576.gif)](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ibm-mq-for-z-os-generate-mqsc-commands//s4/)
 Defining the UCD process to include the IBM MQ for z/OS Generate MQSC Commands plugin
 
 
@@ -32,7 +32,7 @@ Defining the UCD process to include the IBM MQ for z/OS Generate MQSC Commands p
 The IBM MQ for z/OS Generate MQSC Commands plugin is designed to process the triplet of files as follows:
 
 
-[![Processing the triplet of files](s1-1024x576.gif)](https://www.urbancode.com/plugindoc/ibm-mq-zos-generate-mqsc-commands/s1-4/)
+[![Processing the triplet of files](s1-1024x576.gif)](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ibm-mq-for-z-os-generate-mqsc-commands//s1-4/)
 Processing the triplet of files
 
 
@@ -44,7 +44,7 @@ Processing the triplet of files
 
 Before IBM MQ applications can put or get messages from IBM MQ queues, queue resources need to be defined to an IBM MQ for z/OS queue manager. Additionally, before applications can transfer data from one IBM MQ for z/OS queue manager to another, channel resources and further queues need to be defined on the local and/or remote IBM MQ for z/OS queue managers. The exact type and number of resources required will vary, depending on the specific needs of applications. Provided a reasonable separation of resources can be achieved, say by application, resources can be represented in the triplet of files as follows:
 
-[![MQ Applications and Resource Deployment](s3-1024x576.gif)](https://www.urbancode.com/plugindoc/ibm-mq-zos-generate-mqsc-commands/s3/)
+[![MQ Applications and Resource Deployment](s3-1024x576.gif)](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ibm-mq-for-z-os-generate-mqsc-commands//s3/)
 MQ applications and resource deployment
 
 
@@ -60,7 +60,7 @@ Resources in the triplet of files need to be defined in JSON format in encoding 
 Depending on the target environment being deployed to, the IBM MQ for z/OS Generate MQSC Commands plugin applies the respective override values and generates the appropriate IBM MQ resource definitions. The resources are subsequently defined on the target environment. An example to define a local queue is shown below. A simplified syntax is used for clarity:
 
 
-[![Deployment of resources to target environments](s2-1024x576.gif)](https://www.urbancode.com/plugindoc/ibm-mq-zos-generate-mqsc-commands/s2/)
+[![Deployment of resources to target environments](s2-1024x576.gif)](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ibm-mq-for-z-os-generate-mqsc-commands//s2/)
 Deployment of resources to target environments
 
 

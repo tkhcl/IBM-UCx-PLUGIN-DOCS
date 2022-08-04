@@ -16,7 +16,7 @@ To add the IBM Bluemix Auto-Scaling plug-in steps to processes, click **IBM Blue
 
 ### Prerequisites
 
-The [IBM Containers plug-in](https://www.urbancode.com/plugin/cloud-foundry-ibm-containers/) must be installed. The IBM Containers plug-in is required to log in to and log out from the IBM Bluemix console.
+The [IBM Containers plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/cloud-foundry-ibm-containers/) must be installed. The IBM Containers plug-in is required to log in to and log out from the IBM Bluemix console.
 
 You must also download and install the IBM API Connect developer toolkit. For more information about installing the toolkit, see [Installing the toolkit](https://www.ibm.com/support/knowledgecenter/SSMNED_5.0.0/com.ibm.apic.toolkit.doc/tapim_cli_install.html) in the IBM API Connect help.
 
@@ -28,7 +28,7 @@ This plug-in is compatible with agents running on operating systems that are sup
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in IBM UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in IBM UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in IBM UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in IBM UrbanCode Deploy").
 
 ### History
 
