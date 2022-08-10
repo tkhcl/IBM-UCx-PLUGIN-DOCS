@@ -33,7 +33,7 @@ History
 ###
 Version 4.0.26
 
-* User access key related changes.
+* Auto generated User Access Key Related Changes.(For velocity version 3.0.0 we started supporting auto generated user access key. For version prior to 3.0.0 manually add user access key in the hidden field.)
 
 ### Version 4.0.3
 
