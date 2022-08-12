@@ -129,7 +129,7 @@ cicscm.sourceConfig
 ```
 | The name of the source configuration. |
 
-By default, the Transformation Rule property is blank. If you want to use a Transformation Rule property, define the property at the environment level. For more information, see [Referring to properties](http://www.ibm.com/support/knowledgecenter/SS4GSP_6.1.0/com.ibm.udeploy.reference.doc/topics/ud_properties_using.html).
+By default, the Transformation Rule property is blank. If you want to use a Transformation Rule property, define the property at the environment level. For more information, see [Referring to properties](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=deployment-properties).
 
 
 |Back to ...||Latest Version|CICS CM (Beta) |||||

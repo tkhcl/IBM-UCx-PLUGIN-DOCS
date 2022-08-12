@@ -14,7 +14,7 @@ The IBM Integration Bus plug-in provides steps for working with IBM Integration 
 
 The plug-in uses the IBM Integration API, formerly known as the Configuration Manager Proxy (CMP) API, to communicate with IBM Integration Bus. To learn more about the API, see [IBM Integration API](https://www.ibm.com/support/knowledgecenter/SSMKHH_10.0.0/com.ibm.etools.mft.doc/be43410_.htm).
 
-For plug-in details and examples, read the [IIB Integration With UrbanCode Deploy](https://www.urbancode.com/2017/05/18/iib-integration-urbancode-deploy/) blog article.
+For plug-in details and examples, read the [IIB Integration With UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/27/iib-integration-with-urbancode-deploy) blog article.
 
 This plug-in contains the following steps.
 
@@ -54,7 +54,7 @@ This plug-in runs on only z/OS operating system and UrbanCode Deploy agent.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
 
 ### History
 

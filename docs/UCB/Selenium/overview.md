@@ -22,7 +22,7 @@ The plug-in runs on any agents that the IBM UrbanCode Build server supports.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in IBM UrbanCode](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in IBM UrbanCode").
+No special steps are required for installation. See [Installing plug-ins in IBM UrbanCode](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in IBM UrbanCode").
 
 
 |Back to ...||Latest Version|Selenium for IBM UrbanCode Build ||||

@@ -10,7 +10,7 @@ Artifactory - Usage
 
 To use the Artifactory plug-in, you must create resources and define a deployment process.
 
-For additional information on using Artifactory and UrbanCode Deploy, see [Integrating Artifactory with IBM UrbanCode Deploy](https://www.urbancode.com/2017/02/15/integrating-artifactory-ibm-urbancode-deploy/)
+For additional information on using Artifactory and UrbanCode Deploy, see [Integrating Artifactory with IBM UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/22/integrating-artifactory-with-ibm-urbancode-deploy)
 
 ### Before you begin
 

@@ -10,7 +10,7 @@ Git - Troubleshooting
 
 
 
-For more questions and answers about plug-ins, see the [UrbanCode forum on IBM developerWorks](https://developer.ibm.com/answers/smart-spaces/23/urbancode.html "UrbanCode forum").
+For more questions and answers about plug-ins, see the [UrbanCode forum on IBM developerWorks](https://community.ibm.com/community/user/wasdevops/urbancode-discussion "UrbanCode forum").
 
 #### Import process fails when using GitHub Enterprise
 

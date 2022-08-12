@@ -14,7 +14,7 @@ The IBM WebSphere Application ServerInstall plug-in includes a sample applicatio
 
 ### Prerequisites
 
-IBM Installation Manager must be installed on the target system. The [IBM WebSphere Application Server -Deployment](https://www.urbancode.com/plugin/websphere-application-server-deployment/) plug-in version 76 or later must be installed, and the [IBM Installation Manager](https://www.urbancode.com/plugin/ibm-installation-manager/) plug-in version 3 or later must be installed.
+IBM Installation Manager must be installed on the target system. The [IBM WebSphere Application Server -Deployment](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Websphere/) plug-in version 76 or later must be installed, and the [IBM Installation Manager](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ibm-installation-manager/) plug-in version 3 or later must be installed.
 
 ### Compatibility
 
@@ -25,7 +25,7 @@ IBM Installation Manager must be installed on the target system. The [IBM WebSph
 
 ### Installation
 
-No special steps are required for installing the plug-in. See [Installing plug-ins in UrbanCode products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode products").
+No special steps are required for installing the plug-in. See [Installing plug-ins in UrbanCode products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode products").
 
 ### History
 

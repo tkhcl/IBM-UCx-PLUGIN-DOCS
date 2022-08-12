@@ -2,7 +2,7 @@
 Microsoft TFS (Team Foundation Server)
 ======================================
 
-Microsoft Team Foundation Server (TFS) is a software development collaboration tool. It includes source control, data collection, reporting, and project tracking.The Microsoft TFS plug-in imports versioned source artifacts from a TFS server. See the [Microsoft TFS\_SCM (Team Foundation Server) plug-in](http://developer.ibm.com/urbancode/plugin/tfs_scm-source-config/)to import deployable artifacts from the TFM server.
+Microsoft Team Foundation Server (TFS) is a software development collaboration tool. It includes source control, data collection, reporting, and project tracking.The Microsoft TFS plug-in imports versioned source artifacts from a TFS server. See the [Microsoft TFS\_SCM (Team Foundation Server) plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/TFS_SCM-SourceConfig/)to import deployable artifacts from the TFM server.
 
 Requirements
 ------------
@@ -16,7 +16,7 @@ Compatibility
 
 This plug-in supports Team Foundation Server 2010 – 2017 using XAML builds.
 
-**Note**: XAML builds have been deprecated since TFS 2015 and new ones cannot be created. If using a different TFS build type, use the [Microsoft Visual Studio Team Services (VSTS) plug-in](https://developer.ibm.com/urbancode/plugin/microsoft-visual-studio-team-services-vsts/). The VSTS plug-in supports all build types.
+**Note**: XAML builds have been deprecated since TFS 2015 and new ones cannot be created. If using a different TFS build type, use the [Microsoft Visual Studio Team Services (VSTS) plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/microsoft-visual-studio-team-services-vsts/). The VSTS plug-in supports all build types.
 
 
 |Back to ...||Latest Version|||||

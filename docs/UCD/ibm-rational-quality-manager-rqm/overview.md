@@ -21,7 +21,7 @@ This plug-in requires IBM UrbanCode Deploy version 6.0 or later.
 
 ### Installation
 
-No special steps are required for installing this plug-in. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installing this plug-in. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
 
 The [Rational Quality Manager Command Line Execution tool](https://jazz.net/wiki/bin/view/Main/RQMExecutionTool) and [Rational Quality Manager URL Utility](https://jazz.net/wiki/bin/view/Main/RQMURLUtility) are required to run the RQM plugin. Please view the troubleshooting tab for detailed download and configuration instructions.
 

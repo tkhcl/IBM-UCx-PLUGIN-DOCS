@@ -15,7 +15,7 @@ Use the Rational Integration Tester plug-in to continuously initiate integration
 ### Before you begin
 
 1. Install the UrbanCode Deploy server. For more information, see the installing topics in the [UrbanCode Deploy documentation](http://www.ibm.com/support/knowledgecenter/SS4GSP/ucd_welcome.html).
-2. Install the Rational Integration Tester plug-in on the UrbanCode Deploy server. For details, see  [Installing plug-ins](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/).
+2. Install the Rational Integration Tester plug-in on the UrbanCode Deploy server. For details, see  [Installing plug-ins](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins).
 3. Install the UrbanCode Deploy agent and connect it to the UrbanCode Deploy server. For additional information,see the [UrbanCode Deploy documentation](http://www.ibm.com/support/knowledgecenter/SS4GSP/ucd_welcome.html).
 4. Install Rational Integration Tester on the UrbanCode Deploy agent computer and apply a valid license. For additional information, see [Installing IBM Rational Integration Tester](http://www-01.ibm.com/support/knowledgecenter/SSBLQQ_8.7.0/com.ibm.rational.rtw.install.doc/topics/t_install_rit.html).
 

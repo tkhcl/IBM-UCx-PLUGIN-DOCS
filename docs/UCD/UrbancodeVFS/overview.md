@@ -23,7 +23,7 @@ This plug-in is supported to run on all operating systems that are supported by 
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode products").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode products").
 
 ### History
 
@@ -90,4 +90,4 @@ This release includes a fix for an issue where the initial character in a file n
 
 |Back to ...||Latest Version|IBM UrbanCode Deploy Versioned File Storage |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[42.1132833](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/ucd-UrbancodeVFS-42.1132833.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[43.1139365](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/ucd-UrbancodeVFS-43.1139365.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

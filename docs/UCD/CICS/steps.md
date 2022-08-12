@@ -384,7 +384,7 @@ The following is a sample of the cics.response.errors output when NEWCOPY fails 
 
 ### Use cics.response.errors in a post-processing script
 
-You can configure a post-processing script to run after a step finishes. Post-processing scripts can be used to ensure that the expected results occurred, and to pass properties between steps. For more information on using and storing reusable post-processing scripts, see the [Post-processing scripts](http://www.ibm.com/support/knowledgecenter/SS4GSP_6.1.1/com.ibm.udeploy.doc/topics/comp_postProcess.html) section of the Urban Code Deploy documentation.
+You can configure a post-processing script to run after a step finishes. Post-processing scripts can be used to ensure that the expected results occurred, and to pass properties between steps. For more information on using and storing reusable post-processing scripts, see the [Post-processing scripts](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=processes-component#intro_component_processes) section of the Urban Code Deploy documentation.
 
 The following is a usage example of a post-processing script for the *New copy resources* step in the CICS TS plug-in:
 
@@ -438,7 +438,7 @@ commandOut.println("No CICS response errors found!")
 
 
 
-Using the [z/OS Utility plug-in](https://www.urbancode.com/plugin/z-os-utility/ "z/OS Utility plug-in") **Submit Job** step you can perform the following actions in CICS:
+Using the [z/OS Utility plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/ "z/OS Utility plug-in") **Submit Job** step you can perform the following actions in CICS:
 
 * Run DFHCSDUP to define or delete resource definitions in the CSD.
 * Run EYU9XDBT to define or delete resource definitions in the CPSM data repository.
@@ -450,7 +450,7 @@ In the following example, DFHCSDUP is run withreplace tokens @CICSHLQ@,@CSD@, an
 
 For example, a token such as *@CSD@* can be linked to a matching UrbanCode Deploy property, *cics.jcl.csd*. This property is then assigned a value, such as *CICSTS53.CICS.DFHCSD*, which canbe set attheenvironment level, or wherever is most suitable.
 
-For more details on the **Submit Job** and **Wait For Job** steps, see the Steps page for the [z/OS Utility plug-in](https://www.urbancode.com/plugin/z-os-utility/).
+For more details on the **Submit Job** and **Wait For Job** steps, see the Steps page for the [z/OS Utility plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/).
 
 
 ### Default input properties

@@ -3,7 +3,7 @@ IBM UrbanCode Deploy Resources
 ==============================
 
 
-IBM UrbanCode Deploy is an application release automation tool. For more information, see [UrbanCode Deploy](https://developer.ibm.com/urbancode/products/urbancode-deploy/).
+IBM UrbanCode Deploy is an application release automation tool. For more information, see [UrbanCode Deploy](https://www.ibm.com/cloud/urbancode).
 
 This plug-in manages resources in IBM UrbanCode Deploy.
 

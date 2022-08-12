@@ -22,7 +22,7 @@ This plug-in requires version 6.0 or later of IBM UrbanCode Release.
 
 No special
 steps are required for installation. See [Installing plug-ins in UrbanCode
-products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/).
+products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins).
 
 
 

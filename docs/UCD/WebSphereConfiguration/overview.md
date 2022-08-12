@@ -15,7 +15,7 @@ To add the WebSphere Application Server Configure plug-in steps to processes, cl
 
 ### Prerequisites
 
-* The [IBM WebSphere Application Server – Deployment plug-in](https://www.urbancode.com/plugin/websphere-application-server-deployment/) Version 114 or later must be installed.
+* The [IBM WebSphere Application Server – Deployment plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Websphere/) Version 114 or later must be installed.
 * This plug-in uses the wsadmin tool to manage connections to an IBM WebSphere Application Server profile. Specific user rights are required to run the wsadmin tool. To learn more about the wsadmin tool and the required user rights, see the [WebSphere Application Server Network Deployment help](http://www.ibm.com/support/knowledgecenter/SSAW57_8.5.5/com.ibm.websphere.nd.doc/ae/txml_script.html "wsadmin help").
 
 ### Compatibility
@@ -28,7 +28,7 @@ To add the WebSphere Application Server Configure plug-in steps to processes, cl
 
 ### Installation
 
-No special steps are required for installing the plug-in. See [Installing plug-ins in UrbanCode products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode products").
+No special steps are required for installing the plug-in. See [Installing plug-ins in UrbanCode products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode products").
 
 ### History
 

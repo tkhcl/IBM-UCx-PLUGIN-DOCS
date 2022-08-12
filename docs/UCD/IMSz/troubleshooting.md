@@ -12,7 +12,7 @@ IBM IMS - Troubleshooting
 
 ### Troubleshooting information for the IMS plug-in
 
-**Tip:** For more questions and answers, see the [UrbanCode forum on IBM developerWorks.](https://developer.ibm.com/answers/?community=urbancode)
+**Tip:** For more questions and answers, see the [UrbanCode forum on IBM developerWorks.](https://community.ibm.com/community/user/wasdevops/urbancode-discussion)
 
 ### Error messages and reason codes
 

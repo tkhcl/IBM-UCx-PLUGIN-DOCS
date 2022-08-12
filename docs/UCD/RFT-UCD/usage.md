@@ -31,13 +31,13 @@ After deploying the Functional Tester plug-in on the UrbanCode Deploy server, cr
 
 ### Example: Running functional tests
 
-After deployment, the UrbanCode Deploy plug-in for Rational Functional Tester is available at *Rational Test Workbench > Functional Tester > Run Functional Test* on the UrbanCode Deploy server. The plug-in for Rational Functional Tester includes only a single step:[Run Functional Tests](https://www.urbancode.com/plugindoc/rft-ucd-steps/#run_functional_tests "Run Functional Tests"). The component process runs afunctional script that is part of a Rational Functional Tester project previously stored on an UrbanCode Deploy agent.
+After deployment, the UrbanCode Deploy plug-in for Rational Functional Tester is available at *Rational Test Workbench > Functional Tester > Run Functional Test* on the UrbanCode Deploy server. The plug-in for Rational Functional Tester includes only a single step:[Run Functional Tests](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/RFT-UCD/steps.html/#run_functional_tests "Run Functional Tests"). The component process runs afunctional script that is part of a Rational Functional Tester project previously stored on an UrbanCode Deploy agent.
 
 To create a workflow, do the following tasks:
 
 1. Click the component process. The Tools view displays the available plugin steps.
 2. From Functional Tester, drag the Run Functional Tests step into the design space.
-3. Specify the properties for the step. For information about the properties, see the [Steps](https://www.urbancode.com/plugindoc/rft-ucd-steps) page.
+3. Specify the properties for the step. For information about the properties, see the [Steps](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/RFT-UCD/steps.html) page.
 4. After configuring the properties, save the step.
 
 A basic process for a functional test plug-in is shown in the following snapshot:

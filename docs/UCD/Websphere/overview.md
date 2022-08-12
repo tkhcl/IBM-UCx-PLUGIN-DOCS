@@ -15,7 +15,7 @@ This plug-in requires WebSphere Application Server. Most of the steps include th
 
 Aside from providing steps for processes, this plug-in can import information about a WebSphere Application Server cell as a resource in IBM UrbanCode Deploy. See [Importing resources from WebSphere Application Server](http://www.ibm.com/support/knowledgecenter/SS4GSP_6.2.1/com.ibm.udeploy.doc/topics/resources_import_was.html) in IBM Knowledge Center.
 
-The plug-in includes steps that are related to installing, configuring, and uninstalling applications, such as [Install Application](https://www.urbancode.com/plugindoc/websphere-application-server-deployment#install_application).
+The plug-in includes steps that are related to installing, configuring, and uninstalling applications, such as [Install Application](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Websphere/steps.html#install_application).
 
 The plug-in also includes steps that are related to configuring and maintaining WebSphere Application Server, such as the following steps:
 
@@ -32,7 +32,7 @@ Other steps check the status of a server or an application:
 
 **Note:** The Check Application is Installed step always succeeds. If the application specified in the step is not installed, the step adds an output property named installed set to false. If the application is installed, this property is set to true.
 
-You can also use this plug-in to import information about a WebSphere Application Server cell as a resource. Then, you can add the cell to an environment. See [Creating an environment from a WebSphere Application Server cell](http://www-01.ibm.com/support/knowledgecenter/SS4GSP_6.2.1/com.ibm.udeploy.doc/topics/examples_websphere_import_cell.html).
+You can also use this plug-in to import information about a WebSphere Application Server cell as a resource. Then, you can add the cell to an environment. See [Creating an environment from a WebSphere Application Server cell](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=resources-importing-from-websphere-application-server).
 
 **Note:** Steps in this plug-in that are identified as OBSOLETE were replaced by steps available in the WebSphere Application Server – Configure plug-in. There are no current plans to enhance or remove these steps in this plug-in.
 
@@ -52,7 +52,7 @@ The steps in this plug-in run on any agents that the IBM UrbanCode Deploy server
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/).
+No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins).
 
 ### Limitations:
 

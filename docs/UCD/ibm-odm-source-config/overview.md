@@ -21,7 +21,7 @@ The IBM Operational Decision Manager source configuration plug-in supports creat
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in IBM UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in IBM UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in IBM UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in IBM UrbanCode Deploy").
 
 #### Special note for ODM version 8.9.0 and earlier
 

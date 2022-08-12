@@ -23,7 +23,7 @@ The steps in this plug-in run on all supported platforms.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Build](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Build").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode Build](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Build").
 
 ### History
 

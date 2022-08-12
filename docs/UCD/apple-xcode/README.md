@@ -19,7 +19,7 @@ If you encounter issues with the plug-in, or want to send feedback:
 * See the [plug-in documentation](https://developer.ibm.com/urbancode/plugindoc/ibmucd/apple-xcode-plug/1-2/).
 * Watch the [plug-in demo video](http://youtu.be/kHD46_kCvnI).
 * Ask Apple-Xcode plug-in specific questions on the [GitHub Issues](https://github.com/UrbanCode/Apple-Xcode-UCD/issues) page.
-* For general plug-in issues, submit questions to our [dW Answers page](https://developer.ibm.com/answers/smart-spaces/23/urbancode.html). Use the following tags: urbancode | ucdev | plugins
+* For general plug-in issues, submit questions to our [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins
 
 **Steps**
 ---------
@@ -45,7 +45,7 @@ With the [xcrun](https://developer.ibm.com/urbancode/plugindoc/ibmucd/apple-xcod
 
 * [xcrun](https://developer.ibm.com/urbancode/plugindoc/ibmucd/apple-xcode-plug/1-2/steps/#xcrun "xcrun")
 
-**Important**: When you use steps from the Apple Xcode plug-in for IBM UrbanCode Deploy (either in the same process or separate processes running at the same time), you must acquire and release a lock to prevent these steps from running in parallel since some actions can hang. For more information about the Acquire Lock and Release Lock steps, see [Acquire Lock](http://www-01.ibm.com/support/knowledgecenter/SS4GSP_6.1.0/com.ibm.udeploy.doc/topics/app_processsteps_lock_acquire.html "Acquire Lock") and [Release Lock](http://www-01.ibm.com/support/knowledgecenter/SS4GSP_6.1.0/com.ibm.udeploy.doc/topics/app_processsteps_lock_release.html "Release Lock").
+**Important**: When you use steps from the Apple Xcode plug-in for IBM UrbanCode Deploy (either in the same process or separate processes running at the same time), you must acquire and release a lock to prevent these steps from running in parallel since some actions can hang. For more information about the Acquire Lock and Release Lock steps, see [Acquire Lock](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=reference-acquire-lock "Acquire Lock") and [Release Lock](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=reference-release-lock "Release Lock").
 
 To view a video demonstration of the Apple Xcode 1 plug-in, see [http://youtu.be/kHD46\_kCvnI](http://youtu.be/kHD46_kCvnI "http://youtu.be/kHD46_kCvnI")
 
@@ -63,7 +63,7 @@ This plug-in is supported to run only on an agent that is started from and runni
 **Installation**
 ----------------
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
 
 
 |Back to ...||Latest Version|

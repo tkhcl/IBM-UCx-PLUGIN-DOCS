@@ -19,7 +19,7 @@ Example IBM UrbanCode Deploy applications
 
 #### Plants by WebSphere
 
-The `Plants1_artifacts.zip` file contains an example IBM UrbanCode Deploy application that creates and configures a WebSphere cluster, and then installs the PlantsByWebSphere application on the cluster. The processes in the UrbanCode Deploy application use the multiplicity feature to create the cluster. See [Installing Plants by WebSphere](https://www.urbancode.com/resource/example-installing-the-plantsbywebsphere-application/).
+The `Plants1_artifacts.zip` file contains an example IBM UrbanCode Deploy application that creates and configures a WebSphere cluster, and then installs the PlantsByWebSphere application on the cluster. The processes in the UrbanCode Deploy application use the multiplicity feature to create the cluster. See [Installing Plants by WebSphere](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2022/06/16/example-installing-the-plantsbywebsphere-applicati).
 
 Example WebSphere Application Server plug-in example applications
 =================================================================
@@ -32,15 +32,15 @@ This application includes processes that demonstrate how to manage WebSphere App
 
 #### WebSphere Configuration Example Migration Application
 
-This application does not include processes. Use this application instead of the previous application to migrate versions of WebSphere Application Server with IBM UrbanCode Deploy. This application is not installed with the WebSphere Application Server Configure plug-in. You must manually import this application into IBM UrbanCode Deploy. [Download the application (JSON file)](http://public.dhe.ibm.com/software/products/UrbanCode/plugins/ibmucd/WebSphereConfiguration/SampleApplications/WebSphereConfigurationExampleMigrationApplication.json).
+This application does not include processes. Use this application instead of the previous application to migrate versions of WebSphere Application Server with IBM UrbanCode Deploy. This application is not installed with the WebSphere Application Server Configure plug-in. You must manually import this application into IBM UrbanCode Deploy. [Download the application (JSON file)](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/WebSphereConfiguration/SampleApplications/WebSphereConfigurationExampleMigrationApplication.json).
 
 To learn more about migrating versions, see [Migrating WebSphere Application Server versions with IBM UrbanCode Deploy](https://www.urbancode.com/resource/migrating-websphere-application-server-versions-with-ibm-urbancode-deploy/).
 
 #### WebSphere Configuration Example Application Snippets for Individual Configuration Objects
 
-This application includes processes to apply and remove configuration snippets when you use the approach where you manage individual configuration objects with snippets. This application is not installed with the WebSphere Application Server Configure plug-in. You must manually import this application into IBM UrbanCode Deploy, and then edit the processes to work with your components. [Download the application (JSON file)](http://public.dhe.ibm.com/software/products/UrbanCode/plugins/ibmucd/WebSphereConfiguration/SampleApplications/WebSphereConfigurationExampleSnippetApplication.json).
+This application includes processes to apply and remove configuration snippets when you use the approach where you manage individual configuration objects with snippets. This application is not installed with the WebSphere Application Server Configure plug-in. You must manually import this application into IBM UrbanCode Deploy, and then edit the processes to work with your components. [Download the application (JSON file)](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/WebSphereConfiguration/SampleApplications/WebSphereConfigurationExampleSnippetApplication.json).
 
-For more information, see [Applying and removing partial configurations](https://www.urbancode.com/resource/applying-and-removing-partial-configurations) article. Also, see the WebSphere Configuration Partial Apply step on the **Steps** tab.
+For more information, see [Applying and removing partial configurations](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2022/07/06/applying-and-removing-partial-configurations) article. Also, see the WebSphere Configuration Partial Apply step on the **Steps** tab.
 
 .
 

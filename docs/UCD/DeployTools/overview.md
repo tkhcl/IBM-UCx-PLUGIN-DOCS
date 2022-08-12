@@ -14,10 +14,10 @@ The Deploy Tools plug-in provides automated post deployment verification steps t
 
 This plug-in includes the following steps.
 
-* [Check Total Application Process Execution Time](https://www.urbancode.com/plugindoc/ibmucd/deploy-tools/7-641681/steps/#check_total_application_process_execution_time)
-* [Check Total Component Process Execution Time](https://www.urbancode.com/plugindoc/ibmucd/deploy-tools/7-641681/steps/#check_total_component_process_execution_time)
-* [Verify Deployment](https://www.urbancode.com/plugindoc/ibmucd/deploy-tools/7-641681/steps/#verify_deployment)
-* [Wait for web page](https://www.urbancode.com/plugindoc/ibmucd/deploy-tools/7-641681/steps/#wait_for_web_page)
+* [Check Total Application Process Execution Time](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/DeployTools/steps.html#check_total_application_process_execution_time)
+* [Check Total Component Process Execution Time](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/DeployTools/steps.html#check_total_component_process_execution_time)
+* [Verify Deployment](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/DeployTools/steps.html#verify_deployment)
+* [Wait for web page](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/DeployTools/steps.html#wait_for_web_page)
 
 To add the Deploy Tools plug-in steps to processes, click **Quality > Functional Testing > Simple Web Test** in the step palette of the process editor
 
@@ -29,7 +29,7 @@ This plug-in runs on all operating systems that the UrbanCode Deploy agents supp
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
 
 ### History
 

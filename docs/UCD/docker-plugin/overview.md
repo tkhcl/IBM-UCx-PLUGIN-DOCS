@@ -16,7 +16,7 @@ To add the Docker plug-in steps to processes, click**Cloud > Docker** in the ste
 
 ### Prerequisites
 
-The Docker automation plug-in requires the [Docker source-configuration plug-in](https://www.urbancode.com/plugin/docker-registry/).
+The Docker automation plug-in requires the [Docker source-configuration plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/DockerSourceConfig/).
 
 ### Compatibility
 
@@ -28,7 +28,7 @@ This plug-in supports agents on any operating system that is supported by IBM Ur
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode products").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode products").
 
 ### History
 

@@ -18,13 +18,13 @@ This plug-in includes the following step:
 
 ### Compatibility
 
-This plug-in requires IBM UrbanCode Deploy version 6.0 or later. Please note that this plugin was written against the Nexus Repository Manager V3 REST API, and will not work with V2. For Nexus Repository Manager V2 support, please see the [Nexus Source Config Plugin](https://www.urbancode.com/plugin/nexus-source-config/).
+This plug-in requires IBM UrbanCode Deploy version 6.0 or later. Please note that this plugin was written against the Nexus Repository Manager V3 REST API, and will not work with V2. For Nexus Repository Manager V2 support, please see the [Nexus Source Config Plugin](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/nexus-source-config/).
 
 This plug-in runs on all operating systems that UrbanCode Deploy supports.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
 
 ### History
 

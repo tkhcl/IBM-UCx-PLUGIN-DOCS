@@ -8,9 +8,9 @@ This plug-in integrates with Nexus to retrieve artifacts hosted in a Maven repos
 
 ### Compatibility
 
-The Nexus source configuration plug-in works with IBM UrbanCode Deploy 6.0.1+ and Nexus versions 2.x. Please use the [Maven Source Config plug-in](https://developer.ibm.com/urbancode/plugin/maven-ibmucd/) for Nexus versions 3+.
+The Nexus source configuration plug-in works with IBM UrbanCode Deploy 6.0.1+ and Nexus versions 2.x. Please use the [Maven Source Config plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/MavenSourceConfig/) for Nexus versions 3+.
 
-If you’ve configured Nexus as a Docker container registry, you may use the [Docker Registry Source Config plug-in](https://developer.ibm.com/urbancode/plugin/dockersourceconfig-ibmucd/) to manage containers.
+If you’ve configured Nexus as a Docker container registry, you may use the [Docker Registry Source Config plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/DockerSourceConfig/) to manage containers.
 
 
 |Back to ...||Latest Version|||||

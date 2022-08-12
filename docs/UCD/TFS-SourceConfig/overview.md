@@ -31,7 +31,7 @@ The agent computer must have access to the Microsoft Team Foundation Server. Mic
 
 ### Installation
 
-This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in versions are available, follow the [installation instructions](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy") to update the plug-in.
+This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in versions are available, follow the [installation instructions](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy") to update the plug-in.
 
 ### History
 

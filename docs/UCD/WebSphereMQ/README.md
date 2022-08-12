@@ -8,7 +8,7 @@ IBM® MQ is robust messaging middleware that simplifies and accelerates the inte
 Available Steps
 ---------------
 
-See plugin documentation for a [complete list of available steps](https://developer.ibm.com/urbancode/plugindoc/ibmucd/websphere-mq/2-528233/steps/).
+See plugin documentation for a [complete list of available steps](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/WebSphereMQ/steps.html).
 
 
 

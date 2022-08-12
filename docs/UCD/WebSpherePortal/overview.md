@@ -33,9 +33,9 @@ The plug-in works with WebSphere Portal versions 6.1, 6.1.5, 7.0, 8.0, 8.5 and 9
 
 ### Installation
 
-This plug-in requires the [WebSphere Application ServerDeployment plug-in](https://www.urbancode.com/plugin/websphere-application-server-deployment/93-2/).
+This plug-in requires the [WebSphere Application ServerDeployment plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Websphere/93-2/).
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode products").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode products").
 
 ### History
 

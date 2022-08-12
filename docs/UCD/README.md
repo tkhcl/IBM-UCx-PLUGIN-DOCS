@@ -331,7 +331,7 @@ IBM App Connect Enterprise (ACE) combines the technologies of IBM Integration Bu
 
 |Back to ...||App Connect Enterprise |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-ace/README.md)|[6.1134007](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-ace/ucd-plugins-ibm-ace-6.1134007.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-ace/README.md)|[7.1138742](https://github.com/UrbanCode/IBM-UCD-PLUGINS/raw/main/files/ibm-ace/ucd-plugins-ibm-ace-7.1138742.zip)|
 
 ## Apple Xcode
 
@@ -601,7 +601,7 @@ The File Utils plug-in provides useful steps for manipulating files and director
 
 |Back to ...||File Utils |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](FileUtils/README.md)|[86.1130264](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-86.1130264.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](FileUtils/README.md)| [87.1134890.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-87.1134890.zip)|
 
 ## FileNet - IBM Case Manager
 
@@ -1291,7 +1291,7 @@ The IBM UrbanCode Versioned File Storage plug-in includes steps to upload and do
 
 |Back to ...||IBM UrbanCode Deploy Versioned File Storage |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](UrbancodeVFS/README.md)|[42.1132833](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/ucd-UrbancodeVFS-42.1132833.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](UrbancodeVFS/README.md)|[43.1139365](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/ucd-UrbancodeVFS-43.1139365.zip)|
 
 ## IBM UrbanCode Deploy Versions
 

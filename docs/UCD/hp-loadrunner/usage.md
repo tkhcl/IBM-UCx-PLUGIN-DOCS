@@ -31,7 +31,7 @@ Using this default configuration youll find the analysis results in the UCD\_LR\
 
 Note that if you were to provide a different working directory, the folder would be created there instead of in the <agent\_install\_dir>/var/work/ directory.
 
-To upload the report generated in this folder to codestation, you can utilize the Create Version step of the IBM UrbanCode Deploy Versions plugin. Further documentation on this step can be found in the [IBM UrbanCode Deploy Versions steps document](https://www.urbancode.com/plugindoc/ibmucd/ibm-urbancode-deploy-versions/60-455054/steps/#create_version).
+To upload the report generated in this folder to codestation, you can utilize the Create Version step of the IBM UrbanCode Deploy Versions plugin. Further documentation on this step can be found in the [IBM UrbanCode Deploy Versions steps document](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uDeploy-Version/steps.html#create_version).
 
 [![](screen-shot-2018-11-15-at-2.55.41-pm.png)](screen-shot-2018-11-15-at-2.55.41-pm.png)
 

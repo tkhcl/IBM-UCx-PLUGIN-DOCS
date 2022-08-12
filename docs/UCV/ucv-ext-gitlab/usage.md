@@ -84,7 +84,7 @@ connection and communication to the GitLab server.
 | URL | String | The URL of the GitLab server. | Yes | baseUrl |
 | Private Token | String | The
 Gitlab server access token. For more information, see the GitLab documentation at
-https://gitlab.com/profile/personal\_access\_tokens. | Yes | private\_token |
+https://gitlab.com/profile/personal_access_tokens. | Yes | private\_token |
 | Project IDs | Array | A list of GitLab
 Project IDs to import the source data. | Yes | projectIds |
 | UrbanCode Velocity User Access Key | String | The user

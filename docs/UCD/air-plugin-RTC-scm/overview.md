@@ -20,11 +20,11 @@ This plug-in supports all operating systems that are supported by the IBM UrbanC
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy"). The Rational Team Concert scm tool must be installed and available on the IBM UrbanCode Deploy agent that is used to import from Rational Team Concert.
+No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy"). The Rational Team Concert scm tool must be installed and available on the IBM UrbanCode Deploy agent that is used to import from Rational Team Concert.
 
 To learn more about using and installing the Rational Team Concert scm tool, see [Source control command line reference](http://www-01.ibm.com/support/knowledgecenter/SSCP65_4.0.3/com.ibm.team.scm.doc/topics/c_scm_cli.html "Rational Team Concert help") in the Rational Team Concert help.
 
-To learn more about importing components by using agents, see [Creating components](http://www.ibm.com/support/knowledgecenter/SS4GSP_6.1.1/com.ibm.udeploy.doc/topics/comp_create.html "Creating components").
+To learn more about importing components by using agents, see [Creating components](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=components-creating "Creating components").
 
 To learn more about the Rational Team Concert `scm` tool, see [Getting started with the Jazz SCM command line in Rational Team Concert](https://jazz.net/library/article/620 "Jazz.net article").
 

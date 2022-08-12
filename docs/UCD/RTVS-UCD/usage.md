@@ -15,7 +15,7 @@ Use the Service Virtualization plug-in to automate the virtualization of service
 **Before you begin**
 
 1. Install the UrbanCode Deploy server. For assistance, see [UrbanCode Deploy documentation](http://www.ibm.com/support/knowledgecenter/SS4GSP/ucd_welcome.html).
-2. Install the Service Virtualization plug-in on the UrbanCode Deploy server. For assistance, see  [Installing plug-ins](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/).
+2. Install the Service Virtualization plug-in on the UrbanCode Deploy server. For assistance, see  [Installing plug-ins](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins).
 3. Install the UrbanCode Deploy agent and connect it to the UrbanCode Deploy server. For assistance, see [UrbanCode Deploy documentation](http://www.ibm.com/support/knowledgecenter/SS4GSP/ucd_welcome.html).
 4. Install Rational Test Virtualization Server on the UrbanCode Deploy agent computer and apply a valid license. For assistance, see [Installing Rational Test Virtualization Server](http://www-01.ibm.com/support/knowledgecenter/SSBLQQ_8.7.0/com.ibm.rational.rtvs.ref.doc/topics/c_inst_rtvs_overview.html).
 

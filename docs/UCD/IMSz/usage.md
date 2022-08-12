@@ -30,7 +30,7 @@ In UrbanCode Deploy:
 
 1. In the **Resources** tab, create a top-level group.
 2. Within the top-level group, create agents for each IMS subsystem.
-3. Under each agent, add the components that correspond to your application programs. For more information about how components are used in Urban Code Deploy, see [Creating components.](http://www-01.ibm.com/support/knowledgecenter/SS4GSP_6.1.0/com.ibm.udeploy.doc/topics/intro_component.html)
+3. Under each agent, add the components that correspond to your application programs. For more information about how components are used in Urban Code Deploy, see [Creating components.](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=deployment-components)
 
 
 ### Process development using the IMS plug-in
