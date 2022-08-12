@@ -6,17 +6,18 @@ Process steps in the IBM ACE plug-in
 ------------------------------------
 
 - [App Connect Enterprise - Steps](#app-connect-enterprise---steps)
-  - [Process steps in the IBM ACE plug-in](#process-steps-in-the-ibm-ace-plug-in)
-  - [Create Integration Node](#create-integration-node)
-  - [Create Integration Server](#create-integration-server)
-  - [Delete Integration Node](#delete-integration-node)
-  - [Delete Integration Server](#delete-integration-server)
-  - [Deploy](#deploy)
-  - [Does Integration Server Exist](#does-integration-server-exist)
-  - [Start Integration Node](#start-integration-node)
-  - [Start Integration Server](#start-integration-server)
-  - [Stop Integration Node](#stop-integration-node)
-  - [Stop Integration Server](#stop-integration-server)
+- [Process steps in the IBM ACE plug-in](#process-steps-in-the-ibm-ace-plug-in)
+- [Create Integration Node](#create-integration-node)
+- [Create Integration Server](#create-integration-server)
+- [Delete Integration Node](#delete-integration-node)
+- [Delete Integration Server](#delete-integration-server)
+- [Deploy](#deploy)
+- [Does Integration Server Exist](#does-integration-server-exist)
+- [Start Integration Node](#start-integration-node)
+- [Start Integration Server](#start-integration-server)
+- [Re-start Integration Server](#re-start-integration-server)
+- [Stop Integration Node](#stop-integration-node)
+- [Stop Integration Server](#stop-integration-server)
 
 Create Integration Node
 -----------------------
@@ -117,6 +118,17 @@ Start integration servers.
 | Integration Servers | String | A list of integration servers to start. The servers must be defined on the broker. Seperate each with a comma or new line. | Yes |
 | Port | String | The port of the target integration node. | Yes |
 
+Re-start Integration Server
+------------------------
+
+Re-start integration servers.
+
+| Name | Type | Description | Required |
+| --- | --- | --- | --- |
+| IP | String | The IP address of the target integration node. | Yes |
+| Integration Servers | String | A list of integration servers to start. The servers must be defined on the broker. Seperate each with a comma or new line. | Yes |
+| Port | String | The port of the target integration node. | Yes |
+
 Stop Integration Node
 ---------------------
 
@@ -140,4 +152,4 @@ Stop integration servers.
 
 |Back to ...||Latest Version|App Connect Enterprise ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[7.1138742](https://github.com/UrbanCode/IBM-UCD-PLUGINS/raw/main/files/ibm-ace/ucd-plugins-ibm-ace-7.1138742.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.1139649](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-ace/ucd-plugins-ibm-ace-8.1139649.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
