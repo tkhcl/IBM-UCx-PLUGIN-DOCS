@@ -26,6 +26,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 24
+
+Add compatibility with Groovy 3.
+
 #### Version 23
 
 Adding missing classpath to the Check File Contents step.
