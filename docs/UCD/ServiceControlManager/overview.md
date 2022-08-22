@@ -24,6 +24,23 @@ This plug-in supports agents running on Microsoft Windows.
 
 No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
 
+### History
+
+####  Version 11
+
+* Add compatibility with Groovy 3.
+
+#### Version 10
+
+* Fixed APAR PH08938 - Updated collectAll to collectNested for compliancy with Groovy 2.4.15.
+
+#### Version 9
+
+* Support property file encryption.
+
+#### Version 8
+
+* Add timeout to stop service step and have it check service status before attempting to stop the service so it doesn't fail on already stopped services.
 
 |Back to ...||Latest Version|Microsoft Windows Services |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
