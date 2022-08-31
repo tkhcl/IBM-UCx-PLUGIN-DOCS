@@ -10,10 +10,10 @@ ServiceNow - Usage
 
 
 
-* [Orchestrating Deployments with ServiceNow Using IBM UrbanCode Deploy](https://developer.ibm.com/urbancode/2017/08/31/orchestrating-deployments-servicenow-urbancode-deploy/)
+* [Orchestrating Deployments with ServiceNow Using IBM UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2022/08/02/orchestrating-deployments-with-servicenow-using-ib)
 * [Component and Agent Configuration](#component-and-agent-configuration)
-* [Example: Check the status of a child change task of a change request](#example-check-the-status-of-a-child-change-task-of-a-change-request)
-* [Configuring Service Now to Trigger Deployments in UCD](#configuring-service-now-trigger-deployments-ucd)
+* [Example: Check the status of a child change task of a change request](#example-check-the-status-of-a-change-request)
+* [Configuring Service Now to Trigger Deployments in UCD](#configuring-service-now-to-trigger-deployments-in-ucd)
 
 ### Configuring Service Now to Trigger Deployments in UCD
 
@@ -28,9 +28,9 @@ Service Now can be configured so that making a change to a Change Request, Incid
 Screenshot showing a new outbound UCD REST Message Object
 
 
-2. Name the message, and set up the Endpoint field to direct to your UrbanCode Deploy server, using the proper path for requesting an Application Process.This can also be used with any other UCD REST Endpoint if desired.
+2. Name the message, and set up the Endpoint field to direct to your UrbanCode Deploy server, using the proper path for requesting an Application Process. This can also be used with any other UCD REST Endpoint if desired.
 
-3. Create a New HTTP Method.Define the parameters based on the [UrbanCode Deploy CLI References](https://www.ibm.com/support/knowledgecenter/en/SS4GSP_7.2.0/com.ibm.udeploy.reference.doc/topics/cli_ch.html) for your rest call.For this case of requesting an application process, the HTTP Method will look something like this using [requestApplicationProcess template](https://www.ibm.com/support/knowledgecenter/en/SS4GSP_7.2.0/com.ibm.udeploy.api.doc/topics/udclient_requestapplicationprocess.html):
+3. Create a New HTTP Method. Define the parameters based on the [UrbanCode Deploy REST API reference](https://www.ibm.com/docs/en/urbancode-deploy/7.2.0?topic=function-rest-api-reference) for your rest call. For this case of requesting an application process, the HTTP Method will look something like this using [Run an application process template](https://www.ibm.com/docs/en/urbancode-deploy/7.2.0?topic=resource-run-application-process):
 
 
 [![](screen-shot-2017-06-13-at-10.18.23-am.png)](screen-shot-2017-06-13-at-10.18.23-am.png)
@@ -87,7 +87,7 @@ Defining the ServiceNow plug-in as a separate component to interface your Servic
 * Agent pools are also used to limit access to specific agents. For example, agents that are associated with a different owner or agents used for production deployment.
 
 
-Additional information on agent pools can be found on the [Creating and managing agent pools](https://www.ibm.com/support/knowledgecenter/SS4GSP_6.2.2/com.ibm.udeploy.doc/topics/resources_agentPools.html) topic in the Knowledge Center.
+Additional information on agent pools can be found on the [Creating and managing agent pools](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=configuration-creating-managing-agent-pools) topic in IBM Documentation.
 
 
 We will use the JPetStore Application in the graphic below to demonstrate the use of the ServiceNow agent pool in a deployment. The JPetStore Application example represents a project deployment strategy with three environments. The environments are shown on the **Applications** tab: Dev, QA, and Prod. The **Components** tab contains the various deployable items and concepts, that make up the application. In this example, it contains the ServiceNow component. The **Processes** tab contains deployment flows, when combined with the other component processes used to make dynamic decisions based on ServiceNow queried responses.
