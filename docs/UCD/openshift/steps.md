@@ -1,73 +1,59 @@
 
-OpenShift for IBM UrbanCode Deploy - Steps
-==========================================
+# OpenShift for IBM UrbanCode Deploy - Steps
 
-# Steps
+## Steps
 
+### Process steps in the OpenShift plug-in
 
-### Steps
+- [OpenShift for IBM UrbanCode Deploy - Steps](#openshift-for-ibm-urbancode-deploy---steps)
+  - [Steps](#steps)
+    - [Process steps in the OpenShift plug-in](#process-steps-in-the-openshift-plug-in)
+      - [Add Tag](#add-tag)
+      - [Apply](#apply)
+      - [Cancel Build](#cancel-build)
+      - [Create](#create)
+      - [Create New-App](#create-new-app)
+      - [Create Object From Template](#create-object-from-template)
+      - [Create Secret](#create-secret)
+      - [Delete](#delete)
+      - [Deploy](#deploy)
+      - [Expose](#expose)
+      - [Login](#login)
+      - [New Build](#new-build)
+      - [Patch DeploymentConfig](#patch-deploymentconfig)
+      - [Patch Secret](#patch-secret)
+      - [Replace DeploymentConfig](#replace-deploymentconfig)
+      - [Rollback](#rollback)
+      - [Rollout](#rollout)
+      - [Scale](#scale)
+      - [Set Env](#set-env)
+      - [Set Image](#set-image)
+      - [Set Triggers](#set-triggers)
+      - [Start Build](#start-build)
 
-
-
-
-
-Process steps in the OpenShift plug-in
---------------------------------------
-
-* [Add Tag](#add_tag)
-* [Apply](#apply)
-* [Cancel Build](#cancel_build)
-* [Create](#create)
-* [Create New-App](#create_new-app)
-* [Create Object From Template](#create_object_from_template)
-* [Create Secret](#create_secret)
-* [Delete](#delete)
-* [Deploy](#deploy)
-* [Expose](#expose)
-* [Login](#login)
-* [New Build](#new_build)
-* [Patch DeploymentConfig](#patch_deploymentconfig)
-* [Patch Secret](#patch_secret)
-* [Replace DeploymentConfig](#replace_deploymentconfig)
-* [Rollback](#rollback)
-* [Rollout](#rollout)
-* [Scale](#scale)
-* [Set Env](#set_env)
-* [Set Image](#set_image)
-* [Set Triggers](#set_triggers)
-* [Start Build](#start_build)
-
-
-Add Tag
--------
+#### Add Tag
 
 Tag existing images into image streams.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Access Token | Password | The token used to authenicate with the OpenShift API server. You can use either this property or the User Name and Password properties to authenticate with the server. | No |
-| Destination Names | String | The image streams to tag. Separate multiple image streams with space characters. Use the following format: <namespace>/<stream\_name >:<tag> | Yes |
+| Destination Names | String | The image streams to tag. Separate multiple image streams with space characters. Use the following format: ```<namespace>/<stream_name >:<tag>``` | Yes |
 | Keep Updated | Boolean | Select to update the destination tag each time the source tag changes. | No |
 | OpenShift URL | String | The URL of the Red Hat OpenShift server. For example: https://192.0.2.0:8443 | No |
 | Project | String | The OpenShift project that contains the resource to tag. | No |
-| Source Name | String | The name of the source to tag. For example: <namespace>/<stream\_name>:<tag>, <name>@<id> | Yes |
-| Source Type | Enumeration:
-* none
-* istag
-* isimage
-* docker
-| Specify a source type to use. | No |
+| Source Name | String | The name of the source to tag. For example: ```<namespace>/<stream_name>:<tag>, <name>@<id>``` | Yes |
+| Source Type | Enumeration: | Specify a source type to use. | No |
+| | | * none |
+| | | * istag |
+| | | * isimage |
+| | | * docker |
 | Step Flags | String | A list of flags to set when running the add tag command. Specify each flag on a new line. | No |
 | User Name | String | The user name used to authenicate with the OpenShift server. | No |
 
-
-
-Apply
------
+#### Apply
 
 Apply a configuration to a resource by filename.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -78,13 +64,9 @@ Apply a configuration to a resource by filename.
 | Step Flags | String | A list of flags to set when running the apply process. For example: –force=false. Specify each flag on a new line. | No |
 | User Name | String | The user name to authenicate with the OpenShift server. | No |
 
-
-
-Cancel Build
-------------
+#### Cancel Build
 
 Request a graceful shutdown of a build. Running, pending, or new builds are canceled.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -96,13 +78,9 @@ Request a graceful shutdown of a build. Running, pending, or new builds are canc
 | Step Flags | String | A list of flags to set when running the cancel-build command. Specify each flag on a new line. | No |
 | User Name | String | The user name used to authenicate with the OpenShift server. | No |
 
-
-
-Create
-------
+#### Create
 
 Create a resource by filename.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -113,13 +91,9 @@ Create a resource by filename.
 | Step Flags | String | A list of flags to set when running the create process. Specify each flag on a new line. | No |
 | User Name | String | The user name used to authenticate with the OpenShift server. | No |
 
-
-
-Create New-App
---------------
+#### Create New-App
 
 Create a new application by specifying source code, templates, and/or images.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -130,13 +104,9 @@ Create a new application by specifying source code, templates, and/or images.
 | Step Flags | String | A list of flags to set when running the new-app command. Specify each flag on a new line. | No |
 | User Name | String | The user name used to authenicate with the OpenShift server. | No |
 
-
-
-Create Object From Template
----------------------------
+#### Create Object From Template
 
 Create object on OpenShift server from a JSON template.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -149,13 +119,9 @@ Create object on OpenShift server from a JSON template.
 | Template | String | The fully-qualified path to the template JSON file to be used to create the object. | Yes |
 | User Name | String | The user name to access the OpenShift server. | No |
 
-
-
-Create Secret
--------------
+#### Create Secret
 
 Create secret in OpenShift.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -166,13 +132,9 @@ Create secret in OpenShift.
 | Secret JSON | String | A JSON string or the fully-qualified path to the JSON file containing the JSON for the secret to be created. | Yes |
 | User Name | String | The user name used to authenicate with the OpenShift server. | No |
 
-
-
-Delete
-------
+#### Delete
 
 Delete resources by filenames, stdin, resources and names, or by resources and label selector.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -183,37 +145,28 @@ Delete resources by filenames, stdin, resources and names, or by resources and l
 | Step Flags | String | A list of flags to set when running the delete command. Specify each flag on a new line. | No |
 | User Name | String | The user name used to authenticate with the OpenShift server. | No |
 
-
-
-Deploy
-------
+#### Deploy
 
 (Deprecated)Start, cancel, retry or view a deployment on an OpenShift server.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Access Token | Password | The token used to authenticate with the OpenShift API server. You can use either this property or the User Name and Password properties to authenticate with the server. | No |
-| Deployment Action | Enumeration:
-* latest
-* retry
-* cancel
-* triggers
-* history
-| Select deployment action. | No |
+| Deployment Action | Enumeration: | Select deployment action. | No |
+| | | * latest |
+| | | * retry |
+| | | * cancel |
+| | | * triggers |
+| | | * history |
 | Deployment Config | String | The deployment configuration to use. | Yes |
 | OpenShift URL | String | The URL of the Red Hat OpenShift server. For example: https://192.0.2.0:8443 | No |
 | Project | String | The OpenShift project that contains the application to run the deployment on. | No |
 | Step Flags | String | A list of flags to set when running the deploy command. Specify each flag on a new line. | No |
 | User Name | String | The user name to access the OpenShift server. | No |
 
-
-
-Expose
-------
+#### Expose
 
 Expose containers internally as services or externally through routes.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -224,13 +177,9 @@ Expose containers internally as services or externally through routes.
 | Step Flags | String | A list of flags to set when running the expose command. Specify each flag on a new line. | No |
 | User Name | String | The user name to access the OpenShift server. | No |
 
-
-
-Login
------
+#### Login
 
 Log in to your Openshift server and save login for subsequent use.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -243,13 +192,9 @@ Log in to your Openshift server and save login for subsequent use.
 | Step Flags | String | A list of flags to set when running the login command. Specify each flag on a new line. | No |
 | User Name | String | The user name used to authenticate with the OpenShift server. | No |
 
-
-
-New Build
----------
+#### New Build
 
 Create a new build by specifying source code
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -260,13 +205,9 @@ Create a new build by specifying source code
 | Step Flags | String | A list of flags to set when running the new-build command. Specify each flag on a new line. | No |
 | User Name | String | The user name used to authenicate with the OpenShift server. | No |
 
-
-
-Patch DeploymentConfig
-----------------------
+#### Patch DeploymentConfig
 
 Patch/Update a Deployment Config.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -278,13 +219,9 @@ Patch/Update a Deployment Config.
 | Step Flags | String | A list of flags to set when running the patch deployment config command. Specify each flag on a new line. | No |
 | User Name | String | The user name used to authenicate with the OpenShift server. | No |
 
-
-
-Patch Secret
-------------
+#### Patch Secret
 
 Patch secret in OpenShift.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -298,13 +235,9 @@ Patch secret in OpenShift.
 | Step Flags | String | A list of flags to set when running the patch secret command. Specify each flag on a new line. | No |
 | User Name | String | The user name used to authenicate with the OpenShift server. | No |
 
-
-
-Replace DeploymentConfig
-------------------------
+#### Replace DeploymentConfig
 
 Deploy using a new deployment configuration for an existing application in OpenShift.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -316,13 +249,9 @@ Deploy using a new deployment configuration for an existing application in OpenS
 | Project | String | The OpenShift project that contains the application to run the deployment on. | No |
 | User Name | String | The user name to authenicate with the OpenShift server. | No |
 
-
-
-Rollback
---------
+#### Rollback
 
 Roll back an application to a previous deployment.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -337,13 +266,9 @@ Roll back an application to a previous deployment.
 | User Name | String | The user name used to authenicate with the OpenShift server. | No |
 | Version | String | The specific configuration version to roll back to. Leave blank to roll back to the last successfully completed deployment. This field is ignored when rolling back to a deployment instead of a deployment config. | No |
 
-
-
-Rollout
--------
+#### Rollout
 
 Start a new rollout, view its status or history, rollback to a previous revision of your app.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -351,26 +276,21 @@ Start a new rollout, view its status or history, rollback to a previous revision
 | Deployment Config or Name | String | The deployment configuration or the name of a deployment depending on the rollout type to use. | Yes |
 | OpenShift URL | String | The URL of the Red Hat OpenShift server. For example: https://192.0.2.0:8443 | No |
 | Project | String | The OpenShift project that contains the application to run the deployment on. | No |
-| Rollout type | Enumeration:
-* cancel
-* history
-* latest
-* pause
-* resume
-* retry
-* status
-* undo
-| Select a rollout subcommand. | No |
+| Rollout type | Enumeration: | Select a rollout subcommand. | No |
+| | | * cancel |
+| | | * history |
+| | | * latest |
+| | | * pause |
+| | | * resume |
+| | | * retry |
+| | | * status |
+| | | * undo |
 | Step Flags | String | A list of flags to set when running the rollout command. Specify each flag on a new line. | No |
 | User Name | String | The user name to authenicate with the OpenShift server. | No |
 
-
-
-Scale
------
+#### Scale
 
 Set a new size for a deployment or replication controller.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -379,20 +299,15 @@ Set a new size for a deployment or replication controller.
 | OpenShift URL | String | The URL of the Red Hat OpenShift server. For example: https://192.0.2.0:8443 | No |
 | Project | String | The OpenShift project that contains the application to scale. | No |
 | Resource Name | String | The name of the resource to scale in OpenShift. | Yes |
-| Resource Type | Enumeration:
-* dc
-* replicationcontrollers
-| The type of resource to scale in OpenShift. | Yes |
+| Resource Type | Enumeration: | The type of resource to scale in OpenShift. | Yes |
+| | | * dc |
+| | | * replicationcontrollers |
 | Step Flags | String | A list of flags to set when running the scale command. Specify each flag on a new line. | No |
 | User Name | String | The user name to access the OpenShift server. | No |
 
-
-
-Set Env
--------
+#### Set Env
 
 Update environment variables on a pod template or a build config
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -406,18 +321,14 @@ Update environment variables on a pod template or a build config
 | Step Flags | String | A list of flags to set when running the set env command. Specify each flag on a new line. | No |
 | User Name | String | The user name used to authenticate with the OpenShift server. | No |
 
-
-
-Set Image
----------
+#### Set Image
 
 Update existing container images of resources
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Access Token | Password | The token used to authenticate with the OpenShift API server. You can use either this property or the User Name and Password properties to authenticate with the server. | No |
-| CONTAINER\_NAME=IMAGE\_NAME | String | A list of container and assocaited image name. Specify each pair in the format: container\_name=image\_name. Specify each list item on a new line. You can update image of all containers with \*=image\_name. | No |
+| CONTAINER_NAME=IMAGE_NAME | String | A list of container and assocaited image name. Specify each pair in the format: container_name=image_name. Specify each list item on a new line. You can update image of all containers with *=image_name. | No |
 | File Path | String | The filename, directory, or URL to files used to identify the resource to obtain from the server. | No |
 | OpenShift URL | String | The URL of the Red Hat OpenShift server. For example: https://192.0.2.0:8443 | No |
 | Project | String | The OpenShift project that contains the application to update the image. | No |
@@ -426,13 +337,9 @@ Update existing container images of resources
 | Step Flags | String | A list of flags to set when running the set image command. Specify each flag on a new line. | No |
 | User Name | String | The user name used to authenticate with the OpenShift server. | No |
 
-
-
-Set Triggers
-------------
+#### Set Triggers
 
 Set or remove triggers
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -443,13 +350,9 @@ Set or remove triggers
 | Step Flags | String | A list of flags to set when running the set triggers command. Specify each flag on a new line. | No |
 | User Name | String | The user name used to authenticate with the OpenShift server. | No |
 
-
-
-Start Build
------------
+#### Start Build
 
 Start a new build for the provided build configuration or copy an existing build.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -460,8 +363,6 @@ Start a new build for the provided build configuration or copy an existing build
 | Project | String | The OpenShift project that contains the application to start a build. | No |
 | Step Flags | String | A list of flags to set when running the start-build command. Specify each flag on a new line. | No |
 | User Name | String | The user name used to authenicate with the OpenShift server. | No |
-
-
 
 |Back to ...||Latest Version|OpenShift for IBM UrbanCode Deploy ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
