@@ -7,4 +7,4 @@ vulnerabilities.
 
 |Back to ...||Latest Version||||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[3.0.11](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-asoc/ucv-ext-asoc:3.0.11.tar)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[3.0.12](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-asoc/ucv-ext-asoc:3.0.12.tar.7z.001)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

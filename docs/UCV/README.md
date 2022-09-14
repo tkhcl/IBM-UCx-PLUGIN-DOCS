@@ -155,7 +155,7 @@ HCL AppScan on Cloud (ASoC) is an application security offering that allows you 
 
 |Back to ...||HCL AppScan on Cloud (ASoC) |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-asoc/README.md)|[3.0.11](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-asoc/ucv-ext-asoc:3.0.11.tar)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-asoc/README.md)|[3.0.12](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-asoc/ucv-ext-asoc:3.0.12.tar.7z.001)|
 
 ## HCL OneTest
 
