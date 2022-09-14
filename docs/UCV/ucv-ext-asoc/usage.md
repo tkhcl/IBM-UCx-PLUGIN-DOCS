@@ -92,4 +92,4 @@ paste the template into the JSON file and make the appropriate changes.
 
 |Back to ...||Latest Version|HCL AppScan on Cloud (ASoC) |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[3.0.11](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-asoc/ucv-ext-asoc:3.0.11.tar)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[3.0.12](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-asoc/ucv-ext-asoc:3.0.12.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

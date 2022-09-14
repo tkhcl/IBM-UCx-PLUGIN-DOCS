@@ -145,4 +145,4 @@ paste the template into the JSON file and make the appropriate changes.
 
 |Back to ...||Latest Version|GitLab |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.0.50](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-gitlab/ucv-ext-gitlab-2.0.50.tar.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.0.58](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-gitlab/ucv-ext-gitlab:2.1.58.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
