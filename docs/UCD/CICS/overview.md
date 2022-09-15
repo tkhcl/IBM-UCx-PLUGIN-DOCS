@@ -31,24 +31,13 @@ The plug-in includes steps to:
 
 The CICS TS plug-in is supported to run against any of the following CICS editions:
 
-* IBM CICS Transaction Server for z/OS V5.1, V5.2, V5.3, V5.4, V5.5, V5.6
-* IBM CICS Transaction Server for z/OS Developer Trial V5.1, V5.2, V5.3, V5.4, V5.5, V5.6
-* IBM CICS Transaction Server for z/OS Value Unit Edition V5.1, V5.2, V5.3, V5.4, V5.5, V5.6
+* IBM CICS Transaction Server for z/OS V5.4, V5.5, V5.6, V6.1
+* IBM CICS Transaction Server for z/OS Developer Trial V5.4, V5.5, V5.6, V6.1
+* IBM CICS Transaction Server for z/OS Value Unit Edition V5.4, V5.5, V5.6, V6.1
 
 Additionally, you must also have configured a CICS management client interface (CMCI) port, as described in topic [Setting up access for CICS Explorer](https://www.ibm.com/support/knowledgecenter/SSGMCP_5.4.0/configuring/cmci/clientapi_setup.html) in the IBM Knowledge Center.
 
 This plug-in requires UrbanCode Deploy 6.2.5 or later, and the [zOS Utility](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/) 10 plug-in or later. Using this plug-in requires the UrbanCode Deploy agent to be running with Java 8; for details of how to upgrade the version of Java used by the agent, see [Changing or updating the JRE of agents](https://www.ibm.com/support/knowledgecenter/SS4GSP_6.2.4/com.ibm.udeploy.doc/topics/jre_change_agent.html).
-
-## Required fixes
-
-CICS TS V5.1 or CICS TS V5.2 with [APAR PI56706](http://www-01.ibm.com/support/docview.wss?rs=1083&context=SSGMGV&q=&uid=swg1PI56706&loc=en_US&cs=utf-8&lang=en en), or CICS TS V5.3 or above is required for the following CICS TS plug-in steps. These steps also require the UCD agent to run in the same sysplex as the target CICSPlex SM CMAS region:
-
-* Deploy bundle, Undeploy bundles
-* Deploy application, Undeploy application
-
-CICS TS V5.3 or above is required for the following CICS TS plug-in steps:
-
-* Phase in resources for the resource type of Bundle
 
 ## Installation
 
