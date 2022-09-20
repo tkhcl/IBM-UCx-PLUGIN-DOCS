@@ -18,4 +18,4 @@ Run Functional Test
 
 |Back to ...||Latest Version||
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[5.2](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestUI/HOT-UI-UCD-5.2.zip)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestUI/HOT-UI-UCD-FunctionalTest-6.0.zip)|[Downloads](downloads.md)|

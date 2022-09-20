@@ -4,6 +4,7 @@ HCL OneTest Performance - Downloads
 
 # Downloads
 
+- [HOT-PERF-UCD-9.3.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestPerf/HOT-PERF-UCD-9.3.zip)
 - [HOT-PERF-UCD-9.2.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestPerf/HOT-PERF-UCD-9.2.zip)
 - [HOT-PERF-UCD-8.0.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestPerf/HOT-PERF-UCD-8.0.zip)
 - [HOT-PERF-UCD-7.0.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestPerf/HOT-PERF-UCD-7.0.zip)
@@ -15,4 +16,4 @@ HCL OneTest Performance - Downloads
 
 |Back to ...||Latest Version|HCL OneTest Performance |
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.2](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestPerf/HOT-PERF-UCD-9.2.zip)|[Readme](README.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.3](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestPerf/HOT-PERF-UCD-9.3.zip)|[Readme](README.md)|

@@ -4,6 +4,8 @@ HCL OneTest UI - Downloads
 
 # Downloads
 
+- [HOT-UI-UCD-FunctionalTest-6.0.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestUI/HOT-UI-UCD-FunctionalTest-6.0.zip)
+- [HOT-UI-UCD-5.2.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestUI/HOT-UI-UCD-5.2.zip)
 - [HOT-UI-UCD-5.2.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestUI/HOT-UI-UCD-5.2.zip)
 - [HOT-UI-UCD-5.0.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestUI/HOT-UI-UCD-5.0.zip)
 - [HOT-UI-UCD-4.0.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestUI/HOT-UI-UCD-4.0.zip)
@@ -13,4 +15,4 @@ HCL OneTest UI - Downloads
 
 |Back to ...||Latest Version|HCL OneTest UI |
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[5.2](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestUI/HOT-UI-UCD-5.2.zip)|[Readme](README.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestUI/HOT-UI-UCD-FunctionalTest-6.0.zip)|[Readme](README.md)|
