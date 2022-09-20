@@ -4,6 +4,7 @@ HCL OneTest Server - Downloads
 
 # Downloads
 
+- [OTS-UCD-3.3.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestServer/OTS-UCD-3.3.zip)
 - [ucd-plugins-onetest-server-3.1126872.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/onetest-server/ucd-plugins-onetest-server-3.1126872.zip)
 - [plugins-onetest-server-2.1106836.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/onetest-server/plugins-onetest-server-2.1106836.zip)
 - [plugins-onetest-server-2.1098504.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/onetest-server/plugins-onetest-server-2.1098504.zip)
@@ -12,4 +13,4 @@ HCL OneTest Server - Downloads
 
 |Back to ...||Latest Version|HCL OneTest Server |
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.1126872](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/onetest-server/ucd-plugins-onetest-server-3.1126872.zip)|[Readme](README.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.3](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestServer/OTS-UCD-3.3.zip)|[Readme](README.md)|
