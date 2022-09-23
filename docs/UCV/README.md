@@ -14,6 +14,7 @@
 	- [CollabNet VersionOne](#collabnet-versionone)
 	- [Cucumber](#cucumber)
 	- [Digital.ai Agility](#digitalai-agility)
+	- [Fortify SSC](#fortify-ssc)
 	- [GitHub](#github)
 	- [GitLab](#gitlab)
 	- [HCL AppScan Enterprise (ASE)](#hcl-appscan-enterprise-ase)
@@ -116,6 +117,16 @@ Digital.ai.Agility is Enterprise level planning and tracking platform to build a
 |Back to ...||Digital.ai Agility |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-agility/README.md)|[1.0.20](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-agility/ucv-ext-agility-1.0.20.tar.zip)|
+
+## Fortify SSC
+
+Fortify Software security center (SSC) enables teams with the application security program automation capabilities. It enables to manage, develop, and provide security for the software protection activities.
+
+---
+
+|Back to ...||Fortify SSC |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-fortify-ssc/README.md)|[1.0.19](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-fortify-ssc/ucv-ext-fortify-ssc%3A1.0.19.tar.7z.001)|
 
 ## GitHub
 
