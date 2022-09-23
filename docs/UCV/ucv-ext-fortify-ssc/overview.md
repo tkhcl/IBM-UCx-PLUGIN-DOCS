@@ -36,7 +36,7 @@ History
 
 * Project Names Field Added: The Fortify SSC Plugin was syncing all project data. Added a field to provide a comma separated list of project names to sync data from. Due to a massive no. of projects, plugin was crashing.
 
-* Removed Manual User Access Key: From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.
+* Removed Manual User Access Key: From current version onwards this plugin will only support Auto Generated User Access Key feature of UrbanCode Velocity.
 
 * Initial Sync Date Field Added: Under the hidden properties section of add integration page for Fortify SSC plugin an Initial Sync Date field is added. This field is optional and can be used only for first sync.
 
@@ -49,6 +49,6 @@ History
 * Initial Release
 
 
-|Back to ...||Latest Version|HCL Fortify SSC |||
+|Back to ...||Latest Version|Fortify SSC |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.19](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-fortify-ssc/ucv-ext-fortify-ssc%3A1.0.19.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

@@ -41,7 +41,7 @@ The following tables describe the properties used to configure the integration.
 | properties | List of configuration properties used to connect and communicate with the Redmine server. Enclose the properties within braces. | Yes |
 | tenant_id | The name of the tenant. | Yes |
 | type | Unique identifier assigned to the plugin. The value for the Redmine plugin is `ucv-ext-fortify-ssc`. | Yes |
-| ucvAccessKey | The auto-generated User Access Key that the containerized plugin will use to communicate with HCL Accelerate (support starts with plugin v2.0.30 or later). | Yes |
+| ucvAccessKey | The auto-generated User Access Key that the containerized plugin will use to communicate with UrbanCode Velocity (support starts with plugin v2.0.30 or later). | Yes |
 
 #### Fortify SSC Properties table
 
@@ -50,10 +50,10 @@ The following tables describe the properties used to configure the integration.
 | URL | String | The URL of the Fortify SSC server. | Yes |
 | token | String | The API key to authenticate with the Fortify SSC server. | Yes |
 | Initial sync date | String | The date to pull data for the initial run. | No |
-| User Access Key | Secure | The user access key to authenticate with HCL Accelerate server, prior to version 2.4.0. | No |
+| User Access Key | Secure | The user access key to authenticate with UrbanCode Velocity server, prior to version 2.4.0. | No |
 
 
 
-|Back to ...||Latest Version|HCL Fortify SSC |||
+|Back to ...||Latest Version|Fortify SSC |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.19](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-fortify-ssc/ucv-ext-fortify-ssc%3A1.0.19.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
