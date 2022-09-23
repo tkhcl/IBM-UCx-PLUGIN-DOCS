@@ -1,4 +1,3 @@
-@ -1,24 +1,328 @@
 # IBM-UCx-PLUGIN-DOCS
 
 ## Intro to IBM UrbanCode Plug-In Documentation
