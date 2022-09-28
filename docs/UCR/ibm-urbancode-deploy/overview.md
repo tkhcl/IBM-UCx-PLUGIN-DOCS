@@ -55,4 +55,4 @@ Initial release of the plug-in.
 
 |Back to ...||Latest Version|IBM UrbanCode Deploy |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[0]()|[Readme](README.md)|[Usage](usage.md)|[Settings](settings.md)|
+|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[1.1053195](https://github.com/UrbanCode/IBM-UCR-PLUGINS/blob/main/files/ucr-plugin-deploy/ucr-plugin-deploy-1.1053195.zip)|[Readme](README.md)|[Usage](usage.md)|[Settings](settings.md)|
