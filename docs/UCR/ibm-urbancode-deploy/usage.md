@@ -26,4 +26,4 @@ After the data is imported into UrbanCode Release, you can monitor the lifecycle
 
 |Back to ...||Latest Version|IBM UrbanCode Deploy |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[0]()|[Readme](README.md)|[Overview](overview.md)|[Settings](settings.md)|
+|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[1.1053195](https://github.com/UrbanCode/IBM-UCR-PLUGINS/blob/main/files/ucr-plugin-deploy/ucr-plugin-deploy-1.1053195.zip)|[Readme](README.md)|[Overview](overview.md)|[Settings](settings.md)|
