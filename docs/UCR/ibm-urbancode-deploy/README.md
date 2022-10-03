@@ -21,4 +21,4 @@ UrbanCode Deploy version 6.1.1.4 and later.
 
 |Back to ...||Latest Version|||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[1.1053195](https://github.com/UrbanCode/IBM-UCR-PLUGINS/blob/main/files/ucr-plugin-deploy/ucr-plugin-deploy-1.1053195.zip)|[Overview](overview.md)|[Usage](usage.md)|[Settings](settings.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[1.1141582.ifix01](https://github.com/UrbanCode/IBM-UCR-PLUGINS/blob/main/files/ucr-plugin-deploy/ucr-plugin-deploy-1.1141582.ifix01.zip)|[Overview](overview.md)|[Usage](usage.md)|[Settings](settings.md)|[Downloads](downloads.md)|
