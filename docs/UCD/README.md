@@ -77,12 +77,13 @@
 	- [IBM Installation Manager](#ibm-installation-manager)
 	- [IBM Integration Bus (IIB) plugin Deploy step for zOS](#ibm-integration-bus-iib-plugin-deploy-step-for-zos)
 	- [IBM Integration Bus (formerly WebSphere Message Broker) - CMP](#ibm-integration-bus-formerly-websphere-message-broker---cmp)
-	- [IBM MQ for z/OS - Generate MQSC Commands](#ibm-mq-for-zos---generate-mqsc-commands)
 	- [IBM MaaS360](#ibm-maas360)
+	- [IBM Maximo](#ibm-maximo)
 	- [IBM MobileFirst Platform (formerly Worklight)](#ibm-mobilefirst-platform-formerly-worklight)
 	- [IBM MobileFirst Platform Foundation on IBM Containers](#ibm-mobilefirst-platform-foundation-on-ibm-containers)
 	- [IBM Operational Decision Manager (ODM)](#ibm-operational-decision-manager-odm)
 	- [IBM Operational Decision Manager (ODM) Source Config](#ibm-operational-decision-manager-odm-source-config)
+	- [IBM MQ for z/OS - Generate MQSC Commands](#ibm-mq-for-zos---generate-mqsc-commands)
 	- [IBM Rational Asset Manager](#ibm-rational-asset-manager)
 	- [IBM Rational Asset Manager for IBM UrbanCode Deploy](#ibm-rational-asset-manager-for-ibm-urbancode-deploy)
 	- [IBM Rational Automation Framework for WebSphere](#ibm-rational-automation-framework-for-websphere)
@@ -952,6 +953,16 @@ This plug-in provides access to utilities that are related to integrating with I
 |Back to ...||IBM MaaS360 |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-maas360/README.md)|[0]()|
+
+## IBM Maximo
+
+The Maximo plugin allows the user to upload and deploy configuration using migration manager.
+
+---
+
+|Back to ...||IBM Maximo |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-maximo/README.md)|[1.1088514](https://github.com/UrbanCode/IBM-UCD-PLUGINS/raw/main/files/maximo/plugins-maximo-1.1088514.zip)|
 
 ## IBM MobileFirst Platform (formerly Worklight)
 
