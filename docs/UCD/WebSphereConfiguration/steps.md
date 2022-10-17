@@ -1,37 +1,32 @@
 
-WebSphere Application Server - Configure - Steps
-================================================
+# WebSphere Application Server - Configure - Steps
 
-# Steps
-
-
-### Steps
-
-
+## Steps
 
 ### Process steps in the WAS Configure plug-in
 
-* [WebSphere Create Configuration Snippet](#websphere_-_create_configuration_snippet)
-* [WebSphere Extract Configuration Data](#websphere_-_extract_configuration_data)
-* [WebSphere Merge Configuration Files](#websphere_-_merge_configuration_files)
-* [WebSphere Templatize Cell Configuration Data](#websphere_-_templatize_cell_configuration_data)
-* [WebSphere Templatize Cluster Configuration Data](#websphere_-_templatize_cluster_configuration_data)
-* [WebSphere Templatize Node Configuration Data](#websphere_-_templatize_node_configuration_data)
-* [WebSphere Templatize Server Configuration Data](#websphere_-_templatize_server_configuration_data)
-* [WebSphere Templatize Server for Cluster Configuration Data](#websphere_-_templatize_server_for_cluster_configuration_data)
-* [WebSphere Templatize Snippet Configuration Data](#websphere_-_templatize_snippet_configuration_data)
-* [WebSphere Configuration Apply](#websphere_configuration_apply)
-* [WebSphere Configuration Compare](#websphere_configuration_compare)
-* [WebSphere Configuration Discovery](#websphere_configuration_discovery)
-* [WebSphere Configuration Partial Apply](#websphere_configuration_partial_apply)
-* [WebSphere Configuration Partial Remove](#websphere_configuration_partial_remove)
-* [WebSphere Get Compare Result](#websphere_get_compare_result)
-
+- [WebSphere Application Server - Configure - Steps](#websphere-application-server---configure---steps)
+  - [Steps](#steps)
+    - [Process steps in the WAS Configure plug-in](#process-steps-in-the-was-configure-plug-in)
+    - [WebSphere Create Configuration Snippet](#websphere-create-configuration-snippet)
+    - [WebSphere Extract Configuration Data](#websphere-extract-configuration-data)
+    - [WebSphere Merge Configuration Files](#websphere-merge-configuration-files)
+    - [WebSphere Templatize Cell Configuration Data](#websphere-templatize-cell-configuration-data)
+    - [WebSphere Templatize Cluster Configuration Data](#websphere-templatize-cluster-configuration-data)
+    - [WebSphere Templatize Node Configuration Data](#websphere-templatize-node-configuration-data)
+    - [WebSphere Templatize Server Configuration Data](#websphere-templatize-server-configuration-data)
+    - [WebSphere Templatize Server for Cluster Configuration Data](#websphere-templatize-server-for-cluster-configuration-data)
+    - [WebSphere Templatize Snippet Configuration Data](#websphere-templatize-snippet-configuration-data)
+    - [WebSphere Configuration Apply](#websphere-configuration-apply)
+    - [WebSphere Configuration Compare](#websphere-configuration-compare)
+    - [WebSphere Configuration Discovery](#websphere-configuration-discovery)
+    - [WebSphere Configuration Partial Apply](#websphere-configuration-partial-apply)
+    - [WebSphere Configuration Partial Remove](#websphere-configuration-partial-remove)
+    - [WebSphere Get Compare Result](#websphere-get-compare-result)
 
 ### WebSphere Create Configuration Snippet
 
 Extract a resource and any child resources from WebSphere configuration data by resource name.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -46,7 +41,6 @@ Extract a resource and any child resources from WebSphere configuration data by 
 
 Parse a WebSphere configuration file into cell, node, cluster, and server components.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Configuration File | String | The full path to the configuration file. For example: /tmp/discoveredConfig.json | Yes |
@@ -56,7 +50,6 @@ Parse a WebSphere configuration file into cell, node, cluster, and server compon
 
 Merges all configuration data files in the working directory to one file.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Output File | String | Name and location of a file to be created which contains the merged configuration data. | Yes |
@@ -64,7 +57,6 @@ Merges all configuration data files in the working directory to one file.
 ### WebSphere Templatize Cell Configuration Data
 
 Templatize WebSphere cell configuration data.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -79,7 +71,6 @@ Templatize WebSphere cell configuration data.
 ### WebSphere Templatize Cluster Configuration Data
 
 Templatizes WebSphere cluster configuration data
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -97,7 +88,6 @@ Templatizes WebSphere cluster configuration data
 
 Templatizes WebSphere node configuration data.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Cell Name | String | If discovery was run on a node only, specifiy the name of the Cell that contains the node. | No |
@@ -112,7 +102,6 @@ Templatizes WebSphere node configuration data.
 ### WebSphere Templatize Server Configuration Data
 
 Templatize WebSphere Server configuration data.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -130,7 +119,6 @@ Templatize WebSphere Server configuration data.
 ### WebSphere Templatize Server for Cluster Configuration Data
 
 Templatizes WebSphere cluster Member configuration data
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -150,7 +138,6 @@ Templatizes WebSphere cluster Member configuration data
 
 Templatize a snippet of configuration data.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Cell Name | String | If you want to templatize the cell name, enter the cell name. | No |
@@ -168,24 +155,21 @@ Templatize a snippet of configuration data.
 
 Apply the configuration for a given resource.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+| | | * SOAP  |  |
+| | | * RMI   |  |
+| | | * NONE  |  |
 | Host | String | The host name of the server to connect to. | No |
-| Logging Level | Enumeration:
-* 0
-* 1
-* 2
-* 3
-* 4
-* 5
-| The logging and trace level to use when applying the configuration. | No |
+| Logging Level | Enumeration: | The logging and trace level to use when applying the configuration. | No |
+| | | * 0  |  |
+| | | * 1  |  |
+| | | * 2  |  |
+| | | * 3  |  |
+| | | * 4  |  |
+| | | * 5  |  |
 | Only Update/Create Configuration Objects | Boolean | When selected, configuration objects that exist in WebSphere Application Server but are not present in the configuration file are not deleted when the configuration is applied. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
 | Port | String | The port to connect to. | No |
@@ -199,26 +183,23 @@ Apply the configuration for a given resource.
 
 Export the live cell configuration based on the same object types in the input configuration and compare them.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Attributes to Ignore | String | A newline separated list of attributes which will be ignored during the comparison. The format is WebSphere Object Type, Attribute Name, Json Role Property. For example, DataSource,providerType,websphere.datasource.providertype. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Component Process Request ID | String | The request ID which will be used to track the comparison REST call | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+| | | * SOAP  |  |
+| | | * RMI   |  |
+| | | * NONE  |  |
 | Host | String | The host name of the server to connect to. | No |
-| Logging Level | Enumeration:
-* 0
-* 1
-* 2
-* 3
-* 4
-* 5
-| The logging and trace level to use for configuration comparison. | No |
+| Logging Level | Enumeration: | The logging and trace level to use for configuration comparison. | No |
+| | | * 0  |  |
+| | | * 1  |  |
+| | | * 2  |  |
+| | | * 3  |  |
+| | | * 4  |  |
+| | | * 5  |  |
 | Password | Password | The password for connecting to the WebSphere node. | No |
 | Port | String | The port to connect to. | No |
 | Profile Path | String | The directory location of the WebSphere profile to use. For example: /opt/IBM/WebSphere/Profiles/DefaultDmgr01 | No |
@@ -232,31 +213,27 @@ Export the live cell configuration based on the same object types in the input c
 
 Discover all known configuration objects and create resources for each under a root resource, apply the correct role, and set the role properties.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Configuration Output File | String | The file that stores the discovered configuration data. | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+| | | * SOAP  |  |
+| | | * RMI   |  |
+| | | * NONE  |  |
 | Host | String | The host name of the server to connect to. | No |
-| Limit Discovery Scope | Enumeration:
-* None
-* Cell
-* Cell and Clusters
-* Node
-| By default, when discovery is run at a scope (Cell, Node, Server, or Cluster), discovery will get configuration data for all objects underneath that scope. For example, if discovery is run at the Cell scope, all Nodes, Clusters, and Servers will also be discovered. Use this field to limit the scope of discovery. For example, if this field is set to Cell, only the Cell configuration will be discovered (configuration data for Nodes, Clusters, and Servers will not be discovered). | No |
-| Logging Level | Enumeration:
-* 0
-* 1
-* 2
-* 3
-* 4
-* 5
-| Select the logging and trace level to use for configuration discovery. | No |
+| Limit Discovery Scope | Enumeration: | By default, when discovery is run at a scope (Cell, Node, Server, or Cluster), discovery will get configuration data for all objects underneath that scope. For example, if discovery is run at the Cell scope, all Nodes, Clusters, and Servers will also be discovered. Use this field to limit the scope of discovery. For example, if this field is set to Cell, only the Cell configuration will be discovered (configuration data for Nodes, Clusters, and Servers will not be discovered). | No |
+| | | * None               |  |
+| | | * Cell               |  |
+| | | * Cell and Clusters  |  |
+| | | * Node               |  |
+| Logging Level | Enumeration: | Select the logging and trace level to use for configuration discovery. | No |
+| | | * 0  |  |
+| | | * 1  |  |
+| | | * 2  |  |
+| | | * 3  |  |
+| | | * 4  |  |
+| | | * 5  |  |
 | Password | Password | The password for connecting to the WebSphere node. | No |
 | Port | String | The port to connect to. | No |
 | Profile Path | String | The directory location of the WebSphere profile to use. For example: /opt/IBM/WebSphere/Profiles/DefaultDmgr01 | No |
@@ -269,24 +246,21 @@ Discover all known configuration objects and create resources for each under a r
 
 Apply the configuration for a given resource.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+| | | * SOAP  |  |
+| | | * RMI   |  |
+| | | * NONE  |  |
 | Host | String | The host name of the server to connect to. | No |
-| Logging Level | Enumeration:
-* 0
-* 1
-* 2
-* 3
-* 4
-* 5
-| The logging and trace level to use when applying the configuration. | No |
+| Logging Level | Enumeration: | The logging and trace level to use when applying the configuration. | No |
+| | | * 0  |  |
+| | | * 1  |  |
+| | | * 2  |  |
+| | | * 3  |  |
+| | | * 4  |  |
+| | | * 5  |  |
 | Password | Password | The password for connecting to the WebSphere node. | No |
 | Port | String | The port to connect to. | No |
 | Profile Path | String | The directory location of the WebSphere profile to use. For example: /opt/IBM/WebSphere/Profiles/DefaultDmgr01 | No |
@@ -303,20 +277,18 @@ Remove the configuration for a given resource.
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+| | | * SOAP  |  |
+| | | * RMI   |  |
+| | | * NONE  |  |
 | Host | String | The host name of the server to connect to. | No |
-| Logging Level | Enumeration:
-* 0
-* 1
-* 2
-* 3
-* 4
-* 5
-| The logging and trace level to use when applying the configuration. | No |
+| Logging Level | Enumeration: | The logging and trace level to use when applying the configuration. | No |
+| | | * 0  |  |
+| | | * 1  |  |
+| | | * 2  |  |
+| | | * 3  |  |
+| | | * 4  |  |
+| | | * 5  |  |
 | Password | Password | The password for connecting to the WebSphere node. | No |
 | Port | String | The port to connect to. | No |
 | Profile Path | String | The directory location of the WebSphere profile to use. For example: /opt/IBM/WebSphere/Profiles/DefaultDmgr01 | No |
@@ -329,21 +301,17 @@ Remove the configuration for a given resource.
 
 This step will report on the result of the WebSphere Configuration Compare step. It will create output properties indicating the result the comparison and a link to the comparison process.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Component Process Request ID | String | The request ID which will be used to track the comparison REST call | No |
 | Fail When Differences Found | Boolean | If this box is checked, the step will have a status of Failure if differences are found. If the box is unchecked, it will have a status of Success whether differences are found or not. | No |
-| Logging Level | Enumeration:
-* 0
-* 1
-* 2
-* 3
-* 4
-* 5
-| The logging/trace level for the configuration compare | No |
-
-
+| Logging Level | Enumeration: | The logging/trace level for the configuration compare | No |
+| | | * 0  |  |
+| | | * 1  |  |
+| | | * 2  |  |
+| | | * 3  |  |
+| | | * 4  |  |
+| | | * 5  |  |
 
 |Back to ...||Latest Version|WebSphere Application Server - Configure ||||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
