@@ -5,6 +5,8 @@ Informatica
 Overview
 --------
 
+This is a community plugin.
+
 Informatica PowerCenter is an enterprise data integration platform.
 
 The Informatica plug-in for IBM UrbanCode Deploy is an automation plug-in that connects to specific repositories and directly accesses and merges data across remote systems in your organization.
@@ -21,7 +23,6 @@ The Informatica plug-in is an open source project that is maintained by the IBM 
 * See the [plug-in documentation](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Informatica/).
 * Ask Informatica plug-in specific questions on the [GitHub Issues](https://github.com/UrbanCode/Informatica-UCD/issues) page.
 * For general plug-in issues, submit questions to our [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins
-
 
 Available Steps
 ---------------

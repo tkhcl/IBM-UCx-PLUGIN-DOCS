@@ -77,13 +77,13 @@
 	- [IBM Installation Manager](#ibm-installation-manager)
 	- [IBM Integration Bus (IIB) plugin Deploy step for zOS](#ibm-integration-bus-iib-plugin-deploy-step-for-zos)
 	- [IBM Integration Bus (formerly WebSphere Message Broker) - CMP](#ibm-integration-bus-formerly-websphere-message-broker---cmp)
+	- [IBM MQ for z/OS - Generate MQSC Commands](#ibm-mq-for-zos---generate-mqsc-commands)
 	- [IBM MaaS360](#ibm-maas360)
 	- [IBM Maximo](#ibm-maximo)
 	- [IBM MobileFirst Platform (formerly Worklight)](#ibm-mobilefirst-platform-formerly-worklight)
 	- [IBM MobileFirst Platform Foundation on IBM Containers](#ibm-mobilefirst-platform-foundation-on-ibm-containers)
 	- [IBM Operational Decision Manager (ODM)](#ibm-operational-decision-manager-odm)
 	- [IBM Operational Decision Manager (ODM) Source Config](#ibm-operational-decision-manager-odm-source-config)
-	- [IBM MQ for z/OS - Generate MQSC Commands](#ibm-mq-for-zos---generate-mqsc-commands)
 	- [IBM Rational Asset Manager](#ibm-rational-asset-manager)
 	- [IBM Rational Asset Manager for IBM UrbanCode Deploy](#ibm-rational-asset-manager-for-ibm-urbancode-deploy)
 	- [IBM Rational Automation Framework for WebSphere](#ibm-rational-automation-framework-for-websphere)
@@ -226,7 +226,7 @@
 
 ## 7-Zip
 
-The 7-Zip plug-in is a community plug-in. Community plug-ins are open source projects that are developed and supported by the IBM UrbanCode development community. Click **Visit Project** at the top of the page to go to the project for further information. Downloads
+The 7-Zip plug-in is a community plug-in. Community plug-ins are open source projects that are developed and supported by the IBM UrbanCode development community.
 
 ---
 
@@ -1446,7 +1446,7 @@ The InfoSphere Information Services Director (ISD) plugin integrates with IBM In
 
 ## Informatica
 
-Overview Informatica PowerCenter is an enterprise data integration platform.
+Overview Informatica PowerCenter is an enterprise data integration platform. This is a community plugin.
 
 ---
 
@@ -2066,7 +2066,7 @@ Selenium is a testing tool which automates web applications.It can also be used 
 
 ## Send SMTP Email
 
-This plugin provides a mechanism to send SMTP emails in your deployment process.
+This community plugin provides a mechanism to send SMTP emails in your deployment process.
 
 ---
 
@@ -2267,6 +2267,8 @@ Plugin for installing agent to remote windows machine using WinRS.
 ## CyberArk
 
 CyberArk Application Identity Manager, part of the CyberArk Privileged Account Security Solution, enables organizations to protect critical business systems by eliminating hard-coded credentials from application scripts, configuration files and software code, and removing SSH keys from servers where they are used by applications and scripts. Application Identity Manager offers agent and agentless deployment options to best meet the security and availability requirements of various business applications. The product is built on the CyberArk Shared Technology Platform, delivering scalability, high availability and centralized management and reporting.
+
+This is a partner plugin.
 
 ---
 
