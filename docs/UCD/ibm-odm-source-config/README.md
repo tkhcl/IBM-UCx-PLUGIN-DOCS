@@ -2,6 +2,11 @@
 IBM Operational Decision Manager (ODM) Source Config
 ====================================================
 
+The IBM Operational Decision Manager (ODM) source configuration plug-in supports below authentication:
+
+* Basic Authentication using username and password
+* oAuth Authentication
+
 The IBM Operational Decision Manager (ODM) source configuration plug-in includes steps to complete the following tasks:
 
 * Import a ruleApp from a Classic Rule Project in IBM Decision Center as a component version *(Version 3 and prior)*
@@ -25,4 +30,4 @@ The following steps are an overview of the process to follow:
 
 |Back to ...||Latest Version|||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[12.1100650](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm-source-config/ibm-odm-source-config-12.1100650.zip)|[Overview](overview.md)|[Settings](settings.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1143099](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm-source-config/ucd-ibm-odm-source-config-13.1143099.zip)|[Overview](overview.md)|[Settings](settings.md)|[Usage](usage.md)|[Downloads](downloads.md)|

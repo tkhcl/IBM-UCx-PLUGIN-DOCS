@@ -332,7 +332,7 @@ IBM App Connect Enterprise (ACE) combines the technologies of IBM Integration Bu
 
 |Back to ...||App Connect Enterprise |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-ace/README.md)|[8.1139649](https://github.com/UrbanCode/IBM-UCD-PLUGINS/raw/main/files/ibm-ace/ucd-plugins-ibm-ace-8.1139649.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-ace/README.md)|[9.1143055](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-ace/ucd-plugins-ibm-ace-9.1143055.zip)|
 
 ## Apple Xcode  [community plugin]
 
@@ -992,7 +992,7 @@ Overview IBM® Operational Decision Manager (ODM) is a full-featured, easy-to-us
 
 |Back to ...||IBM Operational Decision Manager (ODM) |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-odm/README.md)|[13.1100941](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm/ibm-odm-13.1100941.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-odm/README.md)|[14.1143098](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm/ucd-ibm-odm-14.1143098.zip)|
 
 ## IBM Operational Decision Manager (ODM) Source Config
 
@@ -1002,7 +1002,7 @@ The IBM Operational Decision Manager (ODM) source configuration plug-in includes
 
 |Back to ...||IBM Operational Decision Manager (ODM) Source Config |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-odm-source-config/README.md)|[12.1100650](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm-source-config/ibm-odm-source-config-12.1100650.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-odm-source-config/README.md)|[13.1143099](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm-source-config/ucd-ibm-odm-source-config-13.1143099.zip)|
 
 ## IBM Rational Asset Manager
 
