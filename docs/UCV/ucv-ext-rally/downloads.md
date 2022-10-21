@@ -1,8 +1,6 @@
+# Rally - Downloads
 
-Rally - Downloads
-=================
-
-# Downloads
+## Downloads
 
 - [ucv-ext-rally-1.0.34.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rally/ucv-ext-rally-1.0.34.tar.zip)
 - [ucv-ext-rally-1.0.33.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rally/ucv-ext-rally-1.0.33.tar.zip)

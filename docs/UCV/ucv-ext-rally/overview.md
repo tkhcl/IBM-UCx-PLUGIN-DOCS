@@ -1,38 +1,25 @@
+# Rally - Overview
 
-Rally - Overview
-================
+## Overview
 
-# Overview
+The Rally plug-in provides for integration with a Rally server. This plug-in imports work items from a Rally server and saves them as UrbanCode Velocity issues. The plug-in uses the Rally REST API to import data from a Rally server.
 
+Data between the Rally server and the UrbanCode Velocity server is synchronized every five minutes.
 
-### Overview
-
-
-
-The Rally plug-in provides for integration with a Rally server. This plug-in imports work items from
-a Rally server and saves them as UrbanCode Velocity issues. The plug-in uses the Rally REST API to import data from a
-Rally server. Data between the Rally server and the UrbanCode Velocity server is synchronized every five minutes.
-
-
-Compatibility
--------------
+## Compatibility
 
 Must be running UrbanCode Velocity version 1.2.1 and later to use the plug-in.
 
-Versions
-
---------
+## Versions
 
 UrbanCode Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode
 DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-rally/tags).
 
-History
--------
+## History
 
 ### Version 1.0.34
 
-* User
-access key related changes.
+* User access key related changes.
 
 ### Version 1.0.17
 
@@ -40,8 +27,7 @@ access key related changes.
 
 ### Version 1.0.16
 
-* improve history
-data.
+* improve history data.
 
 ### Version 1.0.11
 
@@ -49,19 +35,16 @@ data.
 
 ### Version 0.0.3
 
-* Update to api-
-client 1.0.11 and user access key authentication.
+* Update to api-client 1.0.11 and user access key authentication.
 * Fix problem when history is empty.
 
 ### Version 0.0.2
 
-* Fix
-problem with Jenkins job failing.
+* Fix problem with Jenkins job failing.
 
 ### Version 0.0.1
 
 * Initial release
-
 
 |Back to ...||Latest Version|Rally |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
