@@ -34,6 +34,13 @@ Delete a XOM from a Rule Execution Server.
 | Port | String | The port number of the Rule Execution Server console. | Yes |
 | Resource | String | The resource to delete from the Rule Execution Server. Use the following format: xomName/xomVersion. | Yes |
 | User Name | String | The user name to use to log in to the Rule Execution Server console. | No |
+| Token URL | String | Token URL to authenticate the oAuth server. | No |
+| Scope | String | oAuth scope to authenticate the oAuth server. | No |
+| Grant Type | String | oAuth grantType to authenticate the oAuth server. | No |
+| oAuth User Name | String | The username for the oAuth server. | No |
+| oAuth Password | Password | The password for the oAuth server. | No |
+| Client ID | String | The Client ID for the oAuth server. | No |
+| Client Secret | String | The Cleint secret for the oAuth server. | No |
 
 ### Delete Rule Archive
 
@@ -48,6 +55,13 @@ Delete a ruleset or ruleapp archive from a Rule Execution Server.
 | Port | String | The port number of the Rule Execution Server console. | Yes |
 | Resource | String | The resource to delete from the Rule Execution Server. For a ruleset archive, use the following format: ruleAppName/ruleAppVersion/ruleSetName/ruleSetVersion. For a ruleapp archive, use the following format: ruleAppName/ruleAppVersion. | Yes |
 | User Name | String | The user name to use to log in to the Rule Execution Server console. | No |
+| Token URL | String | Token URL to authenticate the oAuth server. | No |
+| Scope | String | oAuth scope to authenticate the oAuth server. | No |
+| Grant Type | String | oAuth grantType to authenticate the oAuth server. | No |
+| oAuth User Name | String | The username for the oAuth server. | No |
+| oAuth Password | Password | The password for the oAuth server. | No |
+| Client ID | String | The Client ID for the oAuth server. | No |
+| Client Secret | String | The Cleint secret for the oAuth server. | No |
 
 ### Deploy Data Model
 
@@ -63,6 +77,13 @@ Deploy an XOM resource to a Rule Execution Server instance of IBM Operational De
 | Resource Name | String | The name for the resource in the Rule Execution Server. Typically, you specify the XOM file name. | Yes |
 | User Name | String | The user name to use to log in to the Rule Execution Server console. | No |
 | XOM File | String | The XOM resource (Java archive or .zip file) to deploy to the Rule Execution Server. | Yes |
+| Token URL | String | Token URL to authenticate the oAuth server. | No |
+| Scope | String | oAuth scope to authenticate the oAuth server. | No |
+| Grant Type | String | oAuth grantType to authenticate the oAuth server. | No |
+| oAuth User Name | String | The username for the oAuth server. | No |
+| oAuth Password | Password | The password for the oAuth server. | No |
+| Client ID | String | The Client ID for the oAuth server. | No |
+| Client Secret | String | The Cleint secret for the oAuth server. | No |
 
 ### Deploy Rule Archive
 
@@ -92,6 +113,13 @@ Deploy a RuleSet or RuleApp archive to IBM Operational Decision Manager.
 * MAJOR\_VERSION\_POLICY
 * MINOR\_VERSION\_POLICY
 | Select the version policy to use to process the RuleApp archive to automatically assign the version. The policy supersedes any explicitly set values. | No |
+| Token URL | String | Token URL to authenticate the oAuth server. | No |
+| Scope | String | oAuth scope to authenticate the oAuth server. | No |
+| Grant Type | String | oAuth grantType to authenticate the oAuth server. | No |
+| oAuth User Name | String | The username for the oAuth server. | No |
+| oAuth Password | Password | The password for the oAuth server. | No |
+| Client ID | String | The Client ID for the oAuth server. | No |
+| Client Secret | String | The Cleint secret for the oAuth server. | No |
 
 ### Fetch Rule Archive
 
@@ -105,6 +133,13 @@ Fetch a ruleset or ruleapp archive from a Rule Execution Server.
 | Port | String | The port number of the Rule Execution Server console. | Yes |
 | Resource | String | The resource to fetch from the Rule Execution Server. For a ruleset archive, use the following format: ruleAppName/ruleAppVersion/ruleSetName/ruleSetVersion. For a ruleapp archive, use the following format: ruleAppName/ruleAppVersion. If no version is specified, the highest will be fetched. | Yes |
 | User Name | String | The user name to use to log in to the Rule Execution Server console. | No |
+| Token URL | String | Token URL to authenticate the oAuth server. | No |
+| Scope | String | oAuth scope to authenticate the oAuth server. | No |
+| Grant Type | String | oAuth grantType to authenticate the oAuth server. | No |
+| oAuth User Name | String | The username for the oAuth server. | No |
+| oAuth Password | Password | The password for the oAuth server. | No |
+| Client ID | String | The Client ID for the oAuth server. | No |
+| Client Secret | String | The Cleint secret for the oAuth server. | No |
 
 ### Fetch XOM
 
@@ -118,6 +153,13 @@ Fetch a XOM resource from a Rule Execution Server.
 | Port | String | The port number of the Rule Execution Server console. | Yes |
 | Resource | String | The resource to fetch from the Rule Execution Server. Use the following format: xomName/xomVersion. If no version is specified, the highest will be fetched. | Yes |
 | User Name | String | The user name to use to log in to the Rule Execution Server console. | No |
+| Token URL | String | Token URL to authenticate the oAuth server. | No |
+| Scope | String | oAuth scope to authenticate the oAuth server. | No |
+| Grant Type | String | oAuth grantType to authenticate the oAuth server. | No |
+| oAuth User Name | String | The username for the oAuth server. | No |
+| oAuth Password | Password | The password for the oAuth server. | No |
+| Client ID | String | The Client ID for the oAuth server. | No |
+| Client Secret | String | The Cleint secret for the oAuth server. | No |
 
 ### Set Property
 
@@ -135,6 +177,13 @@ Create or update a property value for a RuleApp or RuleSet on a Rule Execution S
 | Property Value | String | The new property value. | No |
 | Resource | String | The resource path for the property to be updated. For a ruleApp, use the format: ruleAppName/ruleAppVersion.For a ruleSet, use the format: ruleAppName/ruleAppVersion/ruleSetName/ruleSetVersion | Yes |
 | User Name | String | The user name to use to log in to the Rule Execution Server console. | No |
+| Token URL | String | Token URL to authenticate the oAuth server. | No |
+| Scope | String | oAuth scope to authenticate the oAuth server. | No |
+| Grant Type | String | oAuth grantType to authenticate the oAuth server. | No |
+| oAuth User Name | String | The username for the oAuth server. | No |
+| oAuth Password | Password | The password for the oAuth server. | No |
+| Client ID | String | The Client ID for the oAuth server. | No |
+| Client Secret | String | The Cleint secret for the oAuth server. | No |
 
 
 
