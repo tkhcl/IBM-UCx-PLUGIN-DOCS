@@ -28,6 +28,14 @@ No special steps are required for installation. See [Installing plug-ins in IBM 
 
 ### History
 
+#### Version 14
+
+* RFE - URBANCODE-I-395 - Implement oAuth .
+
+#### Version 13
+
+* RFE 123201 - Added support to run test suites using a decision service name.
+
 #### Version 12
 
 * Version 12 of the plug-in uses apiauth in the REST path rather than api.
@@ -74,4 +82,4 @@ Version 11 of the plug-in includes updates from RFE 104196:
 
 |Back to ...||Latest Version|IBM Operational Decision Manager (ODM) ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1100941](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm/ibm-odm-13.1100941.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[14.1143098](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm/ucd-ibm-odm-14.1143098.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

@@ -4,6 +4,7 @@ IBM Operational Decision Manager (ODM) - Downloads
 
 # Downloads
 
+- [ucd-ibm-odm-14.1143098.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm/ucd-ibm-odm-14.1143098.zip)
 - [ibm-odm-13.1100941.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm/ibm-odm-13.1100941.zip)
 - [ibm-odm-12.930618.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm/ibm-odm-12.930618.zip)
 - [ibm-odm-11.924996.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm/ibm-odm-11.924996.zip)
@@ -19,4 +20,4 @@ IBM Operational Decision Manager (ODM) - Downloads
 
 |Back to ...||Latest Version|IBM Operational Decision Manager (ODM) ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1100941](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm/ibm-odm-13.1100941.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[14.1143098](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm/ucd-ibm-odm-14.1143098.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|
