@@ -1002,7 +1002,7 @@ The IBM Operational Decision Manager (ODM) source configuration plug-in includes
 
 |Back to ...||IBM Operational Decision Manager (ODM) Source Config |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-odm-source-config/README.md)|[12.1100650](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm-source-config/ibm-odm-source-config-12.1100650.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-odm-source-config/README.md)|[13.1143099](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm-source-config/ucd-ibm-odm-source-config-13.1143099.zip)|
 
 ## IBM Rational Asset Manager
 

@@ -10,7 +10,7 @@ IBM Operational Decision Manager (ODM) Source Config - Overview
 
 
 
-The IBM Operational Decision Manager source configuration plug-in supports creating component versions from Decision Center RuleApps.
+The IBM Operational Decision Manager source configuration plug-in supports creating component versions from Decision Center RuleApps. It supports two types of authentication Basic Authentication and oAuth Authentication .
 
 ### Compatibility
 
@@ -37,6 +37,10 @@ ODM version 8.9.1 introduces a REST API which is used by version 10 of this plug
 * wbemodel.jar
 
 ### History
+
+#### Version 13
+
+RFE - URBANCODE-I-395 - Implement oAuth .
 
 #### Version 10
 
@@ -79,4 +83,4 @@ Initial release of the plug-in.
 
 |Back to ...||Latest Version|IBM Operational Decision Manager (ODM) Source Config ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[12.1100650](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm-source-config/ibm-odm-source-config-12.1100650.zip)|[Readme](README.md)|[Settings](settings.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1143099](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm-source-config/ucd-ibm-odm-source-config-13.1143099.zip)|[Readme](README.md)|[Settings](settings.md)|[Usage](usage.md)|[Downloads](downloads.md)|
