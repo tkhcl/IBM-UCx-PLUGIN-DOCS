@@ -60,7 +60,7 @@ Azure DevOps (formerly Microsoft Team Foundation Server (TFS) or Microsoft TFS)p
 
 ## BitBucket Server
 
-Bitbucket is a source code version control repository hosting service owned by Atlassian. It contains tools to manage  source code for a project.
+BitBucket is a source code version control repository hosting service owned by Atlassian. It contains tools to manage source code for a project.
 
 ---
 
