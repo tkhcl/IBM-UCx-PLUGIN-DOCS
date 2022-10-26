@@ -28,6 +28,26 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 35
+
+* On upgrade to v34 , cli version was not picking up correctly that has been fixed in v35.
+
+#### Version 34
+
+* Add property  -  nowait, strategy, endpoint to Step - Push Application.
+
+#### Version 33
+
+* Add default version property reference to process's resource path.
+
+#### Version 32
+
+* RFE 148034 - Add support for cli 7 - required upgrade in steps - push app, create route.
+
+#### Version 31
+
+*  Updated 'application' property default values to check for both component/cf.appName and resource/cf.app.
+
 #### Version 30
 
 * Fixed APAR PH05332 Cloud Foundry Plugin v23 or v27 Create or Update Service step is failing. Refactored the way of fetching them from cli only.
