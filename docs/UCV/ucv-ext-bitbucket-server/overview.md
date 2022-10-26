@@ -24,8 +24,8 @@ History
 
 ### Version 1.1.23
 
-* **Removed Manual User Access Key:** From current version onwards this plugin will only support "Auto Generated User Access Key" feature of UrbanCode Velocity.
-* **Added Category:** SCM is the category of bitbucket server plugin.
+* **Removed Manual User Access Key:** From current version onwards, this plug-in will only support "Auto Generated User Access Key" feature of UrbanCode Velocity.
+* **Added Category:** SCM is the category of BitBucket server plug-in.
     
 ### Version 1.1.22
 
