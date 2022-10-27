@@ -55,8 +55,8 @@ The following tables describe the properties used to configure the integration. 
 | NA | The version of the plug-in that you want to use. To view available versions, see the [UrbanCodeDockerHub](https://hub.docker.com/r/urbancode/ucv-ext-bitbucket-server/tags). If a value is not specified, the latest version is used. | No | image |
 | Integration Name | An assigned name to the value stream. | Yes | name |
 | Logging Level | The level of Log4j messages to display in the log file. Valid values are: all, debug, info, warn, error, fatal, off, and trace. | No | loggingLevel |
-| | List of configuration properties used to connect and communicate with the BitBucket server. Enclose the properties within braces. | Yes | properties |
-| NA  | The name of the tenant. | Yes | tenant\_id |
+| NA | List of configuration properties used to connect and communicate with the BitBucket server. Enclose the properties within braces. | Yes | properties |
+| NA | The name of the tenant. | Yes | tenant\_id |
 | NA | Unique identifier assigned to the plug-in. The value for the BitBucket Server plug-in is `ucv-ext-bitbucket-server` | Yes | type |
 
 ### Bitbucket properties
