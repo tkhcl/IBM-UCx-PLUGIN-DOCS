@@ -56,7 +56,7 @@ The following tables describe the properties used to configure the integration. 
 | Integration Name | An assigned name to the value stream. | Yes | name |
 | Logging Level | The level of Log4j messages to display in the log file. Valid values are: all, debug, info, warn, error, fatal, off, and trace. | No | loggingLevel |
 | NA | List of configuration properties used to connect and communicate with the BitBucket server. Enclose the properties within braces. | Yes | properties |
-|   | The name of the tenant. | Yes | tenant\_id |
+| NA | The name of the tenant. | Yes | tenant\_id |
 | NA | Unique identifier assigned to the plug-in. The value for the BitBucket Server plug-in is `ucv-ext-bitbucket-server` | Yes | type |
 
 ### Bitbucket properties
