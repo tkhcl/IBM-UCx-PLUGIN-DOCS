@@ -22,6 +22,16 @@ DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-bitbucket-server/tags).
 History
 -------
 
+### Version 1.1.24
+
+* **Initial Sync Date Field Added:** Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync.
+* **Fix Resync Functionality:** The previous version of plugin had some bug in resync functionality.
+* **Infinite Loop Bug Fix:** The previous version of the plugin had some bug that was making plugin events run in an infinite loop.
+* **API Rate Limiting Implemented:** Plugin has been enhanced to better handle API rate limiting.
+* **Additional Logs Added:** Additional debug, trace and warn logs are added to the plugin.
+* **Error Handling:** No default branch is defined - error is shown in warning logs if there is no default branch for a repository.
+* **Performance Improvement:** Plugin functionality is improved, previous version of the plugin was making more rest API calls to the BitBucket Server.
+
 ### Version 1.1.23
 
 * **Removed Manual User Access Key:** From current version onwards, this plug-in will only support "Auto Generated User Access Key" feature of UrbanCode Velocity.
@@ -74,4 +84,4 @@ build target on Jenkinsfile.
 
 |Back to ...||Latest Version|BitBucket Server |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.23](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-bitbucket-server/ucv-ext-bitbucket-server:1.1.23.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.24](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-bitbucket-server/ucv-ext-bitbucket-server:1.1.24.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

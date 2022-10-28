@@ -3,6 +3,7 @@ BitBucket Server - Downloads
 ============================
 
 # Downloads
+- [ucv-ext-bitbucket-server-1.1.24.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-server/ucv-ext-bitbucket-server:1.1.24.tar.7z.001)
 - [ucv-ext-bitbucket-server-1.1.23.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-server/ucv-ext-bitbucket-server:1.1.23.tar.7z.001)
 - [ucv-ext-bitbucket-server-1.1.22.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-server/ucv-ext-bitbucket-server:1.1.22.tar.7z.001)
 - [ucv-ext-bitbucket-server-1.1.16.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-server/ucv-ext-bitbucket-server-1.1.16.tar.zip)
@@ -14,4 +15,4 @@ BitBucket Server - Downloads
 
 |Back to ...||Latest Version|BitBucket Server |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.23](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-server/ucv-ext-bitbucket-server:1.1.23.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.24](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-server/ucv-ext-bitbucket-server:1.1.24.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|
