@@ -12,6 +12,8 @@ IBM Operational Decision Manager (ODM) - Overview
 
 IBM Operational Decision Manager provides a development environment and a dedicated user interface for automating and governing frequently occurring, repeatable business decisions. The Operational Decision Manager plug-in includes steps to deploy data models and rule sets to the Rule Execution Server.
 
+It supports two types of authentication Basic Authentication and oAuth Authentication .
+
 To add the Operational Decision Manager plug-in steps to processes, click **Application Server > Java > ODM** in the step palette of the process editor.
 
 ### Compatibility

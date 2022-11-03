@@ -7,6 +7,8 @@ Overview
 
 IBM® Operational Decision Manager (ODM) is a full-featured, easy-to-use platform for capturing, automating, and governing frequent, repeatable business decisions. It consists of two components, IBM Decision Center and IBM Decision Server. They form the platform for managing and executing business rules and business events to help you make decisions faster, improve responsiveness, minimize risks, and seize opportunities.
 
+It supports two types of authentication Basic Authentication and oAuth Authentication .
+
 This plug-in includes steps to work with rules and versions in IBM Operational Decision Manager.
 
 Installation

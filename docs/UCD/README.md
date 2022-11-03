@@ -24,6 +24,7 @@
 	- [Aspera](#aspera)
 	- [Autosys](#autosys)
 	- [Avnet Talos](#avnet-talos)
+	- [Azure DevOps Sourceconfig](#azure-devops-source-config)
 	- [BMC Remedy Action Request System](#bmc-remedy-action-request-system)
 	- [Box](#box)
 	- [CA SCM (formerly Harvest)](#ca-scm-formerly-harvest)
@@ -332,7 +333,8 @@ IBM App Connect Enterprise (ACE) combines the technologies of IBM Integration Bu
 
 |Back to ...||App Connect Enterprise |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-ace/README.md)|[9.1143055](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-ace/ucd-plugins-ibm-ace-9.1143055.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-ace/README.md)|[10.1143319](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-ace/ucd-plugins-ibm-ace-10.1143319.zip)|
+
 
 ## Apple Xcode  [community plugin]
 
@@ -403,6 +405,16 @@ Talos is a middleware configuration automation tool that integrates with a varie
 |Back to ...||Avnet Talos |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](avnet-talos/README.md)|[0]()|
+
+## Azure DevOps Sourceconfig
+
+The Microsoft Azure DevOps source configuration plugin automates importing version artifacts from a Azure DevOps server.
+
+---
+
+|Back to ...||Azure DevOps Sourceconfig |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](AzureDevopsSourceconfig/README.md)|[1.1112501](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/AzureDevopsSourceconfig/plugins-sourceconfig-azure-1.1112501.zip)|
 
 ## BMC Remedy Action Request System
 

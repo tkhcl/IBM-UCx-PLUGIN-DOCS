@@ -60,13 +60,13 @@ Azure DevOps (formerly Microsoft Team Foundation Server (TFS) or Microsoft TFS)p
 
 ## BitBucket Server
 
-Bitbucket is a source code version control repository hosting service owned by Atlassian. It contains tools to manage  source code for a project.
+BitBucket is a source code version control repository hosting service owned by Atlassian. It contains tools to manage source code for a project.
 
 ---
 
 |Back to ...||BitBucket Server |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-bitbucket-server/README.md)|[1.1.16](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-server/ucv-ext-bitbucket-server-1.1.16.tar.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-bitbucket-server/README.md)|[1.1.24](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-server/ucv-ext-bitbucket-server:1.1.24.tar.7z.001)|
 
 ## Black Duck
 
