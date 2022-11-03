@@ -25,6 +25,11 @@ View the [GitHub projects wiki page](https://github.com/ibm-datapower/datapower-
 
 ### History
 
+#### Version 24
+
+* Fixed PR [#109](https://github.com/ibm-datapower/datapower-configuration-manager/issues/109)
+  * Steps fail with null pointer exception!
+
 #### Version 23
 
 * Fixes APAR PH26875 – Removing spaces around the plugin property values.
@@ -107,4 +112,4 @@ Initial release of the standard version of the plug-in.
 
 |Back to ...||Latest Version|IBM DataPower Configuration Manager ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[datapower-v23.eb38543](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/datapower/datapower-v23.eb38543.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[[v24.4cfd2d7](https://github.com/ibm-datapower/datapower-configuration-manager/releases/download/24/datapower-v24.4cfd2d7.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
