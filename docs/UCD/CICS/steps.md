@@ -345,7 +345,7 @@ You can view a steps output properties in the **Log** tab of the **Process Reque
 Image showing the location output properties in the Process Request window
 The following is a sample of the cics.response.errors output when NEWCOPY fails with a NODATA error:
 
-```
+```CICS
 
 [{"action":"NEWCOPY","attribute":"","errorCode":"","reasonName":"","resourceName":"NOTEXIST","resourceType":"PROGRAM","resp1Name":"","resp2":"","responseName":"NODATA"}``]
 
@@ -361,44 +361,53 @@ The **New copy resources** step instructs CICS to reload the resource the next t
 
 The following script analyses the cics.response.errors output property and providing the only errors are NODATA, will change the step to be successful:
 
-```
+```js
 var exit = properties.get('exitCode');
 commandOut.println("Running the post-processing script.");
 if (exit == 0) {
-commandOut.println("The main step passed.");
-properties.put('Status', 'Success');
-}``
+  commandOut.println("The main step passed.");
+  properties.put('Status', 'Success');
+}
+``
 else {
-commandOut.println("The main step failed. Analysing its errors...");
-var responseErrors = JSON.parse(properties.get("cics.response.errors"));
-if (responseErrors) {
-if (responseErrors.length > 0) {
-for(var i = 0; i < responseErrors.length; i++){
-commandOut.println("Analysing result with response name '" + responseErrors[i].responseName + "'.");
-if (responseErrors[i].responseName != "NODATA") {
-commandOut.println("Breaking early.");
-break;
-}``
-}``
-if (responseErrors.length > 0 && i == responseErrors.length) {
-commandOut.println("All errors were NODATA. The step will succeed.");
-properties.put("Status", "Success");
-}``
-else {
-commandOut.println("Not all errors were NODATA. The step will be failed.");
-properties.put("Status", "Failure");
-}``
-}``
-else {
-commandOut.println("No error records found. The step will be failed.");
-properties.put("Status", "Failure");
-}``
-}``
-else {
-commandOut.println("No CICS response errors found!")
-}``
-}``
-
+  commandOut.println("The main step failed. Analysing its errors...");
+  var responseErrors = JSON.parse(properties.get("cics.response.errors"));
+  if (responseErrors) {
+    if (responseErrors.length > 0) {
+      for (var i = 0; i < responseErrors.length; i++) {
+        commandOut.println("Analysing result with response name '" + responseErrors[i].responseName + "'.");
+        if (responseErrors[i].responseName != "NODATA") {
+          commandOut.println("Breaking early.");
+          break;
+        }
+        ``
+      }
+      ``
+      if (responseErrors.length > 0 && i == responseErrors.length) {
+        commandOut.println("All errors were NODATA. The step will succeed.");
+        properties.put("Status", "Success");
+      }
+      ``
+      else {
+        commandOut.println("Not all errors were NODATA. The step will be failed.");
+        properties.put("Status", "Failure");
+      }
+      ``
+    }
+    ``
+    else {
+      commandOut.println("No error records found. The step will be failed.");
+      properties.put("Status", "Failure");
+    }
+    ``
+  }
+  ``
+  else {
+    commandOut.println("No CICS response errors found!")
+  }
+  ``
+}
+``
 ```
 
 ### Defining and deleting resource definitions
@@ -445,60 +454,60 @@ For an example of how to set up a CICS installation as an UrbanCode Deploy resou
 
 -For files in zFS, use a hierarchical file path such as
 
-```
+```sh
 /u/myuser/keystore.jks
 
 ```
 
 or
 
-```
+```sh
 file:///u/myuser/keystore.jks
 
 ```
 
 -For keys contained in RACF keyrings that are stored in software, use a URL in the format
 
-```
+```sh
 safkeyring:///<keyring name>
 
 ```
 
 -For keys contained in RACF keyrings that are stored in hardware with ICSF, use
 
-```
+```sh
 safkeyringhw:///<keyring name>
 
 ```
 
 -For files in zFS, use a hierarchical file path such as
 
-```
+```sh
 /u/myuser/truststore.jks
 
 ```
 
 or
 
-```
+```sh
 file:///u/myuser/truststore.jks
 
 ```
 
 -For certificates contained in RACF keyrings that are stored in software, use a URL in the format
 
-```
+```sh
 safkeyring:///<keyring name>
 
 ```
 
 -For certificates contained in RACF keyrings that are stored in hardware with ICSF, use
 
-```
+```sh
 safkeyringhw:///<keyring name>
 
 ```
 
 |          Back to ...          |                                |                                                      Latest Version                                                       |       CICS TS       ||||||
 |:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [44.20220614.1106](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-44.20220614-1106.zip) | [Readme](README.md) |[Overview](overview.md)|[Usage](usage.md)|[Component Templates](component templates.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [44.20220614.1106](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-44.20220614-1106.zip) | [Readme](README.md) |[Overview](overview.md)|[Usage](usage.md)|[Component Templates](component_templates.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

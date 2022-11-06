@@ -6,13 +6,15 @@ For more questions and answers, see the [UrbanCode forum](https://community.ibm.
 
 ### Troubleshooting sections
 
-* [FAQ](#faq)
-* [Using the step logs](#using-the-step-logs)
-* [Resources which operate asynchronously](#resources-which-operate-asynchronously)
-* [Checking the status of a resource that was installed in the previous step](#checking-the-status-of-a-resource-that-was-installed-in-the-previous-step)
-* [Collecting data for plug-in problems](#collecting-data-for-plug-in-problems)
-* [Resolving Unsupported CICS release message](#resolving-unsupported-cics-release-message)
-* [Error loading plugin](#error-loading-plugin)
+- [CICS TS - Troubleshooting](#cics-ts---troubleshooting)
+    - [Troubleshooting sections](#troubleshooting-sections)
+    - [FAQ](#faq)
+    - [Using the step logs](#using-the-step-logs)
+    - [Resources which operate asynchronously](#resources-which-operate-asynchronously)
+    - [Checking the status of a resource that was installed in the previous step](#checking-the-status-of-a-resource-that-was-installed-in-the-previous-step)
+    - [Collecting data for plug-in problems](#collecting-data-for-plug-in-problems)
+    - [Resolving Unsupported CICS release message](#resolving-unsupported-cics-release-message)
+    - [Error loading plugin](#error-loading-plugin)
 
 ### FAQ
 
@@ -101,4 +103,4 @@ Add the parameter: com.urbancode.air.property.prop\_def.PropDef.disableAllowedVa
 
 |          Back to ...          |                                |                                                      Latest Version                                                       |       CICS TS       ||||||
 |:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [44.20220614.1106](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-44.20220614-1106.zip) | [Readme](README.md) |[Overview](overview.md)|[Usage](usage.md)|[Component Templates](component templates.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [44.20220614.1106](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-44.20220614-1106.zip) | [Readme](README.md) |[Overview](overview.md)|[Usage](usage.md)|[Component Templates](component_templates.md)|[Steps](steps.md)|[Downloads](downloads.md)|
