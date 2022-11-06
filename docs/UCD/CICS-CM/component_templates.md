@@ -1,14 +1,8 @@
 
-CICS CM (Beta) - Component Templates
-====================================
-
-# Component Templates
+# CICS CM (Beta) - Component Templates
 
 
-### Component Templates
-
-
-
+## Component Templates
 
 * [Overview](#overview)
 * [Using a component template](#using)
@@ -37,11 +31,7 @@ You can bind your component to a specific version of the template to avoid autom
 
 For more information about creating, using, and editing component templates, see the [Component Templates](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=components-component-templates "Component Templates") section of the UrbanCode Deploy documentation or watch the introductory video, [Component Templates in IBM UrbanCode Deploy v6.0](https://www.youtube.com/watch?v=5qPBIayu-0E "Component Templates in IBM UrbanCode Deploy v6.0").
 
-
 ### CICS CM template
-
-
-
 
 The *CICS CM template* contains the following processes:
 
@@ -68,14 +58,13 @@ The dynamic migration and install steps are:
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-**Dynamic Migration** process diagram. [![DynamicMigrationProcess](dynamicmigrationprocess.png)](dynamicmigrationprocess.png)
+**Dynamic Migration** process diagram. [![DynamicMigrationProcess](media/dynamicmigrationprocess.png)](media/dynamicmigrationprocess.png)
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-**Dynamic Migration and Install (CSD)** process diagram. [![DynamicMigrationAndInstall(CSD)Process](dynamicmigrationandinstallcsdprocess.png)](dynamicmigrationandinstallcsdprocess.png)
+**Dynamic Migration and Install (CSD)** process diagram. [![DynamicMigrationAndInstall(CSD)Process](media/dynamicmigrationandinstallcsdprocess.png)](media/dynamicmigrationandinstallcsdprocess.png)
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
 
 |Back to ...||Latest Version|CICS CM (Beta) |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |

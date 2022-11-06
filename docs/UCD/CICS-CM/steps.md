@@ -1,14 +1,7 @@
 
-CICS CM (Beta) - Steps
-======================
+# CICS CM (Beta) - Steps
 
-# Steps
-
-
-### Steps
-
-
-
+## Steps
 
 ### Process steps in the CICS CM plug-in
 
@@ -19,11 +12,9 @@ CICS CM (Beta) - Steps
 * [Query change package](#query_change_package)
 * [Ready change package](#ready_change_package)
 
-
 ### Backout change package
 
 Backout a change package to reverse a migration event.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -33,7 +24,6 @@ Backout a change package to reverse a migration event.
 ### Create migration scheme
 
 Dynamically create a migration scheme with a single migration path.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -45,7 +35,6 @@ Dynamically create a migration scheme with a single migration path.
 ### Install change package (CSD)
 
 Install the resource definitions in a change package from a CSD configuration.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -144,4 +133,4 @@ Query a change package for names, groups, and types of resource definitions with
 
 |Back to ...||Latest Version|CICS CM (Beta) |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS-CM/UCD_CM_Plugin.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Component Templates](component templates.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS-CM/UCD_CM_Plugin.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Component Templates](component_templates.md)|[Downloads](downloads.md)|

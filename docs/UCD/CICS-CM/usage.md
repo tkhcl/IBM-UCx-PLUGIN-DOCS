@@ -30,11 +30,11 @@ In the following example, the component that is going to be deployed is called *
 
 You need to have an existing version or create a version in the component that you want to use for the change package. Each version includes the change package name and the source configuration name.
 
-The following screen capture shows the defined version properties. [![version](version.png)](version.png)
+The following screen capture shows the defined version properties. [![version](media/version.png)](version.png)
 
 In Environments, select which environment you want to target. In this example, we have DEVELOPMENT, TEST, and PRODUCTIONenvironments defined.
 
-[![environments](environments.png)](environments.png)
+[![environments](media/environments.png)](environments.png)
 
 Expand the environment that you want to target and click **Add Base Resources** to see the resource tree.
 
@@ -42,7 +42,7 @@ From the resource tree, select one or more target configurations to add to the e
 
 In the following screen capture, the Core Banking component will be deployed to the CTS41CSD and CTS42CSD configurations. The change package will be dynamically migrated to these two CSDs.
 
-[![CMResourceTree](cmresourcetree.png)](cmresourcetree.png)
+[![CMResourceTree](media/cmresourcetree.png)](media/cmresourcetree.png)
 
 The component consists of different processes. In the Core Banking example, we are using the *Dynamic Migration*process.
 
@@ -50,14 +50,14 @@ You can create your own processes or you can use the CICS CM component template,
 
 Under CICS CM, in the Design Step Palette, drag and drop the relevant steps for your migration process. For each step, an *Edit Properties* window opens, which shows the data the step needs to run. The fields contain variables because the information is inherited from different locations. For example, inherited from the selected version and target configuration.
 
-The following screen captures show the dynamic migration steps and the properties for the **Create migration scheme** step. [![Dynamic_Migration_Process(Bigger image)](dynamic_migration_processbigger-image.png)](dynamic_migration_processbigger-image.png) [![Create_Migration_Scheme_Properties](create_migration_scheme_properties.png)](create_migration_scheme_properties.png)
+The following screen captures show the dynamic migration steps and the properties for the **Create migration scheme** step. [![Dynamic_Migration_Process(Bigger image)](media/dynamic_migration_processbigger-image.png)](dynamic_migration_processbigger-image.png) [![Create_Migration_Scheme_Properties](media/create_migration_scheme_properties.png)](create_migration_scheme_properties.png)
 
 
 ### Install component step
 
 The **Install Component** step is a **Process** within an **Application**. You can choose which process within the component that you want to install or deploy to your target environment. In this example, the **Dynamic Migration Process** is selected for the Core Banking component.
 
-The following screen captures show the install component step and properties for Core Banking. When you include an install step in your deployment process, set the Max # of concurrent jobs to 1 because it is a sequential process. [![InstallComponent](installcomponent.png)](installcomponent.png)![InstallComponentProperties](installcomponentproperties.png)
+The following screen captures show the install component step and properties for Core Banking. When you include an install step in your deployment process, set the Max # of concurrent jobs to 1 because it is a sequential process. [![InstallComponent](media/installcomponent.png)](installcomponent.png)![InstallComponentProperties](media/installcomponentproperties.png)
 
 ### Deploy the component
 
@@ -134,4 +134,4 @@ By default, the Transformation Rule property is blank. If you want to use a Tran
 
 |Back to ...||Latest Version|CICS CM (Beta) |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS-CM/UCD_CM_Plugin.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Component Templates](component templates.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS-CM/UCD_CM_Plugin.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Component Templates](component_templates.md)|[Downloads](downloads.md)|

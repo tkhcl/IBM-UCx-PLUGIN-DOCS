@@ -16,7 +16,7 @@ To feedback to us about the CICS CM Beta plug-in, or if you have any questions, 
 Compatibility
 -------------
 
-Platform Support:
+Platform Support
 -----------------
 
 Before you download the CICS CM Beta plug-in for UrbanCode Deploy, ensure that you are using the following levels of software:
@@ -34,4 +34,4 @@ The CICS CM Beta plug-in can be installed by following the steps outlined in [In
 
 |Back to ...||Latest Version||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS-CM/UCD_CM_Plugin.zip)|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|[Component Templates](component templates.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS-CM/UCD_CM_Plugin.zip)|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|[Component Templates](component_templates.md)|[Downloads](downloads.md)|
