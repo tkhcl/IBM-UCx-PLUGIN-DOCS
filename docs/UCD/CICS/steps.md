@@ -2,53 +2,59 @@
 
 ---
 
-### Process steps in the CICS TS plug-in
+## Process steps in the CICS TS plug-in
 
-* [Check available status of resources](#check-available-status-of-resources)
-* [Check enable status of resources](#check-enable-status-of-resources)
-* [Check open status of resources](#check-open-status-of-resources)
-* [Check status of an application](#check-status-of-an-application)
-* [Close resources](#close-resources)
-* [Deploy application](#deploy-application)
-* [Deploy bundle](#deploy-bundle)
-* [Disable application](#disable-application)
-* [Disable resources](#disable-resources)
-* [Discard resources](#discard-resources)
-* [Enable application](#enable-application)
-* [Enable resources](#enable-resources)
-* [Install BAS resource descriptions](#install-bas-resource-descriptions)
-* [Install BAS resource groups](#install-bas-resource-groups)
-* [Install BAS resources](#install-bas-resources)
-* [Install CSD groups or lists](#install-csd-groups-or-lists)
-* [Install CSD resources](#install-csd-resources)
-* [Make application available](#make-application-available)
-* [Make application unavailable](#make-application-unavailable)
-* [Make resources available](#make-resources-available)
-* [Make resources unavailable](#make-resources-unavailable)
-* [New copy resources](#new-copy-resources)
-* [Open resources](#open-resources)
-* [Phase in resources](#phase-in-resources)
-* [Scan pipelines](#scan-pipelines)
-* [Undeploy application](#undeploy-application)
-* [Undeploy bundles](#undeploy-bundles)
-
+- [CICS TS - Steps](#cics-ts---steps)
+  - [Process steps in the CICS TS plug-in](#process-steps-in-the-cics-ts-plug-in)
+    - [Check available status of resources](#check-available-status-of-resources)
+    - [Check enable status of resources](#check-enable-status-of-resources)
+    - [Check open status of resources](#check-open-status-of-resources)
+    - [Check status of an application](#check-status-of-an-application)
+    - [Close resources](#close-resources)
+    - [Deploy application](#deploy-application)
+    - [Deploy bundle](#deploy-bundle)
+    - [Disable application](#disable-application)
+    - [Disable resources](#disable-resources)
+    - [Discard resources](#discard-resources)
+    - [Enable application](#enable-application)
+    - [Enable resources](#enable-resources)
+    - [Install BAS resource descriptions](#install-bas-resource-descriptions)
+    - [Install BAS resource groups](#install-bas-resource-groups)
+    - [Install BAS resources](#install-bas-resources)
+    - [Install CSD groups or lists](#install-csd-groups-or-lists)
+    - [Install CSD resources](#install-csd-resources)
+    - [Make application available](#make-application-available)
+    - [Make application unavailable](#make-application-unavailable)
+    - [Make resources available](#make-resources-available)
+    - [Make resources unavailable](#make-resources-unavailable)
+    - [New copy resources](#new-copy-resources)
+    - [Open resources](#open-resources)
+    - [Phase in resources](#phase-in-resources)
+    - [Scan pipelines](#scan-pipelines)
+    - [Undeploy application](#undeploy-application)
+    - [Undeploy bundles](#undeploy-bundles)
+    - [Output properties](#output-properties)
+    - [Overview of output properties](#overview-of-output-properties)
+    - [The cics.response.errors output property](#the-cicsresponseerrors-output-property)
+    - [How to view output properties](#how-to-view-output-properties)
+    - [Use cics.response.errors in a post-processing script](#use-cicsresponseerrors-in-a-post-processing-script)
+    - [Defining and deleting resource definitions](#defining-and-deleting-resource-definitions)
+    - [Default input properties](#default-input-properties)
 
 ### Check available status of resources
 
 Check if installed resources are available or unavailable. Requires CICS TS V5.2 or later.
 
-
-| Name               | Type                               | Description                                                                                                                                                          | Required |
-|--------------------|------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| Expected Status    | Enumeration:AVAILABLE, UNAVAILABLE | The expected status.                                                                                                                                                 | Yes      |
-| Resource Name List | String                             | A comma-separated list of resource names.                                                                                                                            | Yes      |
-| Resource Type      | Enumeration:BUNDLE                 | The type of resource to check.                                                                                                                                       | Yes      |
+| Name               | Type                               | Description                                                | Required |
+|--------------------|------------------------------------|--------------------------------------------------------------------------------------------------------|----------|
+| Expected Status    | Enumeration:AVAILABLE, UNAVAILABLE | The expecteds tatus.  | Yes      |
+| Resource Name List | String                             | A comma-separated list of resource names.  | Yes      |
+| Resource Type      | Enumeration:BUNDLE                 | The type of resource to check.             | Yes      |
 | Timeout (s)        | String                             | The number of seconds to make retry attempts before a timeout occurs. The valid range is 0-1800, where 0 means no retry attempts are made. The default is 15 seconds | No       |
 
 ### Check enable status of resources
 
 Check if installed resources are enabled or disabled.
-
 
 | Name               | Type                                                                                                                                                                 | Description                                                                                                                                                          | Required |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
@@ -61,7 +67,6 @@ Check if installed resources are enabled or disabled.
 
 Check if installed resources are open or closed.
 
-
 | Name               | Type                                        | Description                                                                                                                                                          | Required |
 |--------------------|---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
 | Expected Status    | Enumeration:CLOSED, OPEN                    | The expected status.                                                                                                                                                 | Yes      |
@@ -72,7 +77,6 @@ Check if installed resources are open or closed.
 ### Check status of an application
 
 Check if an installed cloud enabled CICS application is available, unavailable, enabled, or disabled. Requires CICS TS V5.1 or later.
-
 
 | Name                   | Type                                                  | Description                                                                                                                           | Required |
 |------------------------|-------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|----------|
@@ -85,7 +89,6 @@ Check if an installed cloud enabled CICS application is available, unavailable, 
 
 Close installed resources.
 
-
 | Name               | Type                                        | Description                               | Required |
 |--------------------|---------------------------------------------|-------------------------------------------|----------|
 | Resource Name List | String                                      | A comma-separated list of resource names. | Yes      |
@@ -94,7 +97,6 @@ Close installed resources.
 ### Deploy application
 
 Deploy a cloud enabled CICS application. Requires CICS TS V5.1 or V5.2 with APAR PI56706, or V5.3 or later.
-
 
 | Name                          | Type                                     | Description                                                                                                                                                                    | Required |
 |-------------------------------|------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
@@ -108,7 +110,6 @@ Deploy a cloud enabled CICS application. Requires CICS TS V5.1 or V5.2 with APAR
 ### Deploy bundle
 
 Deploy a CICS bundle. Requires CICS TS V5.1 or V5.2 with APAR PI56706, or V5.3 or later.
-
 
 | Name                | Type                                     | Description                                                                                                                                                                                                  | Required |
 |---------------------|------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
@@ -124,7 +125,6 @@ Deploy a CICS bundle. Requires CICS TS V5.1 or V5.2 with APAR PI56706, or V5.3 o
 
 Disable an installed cloud enabled CICS application. Requires CICS TS V5.1 or later.
 
-
 | Name                   | Type   | Description                                                                                                                         | Required |
 |------------------------|--------|-------------------------------------------------------------------------------------------------------------------------------------|----------|
 | Application Definition | String | The name of the CICS application definition. The default value is ``${p:cics.application.definition.name}``.                        | Yes      |
@@ -133,7 +133,6 @@ Disable an installed cloud enabled CICS application. Requires CICS TS V5.1 or la
 ### Disable resources
 
 Disable installed resources.
-
 
 | Name               | Type                                                                                                                                                                 | Description                               | Required |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------|----------|
@@ -144,7 +143,6 @@ Disable installed resources.
 
 Discard installed resources.
 
-
 | Name               | Type                                                                                                                                                                                                                                                                                | Description                               | Required |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------|----------|
 | Resource Name List | String                                                                                                                                                                                                                                                                              | A comma-separated list of resource names. | Yes      |
@@ -153,7 +151,6 @@ Discard installed resources.
 ### Enable application
 
 Enable an installed cloud enabled CICS application. Requires CICS TS V5.1 or later.
-
 
 | Name                   | Type   | Description                                                                                                                         | Required |
 |------------------------|--------|-------------------------------------------------------------------------------------------------------------------------------------|----------|
@@ -164,7 +161,6 @@ Enable an installed cloud enabled CICS application. Requires CICS TS V5.1 or lat
 
 Enable installed resources.
 
-
 | Name               | Type                                                                                                                                                                 | Description                               | Required |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------|----------|
 | Resource Name List | String                                                                                                                                                               | A comma-separated list of resource names. | Yes      |
@@ -174,7 +170,6 @@ Enable installed resources.
 
 Install resource descriptions from the CICSPlex SM data repository using BAS.
 
-
 | Name                      | Type   | Description                                           | Required |
 |---------------------------|--------|-------------------------------------------------------|----------|
 | Resource Description List | String | A comma-separated list of resource description names. | Yes      |
@@ -183,7 +178,6 @@ Install resource descriptions from the CICSPlex SM data repository using BAS.
 
 Install resource groups from the CICSPlex SM data repository using BAS.
 
-
 | Name                | Type   | Description                                     | Required |
 |---------------------|--------|-------------------------------------------------|----------|
 | Resource Group List | String | A comma-separated list of resource group names. | Yes      |
@@ -191,7 +185,6 @@ Install resource groups from the CICSPlex SM data repository using BAS.
 ### Install BAS resources
 
 Install resource definitions from the CICSPlex SM data repository using BAS.
-
 
 | Name               | Type                                                                                                                                                                                                                                                                                                               | Description                                                     | Required |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|----------|
@@ -203,7 +196,6 @@ Install resource definitions from the CICSPlex SM data repository using BAS.
 
 Install resources contained in groups or lists from the CSD.
 
-
 | Name               | Type                          | Description                                          | Required |
 |--------------------|-------------------------------|------------------------------------------------------|----------|
 | Group or List      | Enumeration:CSDGROUP, CSDLIST | Specify whether to install from a CSD group or list. | Yes      |
@@ -212,7 +204,6 @@ Install resources contained in groups or lists from the CSD.
 ### Install CSD resources
 
 Install resources from the CSD.
-
 
 | Name               | Type                                                                                                                                                                                                                                                                                                               | Description                                                     | Required |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|----------|
@@ -224,7 +215,6 @@ Install resources from the CSD.
 
 Make an installed cloud enabled CICS application available. Requires CICS TS V5.2 or later.
 
-
 | Name                   | Type   | Description                                                                                                                         | Required |
 |------------------------|--------|-------------------------------------------------------------------------------------------------------------------------------------|----------|
 | Application Definition | String | The name of the CICS application definition. The default value is ``${p:cics.application.definition.name}``.                        | Yes      |
@@ -233,7 +223,6 @@ Make an installed cloud enabled CICS application available. Requires CICS TS V5.
 ### Make application unavailable
 
 Make an installed cloud enabled CICS application unavailable. Requires CICS TS V5.2 or later.
-
 
 | Name                   | Type   | Description                                                                                                                         | Required |
 |------------------------|--------|-------------------------------------------------------------------------------------------------------------------------------------|----------|
@@ -244,7 +233,6 @@ Make an installed cloud enabled CICS application unavailable. Requires CICS TS V
 
 Make installed bundle resources available. Requires CICS TS V5.2 or later.
 
-
 | Name               | Type               | Description                               | Required |
 |--------------------|--------------------|-------------------------------------------|----------|
 | Resource Name List | String             | A comma-separated list of resource names. | Yes      |
@@ -254,7 +242,6 @@ Make installed bundle resources available. Requires CICS TS V5.2 or later.
 
 Make installed bundle resources unavailable. Requires CICS TS V5.2 or later.
 
-
 | Name               | Type               | Description                               | Required |
 |--------------------|--------------------|-------------------------------------------|----------|
 | Resource Name List | String             | A comma-separated list of resource names. | Yes      |
@@ -263,7 +250,6 @@ Make installed bundle resources unavailable. Requires CICS TS V5.2 or later.
 ### New copy resources
 
 New copy installed program or doc template resources.
-
 
 | Name               | Type                         | Description                                                                                              | Required |
 |--------------------|------------------------------|----------------------------------------------------------------------------------------------------------|----------|
@@ -276,7 +262,6 @@ New copy installed program or doc template resources.
 
 Open installed resources.
 
-
 | Name               | Type                                        | Description                               | Required |
 |--------------------|---------------------------------------------|-------------------------------------------|----------|
 | Resource Name List | String                                      | A comma-separated list of resource names. | Yes      |
@@ -285,7 +270,6 @@ Open installed resources.
 ### Phase in resources
 
 Phase in installed program or bundle resources. Phase in for a bundle resource type requires CICS TS V5.3 or later.
-
 
 | Name               | Type                        | Description                               | Required |
 |--------------------|-----------------------------|-------------------------------------------|----------|
@@ -296,7 +280,6 @@ Phase in installed program or bundle resources. Phase in for a bundle resource t
 
 Scan installed pipeline resources.
 
-
 | Name          | Type   | Description                          | Required |
 |---------------|--------|--------------------------------------|----------|
 | Pipeline List | String | A comma-separated list of pipelines. | Yes      |
@@ -304,7 +287,6 @@ Scan installed pipeline resources.
 ### Undeploy application
 
 Undeploy a cloud enabled CICS application. Requires CICS TS V5.1 or V5.2 with APAR PI56706, or V5.3 or later.
-
 
 | Name                   | Type                                         | Description                                                                                                                         | Required |
 |------------------------|----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|----------|
@@ -317,7 +299,6 @@ Undeploy a cloud enabled CICS application. Requires CICS TS V5.1 or V5.2 with AP
 
 Undeploy CICS bundles. Requires CICS TS V5.1 or V5.2 with APAR PI56706, or V5.3 or later.
 
-
 | Name                | Type                                         | Description                                                                                                                                                                                                   | Required |
 |---------------------|----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
 | Bundle Name List    | String                                       | A comma-separated list of bundle names.                                                                                                                                                                       | Yes      |
@@ -326,11 +307,7 @@ Undeploy CICS bundles. Requires CICS TS V5.1 or V5.2 with APAR PI56706, or V5.3 
 | State               | Enumeration:DISABLED, DISCARDED, UNAVAILABLE | The target state of the bundle.                                                                                                                                                                               | Yes      |
 | Timeout (s)         | String                                       | The number of seconds to wait for each bundle to undeploy before a timeout occurs. Further processing of a bundle by CICS might occur after the timeout. The valid range is 1-1800. The default value is 300. | No       |
 
-
-
 ### Output properties
-
-
 
 * [Overview of output properties](#overview-of-output-properties)
 * [The cics.response.errors property](#the-cicsresponseerrors-output-property)
@@ -346,8 +323,6 @@ A step in UrbanCode Deploy is able to return output properties. These can be use
 If the CICS TS plug-in step fails (because CICS returns an error, for example) the step returns the cics.response.errors output property.
 
 This property value consists ofa JSON document of error codes, one set for each resource in the resource list.The following elements are returned to the JSON document:
-
-
 
 | Element name | Description                                                                      |
 |--------------|----------------------------------------------------------------------------------|
@@ -370,7 +345,6 @@ You can view a steps output properties in the **Log** tab of the **Process Reque
 Image showing the location output properties in the Process Request window
 The following is a sample of the cics.response.errors output when NEWCOPY fails with a NODATA error:
 
-
 ```
 
 [{"action":"NEWCOPY","attribute":"","errorCode":"","reasonName":"","resourceName":"NOTEXIST","resourceType":"PROGRAM","resp1Name":"","resp2":"","responseName":"NODATA"}``]
@@ -383,10 +357,9 @@ You can configure a post-processing script to run after a step finishes. Post-pr
 
 The following is a usage example of a post-processing script for the *New copy resources* step in the CICS TS plug-in:
 
-The **New copy resources** step instructs CICS to reload the resource the next time it is requested. The step fails in CICS with a NODATA response if the resource was not already loaded, however in most cases, this failure can be ignored as CICS will automatically load the resource when it is next used.
+The **New copy resources** step instructs CICS to reload the resource the next time it is requested. The step fails in CICS with a NODATA response if the resource was not already installed, however in most cases, this failure can be ignored as CICS will automatically load the resource when it is next used.
 
 The following script analyses the cics.response.errors output property and providing the only errors are NODATA, will change the step to be successful:
-
 
 ```
 var exit = properties.get('exitCode');
@@ -428,10 +401,7 @@ commandOut.println("No CICS response errors found!")
 
 ```
 
-
 ### Defining and deleting resource definitions
-
-
 
 Using the [z/OS Utility plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/ "z/OS Utility plug-in") **Submit Job** step you can perform the following actions in CICS:
 
@@ -449,7 +419,6 @@ For example, a token such as *@CSD@* can be linked to a matching UrbanCode Deplo
 
 For more details on the **Submit Job** and **Wait For Job** steps, see the Steps page for the [z/OS Utility plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/).
 
-
 ### Default input properties
 
 The following properties are present on all CICS TS plug-in steps. You can view them on any step configuration page by selecting the **Show Hidden Properties** check box.
@@ -457,7 +426,6 @@ The following properties are present on all CICS TS plug-in steps. You can view 
 These properties are typically environment or component-specific. To reduce manual configuration, you can define properties at an application, environment, or resource level.
 
 For an example of how to set up a CICS installation as an UrbanCode Deploy resource, see the *Setting up resources for simple management of properties* on the Usage page. More information on usage of properties, see the [Properties](http://www-01.ibm.com/support/knowledgecenter/SS4GSP_7.2.0/com.ibm.udeploy.doc/topics/ud_properties_overview.html) topic in the UrbanCode Deploy documentation.
-
 
 | Name                | Default value             | Description                                                                                                                                                                                                                                                                                                                          |
 |---------------------|---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -474,7 +442,6 @@ For an example of how to set up a CICS installation as an UrbanCode Deploy resou
 | Truststore Location | ``${p?:cics.tslocation}`` | The location of the truststore that verifies credentials, if SSL is enabled.                                                                                                                                                                                                                                                         |
 | Truststore Type     | ``${p?:cics.tstype}``     | The type of the truststore that verifies credentials, if SSL is enabled. If unspecified, uses the agents default Java keystore type. For certificates contained in RACF keyrings, use JCERACFKS when the certificates are stored in software, or JCECCARACFKS when the certificates are stored in hardware with ICSF.                |
 | Truststore Password | ``${p?:cics.tspassword}`` | The password of the truststore that verifies credentials, if SSL is enabled. For certificates contained in RACF keyrings, leave this value empty.                                                                                                                                                                                    |
-
 
 -For files in zFS, use a hierarchical file path such as
 
