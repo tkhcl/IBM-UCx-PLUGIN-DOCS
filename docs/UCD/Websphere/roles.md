@@ -1,29 +1,23 @@
 
-WebSphere Application Server - Deployment - Roles
-=================================================
+# WebSphere Application Server - Deployment - Roles
 
-# Roles
-
-
-### Roles
-
-
+## Roles
 
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
 
-* [PortalServer](#portalserver_role)
-* [WebSphereCell](#webspherecell_role)
-* [WebSphereCluster](#webspherecluster_role)
-* [WebSphereDynamicCluster](#webspheredynamiccluster_role)
-* [WebSphereNode](#webspherenode_role)
-* [WebSphereNodeGroup](#webspherenodegroup_role)
-* [WebSphereServer](#websphereserver_role)
-
+- [WebSphere Application Server - Deployment - Roles](#websphere-application-server---deployment---roles)
+  - [Roles](#roles)
+    - [PortalServer](#portalserver)
+    - [WebSphereCell](#webspherecell)
+    - [WebSphereCluster](#webspherecluster)
+    - [WebSphereDynamicCluster](#webspheredynamiccluster)
+    - [WebSphereNode](#webspherenode)
+    - [WebSphereNodeGroup](#webspherenodegroup)
+    - [WebSphereServer](#websphereserver)
 
 ### PortalServer
 
 Role for resources that represent a Portal Server.
-
 
 | Name | Type | Description | Property |
 | --- | --- | --- | --- |
@@ -39,7 +33,6 @@ Role for resources that represent a Portal Server.
 ### WebSphereCell
 
 Role for resources that represents a WebSphere Cell
-
 
 | Name | Type | Description | Property |
 | --- | --- | --- | --- |
@@ -66,7 +59,6 @@ Role for resources that represents a WebSphere Cell
 
 Role for resources that represents a WebSphere server cluster.
 
-
 | Name | Type | Description | Property |
 | --- | --- | --- | --- |
 | Cluster Address | String | The cluster address for this WebSphere server cluster. | ``${p?:resource/websphere.servercluster.clusteraddress}`` |
@@ -85,7 +77,6 @@ Role for resources that represents a WebSphere server cluster.
 ### WebSphereDynamicCluster
 
 Role for resources that represents a WebSphere dynamic cluster.
-
 
 | Name | Type | Description | Property |
 | --- | --- | --- | --- |
@@ -106,7 +97,6 @@ Role for resources that represents a WebSphere dynamic cluster.
 
 Role for resources that represents a WebSphere node
 
-
 | Name | Type | Description | Property |
 | --- | --- | --- | --- |
 | Discovery Protocol | String | The discovery protocol for this WebSphere node. Acceptable values are: UDP, TCP, MULTICAST. | ``${p?:resource/websphere.node.discoveryprotocol}`` |
@@ -120,7 +110,6 @@ Role for resources that represents a WebSphere node
 
 Role for resources that represents a WebSphere node group.
 
-
 | Name | Type | Description | Property |
 | --- | --- | --- | --- |
 | Description | String | The description for this WebSphere node group. | ``${p?:resource/websphere.nodegroup.description}`` |
@@ -130,9 +119,6 @@ Role for resources that represents a WebSphere node group.
 ### WebSphereServer
 
 Role for resources that represents a WebSphere server
-
-</table –>
-
 
 | Name | Type | Description | Property |
 | --- | --- | --- | --- |
@@ -151,7 +137,6 @@ Role for resources that represents a WebSphere server
 | Server Name Formats | String | A list of server name formats, separated by newline characters. Use the following form: nodename->pattern. Patterns can contain %c, %n and %i where %c represents the clustername, %n represents the nodename, and %i is the index. The values for the pattern can be specified in any order. | ``${p?:resource/websphere.server.servernameformats}`` |
 | Server Type | String | The server type for this WebSphere server. | ``${p?:resource/websphere.server.servertype}`` |
 | Short Name | String | The short name for this WebSphere server. | ``${p?:resource/websphere.server.shortname}`` |
-
 
 |Back to ...||Latest Version|WebSphere Application Server - Deployment |||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |

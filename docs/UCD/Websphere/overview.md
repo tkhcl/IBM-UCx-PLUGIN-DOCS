@@ -1,13 +1,7 @@
 
-WebSphere Application Server - Deployment - Overview
-====================================================
+# WebSphere Application Server - Deployment - Overview
 
-# Overview
-
-
-### Overview
-
-
+## Overview
 
 The WebSphere Application Server Deployment plug-in includes steps that manage IBM WebSphere Application Server, including application-related tasks and tasks that are related to installing and maintaining application servers.
 
@@ -54,7 +48,7 @@ The steps in this plug-in run on any agents that the IBM UrbanCode Deploy server
 
 No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins).
 
-### Limitations:
+### Limitations
 
 * The Start Server step works only with WebSphere Application Server Network Deployment. The Start Server step does not work on WebSphere Application Server Base.
 * This plug-in uses the wsadmin tool to manage connections to a WebSphere Application Server profile. Specific user rights are required to run the wsadmin tool. To learn more about user rights and the wsadmin tool, see the [WebSphere Application Server Network Deployment documentation](http://www.ibm.com/support/knowledgecenter/SSAW57_8.5.5/com.ibm.websphere.nd.doc/ae/txml_script.html).
@@ -130,20 +124,22 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 #### Version 109
 
 * RFE 105793 Add support for Intelligent management features on the target WAS cell with following additional steps:
-+ Intelligent Management Enable
-+ Intelligent Management Disable
-+ Intelligent Management List Trace Rules
-+ Intelligent Management Add Remote Cell
-+ Intelligent Management Delete Remote Cell
-+ Intelligent Management List Remote Cells
-+ Intelligent Management Modify
-+ Intelligent Management Modify Remote Cell
-+ Intelligent Management Refresh Local Cell
-+ Intelligent Management Refresh Remote Cell
-+ Intelligent Management Add Conditional Trace Rule
-+ Intelligent Management Set Default Trace Rule
-+ Intelligent Management Remove Conditional Trace Rule
-+ Intelligent Management Generate Plugin
+
+* Intelligent Management Enable
+* Intelligent Management Disable
+* Intelligent Management List Trace Rules
+* Intelligent Management Add Remote Cell
+* Intelligent Management Delete Remote Cell
+* Intelligent Management List Remote Cells
+* Intelligent Management Modify
+* Intelligent Management Modify Remote Cell
+* Intelligent Management Refresh Local Cell
+* Intelligent Management Refresh Remote Cell
+* Intelligent Management Add Conditional Trace Rule
+* Intelligent Management Set Default Trace Rule
+* Intelligent Management Remove Conditional Trace Rule
+* Intelligent Management Generate Plugin
+
 * Fixes APAR PI87795 WebSphere Configuration Discovery may fail to retrieve passwords if multiple profiles are defined as part of theWebSphere installation.
 * Fixes APAR PI87070 Websphere Topology Discovery removes default impersonation set on WebSphereCell resource
 
@@ -235,7 +231,6 @@ The following features were added in version 96:
 
 * Support for installing, updating, starting, and stopping applications at the cell scope.
 * Updates to plug-in steps to support traditional WebSphere Application Server version 9 environments.
-
 
 |Back to ...||Latest Version|WebSphere Application Server - Deployment |||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |

@@ -1,6 +1,5 @@
 
-WebSphere Application Server - Deployment
-=========================================
+# WebSphere Application Server - Deployment
 
 The WebSphere Application Server – Deployment plug-in provides a number of steps for deploying application files to and performing administrative tasks for WebSphere Application Server. The plug-in also contains a number of steps that are related to configuration management, such as creating data sources and JMS requests. These configuration steps are deprecated; instead, use the WebSphere Application Server – Configure plug-in for all configuration-related activities. To learn more about different solutions for WebSphere Application Server, see [Frequently Asked Questions about IBM UrbanCode Deploy solutions for WebSphere Application Server](http://developer.ibm.com/urbancode/docs/frequently-asked-questions-ibm-urbancode-deploy-solutions-websphere-application-server/ "Frequently Asked Questions about IBM UrbanCode Deploy solutions for WebSphere Application Server").
 

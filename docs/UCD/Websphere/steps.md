@@ -1,127 +1,121 @@
 
-WebSphere Application Server - Deployment - Steps
-=================================================
+# WebSphere Application Server - Deployment - Steps
 
-# Steps
+## Steps
 
+Process steps in the WAS Deploy plug-in
 
-### Steps
-
-
-
-### Process steps in the WAS Deploy plug-in
-
-* [Activate Application Edition](#activate_application_edition)
-* [Add Asset to BLA](#add_asset_to_bla)
-* [Add BLA to BLA](#add_bla_to_bla)
-* [Add Shared Library to Application](#add_shared_library_to_application)
-* [Add Shared Library to Module](#add_shared_library_to_module)
-* [Add Target To Module](#add_target_to_module)
-* [Add Target to Composition Unit](#add_target_to_composition_unit)
-* [Apply Configuration Properties](#apply_configuration_properties)
-* [Cancel Application Edition Validation](#cancel_application_edition_validation)
-* [Check Application is Installed](#check_application_is_installed)
-* [Check Application is not running](#check_application_is_not_running)
-* [Check Application is running](#check_application_is_running)
-* [Check If BLA Exists](#check_if_bla_exists)
-* [Check If Composition Unit Exists](#check_if_composition_unit_exists)
-* [Check If Config Object Exists DEPRECATED](#check_if_config_object_exists_deprecated)
-* [Check Initial Heap Size DEPRECATED](#check_initial_heap_size_deprecated)
-* [Check Maximum Heap Size DEPRECATED](#check_maximum_heap_size_deprecated)
-* [Check Node Status](#check_node_status)
-* [Check Status](#check_status)
-* [Clear Target Mappings For Application](#clear_target_mappings_for_application)
-* [Create BLA](#create_bla)
-* [Create Cluster](#create_cluster)
-* [Create Cluster Member](#create_cluster_member)
-* [Create DataSource DEPRECATED](#create_datasource_deprecated)
-* [Create DataSource For Cluster DEPRECATED](#create_datasource_for_cluster_deprecated)
-* [Create IHS Web Server](#create_ihs_web_server)
-* [Create JDBCProvider DEPRECATED](#create_jdbcprovider_deprecated)
-* [Create JDBCProvider For Cluster DEPRECATED](#create_jdbcprovider_for_cluster_deprecated)
-* [Create SIBJMSConnectionFactory DEPRECATED](#create_sibjmsconnectionfactory_deprecated)
-* [Create SIBJMSQueue DEPRECATED](#create_sibjmsqueue_deprecated)
-* [Create SIBJMSTopic DEPRECATED](#create_sibjmstopic_deprecated)
-* [Create Shared Library](#create_shared_library)
-* [Create Unmanaged Node](#create_unmanaged_node)
-* [Deactivate Application Edition](#deactivate_application_edition)
-* [Delete Asset](#delete_asset)
-* [Delete BLA](#delete_bla)
-* [Delete Composition Unit](#delete_composition_unit)
-* [Delete Configuration Properties](#delete_configuration_properties)
-* [Delete Server](#delete_server)
-* [Disable Auto Start of an Application](#disable_auto_start_of_an_application)
-* [Disable AutoSync](#disable_autosync)
-* [Display Application Deployment Options](#display_application_deployment_options)
-* [Enable Auto Start of an Application](#enable_auto_start_of_an_application)
-* [Enable AutoSync](#enable_autosync)
-* [Execute Batch Script](#execute_batch_script)
-* [Execute wsadmin Script](#_script)
-* [Export Application](#export_application)
-* [Export DataSource Properties from Cluster DEPRECATED](#export_datasource_properties_from_cluster_deprecated)
-* [Export JVMHeapSizes from Server DEPRECATED](#export_jvmheapsizes_from_server_deprecated)
-* [Extract Configuration Properties](#extract_configuration_properties)
-* [Generate Plugin](#generate_plugin)
-* [Import Asset](#import_asset)
-* [Import DataSource Properties into Cluster DEPRECATED](#import_datasource_properties_into_cluster_deprecated)
-* [Import JVMHeapSizes for Cluster DEPRECATED](#import_jvmheapsizes_for_cluster_deprecated)
-* [Install Application](#install_application)
-* [Install OSGI Bundle](#install_osgi_bundle)
-* [Install Or Update Application](#install_or_update_application)
-* [Intelligent Management Add Conditional Trace Rule](#intelligent_management_-_add_conditional_trace_rule)
-* [Intelligent Management Add Remote Cell](#intelligent_management_-_add_remote_cell)
-* [Intelligent Management Delete Remote Cell](#intelligent_management_-_delete_remote_cell)
-* [Intelligent Management Disable](#intelligent_management_-_disable)
-* [Intelligent Management Enable](#intelligent_management_-_enable)
-* [Intelligent Management Generate Plugin](#intelligent_management_-_generate_plugin)
-* [Intelligent Management List Remote Cells](#intelligent_management_-_list_remote_cells)
-* [Intelligent Management List Trace Rules](#intelligent_management_-_list_trace_rules)
-* [Intelligent Management Modify](#intelligent_management_-_modify)
-* [Intelligent Management Modify Remote Cell](#intelligent_management_-_modify_remote_cell)
-* [Intelligent Management Refresh Local Cell](#intelligent_management_-_refresh_local_cell)
-* [Intelligent Management Refresh Remote Cell](#intelligent_management_-_refresh_remote_cell)
-* [Intelligent Management Remove Conditional Trace Rule](#intelligent_management_-_remove_conditional_trace_rule)
-* [Intelligent Management Set Default Trace Rule](#intelligent_management_-_set_default_trace_rule)
-* [List Cluster Nodes](#list_cluster_nodes)
-* [Map Resource References to EJB for Application](#map_resource_references_to_ejb_for_application)
-* [Map Users And Groups to Roles for Application](#map_users_and_groups_to_roles_for_application)
-* [Modify Application ClassLoaders](#modify_application_classloaders)
-* [Remove OSGI Bundle](#remove_osgi_bundle)
-* [Restart Application](#restart_application)
-* [Restart Server](#restart_server)
-* [Rollout Edition Atomically](#rollout_edition_atomically)
-* [Rollout Edition In Groups](#rollout_edition_in_groups)
-* [Set Application Defaults](#set_application_defaults)
-* [Start Application](#start_application)
-* [Start BLA](#start_bla)
-* [Start Server](#start_server)
-* [Stop Application](#stop_application)
-* [Stop BLA](#stop_bla)
-* [Stop Server](#stop_server)
-* [Synchronize nodes](#synchronize_nodes)
-* [Terminate Server or Cluster](#terminate_server_or_cluster)
-* [Uninstall Application](#uninstall_application)
-* [Update Application](#update_application)
-* [Update Application On Cluster](#update_application_on_cluster)
-* [Update Context Root For Web Modules](#update_context_root_for_web_modules)
-* [Update J2EEResourceProperty on Object DEPRECATED](#update_j2eeresourceproperty_on_object_deprecated)
-* [Update Simple Attribute on Object DEPRECATED](#update_simple_attribute_on_object_deprecated)
-* [Update Virtual Host For Web Modules](#update_virtual_host_for_web_modules)
-* [Update soap.client.props File](#update_soap.client.props_file)
-* [Validate Configuration Properties](#validate_configuration_properties)
-* [Validate Edition Using Dynamic Cluster](#validate_edition_using_dynamic_cluster)
-* [Validate Edition Using Static Cluster](#validate_edition_using_static_cluster)
-* [Wait for Application](#wait_for_application)
-* [Wait for server or cluster](#wait_for_server_or_cluster)
-* [Wait for server or cluster to stop](#wait_for_server_or_cluster_to_stop)
-* [WebSphere Discovery](#websphere_discovery)
-* [WebSphere Topology Discovery](#websphere_topology_discovery)
-
+- [WebSphere Application Server - Deployment - Steps](#websphere-application-server---deployment---steps)
+  - [Steps](#steps)
+    - [Activate Application Edition](#activate-application-edition)
+    - [Add Asset to BLA](#add-asset-to-bla)
+    - [Add BLA to BLA](#add-bla-to-bla)
+    - [Add Shared Library to Application](#add-shared-library-to-application)
+    - [Add Shared Library to Module](#add-shared-library-to-module)
+    - [Add Target To Module](#add-target-to-module)
+    - [Add Target to Composition Unit](#add-target-to-composition-unit)
+    - [Apply Configuration Properties](#apply-configuration-properties)
+    - [Cancel Application Edition Validation](#cancel-application-edition-validation)
+    - [Check Application is Installed](#check-application-is-installed)
+    - [Check Application is not running](#check-application-is-not-running)
+    - [Check Application is running](#check-application-is-running)
+    - [Check If BLA Exists](#check-if-bla-exists)
+    - [Check If Composition Unit Exists](#check-if-composition-unit-exists)
+    - [Check If Config Object Exists DEPRECATED](#check-if-config-object-exists-deprecated)
+    - [Check Initial Heap Size DEPRECATED](#check-initial-heap-size-deprecated)
+    - [Check Maximum Heap Size DEPRECATED](#check-maximum-heap-size-deprecated)
+    - [Check Node Status](#check-node-status)
+    - [Check Status](#check-status)
+    - [Clear Target Mappings For Application](#clear-target-mappings-for-application)
+    - [Create BLA](#create-bla)
+    - [Create Cluster](#create-cluster)
+    - [Create Cluster Member](#create-cluster-member)
+    - [Create DataSource DEPRECATED](#create-datasource-deprecated)
+    - [Create DataSource For Cluster DEPRECATED](#create-datasource-for-cluster-deprecated)
+    - [Create IHS Web Server](#create-ihs-web-server)
+    - [Create JDBCProvider DEPRECATED](#create-jdbcprovider-deprecated)
+    - [Create JDBCProvider For Cluster DEPRECATED](#create-jdbcprovider-for-cluster-deprecated)
+    - [Create SIBJMSConnectionFactory DEPRECATED](#create-sibjmsconnectionfactory-deprecated)
+    - [Create SIBJMSQueue DEPRECATED](#create-sibjmsqueue-deprecated)
+    - [Create SIBJMSTopic DEPRECATED](#create-sibjmstopic-deprecated)
+    - [Create Shared Library](#create-shared-library)
+    - [Create Unmanaged Node](#create-unmanaged-node)
+    - [Deactivate Application Edition](#deactivate-application-edition)
+    - [Delete Asset](#delete-asset)
+    - [Delete BLA](#delete-bla)
+    - [Delete Composition Unit](#delete-composition-unit)
+    - [Delete Configuration Properties](#delete-configuration-properties)
+    - [Delete Server](#delete-server)
+    - [Disable Auto Start of an Application](#disable-auto-start-of-an-application)
+    - [Disable AutoSync](#disable-autosync)
+    - [Display Application Deployment Options](#display-application-deployment-options)
+    - [Enable Auto Start of an Application](#enable-auto-start-of-an-application)
+    - [Enable AutoSync](#enable-autosync)
+    - [Execute Batch Script](#execute-batch-script)
+    - [Execute wsadmin Script](#execute-wsadmin-script)
+    - [Export Application](#export-application)
+    - [Export DataSource Properties from Cluster DEPRECATED](#export-datasource-properties-from-cluster-deprecated)
+    - [Export JVMHeapSizes from Server DEPRECATED](#export-jvmheapsizes-from-server-deprecated)
+    - [Extract Configuration Properties](#extract-configuration-properties)
+    - [Generate Plugin](#generate-plugin)
+    - [Import Asset](#import-asset)
+    - [Import DataSource Properties into Cluster DEPRECATED](#import-datasource-properties-into-cluster-deprecated)
+    - [Import JVMHeapSizes for Cluster DEPRECATED](#import-jvmheapsizes-for-cluster-deprecated)
+    - [Install Application](#install-application)
+    - [Install OSGI Bundle](#install-osgi-bundle)
+    - [Install Or Update Application](#install-or-update-application)
+    - [Intelligent Management Add Conditional Trace Rule](#intelligent-management-add-conditional-trace-rule)
+    - [Intelligent Management Add Remote Cell](#intelligent-management-add-remote-cell)
+    - [Intelligent Management Delete Remote Cell](#intelligent-management-delete-remote-cell)
+    - [Intelligent Management Disable](#intelligent-management-disable)
+    - [Intelligent Management Enable](#intelligent-management-enable)
+    - [Intelligent Management Generate Plugin](#intelligent-management-generate-plugin)
+    - [Intelligent Management List Remote Cells](#intelligent-management-list-remote-cells)
+    - [Intelligent Management List Trace Rules](#intelligent-management-list-trace-rules)
+    - [Intelligent Management Modify](#intelligent-management-modify)
+    - [Intelligent Management Modify Remote Cell](#intelligent-management-modify-remote-cell)
+    - [Intelligent Management Refresh Local Cell](#intelligent-management-refresh-local-cell)
+    - [Intelligent Management Refresh Remote Cell](#intelligent-management-refresh-remote-cell)
+    - [Intelligent Management Remove Conditional Trace Rule](#intelligent-management-remove-conditional-trace-rule)
+    - [Intelligent Management Set Default Trace Rule](#intelligent-management-set-default-trace-rule)
+    - [List Cluster Nodes](#list-cluster-nodes)
+    - [Map Resource References to EJB for Application](#map-resource-references-to-ejb-for-application)
+    - [Map Users And Groups to Roles for Application](#map-users-and-groups-to-roles-for-application)
+    - [Modify Application ClassLoaders](#modify-application-classloaders)
+    - [Remove OSGI Bundle](#remove-osgi-bundle)
+    - [Restart Application](#restart-application)
+    - [Restart Server](#restart-server)
+    - [Rollout Edition Atomically](#rollout-edition-atomically)
+    - [Rollout Edition In Groups](#rollout-edition-in-groups)
+    - [Set Application Defaults](#set-application-defaults)
+    - [Start Application](#start-application)
+    - [Start BLA](#start-bla)
+    - [Start Server](#start-server)
+    - [Stop Application](#stop-application)
+    - [Stop BLA](#stop-bla)
+    - [Stop Server](#stop-server)
+    - [Synchronize nodes](#synchronize-nodes)
+    - [Terminate Server or Cluster](#terminate-server-or-cluster)
+    - [Uninstall Application](#uninstall-application)
+    - [Update Application](#update-application)
+    - [Update Application On Cluster](#update-application-on-cluster)
+    - [Update Context Root For Web Modules](#update-context-root-for-web-modules)
+    - [Update J2EEResourceProperty on Object DEPRECATED](#update-j2eeresourceproperty-on-object-deprecated)
+    - [Update Simple Attribute on Object DEPRECATED](#update-simple-attribute-on-object-deprecated)
+    - [Update Virtual Host For Web Modules](#update-virtual-host-for-web-modules)
+    - [Update soap.client.props File](#update-soapclientprops-file)
+    - [Validate Configuration Properties](#validate-configuration-properties)
+    - [Validate Edition Using Dynamic Cluster](#validate-edition-using-dynamic-cluster)
+    - [Validate Edition Using Static Cluster](#validate-edition-using-static-cluster)
+    - [Wait for Application](#wait-for-application)
+    - [Wait for server or cluster](#wait-for-server-or-cluster)
+    - [Wait for server or cluster to stop](#wait-for-server-or-cluster-to-stop)
+    - [WebSphere Discovery](#websphere-discovery)
+    - [WebSphere Topology Discovery](#websphere-topology-discovery)
 
 ### Activate Application Edition
 
 Activate an edition of a WebSphere enterprise application.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -132,11 +126,10 @@ Activate an edition of a WebSphere enterprise application.
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -149,7 +142,6 @@ Activate an edition of a WebSphere enterprise application.
 
 Add an asset to a business-level application.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
@@ -159,11 +151,10 @@ Add an asset to a business-level application.
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Composition Unit Name | String | Name of the composition unit. | Yes |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Context Root Mappings | String | Specify a list of mappings from web modules to context roots, separated by newline characters. Use the following format: modulename->contextroot | No |
 | Description | String | Description of the composition unit. | No |
 | Host | String | The host name of the server to connect to. | No |
@@ -180,7 +171,6 @@ Add an asset to a business-level application.
 
 Add and associate a business-level application to another business-level application.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
@@ -189,11 +179,10 @@ Add and associate a business-level application to another business-level applica
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Composition Unit Name | String | Name of the composition unit. | Yes |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Description | String | Description of the composition unit. | No |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
@@ -207,7 +196,6 @@ Add and associate a business-level application to another business-level applica
 
 Add a shared library to an application.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
@@ -217,11 +205,10 @@ Add a shared library to an application.
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -235,7 +222,6 @@ Add a shared library to an application.
 
 Add a shared library to a module.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
@@ -245,11 +231,10 @@ Add a shared library to a module.
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Module URI | String | The URI of the module to add the shared library to. For example: PlantsByWebSphere.war | Yes |
 | Node Name | String | The name of the node to administer. | No |
@@ -264,7 +249,6 @@ Add a shared library to a module.
 
 Map a target server or cluster to a module of an enterprise application.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
@@ -274,11 +258,10 @@ Map a target server or cluster to a module of an enterprise application.
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Module URI | String | The URI of the module. For example: PlantsByWebSphere.war,WEB-INF/web.xml | Yes |
 | Node Name | String | The name of the node to administer. | No |
@@ -292,7 +275,6 @@ Map a target server or cluster to a module of an enterprise application.
 
 Add a target to composition unit.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
@@ -301,11 +283,10 @@ Add a target to composition unit.
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Composition Unit Name | String | The name of the composition unit. | Yes |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -317,15 +298,13 @@ Add a target to composition unit.
 
 Apply the properties in the specified properties file to the WebSphere configuration.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
 | Port | String | The port to connect to. | No |
@@ -342,7 +321,6 @@ Apply the properties in the specified properties file to the WebSphere configura
 
 Cancel the validation of an edtion of a WebSphere enterprise application.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
@@ -352,11 +330,10 @@ Cancel the validation of an edtion of a WebSphere enterprise application.
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -369,18 +346,16 @@ Cancel the validation of an edtion of a WebSphere enterprise application.
 
 Check that an application is installed.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional Command Line Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Application Edition | String | The edition of the application to check. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
 | Application Name | String | The name of the application to check for. | Yes |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
 | Port | String | The port to connect to. | No |
@@ -389,7 +364,6 @@ Check that an application is installed.
 ### Check Application is not running
 
 Check that an application is not running.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -400,11 +374,10 @@ Check that an application is not running.
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Delete Script File On Failure | Boolean | Select to delete the temporary script file if the step fails. | No |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
@@ -417,7 +390,6 @@ Check that an application is not running.
 
 Check that an application is running.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
@@ -427,11 +399,10 @@ Check that an application is running.
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Delete Script File On Failure | Boolean | Select to delete the temporary script file if the step fails. | No |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
@@ -444,7 +415,6 @@ Check that an application is running.
 
 Check if a business-level application exists in a cell.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
@@ -452,11 +422,10 @@ Check if a business-level application exists in a cell.
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -468,7 +437,6 @@ Check if a business-level application exists in a cell.
 
 Check if a composition unit exists in a business-level application.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
@@ -477,11 +445,10 @@ Check if a composition unit exists in a business-level application.
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Composition Unit Name | String | The name of the composition unit to check for. | Yes |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -493,15 +460,13 @@ Check if a composition unit exists in a business-level application.
 
 DEPRECATED. Check if a config object exists in the WebSphere Configuration by Containment Path. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Object Containment Path | String | The containment path to the object to check for. i.e. /Cell:cellName/ServerCluster:clusterName/JDBCProvider:providerName/. Note, it must end with a JDBCProvider type and a / | Yes |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -512,15 +477,13 @@ DEPRECATED. Check if a config object exists in the WebSphere Configuration by Co
 
 DEPRECATED. Check that initial heap size. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Maximum Size(MB) | String | The maximum expected heapsize. | Yes |
 | Minimum Size(MB) | String | The minimum expected heapsize. | Yes |
@@ -533,15 +496,13 @@ DEPRECATED. Check that initial heap size. This step is deprecated. Use the WebSp
 
 DEPRECATED. Check that maximum heap size. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Maximum Size(MB) | String | The maximum expected heapsize. | Yes |
 | Minimum Size(MB) | String | The minimum expected heapsize. | Yes |
@@ -554,18 +515,16 @@ DEPRECATED. Check that maximum heap size. This step is deprecated. Use the WebSp
 
 Check the status of nodes in a cell.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
 | Node Names | String | A list of node names to check, separated by newline characters. Leave blank to check status on all nodes in a cell. | No |
@@ -579,18 +538,16 @@ Check the status of nodes in a cell.
 
 Check the status of a WebSphere server or cluster.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Delete Script File On Failure | Boolean | Select to delete the temporary script file if the step fails. | No |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
@@ -603,7 +560,6 @@ Check the status of a WebSphere server or cluster.
 
 Clear all target mappings for an enterprise application and associated modules.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
@@ -613,11 +569,10 @@ Clear all target mappings for an enterprise application and associated modules.
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -630,7 +585,6 @@ Clear all target mappings for an enterprise application and associated modules.
 
 Create a business-level application.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
@@ -638,11 +592,10 @@ Create a business-level application.
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration:| The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Description | String |  | No |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
@@ -655,16 +608,14 @@ Create a business-level application.
 
 Create a cluster.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Cluster Name | String | The name of the cluster to create. | Yes |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
 | Port | String | The port to connect to. | No |
@@ -674,16 +625,14 @@ Create a cluster.
 
 Create a cluster member.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Cluster Name | String | The name of the cluster to create. | Yes |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Member Name | String | The name of the cluster member to create. | Yes |
 | Node Name | String | The name of the node to create the cluster member on. | Yes |
@@ -695,18 +644,16 @@ Create a cluster member.
 
 DEPRECATED. Create a DataSource on a given JDBCProvider. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Alias Password | Password | The Password to use for the Auth Alias if not already created. | Yes |
 | Alias User Name | String | The User name to use for the Auth Alias if not already created. | Yes |
 | Auth Alias | String | The Alias to create or use for this DataSource. | Yes |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | DB Name(Legacy) | String | The DB Name for this DataSource. This is for legacy support. Please use the Resource Properties text area. | No |
 | DataSource Name | String | The name of the DataSource to create. | Yes |
 | DataStore Helper ClassName | String | The ClassName of the dataStoreHelper. | Yes |
@@ -723,7 +670,6 @@ DEPRECATED. Create a DataSource on a given JDBCProvider. This step is deprecated
 
 DEPRECATED. Create a data source on a cluster. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Alias Password | Password | The Password to use for the Auth Alias if not already created. | Yes |
@@ -731,11 +677,10 @@ DEPRECATED. Create a data source on a cluster. This step is deprecated. Use the 
 | Auth Alias | String | The Alias to create or use for this DataSource. | Yes |
 | Cluster Name | String | The name of the cluster where the JDBC provider resides. | Yes |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | DB Name(Legacy) | String | The database name for the data source. This is for legacy support. Use the Resource Properties field. | No |
 | DataSource Name | String | The name of the data Source to create. | Yes |
 | DataStore Helper ClassName | String | The class name of the datastore helper. | Yes |
@@ -755,7 +700,6 @@ DEPRECATED. Create a data source on a cluster. This step is deprecated. Use the 
 
 Create an IBM HTTP Server definition with a template, and configure the web server definition properties. Web server definitions generate and propagate the plugin-config.xml file for each web server. For IBM HTTP Server only, you can use web server definitions to administer and configure IBM HTTP Server web servers with the administrative console. These functions include: Start, Stop, View logs, View and Edit configuration files.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Access Log File | String | The path for the IBM HTTP Server access log (access.log file). | Yes |
@@ -763,17 +707,15 @@ Create an IBM HTTP Server definition with a template, and configure the web serv
 | Admin Password | Password | Specify the password for the user ID. The password is generated by the htpasswd utility and stored in the admin.password file. | No |
 | Admin Port | String | The port of the IBM HTTP Server administrative server. The administrative server is installed on the same computer as the IBM HTTP Server and handles administrative requests to the web server. | No |
 | Admin UserID | String | Specify the user ID, if authentication is activated on the administration server in the admin.conf configuration file. This value must match the authentication information in the admin.conf file. | No |
-| AdminProtocol | Enumeration:
-* HTTP
-* HTTPS
-| Select the administrative protocol type. | No |
+| AdminProtocol | Enumeration: | Select the administrative protocol type. | No |
+|                 | * HTTP     |                                          |    |
+|                 | * HTTPS    |                                          |    |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Configuration File | String | The file path for the IBM HTTP Server. This option is required only for viewing and editing the IBM HTTP Server Configuration file. | Yes |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Error Log File | String | The path for the IBM HTTP Server error log (error.log file). | Yes |
 | Host | String | The host name of the server to connect to. | No |
 | Name | String | The name of the server. | Yes |
@@ -786,26 +728,23 @@ Create an IBM HTTP Server definition with a template, and configure the web serv
 | Web App Mapping | String | Specify the configuration information for web application mapping. | Yes |
 | Web Install Root Directory | String | The installation root directory for the web server. | Yes |
 | Web Port | String | The port number of the web server. | Yes |
-| Web Protocol | Enumeration:
-* HTTP
-* HTTPS
-| Specify the protocol for the IBM HTTP Server administration server running with an unmanaged or remote Web server. | Yes |
+| Web Protocol | Enumeration: | Specify the protocol for the IBM HTTP Server administration server running with an unmanaged or remote Web server. | Yes |
+|                 | * HTTP    |                                                      |     |
+|                 | * HTTPS   |                                                      |     |
 | Windows Service Name | String | The Windows service name to use for IBM HTTP Server. | Yes |
 
 ### Create JDBCProvider DEPRECATED
 
 DEPRECATED. Create a JDBCProvider with specified scope. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Class Path | String | The Classpath of the JDBCPRovider to create. | Yes |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | DB Type | String | The DB Type of the JDBCPRovider to create. | Yes |
 | Description | String | The Description of the JDBCPRovider to create. | Yes |
 | Host | String | The host name of the server to connect to. | No |
@@ -822,17 +761,15 @@ DEPRECATED. Create a JDBCProvider with specified scope. This step is deprecated.
 
 DEPRECATED. Create a JDBCProvider on a cluster. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Class Path | String | The Classpath of the JDBCPRovider to create. | Yes |
 | Cluster Name | String | The name of the Cluster that the JDBCProvider lives on. | Yes |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | DB Type | String | The DB Type of the JDBCPRovider to create. | Yes |
 | Description | String | The Description of the JDBCPRovider to create. | Yes |
 | Host | String | The host name of the server to connect to. | No |
@@ -848,16 +785,14 @@ DEPRECATED. Create a JDBCProvider on a cluster. This step is deprecated. Use the
 
 DEPRECATED. Create a SIBJMSConnectionFactory on a given scope. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Bus Name | String | The name of the SIBus to association this Connection Factory with. | Yes |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | JNDI Name | String | The JNDI name of the Connection Factory to create. | Yes |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -871,15 +806,13 @@ DEPRECATED. Create a SIBJMSConnectionFactory on a given scope. This step is depr
 
 DEPRECATED. Create a SIBJMSQueue on a given scope. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | JNDI Name | String | The JNDI name of the Queue to create. | Yes |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -893,15 +826,13 @@ DEPRECATED. Create a SIBJMSQueue on a given scope. This step is deprecated. Use 
 
 DEPRECATED. Create a SIBJMSTopic on a given scope. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | JNDI Name | String | The JNDI name of the Topic to create. | Yes |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -914,7 +845,6 @@ DEPRECATED. Create a SIBJMSTopic on a given scope. This step is deprecated. Use 
 
 Create a shared library at the cell level.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
@@ -922,11 +852,10 @@ Create a shared library at the cell level.
 | Classpath | String | The class path for the shared library. | Yes |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Description | String |  | No |
 | Host | String | The host name of the server to connect to. | No |
 | Nativepath | String | The native path for the shared library. | No |
@@ -941,28 +870,25 @@ Create a shared library at the cell level.
 
 Create a new unmanaged node in the configuration. An unmanaged node is a node that does not have a node agent or a Deployment Manager. Unmanaged nodes can contain Web servers, such as IBM HTTP Server.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Host Name | String | The host name of the system that is associated with the node. | Yes |
 | Node Name | String | The name that represents the node in the configuration repository. | Yes |
-| Operating System | Enumeration:
-* linux
-* windows
-* os400
-* aix
-* hpux
-* solaris
-* os390
-| The operating system in use on the system associated with this node. | Yes |
+| Operating System | Enumeration: | The operating system in use on the system associated with this node. | Yes |
+|                 | - linux       |                                                      |     |
+|                 | - windows     |                                                      |     |
+|                 | - os400       |                                                      |     |
+|                 | - aix         |                                                      |     |
+|                 | - hpux        |                                                      |     |
+|                 | - solaris     |                                                      |     |
+|                 | - os390       |                                                      |     |
 | Password | Password | The password for connecting to the WebSphere node. | No |
 | Port | String | The port to connect to. | No |
 | Script File | String | The name of the script file to create or append to. | No |
@@ -971,7 +897,6 @@ Create a new unmanaged node in the configuration. An unmanaged node is a node th
 ### Deactivate Application Edition
 
 Deactivate an edition of a WebSphere enterprise application.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -982,11 +907,10 @@ Deactivate an edition of a WebSphere enterprise application.
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -999,7 +923,6 @@ Deactivate an edition of a WebSphere enterprise application.
 
 Delete an asset from an enterprise bundle archive (EBA) file.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
@@ -1008,11 +931,10 @@ Delete an asset from an enterprise bundle archive (EBA) file.
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Force | Boolean | Select to remove all dependency relationships that other assets declare on this asset. If not selected, the asset can be deleted only if no other assets declare a dependency on this asset. By default, Force is not selected. | Yes |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
@@ -1025,7 +947,6 @@ Delete an asset from an enterprise bundle archive (EBA) file.
 
 Delete a business-level application.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
@@ -1033,11 +954,10 @@ Delete a business-level application.
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -1049,7 +969,6 @@ Delete a business-level application.
 
 Delete a composition unit from a business-level application.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
@@ -1058,11 +977,10 @@ Delete a composition unit from a business-level application.
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Composition Unit Name | String | The name of the composition unit to delete. | Yes |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Force | Boolean | Select to remove all dependency relationships that other assets declare on this asset. If not selected, the asset can be deleted only if no other assets declare a dependency on this asset. By default, Force is not selected. | Yes |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
@@ -1075,15 +993,13 @@ Delete a composition unit from a business-level application.
 
 Delete the properties in the specified properties file from the WebSphere configuration.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
 | Port | String | The port to connect to. | No |
@@ -1099,17 +1015,15 @@ Delete the properties in the specified properties file from the WebSphere config
 
 Delete the WebSphere server running on the specified node.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Batch Script | Boolean | Select to use this command as part of a batch script. When selected, this command is added to a batch script that is saved and can be run later. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node the server resides on. | Yes |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -1122,16 +1036,14 @@ Delete the WebSphere server running on the specified node.
 
 Disable automatic start/loading of the application
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Application Name | String | The name of an Application | Yes |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
 | Port | String | The port to connect to. | No |
@@ -1141,7 +1053,6 @@ Disable automatic start/loading of the application
 
 Disable automatic synchronization on nodes.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
@@ -1149,11 +1060,10 @@ Disable automatic synchronization on nodes.
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
 | Node Names | String | A list of node names to disable automatic synchronization on, separated by newline characters. Leave blank for all nodes in cell. | No |
@@ -1167,7 +1077,6 @@ Disable automatic synchronization on nodes.
 
 Echo the options used to install a currently installed application.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Application Edition | String | The edition of the application to display the options for. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
@@ -1175,11 +1084,10 @@ Echo the options used to install a currently installed application.
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -1191,16 +1099,14 @@ Echo the options used to install a currently installed application.
 
 Enable automatic start/loading of the application
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Application Name | String | The name of an Application | Yes |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
 | Port | String | The port to connect to. | No |
@@ -1210,7 +1116,6 @@ Enable automatic start/loading of the application
 
 Enable automatic synchronization on nodes.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
@@ -1218,11 +1123,10 @@ Enable automatic synchronization on nodes.
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
 | Node Names | String | A list of node names to enable automatic synchronization on, separated by newline characters. Leave blank for all nodes in cell. | No |
@@ -1236,18 +1140,16 @@ Enable automatic synchronization on nodes.
 
 Run a batch script generated from plug-in steps.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -1260,24 +1162,21 @@ Run a batch script generated from plug-in steps.
 
 Run a Jython or JACL script with the wsadmin tool.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Delete Script File On Failure | Boolean | Select to delete the temporary script file if the step fails. | No |
 | Host | String | The host name of the server to connect to. | No |
-| Language | Enumeration:
-* jython
-* jacl
-| The scripting language. | Yes |
+| Language | Enumeration:       | The scripting language. | Yes |
+|                 | - jython    |                         |     |
+|                 | - jacl      |                         |     |
 | Node Name | String | The name of the node to administer. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
 | Port | String | The port to connect to. | No |
@@ -1290,7 +1189,6 @@ Run a Jython or JACL script with the wsadmin tool.
 
 Export an application from the WebSphere server.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
@@ -1300,11 +1198,10 @@ Export an application from the WebSphere server.
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | File Path | String | The absolute path of the exported file. | Yes |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
@@ -1318,16 +1215,14 @@ Export an application from the WebSphere server.
 
 DEPRECATED. Export the data source properties from a Cluster. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Cluster Name | String | The name of the Cluster that the JDBCProvider lives on. | Yes |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Data Source Name | String | The name of the data source to get properties from. | Yes |
 | Host | String | The host name of the server to connect to. | No |
 | JDBCProvider Name | String | The name of the JDBCPRovider that the data source lives on. | Yes |
@@ -1339,15 +1234,13 @@ DEPRECATED. Export the data source properties from a Cluster. This step is depre
 
 DEPRECATED. Export the JVM Heap Size values from a server. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
 | Port | String | The port to connect to. | No |
@@ -1358,30 +1251,26 @@ DEPRECATED. Export the JVM Heap Size values from a server. This step is deprecat
 
 Extracts configuration data in the form of a properties file
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Config Data Key | String | Specifies the configuration object in the format Ex: Node, Server, VirtualHost, etc,. | No |
 | Config Data Value | String | Specifies the corresponding configuration object instance | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
-| Filter Mechanism | Enumeration:
-* none
-* ALL
-* NO\_SUBTYPES
-* SELECTED\_SUBTYPES
-| Specifies filter information for extracting configuration properties. | No |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
+| Filter Mechanism | Enumeration:        | Specifies filter information for extracting configuration properties. | No |
+|                  | - none              |                                                                       |    |
+|                  | - ALL               |                                                                       |    |
+|                  | - NO_SUBTYPES       |                                                                       |    |
+|                  | - SELECTED_SUBTYPES |                                                                       |    |
 | Host | String | The host name of the server to connect to. | No |
 | Options Key | String | Specifies additional configuration options, such as GenerateTemplates, PortablePropertiesFile, etc,.. | No |
-| Options Value | Enumeration:
-* none
-* true
-* false
-| Specifies additional configuration options value. | No |
+| Options Value | Enumeration: | Specifies additional configuration options value. | No |
+|               | - none       |                                                   |    |
+|               | - true       |                                                   |    |
+|               | - false      |                                                   |    |
 | Password | Password | The password for connecting to the WebSphere node. | No |
 | Port | String | The port to connect to. | No |
 | Properties File Name | String | The name of the file to store the properties extracted from configuration | Yes |
@@ -1394,7 +1283,6 @@ Extracts configuration data in the form of a properties file
 
 Generate a WebSphere plug-in for web servers.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
@@ -1403,11 +1291,10 @@ Generate a WebSphere plug-in for web servers.
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Configuration Repo Root Directory | String | The root directory of the configuration repository for the plug-in. | Yes |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Delete Script File On Failure | Boolean | Select to delete the temporary script file if the step fails. | No |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
@@ -1424,46 +1311,41 @@ Generate a WebSphere plug-in for web servers.
 
 Import an asset from an enterprise bundle archive (EBA) file
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | EBA File | String | The location of the EBA file to import. | Yes |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
 | Port | String | The port to connect to. | No |
 | Server Name | String | The name of the server to administer. | No |
-| Storage Type | Enumeration:
-* FULL
-* METADATA
-* NONE
-| The storage type for the imported asset. | Yes |
+| Storage Type    | Enumeration: | The storage type for the imported asset.            | Yes |
+|                 | - FULL      |                                                      |     |
+|                 | - METADATA  |                                                      |     |
+|                 | - NONE      |                                                      |     |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
 ### Import DataSource Properties into Cluster DEPRECATED
 
 DEPRECATED. Import the data source properties into a Cluster. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Cluster Name | String | The name of the Cluster that the JDBCProvider lives on. | Yes |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Timeout | String | The Connection Timeout to use. | Yes |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | DataSource Name | String | The name of the data source to import properties into. | Yes |
 | Host | String | The host name of the server to connect to. | No |
 | JDBCProvider Name | String | The name of the JDBCPRovider that the data source lives on. | Yes |
@@ -1476,16 +1358,14 @@ DEPRECATED. Import the data source properties into a Cluster. This step is depre
 
 DEPRECATED. Import the JVM Heap Size values for all servers in a cluster. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Cluster Name | String | The name of the Cluster whose heap size is to be updated. | Yes |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Initial Heap Size | String | The initial heap size to use for all servers in this cluster. | Yes |
 | Maximum Heap Size | String | The initial heap size to use for all servers in this cluster. | Yes |
@@ -1496,7 +1376,6 @@ DEPRECATED. Import the JVM Heap Size values for all servers in a cluster. This s
 ### Install Application
 
 Install an application to a WebSphere server or cluster. If you are installing an application at the cell scope, then the Options String must contain a -MapModulesToServers argument to indicate which servers/clusters are affected.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -1509,11 +1388,10 @@ Install an application to a WebSphere server or cluster. If you are installing a
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Context Root | String | The context root for this application. | No |
 | Edition Description | String | The description of the edition of the application, which is used for a WebSphere reference. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
 | Host | String | The host name of the server to connect to. | No |
@@ -1529,7 +1407,6 @@ Install an application to a WebSphere server or cluster. If you are installing a
 
 Install an OSGI bundle to WebSphere Application Server.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
@@ -1537,11 +1414,10 @@ Install an OSGI bundle to WebSphere Application Server.
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -1552,7 +1428,6 @@ Install an OSGI bundle to WebSphere Application Server.
 ### Install Or Update Application
 
 Install or update an application on a WebSphere server or cluster. If you are installing or updating an application at the cell scope, then the Options String must contain a -MapModulesToServers argument to indicate which servers/clusters are affected.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -1565,11 +1440,10 @@ Install or update an application on a WebSphere server or cluster. If you are in
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Context Root | String | The context root for this application. | No |
 | Edition Description | String | The description of the edition of the application, which is used for a WebSphere reference. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
 | Host | String | The host name of the server to connect to. | No |
@@ -1586,15 +1460,13 @@ Install or update an application on a WebSphere server or cluster. If you are in
 
 Sets the conditional trace specification for a web server. Use this operation to configure conditional tracing from the web server plug-in.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | Yes |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -1609,25 +1481,21 @@ Sets the conditional trace specification for a web server. Use this operation to
 
 Adds a remote cell to the list of cells for a web server. This operation enables a web server to extend the Intelligent Management service to multiple cells.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
-| Enable Remote Cell Connectors | Enumeration:
-* none
-* true
-* false
-| Enables Intelligent Management remote cell connectors. Valid values are true or false | No |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
+| Enable Remote Cell Connectors | Enumeration: | Enables Intelligent Management remote cell connectors. Valid values are true or false | No |
+|                               | - none       |                                                      |     |
+|                               | - true       |                                                      |     |
+|                               | - false      |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
-| Import Certificates | Enumeration:
-* true
-* false
-| Specifies whether to import certificates. Valid values are true or false | Yes |
+| Import Certificates | Enumeration:  | Specifies whether to import certificates. Valid values are true or false | Yes |
+|                     | - true        |                                                      |     |
+|                     | - false       |                                                      |     |
 | Node Name | String | The name of the node to administer. | Yes |
 | Password | Password | The password for connecting to the WebSphere node. | No |
 | Port | String | The port to connect to. | No |
@@ -1644,19 +1512,16 @@ Adds a remote cell to the list of cells for a web server. This operation enables
 
 Removes a remote cell from the list of cells for this web server
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
-| Enable Remote Cell Connectors | Enumeration:
-* true
-* false
-| Enables Intelligent Management remote cell connectors. Valid values are true or false | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
+| Enable Remote Cell Connectors | Enumeration: | Enables Intelligent Management remote cell connectors. Valid values are true or false | Yes |
+|                               | - true       |                                                      |     |
+|                               | - false      |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | Yes |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -1671,15 +1536,13 @@ Removes a remote cell from the list of cells for this web server
 
 Disable the Websphere application server Intelligent management.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | Yes |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -1692,16 +1555,14 @@ Disable the Websphere application server Intelligent management.
 
 Enable the Websphere application server Intelligent management.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Cell Name | String | The name of the cell to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Maximum Retries | String | Specifies the maximum number of retries for enabling the Intelligent Management service(zero, positive integer or infinite) | No |
 | Node Name | String | The name of the node to administer. | Yes |
@@ -1716,16 +1577,14 @@ Enable the Websphere application server Intelligent management.
 
 Generates a plug-in that is required by the web server. The plug-in configuration file stores all your Intelligent Management settings.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Cell Name | String | The name of the cell to administer. | Yes |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Deployment Manager Directory | String | Specifies the deployment manager profile directory. | Yes |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | Yes |
@@ -1739,15 +1598,13 @@ Generates a plug-in that is required by the web server. The plug-in configuratio
 
 Lists the remote cells for a web server which are available for Intelligent Management service
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | Yes |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -1760,15 +1617,13 @@ Lists the remote cells for a web server which are available for Intelligent Mana
 
 List Trace Rules for a web server.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | Yes |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -1781,16 +1636,14 @@ List Trace Rules for a web server.
 
 Modifies Intelligent Management properties for a web server. Use this operation to configure your Intelligent Management service
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Cell Name | String | The name of the cell to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Maximum Retries | String | Specifies the maximum number of retries for enabling the Intelligent Management service(zero, positive integer or infinite) | No |
 | Node Name | String | The name of the node to administer. | Yes |
@@ -1805,20 +1658,17 @@ Modifies Intelligent Management properties for a web server. Use this operation 
 
 Modifies a remote cell for a web server. Use this operation to change remote cell properties.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
-| Enable Remote Cell Connectors | Enumeration:
-* none
-* true
-* false
-| Enables Intelligent Management remote cell connectors. Valid values are true or false | No |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
+| Enable Remote Cell Connectors | Enumeration: | Enables Intelligent Management remote cell connectors. Valid values are true or false | No |
+|                               | - none       |                                                      |     |
+|                               | - true       |                                                      |     |
+|                               | - false      |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | Yes |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -1834,15 +1684,13 @@ Modifies a remote cell for a web server. Use this operation to change remote cel
 
 Use this operation to refresh the local cell connectors for your web server.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | Yes |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -1855,15 +1703,13 @@ Use this operation to refresh the local cell connectors for your web server.
 
 Use this operation to refresh the remote cell connectors for your web server.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | Yes |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -1880,15 +1726,13 @@ Use this operation to refresh the remote cell connectors for your web server.
 
 Removes a conditional trace rule from your web server. Use this operation to manage the conditional trace rules in your environment.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | Yes |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -1901,15 +1745,13 @@ Removes a conditional trace rule from your web server. Use this operation to man
 
 Sets the default trace rule for a web server.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | Yes |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -1923,16 +1765,14 @@ Sets the default trace rule for a web server.
 
 Return the list of nodes the cluster is running on and set it as an output property in the format ``${p:stepName/nodeList}``
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Cluster Name | String | The name of the WebSphere cluster | Yes |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
 | Port | String | The port to connect to. | No |
@@ -1941,7 +1781,6 @@ Return the list of nodes the cluster is running on and set it as an output prope
 ### Map Resource References to EJB for Application
 
 Update the resource reference mappings for an enterprise application.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -1952,11 +1791,10 @@ Update the resource reference mappings for an enterprise application.
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -1970,7 +1808,6 @@ Update the resource reference mappings for an enterprise application.
 
 Map users to roles for an enterprise application.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
@@ -1980,11 +1817,10 @@ Map users to roles for an enterprise application.
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -1998,7 +1834,6 @@ Map users to roles for an enterprise application.
 
 Modify the class loader settings for an application and associated web modules.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
@@ -2009,11 +1844,10 @@ Modify the class loader settings for an application and associated web modules.
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -2028,7 +1862,6 @@ Modify the class loader settings for an application and associated web modules.
 
 Remove an OSGI bundle from WebSphere Application Server.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
@@ -2037,11 +1870,10 @@ Remove an OSGI bundle from WebSphere Application Server.
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -2053,7 +1885,6 @@ Remove an OSGI bundle from WebSphere Application Server.
 
 Restart an application on a WebSphere server or cluster.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
@@ -2063,11 +1894,10 @@ Restart an application on a WebSphere server or cluster.
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -2080,18 +1910,16 @@ Restart an application on a WebSphere server or cluster.
 
 Restart a WebSphere server or cluster.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Delete Script File On Failure | Boolean | Select to delete the temporary script file if the step fails. | No |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
@@ -2104,7 +1932,6 @@ Restart a WebSphere server or cluster.
 
 Atomically roll out an edition of a WebSphere enterprise application.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
@@ -2114,11 +1941,10 @@ Atomically roll out an edition of a WebSphere enterprise application.
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Drainage Interval | String | Specifies the number of seconds to wait before stopping an application edition instance during the rollout so that sessions can complete. | Yes |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
@@ -2134,7 +1960,6 @@ Atomically roll out an edition of a WebSphere enterprise application.
 
 Roll out an edition of a WebSphere enterprise application in groups.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
@@ -2144,11 +1969,10 @@ Roll out an edition of a WebSphere enterprise application in groups.
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Drainage Interval | String | Specifies the number of seconds to wait before stopping an application edition instance during the rollout so that sessions can complete. | Yes |
 | Group Size | String | The size of the group for rolling out. | Yes |
 | Host | String | The host name of the server to connect to. | No |
@@ -2164,7 +1988,6 @@ Roll out an edition of a WebSphere enterprise application in groups.
 ### Set Application Defaults
 
 Generate default IBM WebSphere Bindings for the specified EAR file.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -2187,7 +2010,6 @@ Generate default IBM WebSphere Bindings for the specified EAR file.
 
 Start an application on a WebSphere server or cluster. If you are starting an application at the cell scope, the module list of the installed application is checked to determine which servers/clusters are started.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
@@ -2197,11 +2019,10 @@ Start an application on a WebSphere server or cluster. If you are starting an ap
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -2214,7 +2035,6 @@ Start an application on a WebSphere server or cluster. If you are starting an ap
 
 Start a business-level application.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
@@ -2222,11 +2042,10 @@ Start a business-level application.
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Edition | String | The edition of the business-level application to start, if more than one edition exists. | No |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
@@ -2239,18 +2058,16 @@ Start a business-level application.
 
 Start a WebSphere server or cluster.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Delete Script File On Failure | Boolean | Select to delete the temporary script file if the step fails. | No |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
@@ -2264,7 +2081,6 @@ Start a WebSphere server or cluster.
 
 Stop an application on a WebSphere server or cluster. If you are stopping an application at the cell scope, the module list of the installed application is checked to determine which servers/clusters are stopped.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Application Edition | String | The edition of the application to stop. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
@@ -2273,11 +2089,10 @@ Stop an application on a WebSphere server or cluster. If you are stopping an app
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -2290,7 +2105,6 @@ Stop an application on a WebSphere server or cluster. If you are stopping an app
 
 Stop a business-level application.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
@@ -2298,11 +2112,10 @@ Stop a business-level application.
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Edition | String | The edition of the business-level application to stop, if more than one edition exists. | No |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
@@ -2315,18 +2128,16 @@ Stop a business-level application.
 
 Stop a WebSphere server or cluster.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Delete Script File On Failure | Boolean | Select to delete the temporary script file if the step fails. | No |
 | Host | String | The host name of the server to connect to. | No |
 | Immediate Stop | Boolean | Call the stopImmediate operation instead of the stop operation. This is supported only when stopping clusters. | No |
@@ -2340,18 +2151,16 @@ Stop a WebSphere server or cluster.
 
 Synchronize all nodes in a cell.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Delete Script File On Failure | Boolean | Select to delete the temporary script file if the step fails. | No |
 | Full Synchronize | Boolean | Select to run a full synchronization. Clear to run a normal synchronization. | No |
 | Host | String | The host name of the server to connect to. | No |
@@ -2367,18 +2176,16 @@ Synchronize all nodes in a cell.
 
 Stop a WebSphere server or cluster. For advanced users only. Use this step only after a Stop Server or Stop Cluster step has failed to stop the server or cluster. Sets the output property only if any of the node agents are inactive ``${p:stepName/checkNodeAgent}``
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Delete Script File On Failure | Boolean | Select to delete the temporary script file if the step fails. | No |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
@@ -2391,7 +2198,6 @@ Stop a WebSphere server or cluster. For advanced users only. Use this step only 
 
 Uninstall an application from a WebSphere server or cluster.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
@@ -2401,11 +2207,10 @@ Uninstall an application from a WebSphere server or cluster.
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -2418,7 +2223,6 @@ Uninstall an application from a WebSphere server or cluster.
 
 Update an application on a WebSphere server or cluster.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
@@ -2428,27 +2232,24 @@ Update an application on a WebSphere server or cluster.
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Content Path | String | The location of the content to use to update the application. | Yes |
-| Content Type | Enumeration:
-* app
-* file
-* modulefile
-* partialapp
-| The content type of the update. | Yes |
+| Content Type | Enumeration: | The content type of the update. | Yes |
+|              | - app        |                                 |     |
+|              | - file       |                                 |     |
+|              | - modulefile |                                 |     |
+|              | - partialapp |                                 |     |
 | Content URI | String | If content type is file, specify the location of the file to update, relative to the EAR root. | No |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
-| Operation | Enumeration:
-* update
-* add
-* delete
-* addupdate
-| The operation to complete during the update. You must select Update to complete an application update or a partial application update. | Yes |
+| Operation | Enumeration: | The operation to complete during the update. You must select Update to complete an application update or a partial application update. | Yes |
+|           | - update |                                 |     |
+|           | - add    |                                 |     |
+|           | - delete |                                 |     |
+|           | - addupdate |                                 |     |
 | Options String | String | The string of options to concatenate to the update command. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
 | Port | String | The port to connect to. | No |
@@ -2460,7 +2261,6 @@ Update an application on a WebSphere server or cluster.
 
 Call the AdminTask.updateAppOnCluster command to start a rolling update of an application.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
@@ -2470,11 +2270,10 @@ Call the AdminTask.updateAppOnCluster command to start a rolling update of an ap
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -2488,7 +2287,6 @@ Call the AdminTask.updateAppOnCluster command to start a rolling update of an ap
 
 Update the context root for the specified web module(s) of the installed application.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
@@ -2498,11 +2296,10 @@ Update the context root for the specified web module(s) of the installed applica
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Context Root For Web Module | String | The web modules and context roots to update. Specify a list, separated by newline characters, in the following format: moduleName->uri->contextRoot. For example: PlantsByWebSphere Web Application->PlantsByWebSphere.war,WEB-INF/web.xml->/PlantsByWebSphere | Yes |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
@@ -2516,15 +2313,13 @@ Update the context root for the specified web module(s) of the installed applica
 
 DEPRECATED. Create or Update J2EEResourceProperty on a config object. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Object Containment Path | String | The containment path to the object on which to update attribute. i.e. /Cell:cellName/ServerCluster:clusterName/. Note, it must end with a / | Yes |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -2538,16 +2333,14 @@ DEPRECATED. Create or Update J2EEResourceProperty on a config object. This step 
 
 DEPRECATED. Update simple attribute on a config object. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Attribute Name | String | The attribute name to update the value of. | Yes |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Object Containment Path | String | The containment path to the object on which to update attribute. i.e. /Cell:cellName/ServerCluster:clusterName/. Note, it must end with a / | Yes |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -2559,7 +2352,6 @@ DEPRECATED. Update simple attribute on a config object. This step is deprecated.
 
 Update the virtual host for the specified web module(s) of the installed application.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
@@ -2569,11 +2361,10 @@ Update the virtual host for the specified web module(s) of the installed applica
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -2587,44 +2378,39 @@ Update the virtual host for the specified web module(s) of the installed applica
 
 Update the properties in WebSpheres soap.client.props file.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional Properties to Set | String | New line separated list of additional properties to set, where the variable name and value are delimited by an equals character. For example: com.ibm.SOAP.authenticationTarget=BasicAuth. Variables will be replaced, not added, and unencrypted. | No |
-| Authentication Target | Enumeration:
-* ignore
-* BasicAuth
-* KRB5
-| The method of authorization. BasicAuth and KRB5 are the only supported selections on a pure JMX SOAP Connector Client. Use the additional arguments property if you need to add a different property. | No |
+| Authentication Target | Enumeration: | The method of authorization. BasicAuth and KRB5 are the only supported selections on a pure JMX SOAP Connector Client. Use the additional arguments property if you need to add a different property. | No |
+|                       | - ignore         |                                                                                                 |    |
+|                       | - BasicAuth     |                                                                                                 |    |
+|                       | - KRB5         |                                                                                                 |    |
 | Encode Password | Boolean | Select to encode the password in the soap.client.props file. | No |
 | Password | Password | The password for connecting to the WebSphere node. Set to update the com.ibm.SOAP.loginPassword property. | No |
 | Profile Path | String | The directory location of the WebSphere profile to use. For example: /opt/IBM/WebSphere/Profiles/DefaultDmgr01 | Yes |
-| Security Enabled | Enumeration:
-* ignore
-* false
-* true
-| Select to enable authentication through the variables configured in the soap.client.props file. | No |
+| Security Enabled | Enumeration: | Select to enable authentication through the variables configured in the soap.client.props file. | No |
+|                  | - ignore     |                                                                                                 |    |
+|                  | - false      |                                                                                                 |    |
+|                  | - true       |                                                                                                 |    |
 | User Name | String | The user name for connecting to the WebSphere node. Set to update the com.ibm.SOAP.loginUserid property. | No |
 
 ### Validate Configuration Properties
 
 Validate the WebSphere configuration properties in the specified properties file.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
 | Port | String | The port to connect to. | No |
 | Properties File Name | String | The name of the properties file to validate. | Yes |
 | Report File Name | String | The name of a report file that contains the output for the applyConfigProperties command. | No |
-| Report Filter Mechanism | String | The type of report filter mechanism. Specify All to display all report information. Specify Errors to display error information. Specify Errors\_And\_Changes to display error and change information. | No |
+| Report Filter Mechanism | String | The type of report filter mechanism. Specify All to display all report information. Specify Errors to display error information. Specify Errors_And_Changes to display error and change information. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 | Variables Map | String | The values of the variables to use with the properties file. | No |
 | Variables Map File Name | String | The name of the variables map file. This file contains values for variables that the system uses from the properties file. | No |
@@ -2633,7 +2419,6 @@ Validate the WebSphere configuration properties in the specified properties file
 ### Validate Edition Using Dynamic Cluster
 
 Validate an edition using a dynamic cluster.
-
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
@@ -2644,11 +2429,10 @@ Validate an edition using a dynamic cluster.
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Maximum Size | String | The maximum size of the dynamic cluster. | Yes |
 | Minimum Size | String | The minimum size of the dynamic cluster. | Yes |
@@ -2663,7 +2447,6 @@ Validate an edition using a dynamic cluster.
 
 Validate an edition using a static cluster.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
@@ -2674,11 +2457,10 @@ Validate an edition using a static cluster.
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Cluster Size | String | The size of the static cluster. | Yes |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Node Name | String | The name of the node to administer. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
@@ -2691,7 +2473,6 @@ Validate an edition using a static cluster.
 
 Wait for an application to be ready on the WebSphere server or cluster.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
@@ -2700,11 +2481,10 @@ Wait for an application to be ready on the WebSphere server or cluster.
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Delete Script File On Failure | Boolean | Select to delete the temporary script file if the step fails. | No |
 | Host | String | The host name of the server to connect to. | No |
 | Inverval(Seconds) | String | The time, in seconds, to wait between status checks. | Yes |
@@ -2719,18 +2499,16 @@ Wait for an application to be ready on the WebSphere server or cluster.
 
 Wait for a server or cluster to start.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Delete Script File On Failure | Boolean | Select to delete the temporary script file if the step fails. | No |
 | Host | String | The host name of the server to connect to. | No |
 | Inverval(Seconds) | String | The time, in seconds, to wait between status checks. | Yes |
@@ -2745,18 +2523,16 @@ Wait for a server or cluster to start.
 
 Wait for a server or cluster to stop.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Delete Script File On Failure | Boolean | Select to delete the temporary script file if the step fails. | No |
 | Host | String | The host name of the server to connect to. | No |
 | Inverval(Seconds) | String | The time, in seconds, to wait between status checks. | Yes |
@@ -2771,7 +2547,6 @@ Wait for a server or cluster to stop.
 
 This step discovers if Websphere is on an agent by checking common installation paths. If WebSphere is installed, the step assigns the WebSphereCell role to the resource and sets the command path property.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Path Override | String | Override the path to the wsadmin tool. | No |
@@ -2783,15 +2558,13 @@ This step discovers if Websphere is on an agent by checking common installation 
 
 This step discovers all the nodes, servers, and clusters in a cell and creates resources for each under a root resource, applies the correct roles, and sets the role properties. This step can be called directly or from an Update from Live Configuration wrapper step.
 
-
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
-| Connection Type | Enumeration:
-* SOAP
-* RMI
-* NONE
-| The type of connection to use with the wsadmin tool. | Yes |
+| Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
+|                 | * SOAP       |                                                      |     |
+|                 | * RMI        |                                                      |     |
+|                 | * NONE       |                                                      |     |
 | Host | String | The host name of the server to connect to. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
 | Port | String | The port to connect to. | No |
@@ -2799,8 +2572,6 @@ This step discovers all the nodes, servers, and clusters in a cell and creates r
 | Resource | String | The resource to configure. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 | wsadmin Max Heap | String | The javaoption passed to the wsadmin command. | No |
-
-
 
 |Back to ...||Latest Version|WebSphere Application Server - Deployment |||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |

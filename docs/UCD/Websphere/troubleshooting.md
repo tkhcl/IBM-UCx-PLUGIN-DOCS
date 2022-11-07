@@ -1,50 +1,40 @@
 
-WebSphere Application Server - Deployment - Troubleshooting
-===========================================================
+# WebSphere Application Server - Deployment - Troubleshooting
 
-# Troubleshooting
+## Troubleshooting
 
-
-### Troubleshooting
-
-
-
-* + [General Troubleshooting](#general_troubleshooting)
-+ [Start Server step](#start_server_step)
-+ [WebSphere Topology Discovery step](#websphere_topology_discovery_step)
-+ [Additional CommandLine Arguments field](#additional_command_line_arguments)
-+ [File Path field](#file_path_field)
-+ [Autodiscovery fails and no logs are available](#autodisc-logs)
+- [WebSphere Application Server - Deployment - Troubleshooting](#websphere-application-server---deployment---troubleshooting)
+  - [Troubleshooting](#troubleshooting)
+    - [General Troubleshooting](#general-troubleshooting)
+    - [Start Server step](#start-server-step)
+    - [WebSphere Topology Discovery step](#websphere-topology-discovery-step)
+    - [Additional CommandLine Arguments field](#additional-commandline-arguments-field)
+    - [File Path field](#file-path-field)
+    - [Autodiscovery fails and no logs are available](#autodiscovery-fails-and-no-logs-are-available)
 
 ### General Troubleshooting
 
 If a step in this plugin fails, the first check is to verify that it is possible to run wsadmin on the command line, with the same user that runs the step and with the same connection parameters. You should run the wsadmin command on the same system where the UCD agent is running.
 
-* + 1. Determine which user is running the step
-- If the step is running with impersonation, you can see the user and group at the top of the step output.
-- If the step is not running with impersonation, then the user is the one running the agent process. You can find the user by running the Linux/Unix command: **ps -ef | grep java** or looking at the Task Manager in Windows.
+1. Determine which user is running the step
+   - If the step is running with impersonation, you can see the user and group at the top of the step output.
+   - If the step is not running with impersonation, then the user is the one running the agent process. You can find the user by running the Linux/Unix command: **ps -ef | grep java** or looking at the Task Manager in Windows.
 2. Login as the user determined in item 1
 3. Determine what is the path to wsadmin used by the step. This can be seen looking at the property: **commandPath=C:\IBM\WebSphere\AppServer\profiles\Dmgr01\bin** contained in the step output.
 4. Determine what are the connection parameters passed to wsadmin. This can be seen by looking at the properties:
 
-```
+```ini
 connType=SOAP
 user=wasadmin
 host=localhost
 port=8879
 
 ```
+
 5. Create a sample jython script called ListApplications.jython with this text: **print AdminApp.list()**
 6. Specify the arguments for wsadmin based on the connection parameters listed above:
-
-```
-**Windows:**
-*commandPath*\wsadmin.bat -lang jython -conntype *[connType]* -host *[host]* -port *[port]* -user *[user]* -password *[password]* -f ListApplications.jython
-
-**Unix/Linux**
-*commandPath*/wsadmin -lang jython -conntype *[connType]* -host *[host]* -port *[port]* -user *[user]* -password *[password]* -f ListApplications.jython
-
-```
+**Windows:** ``*commandPath*\wsadmin.bat -lang jython -conntype *[connType]* -host *[host]* -port *[port]* -user *[user]* -password *[password]* -f ListApplications.jython``
+**Unix/Linux** ``*commandPath*/wsadmin -lang jython -conntype *[connType]* -host *[host]* -port *[port]* -user *[user]* -password *[password]* -f ListApplications.jython``
 
 If the connection fails with connType of SOAP, try using a connType of RMI.
 
@@ -70,8 +60,7 @@ Note: If you call this step from a generic process, the resource that you specif
 
 The **Additional CommandLine Arguments** field for process steps that install or update applications is a text box. Enter each argument on a separate line of the text box. For example, to send the arguments -javaoption -Xms256m -javaoption -Xmx512m, specify the following text for the **Additional CommandLine Arguments** field:
 
-
-```
+```ini
 -javaoption
 -Xms256m
 -javaoption
@@ -86,12 +75,11 @@ The **File Path** field for the **Export Application** step must be an absolute 
 
 If discovery fails and no logs are available, complete this troubleshooting procedure to resolve the issue:
 
-* + 1. If the `wsadmin` file is in a different location than one of the default locations, specify an agent property named **`wsadmin.path`** on the agent. Then, specify the location of the `wsadmin` file as the value of this property: `/opt/IBM/WebSphere/AppServer/bin/wsadmin.sh`.
+1. If the `wsadmin` file is in a different location than one of the default locations, specify an agent property named **`wsadmin.path`** on the agent. Then, specify the location of the `wsadmin` file as the value of this property: `/opt/IBM/WebSphere/AppServer/bin/wsadmin.sh`.
 2. Set the **`websphere.profilePath`** property on the top-level group in your resource tree in the following form: `/opt/IBM/WebSphere/Profiles/,/opt/IBM/WebSphere/Profiles/AppSrv01/bin/wsadmin.sh`.
 3. After you set the `**wsadmin.path**` property on the agent and the `**websphere.profilePath**` property on the top-level group in your resource tree (that is, the folder that is to be the parent of the discovered cell), add your agent as a child of the top-level group in your resource tree. The action of adding the agent to the top-level group starts the autodiscovery to run. If you add the properties above both the agent and the top-level group *after* mapping the agent as a child of the top-level group, then discovery does not run, and a new cell folder under your agent is not created. Furthermore, a log for the discovery process is not produced. The cell folder and the log are not produced, because discovery does not run. You must add the properties *before* you map the agent into the top-level group in the resource tree. If you map the agent into your resource tree and then add the described properties, you must remove the agent from your resource tree, and then map it to the resource tree again (the same place is fine) to start the autodiscovery process.
 
 This video also shows provides information about [the autodiscovery process](https://www.urbancode.com/resource/auto-discovery-and-auto-configuration-in-plugins/).
-
 
 |Back to ...||Latest Version|WebSphere Application Server - Deployment |||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |

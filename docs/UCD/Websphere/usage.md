@@ -1,50 +1,42 @@
 
-WebSphere Application Server - Deployment - Usage
-=================================================
+# WebSphere Application Server - Deployment - Usage
 
-# Usage
+## Usage
 
+- [WebSphere Application Server - Deployment - Usage](#websphere-application-server---deployment---usage)
+  - [Usage](#usage)
+    - [Specifying multiple profiles](#specifying-multiple-profiles)
+    - [Specify websphere.profilePath property](#specify-websphereprofilepath-property)
+      - [Values for the websphere.profilePath property</h4](#values-for-the-websphereprofilepath-propertyh4)
+    - [Specify wsadmin.path property](#specify-wsadminpath-property)
+    - [Do not specify any properties](#do-not-specify-any-properties)
+      - [Example: Installing an EAR file on WebSphere Application Server](#example-installing-an-ear-file-on-websphere-application-server)
 
-### Usage
-
-
-
-* [Specifying multiple profiles with the websphere.profilePath property](#specifying-multiple-profiles-with-the-websphere-profilepath-property)
-* [Deploying WebSphere applications to multiple clusters in the same cell](https://www.urbancode.com/resource/deploying-websphere-applications-to-multiple-clusters-in-the-same-cell/)
-* [Example: Installing the PlantsbyWebSphere application](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2022/06/16/example-installing-the-plantsbywebsphere-applicati)
-
-Specifying multiple profiles
-----------------------------
+### Specifying multiple profiles
 
 If you have multiple profiles defined for your WebSphere installation, you may discover all the profiles by using one of the following methods:
 
-
-
-
 ### Specify websphere.profilePath property
-
-
-
 
 Specify multiple profiles to collect information for multiple cells, either for the top-level group or for the agent.
 
 You specify multiple profiles during deployment. You specify them in a `websphere.profilePath` property in 1 of 2 places:
 
-* *Top-level group*: Set the `websphere.profilePath` here to collect profiles from multiple cells that are deployed across multiple hosts. All hosts must use the same installation directory for the cell.
-* *Agent*: Set the `websphere.profilePath` here to collect profiles for multiple profiles on the same host.
+- *Top-level group*: Set the `websphere.profilePath` here to collect profiles from multiple cells that are deployed across multiple hosts. All hosts must use the same installation directory for the cell.
+- *Agent*: Set the `websphere.profilePath` here to collect profiles for multiple profiles on the same host.
 
 #### Values for the websphere.profilePath property</h4
 
 Specify one or more paths as the property value. Separate multiple paths with a comma. The paths can be one of the following types:
 
-* A path to a profile. The path does not have to specify `/bin/wsadmin.sh`, but autodiscovery works with paths that do.
-* A path to a container directory of profiles. In this case, the autodiscovery code loops over each first-level directory. It registers base and ND profiles. It skips node and server profiles.
+- A path to a profile. The path does not have to specify `/bin/wsadmin.sh`, but autodiscovery works with paths that do.
+- A path to a container directory of profiles. In this case, the autodiscovery code loops over each first-level directory. It registers base and ND profiles. It skips node and server profiles.
 
 When you specify multiple profiles, the following values are read during autodiscovery:
 
-* SOAP port (read from `portdef.properties`)
-* profile path
-* installation path
+- SOAP port (read from `portdef.properties`)
+- profile path
+- installation path
 
 Example value with two container directories and one profile path:`"/opt/IBM/WebSphere/Profiles/,/opt/WAS/Profiles,/opt/IBM/profiles/dmgr"`
 
@@ -54,20 +46,14 @@ Example: `/opt/IBM/WebSphere/Profiles` and `/opt/WAS/Profiles` both contain a `d
 
 If you encounter this situation, you can work around it by creating a separate top-level group and segregate the profile directories.
 
-
-
-
 ### Specify wsadmin.path property
-
-
-
 
 Starting in version 109, you can also discover multiple profiles if you specify the following property: **wsadmin.path** on the Agent and make it refer to the wsadmin command located in the installation directory of WebSphere Application Server, as follows:
 
-* Navigate to Resources > Agents
-* Select the desired Agent name
-* Select Configuration > Agent properties
-* Add the property: **wsadmin.path** with the value: *WAS\_HOME*\bin\wsadmin.bat or *WAS\_HOME*/bin/wsadmin.sh where *WAS\_HOME* is the installation directory of WebSphere Application Server.
+- Navigate to Resources > Agents
+- Select the desired Agent name
+- Select Configuration > Agent properties
+- Add the property: **wsadmin.path** with the value: *WAS\_HOME*\bin\wsadmin.bat or *WAS\_HOME*/bin/wsadmin.sh where *WAS\_HOME* is the installation directory of WebSphere Application Server.
 
 In this case, all the profiles listed in *WAS\_HOME*\properties\profileRegistry.xml will be discovered.
 
@@ -95,8 +81,6 @@ The plug-in now includes component templates. The component templates include pr
 10. The **Wait for Application** step introduces a delay to allow time for the application to start.
 
 [![DeployEARprocess](deployearprocess.gif)](deployearprocess.gif)
-
-
 
 |Back to ...||Latest Version|WebSphere Application Server - Deployment |||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
