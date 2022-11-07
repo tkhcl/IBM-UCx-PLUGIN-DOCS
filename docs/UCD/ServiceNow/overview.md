@@ -16,7 +16,7 @@ The ServiceNow plug-in includes steps that check approvals and set the status of
 
 To add the ServiceNow plug-in steps to processes, click **ITSM Process > ServiceNow** in the step palette of the process editor.
 
-Follow this link to learn how to generate the Client-ID and Client-Secret for authenticating the plugin using Oauth 2.0
+Follow this link (https://www.youtube.com/watch?v=7Vp1bnnkOps) to learn how to generate the Client-ID and Client-Secret for authenticating the plugin using Oauth 2.0
 
 ### Compatibility
 
