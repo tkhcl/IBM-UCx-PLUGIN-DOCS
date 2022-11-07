@@ -33,8 +33,15 @@ plug-ins in UrbanCode").
 
 Adding UCD Process Properties to Task.
 
-#### Version 4
+#### Version 6
 
+Updated UCR Client to fix typo in default TLS version.
+
+#### Version 5
+
+Updated UCR Client to work with newer versions of TLS.
+
+#### Version 4
 
 Server Host Name and Authentication Token are now required properties.
 
