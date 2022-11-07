@@ -16,6 +16,8 @@ The ServiceNow plug-in includes steps that check approvals and set the status of
 
 To add the ServiceNow plug-in steps to processes, click **ITSM Process > ServiceNow** in the step palette of the process editor.
 
+Follow this link to learn how to generate the Client-ID and Client-Secret for authenticating the plugin using Oauth 2.0
+
 ### Compatibility
 
 This plug-in requires version 6.0 or later of IBM UrbanCode Deploy.
@@ -31,6 +33,10 @@ This plug-in integrates with ServiceNow by using version 1 of the ServiceNow RES
 No special steps are required for installation. See [Installing plug-ins in IBM UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in IBM UrbanCode Deploy").
 
 ### History
+
+#### Version 29
+
+RFE - Add Oauth 2.0 authentication mechanism to ths plugin.
 
 #### Version 28
 
@@ -126,4 +132,4 @@ This version includes a fix for a defect related to the ServiceNow REST API in t
 
 |Back to ...||Latest Version|ServiceNow |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[28.1101338](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ServiceNow-28.1101338.zip)|[Readme](README.md)|[Usage](usage.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[29.1143711](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-29.1143711.zip)|[Readme](README.md)|[Usage](usage.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|
