@@ -67,7 +67,7 @@ BitBucket is a source code version control repository hosting service owned by A
 
 |Back to ...||BitBucket Server |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-bitbucket-server/README.md)|[1.1.24](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-server/ucv-ext-bitbucket-server:1.1.24.tar.7z.001)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-bitbucket-server/README.md)|[1.1.26](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-server/ucv-ext-bitbucket-server:1.1.26.tar.7z.001)|
 
 ## Black Duck
 

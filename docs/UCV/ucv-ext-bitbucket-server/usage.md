@@ -75,7 +75,7 @@ The following tables describe the properties used to configure the integration. 
 |Repository Slug | String | The slug of the repository. | Yes | repositorySlug |
 | Signature Method | String | The name of the signature method for oauth authentication. | No | signature\_method |
 | User Name | String | The user name used to authenticate with the Bitbucket server. | No | username |
-| Additional branches | Array | Additional branches to collect commits from besides the main one, leave blank if not needed. | No | otherBranches |
+| Additional branches | Array | Additional branches to collect commits from besides the main one, leave blank if not needed. Regular Expression is also enabled(ex-PLUGINS*,*) | No | otherBranches |
 
 ## JSON code example
 
@@ -108,4 +108,4 @@ bitbucket-server",
 
 |Back to ...||Latest Version|BitBucket Server |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.24](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-server/ucv-ext-bitbucket-server:1.1.24.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.26](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-server/ucv-ext-bitbucket-server:1.1.26.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
