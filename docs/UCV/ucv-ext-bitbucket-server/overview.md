@@ -22,6 +22,10 @@ DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-bitbucket-server/tags).
 History
 -------
 
+### Version 1.1.26
+
+* Added Regular Expression for Additional Branches field 
+
 ### Version 1.1.24
 
 * **Initial Sync Date Field Added:** Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync.
@@ -84,4 +88,4 @@ build target on Jenkinsfile.
 
 |Back to ...||Latest Version|BitBucket Server |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.24](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-bitbucket-server/ucv-ext-bitbucket-server:1.1.24.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.26](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-server/ucv-ext-bitbucket-server:1.1.26.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
