@@ -10,7 +10,7 @@
 	- [Azure DevOps](#azure-devops)
 	- [BitBucket Server](#bitbucket-server)
 	- [Black Duck](#black-duck)
-	- [CircleCI] (#circleci)
+	- [CircleCI](#circleci)
 	- [Code Coverage](#code-coverage)
 	- [CollabNet VersionOne](#collabnet-versionone)
 	- [Cucumber](#cucumber)
