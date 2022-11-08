@@ -22,7 +22,7 @@ DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-bitbucket-server/tags).
 History
 -------
 
-### Version
+### Version 1.1.26
 
 * Added Regular Expression for Additional Branches field 
 
