@@ -40,6 +40,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 24
+
+* Fixed log4j vulnerability issue .
+
 #### Version 22
 
 * Fixed APAR PH20233 No such property: helper for class: enable.
@@ -95,4 +99,4 @@ Version 9.554208 supports IBM UrbanCode Deploy version 6.0.1 and later. This rel
 
 |Back to ...||Latest Version|JBoss Application Server ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[23.1108451](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JBoss/JBoss-23.1108451.zip)|[Readme](README.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[24.1144778](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JBoss/ucd-JBoss-24.1144778.zip)|[Readme](README.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

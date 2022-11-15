@@ -334,6 +334,7 @@ IBM App Connect Enterprise (ACE) combines the technologies of IBM Integration Bu
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-ace/README.md)|[10.1143319](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-ace/ucd-plugins-ibm-ace-10.1143319.zip)|
 
+
 ## Apple Xcode  [community plugin]
 
 Overview The Apple Xcode plug-in includes steps that manage the continuous delivery of Apple iOS applications by interacting with simulators and devices. These steps include tasks that are related to installing and removing the application on devices and simulators, and running tests as part of a DevOps solution. The plug-in also includes steps for creating and deleting simulators.
@@ -1472,7 +1473,7 @@ JBoss Application Server is a open-source application server for Java EE. This p
 
 |Back to ...||JBoss Application Server |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](JBoss/README.md)|[23.1108451](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JBoss/JBoss-23.1108451.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](JBoss/README.md)|[24.1144778](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JBoss/ucd-JBoss-24.1144778.zip)|
 
 ## JBoss-ON  [community plugin]
 
