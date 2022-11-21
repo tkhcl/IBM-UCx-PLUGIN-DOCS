@@ -3,16 +3,16 @@
 
 ## Overview
 
-The CircleCI plugin synchronizes pipelines, workflows and job executions of a CicleCI project with IBM UrbanCode Velocity. The project can be configured as an application in an IBM UrbanCode Velocity pipeline and CircleCI jobs can be configured in the IBM UrbanCode Velocity pipeline. The IBM UrbanCode Velocity Pipeline displays the latest version of the application deployed to the different environments.
+The CircleCI plugin imports pipeline, workflow, and job execution data of a project from CicleCI and displays it in IBM UrbanCode Velocity. The IBM UrbanCode Velocity Pipeline displays the version of the application that was deployed to different environments. You can configure the CircleCI project as an application in an IBM UrbanCode Velocity pipeline.
 
 ### Compatibility
 
-The CircleCI plug-in requires IBM UrbanCode Velocity version 2.2.0 and later.
+The CircleCI plug-in requires IBM UrbanCode Velocity version 2.2.0 or later.
 
 
 ### Versions
 
-UrbanCode Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-circleci/tags).
+The IBM UrbanCode Velocity plug-in images are located in DockerHub. For available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-circleci/tags).
 
 ## History
 
@@ -22,7 +22,7 @@ UrbanCode Velocity plug-in images are located in DockerHub. To view available ve
 
 ### Version 1.0.18
 
-* reduced Whitesource vulnerabilities
+* Fixed whitesource vulnerabilities
 
 ### Version 1.0.16
 
