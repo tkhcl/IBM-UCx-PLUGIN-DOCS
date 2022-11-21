@@ -7,7 +7,7 @@ To use the Shell plugin, the plugin must be loaded and an instance created befor
 
 To create an instance, locate the plugin on the Plugins page and click **Install**. The plugin is now listed below those plugins to be installed and available for integration. After the integration is complete, the Execute Shell automation task is available for use in a release process.
 
-See the |[Automation task](Automation-task.md)| for information on using automation tasks.
+See the [Automation task](Automation-task.md) for information on using automation tasks.
 
 
 ### Integration
