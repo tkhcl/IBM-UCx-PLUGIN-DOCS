@@ -8,6 +8,7 @@
 - [List of all Plugins](#list-of-all-plugins)
 	- [Apache JMeter](#apache-jmeter)
 	- [Azure DevOps](#azure-devops)
+	- [BitBucket Cloud](#bitbucket-cloud)
 	- [BitBucket Server](#bitbucket-server)
 	- [Black Duck](#black-duck)
 	- [CircleCI](#circleci)
@@ -58,6 +59,16 @@ Azure DevOps (formerly Microsoft Team Foundation Server (TFS) or Microsoft TFS)p
 |Back to ...||Azure DevOps |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-azure/README.md)|[4.0.26](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-azure/ucv-ext-azure-4.0.26.tar.zip)|
+
+## BitBucket Cloud
+
+BitBucket Cloud is a source code version control repository hosting service owned by Atlassian. It contains tools to manage source code for a project.
+
+---
+
+|Back to ...||BitBucket Cloud |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-bitbucket-cloud/README.md)|[1.0.26](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-cloud/ucv-ext-bitbucket-cloud:1.0.26.tar.7z.001)|
 
 ## BitBucket Server
 
