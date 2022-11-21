@@ -3,7 +3,7 @@
 
 ## Overview
 
-The Shell plugin allows you to run the release task in IBM UrbanCode Velocity.
+The Shell plugin allows you to automate the task in IBM UrbanCode Velocity.
 
 ### Compatibility
 
