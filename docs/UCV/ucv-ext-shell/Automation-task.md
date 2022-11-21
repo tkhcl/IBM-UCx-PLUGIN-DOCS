@@ -3,14 +3,14 @@
 
 ## Automation tasks
 
-The following process steps are available in the Shell plugin.
+The following steps are available in the Shell plugin:
    
 - Execute Shell
 
 
 ### Execute Shell
 
-Runs a shell script.
+Select the command to run the shell script.
 
 | Name | Description | Required |
 | --- | --- | --- |
@@ -20,7 +20,7 @@ Runs a shell script.
 
 ### Adding automation tasks to a release
 
-Complete the following steps to include the plugin in a release process.
+To add automation tasks to a release, complete the following steps:
 
  - Click Releases.
  - Create a release or select a release.
@@ -33,6 +33,6 @@ Complete the following steps to include the plugin in a release process.
 
 ```
 
-|Back to ...||Latest Version|Shell |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[0.0.7](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-shell/ucv-ext-shell-0.0.7.tar.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Automation task](Automation-task.md)|
+|Back to ...||Latest Version|||||
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[0.0.7](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-shell/ucv-ext-shell-0.0.7.tar.zip)|[Overview](overview.md)|[Usage](usage.md)|[Automation task](Automation-task.md)|[Downloads](downloads.md)
