@@ -37,6 +37,7 @@
 	- [TestNG](#testng)
 	- [Twistlock](#twistlock)
 	- [Urbancode Deploy](#urbancode-deploy)
+	- [WhiteSource](#whitesource)
 
 # List of all Plugins
 
@@ -348,3 +349,15 @@ The Deploy Plugin for Accelerate imports deployment data from UrbanCode Deploy i
 |Back to ...||Urbancode Deploy |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-ucd/README.md)|[1.0.12](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-ucd/ucv-ext-ucd:1.0.12.tar)|
+
+## WhiteSource
+
+WhiteSource identifies all open source components and their dependencies in software. WhiteSource secures software from vulnerabilities and enforces license policies throughout the software development lifecycle.
+
+The WhiteSource plug-in retrieves WhiteSource scan results and displays the License Risks and Security Vulnerabilities in HCL Accelerate metric displays.
+
+---
+
+|Back to ...||WhiteSource |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-ucd/README.md)|[2.0.15](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-whitesource/ucv-ext-whitesource-2.0.15.tar.zip)|
