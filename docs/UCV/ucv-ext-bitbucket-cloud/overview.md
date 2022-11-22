@@ -44,6 +44,6 @@ DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-bitbucket-cloud/tags).
 
 * Initial Release.
 
-|Back to ...||Latest Version|BitBucket Server |||
+|Back to ...||Latest Version|BitBucket Cloud |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.26](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-cloud/ucv-ext-bitbucket-cloud:1.0.26.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
