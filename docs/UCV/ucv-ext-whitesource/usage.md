@@ -1,159 +1,119 @@
 
-TestNG - Usage
-==============
+# WhiteSource - Usage
 
-# Usage
-
-
-### Usage
+## Usage
 
 
-
-To use the TestNG plug-in, the plug-in must be loaded and an instance created. Load the plug-in into
-the HCL Accelerate container if necessary. From the user interface, click **Settings** > ****Integrations**** >
-**Plugins**. On the Plugins page, locate the plug-in and click **Load Plugin**. To create an instance, locate the plug-
-in and click **Install**. The plug-in is now listed below those plug-ins to be installed and available for invoking.
+To use the WhiteSource plugin, the plugin must be loaded and an instance created before you can configure the plugin integration. 
+You define configuration properties in the user interface or in a JSON file.
 
 
-Integration type
-----------------
-
-The TestNG plug-in is a parser type plug-in. It parses TestNG data sent in a JSON or
-XML file.
-
-Invoking the plug-in
---------------------
-
-To gather data from the TestNG server, send an HTTP Post
-request with the data to parse. Whenever a there is a hit to the endpoint, the data is parsed and displayed as metrics
-in HCL Accelerate. You can use various methods such as Postman, REST calls, CURL, and CI/CD tools like Jenkins to invoke
-the plug-in endpoints.
-
-### **Invoke using Jenkins plug-in**
-
-Install the [UrbanCode Velocity plug-
-in](https://plugins.jenkins.io/urbancode-velocity) into your Jenkins server. In your freestyle job or pipeline use the
-**UCV-Upload Metrics File to UrbanCode Velocity** step and provide the required fields. This step allows your build job
-to upload generated coverage results files to UrbanCode Velocity.
-
-#### Example
+## Integration type
 
 
-```
-
-pipeline {
-agent any
-
-stages {
-stage('testNGMetrics') {
-steps {
-step([$class: 'UploadMetricsFile',  appName:
-'My TestNG Test', dataFormat: '<testngJSON or testngXML>', filePath: '<location of the testng report>', name: 'my-
-testng-test', pluginType: 'testng', tenantId: '<tenant Id>', testSetName: 'testng', metricsRecordUrl:
-"``${env.BUILD_URL}``"])
-}``
-}``
-}``
-}``
-
-```
-
-### **Invoke using a Rest call**
-
-When using a
-REST call to invoke the Code Coverage plug-in, it must be a POST method and include the location of the UrbanCode
-Velocity quality data endpoint.
-
-The following request sample shows a REST call that you can copy and update as
-necessary. Key points about the snippet:
-
-* The URL points to the UrbanCode Velocity quality data endpoint. Update with
-the server location for your installation of UrbanCode Velocity.
-* The BODY of the call is a multipart/form data. It
-includes information about the payload.
+| Name             | Path  | Method |
+| ---------------- | ----- | ------ |
+| WhiteSource Scan | wScan | Post   |
 
 
-```
-
-METHOD: POST
-URL: https://<url_urbancodevelocity_server>/reporting-
-consumer/metrics
-BODY (multipart/form-data):
-{
-payload: <json_object_string> // See below for schema format
-
-testArtifact: <testng JSON/XML>
-}``
-
-```
+## Invoking the plug-in
 
 
-The following shows the schema for the payload. Replace the angle
-brackets with your values for the parameters.
+To gather data from the WhiteSource server, send an HTTP POST request to your endpoint.
 
 
-```
+## Integration
 
-{
-"tenant_id": "<tenant_id>",    // required Tenant ID
+There are two
+methods to integrate the plug-in:
 
-"metricName": "<metric_name>", // optional: name for recurring test set
-"application": {
-"name":
-"<application_name>"  //Name of application
-}``,
-"record": {
-"recordName": "<record_name>", // optional: Name
-for this record
-"executionDate": 1547983466015, // optional: UNIX Epoch
-"pluginType": "testng",
+* Using the user interface
+* Using a JSON file
 
-"dataFormat": "<<data_type>",  // testngJSON or testngXML
-"metricsRecordUrl": "<Jenkins_build_url>" // optional: To
-link the Jenkins build with test results
-}``,
-"build": {  // Optional: One of the following fields must be
-included
-"buildId": "<build_id>",
-"jobExternalId": "<external_job_id>",
-"url": "<build_url>",
-}``,
-
-"commitId": "<commit_id>",  // optional
-"pullRequestId": "<pullrequest_id>", // optional
-"environment":
-"<environment_name>" // optional
-}``
-
-```
-
-### Invoking using Curl
+The tables in the Configuration
+properties topic describe the properties used to define the integration.
 
 
-```
+### Using the user interface
 
-curl --request POST \
---url
-https://*url\_urbancodevelocity\_server>*/reporting-consumer/metrics \
---form 'payload={
-"tenant_id":
-"5ade13625558f2c6688d15ce",
-"application": {
-"name": "My Application"
-}``,
-"record": {
+1. From the Plugins page, click **Settings** > **Integrations** > **Plugins**.
+2. Under the **Action** column for the plug-in, click **Add Integration**.
+3. On the Add Integration page enter values for the fields used to configure the integration and
+define communication.
+4. Click **Save**.
 
-"pluginType": "testng",
-"dataFormat": "testngJSON"
-}``
-}``
-' \
---form testArtifact=@test-result/testng.json
 
-```
+### Using the user interface
+
+The JSON file contains the information for creating a value stream and 
+integrating with the WhiteSource server. The following table describes the information for the creating a UrbanCode Velocity value stream map.
+
+1. From a value stream page, download the value stream map. 
+The value stream map is a JSON file used to define integrations.
+2. Edit the JSON file to include the plugin configuration properties.
+3. Save and upload the JSON file. This replaces the current JSON file with the new content.
+4. View the new integration on the Integrations page.
+
+
+## Configuration properties
+
+The following tables describe the properties used to configure the integration. 
+Each table contains the field name when using the user interface and the property name when using a JSON file.
+
+* The General Configuration Properties table describes configuration properties used by all plugin integrations.
+
+* The WhiteSource Configuration Properties table describes the configuration properties that define the connection and communications with the WhiteSource server. 
+When using the JSON method to integrate the plugin these properties are coded within the properties configuration property.
+
+
+Some properties might not be displayed in the user interface, to see all properties enable the Show Hidden Properties field.
+
+### General Configuration Properties
+
+| Name | Description | Required | Property Name |
+| --- | --- | ---| --- |
+| NA                   | The version of the plugin that you want to use. To view available versions, click the Version History tab. If a value is not specified, the version named latest is used. | No  | image        |
+| Integration Name     | An assigned name to the value stream.                                                                                                                                     | Yes | name         |
+| Logging Level        | The level of Log4j messages to display in the log file. Valid values are: all, debug, info, warn, error, fatal, off, and trace.                                           | No  | loggingLevel |
+| NA                   | List of plugin configuration properties used to connect and communicate with the WhiteSource server. Enclose the properties within braces.                                | Yes | properties   |
+|                      | The name of the tenant.                                                                                                                                                   | Yes | tenant\_id   |
+| NA                   | Unique identifier assigned to the plugin. The value for the WhiteSource plugin is `ucv-ext-whitesource`                                                                   | Yes | type         |
+| Product tokens       | Add product tokens from whitesource on which we want to run scan                                                                                                          | Yes | type         |
+| Project Names        | Add project names within the product to make it run at project level                                                                                                      | No  | type         |
+| Custom field mapping | Add custom field mapping to map image tags with the application name for pipeline                                                                                         | No  | type         |
+
+### WhiteSource Configuration Properties
+
+| Name | Type | Description | Required | Property Name |
+| --- | --- | ---| --- |
+| User Key                       | String | User Key for authentication with WhiteSource.           | Yes | userKey   |
+| URL                            | String | The base URL of the WhiteSource API.                    | Yes | asocUrl   |
+| UrbanCode Velocity User Access Key | Secure | User access key for authentication with UrbanCode Velocity. | Yes | keySecret |
+
+
+## JSON code example
+
+The following sample code can be used as a template to define the integration within the JSON file for a value stream. 
+Copy and paste the template into the JSON file Integration section and make the appropriate changes.
+
+
+ {
+    "type": "ucv-ext-whitesource",
+    "tenant_id": "<my-tenant-id>,
+    "name": "<integration-name>,
+    "properties":{
+      "ucvAccessKey": "<my-ucv-user-access-key>,
+      "userKey" : "<my-user-key>",
+      "productToken" : "<product tokens>",
+      "projectName" : "<project names>",
+      "fieldMapping" : {"application.name": "image.name", "application.externalId": "image.id", "buildUrl": "image.buildUrl", "environment":"image.environment"}
+
+    }
+  }
+]
 
 
 
-|Back to ...||Latest Version|TestNG |||
+|Back to ...||Latest Version|WhiteSource |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.13](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-testng/ucv-ext-testng-1.0.13.tar.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.0.15](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-whitesource/ucv-ext-whitesource-2.0.15.tar.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
