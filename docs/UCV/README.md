@@ -32,6 +32,7 @@
 	- [Rational Test Automation Server](#rational-test-automation-server)
 	- [Selenium](#selenium)
 	- [ServiceNow](#servicenow)
+	- [Shell](#shell)
 	- [SonarQube](#sonarqube)
 	- [TestComplete](#testcomplete)
 	- [TestNG](#testng)
@@ -298,6 +299,16 @@ The ServiceNow plug-in for IBM UrbanCode Velocity automates the importing of Ser
 |Back to ...||ServiceNow |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-servicenow/README.md)|[1.0.27](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow-1.0.27.tar.zip)|
+
+## Shell
+
+The Shell plug-in for IBM UrbanCode Velocity automates the task in releases.
+
+---
+
+|Back to ...||Shell |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-shell/README.md)|[0.0.7](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-shell-0.0.7.tar.zip)|
 
 ## SonarQube
 
