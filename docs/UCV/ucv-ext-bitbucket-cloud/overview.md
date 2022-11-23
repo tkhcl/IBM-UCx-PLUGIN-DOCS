@@ -8,7 +8,7 @@ The BitBucket Cloud plug-in provides for integration with a BitBucket Cloud.
 
 ## Compatibility
 
-This plug-in requires UrbanCode Velocity version 1.2.1 and later.
+This plug-in requires UrbanCode Velocity version 2.5.0 and later.
 
 ## Versions
 
