@@ -61,7 +61,7 @@ Some properties might not be displayed in the user interface, to see all propert
 | Tenant id        | The name of the tenant.                                                                                                                 | Yes      | tenant\_id    |
 | Type             | Unique identifier assigned to the plugin. The value for the Bitbucket Cloud plugin is `ucv-ext-bitbucket-cloud`                         | Yes      | type          |
 
-### Bitbucket properties
+### Bitbucket Cloud properties
 
 | Name                | Type   | Description                                                                                                                                           | Required | Property Name    |
 | ------------------- | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------- |
