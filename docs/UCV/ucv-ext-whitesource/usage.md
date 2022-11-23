@@ -4,12 +4,15 @@
 ## Usage
 
 
-To use the WhiteSource plugin, the plugin must be loaded and an instance created before you can configure the plugin integration. 
+To use the WhiteSource plug-in, the plug-in must be loaded and an instance created before you can configure the plug-in integration. 
 You define configuration properties in the user interface or in a JSON file.
 
 
 ## Integration type
 
+The WhiteSource plug-in supports endpoint integration which is listed in the following table.
+
+### Endpoints
 
 | Name             | Path  | Method |
 | ---------------- | ----- | ------ |
@@ -19,7 +22,7 @@ You define configuration properties in the user interface or in a JSON file.
 ## Invoking the plug-in
 
 
-To gather data from the WhiteSource server, send an HTTP POST request to your endpoint.
+To import data from the WhiteSource server, send an HTTP POST request to your endpoint.
 
 
 ## Integration
@@ -29,9 +32,6 @@ methods to integrate the plug-in:
 
 * Using the user interface
 * Using a JSON file
-
-The tables in the Configuration
-properties topic describe the properties used to define the integration.
 
 
 ### Using the user interface
@@ -43,10 +43,10 @@ define communication.
 4. Click **Save**.
 
 
-### Using the user interface
+### Using a JSON file
 
 The JSON file contains the information for creating a value stream and 
-integrating with the WhiteSource server. The following table describes the information for the creating a UrbanCode Velocity value stream map.
+integrating with the WhiteSource server. The following table describes the information for creating a UrbanCode Velocity value stream map.
 
 1. From a value stream page, download the value stream map. 
 The value stream map is a JSON file used to define integrations.
@@ -60,19 +60,19 @@ The value stream map is a JSON file used to define integrations.
 The following tables describe the properties used to configure the integration. 
 Each table contains the field name when using the user interface and the property name when using a JSON file.
 
-* The General Configuration Properties table describes configuration properties used by all plugin integrations.
+* The General Configuration Properties table describes configuration properties used by all plug-in integrations.
 
 * The WhiteSource Configuration Properties table describes the configuration properties that define the connection and communications with the WhiteSource server. 
-When using the JSON method to integrate the plugin these properties are coded within the properties configuration property.
+When using the JSON method to integrate the plug-in these properties are coded within the `properties` configuration property.
 
 
-Some properties might not be displayed in the user interface, to see all properties enable the Show Hidden Properties field.
+Some properties might not be displayed in the user interface, to see all properties enable the **Show Hidden Properties** field.
 
 ### General Configuration Properties
 
 | Name | Description | Required | Property Name |
 | --- | --- | ---| --- |
-| NA                   | The version of the plugin that you want to use. To view available versions, click the Version History tab. If a value is not specified, the version named latest is used. | No  | image        |
+| NA                   | The version of the plugin that you want to use. To view available versions, click the **Version History** tab. If a value is not specified, the version named latest is used. | No  | image        |
 | Integration Name     | An assigned name to the value stream.                                                                                                                                     | Yes | name         |
 | Logging Level        | The level of Log4j messages to display in the log file. Valid values are: all, debug, info, warn, error, fatal, off, and trace.                                           | No  | loggingLevel |
 | NA                   | List of plugin configuration properties used to connect and communicate with the WhiteSource server. Enclose the properties within braces.                                | Yes | properties   |
@@ -85,7 +85,7 @@ Some properties might not be displayed in the user interface, to see all propert
 ### WhiteSource Configuration Properties
 
 | Name | Type | Description | Required | Property Name |
-| --- | --- | ---| --- |
+| --- | --- | ---| --- | --- |
 | User Key                       | String | User Key for authentication with WhiteSource.           | Yes | userKey   |
 | URL                            | String | The base URL of the WhiteSource API.                    | Yes | asocUrl   |
 | UrbanCode Velocity User Access Key | Secure | User access key for authentication with UrbanCode Velocity. | Yes | keySecret |
@@ -96,6 +96,7 @@ Some properties might not be displayed in the user interface, to see all propert
 The following sample code can be used as a template to define the integration within the JSON file for a value stream. 
 Copy and paste the template into the JSON file Integration section and make the appropriate changes.
 
+```
 
  {
     "type": "ucv-ext-whitesource",
@@ -110,8 +111,8 @@ Copy and paste the template into the JSON file Integration section and make the 
 
     }
   }
-]
 
+```
 
 
 |Back to ...||Latest Version|WhiteSource |||
