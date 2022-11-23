@@ -1,40 +1,33 @@
 
-WhiteSource - Overview
+WhiteSource
 =================
 
-# Overview
+## Overview
 
-
-### Overview
-
-
-WhiteSource plugin provides for the management of open source components security, licenses, 
+WhiteSource plug-in provides for the management of open source components security, licenses, 
 and maintenance throughout a software development cycle. It identifies the open source components within a software development lifecycle with security or compliance issues. 
 When issues are detected alerts and remediation assistance is provided. 
-The WhiteSource plugin integrates with WhiteSource to retrieves license risks and security vulnerabilities data from WhiteSource scan results to include in an HCL Accelerate metric.
+The WhiteSource plug-in integrates with WhiteSource to retrieves license risks and security vulnerabilities data from WhiteSource scan results to include in an UrbanCode Velocity metric.
 
 
-Compatibility
--------------
+## Compatability
 
-Must be running UrbanCode Velocity version
-2.4 and later to use the plugin.
+This plug-in requires UrbanCode Velocity version 2.4 and later.
 
-Versions
---------
+## Versions
 
 UrbanCode Velocity plug-in images are located in DockerHub. To
 view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-whitesource/tags).
 
 
-History
--------
+## History
+
 
 ### Version 2.0.15
 
-* Converted to scheduled event pluginug fix
-* Added a custom field mapping for pipeline
-* Works on product and project level
+* Converted to scheduled event plug-in.
+* Added a custom field mapping for pipeline.
+* Works on product and project level.
 
 
 |Back to ...||Latest Version|WhiteSource |||
