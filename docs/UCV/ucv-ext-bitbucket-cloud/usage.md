@@ -3,11 +3,11 @@
 
 ## Usage
 
-To use the BitBucket Cloud plugin, the plugin must be loaded and an instance created before you can configure the plugin integration. You define configuration properties in the user interface or in a JSON file.
+To use the BitBucket projct Cloud plug-in, the plug-in must be loaded and an instance created before you can configure the plug-in integration. You define configuration properties in the user interface or in a JSON file.
 
 ## Integration type
 
-The BitBucket Cloud plugin supports scheduled events integration which is listed in the following table.
+The BitBucket Cloud plug-in supports scheduled events integration which is listed in the following table.
 
 ### Scheduled Events
 
@@ -49,7 +49,7 @@ The following tables describe the properties used to configure the integration. 
 
 Some properties might not be displayed in the user interface, to see all properties enable the `Show Hidden Properties` field.
 
-**Note:** Previously email ID and password (Those which are used to log into the bitbucket-cloud website) were used in the field of Username and Password respectively. Now from version 1.0.16 Username(https://bitbucket.org/account/settings/) and App-password(https://bitbucket.org/account/settings/app-passwords/) will be used in the field of Username and Password authenticate with the bitbucket cloud in
+**Note:** Previously email ID and password (Those which are used to log into the BitBucket Cloud website) were used in the field of Username and Password respectively. Now from version 1.0.16 Username(https://bitbucket.org/account/settings/) and App-password(https://bitbucket.org/account/settings/app-passwords/) will be used in the field of Username and Password to authenticate with the BitBucket Cloud.
 
 ### General configuration properties
 
@@ -57,9 +57,9 @@ Some properties might not be displayed in the user interface, to see all propert
 | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------- |
 | Integration Name | An assigned name to the value stream.                                                                                                   | Yes      | name          |
 | Logging Level    | The level of Log4j messages to display in the log file. Valid values are: all, debug, info, warn, error, fatal, off, and trace.         | No       | loggingLevel  |
-| properties       | List of plugin configuration properties used to connect and communicate with the Bitbucket Cloud. Enclose the properties within braces. | Yes      | properties    |
+| properties       | List of plug-in configuration properties used to connect and communicate with the Bitbucket Cloud. Enclose the properties within braces. | Yes      | properties    |
 | Tenant id        | The name of the tenant.                                                                                                                 | Yes      | tenant\_id    |
-| Type             | Unique identifier assigned to the plugin. The value for the Bitbucket Cloud plugin is `ucv-ext-bitbucket-cloud`                         | Yes      | type          |
+| Type             | Unique identifier assigned to the plug-in. The value for the Bitbucket Cloud plug-in is `ucv-ext-bitbucket-cloud`                         | Yes      | type          |
 
 ### Bitbucket Cloud properties
 

@@ -3,7 +3,7 @@
 
 ## Overview
 
-The BitBucket Cloud plugin provides for integration with a BitBucket Cloud.
+The BitBucket Cloud plug-in provides for integration with a BitBucket Cloud.
 
 
 ## Compatibility
@@ -19,8 +19,8 @@ DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-bitbucket-cloud/tags).
 
 ### Version 1.0.26
 
-* Removed Manual User Access Key: From current version onwards this plugin will only support Auto Generated User Access Key feature of UrbanCode Velocity.
-* Added Category: SCM is the category of BitBucket Cloud plugin.
+* Removed Manual User Access Key: From current version onwards this plug-in will only support Auto Generated User Access Key feature of UrbanCode Velocity.
+* Added Category: SCM is the category of BitBucket Cloud plug-in.
 
 ### Version 1.0.22
 
