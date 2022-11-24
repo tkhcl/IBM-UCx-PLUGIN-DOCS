@@ -21,11 +21,11 @@ Process steps for the Jenkins plugin includes the following:
      
     Navigate to the **Settings Page** of UrbanCode Velocity and select the Integrations section in the left navigation. Create a new Jenkins integration.
 
-    ![Integrations Page](screenshots/integrations-page.PNG)
+    ![Integrations Page](media/integrations-page.PNG)
 
     In the dialog box provide a logical name that represents the Jenkins instance that you are attempting to connect. This will generate an Integration Id and Integration Token pair. When the time comes this dialog provides "Copy to Clipboard" button on these fields.
 
-    ![Jenkins Integration Dialog](screenshots/jenkins-dialog.PNG)
+    ![Jenkins Integration Dialog](media/jenkins-dialog.PNG)
 
 * 2. Install this plugin on your Jenkins instance
 
@@ -37,7 +37,7 @@ Process steps for the Jenkins plugin includes the following:
 
     Navigate to the Jenkins configuration page **Manage Jenkins** > **Configure System** > **UrbanCode Velocity (section)**. Under the UrbanCode Velocity section paste the Integration ID and Integration Token values from Step 1 above. Please add a credentials entry for a Jenkins user on whose behalf this plugin may access your Jenkins items. Please **Apply** or save the values before clicking the **Test Connection** button to confirm your connection to UrbanCode Velocity. Upon successful connection, your data will be posted to UrbanCode Velocity.
 
-    ![Jenkins Global Config Page](screenshots/jenkins-config.PNG)
+    ![Jenkins Global Config Page](media/jenkins-config.PNG)
 
     # Note
 
