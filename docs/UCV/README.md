@@ -27,7 +27,7 @@
 	- [IBM Engineering Workflow Management (EWM)](#ibm-engineering-workflow-management-ewm)
 	- [JUnit](#junit)
 	- [Jira](#jira)
-	- [Jenkins For Urbancode-Velocity](#urbancode-velocity)
+	- [urbancode-velocity](#urbancode-velocity)
 	- [Rally](#rally)
 	- [Rational Test Automation Server](#rational-test-automation-server)
 	- [Selenium](#selenium)
@@ -371,4 +371,4 @@ The WhiteSource plug-in retrieves WhiteSource scan results and displays the Lice
 
 |Back to ...||WhiteSource |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-ucd/README.md)|[2.0.15](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-whitesource/ucv-ext-whitesource-2.0.15.tar.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-whitesource/README.md)|[2.0.15](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-whitesource/ucv-ext-whitesource-2.0.15.tar.zip)|
