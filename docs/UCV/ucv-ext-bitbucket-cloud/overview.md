@@ -3,12 +3,12 @@
 
 ## Overview
 
-The BitBucket Cloud plugin provides for integration with a BitBucket Cloud.
+The BitBucket Cloud plug-in provides for integration with a BitBucket Cloud.
 
 
 ## Compatibility
 
-This plug-in requires UrbanCode Velocity version 1.2.1 and later.
+This plug-in requires UrbanCode Velocity version 2.5.0 and later.
 
 ## Versions
 
@@ -19,8 +19,8 @@ DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-bitbucket-cloud/tags).
 
 ### Version 1.0.26
 
-* Removed Manual User Access Key: From current version onwards this plugin will only support Auto Generated User Access Key feature of UrbanCode Velocity.
-* Added Category: SCM is the category of BitBucket Cloud plugin.
+* Removed Manual User Access Key: From current version onwards this plug-in will only support Auto Generated User Access Key feature of UrbanCode Velocity.
+* Added Category: SCM is the category of BitBucket Cloud plug-in.
 
 ### Version 1.0.22
 
@@ -44,6 +44,6 @@ DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-bitbucket-cloud/tags).
 
 * Initial Release.
 
-|Back to ...||Latest Version|BitBucket Server |||
+|Back to ...||Latest Version|BitBucket Cloud |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.26](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-cloud/ucv-ext-bitbucket-cloud:1.0.26.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

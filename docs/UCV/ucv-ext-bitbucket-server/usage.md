@@ -1,6 +1,5 @@
 
-BitBucket Server - Usage
-========================
+# BitBucket Server - Usage
 
 ## Usage
 
@@ -23,7 +22,7 @@ There are two methods to integrate the plug-in:
 * Using the user interface
 * Using a JSON file
 
-For details, see [Using plug-ins in UrbanCode Velocity](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2022/07/20/using-plug-ins-in-urbancode-velocity&preview=true).
+For details, see [Using plug-ins in UrbanCode Velocity](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2022/07/20/using-plug-ins-in-urbancode-velocity).
 
 ### Using the user interface
 

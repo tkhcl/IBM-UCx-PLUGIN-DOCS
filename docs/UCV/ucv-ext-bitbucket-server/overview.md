@@ -1,26 +1,21 @@
 
-BitBucket Server - Overview
-===========================
+# BitBucket Server - Overview
 
-Overview
--------------
+## Overview
+
 The BitBucket Server plug-in provides for integration with a BitBucket server.
 
 
-Compatibility
--------------
+## Compatibility
 
-This plug-in requires UrbanCode Velocity version 1.2.1 and later.
+This plug-in requires UrbanCode Velocity version 2.5.0 and later.
 
-Versions
---------
-
+## Versions
 
 UrbanCode Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode
 DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-bitbucket-server/tags).
 
-History
--------
+## History
 
 ### Version 1.1.26
 
