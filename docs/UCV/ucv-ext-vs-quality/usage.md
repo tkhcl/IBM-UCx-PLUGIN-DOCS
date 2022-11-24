@@ -74,6 +74,7 @@ Note: These formats do not provide branch coverage information.
 |:---:|:---:|:---:|
 |vsCoverage|vsTestCoverageXML|VSTest .xml files|
 |vsCoverage|vsTestCoverageXML|MSTest .xml files|
+
 ```
 curl --request POST \
   --url https://url_urbancodevelocity_server>/reporting-consumer/metrics \
@@ -90,6 +91,7 @@ curl --request POST \
 ' \
   --form testArtifact=@test-result/MSTest.xml
 ```
+
 |Back to ...||Latest Version|Microsoft Visual Studio Testing |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.31](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-vs-quality/ucv-ext-vs-quality-1.0.31.tar.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
