@@ -21,7 +21,7 @@ A DevOps platform for APIs provides the ability to streamline and automate the p
 
 The GitHub repository [refarch-hybridcloud-blueportal-api](https://github.com/ibm-cloud-architecture/refarch-hybridcloud-blueportal-api) provides an in depth tutorial on implementing GitHub, Jenkins, UrbanCode Deploy, and API Connect into a single devops integration. This walkthrough was first introduced as a full lab session at IBM Interconnect 2017.
 
-[![](deployment_sample.png)](deployment_sample.png)
+[![](media/deployment_sample.png)](media/deployment_sample.png)
 
 ### Using the API Connect plug-in video
 

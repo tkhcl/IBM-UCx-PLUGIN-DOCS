@@ -35,15 +35,15 @@ After creating these pieces, you must create the testing workflow.
 
 A typical process for the Performance Tester plugin will look like the following snapshot:
 
-[![rpt-ucd](rpt-ucd.png)](rpt-ucd.png)
+[![rpt-ucd](media/rpt-ucd.png)](media/rpt-ucd.png)
 
 A process with multiple tests will look like the following snapshot:
 
-[![rpt-multitest](rpt-multitest.png)](rpt-multitest.png)
+[![rpt-multitest](media/rpt-multitest.png)](media/rpt-multitest.png)
 
 If you have multiple products installed on one target machine, either in the same or different package groups, you can use a single process that includes steps from different products. The process will look like the following snapshot:
 
-[![rpt-multiprodtest](rpt-multiprodtest.png)](rpt-multiprodtest.png)
+[![rpt-multiprodtest](media/rpt-multiprodtest.png)](media/rpt-multiprodtest.png)
 
 
 |Back to ...||Latest Version|IBM Rational Performance Tester (RPT) ||||

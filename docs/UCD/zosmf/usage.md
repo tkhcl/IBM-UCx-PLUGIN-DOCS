@@ -36,11 +36,11 @@ The following pages provide usage information about this plug-in:
 
 On theIBM UrbanCode Deployserver user interface, click**Resources** > **Agents**. Open the z/OS agent to be used to run discovery. Add an agent property named **zosmf.url** and set the value to the URL of z/OSMF. For example: `https://localhost/zosmf` .
 
-[![](agent-property.jpg)](agent-property.jpg)
+[![](media/agent-property.jpg)](media/agent-property.jpg)
 
 Create a top-level resource group and add the agent as an agent resource under the top-level resource group. Wait for a few seconds and refresh the Resource Tree.Eventually, another resource is displayed under the agent resource. This resource is named zOSMFService.
 
-[![](zosmf-discover-step-1.jpg)](zosmf-discover-step-1.jpg)
+[![](media/zosmf-discover-step-1.jpg)](media/zosmf-discover-step-1.jpg)
 
 Open zOSMFService resource and click **Configuration**>**Basic Settings**. The resource has the zOSMFServicerole, which includes several properties that are related to z/OSMF. In the**Role Propertiestable**, specify the user ID and password to be used to run discovery and click **Save**.
 
@@ -52,17 +52,17 @@ Open zOSMFService resource and click **Configuration**>**Basic Settings**. The r
 Go back to the Resource Tree view, click the**Actions**button that is associated with the zOSMFServiceresource, and then click**Configure using Software Services Instance Discovery**. The discovery step runs. A log displays to show progress.When the discovery process completes, close the log window, and refresh the resource tree.Resources that represent the software services instancesare displayed in the resource tree. Thenew resources are organized in structure `plex\system\software type\instance name`.
 
 
-[![](zosmf-discover-step-2.jpg)](zosmf-discover-step-2.jpg)
+[![](media/zosmf-discover-step-2.jpg)](media/zosmf-discover-step-2.jpg)
 
 ### Software Services Instances Resources
 
 You may add components to the resources and add these resources to an environment to start application deployment. The resource properties contain information of the instance which can be used in a deploy process. The properties are retrieved from the z/OSMF software services instance variables.
 
-[![](zosmf-instance-properties.jpg)](zosmf-instance-properties.jpg)
+[![](media/zosmf-instance-properties.jpg)](media/zosmf-instance-properties.jpg)
 
 **Tips:** Sometimes the name of the property is not what is expected by the deploy process. You can define the expected property name in the top-level folder and have it reference the value of an instanceproperty. See following graphic for an example.
 
-[![](zosmf-property-reference.jpg)](zosmf-property-reference.jpg)
+[![](media/zosmf-property-reference.jpg)](media/zosmf-property-reference.jpg)
 
 
 ### Provisioning and Discovering Mainframe Software Services Instances
@@ -87,15 +87,15 @@ Software services instances discovery can be run manually from the resource tree
 
 Create a generic process using two steps.
 
-[![](zosmf-provision-and-discover-process.jpg)](zosmf-provision-and-discover-process.jpg)
+[![](media/zosmf-provision-and-discover-process.jpg)](media/zosmf-provision-and-discover-process.jpg)
 
 The first step is a **Run Published Software Service Template** step. The following example runs the CICS53 template to provision a new CICS region. The template is available from [z/OS Provisioning Toolkit](https://developer.ibm.com/mainframe/products/zospt/)
 
-[![](zosmf-run-published-software-service-template.jpg)](zosmf-run-published-software-service-template.jpg)
+[![](media/zosmf-run-published-software-service-template.jpg)](media/zosmf-run-published-software-service-template.jpg)
 
 The second step is a**Software Services Instance Discovery** step. The **Query Parameters** fieldis set to **object-name = ``${p:provision/zosmf.instanceName}``** so that it will only discover the instance provisioned by the previous step. **``${p:provision/zosmf.instanceName}``** is a reference to the provisioned instance name from the previous step.
 
-[![](zosmf-discover-with-parameter.jpg)](zosmf-discover-with-parameter.jpg)
+[![](media/zosmf-discover-with-parameter.jpg)](media/zosmf-discover-with-parameter.jpg)
 
 ### Run the process
 
@@ -107,11 +107,11 @@ Create a top-level resource group. Add following properties to the group and set
 
 Add the z/OS agent tobe used to the group and run the process on the agent resource.
 
-[![](zosmf-provision-before.jpg)](zosmf-provision-before.jpg)
+[![](media/zosmf-provision-before.jpg)](media/zosmf-provision-before.jpg)
 
 After the process completes, refresh the resource tree.Resources that represent the provisioned CICS region are displayed in the resource tree.
 
-[![](zosmf-provision-and-discover-result.jpg)](zosmf-provision-and-discover-result.jpg)
+[![](media/zosmf-provision-and-discover-result.jpg)](media/zosmf-provision-and-discover-result.jpg)
 
 ### Next step
 

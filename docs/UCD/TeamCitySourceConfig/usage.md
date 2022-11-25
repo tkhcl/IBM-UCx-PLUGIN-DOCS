@@ -70,7 +70,7 @@ Two optional properties are available on manual import.
 
 ### Sample Configuration
 
-[![](sample-config.png)](sample-config.png)
+[![](media/sample-config.png)](media/sample-config.png)
 
 
 ### Repository URL
@@ -81,11 +81,11 @@ The Repository URL points the source configuration to the TeamCity server. This 
 
 ### Administration > Global Settings
 
-[![](globalsettings.png)](globalsettings.png)
+[![](media/globalsettings.png)](media/globalsettings.png)
 
 ### Internet Browser
 
-[![](browserurl.png)](browserurl.png)
+[![](media/browserurl.png)](media/browserurl.png)
 
 ### Build Configuration ID
 
@@ -95,7 +95,7 @@ The Build Configuration ID specifies the exact build project to import as compon
 
 ### Build Configuration Settings > General Settings
 
-[![](buildconfigurationid.png)](buildconfigurationid.png)
+[![](media/buildconfigurationid.png)](media/buildconfigurationid.png)
 
 ### Authentication
 

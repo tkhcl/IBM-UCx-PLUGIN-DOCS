@@ -18,7 +18,7 @@ After all the necessary parts are in place to use the plug-in, you can define th
 1. Open the Jenkins user interface.
 2. Click **Manage Jenkins** > **Global Settings**
 3. Locate the UrbanCode Deploy section
-4. Complete the configuration settings to the UrbanCode Deploy server.[![jenkins7](jenkins-servers1.png)](jenkins-servers1.png)
+4. Complete the configuration settings to the UrbanCode Deploy server.[![jenkins7](media/jenkins-servers1.png)](media/jenkins-servers1.png)
 
 | Name | Description |
 | --- | --- |
@@ -34,8 +34,8 @@ After all the necessary parts are in place to use the plug-in, you can define th
 
 On the UrbanCode Deploy server:
 
-1. Create a resource group and add the UrbanCode Deploy agent to the resource group. [![jenkins1](jenkins-resources1.png)](jenkins-resources1.png)
-2. Create the Jenkins application and environment.[![jenkins4](jenkins-app-env1.png)](jenkins-app-env1.png)
+1. Create a resource group and add the UrbanCode Deploy agent to the resource group. [![jenkins1](media/jenkins-resources1.png)](media/jenkins-resources1.png)
+2. Create the Jenkins application and environment.[![jenkins4](media/jenkins-app-env1.png)](media/jenkins-app-env1.png)
 
 ## Using the Jenkins plug-in
 
@@ -59,8 +59,8 @@ In the following usage scenarios both methods are described.
 
 To create a component version, create and configure a Jenkins job. In the Jenkins job complete the following updates:
 
-1. Specify the URL for the Git repository on the Source Code Management page. [![jenkins1](jenkins-source-control1.png)](jenkins-source-control1.png)
-2. The Build Management section. For example, run a Gradle build. [![jenkins1](jenkins-build1.png)](jenkins-build1.png)
+1. Specify the URL for the Git repository on the Source Code Management page. [![jenkins1](media/jenkins-source-control1.png)](media/jenkins-source-control1.png)
+2. The Build Management section. For example, run a Gradle build. [![jenkins1](media/jenkins-build1.png)](media/jenkins-build1.png)
 3. Add the Publish Artifacts to IBM UrbanCode Deploy build step. Configure the build step by completing the following steps:
    1. Select the IBM UrbanCode Deploy Server that you configured previously.
    2. Select **Create Component Version**.
@@ -68,7 +68,7 @@ To create a component version, create and configure a Jenkins job. In the Jenkin
    4. Select **Create as New Component**.
    5. In the options, specify appropriate values for **Component Template** and **Add to Application**.
    6. Leave **Delivery Mechanism** set to **Push Files**.
-   7. Specify the options under **Push Files** as needed.[![jenkins4](jenkins-create-component1.png)](jenkins-create-component1.png)
+   7. Specify the options under **Push Files** as needed.[![jenkins4](media/jenkins-create-component1.png)](media/jenkins-create-component1.png)
    8. Save the step configuration, and then run a build.
 4. The component is created with its first component version.
 
@@ -109,9 +109,9 @@ After you create a component with a version, you can deploy the component from J
 
 #### Method: User interface
 
-1. Add the new component to the resource tree. [![jenkins1](jenkins-comp-env1.png)](jenkins-comp-env1.png)
-2. Add the base resource to the environment. [![jenkins1](jenkins-base-env1.png)](jenkins-base-env1.png)
-3. Create a process on the new component. [![jenkins1](jenkins-process1.png)](jenkins-process1.png)
+1. Add the new component to the resource tree. [![jenkins1](media/jenkins-comp-env1.png)](media/jenkins-comp-env1.png)
+2. Add the base resource to the environment. [![jenkins1](media/jenkins-base-env1.png)](media/jenkins-base-env1.png)
+3. Create a process on the new component. [![jenkins1](media/jenkins-process1.png)](media/jenkins-process1.png)
 4. Go back to the Jenkins job that you configured when you created a component version and examine the Publish Artifacts to IBM UrbanCode Deploy build step. Modify the configuration by completing the following steps:
    1. Select **Deploy**.
    2. In the drop-down list, enter the appropriate values for **Application Name** and **Component Name** that you created previously.
@@ -119,7 +119,7 @@ After you create a component with a version, you can deploy the component from J
    4. Select **Create As New Application Process**.
    5. In the options, specify the name of the process that you created in step #3 for **Component Process Name**.
    6. For **Snapshot/Component Version**, list the component and version that you created when you created a component version.
-   7. If nothing changes between the versions, clear **Only Changed Versions**.[![jenkins1](jenkins-deploy1.png)](jenkins-deploy1.png)
+   7. If nothing changes between the versions, clear **Only Changed Versions**.[![jenkins1](media/jenkins-deploy1.png)](media/jenkins-deploy1.png)
    8. Save the step configuration, and then run a build.
 5. A new deployment is displayed in your applications history.
 
@@ -167,7 +167,7 @@ This user case demonstrates using Jenkins to create a component source configura
    4. Select **Create as New Component**.
    5. In the options, specify appropriate values for **Component Template** and **Add to Application**.
    6. Change **Delivery Mechanism** to **Trigger Import**.
-   7. Specify options under **Trigger Import** as needed.[![jenkins4](jenkins-trigger-import.png)](jenkins-trigger-import.png)
+   7. Specify options under **Trigger Import** as needed.[![jenkins4](media/jenkins-trigger-import.png)](media/jenkins-trigger-import.png)
 3. Save the step configuration, and then run a build.
 4. Your component is created with its first component version.
 
@@ -208,11 +208,11 @@ You can use the Jenkins Pipeline plug-in to push or pull artifacts to and from U
 
 When creating a component in UrbanCode Deploy, you select a source configuration type plug-in to use for importing new component versions into an UrbanCode Deploy component. Each source configuration plug-in has different properties that must be provided. These properties are called component properties and are saved. They are available every time yourun a version import. The following graphic shows the properties for the Nexus Repository Manager V3 source configuration plug-in.
 
-![Nexus Configuration Properties](nexusconfigproperties.jpg)
+![Nexus Configuration Properties](media/nexusconfigproperties.jpg)
 
 There is another set of properties called the import properties that are defined at runtime. When you click **Import New Versions** in your component, a dialog box displays for you to enter properties.
 
-![Import New Version](importnewversion.jpg)
+![Import New Version](media/importnewversion.jpg)
 
 For both component and import properties, their definitions are defined in the source config plug-in that you are using.
 
@@ -238,7 +238,7 @@ pullProperties: 'version=1.0.0.0'
 
 The above syntax works for any source configuration plug-in that is configured. The only different between source config plug-ins is **pullProperties**. You can find the list of properties in the source configuration plug-in `plugin.xml` file. Youll find them in the ImportProperties group. You may download and extract any source config plugin from the microsite and examine the plugin.xml to find these properties. For example, below is the **ImportProperties** property in the Nexus Repository Manager V3 `plugin.xml` file.
 
-![Import Properties property](screen-shot-2019-05-22-at-5.06.17-pm.png)
+![Import Properties property](media/screen-shot-2019-05-22-at-5.06.17-pm.png)
 
 ### Adding an Alternative User
 
@@ -279,11 +279,11 @@ The `Hudson.util.Secret.fromString()` class is a static method and Jenkins block
 
 To alert the administrative user that a job is attempting to use the static method execute a job that making the call to `Hudson.util.Secret.fromString()`. This job will fail and make a request in the **In-Process Script Approval** page. Log into the Jenkins user interface as an administrative user. Click **Jenkins** > **Manage Jenkins** > **In-Process Script Approval**. There will be a new approval awaiting.
 
-![Jenkins Pripelie Script Approval](jenkinspipeline_scriptapproval.png?resize=640%2C34)
+![Jenkins Pripelie Script Approval](media/jenkinspipeline_scriptapproval.png)
 
 After you click **Approve**, the static method call is listed in the **Signatures already approved** section. This means that the specified method signature can be called in Jenkins pipeline scripts and all future Jenkin pipeline scripts calling this method are approved.
 
-![Approved](jenkinspipeline_approved.png?resize=640%2C221)
+![Approved](media/jenkinspipeline_approved.png)
 
 |Back to ...||Latest Version|Jenkins Pipeline |||
 | :---: | :---: | :---: | :---: | :---: | :---: |

@@ -54,7 +54,7 @@ To register your agent with HP ALM, you must visit the HP ALM Client Registratio
 
 After visiting the HP ALM Client Registration page, you will be greeted with the following instructions on how to register your machine:
 
-[![](screen-shot-2017-08-17-at-1.18.24-pm.png)](screen-shot-2017-08-17-at-1.18.24-pm.png)
+[![](media/screen-shot-2017-08-17-at-1.18.24-pm.png)](media/screen-shot-2017-08-17-at-1.18.24-pm.png)
 Follow the instructions, and then click Register HP ALM.
 
 

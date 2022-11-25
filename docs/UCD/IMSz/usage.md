@@ -39,11 +39,11 @@ To start using the IMS plug-in, create a new or edit an existing UrbanCode Deplo
 
 In order to include IMS plug-in steps in the process, locate the IMS entry in the Steps Palette:
 
-[![ims1](ims1.png)](ims1.png)
+[![ims1](media/ims1.png)](media/ims1.png)
 
 Drag and drop the Execute IMS Command step onto the process editing screen.
 
-[![ims2](ims2.png)](ims2.png)
+[![ims2](media/ims2.png)](media/ims2.png)
 
 
 ### Configuring IMS plug-in properties
@@ -65,7 +65,7 @@ When the Execute IMS Command step is added to a process, the Edit Properties dia
 
 *Example properties for the Execute IMS Command step:*
 
-[![ims3](ims3.png)](ims3.png)
+[![ims3](media/ims3.png)](media/ims3.png)
 
 
 
@@ -75,15 +75,15 @@ For the deployment processes to work, it is assumed that the UrbanCode Deploy ag
 
 There are many possible ways to create processes for IMS application deployment. Process steps may differ depending on IMS environment setup, application details, and others. For example, under certain conditions, an existing application can be redeployed by a process that stops the run-time application, deploys a new version of application data sets, and restarts the application. The following example demonstrates how an UrbanCode Deploy process might look like for such a scenario:
 
-[![ims5](ims5.png)](ims5.png)
+[![ims5](media/ims5.png)](media/ims5.png)
 
 In this example, the IMS Plug-in is used twice. First, it is used to stop existing application by executing the `UPDATE PGM NAME(*name*) STOP(SCHD)` command. The plug-in parameters for this step might look as follows (the actual parameter values will be specific to your environment):
 
-[![ims8](ims8.png)](ims8.png)
+[![ims8](media/ims8.png)](media/ims8.png)
 
 Then, after the data sets for the new version of the application are copied into the system, the IMS plug-in is used to start the application by executing the `UPDATE PGM NAME(*name*) START(SCHD)` command. The plug-in parameters for this step might look as follows (the actual parameter values will be specific to your environment):
 
-[![ims9](ims9.png)](ims9.png)
+[![ims9](media/ims9.png)](media/ims9.png)
 
 ### Related information
 

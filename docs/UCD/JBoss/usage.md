@@ -14,7 +14,7 @@ JBoss Application Server - Usage
 
 Typically, when you deploy an application by using the JBoss Application Server plug-in, you only need to use the [Deploy Application](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/JBoss/steps.html#deploy_application) step:
 
-[![deployjboss](deployjboss.gif)](deployjboss.gif)
+[![deployjboss](media/deployjboss.gif)](media/deployjboss.gif)
 
 
 |Back to ...||Latest Version|JBoss Application Server ||||

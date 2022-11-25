@@ -69,31 +69,31 @@ When UCD agents are run as individual users on the operating system, IIBs broker
 
 You can use UCDs team and role level security to take advantage of these features. UCD provides security based on UCD objects (applications, components, resources, processes, etc) How you approach this all depends on how youve designed their structure in UCD.
 
-For instance, lets assume that you have each project in IIB mapped to an application in UCD. You also have each of your brokers and execution groups mapped to components in UCD. This is a very simple environment, but heres an example of what that layout may look like: [![](iib-resources-1.png)](iib-resources-1.png)
+For instance, lets assume that you have each project in IIB mapped to an application in UCD. You also have each of your brokers and execution groups mapped to components in UCD. This is a very simple environment, but heres an example of what that layout may look like: [![](media/iib-resources-1.png)](media/iib-resources-1.png)
 
 In this layout, BrokerA and BrokerB are defined at the same level, and they each have their own groups (execution groups). When I configure the UCD applications environments, I add the group as a resource:
 
-[![](iib-env-a.png)](iib-env-a.png)
+[![](media/iib-env-a.png)](media/iib-env-a.png)
 
 ProjectB would have its own setup similar to this as well. Then if you only wanted UserA to be able to run deployments in ProjectA, we create the UserA user in UCD and add it to a new team Ive called TeamA:
 
-[![](iib-team-a.png)](iib-team-a.png)
+[![](media/iib-team-a.png)](media/iib-team-a.png)
 
 Note that the TeamB also shown in this screeshot has UserB added to it. In TeamA we can determine the objects this team has access to:
 
-[![](iib-team-a-objects.png)](iib-team-a-objects.png)
+[![](media/iib-team-a-objects.png)](media/iib-team-a-objects.png)
 
 Note that Ive only added ProjectA to the TeamA team. I also add the DEV environment to the TeamA group as well:
 
-[![](iib-team-a-objects2.png)](iib-team-a-objects2.png)
+[![](media/iib-team-a-objects2.png)](media/iib-team-a-objects2.png)
 
 Now, when I login as UserA I only have access to the applications and environments that Ive mapped to TeamA:
 
-[![](iib-project-a.png)](iib-project-a.png)
+[![](media/iib-project-a.png)](media/iib-project-a.png)
 
 This means that UserA only has access to run processes in the DEV environment of ProjectA, because thats what Ive configured. By mapping UCD objects to IIB objects, you can determine exactly which IIB components each user or team may access. In UCD you can map any object type to a team, which is why I said how they go about this would be determined by how the design their UCD structure. Here are all of the types that you can map to teams in UCD:
 
-[![](iib-mappings.png)](iib-mappings.png)
+[![](media/iib-mappings.png)](media/iib-mappings.png)
 
 
 ### Deploy a BAR File
@@ -130,7 +130,7 @@ Below I have outlined an Application Process example that can mitigate this depl
 
 ### Application Process Overview
 
-[![](applicationproc-1.png)](applicationproc-1.png)
+[![](media/applicationproc-1.png)](media/applicationproc-1.png)
 Application Process Designer
 
 
@@ -142,7 +142,7 @@ The Default, or left, branch is followed the first time the application process 
 
 ### Install Multiple Components Steps
 
-[![](deploymulti.png)](deploymulti.png)
+[![](media/deploymulti.png)](media/deploymulti.png)
 Deploy Sequentially and Deploy Concurrently step configurations
 
 
@@ -158,7 +158,7 @@ Download JSON: [Create alreadyDeployed Application Property](CreatealreadyDeploy
 This deployment solution requires the use of a generic process to properly enable the the parallel deployment strategy. The downloadable JSON file above is my configured generic process to give you a jump start in recreating this example. Simply import this process into your IBM UrbanCode Deploy server to have a readily available generic process. (The file may need to be renamed to have the .json extension.) Ensure you set the Default Resource in the **Configuration > Basic Settings** as this will make the following configuration step easier. The **Create Application Property** process will create and set the **alreadyDeployed** application property for a specified application. This process utilizes the [IBM UrbanCode Deploy Applications](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uDeploy-Application/) plug-ins Create Application Property step.
 
 
-[![](setproperty-2.png)](setproperty-2.png)
+[![](media/setproperty-2.png)](media/setproperty-2.png)
 The Applications Generic Process Configuration
 
 
@@ -171,7 +171,7 @@ The above screenshot shows the application processs step configuration defining 
 Below are the UrbanCode deployment logs from two different deployments. In this example, I have deployed two different components labeled **IIB BAR 1** and **IIB BAR 2**. In the first screenshot, where the **deployedAlready** property was not specified, the Deploy Sequentially (Default) branch was followed. Notice that the two Deploy BAR component processes start times, which about a minute each, do not overlap. IIB BAR 1 is run separately and to completion before IIB BAR 2 begins. Once all component processes are completed, the Create Application Property process is run and the **alreadyDeploy** property is set.
 
 
-[![](sequentially.png)](sequentially.png)
+[![](media/sequentially.png)](media/sequentially.png)
 
 Sequential Deployment Logs
 
@@ -179,7 +179,7 @@ Sequential Deployment Logs
 Now that the deployment scenario has run once, the Deploy Concurrently (true) branch can be followed. In this second screenshot, we can see that the component processes are being deployed simultaneously because the Start Times overlap. In addition, the Duration is approximately half of the first deployment. Lastly, our generic process to set the **deployAlready** variable is not run as it is not part of this branch. From this point on, or unless the application property is modified, all BARs will deploy concurrently.
 
 
-[![](concurrently.png)](concurrently.png)
+[![](media/concurrently.png)](media/concurrently.png)
 Concurrent Deployment Logs
 
 
@@ -190,16 +190,16 @@ This same overall process can be used, with small changes, to solve the same BAR
 
 
 1. In the generic process, replace the Create Application Property step with the Create Environment Property step. Note: The new ```${p:environmentName}``` property.
-[![](generic-process-create-environment.png)](generic-process-create-environment.png)
+[![](media/generic-process-create-environment.png)](media/generic-process-create-environment.png)
 Create Environment Property step and configuration
 2. In the generic process configuration, add a new `environmentName` property. You should now have two properties: `applicationID` and `environmentName`
-[![](generic-process-properties.png)](generic-process-properties.png)
+[![](media/generic-process-properties.png)](media/generic-process-properties.png)
 Generic Process properties
 3. In the application processs switch step, update the property name to ```${p?:environment/alreadyDeployed}```. The switch step will now look for an `alreadyDeployed` property on the environment, rather than the application.
-[![](app-process.png)](app-process.png)
+[![](media/app-process.png)](media/app-process.png)
 Application ProcessSwitch steps environment property
 4. Finally, add the new ```${p:environment.name}``` property to the Run Generic Process step in the application process. The environmentName property is appeared after we added it as a Generic Process property.
-[![](new-env-property.png)](new-env-property.png)
+[![](media/new-env-property.png)](media/new-env-property.png)
 Update Application Processs Generic Process step
 
 

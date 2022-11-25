@@ -38,7 +38,7 @@ The configuration requirements for this plug-in are very similar to the Maven So
 Below you can see a sample folder structure for a Snapshot Maven Repository. Identification of the properties can be applied to Release repositories as well. Ensure you are using one of the two locations for the Repository ID, otherwise you may specify the Repository Name and your import will fail.
 
 
-[![](repository.png)](repository.png)
+[![](media/repository.png)](media/repository.png)
 Maven Repository in Nexus
 
 
@@ -48,7 +48,7 @@ Maven Repository in Nexus
 Here you can see how the properties are directly applied to the configuration of the Nexus Source Config plug-in. In this example, all files, except those with the `.md5` extension, will be imported.
 
 
-[![](source-config.png)](source-config.png)
+[![](media/source-config.png)](media/source-config.png)
 Configuration of the Nexus Source Config
 
 
@@ -58,7 +58,7 @@ Configuration of the Nexus Source Config
 The Nexus Source Configuration plug-in allows the import of entire Release or Snapshot Maven projects. However, versioning works slightly differently between these repository types. For Release projects, each version project will be imported as a component version. If the above Nexus repository example was a Release project, the Nexus plug-in would import two versions named `1.0.0.0000-SNAPSHOT` and `1.0.0.999999-SNAPSHOT`. Fortunately, because all SNAPSHOT versions are labeled as such, the plug-in can easily differentiate between the two. If a Snapshot project is identified, the plug-in will dive one level deeper into each version folder and create component versions based on names. In the screenshot below, you can see how the Maven Snapshot artifacts would be grouped into component versions.
 
 
-[![](snapshot-project.png)](snapshot-project.png)
+[![](media/snapshot-project.png)](media/snapshot-project.png)
 Maven Snapshot Grouping
 
 

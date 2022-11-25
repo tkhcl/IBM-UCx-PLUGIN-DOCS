@@ -66,7 +66,7 @@ The following properties are used when connecting to Amazon Elastic Container Se
 
 #### Sample Configuration
 
-![Sample Configuration Amazon ECS](aecs.png)(aecs.png)
+![Sample Configuration Amazon ECS](media/aecs.png)(media/aecs.png)
 
 ### IBM Container Registry
 
@@ -91,13 +91,13 @@ The following properties are used when connecting to an IBM Cloud container regi
 
 #### Sample Configuration
 
-![Sample configuration IBM Registry](update.png)
+![Sample configuration IBM Registry](media/update.png)
 
 #### Image and Registry Properties
 
 Running the `bx cr images` command will return something like this:
 
-[![](2.png)](2.png)
+[![](media/2.png)](media/2.png)
 
 In the example above, the REPOSITORY column shows a name made of three pieces. Take `registry.ng.bluemix.net/mynamespace2/bgdemohello` as an example. The text `registry.ng.bluemix.net` refers to the container registry. The text `mynamespace2` refers to a namespace which is used for personal or private images for a specific organization or user. The text `bgdemohello` refers to the image name itself.
 
@@ -138,13 +138,13 @@ The following properties must be specified to configure an Artifactory hosted Do
 
 #### Sample Configuration
 
-![Artifactory Sample Config](sourceconfigaritfactory-3.png)
+![Artifactory Sample Config](media/sourceconfigaritfactory-3.png)
 
 #### Image Name
 
 Specify the complete repository path to the Docker registry. Do not specify a version. The source configuration identifies all image versions and create new component versions for each. If you were importing the below sample repository, you would specify `central-it-docbuild-docker/docbuild-dcs-buildenv` as the Image Name. Following version import, there will be 2 new component versions: `1.1` and `latest`. If the `_uploads` folder had other docker images for import, the Image Name would be `central-it-docbuild-docker/docbuild-dcs-buildenv/_uploads`. A new component should be made for the each registry. Its important to recognize that the first string separated by the back slash is considered the `namespace (central-it-docbuild-docker)` while everything following is the `repository (docbuild-dcs-buildenv/_uploads)`.
 
-[![](artifactorydocker.png)](artifactorydocker.png)
+[![](media/artifactorydocker.png)](media/artifactorydocker.png)
 
 #### Registry
 

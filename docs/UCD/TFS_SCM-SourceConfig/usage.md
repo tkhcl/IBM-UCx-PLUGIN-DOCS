@@ -31,7 +31,7 @@ The agent must have access to the tf.exe or tf.cmd executable. This file is crit
 Visual Studio Online, which is an SaaS offering of Team Foundation Server, requires enabling the alternate authentication credentials option. To learn how to enable alternate authentication credentials, login to VSO and navigate to your Settings page. Under the sidebar to the left, there will be an **Alternate authentication credentials**. Enable and create new alternate authentication credentials. These credentials should then be supplied in theplug-ins configuration. Because these credentials will likely be used by many deployments, we recommend creating a functional VSO account that is used for these types of automated process. The below screenshot shows where to create alternate authentication credentials.
 
 
-[![](alternate-credentials.png)](alternate-credentials.png)
+[![](media/alternate-credentials.png)](media/alternate-credentials.png)
 Visual Studio OnlineAlternative Authentication Credentials
 
 
@@ -44,11 +44,11 @@ The TFS\_SCM plug-in contains four required properties that support the default 
 
 1. **Collection URL**: The URL of the TFS or VSO team project collection (Example: https://{username}``.visualstudio.com/DefaultCollection). The desired project artifacts will be located underneath this collection. This URL is a subset of the projects URL.
 2. **Server Project Folder**: The variable assigned to the project folder on your VSO or the TFS server. By default, this value begins with `$/` and is followed by the name of the project.
-[![](tfs-config.png)](tfs-config.png)
+[![](media/tfs-config.png)](media/tfs-config.png)
 Team Foundation ServerCollection URL and Server Project Folder
 3. **Workspace**: The name of the local TFS or VSO workspace. This value can be identified in Visual Studios **Team Explorer** side bar. All possible Workspaces can be found under the **Solution** section.
 4. **Local Workspace Folder**: The full path to the local Workspace folder. This folder contains local code resolved by Visual Studio. The easiest way to identify the workspace is by clicking the **Open** link in the **Team Explorer** side bar. This will bring you directly to the workspace folder. Default Location: `C:\Users\\Source\Workspaces\Workspace`
-[![](vs-config.png)](vs-config.png)
+[![](media/vs-config.png)](media/vs-config.png)
 Team Foundation ServerWorkspace and Local Workspace Folder
 
 
@@ -73,7 +73,7 @@ By default, the TFS\_SCM plug-in will import the latest changeset. If the import
 
 ### Sample Plug-in Configuration
 
-[![](tfs-scm-config.png)](tfs-scm-config.png)
+[![](media/tfs-scm-config.png)](media/tfs-scm-config.png)
 Sample TFS\_SCM Plug-in Configuration
 
 
