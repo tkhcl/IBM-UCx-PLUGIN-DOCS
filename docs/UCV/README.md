@@ -27,6 +27,7 @@
 	- [IBM Engineering Workflow Management (EWM)](#ibm-engineering-workflow-management-ewm)
 	- [JUnit](#junit)
 	- [Jira](#jira)
+	- [Microsoft Visual Studio Testing](#microsoft-visual-studio-testing)
 	- [urbancode-velocity](#urbancode-velocity)
 	- [Rally](#rally)
 	- [Rational Test Automation Server](#rational-test-automation-server)
@@ -74,7 +75,7 @@ BitBucket Cloud is a source code version control repository hosting service owne
 
 ## BitBucket Server
 
-BitBucket is a source code version control repository hosting service owned by Atlassian. It contains tools to manage source code for a project.
+BitBucket Server is a source code version control repository hosting service owned by Atlassian. It contains tools to manage source code for a project.
 
 ---
 
@@ -251,6 +252,16 @@ Jira is an issue tracking product, developed by Atlassian. The Jira plug-in prov
 |Back to ...||Jira |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-jira/README.md)|[2.2.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira-2.2.1.tar.zip)|
+
+## Microsoft Visual Studio Testing
+
+Microsoft Visual Studio is a testing framework which is used to define and run unit tests to verify and maintain code integerty. 
+
+---
+
+|Back to ...||Microsoft Visual Studio Testing |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-vs-quality/README.md)|[1.0.31](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-vs-quality/ucv-ext-vs-quality-1.0.31.tar.zip)|
 
 ## urbancode-velocity
 
