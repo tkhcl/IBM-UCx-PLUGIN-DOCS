@@ -1808,8 +1808,8 @@ Update the resource reference mappings for an enterprise application.
 
 Map users to roles for an enterprise application.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                             | Required |
+| ---- | ---- | ----------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Application Edition | String | The edition of the application to map users for. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
 | Application Name | String | The name of the application to install. This name is used for a WebSphere reference. | Yes |
@@ -1834,8 +1834,8 @@ Map users to roles for an enterprise application.
 
 Modify the class loader settings for an application and associated web modules.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                              | Required |
+| ---- | ---- | ------------------------------------------------------------------------------------------------------------------------ | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Application ClassLoader | String | The class loader mode to use for the overall application. Specify PARENT\_FIRST or PARENT\_LAST. | No |
 | Application Edition | String | The edition of the application to modify. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
@@ -1862,8 +1862,8 @@ Modify the class loader settings for an application and associated web modules.
 
 Remove an OSGI bundle from WebSphere Application Server.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
 | Bundle Symbolic Name | String | The symbolic name of the OSGI bundle to remove. | Yes |
 | Bundle Version | String | The version of the OSGI bundle to remove. | Yes |
