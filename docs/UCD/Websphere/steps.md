@@ -117,8 +117,8 @@ Process steps in the WAS Deploy plug-in
 
 Activate an edition of a WebSphere enterprise application.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Application Edition | String | The edition of the application to activate. This edition is used for a WebSphere reference. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
 | Application Name | String | The name of the application to activate. | Yes |
@@ -142,8 +142,8 @@ Activate an edition of a WebSphere enterprise application.
 
 Add an asset to a business-level application.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
 | Asset Name | String | The name of the asset to add to the business-level application. | Yes |
 | BLA Name | String | The name of the business-level application to add the asset to. | Yes |
@@ -171,8 +171,8 @@ Add an asset to a business-level application.
 
 Add and associate a business-level application to another business-level application.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
 | Cell Name | String | The name of the cell to administer. | No |
 | Child BLA Name | String | The name of the child business-level application. This child application is added to the other business-level application. | Yes |
@@ -196,8 +196,8 @@ Add and associate a business-level application to another business-level applica
 
 Add a shared library to an application.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
 | Application Edition | String | The edition of the application to add the shared library to. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
 | Application Name | String | The name of the application to add the shared library to. | Yes |
@@ -222,8 +222,8 @@ Add a shared library to an application.
 
 Add a shared library to a module.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
 | Application Edition | String | The edition of the application to add the shared library to. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
 | Application Name | String | The name of the application to add the shared library to. | Yes |
@@ -249,8 +249,8 @@ Add a shared library to a module.
 
 Map a target server or cluster to a module of an enterprise application.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Application Edition | String | The edition of the application to map the target to. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
 | Application Name | String | The name of the application being installed. This name is used for a WebSphere reference. | Yes |
@@ -275,8 +275,8 @@ Map a target server or cluster to a module of an enterprise application.
 
 Add a target to composition unit.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
 | BLA Name | String | The name of the business-level application to change the target mapping for. | Yes |
 | Cell Name | String | The name of the cell to administer. | No |
@@ -298,8 +298,8 @@ Add a target to composition unit.
 
 Apply the properties in the specified properties file to the WebSphere configuration.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
 |                 | * SOAP       |                                                      |     |
@@ -321,8 +321,8 @@ Apply the properties in the specified properties file to the WebSphere configura
 
 Cancel the validation of an edtion of a WebSphere enterprise application.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Application Edition | String | The edition of the application to cancel validation of. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
 | Application Name | String | The name of the application to cancel validation of. | Yes |
@@ -346,8 +346,8 @@ Cancel the validation of an edtion of a WebSphere enterprise application.
 
 Check that an application is installed.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Command Line Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Application Edition | String | The edition of the application to check. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
 | Application Name | String | The name of the application to check for. | Yes |
@@ -365,8 +365,8 @@ Check that an application is installed.
 
 Check that an application is not running.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Application Edition | String | The edition of the application to check. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
 | Application Name | String |  | Yes |
@@ -390,8 +390,8 @@ Check that an application is not running.
 
 Check that an application is running.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Application Edition | String | The edition of the application to be checked. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
 | Application Name | String |  | Yes |
@@ -415,8 +415,8 @@ Check that an application is running.
 
 Check if a business-level application exists in a cell.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
 | BLA Name | String | The name of the business-level application to check for. | Yes |
 | Cell Name | String | The name of the cell to administer. | No |
@@ -437,8 +437,8 @@ Check if a business-level application exists in a cell.
 
 Check if a composition unit exists in a business-level application.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
 | BLA Name | String | The name of the business-level application to check. | Yes |
 | Cell Name | String | The name of the cell to administer. | No |
@@ -460,8 +460,8 @@ Check if a composition unit exists in a business-level application.
 
 DEPRECATED. Check if a config object exists in the WebSphere Configuration by Containment Path. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
 |                 | * SOAP       |                                                      |     |
@@ -477,8 +477,8 @@ DEPRECATED. Check if a config object exists in the WebSphere Configuration by Co
 
 DEPRECATED. Check that initial heap size. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
 |                 | * SOAP       |                                                      |     |
@@ -496,8 +496,8 @@ DEPRECATED. Check that initial heap size. This step is deprecated. Use the WebSp
 
 DEPRECATED. Check that maximum heap size. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
 |                 | * SOAP       |                                                      |     |
@@ -515,8 +515,8 @@ DEPRECATED. Check that maximum heap size. This step is deprecated. Use the WebSp
 
 Check the status of nodes in a cell.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
@@ -538,8 +538,8 @@ Check the status of nodes in a cell.
 
 Check the status of a WebSphere server or cluster.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
@@ -560,8 +560,8 @@ Check the status of a WebSphere server or cluster.
 
 Clear all target mappings for an enterprise application and associated modules.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Application Edition | String | The edition of the application to clear mappings for. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
 | Application Name | String | The name of the application to install. This name is used for a WebSphere reference. | Yes |
@@ -585,8 +585,8 @@ Clear all target mappings for an enterprise application and associated modules.
 
 Create a business-level application.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
 | BLA Name | String | The name of the business-level application to create. | Yes |
 | Cell Name | String | The name of the cell to administer. | No |
@@ -608,8 +608,8 @@ Create a business-level application.
 
 Create a cluster.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Cluster Name | String | The name of the cluster to create. | Yes |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
@@ -625,8 +625,8 @@ Create a cluster.
 
 Create a cluster member.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Cluster Name | String | The name of the cluster to create. | Yes |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
@@ -644,8 +644,8 @@ Create a cluster member.
 
 DEPRECATED. Create a DataSource on a given JDBCProvider. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Alias Password | Password | The Password to use for the Auth Alias if not already created. | Yes |
 | Alias User Name | String | The User name to use for the Auth Alias if not already created. | Yes |
 | Auth Alias | String | The Alias to create or use for this DataSource. | Yes |
@@ -670,8 +670,8 @@ DEPRECATED. Create a DataSource on a given JDBCProvider. This step is deprecated
 
 DEPRECATED. Create a data source on a cluster. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Alias Password | Password | The Password to use for the Auth Alias if not already created. | Yes |
 | Alias User Name | String | The User name to use for the Auth Alias if not already created. | Yes |
 | Auth Alias | String | The Alias to create or use for this DataSource. | Yes |
@@ -700,8 +700,8 @@ DEPRECATED. Create a data source on a cluster. This step is deprecated. Use the 
 
 Create an IBM HTTP Server definition with a template, and configure the web server definition properties. Web server definitions generate and propagate the plugin-config.xml file for each web server. For IBM HTTP Server only, you can use web server definitions to administer and configure IBM HTTP Server web servers with the administrative console. These functions include: Start, Stop, View logs, View and Edit configuration files.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Access Log File | String | The path for the IBM HTTP Server access log (access.log file). | Yes |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Admin Password | Password | Specify the password for the user ID. The password is generated by the htpasswd utility and stored in the admin.password file. | No |
@@ -737,8 +737,8 @@ Create an IBM HTTP Server definition with a template, and configure the web serv
 
 DEPRECATED. Create a JDBCProvider with specified scope. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Class Path | String | The Classpath of the JDBCPRovider to create. | Yes |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
@@ -761,8 +761,8 @@ DEPRECATED. Create a JDBCProvider with specified scope. This step is deprecated.
 
 DEPRECATED. Create a JDBCProvider on a cluster. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Class Path | String | The Classpath of the JDBCPRovider to create. | Yes |
 | Cluster Name | String | The name of the Cluster that the JDBCProvider lives on. | Yes |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
@@ -785,8 +785,8 @@ DEPRECATED. Create a JDBCProvider on a cluster. This step is deprecated. Use the
 
 DEPRECATED. Create a SIBJMSConnectionFactory on a given scope. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Bus Name | String | The name of the SIBus to association this Connection Factory with. | Yes |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
@@ -806,8 +806,8 @@ DEPRECATED. Create a SIBJMSConnectionFactory on a given scope. This step is depr
 
 DEPRECATED. Create a SIBJMSQueue on a given scope. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
 |                 | * SOAP       |                                                      |     |
@@ -826,8 +826,8 @@ DEPRECATED. Create a SIBJMSQueue on a given scope. This step is deprecated. Use 
 
 DEPRECATED. Create a SIBJMSTopic on a given scope. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
 |                 | * SOAP       |                                                      |     |
@@ -845,8 +845,8 @@ DEPRECATED. Create a SIBJMSTopic on a given scope. This step is deprecated. Use 
 
 Create a shared library at the cell level.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
 | Cell Name | String | The name of the cell to administer. | No |
 | Classpath | String | The class path for the shared library. | Yes |
@@ -870,8 +870,8 @@ Create a shared library at the cell level.
 
 Create a new unmanaged node in the configuration. An unmanaged node is a node that does not have a node agent or a Deployment Manager. Unmanaged nodes can contain Web servers, such as IBM HTTP Server.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
@@ -898,8 +898,8 @@ Create a new unmanaged node in the configuration. An unmanaged node is a node th
 
 Deactivate an edition of a WebSphere enterprise application.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Application Edition | String | The edition of the application to deactivate. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
 | Application Name | String | The name of the application to deactivate. | Yes |
@@ -923,8 +923,8 @@ Deactivate an edition of a WebSphere enterprise application.
 
 Delete an asset from an enterprise bundle archive (EBA) file.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
 | Asset Name | String | The name of the asset to delete. | Yes |
 | Asset Version | String | The version of the asset to delete. Required only if more than one version of the asset exits in WebSphere Application Server. | No |
@@ -947,8 +947,8 @@ Delete an asset from an enterprise bundle archive (EBA) file.
 
 Delete a business-level application.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
 | BLA Name | String | The name of the business-level application to delete. | Yes |
 | Cell Name | String | The name of the cell to administer. | No |
@@ -969,8 +969,8 @@ Delete a business-level application.
 
 Delete a composition unit from a business-level application.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
 | BLA Name | String | The name of the business-level application to delete the composition unit from. | Yes |
 | Cell Name | String | The name of the cell to administer. | No |
@@ -993,8 +993,8 @@ Delete a composition unit from a business-level application.
 
 Delete the properties in the specified properties file from the WebSphere configuration.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
 |                 | * SOAP       |                                                      |     |
@@ -1015,8 +1015,8 @@ Delete the properties in the specified properties file from the WebSphere config
 
 Delete the WebSphere server running on the specified node.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Batch Script | Boolean | Select to use this command as part of a batch script. When selected, this command is added to a batch script that is saved and can be run later. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
@@ -1036,8 +1036,8 @@ Delete the WebSphere server running on the specified node.
 
 Disable automatic start/loading of the application
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Name | String | The name of an Application | Yes |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
@@ -1053,8 +1053,8 @@ Disable automatic start/loading of the application
 
 Disable automatic synchronization on nodes.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Batch Script | Boolean | Select to use this command as part of a batch script. When selected, this command is added to a batch script that is saved and can be run later. | No |
 | Cell Name | String | The name of the cell to administer. | No |
@@ -1077,8 +1077,8 @@ Disable automatic synchronization on nodes.
 
 Echo the options used to install a currently installed application.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Edition | String | The edition of the application to display the options for. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
 | Application Name | String | The name of the application to display the options for. This name is used for a WebSphere reference. | Yes |
 | Cell Name | String | The name of the cell to administer. | No |
@@ -1099,8 +1099,8 @@ Echo the options used to install a currently installed application.
 
 Enable automatic start/loading of the application
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Name | String | The name of an Application | Yes |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
@@ -1116,8 +1116,8 @@ Enable automatic start/loading of the application
 
 Enable automatic synchronization on nodes.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Batch Script | Boolean | Select to use this command as part of a batch script. When selected, this command is added to a batch script that is saved and can be run later. | No |
 | Cell Name | String | The name of the cell to administer. | No |
@@ -1140,8 +1140,8 @@ Enable automatic synchronization on nodes.
 
 Run a batch script generated from plug-in steps.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
@@ -1162,8 +1162,8 @@ Run a batch script generated from plug-in steps.
 
 Run a Jython or JACL script with the wsadmin tool.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
@@ -1189,8 +1189,8 @@ Run a Jython or JACL script with the wsadmin tool.
 
 Export an application from the WebSphere server.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Application Edition | String | The edition of the application to export. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
 | Application Name | String | The name of the application to export. This name is used for a WebSphere reference. | Yes |
@@ -1215,8 +1215,8 @@ Export an application from the WebSphere server.
 
 DEPRECATED. Export the data source properties from a Cluster. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Cluster Name | String | The name of the Cluster that the JDBCProvider lives on. | Yes |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
@@ -1234,8 +1234,8 @@ DEPRECATED. Export the data source properties from a Cluster. This step is depre
 
 DEPRECATED. Export the JVM Heap Size values from a server. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
 |                 | * SOAP       |                                                      |     |
@@ -1251,8 +1251,8 @@ DEPRECATED. Export the JVM Heap Size values from a server. This step is deprecat
 
 Extracts configuration data in the form of a properties file
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Config Data Key | String | Specifies the configuration object in the format Ex: Node, Server, VirtualHost, etc,. | No |
 | Config Data Value | String | Specifies the corresponding configuration object instance | No |
@@ -1283,8 +1283,8 @@ Extracts configuration data in the form of a properties file
 
 Generate a WebSphere plug-in for web servers.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Application Server Root Directory | String | The root directory of the application server. | Yes |
 | Cell Name | String | The name of the cell to administer. | No |
@@ -1311,8 +1311,8 @@ Generate a WebSphere plug-in for web servers.
 
 Import an asset from an enterprise bundle archive (EBA) file
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
@@ -1337,8 +1337,8 @@ Import an asset from an enterprise bundle archive (EBA) file
 
 DEPRECATED. Import the data source properties into a Cluster. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Cluster Name | String | The name of the Cluster that the JDBCProvider lives on. | Yes |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Timeout | String | The Connection Timeout to use. | Yes |
@@ -1358,8 +1358,8 @@ DEPRECATED. Import the data source properties into a Cluster. This step is depre
 
 DEPRECATED. Import the JVM Heap Size values for all servers in a cluster. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Cluster Name | String | The name of the Cluster whose heap size is to be updated. | Yes |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
@@ -1377,8 +1377,8 @@ DEPRECATED. Import the JVM Heap Size values for all servers in a cluster. This s
 
 Install an application to a WebSphere server or cluster. If you are installing an application at the cell scope, then the Options String must contain a -MapModulesToServers argument to indicate which servers/clusters are affected.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Application Edition | String | The edition of the application. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
 | Application Name | String | The name of the application to install. This name is used for a WebSphere reference. | Yes |
@@ -1407,8 +1407,8 @@ Install an application to a WebSphere server or cluster. If you are installing a
 
 Install an OSGI bundle to WebSphere Application Server.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
 | Bundle File | String | The location of the OSGI bundle to install. | Yes |
 | Cell Name | String | The name of the cell to administer. | No |
@@ -1429,8 +1429,8 @@ Install an OSGI bundle to WebSphere Application Server.
 
 Install or update an application on a WebSphere server or cluster. If you are installing or updating an application at the cell scope, then the Options String must contain a -MapModulesToServers argument to indicate which servers/clusters are affected.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Application Edition | String | The edition of the application to install or update. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
 | Application Name | String | The name of the application to install. This name is used for a WebSphere reference. | Yes |
@@ -1460,8 +1460,8 @@ Install or update an application on a WebSphere server or cluster. If you are in
 
 Sets the conditional trace specification for a web server. Use this operation to configure conditional tracing from the web server plug-in.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
 |                 | * SOAP       |                                                      |     |
@@ -1481,8 +1481,8 @@ Sets the conditional trace specification for a web server. Use this operation to
 
 Adds a remote cell to the list of cells for a web server. This operation enables a web server to extend the Intelligent Management service to multiple cells.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
 |                 | * SOAP       |                                                      |     |
@@ -1512,8 +1512,8 @@ Adds a remote cell to the list of cells for a web server. This operation enables
 
 Removes a remote cell from the list of cells for this web server
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
 |                 | * SOAP       |                                                      |     |
@@ -1536,8 +1536,8 @@ Removes a remote cell from the list of cells for this web server
 
 Disable the Websphere application server Intelligent management.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
 |                 | * SOAP       |                                                      |     |
@@ -1555,8 +1555,8 @@ Disable the Websphere application server Intelligent management.
 
 Enable the Websphere application server Intelligent management.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Cell Name | String | The name of the cell to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
@@ -1577,8 +1577,8 @@ Enable the Websphere application server Intelligent management.
 
 Generates a plug-in that is required by the web server. The plug-in configuration file stores all your Intelligent Management settings.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Cell Name | String | The name of the cell to administer. | Yes |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
@@ -1598,8 +1598,8 @@ Generates a plug-in that is required by the web server. The plug-in configuratio
 
 Lists the remote cells for a web server which are available for Intelligent Management service
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
 |                 | * SOAP       |                                                      |     |
@@ -1617,8 +1617,8 @@ Lists the remote cells for a web server which are available for Intelligent Mana
 
 List Trace Rules for a web server.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
 |                 | * SOAP       |                                                      |     |
@@ -1636,8 +1636,8 @@ List Trace Rules for a web server.
 
 Modifies Intelligent Management properties for a web server. Use this operation to configure your Intelligent Management service
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Cell Name | String | The name of the cell to administer. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
@@ -1658,8 +1658,8 @@ Modifies Intelligent Management properties for a web server. Use this operation 
 
 Modifies a remote cell for a web server. Use this operation to change remote cell properties.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
 |                 | * SOAP       |                                                      |     |
@@ -1684,8 +1684,8 @@ Modifies a remote cell for a web server. Use this operation to change remote cel
 
 Use this operation to refresh the local cell connectors for your web server.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
 |                 | * SOAP       |                                                      |     |
@@ -1703,8 +1703,8 @@ Use this operation to refresh the local cell connectors for your web server.
 
 Use this operation to refresh the remote cell connectors for your web server.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
 |                 | * SOAP       |                                                      |     |
@@ -1726,8 +1726,8 @@ Use this operation to refresh the remote cell connectors for your web server.
 
 Removes a conditional trace rule from your web server. Use this operation to manage the conditional trace rules in your environment.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
 |                 | * SOAP       |                                                      |     |
@@ -1745,8 +1745,8 @@ Removes a conditional trace rule from your web server. Use this operation to man
 
 Sets the default trace rule for a web server.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
 |                 | * SOAP       |                                                      |     |
@@ -1765,8 +1765,8 @@ Sets the default trace rule for a web server.
 
 Return the list of nodes the cluster is running on and set it as an output property in the format ``${p:stepName/nodeList}``
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Cluster Name | String | The name of the WebSphere cluster | Yes |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
@@ -1782,8 +1782,8 @@ Return the list of nodes the cluster is running on and set it as an output prope
 
 Update the resource reference mappings for an enterprise application.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Application Edition | String | The edition of the application to map resource references for. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
 | Application Name | String | The name of the application to install. This name is used for a WebSphere reference. | Yes |
@@ -1885,8 +1885,8 @@ Remove an OSGI bundle from WebSphere Application Server.
 
 Restart an application on a WebSphere server or cluster.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Application Edition | String | The edition of the application to restart. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
 | Application Name | String | The name of the application to restart This name is used for a WebSphere reference. | Yes |
@@ -1910,8 +1910,8 @@ Restart an application on a WebSphere server or cluster.
 
 Restart a WebSphere server or cluster.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
@@ -1932,8 +1932,8 @@ Restart a WebSphere server or cluster.
 
 Atomically roll out an edition of a WebSphere enterprise application.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Application Edition | String | The edition of the application to roll out. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
 | Application Name | String | The name of the application to roll out. | Yes |
@@ -1960,8 +1960,8 @@ Atomically roll out an edition of a WebSphere enterprise application.
 
 Roll out an edition of a WebSphere enterprise application in groups.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Application Edition | String | The edition of the application to roll out. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
 | Application Name | String | The name of the application to roll out. | Yes |
@@ -1989,8 +1989,8 @@ Roll out an edition of a WebSphere enterprise application in groups.
 
 Generate default IBM WebSphere Bindings for the specified EAR file.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The full path to the directory that contains the ws\_ant tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | DB Password | Password | The password associated with the default data source. | No |
 | DB User | String | The user associated with the default data source. | No |
@@ -2010,8 +2010,8 @@ Generate default IBM WebSphere Bindings for the specified EAR file.
 
 Start an application on a WebSphere server or cluster. If you are starting an application at the cell scope, the module list of the installed application is checked to determine which servers/clusters are started.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Application Edition | String | The edition of the application to start. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
 | Application Name | String | The name of the application to start. This name is used for a WebSphere reference. | Yes |
@@ -2035,8 +2035,8 @@ Start an application on a WebSphere server or cluster. If you are starting an ap
 
 Start a business-level application.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
 | BLA Name | String | The name of the business-level application to start. | Yes |
 | Cell Name | String | The name of the cell to administer. | No |
@@ -2058,8 +2058,8 @@ Start a business-level application.
 
 Start a WebSphere server or cluster.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
@@ -2081,8 +2081,8 @@ Start a WebSphere server or cluster.
 
 Stop an application on a WebSphere server or cluster. If you are stopping an application at the cell scope, the module list of the installed application is checked to determine which servers/clusters are stopped.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Edition | String | The edition of the application to stop. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
 | Application Name | String | The name of the application to stop. This name is used for a WebSphere reference. | Yes |
 | Batch Script | Boolean | Select to use this command as part of a batch script. When selected, this command is added to a batch script that is saved and can be run later. | No |
@@ -2105,8 +2105,8 @@ Stop an application on a WebSphere server or cluster. If you are stopping an app
 
 Stop a business-level application.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended as the last arguments on the command line before the script declaration. | No |
 | BLA Name | String | The name of the business-level application to stop. | Yes |
 | Cell Name | String | The name of the cell to administer. | No |
@@ -2128,8 +2128,8 @@ Stop a business-level application.
 
 Stop a WebSphere server or cluster.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
@@ -2151,8 +2151,8 @@ Stop a WebSphere server or cluster.
 
 Synchronize all nodes in a cell.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
@@ -2176,8 +2176,8 @@ Synchronize all nodes in a cell.
 
 Stop a WebSphere server or cluster. For advanced users only. Use this step only after a Stop Server or Stop Cluster step has failed to stop the server or cluster. Sets the output property only if any of the node agents are inactive ``${p:stepName/checkNodeAgent}``
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
@@ -2198,8 +2198,8 @@ Stop a WebSphere server or cluster. For advanced users only. Use this step only 
 
 Uninstall an application from a WebSphere server or cluster.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Application Edition | String | The edition of the application to uninstall. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
 | Application Name | String | The name of the application to uninstall. This name is used for a WebSphere reference. | Yes |
@@ -2223,8 +2223,8 @@ Uninstall an application from a WebSphere server or cluster.
 
 Update an application on a WebSphere server or cluster.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Application Edition | String | The edition of the application to update. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
 | Application Name | String | The name of the application to update.This name is used for a WebSphere reference. | Yes |
@@ -2261,8 +2261,8 @@ Update an application on a WebSphere server or cluster.
 
 Call the AdminTask.updateAppOnCluster command to start a rolling update of an application.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Application Edition | String | The edition of the application to update. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
 | Application Name | String | The name of the application to update. | Yes |
@@ -2287,8 +2287,8 @@ Call the AdminTask.updateAppOnCluster command to start a rolling update of an ap
 
 Update the context root for the specified web module(s) of the installed application.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Application Edition | String | The edition of the application to update context roots for. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
 | Application Name | String | The name of the installed application. | Yes |
@@ -2313,8 +2313,8 @@ Update the context root for the specified web module(s) of the installed applica
 
 DEPRECATED. Create or Update J2EEResourceProperty on a config object. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
 |                 | * SOAP       |                                                      |     |
@@ -2333,8 +2333,8 @@ DEPRECATED. Create or Update J2EEResourceProperty on a config object. This step 
 
 DEPRECATED. Update simple attribute on a config object. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Attribute Name | String | The attribute name to update the value of. | Yes |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
@@ -2352,8 +2352,8 @@ DEPRECATED. Update simple attribute on a config object. This step is deprecated.
 
 Update the virtual host for the specified web module(s) of the installed application.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Application Edition | String | The edition of the application to update context roots for. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
 | Application Name | String | The name of the installed application. | Yes |
@@ -2378,8 +2378,8 @@ Update the virtual host for the specified web module(s) of the installed applica
 
 Update the properties in WebSpheres soap.client.props file.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Properties to Set | String | New line separated list of additional properties to set, where the variable name and value are delimited by an equals character. For example: com.ibm.SOAP.authenticationTarget=BasicAuth. Variables will be replaced, not added, and unencrypted. | No |
 | Authentication Target | Enumeration: | The method of authorization. BasicAuth and KRB5 are the only supported selections on a pure JMX SOAP Connector Client. Use the additional arguments property if you need to add a different property. | No |
 |                       | - ignore         |                                                                                                 |    |
@@ -2398,8 +2398,8 @@ Update the properties in WebSpheres soap.client.props file.
 
 Validate the WebSphere configuration properties in the specified properties file.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
 |                 | * SOAP       |                                                      |     |
@@ -2420,8 +2420,8 @@ Validate the WebSphere configuration properties in the specified properties file
 
 Validate an edition using a dynamic cluster.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Application Edition | String | The edition of the application to validate. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
 | Application Name | String | The name of the application to validate. | Yes |
@@ -2447,8 +2447,8 @@ Validate an edition using a dynamic cluster.
 
 Validate an edition using a static cluster.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Application Edition | String | The edition of the application to validate. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
 | Application Name | String | The name of the application to validate. | Yes |
@@ -2473,8 +2473,8 @@ Validate an edition using a static cluster.
 
 Wait for an application to be ready on the WebSphere server or cluster.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Application Edition | String | The edition of the application to wait for. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
 | Application Name | String | The name of the application to wait for. | Yes |
@@ -2499,8 +2499,8 @@ Wait for an application to be ready on the WebSphere server or cluster.
 
 Wait for a server or cluster to start.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
@@ -2523,8 +2523,8 @@ Wait for a server or cluster to start.
 
 Wait for a server or cluster to stop.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Cell Name | String | The name of the cell to administer. | No |
 | Cluster Name | String | The name of the cluster to administer. | No |
@@ -2547,8 +2547,8 @@ Wait for a server or cluster to stop.
 
 This step discovers if Websphere is on an agent by checking common installation paths. If WebSphere is installed, the step assigns the WebSphereCell role to the resource and sets the command path property.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Path Override | String | Override the path to the wsadmin tool. | No |
 | Profile Path Agent | String | Specify an additional path to search for the wsadmin tool for creating profile resources. By default, the path from the property websphere.profilePath defined on the agent is searched. | No |
 | Profile Path Resource | String | Specify an additional path to search for the wsadmin tool for creating profile resources. By default, the path from the property websphere.profilePath defined on the resource is searched. | No |
@@ -2558,8 +2558,8 @@ This step discovers if Websphere is on an agent by checking common installation 
 
 This step discovers all the nodes, servers, and clusters in a cell and creates resources for each under a root resource, applies the correct roles, and sets the role properties. This step can be called directly or from an Update from Live Configuration wrapper step.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
 |                 | * SOAP       |                                                      |     |
