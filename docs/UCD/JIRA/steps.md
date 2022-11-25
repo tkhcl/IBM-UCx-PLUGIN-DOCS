@@ -27,8 +27,8 @@ Add Comments
 Use this step to add comments from the current changelog to the matching JIRA issues.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Comment | String | The template to use for adding a comment to JIRA issues. | Yes |
 | Fail Mode | Enumeration:
 * WARN\_ONLY
@@ -50,8 +50,8 @@ Check Status
 Check JIRA Issues
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Fail Mode | Enumeration:
 * WARN\_ONLY
 * FAIL\_FAST
@@ -74,8 +74,8 @@ Create Issue
 Use this step to create a new issue in a JIRA Bug Tracker.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Assignee | String | The assignee for the new issue. If there is no value for this property, the assignee uses the JIRA automatic assignment. | No |
 | Components | String | Components for the new issue. Separated by commas and/or newline characters. | No |
 | Custom Fields | String | A JSON object used to set custom field values on the JIRA issue. If standard field names are used here, they will be silently ignored. See https://docs.atlassian.com/jira/REST/latest/ for syntax. | No |
@@ -102,8 +102,8 @@ Does issues exist
 Check if issues with specified issue type exists
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | JIRA projects | String | A list of Jira project names or keys separated by commas. Note : Please surround the name with quotes if it has spaces. | No |
 | Issue Type | Enumeration:
 * Bug
@@ -136,8 +136,8 @@ Edit Issue
 Use this step to edit fields on an existing JIRA issue.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Components | String | Components to be added to the issue. Separated by commas and/or newline characters. | No |
 | Custom Fields | String | A JSON object used to set custom field values on the JIRA issue. If standard field names are used here, they will be silently ignored. See https://docs.atlassian.com/jira/REST/latest/ for syntax. | No |
 | Fail Mode | Enumeration:
@@ -162,8 +162,8 @@ Transition Issue
 Use this step to perform JIRA issue transitions.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Comment | String | Comments to add to the issue when it is updated. Leave the field blank to exclude comments. You can use scripts in this field. | No |
 | Custom Fields | String | A JSON object used to set custom field values on the JIRA issue during transition. If standard field names are used here, they will be silently ignored. See https://docs.atlassian.com/jira/REST/latest/ for syntax. | No |
 | Fail Mode | Enumeration:

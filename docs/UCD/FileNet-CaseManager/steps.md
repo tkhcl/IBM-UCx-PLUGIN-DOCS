@@ -25,8 +25,8 @@ FileNet - IBM Case Manager - Steps
 Runs a Deploy Solution task via the execute command for a specified production profile. The location of the configuration file where the target and solution are set is ``${installPath}``/configure/profiles/``${profile}``/deploysolution.xml.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Install Path | String | The location where IBM Case Manager is installed. For Linux, default is /opt/IBM/CaseManagement. For Windows, default is C:\Program Files\IBM\CaseManagement. | Yes |
 | Production Profile | String | Specifies the production profile to use (ex. prod1). This profile must contain a defined Deploy Solution task, and the values to deploy must be set in the deploysolution.xml file. | Yes |
 
@@ -36,8 +36,8 @@ Exports a case management solution from the development environment.
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Install Path | String | The location where IBM Case Manager is installed. For Linux, default is /opt/IBM/CaseManagement. For Windows, default is C:\Program Files\IBM\CaseManagement. | Yes |
 | Profile | String | Specifies the profile to use (ex. develop1). | Yes |
 | Solution Name | String | Specifies the solution to export. | Yes |
@@ -49,8 +49,8 @@ Imports a solution package into another environment.
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Install Path | String | The location where IBM Case Manager is installed. For Linux, default is /opt/IBM/CaseManagement. For Windows, default is C:\Program Files\IBM\CaseManagement. | Yes |
 | Profile | String | Specifies the profile to use (ex. develop1). | Yes |
 | Solution Package | String | Specifies the full or relative path and file name of the solution package ZIP file that contains the solution to import. (ex. C:\Solution Packages\Credit Dispute Solution.zip | Yes |
@@ -64,8 +64,8 @@ The exportSolutionSecurityManifest command exports a case management security co
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Install Path | String | The location where IBM Case Manager is installed. For Linux, default is /opt/IBM/CaseManagement. For Windows, default is C:\Program Files\IBM\CaseManagement. | Yes |
 | Profile | String | Specifies the profile to use. Can be specified as a name, full path to profile, or full path to input file. (ex. develop1). | Yes |
 | Manifest Names | String | Specifies the name of the security manifest. To enter multiple, specify each manifest name on a new line. | Yes |
@@ -77,8 +77,8 @@ The exportSolutionSecurityManifest command exports a case management security co
 The importSolutionSecurityManifest command imports a security configuration package into another environment.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Install Path | String | The location where IBM Case Manager is installed. For Linux, default is /opt/IBM/CaseManagement. For Windows, default is C:\Program Files\IBM\CaseManagement. | Yes |
 | Profile | String | Specifies the profile to use. Can be specified as a name, full path to profile, or full path to input file. (ex. develop1). | Yes |
 | Manifest Package | String | Specifies the full path and file name of the security configuration package ZIP file. | Yes |
@@ -88,8 +88,8 @@ The importSolutionSecurityManifest command imports a security configuration pack
 The applySolutionSecurityManifest command applies a solution security configuration that you have previously created. The solution must be deployed before you apply the security configuration. You must specify a target environment if the solution is in a production environment.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Install Path | String | The location where IBM Case Manager is installed. For Linux, default is /opt/IBM/CaseManagement. For Windows, default is C:\Program Files\IBM\CaseManagement. | Yes |
 | Profile | String | Specifies the profile to use. Can be specified as a name, full path to profile, or full path to input file. (ex. develop1). | Yes |
 | Target Environment | String | Specifies the name of the target environment. This argument is required only on production environments. | No |

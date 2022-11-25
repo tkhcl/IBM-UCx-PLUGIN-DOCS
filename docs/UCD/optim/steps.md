@@ -22,8 +22,8 @@ IBM InfoSphere Optim - Steps
 Runs an convert request against a database to mask values.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Fail On Warning | Boolean | If checked, and the request returns one or more Warnings, this step will fail. | No |
 | Optim CMD Location | String | The location of the Optim pr0cmnd file. | Yes |
 | Optim Directory | String | The name of the Optim directory to run against. | Yes |
@@ -36,8 +36,8 @@ Runs an convert request against a database to mask values.
 Runs an extract request against a database.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Fail On Warning | Boolean | If checked, and the request returns one or more Warnings, this step will fail. | No |
 | Optim CMD Location | String | The location of the Optim pr0cmnd file. | Yes |
 | Optim Directory | String | The name of the Optim directory to run against. | Yes |
@@ -50,8 +50,8 @@ Runs an extract request against a database.
 Runs an insert request against a database.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Fail On Warning | Boolean | If checked, and the request returns one or more Warnings, this step will fail. | No |
 | Optim CMD Location | String | The location of the Optim pr0cmnd file. | Yes |
 | Optim Directory | String | The name of the Optim directory to run against. | Yes |

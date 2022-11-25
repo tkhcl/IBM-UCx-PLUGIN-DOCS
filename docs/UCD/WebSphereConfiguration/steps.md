@@ -28,8 +28,8 @@
 
 Extract a resource and any child resources from WebSphere configuration data by resource name.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Create Snippet File for each Resource | Boolean | If this option is selected, a separate snippet file will be created for each extracted resource. File names will be in the format of the file name specified in the Extracted Snippet File field with the file name ending with [Object Type]\_[Integer].json | No |
 | Extracted Snippet File | String | Name and location of the configuration snippet file to create containing the extracted resource. For example: /tmp/extractedResource.json. Leave blank if this file is not desired. | No |
 | New Configuration File | String | Name and location of a file to be created which contains everything in the original configuration file minus the resource that was extracted. For example: /tmp/newConfigData.json. Useful for removing items from a configuration file. Leave blank if this file is not desired. | No |
@@ -41,8 +41,8 @@ Extract a resource and any child resources from WebSphere configuration data by 
 
 Parse a WebSphere configuration file into cell, node, cluster, and server components.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Configuration File | String | The full path to the configuration file. For example: /tmp/discoveredConfig.json | Yes |
 | Output Directory | String | The location where the extracted and templatized data is stored. | Yes |
 
@@ -50,16 +50,16 @@ Parse a WebSphere configuration file into cell, node, cluster, and server compon
 
 Merges all configuration data files in the working directory to one file.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Output File | String | Name and location of a file to be created which contains the merged configuration data. | Yes |
 
 ### WebSphere Templatize Cell Configuration Data
 
 Templatize WebSphere cell configuration data.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Did Discovery Collect Cell Configuration Only? | Boolean | Select if the discovery process only collected Cell configuration data (and did not discover any Nodes, Servers, Clusters). Clear if discovery was run against the cell and all configuration data was captured. If selected, your process will not include the WebSphere Extract Configuration Data step. | No |
 | Dmgr/Application Server Node | String | Some security settings may include the name of the node that hosts the deployment manager (WAS ND) or an application server (WAS Base). If the Did Discovery Collect Cell Configuration Only checkbox is checked and you wish to tokenize the node name value, enter the node name in this field. | No |
 | Dmgr/Application Server Node Host Name | String | Some security settings may include the host name of the node that hosts the deployment manager (WAS ND) or an application server (WAS Base). If the Did Discovery Collect Cell Configuration Only checkbox is checked and you wish to tokenize the node host name value, enter the node host name in this field. | No |
@@ -72,8 +72,8 @@ Templatize WebSphere cell configuration data.
 
 Templatizes WebSphere cluster configuration data
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Cell Name | String | If discovery was run on a cluster only, specify the name of the cell that contains the cluster. | No |
 | Cluster Name | String | Name of the cluster to templatize. Enter ALL to templatize all available clusters. | Yes |
 | Configuration file | String | If discovery was run on a cluster only, specify the location of the discovered configuration file. | No |
@@ -88,8 +88,8 @@ Templatizes WebSphere cluster configuration data
 
 Templatizes WebSphere node configuration data.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Cell Name | String | If discovery was run on a node only, specifiy the name of the Cell that contains the node. | No |
 | Configuration file | String | If discovery was run on a node only, specify the location of the discovered configuration file. | No |
 | End Token Delimiter | String | The end delimiter character used to identify tokens. | Yes |
@@ -103,8 +103,8 @@ Templatizes WebSphere node configuration data.
 
 Templatize WebSphere Server configuration data.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Cell Name | String | If discovery was run on a server only, specify the name of the cell that contains the server. | No |
 | Configuration file | String | If discovery was run on a server only, specify the location of the discovered configuration file. | No |
 | End Token Delimiter | String | The end delimiter character used to identify tokens. | Yes |
@@ -120,8 +120,8 @@ Templatize WebSphere Server configuration data.
 
 Templatizes WebSphere cluster Member configuration data
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Cell Name | String | If discovery was run on a server only, specifiy the name of the cell that contains the server. | No |
 | Cluster Name | String | Name of the cluster the server will be a member of. | Yes |
 | Configuration file | String | If discovery was run on a server only, specify the location of the discovered configuration file. | No |
@@ -138,8 +138,8 @@ Templatizes WebSphere cluster Member configuration data
 
 Templatize a snippet of configuration data.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Cell Name | String | If you want to templatize the cell name, enter the cell name. | No |
 | Cluster Name | String | If you want to templatize the cluster name, enter the cluster name | No |
 | Configuration file | String | Location and name of the configuration file to templatize. (example: /tmp/config.json) | Yes |
@@ -155,8 +155,8 @@ Templatize a snippet of configuration data.
 
 Apply the configuration for a given resource.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
 | | | * SOAP  |  |
@@ -183,8 +183,8 @@ Apply the configuration for a given resource.
 
 Export the live cell configuration based on the same object types in the input configuration and compare them.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Attributes to Ignore | String | A newline separated list of attributes which will be ignored during the comparison. The format is WebSphere Object Type, Attribute Name, Json Role Property. For example, DataSource,providerType,websphere.datasource.providertype. | No |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Component Process Request ID | String | The request ID which will be used to track the comparison REST call | No |
@@ -213,8 +213,8 @@ Export the live cell configuration based on the same object types in the input c
 
 Discover all known configuration objects and create resources for each under a root resource, apply the correct role, and set the role properties.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Configuration Output File | String | The file that stores the discovered configuration data. | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
@@ -246,8 +246,8 @@ Discover all known configuration objects and create resources for each under a r
 
 Apply the configuration for a given resource.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
 | | | * SOAP  |  |
@@ -274,8 +274,8 @@ Apply the configuration for a given resource.
 Remove the configuration for a given resource.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The full path to the directory that contains the wsadmin tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | Connection Type | Enumeration: | The type of connection to use with the wsadmin tool. | Yes |
 | | | * SOAP  |  |
@@ -301,8 +301,8 @@ Remove the configuration for a given resource.
 
 This step will report on the result of the WebSphere Configuration Compare step. It will create output properties indicating the result the comparison and a link to the comparison process.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Component Process Request ID | String | The request ID which will be used to track the comparison REST call | No |
 | Fail When Differences Found | Boolean | If this box is checked, the step will have a status of Failure if differences are found. If the box is unchecked, it will have a status of Success whether differences are found or not. | No |
 | Logging Level | Enumeration: | The logging/trace level for the configuration compare | No |

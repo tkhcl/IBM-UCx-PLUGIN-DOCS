@@ -31,8 +31,8 @@ Oracle WebLogic Integration Resource Management - Steps
 Create an FTP Event Generator onthe WebLogic Integration server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Admin Server name | String | The name of the administration server. | Yes |
 | Password | Password | The password to use to authenticate with the WebLogic server. | Yes |
 | Property File | String | The name of the file event generator property file. | Yes |
@@ -46,8 +46,8 @@ Create an FTP Event Generator onthe WebLogic Integration server.
 Create a file event generator on WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Admin Server Name | String | The name of the administration server. | Yes |
 | Password | Password | The password to use to authenticate with the WebLogic server. | Yes |
 | Property File | String | The name of the file event generator property file. | Yes |
@@ -61,8 +61,8 @@ Create a file event generator on WebLogic server.
 Create a JMS event generator on the WebLogic Integration server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Admin Server name | String | The name of the administration server. | Yes |
 | Password | Password | The password to use to authenticate with the WebLogic server. | Yes |
 | Property File | String | The name of the property file for the JMS event generator. | Yes |
@@ -76,8 +76,8 @@ Create a JMS event generator on the WebLogic Integration server.
 Create an entry in the XML cache.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Key | String | The unique identifier for the XML file to be added to the XML Cache. | Yes |
 | Password | Password | The password to use to authenticate with the WebLogic server. | Yes |
 | Server URL | String | The URL to the WebLogic Integration server. | Yes |
@@ -91,8 +91,8 @@ Create an entry in the XML cache.
 Use this step to delete an FTP event generator on the WebLogic Integration server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Admin Server name | String | The name of the administration server. | Yes |
 | FTP Event Generator Name | String | The name of the FTP event generator to delete. | Yes |
 | Password | Password | The password to use to authenticate with the WebLogic server. | Yes |
@@ -106,8 +106,8 @@ Use this step to delete an FTP event generator on the WebLogic Integration serve
 Delete a file event generator on the WebLogic Integration server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Admin Server name | String | The name of the administration server. | Yes |
 | File EG Name | String | File Event Generator name to delete. | Yes |
 | Password | Password | The password to use to authenticate with the WebLogic server. | Yes |
@@ -121,8 +121,8 @@ Delete a file event generator on the WebLogic Integration server.
 Delete a JMS event generator on the WebLogic Integration server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Admin Server name | String | The name of the administration server. | Yes |
 | JMS Event Generator Name | String | The name of the JMS event generator name to delete. | Yes |
 | Password | Password | The password to use to authenticate with the WebLogic server. | Yes |
@@ -136,8 +136,8 @@ Delete a JMS event generator on the WebLogic Integration server.
 Delete an entry from the XML Cache.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Key | String | The unique identifier for the XML file to be deleted from the XML Cache. | Yes |
 | Password | Password | The password to use to authenticate with the WebLogic server. | Yes |
 | Server URL | String | The URL to the WebLogic Integration server. | Yes |
@@ -150,8 +150,8 @@ Delete an entry from the XML Cache.
 Update an FTP event generator onthe WebLogic Integration server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Admin Server name | String | The name of the administration server. | Yes |
 | FTP EG Name | String | FTP Event Generator name to update. | Yes |
 | Password | Password | The password to use to authenticate with the WebLogic server. | Yes |
@@ -166,8 +166,8 @@ Update an FTP event generator onthe WebLogic Integration server.
 Update a file event generator on the WebLogic integration server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Admin Server Name | String | The name of the administration server. | Yes |
 | File Event Generator Name | String | The name of the file event generator to update. | Yes |
 | Password | Password | The password to use to authenticate with the WebLogic server. | Yes |
@@ -182,8 +182,8 @@ Update a file event generator on the WebLogic integration server.
 Update an JMS event generator on the WebLogic Integration server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Admin Server name | String | The name of the administration server. | Yes |
 | JMS Event Generator Name | String | The name of the JMS event generator to update. | Yes |
 | Password | Password | The password to use to authenticate with the WebLogic server. | Yes |
@@ -198,8 +198,8 @@ Update an JMS event generator on the WebLogic Integration server.
 Update an entry in the XML Cache.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Key | String | The unique identifier for the XML file to be updated in the XML Cache. | Yes |
 | Password | Password | The password to use to authenticate with the WebLogic server. | Yes |
 | Server URL | String | The URL to the WebLogic Integration server. | Yes |

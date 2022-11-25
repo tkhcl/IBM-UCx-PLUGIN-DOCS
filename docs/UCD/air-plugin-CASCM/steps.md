@@ -20,8 +20,8 @@ CA SCM (formerly Harvest) - Steps
 Use hco to checkout files from CA SCM
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | File Search Patterns | String | New line separated list of patterns to match files to be retrieved. | Yes |
 | Package Name | String | The name of the package to checkout. | No |
 | Project Name | String | The name of the project. | Yes |

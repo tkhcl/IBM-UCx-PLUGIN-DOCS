@@ -20,8 +20,8 @@ Process steps in the IBM Rational Test Automation Server plug-in:
 Use this step to start a job on the Rational Test Automation Server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Rational Test Automation Server URL | String | The URL of the Rational Test Automation Server. | Yes |
 | Offline Token | Password | User provided offline access token for accessing the Rational Test Automation Server. | Yes |
 | Team Space Name | String | Team Space name of the project. | Yes |

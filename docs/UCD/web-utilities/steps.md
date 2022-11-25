@@ -22,8 +22,8 @@ Web Utilities - Steps
 Uploads a file to an FTP server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Connection Mode | Enumeration:
 * default
 * localPassive
@@ -43,8 +43,8 @@ Uploads a file to an FTP server.
 Sends an HTTP request to a URL, with headers and data.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Accept Response Type | Enumeration:
 * \*/\*
 * text/plain
@@ -86,8 +86,8 @@ Sends an HTTP request to a URL, with headers and data.
 Uploads a file to an FTP server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Connection Mode | Enumeration:
 * default
 * localPassive

@@ -40,8 +40,8 @@ F5 BIG-IP - Steps
 Add a node to a pool.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Node Names | String | The name of the node to add to the pool. For example: WorkerNode. Separate multiple node names with commas or newline characters. There must be a 1-to-1 mapping of Node Names to Node Ports. | Yes |
 | Node Ports | String | The port of the node to add to the pool. For example: 80. Separate multiple node ports with commas or newline characters. There must be a 1-to-1 mapping of Node Names to Node Ports. | Yes |
 | Partition | String | The partition where the node resides. Typically, accept the default value of Common unless you manage multiple partitions. | Yes |
@@ -57,8 +57,8 @@ This step succeeds if the node is offline and disabled. The step fails if the no
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Include Availability Status | Boolean | Select to confirm the disabled availability status of the node. | No |
 | Node Names | String | The name of the node to check. For example: WorkerNode. Separate multiple node names with commas or newline characters. | Yes |
 | Partition | String | The partition where the node resides. Typically, accept the default value of Common unless you manage multiple partitions. | Yes |
@@ -72,8 +72,8 @@ This step succeeds if the node is online and enabled. The step fails if the node
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Node Names | String | The name of the node to check. For example: WorkerNode. Separate multiple node names with commas or newline characters | Yes |
 | Partition | String | The partition where the node resides. Typically, accept the default value of Common unless you manage multiple partitions. | Yes |
 | Password | Password | The password for the F5 appliance. | Yes |
@@ -85,8 +85,8 @@ This step succeeds if the node is online and enabled. The step fails if the node
 Create or modify an address data group. A data group is also known as a class.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Address Data Group Name | String | The name of the address data group to create. | Yes |
 | IP Address List | String | The IP addresses of the address data group members. Separate multiple IP addresses with commas or newline characters. | Yes |
 | If Data Group already exists | Enumeration:
@@ -107,8 +107,8 @@ Create an external data group from a file in the data group file list. A data gr
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | External Data Group Name | String | The name of the external data group to create. | Yes |
 | File Format Type | Enumeration:
 * DEFAULT
@@ -136,8 +136,8 @@ Create an external data group from a file in the data group file list. A data gr
 Create a node.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Monitors | String | A list of monitors to assign to the node, separated by commas or newline characters. For example: icmp. | No |
 | Node Addresses | String | The address of the node to create. For example: 192.0.2.1. Separate multiple node addresses with commas or newline characters. | Yes |
 | Node Connection Limits | String | The node connection limit. Separate multiple node connection limits with commas or newline characters. | Yes |
@@ -153,8 +153,8 @@ Create a node.
 Create a pool.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Action On Service Down | Enumeration:
 * SERVICE\_DOWN\_ACTION\_NONE
 * SERVICE\_DOWN\_ACTION\_RESET
@@ -204,8 +204,8 @@ Create a pool.
 Create or modify a string data group. A data group is also known as a class.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | If Data Group already exists | Enumeration:
 * WARN\_ONLY
 * OVERWRITE
@@ -225,8 +225,8 @@ Create or modify a value data group. A data group is also known as a class. A va
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | If Data Group already exists | Enumeration:
 * WARN\_ONLY
 * OVERWRITE
@@ -245,8 +245,8 @@ Create or modify a value data group. A data group is also known as a class. A va
 Create the specified iRule
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | If iRule exists | Enumeration:
 * WARN\_ONLY
 * FAIL\_FAST
@@ -264,8 +264,8 @@ Create the specified iRule
 Delete a data group. A data group is also known as a class.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Data Group Name | String | The name of the data group to delete. | Yes |
 | If Class does not exist | Enumeration:
 * WARN\_ONLY
@@ -282,8 +282,8 @@ Delete a data group. A data group is also known as a class.
 Delete a node.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Node Names | String | The name of the node to delete. For example: WorkerNode. Separate multiple node names with commas or newline characters. | Yes |
 | Partition | String | The partition where the node resides. Typically, accept the default value of Common unless you manage multiple partitions. | Yes |
 | Password | Password | The password for the F5 appliance. | Yes |
@@ -296,8 +296,8 @@ Delete a node.
 Delete a pool.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Partition | String | The partition where the pool resides. Typically, accept the default value of Common unless you manage multiple partitions. | Yes |
 | Password | Password | The password for the F5 appliance. | Yes |
 | Pool Name | String | The name of the pool to delete. | Yes |
@@ -310,8 +310,8 @@ Delete a pool.
 Delete an iRule
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | If iRule exists | Enumeration:
 * WARN\_ONLY
 * FAIL\_FAST
@@ -328,8 +328,8 @@ Delete an iRule
 Disable a specified node for all pools and ports.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Force node offline | Boolean | Select to force the node offline, close connections, and disable monitors. | No |
 | Node Names | String | The name of the node to disable. For example: WorkerNode. Separate multiple node names with commas or newline characters. | Yes |
 | Partition | String | The partition where the node resides. Typically, accept the default value of Common unless you manage multiple partitions. | Yes |
@@ -345,8 +345,8 @@ Disable a specified node for all pools and ports.
 Disable a node in a specified pool.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Force Node Offline | Boolean | Select to force the pool members offline. If selected, this option closes all active connections to the pool member. Leave unselected to allow the connections to drain normally. | No |
 | Node Names | String | The name of the node to disable. For example: WorkerNode. Separate multiple node names with commas or newline characters. There must be a 1-to-1 mapping of Node Names to Node Ports. | Yes |
 | Node Ports | String | The port of the node to disable. For example: 80. Separate multiple node ports with commas or newline characters. There must be a 1-to-1 mapping of Node Names to Node Ports. | Yes |
@@ -365,8 +365,8 @@ Disable a node in a specified pool.
 Enable a specified node for all pools and ports.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Node Names | String | The name of the node to enable. For example: WorkerNode. Separate multiple node names with commas or newline characters. | Yes |
 | Partition | String | The partition where the node resides. Typically, accept the default value of Common unless you manage multiple partitions. | Yes |
 | Password | Password | The password for the F5 appliance. | Yes |
@@ -378,8 +378,8 @@ Enable a specified node for all pools and ports.
 Enable a node in a specified pool.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Node Names | String | The name of the node to enable. For example: WorkerNode. Separate multiple node names with commas or newline characters. There must be a 1-to-1 mapping of Node Names to Node Ports. | Yes |
 | Node Ports | String | The port of the node to enable. For example: 80. Separate multiple node ports with commas or newline characters. There must be a 1-to-1 mapping of Node Names to Node Ports. | Yes |
 | Partition | String | The partition where the node resides. Typically, accept the default value of Common unless you manage multiple partitions. | Yes |
@@ -395,8 +395,8 @@ Enable a node in a specified pool.
 Retrieve statistics for an iRule.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | If iRule does not exist | Enumeration:
 * WARN\_ONLY
 * FAIL
@@ -414,8 +414,8 @@ Modify the file format and mode of an external data group. A data group is also 
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | External Data Group Name | String | The name of the external data group to modify. | Yes |
 | File Format Type | Enumeration:
 * DEFAULT
@@ -438,8 +438,8 @@ Modify the file format and mode of an external data group. A data group is also 
 Remove a node from a pool.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Node Names | String | The name of the node to remove. For example: WorkerNode. Separate multiple node names with commas or newline characters. There must be a 1-to-1 mapping of Node Names to Node Ports. | Yes |
 | Node Ports | String | The port of the node to remove from the pool. For example: 80. Separate multiple node ports with commas or newline characters. There must be a 1-to-1 mapping of Node Names to Node Ports. | Yes |
 | Partition | String | The partition where the node resides. Typically, accept the default value of Common unless you manage multiple partitions. | Yes |

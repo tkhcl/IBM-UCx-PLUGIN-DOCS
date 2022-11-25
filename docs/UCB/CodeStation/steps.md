@@ -24,8 +24,8 @@ CodeStation - Steps
 Download artifact set files from a different CodeStation project.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Artifact Set | String | The artifact set to download. | Yes |
 | Build Life | String | The build life identifier to download artifacts from. | No |
 | Build Life with Label | String | The label name to use for selecting a build life to download | No |
@@ -47,8 +47,8 @@ Download artifact set files from a different CodeStation project.
 Download artifact set files from CodeStation.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Artifact Set | String | The artifact set to download. | No |
 | Build Life | String | The build life identifier to download artifacts from | No |
 | Permissions | Enumeration:
@@ -65,8 +65,8 @@ Download artifact set files from CodeStation.
 Download dependencies from CodeStation.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Build Life | String | The build life identifier to download dependencies from | No |
 | Permissions | Enumeration:
 * NONE
@@ -82,8 +82,8 @@ Download dependencies from CodeStation.
 Upload all configured artifact sets to CodeStation.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Hashes |  | Select additional hashes that you would like to capture other than the default of SHA-256. | No |
 | Build Life | String | The build life identifier to download dependencies from | No |
 | Directories | Enumeration:
@@ -111,8 +111,8 @@ Upload all configured artifact sets to CodeStation.
 Upload a specific artifact set to CodeStation.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Hashes |  | Select additional hashes that you would like to capture other than the default of SHA-256. | No |
 | Artifact Set Name | String | The artifact set name | Yes |
 | Build Life | String | The build life identifier to download dependencies from | No |

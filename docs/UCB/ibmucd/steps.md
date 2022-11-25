@@ -32,8 +32,8 @@ IBM UrbanCode Deploy for IBM UrbanCode Build - Steps
 Add a status to an existing component version.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Component Name | String | The name of the component in IBM UrbanCode Deploy server. | Yes |
 | IBM UrbanCode Deploy Server |  | Select a UrbanCode Deploy server from the list or specify a property whose value is the property sheet UUID of the relevant UrbanCode Deploy server integration. | Yes |
 | Status Name | String | The name of the status in IBM UrbanCode Deploy server or IBM UrbanCode Build server that you want to add to the version | Yes |
@@ -44,8 +44,8 @@ Add a status to an existing component version.
 Create an auth token for a user in UrbanCode Deploy server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Description | String | The description to set for the auth token in UrbanCode Deploy server. | No |
 | Expiration Time | String | The expiration time, specified as a number of minutes, to set for the newly created authentication token in UrbanCode Deploy server. | Yes |
 | IBM UrbanCode Deploy Server |  | Select a UrbanCode Deploy server from the list or specify a property whose value is the property sheet UUID of the relevant UrbanCode Deploy server integration. | Yes |
@@ -61,8 +61,8 @@ Create a component version in IBM UrbanCode Deploy server and optionally upload 
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Artifacts Base Directory | String | The directory relative to the working directory for the step in which the artifacts are located. This value is only used if Upload Files is checked. | No |
 | Component Name | String | The name of the component to create the version on in IBM UrbanCode Deploy server. | Yes |
 | Create Version Link | Boolean | Create a link on the version that links back to the build life. | No |
@@ -88,8 +88,8 @@ Create a snapshot of an environment, including all component versions in its inv
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Name/ID | String | The name or ID of the application to which the environment belongs. | Yes |
 | Component Versions | String | Optionally add additional component versions to the snapshot. Each version must be specified along with the component it belongs to (E.G. <component\_name>/<version\_name>). Separate multiple component/version mappings with new lines. If versions already exist in a mapped component, they will be replaced in the new snapshot. | No |
 | Description | String | An optional description of the new snapshot. | No |
@@ -105,8 +105,8 @@ Create a snapshot of an environment, including all component versions in its inv
 Create a link on a version that links back to the build life
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Component Name | String | The name of the component in IBM UrbanCode Deploy server. | Yes |
 | Component Version | String | The name of the version on the component in IBM UrbanCode Deploy server. | Yes |
 | IBM UrbanCode Deploy Server |  | Select a UrbanCode Deploy server from the list or specify a property whose value is the property sheet UUID of the relevant UrbanCode Deploy server integration. | Yes |
@@ -119,8 +119,8 @@ Delete the auth token that has been potentially created by the Create Auth Token
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | IBM UrbanCode Deploy Server |  | Select a UrbanCode Deploy server from the list or specify a property whose value is the property sheet UUID of the relevant UrbanCode Deploy server integration. | Yes |
 | Log4j Logging Level | Enumeration:
 | Configure the level of Log4j messages to output to the console. | No |
@@ -130,8 +130,8 @@ Delete the auth token that has been potentially created by the Create Auth Token
 Deploy a component version in IBM UrbanCode Deploy server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Name | String | The name of the application to deploy the component with. | Yes |
 | Application Process | String | The name of the application process to use when deploying the component. | Yes |
 | Component Name | String | The name or ID of the component in which the component version being deployed exists. | Yes |
@@ -152,8 +152,8 @@ Deploy a component version in IBM UrbanCode Deploy server.
 Deploy an application snapshot in IBM UrbanCode Deploy server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Name/ID | String | The name or ID of the application to deploy the component with. | Yes |
 | Application Process Name/ID | String | The name or ID of the application process to use when deploying the snapshot. | Yes |
 | Deploy Only Changed Versions | Boolean | Force deployment of versions already in the inventory | No |
@@ -172,8 +172,8 @@ Deploy an application snapshot in IBM UrbanCode Deploy server.
 Invoke Buztool
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Component | String | The component name in UrbanCode Deploy server to use for creating a new version. | Yes |
 | Output | String | Path to the file where the output of version creation is written. | No |
 | Ship List Path | String | The path to the shiplist file for artifacts to upload to UrbanCode Deploy server. | No |
@@ -188,8 +188,8 @@ Invoke Buztool
 Set properties on an existing component version.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Component Name | String | The name of the component in IBM UrbanCode Deploy server. | Yes |
 | IBM UrbanCode Deploy Server |  | Select a UrbanCode Deploy server from the list or specify a property whose value is the property sheet UUID of the relevant UrbanCode Deploy server integration. | Yes |
 | Properties | String | The properties to set on the component version. Enter each property on a new line. Separate the property name and value with =. | No |
@@ -205,8 +205,8 @@ Set properties on an existing component version.
 Upload all artifact sets to IBM UrbanCode Deploy server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Component Name | String | The name of the component in IBM UrbanCode Deploy server. | Yes |
 | Component Version | String | The name of the version on the component in IBM UrbanCode Deploy server. | Yes |
 | Description | String | The description of the version if it needs to be created in IBM UrbanCode Deploy server. | No |
@@ -223,8 +223,8 @@ Upload all artifact sets to IBM UrbanCode Deploy server.
 Upload an artifact set to IBM UrbanCode Deploy server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Artifact Set | String | The name of the artifact set to upload to IBM UrbanCode Deploy server | No |
 | Component Name | String | The name of the component in IBM UrbanCode Deploy server. | Yes |
 | Component Version | String | The name of the version on the component in IBM UrbanCode Deploy server. | Yes |
@@ -238,8 +238,8 @@ Upload an artifact set to IBM UrbanCode Deploy server.
 Upload artifacts to an existing component version in IBM UrbanCode Deploy server
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Component Name | String | The name of the component to create the version on in IBM UrbanCode Deploy server. | Yes |
 | Description | String | The description of the version if it needs to be created in IBM UrbanCode Deploy server. | No |
 | Exclude Patterns | String | Patterns for excluded files from an upload to IBM UrbanCode Deploy server. Patterns can include ?, \*, or \*\*. | No |

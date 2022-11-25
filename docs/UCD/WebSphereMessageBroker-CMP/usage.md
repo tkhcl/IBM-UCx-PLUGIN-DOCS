@@ -222,8 +222,8 @@ The steps in the IBM Integration Bus plug-in include properties that are specifi
 The properties that are required to connect to the integration node change based on the version of IBM Integration Bus that you are using.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | IP | String | The IP address of the target server for a remote connection. | Yes |
 | Port | String | The web administration port of the target server for a remote connection. | Yes |
 | Use SSL | Boolean | Select to enable SSL for security authentication and authorization. By default, SSL is not enabled. | No |
@@ -231,13 +231,13 @@ The properties that are required to connect to the integration node change based
 | Password | Password | Password for secure authentication of the remote connection. A password is required if you specify a user name. | No |
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Integration Node Name | String | Name of the integration node. Specify this value to create a local broker connection. | Yes |
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Channel | String | The name of the WebSphere MQ channel to use. The channel must be defined on the queue manager. | No |
 | IP | String | The IP address of the target server for a remote connection. | Yes |
 | Port | String | The WebSphere MQ listener port of the target server for a remote connection. | Yes |

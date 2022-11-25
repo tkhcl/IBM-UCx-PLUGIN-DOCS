@@ -22,8 +22,8 @@ Xcode - Steps
 Apply a marketing or technical version to a project using the agvtool command.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Marketing Version | String | The marketing version to set. | No |
 | Version | String | The technical version to set. | No |
 | agvtool Path | String | The fully-qualified path of the agvtool command. | Yes |
@@ -33,8 +33,8 @@ Apply a marketing or technical version to a project using the agvtool command.
 Package the application to a .ipa file using the xcrun tool.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Name | String | The name of the application to package. Typically, this is the name of the built project. | Yes |
 | Developer Name | String | The name of the developer to sign the package. | Yes |
 | Keychain Name | String | The name of the keychain to use when signing code. Keychains are in the $HOME/Library/Keychains directory on the agent. | No |
@@ -50,8 +50,8 @@ Package the application to a .ipa file using the xcrun tool.
 Build an Xcode project using the xcodebuild command.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | ARCH | String | The architectures to build for each target. The value in this property overrides architectures that are defined in the project. | No |
 | Build Active Architecture Only | Boolean | Build only the currently active architecture. If cleared, the ONLY\_ACTIVE\_ARCH=NO parameter is passed to xcodebuild. | No |
 | Configuration | String | The name of the configuration to build, typically Debug or Release. Leave blank for the default configuration. | No |

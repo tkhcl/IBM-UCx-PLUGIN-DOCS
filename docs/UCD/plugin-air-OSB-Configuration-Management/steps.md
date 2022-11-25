@@ -21,8 +21,8 @@ Oracle Service Bus Configuration Management - Steps
 Customize Oracle Service Bus with an XML file.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Customization XML File | String | The full path to the Oracle Service Bus XML customization file. | Yes |
 | Hostname | String | The host name of the computer running Oracle WebLogic Server. | Yes |
 | Password | Password | The password of the Oracle WebLogic Server user. | Yes |
@@ -36,8 +36,8 @@ Customize Oracle Service Bus with an XML file.
 Import a configuration into Oracle Service Bus with a JAR file.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Abort On First Failure | Boolean | Select to stop the Oracle Service Bus session after the first failure. Clear to try all specified JAR files. | Yes |
 | Always Activate Session | Boolean | Select to activate the session even if failures occur. (This matches behavior from version 1 of the plug-in.) | Yes |
 | Configuration JAR Files | String | A list, separated by commas, of paths to Oracle Service Bus configuration JAR files. | Yes |
@@ -53,8 +53,8 @@ Import a configuration into Oracle Service Bus with a JAR file.
 Import a configuration into Oracle Service Bus with a JAR file and customize Oracle Service Bus with an XML file in the same WebLogic session.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Abort On First Failure | Boolean | Select to stop the Oracle Service Bus session after the first failure. Clear to try all specified JAR files. | Yes |
 | Always Activate Session | Boolean | Select to activate the session even if failures occur. (This matches behavior from version 1 of the plug-in.) | Yes |
 | Configuration JAR Files | String | A list, separated by commas, of paths to Oracle Service Bus configuration JAR files. | Yes |

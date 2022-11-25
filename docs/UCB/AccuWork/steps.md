@@ -22,8 +22,8 @@ AccuWork - Steps
 Use this step to add comments to one or more existing issues.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | AccuWork Config |  | The name of the AccuWork integration. | Yes |
 | Comment | String | The comment text to add. | Yes |
 | Issue ID List | String | A comma-separated list of issue IDs for which a comment is added.If you do not specify a value for this property, a comment is added to all issues detected through source changes in AccuRev on the current build life. | No |
@@ -33,8 +33,8 @@ Use this step to add comments to one or more existing issues.
 Use this step to change the status of one or more existing issues.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | AccuWork Config |  | The name of the AccuWork integration. | Yes |
 | Issue ID List | String | A comma-separated list of issue IDs for which the status is changed. If you do not specify a value for this property, all issues detected through source changes in AccuRev on the current build life are changed. | No |
 | New Status | Enumeration:
@@ -46,8 +46,8 @@ Use this step to retrieve information about issues using source changes detected
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | AccuWork Config |  | The name of the AccuWork integration. | Yes |
 
 

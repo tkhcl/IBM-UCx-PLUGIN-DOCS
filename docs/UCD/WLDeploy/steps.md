@@ -26,8 +26,8 @@ Oracle WebLogic WLDeploy - Steps
 Check the status of an application on target servers and clusters
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional System Properties | String | A new-line separated list of Java system properties to be added on the command line. Specify each property in this format: property=value. The property is added to the command line as follows: -Dprop=value. | No |
 | Administration URL | String | The administration URL of the WebLogic server. | Yes |
 | Application Name | String | The name of the application. | Yes |
@@ -46,8 +46,8 @@ Check the status of an application on target servers and clusters
 Examine target servers for the RUNNING status. This step will only succeed if all specified servers are RUNNING.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional System Properties | String | A new-line separated list of Java system properties to be added on the command line. Specify each property in this format: property=value. The property is added to the command line as follows: -Dprop=value. | No |
 | Administration URL | String | The administration URL of the WebLogic server. | Yes |
 | JAVA\_HOME | String | The fully qualified path to the Java installation. Provide a value to overwrite the JAVA\_HOME environment variable. If this property is not specified, the default value is the system environment variable. | No |
@@ -64,8 +64,8 @@ Examine target servers for the RUNNING status. This step will only succeed if al
 List all AppDeployments for each target and set as output properties.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional System Properties | String | A new-line separated list of Java system properties to be added on the command line. Specify each property in this format: property=value. The property is added to the command line as follows: -Dprop=value. | No |
 | Administration URL | String | The administration URL of the WebLogic server. | Yes |
 | JAVA\_HOME | String | The fully qualified path to the Java installation. Provide a value to overwrite the JAVA\_HOME environment variable. If this property is not specified, the default value is the system environment variable. | No |
@@ -82,8 +82,8 @@ List all AppDeployments for each target and set as output properties.
 Run a WLDeploy Ant task.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Properties | String | A new-line separated list of additional properties to be used as part of the wldeploy Ant task. Use this format: property\_name=value\nname=value\n. | No |
 | Additional System Properties | String | A new-line separated list of Java system properties to be added on the command line. Specify each property in this format: property\_name=value. The property is added to the command line as follows: -Dproperty\_name=value. | No |
 | Administration URL | String | The administration URL of the WebLogic server. | Yes |
@@ -119,8 +119,8 @@ Run a WLDeploy Ant task.
 Start the target server and clusters
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional System Properties | String | A new-line separated list of Java system properties to be added on the command line. Specify each property in this format: property=value. The property is added to the command line as follows: -Dprop=value. | No |
 | Administration URL | String | The administration URL of the WebLogic server. | Yes |
 | JAVA\_HOME | String | The fully qualified path to the Java installation. Provide a value to overwrite the JAVA\_HOME environment variable. If this property is not specified, the default value is the system environment variable. | No |
@@ -142,8 +142,8 @@ Start the target server and clusters
 Stop the target server and clusters
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional System Properties | String | A new-line separated list of Java system properties to be added on the command line. Specify each property in this format: property=value. The property is added to the command line as follows: -Dprop=value. | No |
 | Administration URL | String | The administration URL of the WebLogic server. | Yes |
 | Force | Boolean | Use the force shutdown command instead of a simple shutdown command. | Yes |
@@ -161,8 +161,8 @@ Stop the target server and clusters
 Wait for the status of application on target servers and clusters to be running
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional System Properties | String | A new-line separated list of Java system properties to be added on the command line. Specify each property in this format: property=value. The property is added to the command line as follows: -Dprop=value. | No |
 | Administration URL | String | The administration URL of the WebLogic server. | Yes |
 | Application Name | String | The name of the application. | Yes |

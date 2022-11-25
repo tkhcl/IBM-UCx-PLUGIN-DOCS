@@ -25,8 +25,8 @@ Apache Tomcat - Steps
 Check the status of a deployed application against an expected status.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Expected Status | Enumeration | The expected status of the application. If the application does not have this status, this step will fail. | Yes |
 | Tomcat Application | String | The path of the application to check the status of. This is case-sensitive. For example: /docs | Yes |
 | Tomcat Manager Password | Password | The password to use to log in to the Tomcat Manager interface. | Yes |
@@ -38,8 +38,8 @@ Check the status of a deployed application against an expected status.
 Deploy a web application to Tomcat.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Context Name | String | The context that is being deployed. | Yes |
 | Context XML path | String | The path of the context configuration file for this application, if any. | No |
 | Tomcat Manager Password | Password | The password to use to log in to the Tomcat Manager interface. | Yes |
@@ -52,8 +52,8 @@ Deploy a web application to Tomcat.
 Start a web application that is deployed on Tomcat.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Context Name | String | The context that is being deployed. | Yes |
 | Tomcat Manager Password | Password | The password to use to log in to the Tomcat Manager interface. | Yes |
 | Tomcat Manager URL | String | The URL of the Tomcat Manager interface. | Yes |
@@ -64,8 +64,8 @@ Start a web application that is deployed on Tomcat.
 Start Tomcat on the agent machine.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Catalina Base | String | The path name of the Tomcat instance to be used. Provide a value if you want to overwrite the CATALINA\_BASE environment variable or no value is available. | No |
 | Catalina Home | String | The path name to the Tomcat installation directory. Provide a value if you want to overwrite the CATALINA\_HOME environment variable or no value is available. | No |
 | Hostname | String | The host server that the specified Tomcat instance is listening on. If the instance is not listening on localhost, provide the hostname where the host server can be reached when it is running. Use this property only if you are waiting for Tomcat to complete the boot sequence. The default value of localhost is used if no value is specified. | No |
@@ -80,8 +80,8 @@ Start Tomcat on the agent machine.
 Stop a deployed web application on Tomcat.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Context Name | String | The context that is being stopped. | Yes |
 | Tomcat Manager Password | Password | The password to use to log in to the Tomcat Manager interface. | Yes |
 | Tomcat Manager URL | String | The URL of the Tomcat Manager interface. | Yes |
@@ -92,8 +92,8 @@ Stop a deployed web application on Tomcat.
 Stop Tomcat on the agent computer.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Catalina Base | String | Provide a value if you want to overwrite the CATALINA\_BASE environment variable or if one is not available. | No |
 | Catalina Home | String | Provide a value if you want to overwrite the CATALINA\_HOME environment variable or if one is not available. | No |
 | Hostname | String | If your Tomcat instance is not listening on localhost then provide the hostname where it can be reached when its running. Use this property only if you are waiting for Tomcat to complete the shutdown sequence. The default value of localhost is used if no value is specified. | No |
@@ -108,8 +108,8 @@ Stop Tomcat on the agent computer.
 Undeploy a web application on Tomcat.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Context Name | String | The context that is being deployed. | Yes |
 | Tomcat Manager Password | Password | The password to use to log in to the Tomcat Manager interface. | Yes |
 | Tomcat Manager URL | String | The URL of the Tomcat Manager interface. | Yes |

@@ -35,8 +35,8 @@
 
 Tag existing images into image streams.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Access Token | Password | The token used to authenicate with the OpenShift API server. You can use either this property or the User Name and Password properties to authenticate with the server. | No |
 | Destination Names | String | The image streams to tag. Separate multiple image streams with space characters. Use the following format: ```<namespace>/<stream_name >:<tag>``` | Yes |
 | Keep Updated | Boolean | Select to update the destination tag each time the source tag changes. | No |
@@ -55,8 +55,8 @@ Tag existing images into image streams.
 
 Apply a configuration to a resource by filename.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Access Token | Password | The token used to authenicate with the OpenShift API server. CYou can use either this property or the User Name and Password properties to authenticate with the server. | No |
 | File Name | String | The file to be applied. If a directory is specified, all files in that directory are applied. | Yes |
 | OpenShift URL | String | The URL of the Red Hat OpenShift server. For example: https://192.0.2.0:8443 | No |
@@ -68,8 +68,8 @@ Apply a configuration to a resource by filename.
 
 Request a graceful shutdown of a build. Running, pending, or new builds are canceled.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Access Token | Password | The token used to authenticate with the OpenShift API server. You can use either this property or the User Name and Password properties to authenticate with the server. | No |
 | Build Config(s) | String | The builds to be cancelled created from specified Build Configs | No |
 | Build(s) | String | The build to be cancelled. | No |
@@ -82,8 +82,8 @@ Request a graceful shutdown of a build. Running, pending, or new builds are canc
 
 Create a resource by filename.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Access Token | Password | The token used to authenticate with the OpenShift API server. You can use either this property or the User Name and Password properties to authenticate with the server. | No |
 | File Name | String | File to be created. | Yes |
 | OpenShift URL | String | The URL of the Red Hat OpenShift server. For example: https://192.0.2.0:8443 | No |
@@ -95,8 +95,8 @@ Create a resource by filename.
 
 Create a new application by specifying source code, templates, and/or images.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Access Token | Password | The token used to authenticate with the OpenShift API server. You can use either this property or the User Name and Password properties to authenticate with the server. | No |
 | OpenShift URL | String | The URL of the Red Hat OpenShift server. For example: https://192.0.2.0:8443 | No |
 | Project | String | The OpenShift project that contains the application to run the deployment on. | No |
@@ -108,8 +108,8 @@ Create a new application by specifying source code, templates, and/or images.
 
 Create object on OpenShift server from a JSON template.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Access Token | Password | The token used to authenticate with the OpenShift API server. You can use either this property or the User Name and Password properties to authenticate with the server. | No |
 | Do you want to use ‘apply’ or ‘create’? | String | Specify create to create the configuration if it does not exist. An error is displayed if the create is specified and the configuration already exists. Specify apply to update the configuration. The default value is apply. For more details, see the Openshift/Kubernetes documentation. | No |
 | OpenShift URL | String | The URL of the Red Hat OpenShift server. For example: https://192.0.2.0:8443 | No |
@@ -123,8 +123,8 @@ Create object on OpenShift server from a JSON template.
 
 Create secret in OpenShift.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Access Token | Password | The token used to authenticate with the OpenShift API server. You can use either this property or the User Name and Password properties to authenticate with the server. | No |
 | OpenShift URL | String | The URL of the Red Hat OpenShift server. For example: https://192.0.2.0:8443 | No |
 | Password | Password | The password used to authenicate with the OpenShift server. | No |
@@ -136,8 +136,8 @@ Create secret in OpenShift.
 
 Delete resources by filenames, stdin, resources and names, or by resources and label selector.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Access Token | Password | The token used to authenticate with the OpenShift API server. You can use either this property or the User Name and Password properties to authenticate with the server. | No |
 | OpenShift URL | String | The URL of the Red Hat OpenShift server. For example: https://192.0.2.0:8443 | No |
 | Project | String | The OpenShift project that contains the application to delete a resource. | No |
@@ -149,8 +149,8 @@ Delete resources by filenames, stdin, resources and names, or by resources and l
 
 (Deprecated)Start, cancel, retry or view a deployment on an OpenShift server.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Access Token | Password | The token used to authenticate with the OpenShift API server. You can use either this property or the User Name and Password properties to authenticate with the server. | No |
 | Deployment Action | Enumeration: | Select deployment action. | No |
 | | | * latest |
@@ -168,8 +168,8 @@ Delete resources by filenames, stdin, resources and names, or by resources and l
 
 Expose containers internally as services or externally through routes.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Access Token | Password | The token used to authenticate with the OpenShift API server. You can use either this property or the User Name and Password properties to authenticate with the server. | No |
 | OpenShift URL | String | The URL of the Red Hat OpenShift server. For example: https://192.0.2.0:8443 | No |
 | Project | String | The OpenShift project that contains the application to expose a resource as a route or a service. | No |
@@ -181,8 +181,8 @@ Expose containers internally as services or externally through routes.
 
 Log in to your Openshift server and save login for subsequent use.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Access Token | Password | The token used to authenticate with the OpenShift API server. You can use either this property or the User Name and Password properties to authenticate with the server. | No |
 | Certificate Authority | String | The path to a certificate file for the certificate authority. | No |
 | OpenShift URL | String | The URL of the Red Hat OpenShift server. For example: https://192.0.2.0:8443 | No |
@@ -196,8 +196,8 @@ Log in to your Openshift server and save login for subsequent use.
 
 Create a new build by specifying source code
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Access Token | Password | The token used to authenticate with the OpenShift API server. You can use either this property or the User Name and Password properties to authenticate with the server. | No |
 | OpenShift URL | String | The URL of the Red Hat OpenShift server. For example: https://192.0.2.0:8443 | No |
 | Project | String | The OpenShift project that contains the application to create a new build. | No |
@@ -209,8 +209,8 @@ Create a new build by specifying source code
 
 Patch/Update a Deployment Config.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Access Token | Password | The token used to authenticate with the OpenShift API server. You can use either this property or the User Name and Password properties to authenticate with the server. | No |
 | Deployment Config | String | The name of the current deployment configuration. | Yes |
 | OpenShift URL | String | The URL of the Red Hat OpenShift server. For example: https://192.0.2.0:8443 | No |
@@ -223,8 +223,8 @@ Patch/Update a Deployment Config.
 
 Patch secret in OpenShift.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Access Token | Password | The token used to authenticate with the OpenShift API server. You can use either this property or the User Name and Password properties to authenticate with the server. | No |
 | App Secrets | String | A list of app secrets to patch. Specify each list item on a new line. At least one Secrets field must be specified. | No |
 | OpenShift URL | String | The URL of the Red Hat OpenShift server. For example: https://192.0.2.0:8443 | No |
@@ -239,8 +239,8 @@ Patch secret in OpenShift.
 
 Deploy using a new deployment configuration for an existing application in OpenShift.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Access Token | Password | The token used to authenticate with the OpenShift API server. You can use either this property or the User Name and Password properties to authenticate with the server. | No |
 | Deployment Config | String | The name of the current deployment configuration. | Yes |
 | New Deployment Config JSON | String | The JSON or the fully-qualified path to the JSON file for the new deployment configuration to use. | Yes |
@@ -253,8 +253,8 @@ Deploy using a new deployment configuration for an existing application in OpenS
 
 Roll back an application to a previous deployment.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Access Token | Password | The token used to authenticate with the OpenShift API server. You can use either this property or the User Name and Password properties to authenticate with the server. | No |
 | Change Scaling Settings | Boolean | Include the replication controller replica count and selector of the previous deployment in the rollback. | No |
 | Change Strategy | Boolean | Include the strategy of the previous deployment in the rollback. | No |
@@ -270,8 +270,8 @@ Roll back an application to a previous deployment.
 
 Start a new rollout, view its status or history, rollback to a previous revision of your app.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Access Token | Password | The token to authenicate with the OpenShift API server. You can use either this property or the User Name and Password properties to authenticate with the server | No |
 | Deployment Config or Name | String | The deployment configuration or the name of a deployment depending on the rollout type to use. | Yes |
 | OpenShift URL | String | The URL of the Red Hat OpenShift server. For example: https://192.0.2.0:8443 | No |
@@ -292,8 +292,8 @@ Start a new rollout, view its status or history, rollback to a previous revision
 
 Set a new size for a deployment or replication controller.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Access Token | Password | The token used to authenticate with the OpenShift API server. You can use either this property or the User Name and Password properties to authenticate with the server. | No |
 | Number of Replicas | String | The number of replicas to scale to. | Yes |
 | OpenShift URL | String | The URL of the Red Hat OpenShift server. For example: https://192.0.2.0:8443 | No |
@@ -309,8 +309,8 @@ Set a new size for a deployment or replication controller.
 
 Update environment variables on a pod template or a build config
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Access Token | Password | The token used to authenticate with the OpenShift API server. You can use either this property or the User Name and Password properties to authenticate with the server. | No |
 | File Path | String | The filename, directory, or URL to files to use to edit the resource. | No |
 | KEY=VALUE/KEY- | String | A list of keys and associated value. Specify each list item in the format key=value on a new line. You can remove the environment variable with KEY-. | No |
@@ -325,8 +325,8 @@ Update environment variables on a pod template or a build config
 
 Update existing container images of resources
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Access Token | Password | The token used to authenticate with the OpenShift API server. You can use either this property or the User Name and Password properties to authenticate with the server. | No |
 | CONTAINER_NAME=IMAGE_NAME | String | A list of container and assocaited image name. Specify each pair in the format: container_name=image_name. Specify each list item on a new line. You can update image of all containers with *=image_name. | No |
 | File Path | String | The filename, directory, or URL to files used to identify the resource to obtain from the server. | No |
@@ -341,8 +341,8 @@ Update existing container images of resources
 
 Set or remove triggers
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Access Token | Password | The token used to authenticate with the OpenShift API server. You can use either this property or the User Name and Password properties to authenticate with the server. | No |
 | OpenShift URL | String | The URL of the Red Hat OpenShift server. For example: https://192.0.2.0:8443 | No |
 | Project | String | The OpenShift project that contains the application to set/update the triggers. | No |
@@ -354,8 +354,8 @@ Set or remove triggers
 
 Start a new build for the provided build configuration or copy an existing build.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Access Token | Password | The token used to authenticate with the OpenShift API server. You can use either this property or the User Name and Password properties to authenticate with the server. | No |
 | Build Config | String | The build configuration to be used | No |
 | From Build | String | The name of a build to run again. | No |

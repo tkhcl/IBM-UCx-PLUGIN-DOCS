@@ -25,8 +25,8 @@ NPM for IBM UrbanCode Build - Steps
 Manage NPM configuration files
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Arguments | String | Add arguments for the config command. If there are multiple lines of arguments, each line will result in a separate npm config subcommand argument execution. | No |
 | NPM Executable | String | The location of the NPM executable. If left empty, the NPM executable should be in the path environment variable. | No |
 | Sub-command | Enumeration:
@@ -41,8 +41,8 @@ Manage NPM configuration files
 Create a package.json with default values.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | NPM Executable | String | The location of the NPM executable. If left empty, the NPM executable should be in the path environment variable. | No |
 
 ### NPM Install
@@ -50,8 +50,8 @@ Create a package.json with default values.
 Install a package, and any package that it depends on.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Arguments | String | Add arguments for the install command in one or multiple lines. | No |
 | NPM Executable | String | The location of the NPM executable. If left empty, the NPM executable should be in the path environment variable. | No |
 
@@ -60,8 +60,8 @@ Install a package, and any package that it depends on.
 Publish a package.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Access | Enumeration:
 * public
 * restricted
@@ -75,8 +75,8 @@ Publish a package.
 Uninstall a package, completely removing everything NPM installed on its behalf.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Arguments | String | Add arguments for the uninstall command in one or multiple lines. | No |
 | NPM Executable | String | The location of the NPM executable. If left empty, the NPM executable should be in the path environment variable. | No |
 
@@ -85,8 +85,8 @@ Uninstall a package, completely removing everything NPM installed on its behalf.
 Update a package.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Arguments | String | Add arguments for the update command in one or multiple lines. If no package names are specified, all packages in the specified location (global or local) will be updated. | No |
 | NPM Executable | String | The location of the NPM executable. If left empty, the NPM executable should be in the path environment variable. | No |
 

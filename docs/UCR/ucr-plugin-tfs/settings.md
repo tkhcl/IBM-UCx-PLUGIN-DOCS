@@ -38,8 +38,8 @@ This step has no input properties.
 Integration
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | TFS Admin Username | String |  | No
 |
 | TFS Collection Name | String |  | No |

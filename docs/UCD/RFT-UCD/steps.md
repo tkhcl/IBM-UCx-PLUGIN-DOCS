@@ -20,8 +20,8 @@ IBM Rational Functional Tester (RFT) - Steps
 Run test using Rational Functional Tester
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Iteration Count | String | Number of datapool iterations to be run. | No |
 | Log Format | Enumeration:
 * xml

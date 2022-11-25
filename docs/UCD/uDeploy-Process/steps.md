@@ -22,8 +22,8 @@ Creates or removes a link on a process request that can direct users to suppleme
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Link Title | String | The link text, which the user can click. | Yes |
 | Process Request ID | String | The ID of the process request to update. You can use this field to set a property on a parent or unrelated process request. | Yes |
 | URL | String | The URL to link to. If blank, the link is removed. | No |
@@ -33,8 +33,8 @@ Creates or removes a link on a process request that can direct users to suppleme
 Sets a property on a process request.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Process Request ID | String | The ID of the process request to update. You can use this field to set a property on a parent or unrelated process request. | Yes |
 | Property Name | String | The name of the property to set. | Yes |
 | Property Value | String | The value to set for the property. Leave blank to remove the property. | No |

@@ -21,8 +21,8 @@ Aspera - Steps
 Runs an Aspera FASP transfer process from an Aspera server to the localhost computer.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Enter additional arguments, or a text file containing additional arguments for the Aspera command. Separate each argument with a newline character or comma. | No |
 | Aspera Host | String | The IP address of the source Aspera server that contains the source files to transfer. For example: 192.0.2.1 | Yes |
 | Aspera Password | Password | The password used to connect to the Aspera server. | No |
@@ -56,8 +56,8 @@ Runs an Aspera FASP transfer process from an Aspera server to the localhost comp
 Runs an Aspera FASP transfer process from the localhost computer to an Aspera server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Enter additional arguments, or a text file containing additional arguments for the Aspera command. Separate each argument with a newline character or comma. | No |
 | Aspera File Path | String | The path to the destination directory to use to store the uploaded files and folders on the Aspera server. | Yes |
 | Aspera Host | String | The IP address of the Aspera server that is the destination for the uploaded source files and folders. For example: 192.0.2.1 | Yes |

@@ -28,8 +28,8 @@ IBM MobileFirst Platform (formerly Worklight) - Steps
 Changes an applications configuration on IBM MobileFirst. Note: This step is for server 6.2 or later.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Name | String | The application name to reconfigure. | Yes |
 | Configuration File | String | The .json or .xml file path containing the applications new configuration. | Yes |
 | Environment | String | The name of the environment. | Yes |
@@ -47,8 +47,8 @@ Changes an applications configuration on IBM MobileFirst. Note: This step is for
 Deletes the adapter from the IBM MobileFirst server. Note: This step is for Worklight and IBM MobileFirst servers 6.2 and later.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Adapter Name | String | The adapter to delete from the IBM MobileFirst server. | Yes |
 | Password | Password | The users password to access the IBM MobileFirst server. Note: This property is required for Worklight 6.2 and later. | No |
 | Runtime | String | The runtime on which to remove the adapter. | Yes |
@@ -63,8 +63,8 @@ Deletes the adapter from the IBM MobileFirst server. Note: This step is for Work
 Delete an application from IBM MobileFirst. Note: This step is for Worklight Server 6.2 or later.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Name | String | The name of the Worklight application to remove. | Yes |
 | Environment | String | The applications environment. Only required if using IBM MobileFirst v8+. | No |
 | Password | Password | The users password to access the IBM MobileFirst server. Note: This property is required for Worklight 6.2 and later. | No |
@@ -80,8 +80,8 @@ Delete an application from IBM MobileFirst. Note: This step is for Worklight Ser
 Deploys the adapter to IBM MobileFirst.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Adapter Files | String | A list, separated by commas or newline characters, of IBM MobileFirst Adapter (.adapter) files to deploy to the IBM MobileFirst Server. | Yes |
 | Password | Password | The users password to access the IBM MobileFirst server. Note: This property is required for Worklight 6.2 and later. | No |
 | Runtime | String | The runtime on which to deploy the adapter. Note: This property is required for Worklight 6.2 and later. | No |
@@ -95,8 +95,8 @@ Deploys the adapter to IBM MobileFirst.
 Deploys an application to IBM MobileFirst.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Files | String | A list, separated by commas or newline characters, of theWorklight Application files to deploy to the Worklight Server.Specify .wlapp files for IBM MobileFirst pre-v8 and .json or .xml files for IBM MobileFirst v8+. | Yes |
 | Password | Password | The users password to access the IBM MobileFirst server. Note: This property is required for Worklight 6.2 and later. | No |
 | Runtime | String | The runtime on which to deploy the IBM MobileFirst application. Note: This property is required for Worklight 6.2 or later. | No |
@@ -111,8 +111,8 @@ Deploys an application to IBM MobileFirst.
 Deploys a web resource compressed file (.zip) for a specific application version. Note: This step is for MobileFirst 8.0 or later.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Identifier | String | The MobileFirst application in which to deploy the web resource archive. | Yes |
 | Environment | String | The MobileFirst applications environment in which to deploy the web resource archive. | Yes |
 | Password | Password | The user password that is required to access the Application Center. | Yes |
@@ -127,8 +127,8 @@ Deploys a web resource compressed file (.zip) for a specific application version
 Removes the native application from the IBM MobileFirst Application Center.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Center Ant JAR File Path | String | The path to the Application Center Deploy Tool Ant JAR (applicationcenterdeploytool.jar) file. The Worklight 6.0.0 Server can use the value: ``${PLUGIN\_HOME}``/lib/applicationcenterdeploytool.jar. | Yes |
 | Application Package | String | The package name of the application to remove from the Application Center. | Yes |
 | Context | String | The context of the Application Center. For example, applicationcenter. | Yes |
@@ -149,8 +149,8 @@ Removes the native application from the IBM MobileFirst Application Center.
 Uploads the application to the IBM MobileFirst Application Center.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Active | Boolean | Store the application in the Application Center as an active application. | No |
 | Application Center Ant JAR File Path | String | The path to the Application Center Deploy Tool Ant JAR (applicationcenterdeploytool.jar) file. The Worklight 6.0.0 Server can use the value: ``${PLUGIN\_HOME}``/lib/applicationcenterdeploytool.jar. | Yes |
 | Context | String | The context of the Application Center. For example, applicationcenter. | Yes |

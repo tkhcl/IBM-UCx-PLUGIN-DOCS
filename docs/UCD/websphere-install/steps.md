@@ -31,8 +31,8 @@ WebSphere Application Server - Install - Steps
 Creates a Deployment Manager Profile
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Dmgr Profile Template Path | String | Path to the template of the profile that will be created | No |
 | WAS Admin Password | Password | Password to set for the WAS administrator account | No |
@@ -50,8 +50,8 @@ Creates a Deployment Manager Profile
 Creates a Node profile
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | Node Profile Template Path | String | Path to the template for the profile to create | No |
 | WAS Admin Password | Password | Password to set for the WAS administrator account | No |
@@ -69,8 +69,8 @@ Creates a Node profile
 Installs Webshere Application Server
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | IBM Installation Manager Home | String | Path IBM Installation Manager is installed to (for example, /opt/IBM/InstallationManager. | No |
 | IM Shared | String | Location of the IM Shared location | No |
@@ -85,8 +85,8 @@ Installs Webshere Application Server
 Removes a Deployment Manager profile
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Delete Profile Directory | Boolean | Determines if the profiles directory should be deleted after the manageprofiles command completes. | No |
 | WAS Install Path | String | Path WAS is installed to (for example, /opt/IBM/WebSphere/AppServer) | No |
 | WAS Profile Name | String | Name of the profile to remove | No |
@@ -97,8 +97,8 @@ Removes a Deployment Manager profile
 Removes a node profile
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Delete Profile Directory | Boolean | Determines if the profiles directory should be deleted after the manageprofiles command completes. | No |
 | WAS Install Path | String | Path WAS is installed to (for example, /opt/IBM/WebSphere/AppServer) | No |
 | WAS Profile Name | String | Name of the profile to remove | No |
@@ -109,8 +109,8 @@ Removes a node profile
 Starts the Deployment Manager
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | WAS Admin Password | Password | Password of the WAS administrator user | No |
 | WAS Admin Username | String | WAS user with administrator privileges | No |
 | WAS Install Path | String | Path WAS is installed to (for example, /opt/IBM/WebSphere/AppServer). | No |
@@ -121,8 +121,8 @@ Starts the Deployment Manager
 Starts a Node
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | WAS Admin Password | Password | Password to set for the WAS administrator account | No |
 | WAS Admin Username | String | Username to set for the WAS administrator account | No |
 | WAS Install Path | String | Path WAS is installed to (for example, /opt/IBM/WebSphere/AppServer) | No |
@@ -133,8 +133,8 @@ Starts a Node
 Starts and registers a node
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | WAS Admin Password | Password | Password of the WAS administrator user | No |
 | WAS Admin Username | String | WAS user with administrator privileges | No |
 | WAS Deployment Manager Hostname | String | Hostname of the deployment manager | No |
@@ -146,8 +146,8 @@ Starts and registers a node
 Stops the Deployment Manager
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | WAS Admin Password | Password | Password of the WAS administrator user | No |
 | WAS Admin Username | String | WAS user with administrator privileges | No |
 | WAS Install Path | String | Path WAS is installed to (for example, /opt/IBM/WebSphere/AppServer) | No |
@@ -158,8 +158,8 @@ Stops the Deployment Manager
 Stops a Node
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | WAS Admin Password | Password | Password to set for the WAS administrator account | No |
 | WAS Admin Username | String | Username to set for the WAS administrator account | No |
 | WAS Install Path | String | Path WAS is installed to (for example, /opt/IBM/WebSphere/AppServer) | No |
@@ -170,8 +170,8 @@ Stops a Node
 Stops the Webshere Application Server process
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | WAS Admin Password | Password | Password of the WAS administrator user | No |
 | WAS Admin Username | String | WAS user with administrator privileges | No |
 | WAS Install Path | String | Path WAS is installed to (for example, /opt/IBM/WebSphere/AppServer) | No |
@@ -181,8 +181,8 @@ Stops the Webshere Application Server process
 Uninstalls Webshere Application Server
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | IBM Installation Manager install path | String | Path IBM Installation Manager is installed to. | No |
 | Version | String | Version of WAS to uninstall (for example, com.ibm.websphere.ND.v85\_8.5.5000.20130514\_1044) | No |
 | WAS Install Path | String | Path WAS is installed to (for example, /opt/IBM/WebSphere/AppServer) | No |

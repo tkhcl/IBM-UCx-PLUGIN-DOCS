@@ -32,8 +32,8 @@ ServiceNow - Steps
 Check that the Approval field of a record.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Approval | String | The Change Requests Approval field value you are checking against (approved, rejected, requested, not yet requested). | Yes |
 | Change Request Number | String | The value of the Number field for the relevant Change Request. | Yes |
 | HTTP Proxy Host | String | Provide the hostname of the HTTP proxy to use to connect to ServiceNow. Eg proxy.domain.com | No |
@@ -51,8 +51,8 @@ Check that the Approval field of a record.
 Check that the State field of a change record.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Change Request Number | String | The value of the Number field for the relevant Change Request. | Yes |
 | HTTP Proxy Host | String | Provide the hostname of the HTTP proxy to use to connect to ServiceNow. Eg proxy.domain.com | No |
 | HTTP Proxy Password | Password | Provide the password to authenticate with HTTP proxy. | No |
@@ -69,8 +69,8 @@ Check that the State field of a change record.
 Check the states of the tasks related to a given Change Request.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Change Request Number | String | The value of the Number field for the relevant Change Request. | Yes |
 | HTTP Proxy Host | String | Provide the hostname of the HTTP proxy to use to connect to ServiceNow. Eg proxy.domain.com | No |
 | HTTP Proxy Password | Password | Provide the password to authenticate with HTTP proxy. | No |
@@ -88,8 +88,8 @@ Check the states of the tasks related to a given Change Request.
 Check that the current time falls within the start and end date of the change request.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Change Request Number | String | The value of the Number field for the relevant Change Request. | Yes |
 | End Date Field | String | The ServiceNow field name for the end date to check between. Defaults to end\_date. | No |
 | HTTP Proxy Host | String | Provide the hostname of the HTTP proxy to use to connect to ServiceNow. Eg proxy.domain.com | No |
@@ -107,8 +107,8 @@ Check that the current time falls within the start and end date of the change re
 Check records in a specified table against specified field values.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Check Fields | String | Newline seperated list of field value pairs. You may use the Name, what you see in the XML export, of the field. The record(s) will be checked to ensure that the values of the inputed field match and that the fields exist. For example: description=This is a high valued task | Yes |
 | HTTP Proxy Host | String | Provide the hostname of the HTTP proxy to use to connect to ServiceNow. Eg proxy.domain.com | No |
 | HTTP Proxy Password | Password | Provide the password to authenticate with HTTP proxy. | No |
@@ -126,8 +126,8 @@ Check records in a specified table against specified field values.
 Creates records by table name and specified fields.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | HTTP Proxy Host | String | Provide the hostname of the HTTP proxy to use to connect to ServiceNow. Eg proxy.domain.com | No |
 | HTTP Proxy Password | Password | Provide the password to authenticate with HTTP proxy. | No |
 | HTTP Proxy Port | String | Provide the port number of the HTTP proxy to use to connect to ServiceNow. | No |
@@ -144,8 +144,8 @@ Creates records by table name and specified fields.
 Deprecated. Please use the Run Encoded Query and Delete Records step instead.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | CMDB Row Condition | String | The Encoded Query a row must match for deletion. See http://wiki.servicenow.com/index.php?title=Embedded:Encoded\_Query\_Strings for examples | Yes |
 | HTTP Proxy Host | String | Provide the hostname of the HTTP proxy to use to connect to ServiceNow. Eg proxy.domain.com | No |
 | HTTP Proxy Password | Password | Provide the password to authenticate with HTTP proxy. | No |
@@ -162,8 +162,8 @@ Deprecated. Please use the Run Encoded Query and Delete Records step instead.
 Deletes records by table name and record number.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | HTTP Proxy Host | String | Provide the hostname of the HTTP proxy to use to connect to ServiceNow. Eg proxy.domain.com | No |
 | HTTP Proxy Password | Password | Provide the password to authenticate with HTTP proxy. | No |
 | HTTP Proxy Port | String | Provide the port number of the HTTP proxy to use to connect to ServiceNow. | No |
@@ -181,8 +181,8 @@ Run an encoded query and receive a newline list of record system IDs to pass to 
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Encoded Query | String | The query value of your encoded query. Use the copy query function in ServiceNow. | Yes |
 | HTTP Proxy Host | String | Provide the hostname of the HTTP proxy to use to connect to ServiceNow. Eg proxy.domain.com | No |
 | HTTP Proxy Password | Password | Provide the password to authenticate with HTTP proxy. | No |
@@ -200,8 +200,8 @@ Run an encoded query and receive a newline list of record system IDs to pass to 
 Set the status field of a change request.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Change Request Number | String | The value of the Number field for the relevant Change Request. | Yes |
 | HTTP Proxy Host | String | Provide the hostname of the HTTP proxy to use to connect to ServiceNow. Eg proxy.domain.com | No |
 | HTTP Proxy Password | Password | Provide the password to authenticate with HTTP proxy. | No |
@@ -219,8 +219,8 @@ Set the status field of a change request.
 Update the state of a task item.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | HTTP Proxy Host | String | Provide the hostname of the HTTP proxy to use to connect to ServiceNow. Eg proxy.domain.com | No |
 | HTTP Proxy Password | Password | Provide the password to authenticate with HTTP proxy. | No |
 | HTTP Proxy Port | String | Provide the port number of the HTTP proxy to use to connect to ServiceNow. | No |
@@ -237,8 +237,8 @@ Update the state of a task item.
 Update records by specifying field values.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Fields to Update | String | Newline separated list of field value pairs. You may use the Name, what you see in the XML export, of the field. Fields described here will be updated on each record to specified value. If the field does not exist the step will fail. For example: description=This is a high valued task | Yes |
 | HTTP Proxy Host | String | Provide the hostname of the HTTP proxy to use to connect to ServiceNow. Eg proxy.domain.com | No |
 | HTTP Proxy Password | Password | Provide the password to authenticate with HTTP proxy. | No |

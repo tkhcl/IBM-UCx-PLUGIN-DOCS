@@ -33,8 +33,8 @@ IBM MobileFirst Platform Foundation on IBM Containers - Steps
 Based on the number of projects placed under /usr/projects folder, which is part of the artifacts directory, this step iteratively creates the Admin and Runtime databases. The database is created as a service in IBM Bluemix and bound to a IBM Bluemix Application.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Admin Schema Name | String | Database schema name (defaults to WLADMIN) | No |
 | Bluemix API URL | String | Bluemix API endpoint. (https://api.ng.bluemix.net) | Yes |
 | Bluemix Application Name | String | The Bluemix application name that should be bound to the container | Yes |
@@ -53,8 +53,8 @@ Create the IBM MobileFirst Platform Foundation container in IBM Bluemix as a sin
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Admin Schema Name | String | Database schema name (defaults to WLADMIN) | No |
 | Bluemix API URL | String | Bluemix API endpoint. (https://api.ng.bluemix.net) | Yes |
 | Bluemix Application Name | String | The Bluemix application name that should be bound to the container | Yes |
@@ -87,8 +87,8 @@ Create the IBM MobileFirst Platform Foundation container group in IBM Bluemix as
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Admin Schema Name | String | Database schema name (defaults to WLADMIN) | No |
 | Bluemix API URL | String | Bluemix API endpoint. (https://api.ng.bluemix.net) | Yes |
 | Bluemix Application Name | String | The Bluemix application name that should be bound to the container | Yes |
@@ -121,8 +121,8 @@ From the artifacts directory (/usr/projects folder), iteratively deploy all the 
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Certificate Directory | String | Direcotory which stores the certificate bundle to verify | No |
 | Container Artifacts Folder | String | Container Artifacts un-zipped location | Yes |
 | Server Admin Password | Password | Password of IBM MobileFirst Platform Foundation administrator | Yes |
@@ -137,8 +137,8 @@ From the artifacts directory (/usr/projects folder), iteratively deploy all the 
 Prepare the IBM MobileFirst Platform Foundation Operational Analytics Image and pushes it to the IBM Bluemix Container image registry to the corresponding organization and space.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Analytics Image Tag | String | Tag to be used for tagging the analytics image | Yes |
 | Bluemix API URL | String | Bluemix API endpoint. (https://api.ng.bluemix.net) | Yes |
 | Bluemix CCS Host | String | IBM Containers Cloud Service Host (https://containers-api.ng.bluemix.net/v3) | Yes |
@@ -153,8 +153,8 @@ Prepare the IBM MobileFirst Platform Foundation Operational Analytics Image and 
 Prepares the IBM MobileFirst Platform Foundation Image and pushes it to the IBM Bluemix Container image registry to the corresponding organization and space.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Bluemix API URL | String | Bluemix API endpoint. (https://api.ng.bluemix.net) | Yes |
 | Bluemix CCS Host | String | IBM Containers Cloud Service Host (https://containers-api.ng.bluemix.net/v3) | Yes |
 | Bluemix Org | String | Bluemix Organization to be used | Yes |
@@ -170,8 +170,8 @@ Removes the existing IBM MobileFirst Platform Foundation single node container (
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Bluemix API URL | String | Bluemix API endpoint. (https://api.ng.bluemix.net) | Yes |
 | Bluemix CCS Host | String | IBM Containers Cloud Service Host (https://containers-api.ng.bluemix.net/v3) | Yes |
 | Bluemix Org | String | Bluemix Organization to be used | Yes |
@@ -186,8 +186,8 @@ Removes the existing IBM MobileFirst Platform Foundation container group (existi
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Bluemix API URL | String | Bluemix API endpoint. (https://api.ng.bluemix.net) | Yes |
 | Bluemix CCS Host | String | IBM Containers Cloud Service Host (https://containers-api.ng.bluemix.net/v3) | Yes |
 | Bluemix Org | String | Bluemix Organization to be used | Yes |
@@ -202,8 +202,8 @@ Removes the existing IBM MobileFirst Platform Foundation container group (existi
 Removes a specified runtime from a running IBM MobileFirst Platform Foundation container or container group on IBM Bluemix.It can also delete the runtime database, if selected.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Bluemix API URL | String | Bluemix API endpoint. (https://api.ng.bluemix.net) | Yes |
 | Bluemix Application Name | String | The Bluemix application name that is bound to the container | Yes |
 | Bluemix Org | String | Bluemix Organization to be used | Yes |
@@ -230,8 +230,8 @@ Start IBM MobileFirst Platform Foundation Operational Analytics Container on IBM
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Analytics Container Name | String | Name of the Container to be created | Yes |
 | Analytics Data Directory | String | Specify the directory to be used for storing analytics data. | No |
 | Analytics Data Volume Name | String | Specify name of the volume to be created and mounted for analytics data. | No |
@@ -262,8 +262,8 @@ Start the IBM MobileFirst Platform Foundation Operational Anlaytics Container Gr
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Analytics Container Group Desired | String | Analytics Container Group desired number of nodes | Yes |
 | Analytics Container Group Domain | String | Analytics Container Group Domain | Yes |
 | Analytics Container Group Host | String | Hostname for the Container Group to be created | Yes |
@@ -293,8 +293,8 @@ Start the IBM MobileFirst Platform Foundation Operational Anlaytics Container Gr
 Start the IBM MobileFirst Platform Foundation Container on IBM Bluemix, based on the configurations provided. This uses the image tag from the IBM Bluemix image registry to create the container.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Bluemix API URL | String | Bluemix API endpoint. (https://api.ng.bluemix.net) | Yes |
 | Bluemix Application Name | String | The Bluemix application name that should be bound to the container | No |
 | Bluemix CCS Host | String | IBM Containers Cloud Service Host (https://containers-api.ng.bluemix.net/v3) | Yes |
@@ -323,8 +323,8 @@ Start the IBM MobileFirst Platform Foundation Container group (clustering) on IB
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Bluemix API URL | String | Bluemix API endpoint. (https://api.ng.bluemix.net) | Yes |
 | Bluemix Application Name | String | The Bluemix application name that should be bound to the container | No |
 | Bluemix CCS Host | String | IBM Containers Cloud Service Host (https://containers-api.ng.bluemix.net/v3) | Yes |
@@ -352,8 +352,8 @@ Start the IBM MobileFirst Platform Foundation Container group (clustering) on IB
 Apps and adapters provided with comma separated, are undeployed from the specified runtime, in the running IBM MobileFirst Foundation Platform Container.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Adapters (, separated) | String | List of adapters to be un-deployed with , separated | No |
 | Apps (, separated) | String | List of apps to be un-deployed with , separated | No |
 | Certificate Directory | String | Direcotory which stores the certificate bundle to verify | No |

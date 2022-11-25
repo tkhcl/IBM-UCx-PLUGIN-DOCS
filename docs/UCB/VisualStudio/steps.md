@@ -20,8 +20,8 @@ Visual Studio - Steps
 Use this step to build a Visual Studio solution file in headless mode.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Build Command | Enumeration | The Visual Studio command to run. Specify one of the following: rebuild, build, clean, or deploy. | No |
 | Command Line Properties | String | A list of properties that are used as if they were passed to the `devenv` executable on the command line. Enter each property on a separate line. | No |
 | Command Path | String | The path to the `devenv` executable file in the Visual Studio Installation. | No |

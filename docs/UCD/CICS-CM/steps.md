@@ -16,8 +16,8 @@
 
 Backout a change package to reverse a migration event.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Change Package | String | The name of the change package to be backed out. The default value is ``${p:cicscm.changePackage}``. | Yes |
 | Migration Scheme | String | The name of the migration scheme used in the migration event that is to be backed out. The default value is ``${p:Create migration scheme/migrationScheme}``. | Yes |
 
@@ -25,8 +25,8 @@ Backout a change package to reverse a migration event.
 
 Dynamically create a migration scheme with a single migration path.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Migration Scheme Description | String | The description of the new migration scheme. By default, the description is: UCD: Auto-generated migration scheme. | No |
 | Source Configuration | String | The name of the source configuration. The default value is ``${p:cicscm.sourceConfig}``. | Yes |
 | Target Configuration | String | The name of the target configuration. The default value is ``${p:cicscm.targetConfig}``. | Yes |
@@ -36,8 +36,8 @@ Dynamically create a migration scheme with a single migration path.
 
 Install the resource definitions in a change package from a CSD configuration.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | CSD Connection | String | The name of the connection from the CSD configuration to a particular CICS region. The default value is ``${p:cicscm.csdConnection}``. | Yes |
 | Change Package | String | The name of the change package to be installed. The default value is ``${p:cicscm.changePackage}``. | Yes |
 | Disable and Close resources | Boolean | Tick box to disable and close resources before installation. By default, the box is checked. | No |
@@ -49,8 +49,8 @@ Install the resource definitions in a change package from a CSD configuration.
 Migrate a change package.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Change Package | String | The name of the change package to be migrated. The default value is ``${p:cicscm.changePackage}``. | Yes |
 | Migration Scheme | String | The name of the migration scheme to be used in the migration. The default value is ``${p:Create migration scheme/migrationScheme}``. | Yes |
 
@@ -60,8 +60,8 @@ Query a change package for names, groups and types of resource definitions withi
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Change Package | String | The name of the change package to be queried. The default value is ``${p:cicscm.changePackage}``. | Yes |
 
 ### Ready change package
@@ -69,8 +69,8 @@ Query a change package for names, groups and types of resource definitions withi
 Ready a change package for migration.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Change Package | String | The name of the change package to be readied. The default value is ``${p:cicscm.changePackage}``. | Yes |
 | Migration Scheme | String | The name of the migration scheme to be assigned to the change package. The default value is ``${p:Create migration scheme/migrationScheme}``. | Yes |
 

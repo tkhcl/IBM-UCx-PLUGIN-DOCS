@@ -42,8 +42,8 @@ IBM WebSphere Liberty - Steps
 Create a new collective controller configuration in the WebSphere Liberty Profile.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional command arguments | String | Any additional arguments that should be passed to the collective create command | No |
 | Keystore Password | Password | The password to use for the generated keystores | Yes |
 | Password | Password | The password to include in quickStartSecurity XML node | Yes |
@@ -57,8 +57,8 @@ Create a new collective controller configuration in the WebSphere Liberty Profil
 Create a server in the WebSphere Liberty profile.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Server Name(s) | String | The name of the server(s) to create. Multiple server names are separated by commas. | Yes |
 | WebSphere Liberty Installation Directory | String | The base directory for the WebSphere Liberty profile installation. For example: /opt/IBM/WebSphere/Liberty/ | Yes |
 | WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp\_install\_dir}``/usr is not writable. | No |
@@ -68,8 +68,8 @@ Create a server in the WebSphere Liberty profile.
 Delete a server in the WebSphere Liberty profile.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Server Name(s) | String | The name of the server(s) to delete. Multiple server names are separated by commas. | Yes |
 | WebSphere Liberty Installation Directory | String | The base directory of the WebSphere Liberty profile installation. For example: /opt/IBM/WebSphere/Liberty/ | Yes |
 | WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp\_install\_dir}``/usr is not writable. | No |
@@ -79,8 +79,8 @@ Delete a server in the WebSphere Liberty profile.
 Generate Component-Resource properties from variable tags in the server.xml file
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Location of the server.xml file | String | The location of the server.xml file to be processed. | Yes |
 
 ### Generate Plugin Config
@@ -88,8 +88,8 @@ Generate Component-Resource properties from variable tags in the server.xml file
 Generate plug-in configuration for a WebSphere Liberty server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Install Root | String | The installation root to add to the plug-in configuration. This property is required if Server Name is specified. | No |
 | Password | Password | The password for WebSphere Liberty. | Yes |
 | Server HTTPS Port | String | The HTTPS port of the server. | Yes |
@@ -104,8 +104,8 @@ Generate plug-in configuration for a WebSphere Liberty server.
 Install a WebSphere Liberty archive file.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Accept License | Boolean | Select to automatically accept the license if extracting from a jar file. | Yes |
 | Source File | String | The archive file to extract. | Yes |
 | WebSphere Liberty Installation Directory | String | The base directory of the WebSphere Liberty profile installation, such as /opt/IBM/WebSphere/Liberty/ | Yes |
@@ -117,8 +117,8 @@ Install or update an application in the WebSphere Liberty profile by editing the
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Name | String | The name of the application to install. | Yes |
 | Application Type | String | The type of application archive. Valid values are war, ear, eba, and esa. | Yes |
 | Auto Start | Boolean | Select to configure the application to start automatically when the server starts. | No |
@@ -133,8 +133,8 @@ Install or update an application in the WebSphere Liberty profile by editing the
 Install or update an application in WebSphere Liberty by using the dropins directory.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Server Name | String | The name of the server to install the application into. | Yes |
 | Source File | String | The archive file (for example, an EAR or WAR file) that contains the application to install. | Yes |
 | WebSphere Liberty Installation Directory | String | The base directory of the WebSphere Liberty profile installation. For example: /opt/IBM/WebSphere/Liberty/ | Yes |
@@ -145,8 +145,8 @@ Install or update an application in WebSphere Liberty by using the dropins direc
 Join a server to the collective controlled by the designated controller.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional command arguments | String | Any additional arguments that should be passed to the collective join command | No |
 | Admin Password | Password | The password for the Administrator user for the target Collective Controller | Yes |
 | Admin User Name | String | An Administrator user for the target Collective Controller | Yes |
@@ -170,8 +170,8 @@ Merge multiple plugin-cfg.xml files into one xml for web servers for clarity and
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Source Directory | String | Location of the source directory where all the plugin files are located, or a comma separated list of source plugin file names specified as full filepaths | Yes |
 | Target Directory | String | Parent directory of the merge-plugin-cofig file Optional. By default the merged file is generated in the same directory where pluginUtility.sh is located and named merged-plugin-cfg.xml. Users can either specify the directory name where the merged file must be placed, or a fully qualified file name. In case there is already a file named merged-plugin-cfg.xml or the specified file specified file name is already present, then the contents of the file will be overwritten. | No |
 | WebSphere Liberty Installation Directory | String | The base directory for the WebSphere Liberty profile installation. For example: /opt/IBM/WebSphere/Liberty/ | Yes |
@@ -182,8 +182,8 @@ Merge multiple plugin-cfg.xml files into one xml for web servers for clarity and
 Make the merged plugin config xml available to the web server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Plugin-Config File | String | Full filepath of the plugin config xml targeted for use by the web server.This is produced by the Merge Plugin Config step. | Yes |
 | Web Server Home | String | The install directory of web server.For example: /opt/IBM/HTTPServer | Yes |
 | WebSphere Plugins Home | String | Full path to top-level directory where WebSphere Plugins are installed. This directory contains libraries used to connect WebSphere Liberty servers to web servers. | Yes |
@@ -193,8 +193,8 @@ Make the merged plugin config xml available to the web server.
 Register a new host with the collective controlled by the designated controller.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional command arguments | String | Any additional arguments that should be passed to the collective registerHost command | No |
 | Admin Password | Password | The password for the Administrator user for the target Collective Controller | Yes |
 | Admin User Name | String | An Administrator user for the target Collective Controller | Yes |
@@ -216,8 +216,8 @@ Register a new host with the collective controlled by the designated controller.
 Replace variable values in the server.xml file with Component-Resource properties
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Location of the server.xml file | String | The location of the server.xml file to be processed. | Yes |
 
 ### Start Application
@@ -225,8 +225,8 @@ Replace variable values in the server.xml file with Component-Resource propertie
 Start an application in the WebSphere Liberty profile.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Name | String | The name of the application to start. | Yes |
 | Password | Password | The password for WebSphere Liberty. | Yes |
 | Server HTTPS Port | String | The HTTPS port of the server. | Yes |
@@ -241,8 +241,8 @@ Start one or more servers in the WebSphere Liberty profile. This step will creat
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Admin Password | Password | The password for the Administrator user for the target Collective Controller | No |
 | Admin User Name | String | An Administrator user for the target Collective Controller | No |
 | Collective Controller Host Name | String | The host name of the Collective Controller that will route the startServer request to serverHost.If controllerHost is specified, controllerPort, admin user/password, trustStore/trustStorePassword, and serverHost must also be given. | No |
@@ -259,8 +259,8 @@ Start one or more servers in the WebSphere Liberty profile. This step will creat
 Stop an application in the WebSphere Liberty profile.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Name | String | The name of the application to stop. | Yes |
 | Password | Password | The password for WebSphere Liberty. | Yes |
 | Server HTTPS Port | String | The HTTPS port of the server. | Yes |
@@ -275,8 +275,8 @@ Stop one or more servers in the WebSphere Liberty profile. This step will create
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Admin Password | Password | The password for the Administrator user for the target Collective Controller | No |
 | Admin User Name | String | An Administrator user for the target Collective Controller | No |
 | Collective Controller Host Name | String | The host name of the Collective Controller that will route the stopServer request to serverHost.If controllerHost is specified, controllerPort, admin user/password, trustStore/trustStorePassword, and serverHost must also be given. | No |
@@ -293,8 +293,8 @@ Stop one or more servers in the WebSphere Liberty profile. This step will create
 Uninstall an application from the WebSphere Liberty profile by using the dropins directory.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Server Name | String | The name of the server to uninstall the application from. | Yes |
 | Source File Name | String | The full name of the archive file to uninstall. For example: JPetStore.war | Yes |
 | WebSphere Liberty Installation Directory | String | The base directory of the WebSphere Liberty profile installation. For example: /opt/IBM/WebSphere/Liberty/ | Yes |
@@ -306,8 +306,8 @@ Uninstall an application in the WebSphere Liberty profile by editing the server.
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Name | String | The name of the application to uninstall. | Yes |
 | Server Name | String | The name of the server to uninstall the application from. | Yes |
 | WebSphere Liberty Installation Directory | String | The base directory of the WebSphere Liberty profile installation. For example: /opt/IBM/WebSphere/Liberty/ | Yes |
@@ -318,8 +318,8 @@ Uninstall an application in the WebSphere Liberty profile by editing the server.
 Unregisters a host and all of its associated servers from the collective.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Admin Password | Password | The password for the Administrator user for the target Collective Controller | Yes |
 | Admin User Name | String | An Administrator user for the target Collective Controller | Yes |
 | Collective Controller Host Name | String | The host name of the target Collective Controller | Yes |
@@ -334,8 +334,8 @@ Updates the authentication information for a host that has been registered with 
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional command arguments | String | Any additional arguments that should be passed to the collective registerHost command | No |
 | Admin Password | Password | The password for the Administrator user for the target Collective Controller | Yes |
 | Admin User Name | String | An Administrator user for the target Collective Controller | Yes |
@@ -358,8 +358,8 @@ Upload a file to the target collective host.The target host must already be regi
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Admin Password | Password | The password for the Administrator user for the target Collective Controller | Yes |
 | Admin User Name | String | An Administrator user for the target Collective Controller | Yes |
 | Collective Controller Host Name | String | The host name of the target Collective Controller | Yes |
@@ -375,8 +375,8 @@ Upload a file to the target collective host.The target host must already be regi
 Wait for an application to run (have a status of Started).
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Name | String | The name of the application. | Yes |
 | Password | Password | The password for WebSphere Liberty. | Yes |
 | Server HTTPS Port | String | The HTTPS port of the server. | Yes |

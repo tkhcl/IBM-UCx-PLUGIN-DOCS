@@ -21,8 +21,8 @@ Use this step to publish Checkstyle results to a buildlife. The Checkstyle resul
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Include Description | Boolean | Include a description for each Checkstyle finding in the report. Enabling this option, might consume large amounts of storage in the database. | No |
 | Include Patterns | String | File patterns that are used to identify the checkstyle output files to include in the report. Patterns can include the following wildcards: ?, \*, or \*\*. | Yes |
 | Report Name | String | The name of the report published to the buildlife. | Yes |

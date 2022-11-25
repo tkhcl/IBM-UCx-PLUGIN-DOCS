@@ -20,8 +20,8 @@
 Download a large number of components of a single metadata type into a set of local files.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | API Version | String | The API version to use for the metadata. The default is 34.0. | No |
 | Batch Size | String | The number of items to retrieve while doing multi-part retrieve. Defaults to 10. | No |
 | Containing Folder | String | If the metadata is contained in a folder, this parameter should be the name of the folder from which the contents are retrieved. | No |
@@ -44,8 +44,8 @@ Download a large number of components of a single metadata type into a set of lo
 
 Deploy components, code, or recent validations into your org.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Check Only | Boolean | Check this box to perform a test deployment (validation) of components without saving the components in the target org. After the validation finishes with passing tests, it might qualify for deployment without rerunning tests (Deploy Recent Validation step). | No |
 | Deploy Root | String | The directory relative to the current working directory which contains the files to operate on. | Yes |
 | Jar Path | String | Path to the Salesforce jar (ex. lib/ant-salesforce.jar) | Yes |
@@ -66,8 +66,8 @@ Deploy components, code, or recent validations into your org.
 
 Describe and list all metadata types and their existing objects.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | API Version | String | The API version to use for the metadata. The default is 34.0. | Yes |
 | Jar Path | String | Path to the Salesforce jar (ex. lib/ant-salesforce.jar) | Yes |
 | Password | Password | SFDC Password. This may need to be appended with an authentication token if this agent resides outside of the trusted domain. See SalesForce documentation for further detail. (default: {p:resource/salesForce.password}``) | No |
@@ -84,8 +84,8 @@ Describe and list all metadata types and their existing objects.
 
 Deploy recently validated components.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Jar Path | String | Path to the Salesforce jar (ex. lib/ant-salesforce.jar) | Yes |
 | Max Poll | String | The number of times to poll the server for the results of the retrieve request. The clients waits for two seconds after the first poll attempt. The wait time is doubled for each successive poll attempt up to maximum of 30 seconds between poll attempts. | No |
 | Password | Password | SFDC Password. This may need to be appended with an authentication token if this agent resides outside of the trusted domain. See SalesForce documentation for further detail. (default: {p:resource/salesForce.password}``) | Yes |
@@ -104,8 +104,8 @@ Deploy recently validated components.
 
 List information on a given metadata type.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | API Version | String | The API version to use for the metadata. The default is 34.0. | No |
 | Folder | String | The folder associated with the component. This field is required for components that use folders, such as Dashboard, Document, EmailTemplate, or Report. | No |
 | Jar Path | String | Path to the Salesforce jar (ex. lib/ant-salesforce.jar) | Yes |
@@ -126,8 +126,8 @@ List information on a given metadata type.
 
 Retrieve unpackaged, managed or unmanaged packages.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Jar Path | String | Path to the Salesforce jar (ex. lib/ant-salesforce.jar) | Yes |
 | Package Names | String | Required if unpackaged is not specified. A comma-separated list of the names of the packages to retrieve. You must specify either Package Names or Unpackaged, but not both. | No |
 | Password | Password | SFDC Password. This may need to be appended with an authentication token if this agent resides outside of the trusted domain. See SalesForce documentation for further detail. (default: {p:resource/salesForce.password}``) | No |

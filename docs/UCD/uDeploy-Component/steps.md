@@ -28,8 +28,8 @@ IBM UrbanCode Deploy Components - Steps
 Adds a component to a team for a given type classification.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Component | String |  | Yes |
 | Team | String |  | Yes |
 | Type | String | The type classification to add. Leave blank to use the type Standard Component. | No |
@@ -39,8 +39,8 @@ Adds a component to a team for a given type classification.
 This step will succeed if the component exists and fail if it doesnt.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Component | String |  | Yes |
 
 ### Create Component
@@ -48,8 +48,8 @@ This step will succeed if the component exists and fail if it doesnt.
 Creates a new component.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Component Description | String | A description of the new component. | No |
 | Component Name | String | The name of the new component. | Yes |
 | Copy To Codestation | Boolean | If checked, artifacts will be copied from the given source to the servers Codestation repository. | No |
@@ -82,8 +82,8 @@ Creates a new component.
 Creates or sets an existing component property.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Component Name | String | The name of the new component. | Yes |
 | Property Name | String | name of the property to set. | Yes |
 | Property Value | String | value of the property to set. | No |
@@ -94,8 +94,8 @@ Creates or sets an existing component property.
 Deletes a component
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Component | String | Name or ID of the component to delete | Yes |
 
 ### Get Applications Using Component
@@ -103,8 +103,8 @@ Deletes a component
 Get a list of applications using a component name or ID.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Component | String | Name or ID of the component | Yes |
 
 ### Get Component Details
@@ -112,8 +112,8 @@ Get a list of applications using a component name or ID.
 Retrieve basic configuration information about a component.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Component | String | Component name or ID | Yes |
 
 ### Get Component Properties
@@ -121,8 +121,8 @@ Retrieve basic configuration information about a component.
 Retrieve the basic properties for a component.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Component | String |  | Yes |
 
 ### Create Multiple Components
@@ -130,8 +130,8 @@ Retrieve the basic properties for a component.
 Creates multiple components.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | JSON File/Text | String | A body of JSON text or a file to define components. | Yes |
 
 

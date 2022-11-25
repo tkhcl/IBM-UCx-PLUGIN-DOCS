@@ -25,8 +25,8 @@ MicroFocus ALM (formerly HP Quality Center) - Steps
 Add comments to a defect in HP Quality Center.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Comments | String | Any info you wish to be added to the Quality Center comment in addition to the commit comment. Separate multiple comments with a new line. | No |
 | Defect Ids | String | A comma separated list of defect ids for defects to update in HP Quality Center. | Yes |
 | Domain | String | The Domain in Quality Center the defect is in. | Yes |
@@ -46,8 +46,8 @@ Add comments to a defect in HP Quality Center.
 Ensure the status of issues are in the expected state.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Defect Ids | String | A comma separated list of defect ids for defects to update in HP Quality Center. | Yes |
 | Domain | String | The Domain in Quality Center the defect is in. | Yes |
 | Expected Status | String | The status the issues are expected to have. | Yes |
@@ -67,8 +67,8 @@ Ensure the status of issues are in the expected state.
 Create a new defect in HP Quality Center.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Fields | String | Additional defect fields to be added. Enter one per line, as name=value pairs. This uses Javas java.util.Properties format. | No |
 | Assignee | String | The assignee for the new defect. | Yes |
 | Detected By | String | Who detected the defect. | Yes |
@@ -93,8 +93,8 @@ Create a new defect in HP Quality Center.
 Query and return
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Domain | String | The Domain in Quality Center the defect is in. | Yes |
 | Match Criteria | String | The criteria names you want to filter by, newline separated. Ex: Created in Application = XXXXX | No |
 | Password | Password | The password to authenticate with Quality Center. | No |
@@ -110,8 +110,8 @@ Run a Test Set using HP Quality Center. This step is only functional on a Window
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Domain | String | The Domain in Quality Center the defect is in. | Yes |
 | Folder | String | The folder in Quality Center the test set resides in. This usually starts with Root. | Yes |
 | Password | Password | The password to authenticate with Quality Center. | No |
@@ -131,8 +131,8 @@ Run a Test Set using HP Quality Center. This step is only functional on a Window
 Update one or more defects in HP Quality Center.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Fields | String | Any other additional defect fields to update. These should be one per line, as name=value pairs. Adheres specifically to the java.util.Properties format. | No |
 | Assignee | String | The new assignee for the defect or blank to not change. | No |
 | Comment | String | Optionally add a comment with this update. | No |

@@ -34,8 +34,8 @@ Creates a generic installation package for a process application or toolkit snap
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Host Name | String | Host name of the Process Center server to connect to. For example: localhost | No |
 | Package Zip | String | The name of the .zip file that contains the exported process application package. If blank, the process application acronym is used. This file is saved to the working directory and overwrites any existing files with the same name. | No |
 | Process application | String | The process application name or acronym. | Yes |
@@ -48,8 +48,8 @@ Creates a generic installation package for a process application or toolkit snap
 Deactivates an activate snapshot. (BPMDeactivate)
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Force default snapshot | Boolean | Select to deactivate the default snapshot of the process application or toolkit. If cleared, default snapshots are not deactivated. | No |
 | Host Name | String | Host name of the Process Center server to connect to. For example: localhost | No |
 | Log File | String | The name of the log file for message output from running the command. Default log messages are written to the SystemOut.log file. The current date and time are appended to prevent overwriting existing log files. The log file is saved to the working directory. | No |
@@ -65,8 +65,8 @@ Deploys the process application snapshot package to an offline Process Server. (
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Host Name | String | Host name of the Process Server to connect to. For example: localhost | No |
 | Make this snapshot the default | Boolean | Select to set this snapshot as the default snapshot. | No |
 | Process application | String | The process application name or acronym if this snapshot is set as the default. If blank, the component name is used. | No |
@@ -79,8 +79,8 @@ Deploys the process application snapshot package to an offline Process Server. (
 Deploys the process application snapshot to an online Process Server. (BPMInstall)
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Host Name | String | Host name of the Process Center server to connect to. For example: localhost | No |
 | Process application | String | The process application name or acronym. If blank, the component name is used. | No |
 | Process application snapshot | String | The process application snapshot name or acronym. | No |
@@ -94,8 +94,8 @@ Deploys the process application snapshot to an online Process Server. (BPMInstal
 Exports a process application from a Process Center server. (BPMExport)
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Host Name | String | Host name of the Process Center server to connect to. For example: localhost | No |
 | Package | String | The name of the .twx file that contains the exported process application. If blank, the process application acronym is used. Including the .twx file extension in the name is optional. | No |
 | Process application | String | The process application name or acronym. If blank, the component name is used. | No |
@@ -109,8 +109,8 @@ Extracts the migration policy from Process Center. Use this step to extract the 
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Host Name | String | Host name of the Process Center server to connect to. For example: localhost | No |
 | Migration Policy XML | String | The name of the file to create. The file will contain the information used to migrate instances from the source snapshot to the target snapshot. The file name must be unique and must have the .xml extension. This file overwrites any file with the same name in the working directory. If blank, the component name is used. | No |
 | Process application | String | The process application name or acronym. | Yes |
@@ -124,8 +124,8 @@ Creates a .zip file on Process Center that contains a process application snapsh
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Host Name | String | Host name of the Process Center server to connect to. For example: localhost | No |
 | Process application | String | The process application name or acronym. If blank, the component name is used. | No |
 | Process application snapshot | String | The process application snapshot name or acronym. | No |
@@ -139,8 +139,8 @@ Creates a .zip file on Process Center that contains a process application snapsh
 Imports a process application into a Process Center server. (BPMImport)
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Host Name | String | Host name of the Process Center server to connect to. For example: localhost | No |
 | Process application package | String | The name of the .twx file that contains the process application package. If blank, the component name is used. Including the .twx file extension in the name is optional. | No |
 | Use soap.client.props file | Boolean | Select to use the soap.client.props file for the WebSphere Application Server administrator credentials. | No |
@@ -150,8 +150,8 @@ Imports a process application into a Process Center server. (BPMImport)
 Installs a process application snapshot from Process Center to a Process Server. (BPMInstallPackage)
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Host Name | String | Host name of the Process Server to connect to. For example: localhost | No |
 | Install Package | String | The path of the offline installation package that you created and extracted on the Process Center server and have already placed on the offline Process Servers file system. Specify an absolute path or a file in the working directory. | Yes |
 | Show Snapshot Info | Boolean | If selected, the command returns the acronyms of the process application, track, and snapshot that were installed. | No |
@@ -163,8 +163,8 @@ Migrates all instances on all nodes in the network deployment environment. Equiv
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Host Name | String | Host name of the Process Center server to connect to. For example: localhost | No |
 | Orphan Token Policy File | String | Optional: The name of a policy file to use during instance migration. The policy file is distributed to all the nodes in the same network deployment environment before instance migration. The policy file must be in XML format. | No |
 | Process application | String | The process application name or acronym. | Yes |
@@ -182,8 +182,8 @@ Migrates all instances on all nodes in the network deployment environment. Equiv
 Designates a default snapshot on the Process Center or the Process Server. (BPMSetDefaultSnapshot)
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Host Name | String | Host name of the Process Server to connect to. For example: localhost | No |
 | Process application | String | The process application name or acronym. | Yes |
 | Process application snapshot | String | The process application snapshot name or acronym. | Yes |
@@ -194,8 +194,8 @@ Designates a default snapshot on the Process Center or the Process Server. (BPMS
 Stops a deactivated snapshot on a Process Server. (BPMStop)
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Host Name | String | Host name of the Process Server to connect to. For example: localhost | No |
 | Process application | String | The process application name or acronym. | Yes |
 | Process application snapshot | String | The process application snapshot name or acronym. | Yes |
@@ -207,8 +207,8 @@ Synchronize team bindings, environment variables, and exposed process values bet
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Host Name | String | Host name of the Process Center server to connect to. For example: localhost | No |
 | Process application | String | The process application name or acronym. | Yes |
 | Source process application snapshot | String | The source process application snapshot name or acronym. | Yes |
@@ -224,8 +224,8 @@ Associates an installation package with a specific server, to enable installing 
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Host Name | String | Host name of the Process Center server to connect to. For example: localhost | No |
 | Process application | String | The process application name or acronym. | Yes |
 | Process application snapshot | String | The process application snapshot name or acronym. | Yes |

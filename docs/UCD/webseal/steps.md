@@ -21,8 +21,8 @@ Update one or more configuration entries by stanza on the Reverse Proxy Instance
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Entry ID | String | The name of the entry to set. | Yes |
 | Entry Value | String | The value to set for the entry. Specify the full entry here or a path to the file containing the entry. | Yes |
 | Hostname | String | Host name of the appliance. | Yes |

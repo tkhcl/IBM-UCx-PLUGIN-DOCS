@@ -37,8 +37,8 @@ JBoss Application Server - Steps
 Add a new Data Source to JBoss
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Add as XA Source | Boolean | Check to create this data source as an XA Data Source. | No |
 | Additional Arguments | String | Any additional arguments to pass to the Jboss CLI. (example: force) | No |
 | Additional Properties | String | Additional properties to pass to the CLI, new-line separated. | No |
@@ -64,8 +64,8 @@ Add a new Data Source to JBoss
 Add a JMS Connection Factory to JBoss
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Any additional arguments to pass to the Jboss CLI. (example: force) | No |
 | Administrative Port | String | Jboss server administrative port. Default is 9999. | No |
 | Connector | String | The connector to be used, comma separated. The first will be the default, the rest will be backups. | Yes |
@@ -83,8 +83,8 @@ Add a JMS Connection Factory to JBoss
 Add a JMS Queue to JBoss
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Any additional arguments to pass to the Jboss CLI. (example: force) | No |
 | Administrative Port | String | Jboss server administrative port. Default is 9999. | No |
 | Controller Name | String | The controller name of the JBoss instance to connect to. | No |
@@ -101,8 +101,8 @@ Add a JMS Queue to JBoss
 Add a JMS Topic to JBoss
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Any additional arguments to pass to the Jboss CLI. (example: force) | No |
 | Administrative Port | String | Jboss server administrative port. Default is 9999. | No |
 | Controller Name | String | The controller name of the JBoss instance to connect to. | No |
@@ -119,8 +119,8 @@ Add a JMS Topic to JBoss
 Get the status information on a deployment
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Any additional arguments to pass to the Jboss CLI. (example: force) | No |
 | Administrative Port | String | Jboss server administrative port. Default is 9999. | No |
 | Controller Name | String | The controller name of the JBoss instance to connect to. | No |
@@ -137,8 +137,8 @@ Get the status information on a deployment
 Create a server and add it to a server group
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Any additional arguments to pass to the Jboss CLI. (example: force) | No |
 | Administrative Port | String | Jboss server administrative port. Default is 9999. | No |
 | Auto-Start | Boolean | Check to set auto-start to true. | No |
@@ -157,8 +157,8 @@ Create a server and add it to a server group
 Create Server Group on a JBoss Domain instance
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Any additional arguments to pass to the Jboss CLI. (example: force) | No |
 | Administrative Port | String | Jboss server administrative port. Default is 9999. | No |
 | Controller Name | String | The controller name of the JBoss instance to connect to. | No |
@@ -175,8 +175,8 @@ Create Server Group on a JBoss Domain instance
 Deploy application to JBoss.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Any additional arguments to pass to the Jboss CLI. (example: force) | No |
 | Administrative Port | String | Jboss server administrative port. Default is 9999. | No |
 | Application name | String | The name of the application to be deployed. If no source is specified, the named application will be enabled instead. If no application name is supplied, the file name will be used. | No |
@@ -196,8 +196,8 @@ Deploy application to JBoss.
 Deploy JDBC Driver to JBoss.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Any additional arguments to pass to the Jboss CLI. (example: force) | No |
 | Administrative Port | String | Jboss server administrative port. Default is 9999. | No |
 | Deploy To All Server Groups | Boolean | Only applicable in Domain Mode. Check to deploy to all servers. | No |
@@ -214,8 +214,8 @@ Deploy JDBC Driver to JBoss.
 Disable an application that has been deployed to JBoss, Standalone Only.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Any additional arguments to pass to the Jboss CLI. (example: force) | No |
 | Administrative Port | String | Jboss server administrative port. Default is 9999. | No |
 | Application name | String | The name of the application to be deployed. If no source is specified, the named application will be enabled instead. | Yes |
@@ -230,8 +230,8 @@ Disable an application that has been deployed to JBoss, Standalone Only.
 Enable an application that has been deployed to JBoss, Standalone Only.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Any additional arguments to pass to the Jboss CLI. (example: force) | No |
 | Administrative Port | String | Jboss server administrative port. Default is 9999. | No |
 | Application name | String | The name of the application to be deployed. If no source is specified, the named application will be enabled instead. | Yes |
@@ -246,8 +246,8 @@ Enable an application that has been deployed to JBoss, Standalone Only.
 Remove a JMS Connection Factory from JBoss
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Any additional arguments to pass to the Jboss CLI. (example: force) | No |
 | Administrative Port | String | Jboss server administrative port. Default is 9999. | No |
 | Controller Name | String | The controller name of the JBoss instance to connect to. | No |
@@ -263,8 +263,8 @@ Remove a JMS Connection Factory from JBoss
 Restart a JBoss Server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Any additional arguments to pass to the Jboss CLI. (example: force) | No |
 | Administrative Port | String | Jboss server administrative port. Default is 9999. | No |
 | Controller Name | String | The controller name of the Jboss instance to connect to. | No |
@@ -280,8 +280,8 @@ Restart a JBoss Server.
 Restart a JBoss Server Group.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Any additional arguments to pass to the Jboss CLI. (example: force) | No |
 | Administrative Port | String | Jboss server administrative port. Default is 9999. | No |
 | Controller Name | String | The controller name of the JBoss instance to connect to. | No |
@@ -297,8 +297,8 @@ Restart a JBoss Server Group.
 Run a custom script on JBoss using the CLI
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Any additional arguments to pass to the Jboss CLI. (example: force) | No |
 | Administrative Port | String | Jboss server administrative port. Default is 9999. | No |
 | Controller Name | String | The controller name of the JBoss instance to connect to. | No |
@@ -313,8 +313,8 @@ Run a custom script on JBoss using the CLI
 Start JBoss in either Standalone or Domain mode.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Host Name | String | The host name of the server to be started. | Yes |
 | JBoss Startup Path | String | The path to the JBoss startup executable. | Yes |
 | Port Number | String | The port number of the server to be started. | Yes |
@@ -330,8 +330,8 @@ Start JBoss in either Standalone or Domain mode.
 Stop JBoss in either standalone or domain mode.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Domain Mode Host Name | String | The name of your host. Only required when your server is in Domain mode. | No |
 | JBoss Startup Path | String | The path to the JBoss startup executable. | Yes |
 | Password | Password | The password to authenticate with. Default value is ``${p?:resource/JBoss.password}``. | No |
@@ -348,8 +348,8 @@ Stop JBoss in either standalone or domain mode.
 Undeploy application in JBoss.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Any additional arguments to pass to the Jboss CLI. (example: force) | No |
 | Administrative Port | String | Jboss server administrative port. Default is 9999. | No |
 | Application Name | String | The name of the file to be undeployed. | Yes |
