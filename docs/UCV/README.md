@@ -376,7 +376,7 @@ The Deploy Plugin for Accelerate imports deployment data from UrbanCode Deploy i
 
 WhiteSource identifies all open source components and their dependencies in software. WhiteSource secures software from vulnerabilities and enforces license policies throughout the software development lifecycle.
 
-The WhiteSource plug-in retrieves WhiteSource scan results and displays the License Risks and Security Vulnerabilities in HCL Accelerate metric displays.
+The WhiteSource plug-in retrieves WhiteSource scan results and displays the License Risks and Security Vulnerabilities in IBM UrbanCode Velocity metric displays.
 
 ---
 
