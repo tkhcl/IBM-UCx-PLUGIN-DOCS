@@ -2,8 +2,7 @@
 WhiteSource
 ======
 
-WhiteSource is a testing framework for Java programming. This plug-in provides integration of testing results into the
-UrbanCode Velocity server.
+WhiteSource provides for the management of open source components security, licenses, and maintenance throughout a software development cycle. It identifies the open source components within a software development lifecycle with security or compliance issues. When issues are detected alerts and remediation assistance is provided. The WhiteSource plugin integrates with WhiteSource to retrieves license risks and security vulnerabilities data from WhiteSource scan results to include in an IBM UrbanCode Velocity metric.
 
 |Back to ...||Latest Version||||
 | :---: | :---: | :---: | :---: | :---: | :---: |
