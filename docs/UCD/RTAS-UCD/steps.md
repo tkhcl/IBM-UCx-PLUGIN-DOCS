@@ -35,7 +35,7 @@ Use this step to start a job on the Rational Test Automation Server.
 | Secrets Collection Name | String | The name of the secrets collection that contains the secrets to be used in certain API Suites or tests. | No |
 | Environment | String | The environment defined in the API Suite or test to use in the test run. | No |
 | Custom Trust Store Path | String | The path to the custom trust store that includes the file name. This trust store must include the certificate of the CA that issued the SSL certificate of your IBM Rational Test Automation Server instance or the SSL certificate of your IBM Rational Test Automation Server instance. Enter the path when the SSL certificate of your IBM Rational Test Automation Server instance is signed by an internal CA or when you are unable to establish secure connection to your IBM Rational Test Automation Server instance. In other cases, you can leave it empty. | No |
-| Custom Trust Store Password | Password | Password of the custom trust store. This field can be left blank if the default password of the custom trust store hasn't been modified. | No |
+| Custom Trust Store Password | Password | The password of the custom trust store. This field can be left blank if the default password of the custom trust store has not been modified. | No |
 | HTTP Proxy Host | String | The hostname of the HTTP proxy to use to connect to IBM Rational Test Automation Server. For example, proxy.domain.com | No |
 | HTTP Proxy Port | String | The port number of the HTTP proxy to use to connect to IBM Rational Test Automation Server. | No |
 | HTTP Proxy User name | String | The username to authenticate with HTTP proxy. | No |
