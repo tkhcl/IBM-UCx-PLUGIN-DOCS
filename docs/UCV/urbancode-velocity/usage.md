@@ -3,13 +3,13 @@
 
 ### Usage
 
-* **Posting job metadata to your urbancode velocity instance** – As you create and edit jobs, the metadata for the jobs will uploaded including the names of the jobs as well as the names of parameters. This is done so that the jobs can be invoked from UrbanCode Velocity within the Velocity security model.
+* **Posting job metadata to your UrbanCode Velocity instance** – As you create and edit jobs, the metadata for the jobs will uploaded including the names of the jobs as well as the names of parameters. This is done so that the jobs can be invoked from UrbanCode Velocity within the Velocity security model.
 
-* **Invoke jobs from urbancode velocity** – An authenticated, encrypted persistent connection is established with UrbanCode Velocity so that you can trigger off jobs and pipelines with no special firewall configuration.
+* **Invoke jobs from UrbanCode Velocity** – An authenticated, encrypted persistent connection is established with UrbanCode Velocity so that you can trigger off jobs and pipelines with no special firewall configuration.
 
 * **Updates status of running jobs** – You will receive instant feedback in UrbanCode Velocity with links to the execution.
 
-* **Job executions can create versions in the urbancode velocity pipeline** – You will have the option to select Jenkins jobs as "input jobs" which will create a version with special properties that you can specify.
+* **Job executions can create versions in the UrbanCode Velocity pipeline** – You will have the option to select Jenkins jobs as "input jobs" which will create a version with special properties that you can specify.
 
 * **Detects quality data provided by IBM Deployment Risk Analytics** - If you use the capabilities found in the IBM Cloud DevOps plugin to provide data to IBM DRA, then this plugin will forward that data to your composite pipeline to visualize quality data across your whole suite of applications.
 
@@ -57,15 +57,15 @@ From the root directory, run either of the following commands:
 
 #### Configuration properties
 
-* Check gate in urbancode velocity
-* Upload Build to urbancode velocity
-* Upload Deployment to urbancode velocity
-* Upload JUnit Results to urbancode velocity
-* Upload JUnit Metrics File to urbancode velocity
+* Check gate in UrbanCode Velocity
+* Upload Build to UrbanCode Velocity
+* Upload Deployment to UrbanCode Velocity
+* Upload JUnit Results to UrbanCode Velocity
+* Upload JUnit Metrics File to UrbanCode Velocity
 
-# Check gate in urbancode velocity
+# Check gate in UrbanCode Velocity
 
-The CheckGate class is used to check gates applied on a particular stage of the urbancode velocity pipeline for a particular versionId of an application.
+The CheckGate class is used to check gates applied on a particular stage of the UrbanCode Velocity pipeline for a particular versionId of an application.
 
 ```
 step($class: 'CheckGate',
@@ -79,13 +79,13 @@ versionId: "NWZkOWUyZjYtOGE3Yy00NmJhLTlmZD-#48",
 
 | Name | Type | Description | Required | Property name |
 | --- | --- | --- | --- | --- |
-| Pipeline ID | String | Pipeline ID from urbancode velocity. | Yes | pipelineId |
-| Stage Name | String | Stage name of urbancode velocity pipeline. | Yes | stageName |
+| Pipeline ID | String | Pipeline ID from UrbanCode Velocity. | Yes | pipelineId |
+| Stage Name | String | Stage name of UrbanCode Velocity pipeline. | Yes | stageName |
 | Version ID | String | Version Id for particular application. | Yes | versionId |
 
-# Upload build to urbancode velocity
+# Upload build to UrbanCode Velocity
 
-The UploadBuild class is used to upload build data to urbancode velocity. The revision parameter is important for linking the build to the work item via GitHub data (GIT_COMMIT in this case). The versionName is important for linking forward to deployments. The appName corresponds to the urbancode velocity pipeline application name.
+The UploadBuild class is used to upload build data to UrbanCode Velocity. The revision parameter is important for linking the build to the work item via GitHub data (GIT_COMMIT in this case). The versionName is important for linking forward to deployments. The appName corresponds to the UrbanCode Velocity pipeline application name.
 
 ```
 step($class: 'UploadBuild',
@@ -102,10 +102,10 @@ id: "${currentBuild.displayName}"
 
 | Name | Type | Description | Required | Property name |
 | --- | --- | --- | --- | --- |
-| Tenant ID | String | Tenant Id from urbancode velocity | Yes | tenantId |
-| Build Name | String | Build Name to display in urbancode velocity | No | name |
+| Tenant ID | String | Tenant Id from UrbanCode Velocity | Yes | tenantId |
+| Build Name | String | Build Name to display in UrbanCode Velocity | No | name |
 | Version Name | String | For linking forward to deployments. | No | versionName |
-| Requestor | String | Requestor Name to display in urbancode velocity | No | requestor |
+| Requestor | String | Requestor Name to display in UrbanCode Velocity | No | requestor |
 | Revision | String | For linking the build to the work item via GitHub data. | No | revision |
 | Status | String | One of start, in_progress, success, or failure. | No | status |
 | Start Time | String | Start time for this step (Default: CurrentTime). | No | startTime |
@@ -116,9 +116,9 @@ id: "${currentBuild.displayName}"
 | Debug | Boolean | For Getting debug logs. | No | debug |
 | Fatal | Boolean | Fail build on failed upload, rather than just making build unstable. | No | fatal |
 
-# Upload Deployment to urbancode velocity
+# Upload Deployment to UrbanCode Velocity
 
-The UploadDeployment class is used to upload deployment data to urbancode velocity. The versionName parameter is critical for linking to build data. The appName corresponds to the urbancode velocity pipeline application name, while environmentName and environmentId are used to identify the deployment environment.
+The UploadDeployment class is used to upload deployment data to UrbanCode Velocity. The versionName parameter is critical for linking to build data. The appName corresponds to the UrbanCode Velocity pipeline application name, while environmentName and environmentId are used to identify the deployment environment.
 
 ```
 step([$class:
@@ -140,10 +140,10 @@ result: 'true'
 
 | Name | Type | Description | Required | Property name |
 | --- | --- | --- | --- | --- |
-| Tenant ID | String | Tenant Id from urbancode velocity | Yes | tenantID |
-| Name | String | Name to display in urbancode velocity | No | name |
+| Tenant ID | String | Tenant Id from UrbanCode Velocity | Yes | tenantID |
+| Name | String | Name to display in UrbanCode Velocity | No | name |
 | Result | String | One of start, in_progress, success, or failure. | No | result |
-| Initiator | String | Initiator Name to display in urbancode velocity | No | initiator |
+| Initiator | String | Initiator Name to display in UrbanCode Velocity | No | initiator |
 | Version Name | String | For linking to build data. | No | versionName |
 | Version External ID | String | For linking to build data. | No | versionExtID |
 | Type | String | Type of deployment job. | yes | type |
@@ -159,15 +159,15 @@ result: 'true'
 | Debug | Boolean | For Getting debug logs. | No | debug |
 | Fatal | Boolean | Fail build on failed upload, rather than just making build unstable. | No | fatal |
 
-# Upload JUnit Results to urbancode velocity
+# Upload JUnit Results to UrbanCode Velocity
 
 | Type | Description | Required | Property name |
 | --- | --- | --- | --- |
-| java.util.Map<java.lang.String, java.lang.String> | Upload JUnit Results to urbancode velocity | Yes | properties |
+| java.util.Map<java.lang.String, java.lang.String> | Upload JUnit Results to UrbanCode Velocity | Yes | properties |
 
-# Upload JUnit Metrics File to urbancode velocity
+# Upload JUnit Metrics File to UrbanCode Velocity
 
-The UploadMetricsFile class is used to upload metrics file into urbancode velocity. The uploaded metrics file will be available in Insights in graphical form.
+The UploadMetricsFile class is used to upload metrics file into UrbanCode Velocity. The uploaded metrics file will be available in Insights in graphical form.
 
 ```
 step($class: 'UploadMetricsFile',
@@ -187,20 +187,20 @@ buildUrl: "${env.BUILD_URL}",
 
 | Name | Type | Description | Required | Property name |
 | --- | --- | --- | --- | --- |
-| Tenant ID | String | Tenant Id from urbancode velocity | Yes | tenantId |
-| Name | String | Name to display in urbancode velocity | No | name |
+| Tenant ID | String | Tenant Id from UrbanCode Velocity | Yes | tenantId |
+| Name | String | Name to display in UrbanCode Velocity | No | name |
 | File Path | String | Path to metrics file | No | filePath |
 | Test Set Name | String | Name to test set. | No | testSetName |
-| Environment | String | Environment name to display in urbancode velocity | Yes | environment |
+| Environment | String | Environment name to display in UrbanCode Velocity | Yes | environment |
 | Combine Test Suites | Boolean |  | No | combineTestSuites |
 | Fatal | Boolean | Fail build on failed upload, rather than just making build unstable. | No | fatal |
 | Plugin Type | String | Plugin type for metrics file. | No | pluginType |
 | Data Format | String | Data format of metrics file. | Yes | dataFormat |
-| Record Name | String | Record Name to display in urbancode velocity | No | recordName |
-| Metric Definition ID | String | Metric Definition ID from urbancode velocity | No | metricDefinitionId |
+| Record Name | String | Record Name to display in UrbanCode Velocity | No | recordName |
+| Metric Definition ID | String | Metric Definition ID from UrbanCode Velocity | No | metricDefinitionId |
 | Description | String | Description of this step. | No | description |
 | Execution Date | String | Time of execution that produced test results. Should be in Epoch milliseconds. Defaults to current time. | No | executionDate |
-| Build ID | String | Build ID to display in urbancode velocity | No | buildId |
+| Build ID | String | Build ID to display in UrbanCode Velocity | No | buildId |
 | App Name (one of three required) | String | Urbancode velocity pipeline application name. | No | appName |
 | App ID (one of three required) | String | Urbancode velocity pipeline application id. | No | appId |
 | App External ID (one of three required) | String | Urbancode velocity pipeline application external id. | No | appExtId |

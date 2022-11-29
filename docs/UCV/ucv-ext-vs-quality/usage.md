@@ -14,7 +14,7 @@ The plug-in is now listed below those plug-ins to be installed and available for
 The Microsoft Visual Studio Testing plug-in parses unit test result data from the Microsoft Visual Studio Testing server.
 
 ## Invoking the plug-in
-To gather data from the Microsoft Visual Studio Testing server, send an HTTP Post request with the data to parse. Whenever there is a hit to the endpoint, the data is parsed and displayed as metrics in HCL Accelerate. You can use various methods such as Postman, REST calls, CURL, and CI/CD tools like Jenkins to invoke the plug-in endpoints.
+To gather data from the Microsoft Visual Studio Testing server, send an HTTP Post request with the data to parse. Whenever there is a hit to the endpoint, the data is parsed and displayed as metrics in IBM UrbanCode Velocity. You can use various methods such as Postman, REST calls, CURL, and CI/CD tools like Jenkins to invoke the plug-in endpoints.
 
 ### Invoke using Jenkins
 Install the UrbanCode Velocity plug-in into your Jenkins server. In your freestyle job or pipeline use the UCV-Upload Metrics File to UrbanCode Velocity step and provide the required fields. This step allows your build job to upload generated coverage results files to UrbanCode Velocity.
