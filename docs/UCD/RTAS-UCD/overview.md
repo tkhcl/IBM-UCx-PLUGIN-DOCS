@@ -1,4 +1,4 @@
-# 
+
 IBM Rational Test Automation Server (RTAS) - Overview
 =====================================================
 
@@ -8,13 +8,13 @@ IBM Rational Test Automation Server (RTAS) - Overview
 ### Overview
 
 
-The IBM Rational Test Automation Server plug-in provides for automation of testing using Rational Test Workbench. It allows you to integrate testing of complex application environments much earlier in the development lifecycle.
+The IBM Rational Test Automation Server plug-in provides the capability for test automation when you use Rational Test Workbench. It allows you to integrate testing of complex application environments much earlier in the development lifecycle.
 
 ### Compatibility
 
-This plug-in works with Rational Test Workbench v8.5 or higher.
+This plug-in is compatible with Rational Test Workbench v9.2 or higher.
 
-The plug-in steps run on all IBM UrbanCode Deploy and Rational Test Control Panel Ant client agents.
+The plug-in is compatible with IBM UrbanCode Deploy and Rational Test Control Panel Ant client agents.
 
 This plug-in is not compatible with agents on z/OS.
 
