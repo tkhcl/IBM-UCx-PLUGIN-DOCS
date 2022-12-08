@@ -1,8 +1,6 @@
 
 # BitBucket Cloud - Overview
 
-## Overview
-
 The BitBucket Cloud plug-in provides for integration with a BitBucket Cloud.
 
 
