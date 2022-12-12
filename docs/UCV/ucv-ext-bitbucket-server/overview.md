@@ -1,8 +1,6 @@
 
 # BitBucket Server - Overview
 
-## Overview
-
 The BitBucket Server plug-in provides for integration with a BitBucket server.
 
 
