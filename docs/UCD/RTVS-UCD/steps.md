@@ -26,8 +26,8 @@ IBM Rational Test Virtualization Server (RTVS) - Steps
 Create a transient Rational Integration Tester environment.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Base Environment | String | The name of the environment to be used as the base of the new environment. | Yes |
 | Description | String | A description of the new environment. | No |
 | Domain | String | The name of the domain. | Yes |
@@ -38,8 +38,8 @@ Create a transient Rational Integration Tester environment.
 Delete a transient Rational Integration Tester environment.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Domain | String | Domain name | Yes |
 | Environment | String | The name of the environment to delete. | Yes |
 | Rational Test Control Panel URL | String | The URL of Rational Test Control Panel. | Yes |
@@ -50,8 +50,8 @@ Delete a transient Rational Integration Tester environment.
 Start a scenario
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Domain | String | The name of the domain. | Yes |
 | Environment | String | The name of the environment. | Yes |
 | Force | Boolean | Enable to stop any already-running scenario in the environment. | No |
@@ -70,8 +70,8 @@ Start a scenario
 Start a stub.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Agent attributes | String | Comma-separated list of agent attributes identifying the agent to run on | No |
 | Component | String | Component the stub exists within | No |
 | Domain | String | Domain name | Yes |
@@ -87,8 +87,8 @@ Start a stub.
 Stop a scenario.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Domain | String | Domain name | Yes |
 | Environment | String | Environment name | Yes |
 | Rational Test Control Panel URL | String | URL of Rational Test Control Panel | Yes |
@@ -101,8 +101,8 @@ Stop a scenario.
 Stop a stub.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Component | String | Component the stub exists within | No |
 | Domain | String | Domain name | Yes |
 | Environment | String | Environment name | Yes |
@@ -117,8 +117,8 @@ Stop a stub.
 Update a Rational Integration Tester transient environment.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Domain | String | Domain name | Yes |
 | Environment | String | Name of the environment to update | Yes |
 | Rational Test Control Panel URL | String | URL of Rational Test Control Panel | Yes |

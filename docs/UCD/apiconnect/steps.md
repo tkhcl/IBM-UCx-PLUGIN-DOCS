@@ -30,8 +30,8 @@ IBM API Connect - Steps
 Authenticate with an API Connect cloud through the management server. This step is a prerequisite for all other steps in the IBM API Connect plug-in. (apic login)
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | APIC Tool Path | String | The full path to the apic command-line tool. For example: C:\Users\John\AppData\Roaming\npm\apic.cmd | No |
 | Password | Password | The password to use to authenticate with the API Connect management server. | Yes |
 | Realm | String | The identity provider used to authenticate and the scope of the tasks that can be performed (I.E. provider/default-idp-2). This field is required if using the API Connect v2018 toolkit. | No |
@@ -44,8 +44,8 @@ Authenticate with an API Connect cloud through the management server. This step 
 Remove local authentication credentials for an API Connect cloud. Run this step at the end of each deployment process. (apic logout)
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | APIC Tool Path | String | The full path to the apic command-line tool. For example: C:\Users\John\AppData\Roaming\npm\apic.cmd | No |
 | Server | String | The API Connect management server endpoint to remove credentials from. For example, the IBM Bluemix endpoint is us.apiconnect.ibmcloud.com. | Yes |
 
@@ -54,8 +54,8 @@ Remove local authentication credentials for an API Connect cloud. Run this step 
 Publish the API product and referenced APIs to a catalog. (apic products:publish)
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | API Product Definitions | String | The full path to the YAML file that contains the API or product definitions. | Yes |
 | APIC Tool Path | String | The full path to the apic command-line tool. For example: C:\Users\John\AppData\Roaming\npm\apic.cmd | No |
 | Catalog | String | The name of the catalog to deploy to. | Yes |
@@ -70,8 +70,8 @@ Publish the API product and referenced APIs to a catalog. (apic products:publish
 Publish a Node.js (LoopBack) application to a provider application (apic apps:publish). Note: This command is not supported if using API Connect v2018.x.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | APIC Tool Path | String | The full path to the apic command-line tool. For example: C:\Users\John\AppData\Roaming\npm\apic.cmd | No |
 | Loopback Application | String | The name of the LoopBack application. | Yes |
 | Loopback Project Directory | String | The full path to the directory that contains the LoopBack application. | Yes |
@@ -84,8 +84,8 @@ Publish a Node.js (LoopBack) application to a provider application (apic apps:pu
 Push API product definitions to drafts on an API Connect cloud (apic drafts:push). Note: This command is not supported with API Connect v2018.x.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | API Product Definitions | String | The full path to a YAML file that contains the API product definitions. Example: banking-services.yaml. | Yes |
 | APIC Tool Path | String | The full path to the apic command-line tool. For example: C:\Users\John\AppData\Roaming\npm\apic.cmd | No |
 | Organization | String | The provider organization name. | Yes |
@@ -99,8 +99,8 @@ Push API product definitions to drafts on an API Connect cloud (apic drafts:push
 Replace a published or deprecated product in a catalog with another product (apic products:replace) The old product will be retired. The new product must be either staged, published, or deprecated.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | APIC Tool Path | String | The full path or folder to the apic command-line tool. For example: C:\Users\John\AppData\Roaming\npm\apic.cmd | No |
 | Catalog | String | The name of the catalog ncontaining the product to be replaced. | Yes |
 | New Product | String | The new product to replace the old product, specified on the Old Product property. Use the format: NEW\_PRODUCT\_NAME:VERSION\_NAME. | Yes |
@@ -116,8 +116,8 @@ Replace a published or deprecated product in a catalog with another product (api
 Set a configuration variable. You do not need to run the Login step before running this step. This is a wrapper step for the App and Catalog Identifier. If you have access to the Identifier, run that command through the Shell step. (apic config:set)
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | APIC Tool Path | String | The full path to the apic command-line tool. For example: C:\Users\John\AppData\Roaming\npm\apic.cmd | No |
 | App or Catalog Name | String | The name of an application or catalog to configure. | Yes |
 | Config Variable Type | Enumeration:
@@ -135,8 +135,8 @@ Set a configuration variable. You do not need to run the Login step before runni
 Supersede a published product in a catalog with another product (apic products:replace). The old product is deprecated. The new product must be either staged, published, or deprecated.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | APIC Tool Path | String | The full path or folder to the apic command-line tool. For example: C:\Users\John\AppData\Roaming\npm\apic.cmd | No |
 | Catalog | String | The name of the catalog containing the product to be replaced. | Yes |
 | New Product | String | The new product to supersed the old product.Use the format: NEW\_PRODUCT\_NAME:VERSION\_NAME. | Yes |

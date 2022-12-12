@@ -28,8 +28,8 @@ Compile a DataStage job or routine silently. Note: All environmental dependencie
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Compilation Report | String | Specify the full name and destination for a compilation report. | No |
 | Compile | Enumeration:
 * JOB
@@ -52,8 +52,8 @@ Import objects from a .dsx file to a repository. This step works only on tiers w
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | DataStage Script Path | String | Specify the full path to the node agent \bin directory where the DataStage scripts are located. | Yes |
 | Domain | String | Specify the domain of the InfoSphere server.The default port number, 9080, is used if you do not specify a port number.For example: server-is.example.com:8080 | No |
 | File Pathnames | String | Specify a list of .dsx files to import. Separate file names with a commas or newline characters.Complete file paths must be specified. Regex is not allowed. Alternately, specify a text file that contains a list of files to import. | Yes |
@@ -74,8 +74,8 @@ Import objects from a .dsx file to a repository. This step works only on tiers w
 Delete InfoSphere DataStage or QualityStage assets.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Abort After # Errors | Enumeration:
 * 0
 * 1
@@ -99,8 +99,8 @@ Delete InfoSphere DataStage or QualityStage assets.
 Export InfoSphere DataStage project level components to a .dsx file.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | DataStage Script Path | String | Specify the full path to the client directory where the DataStage scripts are located. | Yes |
 | Destination Folder | String | Specify the folder for storing the .dsx files. Leave blank to use the working directory. | No |
 | Domain | String | The host name of the application server, including an optional port number. For example: is-server.example.com:9445 | No |
@@ -114,8 +114,8 @@ Export InfoSphere DataStage project level components to a .dsx file.
 Export InfoSphere DataStage or QualityStage assets to a specified .isx file.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Abort After # Errors | Enumeration:
 * 0
 * 1
@@ -143,8 +143,8 @@ Import InfoSphere DataStage project level components from a .dsx or .xml file in
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | DataStage Script Path | String | Specify the full path to the client directory where the DataStage scripts are located. | Yes |
 | Domain | String | The host name of the services tier computer, including an optional port number. For example: localhost:8080 | No |
 | File Pathnames | String | The file(s) to import from. Separate files with commas or newline. The files must be .dsx files or .xml files, or a combination of both. The list of import files may given via a .txt file. | Yes |
@@ -160,8 +160,8 @@ Import InfoSphere DataStage or QualityStage assets from a previously exported .i
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Abort After # Errors | Enumeration:
 * 0
 * 1
@@ -193,8 +193,8 @@ List the objects that a .dsx file contains. This step works only on tiers where 
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | DSX File Path | String | Specify the .dsx file to list. You can specify a full path name, which can be local or remote. Alternately, specify a text file that contains a list of file names. | Yes |
 | DataStage Script Path | String | Specify the full path to the node agent \bin directory where the DataStage scripts are located. | Yes |
 

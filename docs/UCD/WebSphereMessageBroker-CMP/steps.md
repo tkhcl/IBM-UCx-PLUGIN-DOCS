@@ -38,8 +38,8 @@ IBM Integration Bus (formerly WebSphere Message Broker) - CMP - Steps
 Create execution groups, but only if they do not exist.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Channel | String | The name of the channel to use. Must be defined on the queue manager. Specify this value if you are using below version 10 of IIB. | No |
 | Environment Variables | String | A file or list containing property entries, with each entry delimited by newlines. Entries must be in the form VAR=VALUE (i.e. java.library.path=/opt/mqm/java/lib64: /opt/mqm/java/lib). Implemented to support z/OS using an ENVFILE. | No |
 | Execution Groups | String | Comma or new line separated list of Execution Groups defined on the broker to create if they do not exist. | Yes |
@@ -61,8 +61,8 @@ Create an Integration Node (Broker). This command will create the WebSphere MQ q
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Any additional arguments to pass to the mqsicreatebroker script when running this step. Multiple arguments are split by new line. (e.g. -i generalDefaultUserId) | No |
 | IIB Installation Directory | String | The installation directory of the IIB server. (e.g. /opt/ibm/server) | Yes |
 | Integration Node (Broker) | String | The name of the integration node to create. | Yes |
@@ -75,8 +75,8 @@ Create an Integration Node (Broker). This command will create the WebSphere MQ q
 Create a configurable service if it doesnt exist. If it does, update its properties.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Channel | String | The name of the channel to use. Must be defined on the queue manager. Specify this value if you are using below version 10 of IIB. | No |
 | Delete Missing Properties | Boolean | This option will attempt to delete any properties that exist on the configurable service that arent referenced in the Properties field. | No |
 | Environment Variables | String | A file or list containing property entries, with each entry delimited by newlines. Entries must be in the form VAR=VALUE (i.e. java.library.path=/opt/mqm/java/lib64: /opt/mqm/java/lib). Implemented to support z/OS using an ENVFILE. | No |
@@ -101,8 +101,8 @@ Delete an application or multiple applications deployed to an execution group by
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Names | String | A list of IIB application names split by newlines or commas. | Yes |
 | Channel | String | The name of the channel to use. Must be defined on the queue manager. Specify this value if you are using below version 10 of IIB. | No |
 | Environment Variables | String | A file or list containing property entries, with each entry delimited by newlines. Entries must be in the form VAR=VALUE (i.e. java.library.path=/opt/mqm/java/lib64: /opt/mqm/java/lib). Implemented to support z/OS using an ENVFILE. | No |
@@ -126,8 +126,8 @@ Delete all contents that have been deployed using a BAR file name that matches t
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Channel | String | The name of the channel to use. Must be defined on the queue manager. Specify this value if you are using below version 10 of IIB. | No |
 | Delete Libraries | Boolean | Check this box to delete any libraries that have been deployed to the execution group using the BAR file. | No |
 | Environment Variables | String | A file or list containing property entries, with each entry delimited by newlines. Entries must be in the form VAR=VALUE (i.e. java.library.path=/opt/mqm/java/lib64: /opt/mqm/java/lib). Implemented to support z/OS using an ENVFILE. | No |
@@ -150,8 +150,8 @@ Delete all contents that have been deployed using a BAR file name that matches t
 Delete a configurable service.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Channel | String | The name of the channel to use. Must be defined on the queue manager. Specify this value if you are using below version 10 of IIB. | No |
 | Environment Variables | String | A file or list containing property entries, with each entry delimited by newlines. Entries must be in the form VAR=VALUE (i.e. java.library.path=/opt/mqm/java/lib64: /opt/mqm/java/lib). Implemented to support z/OS using an ENVFILE. | No |
 | IBM Integration Bus Version | String | Enter the version of the installed IBM Integration Bus. This determines which API will be required. For example: 10.0.0.1 | Yes |
@@ -174,8 +174,8 @@ Delete the specified execution group from the broker. This will also remove any 
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Channel | String | The name of the channel to use. Must be defined on the queue manager. Specify this value if you are using below version 10 of IIB. | No |
 | Environment Variables | String | A file or list containing property entries, with each entry delimited by newlines. Entries must be in the form VAR=VALUE (i.e. java.library.path=/opt/mqm/java/lib64: /opt/mqm/java/lib). Implemented to support z/OS using an ENVFILE. | No |
 | Execution Group | String | The name of the execution group to be deleted. | Yes |
@@ -196,8 +196,8 @@ Delete the specified execution group from the broker. This will also remove any 
 Delete an Integration Node (Broker).
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Delete Trace Files | Boolean | Check this box to delete the nodes trace files from its work directory. | No |
 | Delete WebSphere MQ Queues | Boolean | Check this box to delete any current integration server administration security WebSphere MQ queues along with the integration node. | No |
 | IIB Installation Directory | String | The installation directory of the IIB server. (e.g. /opt/ibm/server) | Yes |
@@ -209,8 +209,8 @@ Deploy a Broker Archive. This step will set the output property completionCode, 
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Bar File Names | String | Comma or new line separated list of Broker Archive files to deploy. | Yes |
 | Channel | String | The name of the channel to use. Must be defined on the queue manager. Specify this value if you are using below version 10 of IIB. | No |
 | Deployment Type | Enumeration:
@@ -239,8 +239,8 @@ Sets an output property named exists with true or false based on the existence o
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Channel | String | The name of the channel to use. Must be defined on the queue manager. Specify this value if you are using below version 10 of IIB. | No |
 | Environment Variables | String | A file or list containing property entries, with each entry delimited by newlines. Entries must be in the form VAR=VALUE (i.e. java.library.path=/opt/mqm/java/lib64: /opt/mqm/java/lib). Implemented to support z/OS using an ENVFILE. | No |
 | Execution Group | String | Execution Group name to identify its existence. | Yes |
@@ -263,8 +263,8 @@ Overrides configuration properties inside a Broker Archive file. This step is no
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Bar File Excludes | String | New line separated list of Broker Archives to exclude \*.bar includes all bar files in the working directory. | No |
 | Bar File Includes | String | New line separated list of broker archive files or patterns to include \*.bar includes all bar files in the working directory. | Yes |
 | Environment Variables | String | A file or list containing property entries, with each entry delimited by newlines. Entries must be in the form VAR=VALUE (i.e. java.library.path=/opt/mqm/java/lib64: /opt/mqm/java/lib). Implemented to support z/OS using an ENVFILE. | No |
@@ -283,8 +283,8 @@ Overrides configuration properties inside a Broker Archive file. This step is no
 Restart execution groups if they exist on the broker.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Channel | String | The name of the channel to use. Must be defined on the queue manager. Specify this value if you are using below version 10 of IIB. | No |
 | Environment Variables | String | A file or list containing property entries, with each entry delimited by newlines. Entries must be in the form VAR=VALUE (i.e. java.library.path=/opt/mqm/java/lib64: /opt/mqm/java/lib). Implemented to support z/OS using an ENVFILE. | No |
 | Execution Groups | String | Comma or new line separated list of Execution Groups defined on the broker to restart. | Yes |
@@ -305,8 +305,8 @@ Restart execution groups if they exist on the broker.
 Set runtime properties for an execution group.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Channel | String | The name of the channel to use. Must be defined on the queue manager. Specify this value if you are using below version 10 of IIB. | No |
 | Environment Variables | String | A file or list containing property entries, with each entry delimited by newlines. Entries must be in the form VAR=VALUE (i.e. java.library.path=/opt/mqm/java/lib64: /opt/mqm/java/lib). Implemented to support z/OS using an ENVFILE. | No |
 | Execution Group | String | Name of the Execution Group defined on the broker. | Yes |
@@ -328,8 +328,8 @@ Set runtime properties for an execution group.
 Set Runtime Properties for the Integration Node (broker).
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Channel | String | The name of the channel to use. Must be defined on the queue manager. Specify this value if you are using below version 10 of IIB. | No |
 | Environment Variables | String | A file or list containing property entries, with each entry delimited by newlines. Entries must be in the form VAR=VALUE (i.e. java.library.path=/opt/mqm/java/lib64: /opt/mqm/java/lib). Implemented to support z/OS using an ENVFILE. | No |
 | IBM Integration Bus Version | String | Enter the version of the installed IBM Integration Bus. This determines which API will be required. For example: 10.0.0.1 | Yes |
@@ -350,8 +350,8 @@ Set Runtime Properties for the Integration Node (broker).
 Sets runtime properties on a list of message flows.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Channel | String | The name of the channel to use. Must be defined on the queue manager. Specify this value if you are using below version 10 of IIB. | No |
 | Directory Offset | String | Path under the current working directory where you want the step to execute. Absolute paths are not allowed. | No |
 | Environment Variables | String | A file or list containing property entries, with each entry delimited by newlines. Entries must be in the form VAR=VALUE (i.e. java.library.path=/opt/mqm/java/lib64: /opt/mqm/java/lib). Implemented to support z/OS using an ENVFILE. | No |
@@ -376,8 +376,8 @@ Sets runtime properties on a list of message flows.
 Start an Integration Node (Broker).
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | IIB Installation Directory | String | The installation directory of the IIB server. (e.g. /opt/ibm/server) | Yes |
 | Integration Node (Broker) | String | The name of the integration node to create. | Yes |
 
@@ -386,8 +386,8 @@ Start an Integration Node (Broker).
 Start Message Flows that are stopped.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Channel | String | The name of the channel to use. Must be defined on the queue manager. Specify this value if you are using below version 10 of IIB. | No |
 | Environment Variables | String | A file or list containing property entries, with each entry delimited by newlines. Entries must be in the form VAR=VALUE (i.e. java.library.path=/opt/mqm/java/lib64: /opt/mqm/java/lib). Implemented to support z/OS using an ENVFILE. | No |
 | Execution Group | String | Name of the Execution Group. | Yes |
@@ -409,8 +409,8 @@ Start Message Flows that are stopped.
 Stop an Integration Node (Broker).
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | IIB Installation Directory | String | The installation directory of the IIB server. (e.g. /opt/ibm/server) | Yes |
 | Integration Node (Broker) | String | The name of the integration node to create. | Yes |
 
@@ -419,8 +419,8 @@ Stop an Integration Node (Broker).
 Stop Message Flows that are running.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Channel | String | The name of the channel to use. Must be defined on the queue manager. Specify this value if you are using below version 10 of IIB. | No |
 | Environment Variables | String | A file or list containing property entries, with each entry delimited by newlines. Entries must be in the form VAR=VALUE (i.e. java.library.path=/opt/mqm/java/lib64: /opt/mqm/java/lib). Implemented to support z/OS using an ENVFILE. | No |
 | Execution Group | String | Name of the Execution Group. | Yes |

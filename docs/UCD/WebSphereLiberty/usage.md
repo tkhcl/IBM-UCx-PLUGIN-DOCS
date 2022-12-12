@@ -23,15 +23,15 @@ The example IBM UrbanCode Deploy application assumes that you have two hosts. On
 
 See this example in action in a video: [Create a WebSphere Liberty collective and deploy applications using UrbanCode Deploy](https://www.youtube.com/watch?v=VaYQE5d96hY&feature=youtu.be).
 
-Import the example application archive to your IBM UrbanCode Deploy server. When you import the application, select **Import with Snapshots**.[![liberty01](liberty01.png)](liberty01.png)
+Import the example application archive to your IBM UrbanCode Deploy server. When you import the application, select **Import with Snapshots**.[![liberty01](media/liberty01.png)](media/liberty01.png)
 
 After you import the example application archive, complete the following steps.
 
 1. Create a top-level resource directory, and then add the agent that is running on the collective controller host to the new top-level resource.
-2. Add the WebSphereLiberty and HelloWorld components under the agent, as shown in the following screen capture:[![liberty02](liberty02.png)](liberty02.png)
-3. Go to the Test environment of the ConfigureLibertyCollective application, and then click **Add Base Resources** to add the new resource tree as the base resource of the Test environment, as shown in the following screen capture:[![liberty03](liberty03.png)](liberty03.png)
-4. Set the environment properties for the Test environment so that the values are correct for your specific environment. Change the values for all properties other than the **Collective Controller Hostname**, **Controller Name**, and **Controller Port** properties. Click the **Configuration** tab for the Test environment, and then click **Environment Properties** to set the values. After you enter all of the property values, click **Save**.[![liberty04](liberty04.png)](liberty04.png)[![liberty05](liberty05.png)](liberty05.png)
-5. You can now run the CreateConfigureDeployCollective application process on the Test environment. In the Run Process window, select the Version1 snapshot.[![liberty06](liberty06.png)](liberty06.png)
+2. Add the WebSphereLiberty and HelloWorld components under the agent, as shown in the following screen capture:[![liberty02](media/liberty02.png)](media/liberty02.png)
+3. Go to the Test environment of the ConfigureLibertyCollective application, and then click **Add Base Resources** to add the new resource tree as the base resource of the Test environment, as shown in the following screen capture:[![liberty03](media/liberty03.png)](media/liberty03.png)
+4. Set the environment properties for the Test environment so that the values are correct for your specific environment. Change the values for all properties other than the **Collective Controller Hostname**, **Controller Name**, and **Controller Port** properties. Click the **Configuration** tab for the Test environment, and then click **Environment Properties** to set the values. After you enter all of the property values, click **Save**.[![liberty04](media/liberty04.png)](media/liberty04.png)[![liberty05](media/liberty05.png)](media/liberty05.png)
+5. You can now run the CreateConfigureDeployCollective application process on the Test environment. In the Run Process window, select the Version1 snapshot.[![liberty06](media/liberty06.png)](media/liberty06.png)
 
 The process runs and installs the HelloWorld application to the member servers of the Liberty collective. Browse to the following URLs to see the output of the HelloWorld applications. The application output is Hello Tom.
 
@@ -58,7 +58,7 @@ The following component process installs a Java EE application on the WebSphere 
 3. The [Start Application](#start_application) step starts the application.
 4. The [Wait for Application to be STARTED](#wait_for_application_to_be_started) step pauses the process until the application starts.
 
-[![A component process that uses the steps in the Liberty Profile plug-in to an install an application](examples_websphereliberty_install_app_a.gif)](examples_websphereliberty_install_app_a.gif)
+[![A component process that uses the steps in the Liberty Profile plug-in to an install an application](media/examples_websphereliberty_install_app_a.gif)](media/examples_websphereliberty_install_app_a.gif)
 A component process that uses the steps in the Liberty Profile plug-in to install an application
 
 |Back to ...||Latest Version|IBM WebSphere Liberty |||||

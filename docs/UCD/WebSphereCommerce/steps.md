@@ -22,8 +22,8 @@ IBM WebSphere Commerce - Steps
 Configures the customization package deployment settings (Deprecated)
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | ANT home | String | The ANT installation directory on the runtime machine | No |
 | Deployment settings | String | Comma separated list of properties to apply as deployment settings. Each property must be of the form propName=propValue. | Yes |
 | Deployment settings private properties file | String | The name of the properties file that contains runtime server user credentials | No |
@@ -37,8 +37,8 @@ Configures the customization package deployment settings (Deprecated)
 Extracts the customization package archive (ZIP) on the target machine (Deprecated)
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Build Label | String | The build label or name of the customization to deploy | Yes |
 
 ### Run server deployment process
@@ -46,8 +46,8 @@ Extracts the customization package archive (ZIP) on the target machine (Deprecat
 Triggers the customization package deployment process on the target machine
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | ANT build script | String | The name of the ANT built script file containing the deployment instructions | No |
 | ANT executable | String | The name of the ANT executable | No |
 | Deployment batch or script file | String | The name of the batch file or the script file that triggers the deployment | No |

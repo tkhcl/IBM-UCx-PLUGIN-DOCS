@@ -30,7 +30,7 @@ In the following example, the component that is going to be deployed is called *
 
 You need to have an existing version or create a version in the component that you want to use for the change package. Each version includes the change package name and the source configuration name.
 
-The following screen capture shows the defined version properties. [![version](media/version.png)](version.png)
+The following screen capture shows the defined version properties. [![version](media/version.png)](media/version.png)
 
 In Environments, select which environment you want to target. In this example, we have DEVELOPMENT, TEST, and PRODUCTIONenvironments defined.
 

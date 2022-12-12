@@ -20,8 +20,8 @@ MSTest - Steps
 Publish MSTest results as a report.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Base Directory | String | Base directory for resolving MSTest XML files. Unless absolute, this is relative to the job working directory. | Yes |
 | Exclude Patterns | String | A list of patterns to determine which XML report files to exclude. Specify each on a separte line. Patterns can include ?, \*, or \*\*. | No |
 | Include Patterns | String | A list of patterns to determine which XML report files to include. Specify each on a separte line. Patterns can include ?, \*, or \*\*. | No |

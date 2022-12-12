@@ -20,8 +20,8 @@ Rake - Steps
 Run a Rakefile file.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Rake Command | String | The fully-qualified path to the Rakefile file. The default is the agents GEM\_HOME environment variable. | Yes |
 | Rake File Directory | String | The name of the directory containing the Rakefile files to execute. The default directory is `rakelib`. | No |
 | Rake File Name | String | The name of the Rakefile file to execute. | Yes |

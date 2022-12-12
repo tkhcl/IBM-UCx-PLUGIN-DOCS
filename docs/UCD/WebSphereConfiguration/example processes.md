@@ -96,7 +96,7 @@ The steps in this process follow this general flow:
 
 * For static clusters, manage and templatize the server members separately. See [WebSphere Example 10 Discover & Templatize Server](#websphere--example-10--discover--templatize-server-configuration-data)
 * For dynamic clusters, this process creates a dynamic cluster server template in the component version artifacts.
-* This process creates a component with the following naming convention: Cluster - *cluster\_name*. The cluster configuration data is stored as a component version artifact, as shown in the following screen capture.[![Cluster JSON files](process11.png)](process11.png)
+* This process creates a component with the following naming convention: Cluster - *cluster\_name*. The cluster configuration data is stored as a component version artifact, as shown in the following screen capture.[![Cluster JSON files](media/process11.png)](media/process11.png)
 
 
 ### WebSphere – Example 10 – Discover & Templatize Server Configuration Data
@@ -133,7 +133,7 @@ The steps in this process follow this general flow:
 
 **Considerations**
 
-* This process creates a component with the following naming convention: Server - *server\_name*. The server configuration data is stored as a component version artifact, as shown in the following screen capture.[![Server JSON file](process10.png)](process10.png)
+* This process creates a component with the following naming convention: Server - *server\_name*. The server configuration data is stored as a component version artifact, as shown in the following screen capture.[![Server JSON file](media/process10.png)](media/process10.png)
 
 
 ### WebSphere – Example 9 – Discover & Templatize Node Configuration Data
@@ -171,7 +171,7 @@ The steps in this process follow this general flow:
 **Considerations**
 
 * This process retrieves configuration information from the node only. This process does not retrieve configuration information from the node agent or from servers on the node.
-* This process creates a component with the following naming convention: Node - *node\_name*. The node configuration data is stored as a component version artifact, as shown in the following screen capture.[![Node JSON file](process9.png)](process9.png)
+* This process creates a component with the following naming convention: Node - *node\_name*. The node configuration data is stored as a component version artifact, as shown in the following screen capture.[![Node JSON file](media/process9.png)](media/process9.png)
 
 
 ### WebSphere – Example 8 – Discover & Templatize Cell Configuration Data
@@ -235,7 +235,7 @@ The following example code shows a node name (`NODE_NAME`) and node host name (`
 **Considerations**
 
 * This process retrieves configuration information from the cell scope only. This process does not retrieve configuration information from the node, server, or cluster scopes. If your environment includes a Deployment Manager, this process does not retrieve information for the Deployment Manager.
-* This process creates a component with the following naming convention: Cell - *cell\_name*. The cell configuration data is stored as a component version artifact, as shown in the following screen capture.[![Cell JSON file](process8.png)](process8.png)
+* This process creates a component with the following naming convention: Cell - *cell\_name*. The cell configuration data is stored as a component version artifact, as shown in the following screen capture.[![Cell JSON file](media/process8.png)](media/process8.png)
 
 
 ### WebSphere – Example 7 – Discover & Templatize Configuration Data (WAS ND with Dynamic Cluster)
@@ -281,7 +281,7 @@ The steps in this process follow this general flow:
 
 * This process creates component versions for components that are provided with the plug-in. To create other components, which might be based on the provided component templates, you must update the steps that create component versions.
 * The dynamic cluster configuration data is stored as component version artifacts in the provided Cluster Config No Multiplicity component.
-* The dynamic cluster server template configuration data is stored as a separate file in the Cluster Config No Multiplicity component version artifacts, as shown in the following screen capture.[![component version artifacts](process7.png)](process7.png)
+* The dynamic cluster server template configuration data is stored as a separate file in the Cluster Config No Multiplicity component version artifacts, as shown in the following screen capture.[![component version artifacts](media/process7.png)](media/process7.png)
 
 
 ### WebSphere – Example 6 – Discover & Templatize Cluster Configuration Data Only (No Multiplicity)
@@ -344,7 +344,7 @@ The steps in this process follow this general flow:
 
 **Considerations**
 
-* Run this process against a cluster resource, as shown in the following screen capture:[![resource tree](example6.png)](example6.png)
+* Run this process against a cluster resource, as shown in the following screen capture:[![resource tree](media/example6.png)](media/example6.png)
 
 * This process creates component versions for the Cluster Config component that is provided with the plug-in. To create other components that are based on the provided component template WebSphere Cluster Config, update the steps that create component versions.
 
@@ -397,7 +397,7 @@ The steps in this process follow this general flow:
 
 **Considerations**
 
-* Run this process against a cluster resource, as shown in the following screen capture:[![resource tree](example5.png)](example5.png)
+* Run this process against a cluster resource, as shown in the following screen capture:[![resource tree](media/example5.png)](media/example5.png)
 
 * This process creates component versions for the Cluster Config component that is provided with the plug-in. To create other components that are based on the provided component template WebSphere Cluster Config, update the steps that create component versions.
 

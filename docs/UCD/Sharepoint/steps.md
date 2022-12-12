@@ -24,8 +24,8 @@ Microsoft SharePoint - Steps
 Activates SharePoint Feature
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Feature ID | String | GUID that identifies the feature to activate (e.g. 21d186e1-7036-4092-a825-0eb6709e9280) | No |
 | File Name | String | Path to feature must be a relative path to the 12\Template\Features directory. (e.g. MyFeature\Feature.xml) | No |
 | Force | Boolean |  | No |
@@ -38,8 +38,8 @@ Activates SharePoint Feature
 Deploys SharePoint content from CMP packages
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | CMP File Name | String | Specify the name of the SharePoint CMP package to import the content from (e.g. newContent.cmp) | Yes |
 | Path to Stsadmin Executable | String | Path to stsadmin executable if not identified in a system path (e.g. C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\BIN\STSADM.EXE) | No |
 | SharePoint Url | String | specifify the SharePoint url if url deployment is checked | No |
@@ -49,8 +49,8 @@ Deploys SharePoint content from CMP packages
 Installs, Upgrades, and Deploys SharePoint WSP packages
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Allow CAS Policies | Boolean | If the solution contains Code Access Security (CAS) policies, this parameter must be specified. | No |
 | Allow GAC Deployment | Boolean | If the solution contains assemblies that need to be put in a global assembly cache (GAC), this parameter must be specified | No |
 | Deployment Option | Enumeration:
@@ -70,8 +70,8 @@ Installs, Upgrades, and Deploys SharePoint WSP packages
 Deploys SharePoint content from CMP packages
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Powershell Executable location | String | If the Powershell executable isnt in the system path please specify (e.g. C:\winnt\powershell.exe) | No |
 | SharePoint Collection URL | String | Specify which SharePoint collection Url to Deploy the sandbox solution | Yes |
 | WSP File Name | String | Specify the WSP File (e.g.mysolution.wsp) | No |
@@ -81,8 +81,8 @@ Deploys SharePoint content from CMP packages
 Exports SharePoint content to a CMP package
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | CMP File Name | String | Specify the name of the package to export the SharePoint content to (e.g. newContent) | Yes |
 | Path to Stsadmin Executable | String | Path to stsadmin executable if not identified in a system path (e.g. C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\BIN\STSADM.EXE) | No |
 | SharePoint Url | String | specifify the SharePoint url if url deployment is checked | Yes |

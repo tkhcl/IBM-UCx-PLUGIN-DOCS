@@ -25,8 +25,8 @@ Microsoft IIS MS-Deploy (Azure App Service) - Steps
 Delete an IIS object.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The directory location of the msdeploy.exe command-line executable: e.g., C:\Program Files\IIS\Microsoft Web Deploy V2\ | No |
 | Options String | String | A newline separated list of options to be concatenated onto the delete command. i.e. -setParam:hello,value=hey\n-setParam:goodbye,value=seeya. | No |
 | Provider Destination | String | The Provider path and setting for the destination in the form path,setting1,setting2 | Yes |
@@ -46,8 +46,8 @@ Delete an IIS object.
 Recycle an application in IIS.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The directory location of the msdeploy.exe command-line executable: e.g., C:\Program Files\IIS\Microsoft Web Deploy V2\ | No |
 | Target Name | String | The name of the Web Site or Application, i.e. WebSite/MyApp | Yes |
 
@@ -56,8 +56,8 @@ Recycle an application in IIS.
 Start an application in IIS.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The directory location of the msdeploy.exe command-line executable: e.g., C:\Program Files\IIS\Microsoft Web Deploy V2\ | No |
 | Target Name | String | The name of the Web Site or Application, i.e. WebSite/MyApp | Yes |
 
@@ -66,8 +66,8 @@ Start an application in IIS.
 Stop an application in IIS.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The directory location of the msdeploy.exe command-line executable: e.g., C:\Program Files\IIS\Microsoft Web Deploy V2\ | No |
 | Target Name | String | The name of the Web Site or Application, i.e. WebSite/MyApp | Yes |
 
@@ -76,8 +76,8 @@ Stop an application in IIS.
 Synchronize two IIS objects.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The directory location of the msdeploy.exe command-line executable: e.g., C:\Program Files\IIS\Microsoft Web Deploy V2\ | No |
 | Destination Provider Type | Enumeration:
 * auto
@@ -115,8 +115,8 @@ Synchronize two IIS objects.
 Run an msdeploy command
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The directory location of the msdeploy.exe command-line executable: e.g., C:\Program Files\IIS\Microsoft Web Deploy V2\ | No |
 | Destination Provider Type | String | The provider type for the destination argument of the command. | No |
 | Options String | String | A newline separated list of options to be concatenated onto the command. i.e. -setParam:hello,value=hey\n-setParam:goodbye,value=seeya. | No |

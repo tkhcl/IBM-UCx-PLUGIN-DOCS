@@ -50,11 +50,11 @@ When the artifacts are imported, a component version is created using the versio
 
 When you import artifacts, you can specify a specific NuGet artifact version to import and change the version name.
 
-[![](nuget_import.jpg)](nuget_import.jpg)
+[![](media/nuget_import.jpg)](media/nuget_import.jpg)
 
 In the **Import New Version** window, specify the version name in the NuGet repository and the name for the version in the UrbanCode Deploy repository.
 
-[![](nuget_newversion.jpg)](nuget_newversion.jpg)
+[![](media/nuget_newversion.jpg)](media/nuget_newversion.jpg)
 
 In the preceding example, instead of the version number 1.0.1, the artifacts are renamed to onePointZeroOne.
 
@@ -77,7 +77,7 @@ In the graphic below is the UrbanCode Deploy component. Properties with the aste
 
 **Package Name**: The name of the package on the NuGet server or in the specified Nexus repository.
 
-[![](config.png)](config.png)
+[![](media/config.png)](media/config.png)
 
 **Note:** If authentication is required, specify the user name and associated password.
 
@@ -94,19 +94,19 @@ For a Nexus v2 repository, the value specified for the **NuGet URL** property in
 
 Identify the URL by navigating to the NuGet repository with the package to import, select the **NuGet** tab, the **Package Source** is located on this tab. Copy and paste the full URL from the **NuGet URL** property configuration field into the **Package Source** field.
 
-[![](2.png)](2.png)
+[![](media/2.png)](media/2.png)
 
 ### Nexus Repository Manager v3
 
 In Nexus v3, the user interface changed significantly and the repository URL was simplified. The URL is now in the format: `http://SERVER:PORT/repository/REPOSITORY_NAME/`. However, this link is slightly harder to identify and confirm. Identify your URL by navigating to a package version in a browser. Hover over its path to see the full download link for this package at the bottom of the screen. Transpose the URL, up to the repository name, into the **NuGet URL** property configuration field.
 
-[![](3.png)](3.png)
+[![](media/3.png)](media/3.png)
 
 ### Confirm NuGet URL
 
 The NuGet repository URL must be accessible through the version 2 of the NuGet REST API. This can be verified by placing the Nexus URL, identified above, in a browser. The response will look similar to the screenshot below. If the request requires authentication, then credentials should also be specified in the plug-ins source configuration. This quick test can be confirmed outside of IBM UrbanCode Deploy.
 
-[![](capture.png)](capture.png)
+[![](media/capture.png)](media/capture.png)
 
 
 |Back to ...||Latest Version|NuGet ||||

@@ -24,8 +24,8 @@ File System for IBM UrbanCode Build - Steps
 Get the latest modified date for the working directory
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Changes URL | String |  | No |
 | End Date | String | End the changelog at this date (yyyy-MM-dd HH:mm:ss z OR E MMM dd HH:mm:ss zzz yyyy OR milliseconds since Unix Epoch) | No |
 | Source Config |  |  | No |
@@ -36,8 +36,8 @@ Get the latest modified date for the working directory
 Does nothing.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Source Config |  |  | No |
 
 ### FileSystem Cleanup
@@ -45,8 +45,8 @@ Does nothing.
 Perform a cleanup of the working directory
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Source Config |  |  | No |
 
 ### FileSystem Quiet Period
@@ -54,8 +54,8 @@ Perform a cleanup of the working directory
 Get the latest modified date for the working directory
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | End Date | String | End the changelog at this date (yyyy-MM-dd HH:mm:ss z OR E MMM dd HH:mm:ss zzz yyyy OR milliseconds since Unix Epoch) | No |
 | Source Config |  |  | No |
 | Start Date | String | Start the changelog at this date (yyyy-MM-dd HH:mm:ss z OR E MMM dd HH:mm:ss zzz yyyy OR milliseconds since Unix Epoch) | No |
@@ -65,8 +65,8 @@ Get the latest modified date for the working directory
 Does nothing.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Source Config |  |  | No |
 
 

@@ -22,8 +22,8 @@ UCB Utilities - Steps
 Add scoped properties.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Properties | String | The properties to add. Enter each property on a new line. Separate the property name and value with =. | Yes |
 | Scope | Enumeration:
 | The scope of the properties | Yes |
@@ -33,8 +33,8 @@ Add scoped properties.
 Create a json file.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Beautify Content | Boolean | Beautify the content when writing to file. | No |
 | Custom Encoding | String | Specify a character encoding to use when writing to file. If blank, the default character encoding of the agent will be used. Examples: US-ASCII, UCS-2,JIS X 0201, UTF-16, UTF-16LE, EUC. | No |
 | JSON Content | String | The json content. Enter json content string. | Yes |
@@ -46,8 +46,8 @@ Create a json file.
 Sends an HTTP request to a URL, with headers and data.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Accept Response Type | Enumeration:
 * \*/\*
 * text/plain

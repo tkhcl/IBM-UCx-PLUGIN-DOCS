@@ -32,8 +32,8 @@ Integration
 Integration
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Mapping |
 | Specify any Text or Single Select field to automatically map to an UrbanCode Release application using the custom
 auto map dropdown. (The `Component/s` field is the only exception to the Text or Single Select field rule.) JIRA custom

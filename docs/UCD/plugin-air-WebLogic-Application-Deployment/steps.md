@@ -24,8 +24,8 @@ Oracle WebLogic Application Deployment - Steps
 Use this step to deploy an application to the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Additional arguments to be added to the command. Place each argument on a newline in the format: `-parameter value`. The value cannot have a space. Single arguments such as-debug are allowed. | No |
 | Admin URL | String | The URL for WebLogic Server administrator. For example, `t3://hostname:port`. | Yes |
 | Deployment Name | String | The name of the deployment. | No |
@@ -43,8 +43,8 @@ Use this step to deploy an application to the WebLogic server.
 Use this step to redeploy an application on the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Additional arguments to be added to the command. Place each argument on a newline in the format: `-parameter value`. The value cannot have a space. Single arguments such as-debug are allowed. | No |
 | Admin URL | String | The URL for WebLogic Server administrator. For example, `t3://hostname:port`. | Yes |
 | Deployment Name | String | Name of the deployment to be redeployed. | Yes |
@@ -60,8 +60,8 @@ Use this step to redeploy an application on the WebLogic server.
 Use this step to start an application on the WebLogic Server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Additional arguments to be added to the command. Place each argument on a newline in the format: `-parameter value`. The value cannot have a space. Single arguments such as-debug are allowed. | No |
 | Admin URL | String | The URL for WebLogic Server administrator. For example, `t3://hostname:port`. | Yes |
 | Deployment Name | String | Name of the deployment to be started. | Yes |
@@ -76,8 +76,8 @@ Use this step to start an application on the WebLogic Server.
 Stop action to be performed on the WebLogic Server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Additional arguments to be added to the command. Place each argument on a newline in the format: `-parameter value`. The value cannot have a space. Single arguments such as-debug are allowed. | No |
 | Admin URL | String | The URL for WebLogic Server administrator. For example, `t3://hostname:port`. | Yes |
 | Deployment Name | String | Name of the deployment to be stopped. | Yes |
@@ -92,8 +92,8 @@ Stop action to be performed on the WebLogic Server.
 Use this step to undeploy an applicaton on the WebLogic Server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Additional arguments to be added to the command. Place each argument on a newline in the format: `-parameter value`. The value cannot have a space. Single arguments such as-debug are allowed. | No |
 | Admin URL | String | The URL for WebLogic Server administrator. For example, `t3://hostname:port`. | Yes |
 | Deployment Name | String | The name of the deployment to be undeployed. | Yes |

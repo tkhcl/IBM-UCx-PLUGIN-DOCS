@@ -23,8 +23,8 @@ CyberArk - Steps
 Authenticate Conjur using API Key to get a short-lived access token
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | API Key | String | API key | Yes |
 | Account | String | Organization account name | Yes |
 | Api Version | Enumeration | The version of the API. Valid values are v4 and v5. | Yes |
@@ -41,8 +41,8 @@ Retrieve a password from CyberArk AIM Central Credential Provider via an HTTP re
 The Central Credential Provider is installed remote to the agent on a central IIS server. This step will set the prefix/username, <prefix>/address, and <prefix>/password properties at either the component process request level or the generic process request level.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application ID | String | The unique ID of the application issuing the password request. | Yes |
 | Folder | String | The name of the folder where the password is stored. | No |
 | Keystore File | String | The path to the agent machines keystore file. This is required when the CyberArk server authenticates applications using client certificates. | No |
@@ -63,8 +63,8 @@ CyberArk/address, and CyberArk/password properties at either the component proce
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | AppID | String | AppID configured in CyberArk PVWA | Yes |
 | Folder | String | Folder name | Yes |
 | Object | String | Object name of the credential | Yes |
@@ -79,8 +79,8 @@ CyberArk/address, and CyberArk/password properties at either the component proce
 Get Variable from Conjur
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Access Token | String | Access Token | Yes |
 | Account | String | Organization account name | No |
 | Api Version | Enumeration:

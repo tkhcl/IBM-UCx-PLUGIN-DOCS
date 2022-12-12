@@ -12,13 +12,17 @@ Oracle WebLogic Server Security Management - Steps
 
 ### Process steps in the WLS Security Management plug-in
 
-* [Create Role Mapper](#create_role_mapper)
-* [Create or Update Authentication Provider](#create_or_update_authentication_provider)
-* [Create or Update Realm](#create_or_update_realm)
-* [Manage Users and or Groups](#manage_users_and_or_groups)
-* [Manages Roles](#manages_roles)
-* [Update Authentication Provider](#update_authentication_provider)
-* [Update Realm](#update_realm)
+- [Oracle WebLogic Server Security Management - Steps](#oracle-weblogic-server-security-management---steps)
+- [Steps](#steps)
+    - [Steps](#steps-1)
+    - [Process steps in the WLS Security Management plug-in](#process-steps-in-the-wls-security-management-plug-in)
+    - [Create Role Mapper](#create-role-mapper)
+    - [Create or Update Authentication Provider](#create-or-update-authentication-provider)
+    - [Create or Update Realm](#create-or-update-realm)
+    - [Manage Users and or Groups](#manage-users-and-or-groups)
+    - [Manages Roles](#manages-roles)
+    - [Update Authentication Provider](#update-authentication-provider)
+    - [Update Realm](#update-realm)
 
 
 ### Create Role Mapper
@@ -26,8 +30,8 @@ Oracle WebLogic Server Security Management - Steps
 Use this step to create a role mapper on a WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | JMX JAR Path | String | The path to the `wlfullclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `WebLogic_home_directory/server/lib/wlfullclient.jar`. | Yes |
 | Metadata File Path | String | The path to the `wlsMetadata.xml` file. The file contains connection information for the WebLogic server. An example file is located in the `/extras` directory. | Yes |
 | Password | Password | The password to use to authenticate with the WebLogic server. | Yes |
@@ -44,8 +48,8 @@ Use this step to create a role mapper on a WebLogic server.
 Use this step to create an authentication provider on the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Authentication Provider Name | String | The name of the authentication provider to be created. | Yes |
 | Authentication Provider Properties | String | The path to the authentication provider properties file. | Yes |
 | Authentication Provider Type | String | The type of authentication provider to be created. | Yes |
@@ -62,8 +66,8 @@ Use this step to create an authentication provider on the WebLogic server.
 Use this step to create or update a realm on a WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | JMX JAR Path | String | The path to the `wlfullclient.jar` file which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `WebLogic_home_directory/server/lib/wlfullclient.jar`. | Yes |
 | Metadata File Path | String | The path to the `wlsMetadata.xml` file. The file contains connection information for the WebLogic server. An example file is located in the `/extras` directory. | Yes |
 | Password | Password | The password to use to authenticate with the WebLogic server. | Yes |
@@ -79,8 +83,8 @@ Use this step to manage users and groups that are associated with a security rea
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | JMX JAR Path | String | The path to the `wlfullclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `WebLogic_home_directory/server/lib/wlfullclient.jar`. | Yes |
 | Metadata File Path | String | The path to the `wlsMetadata.xml` file. The file contains connection information for the WebLogic server. An example file is located in the `/extras` directory. | Yes |
 | Password | Password | The password to use to authenticate with the WebLogic server. | Yes |
@@ -94,8 +98,8 @@ Use this step to manage users and groups that are associated with a security rea
 Use this step to manages roles on a WebLogic server using an XML file.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | JMX JAR Path | String | The path to the `wlfullclient.jar` file which is located in the `server/lib` directory. Specify the complete directory structure, for example: `WebLogic_home_directory/server/lib/wlfullclient.jar`. | Yes |
 | Metadata File Path | String | The path to the `wlsMetadata.xml` file. The file contains connection information for the WebLogic server. An example file is located in the `/extras` directory. | Yes |
 | Password | Password | The password to use to authenticate with the WebLogic server. | Yes |
@@ -109,8 +113,8 @@ Use this step to manages roles on a WebLogic server using an XML file.
 Use this step to update an authentication provider on a WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Authentication Provider Name | String | The name of the authentication provider to be updated. | Yes |
 | Authentication Provider Properties | String | The path to the authentication provider properties file. | Yes |
 | Authentication Provider Type | String | The type of authentication provider to be updated. | Yes |
@@ -127,8 +131,8 @@ Use this step to update an authentication provider on a WebLogic server.
 Use this step to update a security realm on a WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | JMX JAR Path | String | The path to the wlfullclient.jar file which is location in the `/server/lib` directory. Specify the complete directory structure, for example: `WebLogic_home_directory/server/lib/wlfullclient.jar`. | Yes |
 | Metadata File Path | String | The path to the `wlsMetadata.xml` file. The file contains connection information for the WebLogic server. An example file is located in the `/extras` directory. | Yes |
 | Password | Password | The password to use to authenticate with the WebLogic server. | Yes |

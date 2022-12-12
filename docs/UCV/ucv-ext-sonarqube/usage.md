@@ -70,8 +70,8 @@ ID to construct the endpoint URL. The endpoint URL is needed for the second step
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Velocity Hostname | String | The Velocity
 hostname including the port if applicable. For example, “velocityHost:9000”. | API only |
 | Velocity Access Key | Secure

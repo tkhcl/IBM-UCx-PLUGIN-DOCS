@@ -30,8 +30,8 @@ Oracle WebLogic Scripting Tool (WLST) - Steps
 Use this step to check the status of a WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Directory Offset | String | The directory offset relative to the current working directory where the step should run. | No |
 | Password | String | The password to use to authenticate with the WebLogic server. | No |
 | Path | String | The fully-qualified path of the Weblogic Scripting Tool directory. (ex. {oracle\_home}``/oracle\_common/common/bin/) | Yes |
@@ -46,8 +46,8 @@ Use this step to check the status of a WebLogic server.
 Use this step to deploy an application to a WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Name | String | The name of the application to deploy. | No |
 | Directory Offset | String | The directory offset relative to the current working directory where the step will run. | No |
 | File Name | String | The name of the file to deploy to the application. | No |
@@ -63,8 +63,8 @@ Use this step to deploy an application to a WebLogic server.
 Use this step to deploy an Oracle SOA Composite Application to a WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Directory Offset | String | The directory offset relative to the current working directory where the step will run. | No |
 | Optional Args | String | A comma-separated list of arguments to append to the sca\_deployComposite command, in the form option=value with string values in single quotes. For example: overwrite=true, forceDefault=true, configplan=C:/path/to/configplan, partition=default | No |
 | Password | Password | The password to use to authenticate with the WebLogic server. | No |
@@ -81,8 +81,8 @@ Use this step to deploy an Oracle SOA Composite Application to a WebLogic server
 Use this step to execute user defined python script files.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Directory Offset | String | The directory offset relative to the current working directory where the step should run. | No |
 | Script Files | String | User defined python scripts. | Yes |
 | WLST Path | String | The fully-qualified path of the WebLogic Scripting Tool directory. (ex. {oracle\_home}``/oracle\_common/common/bin/) | Yes |
@@ -92,8 +92,8 @@ Use this step to execute user defined python script files.
 Use this step to resume a suspended WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Directory Offset | String | The directory offset relative to the current working directory where the step should run. | No |
 | Password | String | The password to use to authenticate with the WebLogic server. | No |
 | Server Name | String | The name of the WebLogic server. | Yes |
@@ -108,8 +108,8 @@ Use this step to resume a suspended WebLogic server.
 Use this step to shut down a WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Directory Offset | String | The directory offset relative to the current working directory where the step should run. | No |
 | Password | String | The password to use to authenticate with the WebLogic server. | No |
 | Server Name | String | The name of the WebLogic server. | Yes |
@@ -124,8 +124,8 @@ Use this step to shut down a WebLogic server.
 Use this step to start a deployed application.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Name | String | The name of the application to deploy. | No |
 | Directory Offset | String | The directory offset relative to the current working directory where the step should run. | No |
 | Password | String | The password to use to authenticate with the WebLogic server. | No |
@@ -140,8 +140,8 @@ Use this step to start a deployed application.
 Use this step to start a WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Directory Offset | String | The directory offset relative to the current working directory where the step should run. | No |
 | Domain Directory | String | The directory where the domain is created. The default is ``${MW\_HOME}``/user\_projects/domains/``${YOUR\_DOMAIN}``. | Yes |
 | Domain Name | String | The domain name that the WebLogic server exists in. | Yes |
@@ -160,8 +160,8 @@ Use this step to start a WebLogic server.
 Use this step to stop a running application.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Name | String | The name of the application to deploy. | No |
 | Directory Offset | String | The directory offset relative to the current working directory where the step should run. | No |
 | Password | String | The password to use to authenticate with the WebLogic server. | No |
@@ -176,8 +176,8 @@ Use this step to stop a running application.
 Use this step to suspend a WebLogic server that is running.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Directory Offset | String | The directory offset relative to the current working directory where the step should run. | No |
 | Password | String | The password to use to authenticate with the WebLogic server. | No |
 | Server Name | String | The name of the WebLogic server. | Yes |
@@ -192,8 +192,8 @@ Use this step to suspend a WebLogic server that is running.
 Use this step to undeploy an application from the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Name | String | The name of the application to undeploy. | No |
 | Directory Offset | String | The URL of the WebLogic server. The default WebLogic server URL is t3://localhost:7001. | No |
 | Directory Offset | String | The directory offset relative to the current working directory where the step should run. | No |

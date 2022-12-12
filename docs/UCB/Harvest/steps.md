@@ -23,8 +23,8 @@ CA Harvest SCM - Steps
 Perform a Harvest changelog and publish the results.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Changes URL | String |  | No |
 | End Date | String | End changelog at this date. Will check the beginning of dd, so if you want the full day included add one day (mm/dd/yyy) | No |
 | Source Config |  |  | No |
@@ -35,8 +35,8 @@ Perform a Harvest changelog and publish the results.
 Perform a Harvest checkout of the workflows source
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Clean Workspace | Boolean | Erase all files from the workspace before performing checkout | No |
 | Date | String | Date of sourcecode to checkout (yyyy-MM-dd HH:mm:ss z OR E MMM dd HH:mm:ss zzz yyyy OR milliseconds since Unix Epoch). Defaults to the current time. | No |
 | Source Config |  |  | No |
@@ -46,8 +46,8 @@ Perform a Harvest checkout of the workflows source
 Perform a cleanup of the Harvest working directory
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Source Config |  |  | No |
 
 ### Harvest Quiet Period
@@ -56,8 +56,8 @@ Perform a Harvest changelog for quiet period detection and publish most recent c
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | End Date | String | End changelog at this date (yyyy-MM-dd HH:mm:ss z OR E MMM dd HH:mm:ss zzz yyyy OR milliseconds since Unix Epoch) | No |
 | Source Config |  |  | No |
 | Start Date | String | Start changelog at this date (yyyy-MM-dd HH:mm:ss z OR E MMM dd HH:mm:ss zzz yyyy OR milliseconds since Unix Epoch) | No |

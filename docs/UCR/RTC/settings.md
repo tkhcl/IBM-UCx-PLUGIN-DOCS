@@ -14,8 +14,8 @@ The following integration settings are available when you install the Rational T
 in.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Check Authentication |  | Button to check
 if the connection can be established with the RTC Server | No |
 | Configuring an integration provider for Rational Team

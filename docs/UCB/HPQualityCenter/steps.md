@@ -26,8 +26,8 @@ HP Quality Center - Steps
 Add comments to a defect in HP Quality Center.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Comments | String | Any info you wish to be added to the Quality Center comment in addition to the commit comment. | No |
 | Defect Ids | String | A regular expression representing a list of bug Ids. Ex: 14[0-9] to match issues 140 through 149. | Yes |
 | Domain | String | The Domain in Quality Center the defect is in. | Yes |
@@ -41,8 +41,8 @@ Add comments to a defect in HP Quality Center.
 Create a new defect in HP Quality Center.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Fields | String | Additional defect fields to be added. Enter one per line, as name=value pairs. This uses Javas java.util.Properties format. | No |
 | Assignee | String | The assignee for the new defect. | Yes |
 | Detected By | String | Who detected the defect. | No |
@@ -60,8 +60,8 @@ Create a new defect in HP Quality Center.
 Create a report of Quality Center defects from the current changelog.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Defect Id Pattern | String | The regex used to match changes to defects. The default value, QC-([0-9]+) is a regex that parses the change log and applies the attributes of the step to matching defects. For example, if QC-52 was located in the comment of a change, this step would act on defect 52 in the Quality Center database. | Yes |
 | Domain | String | The Domain in Quality Center the defect is in. | Yes |
 | Fail Mode | Enumeration:
@@ -74,8 +74,8 @@ Create a report of Quality Center defects from the current changelog.
 Publish a HP Quality Center Test Set Report.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Domain | String | The Domain in Quality Center the defect is in. | Yes |
 | Folder | String | The folder in Quality Center the test set resides in. This usually starts with Root. | Yes |
 | Project | String | The Project in Quality Center the defect is in. | Yes |
@@ -88,8 +88,8 @@ Publish a HP Quality Center Test Set Report.
 Run a Test Set using HP Quality Center.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Domain | String | The Domain in Quality Center the defect is in. | Yes |
 | Folder | String | The folder in Quality Center the test set resides in. This usually starts with Root. | Yes |
 | Project | String | The Project in Quality Center the defect is in. | Yes |
@@ -103,8 +103,8 @@ Run a Test Set using HP Quality Center.
 Update one or more defects in HP Quality Center.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Fields | String | Any other additional defect fields to update. These should be one per line, as name=value pairs. Adheres specifically to the java.util.Properties format. | No |
 | Assignee | String | The new assignee for the defect or blank to not change. | No |
 | Capture Mode | Enumeration:
@@ -127,8 +127,8 @@ Update one or more defects in HP Quality Center.
 Verify that all of the Issues associated with the current Build Life have a given field values
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Check History | Boolean | Check the historical values in addition to the current value | No |
 | Domain | String | The Domain in Quality Center the defect is in. | Yes |
 | Field Name | String | The field name. Ex: BG\_STATUS | Yes |

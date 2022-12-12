@@ -31,8 +31,8 @@ Amazon EC2 - Steps
 Associate Elastic IP addresses with instances.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | AWS Jar | String | The fully qualified path to the JAR file for the Amazon Web Services (AWS) SDK. |  | Yes |
 | Access Key ID | String | The EC2 access key ID value that is used to log in. | Yes |
 | IPs | String | A list of one or more elastic IP addresses to associate with instances.Put each address on a new line. | Yes |
@@ -44,8 +44,8 @@ Associate Elastic IP addresses with instances.
 Create a security group from a file.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | AWS Jar | String | The fully qualified path to the JAR file for the AWS SDK. | Yes |
 | Access Key ID | String | The EC2 access key ID value that is used to log in. | Yes |
 | Definition File | String | The file that describes the allowed IPs and ports for the security group.     | No |
@@ -65,8 +65,8 @@ Create a security group from a file.
 
 This step deregisters instances with an Amazon load balancing feature.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | AWS Jar | String | The fully qualified path to the JAR file for the AWS SDK. | Yes |
 | Access Key ID | String | The EC2 access key ID value to use to log in. | Yes |
 | Instance IDs | String | A list of one or more IDs of the instances to be deregistered. Separate each ID with a comma. | Yes |
@@ -77,8 +77,8 @@ This step deregisters instances with an Amazon load balancing feature.
 
 Get the public Domain Name System (DNS) hostname for the specified instance IDs. Results are returned in a comma-separated list in the **dns** property.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | AWS Jar | String | The fully qualified path to the JAR file for the AWS SDK. | Yes |
 | Access Key ID | String | The EC2 access key ID value to use to log in. | Yes |
 | Instance IDs | String | A list of instance IDs for which the DNS hostname is to be retrieved. Separate each instance ID with a comma. The returned DNS hostnames are in the same order that the IDs are specified. | Yes |
@@ -88,8 +88,8 @@ Get the public Domain Name System (DNS) hostname for the specified instance IDs.
 
 Launch instances of the given Amazon Machine Image (AMI).
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | # of instances | String | The number of EC2 instances to start. | Yes |
 | AMI ID | String | The AMI ID of the instances to be started. | Yes |
 | AWS Jar | String | The fully qualified path to the JAR file for the AWS SDK. | Yes |
@@ -105,8 +105,8 @@ Launch instances of the given Amazon Machine Image (AMI).
 
 Register an instance with an Amazon Load Balancer.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | AWS Jar | String | The fully qualified path to the JAR file for the AWS SDK. | Yes |
 | Access Key ID | String | The EC2 access key ID to use to login. | Yes |
 | Instance IDs | String | A list of instance IDs to associate with the load balancer. Separate each ID with a comma. | Yes |
@@ -117,8 +117,8 @@ Register an instance with an Amazon Load Balancer.
 
 Terminate instances with the given instance IDs.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | AWS Jar | String | The fully qualified path to the JAR file for the AWS SDK. | Yes |
 | Access Key ID | String | The EC2 access key ID to use to login. | Yes |
 | Instance IDs | String | A list of instance IDs to be terminated. Separate each instance ID with a comma. | Yes |
@@ -128,8 +128,8 @@ Terminate instances with the given instance IDs.
 
 Wait for instances to be in a certain state.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | AWS Jar | String | The fully qualified path to the JAR file for the AWS SDK. | Yes |
 | Access Key ID | String | The EC2 access key ID to use to login. | Yes |
 | Instance IDs | String | A list of instance IDs that correspond to the IPs to associate with instances. Separate each instance ID with a comma. | Yes |

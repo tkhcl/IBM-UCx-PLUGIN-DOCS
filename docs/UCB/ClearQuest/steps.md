@@ -23,8 +23,8 @@ ClearQuest - Steps
 Add Comments from the current changelog to matching ClearQuest Defects
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | ClearQuest Server |  | The ClearQuest server. This may be configured under the System tab. | Yes |
 | Comment | String | The content of the comment. | Yes |
 | Defect ID | String | The ID of the defect to place the comment on. | Yes |
@@ -34,8 +34,8 @@ Add Comments from the current changelog to matching ClearQuest Defects
 Create a new defect in a ClearQuest Defect Tracker
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | ClearQuest Project Name | String | The name of the project in ClearQuest. | No |
 | ClearQuest Server |  | The ClearQuest server. This may be configured under the System tab. | Yes |
 | Defect Description | String | The description of the defect. | No |
@@ -49,8 +49,8 @@ Create a new defect in a ClearQuest Defect Tracker
 Create a Report of ClearQuest defects from the current changelog
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | ClearQuest Server |  | The ClearQuest server. This may be configured under the System tab. | Yes |
 | Defect ID Pattern | String | This is a regular expression to locate ClearQuest-defect ids within changelog comments.You may add () around the portion of the pattern which identifies the actual Issue ID. The pattern TST-[0-9]+ would match (returning the same string as issue ids) TST-1 and TST-932415, but not match TST-a, TST-, or TST.1. The pattern Issue:\[(TST-[0-9]+)\] would match Issue:[TST-1] using issue id TST-1 | Yes |
 
@@ -59,8 +59,8 @@ Create a Report of ClearQuest defects from the current changelog
 Resolve a ClearQuest Defect
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | ClearQuest Server |  | The ClearQuest server. This may be configured under the System tab. | Yes |
 | Defect ID | String | The id of the ClearQuest defect. | Yes |
 | Resolution | String | The resolution which resolved the issue. | No |

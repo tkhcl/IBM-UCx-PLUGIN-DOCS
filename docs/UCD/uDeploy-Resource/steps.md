@@ -44,8 +44,8 @@ IBM UrbanCode Deploy Resources - Steps
 Adds a resource to a team for a given type classification.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Resource Path | String | Path to your resource (e.g. ResourceFolder/Resource) | Yes |
 | Team | String |  | Yes |
 | Type | String | The type classification to add. Leave blank to use the type Standard Resource. | No |
@@ -55,8 +55,8 @@ Adds a resource to a team for a given type classification.
 Add a tag to a resource.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Resource Path | String | Path to your resource (e.g. ResourceFolder/Resource) | Yes |
 | Tag Name | String |  | Yes |
 
@@ -65,8 +65,8 @@ Add a tag to a resource.
 Applies a resource template to a resource.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Properties | String | The properties used by the template. This should be a newline separated list of name value pairs of the form name=value. | Yes |
 | Resource | String | The id or path of the resource to apply the template to. | Yes |
 | Resource Template | String | The id of the resource template to apply. | Yes |
@@ -76,8 +76,8 @@ Applies a resource template to a resource.
 This step will succeed if the resource exists and fail if it does not.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Resource Path | String | Path to your resource (e.g. ResourceFolder/Resource) | Yes |
 
 ### Check If Resource Has Role
@@ -85,8 +85,8 @@ This step will succeed if the resource exists and fail if it does not.
 Step succeeds if resource has the specified role and fails if it doesnt.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Resource | String | path/ID of the resource. | Yes |
 | Role | String | name/ID of the role. | Yes |
 
@@ -96,8 +96,8 @@ Creates a resource. The resource could be a group, component resource, agent res
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Agent Name | String | If this is an agent resource, enter the agent name here. | No |
 | Agent Pool Name | String | If this is an agent pool resource, enter the agent pool name here. | No |
 | New Resource Name | String | The resource name must be unique under its parent resource. | Yes |
@@ -109,8 +109,8 @@ Creates a resource. The resource could be a group, component resource, agent res
 Delete the specified agent.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Agent Name | String | The name of the agent to delete. | Yes |
 
 ### Delete Many Agents
@@ -118,8 +118,8 @@ Delete the specified agent.
 Deletes agents, specified as a comma-separated list.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Agent Name List | String | The list of agents, separated by commas. | Yes |
 
 ### Delete Many Resources
@@ -127,8 +127,8 @@ Deletes agents, specified as a comma-separated list.
 Deletes resources, specified as a comma-separated list.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Resource Path List | String | The list of resources, separated by commas. | Yes |
 
 ### Delete Resource
@@ -136,8 +136,8 @@ Deletes resources, specified as a comma-separated list.
 Deletes the specified resource.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Resource Path | String | The path of the resource to delete. (e.g. ResourceFolder/ResourcePath | Yes |
 
 ### Delete Resource Inventory For Component
@@ -146,8 +146,8 @@ Deletes all inventory entries on a resource for a given component. Can filter by
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Component Name | String | Component Name or newline separated list of components | Yes |
 | Resource Path | String | Path to your resource (e.g. ResourceFolder/Resource) | Yes |
 | Status Filter | String | Only inventory matching this version status (such as Active) will be deleted. If left blank, inventory with any statuses that matches the other criteria will be deleted. | No |
@@ -158,8 +158,8 @@ Deletes all inventory entries on a resource for a given component. Can filter by
 Retrieve basic configuration information about a agent.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Agent | String | Agent name or ID | Yes |
 
 ### Get Agent Property
@@ -168,8 +168,8 @@ Gets an agent property, given an agent and a property name. Name/value pair is o
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Agent | String | Name/ID of the agent | Yes |
 | Property Name | String | The name of the property. | Yes |
 
@@ -179,8 +179,8 @@ Takes a component and a resource, shows what version of that component exists on
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Component | String | Component name or id. Default is set to use a property called component.id | Yes |
 | Resource | String | Resource path or id. Default is set to use a property called resource.id | Yes |
 
@@ -190,8 +190,8 @@ Get a resource property, given a resource and a property name. Name/value pair i
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Property Name | String | The name of the property. | Yes |
 | Resource Path | String | Path to your resource (e.g. ResourceFolder/Resource) | Yes |
 
@@ -201,8 +201,8 @@ Get a resource role property value, given a resource, role name and a property n
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Property Name | String | The name of the property. | Yes |
 | Resource Path | String | The path of the resource. (e.g. ResourcePath/Resource) | Yes |
 | Role Name | String | The name of the role. | Yes |
@@ -212,8 +212,8 @@ Get a resource role property value, given a resource, role name and a property n
 Installs an agent to a remote system over SSH.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Agent Install Directory | String | Directory to install the agent to. | Yes |
 | Agent Name | String | A unique name for the new agent and its resource. | Yes |
 | Hostname/IP | String | The hostname or IP of the remote system to target. | Yes |
@@ -230,8 +230,8 @@ Creates a new component tag resource. Maps a Component Tag to a previously creat
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Component Tag | String | Name or ID of a component tag to associate with the resource;any components with that tag can be deployed to this resource. | Yes |
 | New Component Tag Resource Name | String | The resource name must be unique under its parent resource. | Yes |
 | Parent Agent Resource Path | String | The parent object of this resource. The Component Tag must be mapped directly to an agent. | Yes |
@@ -241,8 +241,8 @@ Creates a new component tag resource. Maps a Component Tag to a previously creat
 Remove a tag from a resource.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Resource Path | String | Path to your resource (e.g. ResourceFolder/Resource) | Yes |
 | Tag Name | String |  | Yes |
 
@@ -251,8 +251,8 @@ Remove a tag from a resource.
 Sets a property for an agent.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Agent | String | name/ID of the agent | Yes |
 | Property Name | String | name of the property to set | Yes |
 | Property Value | String | value of the property to set | No |
@@ -263,8 +263,8 @@ Sets a property for an agent.
 Sets a property for a resource.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Property Name | String | name of the property to set. | Yes |
 | Property Value | String | value of the property to set. | No |
 | Resource | String | path/ID of the resource. | Yes |
@@ -275,8 +275,8 @@ Sets a property for a resource.
 Sets a property for a resource role. Property must be pre-defined on the role.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Property Name | String | name of the property to set. | Yes |
 | Property Value | String | value of the property to set. | No |
 | Resource | String | path/ID of the resource. | Yes |
@@ -287,8 +287,8 @@ Sets a property for a resource role. Property must be pre-defined on the role.
 Synchronize one resource tree with another.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Exclude Resources | String | Comma- or space-separated list of patterns of resources that must be excluded. | No |
 | Include Resources | String | Comma- or space-separated list of patterns of resources that must be included. | Yes |
 | Perform Adds | Boolean | If this is checked, resources may be added to the target tree to achieve synchronization. | No |
@@ -302,8 +302,8 @@ Synchronize one resource tree with another.
 Wait for one or more resources to be online.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Resources | String | Resource paths or IDs to check, one per line. | Yes |
 | Timeout (s) | String | Seconds to wait for resources to be online. The step will run without a timeout if this is 0 or blank. | No |
 
@@ -312,8 +312,8 @@ Wait for one or more resources to be online.
 Creates multiple resources using JSON format.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | JSON File/Text | String | Body of JSON text or a file to define resources. | No |
 
 

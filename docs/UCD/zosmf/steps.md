@@ -24,8 +24,8 @@ z/OS Management Facility - Steps
 Use this step to create a workflow.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Assign To Owner | Boolean | Indicates whether the workflow steps are assigned to the workflow owner when the workflow is created. If this property is set to true steps are assigned to the user ID that is specified on the property owner. If this property is set to false, the workflow steps are left unassigned when the workflow is created. The default is true. | No |
 | Comments | String | Specifies any information that you want to associate with the creation of this workflow. The comment can contain up to 500 characters. This information is recorded in the workflow history. | No |
 | Generate Unique Name | Boolean | Indicates whether to append a timestamp to the workflow name. Adding a timestamp ensures the workflow name is unique name. The default is true. | No |
@@ -44,8 +44,8 @@ Use this step to define the input properties for the Run Published Software Serv
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Account Info | String | The account information to use in the JCL JOB statement. The default is the account information that is associated with the resource pool for the tenant. | No |
 | Domain Name  | String | The domain name for the specified template. This property is required if the user has consumer authorization to more than one domain with the template name. | No |
 | Input Variables | String | A list of variable each separated by a new line. Specify each variable in the following format: name=value. | No |
@@ -70,8 +70,8 @@ Use this step to discover all the software instances. Also use to create resourc
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Query Parameters | String | A list of one or more query variables. Check the z/OSMF List the software services instances REST API for a list of valid query parameters | No |
 | Resource | String | The Resource to configure. | No |
 | zOSMF URL | String | The URL to access the zOSMF REST API. | No |
@@ -83,8 +83,8 @@ Use this step to discover all the software instances. Also use to create resourc
 Use this step to start a workflow.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Job Owner | String | The user ID of the job owner whose jobs are being queried. The default is the z/OS user ID. The value is folded to uppercase. The value cannot exceed eight characters. | No |
 | Job Prefix | String | The value to add as a prefix to the job name. The defaults is and askrick(\*). The value is folded to uppercase. The value cannot exceed eight characters. | No |
 | Max Lines | String | The maximum number of records to be displayed for each output data set. Specify 0 to display the full content. The default is 1000. | No |
@@ -106,8 +106,8 @@ Use this step to discover if the zOSMF service is available by checking the URL 
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | zOSMFURL | String | The URL to access the zOSMF REST API. | No |
 | sysUser | String | The user to use. | No |
 | Resource | String | The resource to configure. | No |

@@ -10,7 +10,7 @@ TestNG - Usage
 
 
 To use the TestNG plug-in, the plug-in must be loaded and an instance created. Load the plug-in into
-the HCL Accelerate container if necessary. From the user interface, click **Settings** > ****Integrations**** >
+the IBM UrbanCode Velocity container if necessary. From the user interface, click **Settings** > ****Integrations**** >
 **Plugins**. On the Plugins page, locate the plug-in and click **Load Plugin**. To create an instance, locate the plug-
 in and click **Install**. The plug-in is now listed below those plug-ins to be installed and available for invoking.
 
@@ -26,7 +26,7 @@ Invoking the plug-in
 
 To gather data from the TestNG server, send an HTTP Post
 request with the data to parse. Whenever a there is a hit to the endpoint, the data is parsed and displayed as metrics
-in HCL Accelerate. You can use various methods such as Postman, REST calls, CURL, and CI/CD tools like Jenkins to invoke
+in IBM UrbanCode Velocity. You can use various methods such as Postman, REST calls, CURL, and CI/CD tools like Jenkins to invoke
 the plug-in endpoints.
 
 ### **Invoke using Jenkins plug-in**

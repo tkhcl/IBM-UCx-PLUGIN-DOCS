@@ -52,11 +52,11 @@ For exporting security configurations, specify each manifestName on a new line a
 If needed command-line capabilities exist that are not available in the plug-in steps, consider requesting the functionality, or running in an UrbanCode Deploy Shell step.The Shell Step syntax looks similar to the command-line examples.See the following example:
 
 
-[![](screen-shot-2017-11-02-at-11.21.25-am.png)](screen-shot-2017-11-02-at-11.21.25-am.png)
+[![](media/screen-shot-2017-11-02-at-11.21.25-am.png)](media/screen-shot-2017-11-02-at-11.21.25-am.png)
 Shell Step in Process Editor
 
 
-[![](screen-shot-2017-11-02-at-11.20.54-am.png)](screen-shot-2017-11-02-at-11.20.54-am.png)
+[![](media/screen-shot-2017-11-02-at-11.20.54-am.png)](media/screen-shot-2017-11-02-at-11.20.54-am.png)
 Example Shell step configuration for calling Case Manager commands
 
 

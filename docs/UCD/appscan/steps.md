@@ -27,8 +27,8 @@ IBM AppScan Enterprise - Steps
 Configure scan job options.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | AppScan Enterprise URL | String | AppScan Enterprise Control Center URL. For example, https://localhost/ | Yes |
 | HTTP Authentication | Enumeration:
 * default
@@ -58,8 +58,8 @@ Configure scan job options.
 Create an AppScan security scan.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | AppScan Enterprise URL | String | AppScan Enterprise Control Center URL. For example, https://localhost/ | Yes |
 | Application ID | String | The application ID. Used to associate the job with an application. | No |
 | Folder ID | String | ID of the specific folder in which to create the scan and report pack. If this is left blank, the scan and report pack will be created in the root folder. | No |
@@ -74,8 +74,8 @@ Create an AppScan security scan.
 Delete a folder item, such as a Scan or Report, from the AppScan Scans view.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | AppScan Enterprise URL | String | AppScan Enterprise Control Center URL, For example, https://localhost/ | Yes |
 | Folder Item FIID | String | Specify a Folder Item FIID to delete. Example: Scan or Folder FIID. | Yes |
 | Password | Password | Password to log into ASE. | Yes |
@@ -86,8 +86,8 @@ Delete a folder item, such as a Scan or Report, from the AppScan Scans view.
 Retrieve and print a list of available job templates.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | AppScan Enterprise URL | String | AppScan Enterprise Control Center URL. For example, https://localhost/ | Yes |
 | Password | Password | Password to log into ASE. | Yes |
 | User | String | Username to log into ASE. | Yes |
@@ -97,8 +97,8 @@ Retrieve and print a list of available job templates.
 Retrieve report from AppScan Enterprise. Reports are saved as a PDF file named AppScanReportOutput-[date]-[time].zip
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | AppScan Enterprise Port | String | AppScan Enterprise Port number. | Yes |
 | AppScan Enterprise URL | String | AppScan Enterprise Control Center URL, For example, https://localhost/ | Yes |
 | Application ID | String | ID of the application report to retrieve. | Yes |
@@ -113,8 +113,8 @@ Retrieve report pack summary and specific report information from AppScan Enterp
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | AppScan Enterprise URL | String | AppScan Enterprise Control Center URL. For example, https://localhost/ | Yes |
 | Password | Password | Password to log into ASE. | Yes |
 | Report Destination | String | Folder path to save the report file. Default location is the working directory. Example: C:/reports/. The full file path will be saved as an output property. | No |
@@ -127,8 +127,8 @@ Retrieve report pack summary and specific report information from AppScan Enterp
 Run an AppScan security scan.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | AppScan Enterprise URL | String | AppScan Enterprise Control Center URL. For example, https://localhost/ | Yes |
 | Password | Password | Password to log into ASE. | Yes |
 | Reports FIID | String | FIID of the report pack associated with the scan.If not given, step may finish before waiting for report pack to complete. This is found in the reports URL. | No |
@@ -142,8 +142,8 @@ Run an AppScan security scan.
 Wait for an AppScan Scan to complete.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | AppScan Enterprise URL | String | AppScan Enterprise Control Center URL, For example, https://localhost/ | Yes |
 | Password | Password | Password to log into ASE. | Yes |
 | Scan FIID | String | FIID of the scan to wait for. This is found in the scan URL. | Yes |

@@ -41,8 +41,8 @@ Cloud Foundry - Steps
 Bind a CF service instance onto a CF application.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | API | String | A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net. | Yes |
 | Application Name | String | Name of the application to bind the service to. | Yes |
 | CF\_HOME | String | Set the CF\_HOME variable to explicitly define the location of the config.json file. A new CF\_HOME will be used for each step if not specified. | No |
@@ -60,8 +60,8 @@ Discover and configure all organizations and spaces for each organization into a
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Cloud Foundry API | String | The url of the Cloud Foundry API endpoint. | No |
 | Cloud Foundry CLI Path | String | The path to the cf command line script. | No |
 | Cloud Foundry Password | String | The password to authenticate with the Cloud Foundry server. | No |
@@ -75,8 +75,8 @@ This step will discover if Cloud Foundry is on an agent by checking common insta
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | API Endpoint | String | Provide the API Endpoint if the config.json file does not exist or is not configured correctly on the agent to be used during discovery. | No |
 | CF\_HOME Directory | String | Full path to your CF\_HOME directory for installation verification. Not required if the property is a system environment variable. | No |
 | Override CF CLI Path | String | Provide the full path to the cf executable file to override the auto discovery path. | No |
@@ -87,8 +87,8 @@ This step will discover if Cloud Foundry is on an agent by checking common insta
 Create a domain in an org.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | API | String | A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net. | Yes |
 | CF\_HOME | String | Set the CF\_HOME variable to explicitly define the location of the config.json file. A new CF\_HOME will be used for each step if not specified. | No |
 | Cloud Foundry CLI Path | String | The path to the cf command line script. | No |
@@ -104,8 +104,8 @@ Create a domain in an org.
 Create a url route in a space.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | API | String | A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net. | Yes |
 | CF\_HOME | String | Set the CF\_HOME variable to explicitly define the location of the config.json file. A new CF\_HOME will be used for each step if not specified. | No |
 | Cloud Foundry CLI Path | String | The path to the cf command line script. | No |
@@ -122,8 +122,8 @@ Create a url route in a space.
 Create a new Cloud Foundry Service.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | API | String | A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net. | Yes |
 | CF\_HOME | String | Set the CF\_HOME variable to explicitly define the location of the config.json file. A new CF\_HOME will be used for each step if not specified. | No |
 | Cloud Foundry CLI Path | String | The path to the cf command line script. | No |
@@ -141,8 +141,8 @@ Create a new Cloud Foundry Service.
 Create a subdomain in an org.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | API | String | A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net. | Yes |
 | CF\_HOME | String | Set the CF\_HOME variable to explicitly define the location of the config.json file. A new CF\_HOME will be used for each step if not specified. | No |
 | Cloud Foundry CLI Path | String | The path to the cf command line script. | No |
@@ -159,8 +159,8 @@ Create a subdomain in an org.
 Create or update a user-provided service instance.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | API | String | A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net. | Yes |
 | CF\_HOME | String | Set the CF\_HOME variable to explicitly define the location of the config.json file. A new CF\_HOME will be used for each step if not specified. | No |
 | Cloud Foundry CLI Path | String | The path to the cf command line script. | No |
@@ -179,8 +179,8 @@ Create or update a user-provided service instance.
 Delete an application.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | API | String | A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net. | Yes |
 | Application name | String | Name of the application. | Yes |
 | CF\_HOME | String | Set the CF\_HOME variable to explicitly define the location of the config.json file. A new CF\_HOME will be used for each step if not specified. | No |
@@ -197,8 +197,8 @@ Delete an application.
 Delete a domain.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | API | String | A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net. | Yes |
 | CF\_HOME | String | Set the CF\_HOME variable to explicitly define the location of the config.json file. A new CF\_HOME will be used for each step if not specified. | No |
 | Cloud Foundry CLI Path | String | The path to the cf command line script. | No |
@@ -214,8 +214,8 @@ Delete a domain.
 Delete a route.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | API | String | A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net. | Yes |
 | CF\_HOME | String | Set the CF\_HOME variable to explicitly define the location of the config.json file. A new CF\_HOME will be used for each step if not specified. | No |
 | Cloud Foundry CLI Path | String | The path to the cf command line script. | No |
@@ -232,8 +232,8 @@ Delete a route.
 Delete a Cloud Foundry Service.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | API | String | A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net. | Yes |
 | CF\_HOME | String | Set the CF\_HOME variable to explicitly define the location of the config.json file. A new CF\_HOME will be used for each step if not specified. | No |
 | Cloud Foundry CLI Path | String | The path to the cf command line script. | No |
@@ -249,8 +249,8 @@ Delete a Cloud Foundry Service.
 Delete a subdomain.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | API | String | A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net. | Yes |
 | CF\_HOME | String | Set the CF\_HOME variable to explicitly define the location of the config.json file. A new CF\_HOME will be used for each step if not specified. | No |
 | Cloud Foundry CLI Path | String | The path to the cf command line script. | No |
@@ -268,8 +268,8 @@ Execute a CF script. The context will be setup with the authenticated user and t
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | API | String | A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net. | Yes |
 | Arguments | String | Arguments to be passed to the script, separated by spaces. | No |
 | CF\_HOME | String | Set the CF\_HOME variable to explicitly define the location of the config.json file. A new CF\_HOME will be used for each step if not specified. | No |
@@ -287,8 +287,8 @@ Execute a bash file. The context will be setup with the authenticated user and t
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | API | String | A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net. | Yes |
 | Arguments | String | Arguments to be passed to the script, separated by spaces. | No |
 | CF\_HOME | String | Set the CF\_HOME variable to explicitly define the location of the config.json file. A new CF\_HOME will be used for each step if not specified. | No |
@@ -305,8 +305,8 @@ Execute a bash file. The context will be setup with the authenticated user and t
 Add a url route to an application.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | API | String | A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net. | Yes |
 | Application name | String | Name of the application. | Yes |
 | CF\_HOME | String | Set the CF\_HOME variable to explicitly define the location of the config.json file. A new CF\_HOME will be used for each step if not specified. | No |
@@ -325,8 +325,8 @@ Push application with or without a manifest file. If a manifest file is found th
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | API | String | A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net. | Yes |
 | Application Name | String | The name of the application to use when deployed. Required if not using a manifest. | No |
 | Application Path | String | Name of zip file or other file to push. If this file isnt in your working directory you must specify a full file path. (Otherwise just the name of the file e.g. myApp.zip) | No |
@@ -357,8 +357,8 @@ Push application with or without a manifest file. If a manifest file is found th
 Restart an application.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | API | String | A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net. | Yes |
 | Application name | String | Name of the application. | Yes |
 | CF\_HOME | String | Set the CF\_HOME variable to explicitly define the location of the config.json file. A new CF\_HOME will be used for each step if not specified. | No |
@@ -374,8 +374,8 @@ Restart an application.
 Start an application.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | API | String | A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net. | Yes |
 | Application name | String | Name of the application. | Yes |
 | CF\_HOME | String | Set the CF\_HOME variable to explicitly define the location of the config.json file. A new CF\_HOME will be used for each step if not specified. | No |
@@ -391,8 +391,8 @@ Start an application.
 Stop an application.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | API | String | A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net. | Yes |
 | Application name | String | Name of the application. | Yes |
 | CF\_HOME | String | Set the CF\_HOME variable to explicitly define the location of the config.json file. A new CF\_HOME will be used for each step if not specified. | No |
@@ -408,8 +408,8 @@ Stop an application.
 Unbind a CF Service from a cf.application.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | API | String | A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net. | Yes |
 | Application name | String | Name of the application. | Yes |
 | CF\_HOME | String | Set the CF\_HOME variable to explicitly define the location of the config.json file. A new CF\_HOME will be used for each step if not specified. | No |
@@ -426,8 +426,8 @@ Unbind a CF Service from a cf.application.
 Remove a url route to an application.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | API | String | A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net. | Yes |
 | Application name | String | Name of the application. | Yes |
 | CF\_HOME | String | Set the CF\_HOME variable to explicitly define the location of the config.json file. A new CF\_HOME will be used for each step if not specified. | No |

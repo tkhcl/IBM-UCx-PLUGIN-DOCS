@@ -37,7 +37,7 @@ access key related changes.
 ### Version 1.0.11
 
 * Auto-generated User Access Key support added (support starts with
-HCL Accelerate version 2.4.0 or later)
+IBM UrbanCode Velocity version 2.4.0 or later)
 
 ### Version 1.0.0
 

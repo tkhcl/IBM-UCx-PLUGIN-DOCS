@@ -19,16 +19,16 @@ Preflight - Steps
 ### Transfer Artifacts Step
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | serverHost | String |  | No |
 | serverPort | String |  | No |
 
 ### Transfer Source Step
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | serverHost | String |  | No |
 | serverPort | String |  | No |
 

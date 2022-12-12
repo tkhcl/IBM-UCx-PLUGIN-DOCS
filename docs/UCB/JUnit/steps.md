@@ -20,8 +20,8 @@ JUnit for IBM UrbanCode Build - Steps
 Use this step to publish JUnit results as a report.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Exclude Patterns | String | A list of patterns used to determine which JUnit XML files to exclude from the report. Specify each pattern on a new line. Files that match the specified patterns are unconditionally excluded from the report. Patterns can include ?, \*, or \*\*. | No |
 | Include Patterns | String | A list of patterns used to determine which JUnit XML files to include in the report. Specify each pattern on a new line.Patterns can include ?, \*, or \*\*. | Yes |
 | Report Name | String | The name of the report. | No |

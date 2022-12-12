@@ -21,8 +21,8 @@ IBM UrbanCode DBUpgrader - Steps
 Return the database to a previous version.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Current Version SQL | String | An SQL statement to obtain the current version of the database. Use a question mark (?) as the placeholder for the release name. Example: `SELECT VER FROM DB_VERSION WHERE RELEASE_NAME = ?` | Yes |
 | DB Driver Jar | String | The path to the JAR file that contains the driver class. Example: `lib/mysql-connector-java-5.1.20-bin.jar`. | Yes |
 | Delete Version SQL | String | An SQL statement that deletes the release or version row from the database. Use a question mark (?) as a placeholder for the release name. Example: `DELETE FROM DB_VERSION WHERE RELEASE_NAME = ?`. | Yes |
@@ -40,8 +40,8 @@ Return the database to a previous version.
 Update the database.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Current Version SQL | String | The SQL statement to obtain the current version of the database. Use a question mark (?) as the placeholder for the release name. Example: `SELECT VER FROM DB_VERSION WHERE RELEASE_NAME = ?`. | Yes |
 | DB Driver Jar | String | The path to the JAR file that contains the driver class. Example: `lib/mysql-connector-java-5.1.20-bin.jar`. | Yes |
 | Delete Version SQL | String | An SQL statement that deletes the release or version row from the database. Use a question mark (?) as a placeholder for the release name value. Example: `DELETE FROM DB_VERSION WHERE RELEASE_NAME = ?`. | Yes |

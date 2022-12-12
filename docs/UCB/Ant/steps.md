@@ -20,8 +20,8 @@ Ant - Steps
 Run an Ant script.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | ANT\_HOME | String | The path to the Ant installation to use to run the Ant script. By default, the path is the ANT\_HOME environment variable on the agent. | Yes |
 | ANT\_OPTS | String | Ant-specific arguments, which are used in the ANT\_OPTS environment variable. Enter each argument on a new line. For example: -Xmx1024m or -XX:MaxPermSize=512m | No |
 | Ant Properties | String | Ant-specific arguments, such as -v for verbose output. Enter each argument on a new line. | No |

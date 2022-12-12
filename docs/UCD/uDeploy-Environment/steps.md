@@ -33,8 +33,8 @@ IBM UrbanCode Deploy Environments - Steps
 Adds a base resource to an environment as a deployment target.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application | String | Required unless you are specifying the environment by its ID. | No |
 | Environment | String |  | Yes |
 | Resource Path | String |  | Yes |
@@ -45,8 +45,8 @@ Adds an environment or list of environments delimited by commas to a team for a 
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application | String | Required unless you are specifying the environment by its ID. | No |
 | Environment/Environments | String | A comma delimited list of environment names/ids to add to the team. | Yes |
 | Team | String |  | Yes |
@@ -57,8 +57,8 @@ Adds an environment or list of environments delimited by commas to a team for a 
 This step will succeed if the environment exists and fail if it does not.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application | String | name/ID of the application that the environment belongs to. Not needed if you refer to environment by ID instead of name. | No |
 | Environment | String | name/ID of the environment. If you specify ID you dont need to specify the application. | Yes |
 
@@ -67,8 +67,8 @@ This step will succeed if the environment exists and fail if it does not.
 Creates an environment for the specified application.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Append Unique Suffix | Boolean | Check this box if you want to guarantee your environment name is unique. | No |
 | Application Name | String | The name of the application the environment will be created for. | Yes |
 | Base Resource Path | String | Specify the path to a base resource to put the new environments resources in if using a blueprint. This field must be provided when using a blueprint. Example: /Provisioned Environments | No |
@@ -85,8 +85,8 @@ Creates an environment for the specified application.
 Create a property for an application environment.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application | String | name/ID of the application that the environment belongs to. Not needed if you refer to environment by ID instead of name. | No |
 | Environment | String | name/ID of the environment. If you specify ID you dont need to specify the application. | Yes |
 | Property Name | String | name of the property to set. | Yes |
@@ -98,8 +98,8 @@ Create a property for an application environment.
 Creates an environment from a template for the specified application.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application ID | String | The Application ID where the environment will be created. | Yes |
 | Description | String | A description of of the environment to be created. | No |
 | Environment Name | String | The name of the environment to be created. | Yes |
@@ -112,8 +112,8 @@ Creates multiple environments using JSON format. Outputs a comma delimited list 
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | JSON File/Text | String | Specify a body of JSON text or a file to define Environments. Separate multiple JSON objects by using commas within an array, e.g. [{}``,{}``,{}``]. | Yes |
 
 ### Delete Environment
@@ -121,8 +121,8 @@ Creates multiple environments using JSON format. Outputs a comma delimited list 
 Deletes an environment.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application | String | name/ID of the application that the environment belongs to. Not needed if you refer to environment by ID instead of name. | No |
 | Environment | String | name/ID of the environment. If you specify ID you dont need to specify the application. | Yes |
 
@@ -132,8 +132,8 @@ Get the name-value pairs of all component environment properties and sets them a
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application | String | name/ID of the application that the environment belongs to. Not needed if you refer to environment by ID instead of name. | No |
 | Component | String | name/ID of the component. | Yes |
 | Environment | String | name/ID of the environment. If you specify ID you dont need to specify the application. | Yes |
@@ -143,8 +143,8 @@ Get the name-value pairs of all component environment properties and sets them a
 Retrieve basic configuration information about a environment.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application | String | Application name or ID. (Required when using a name for the environment instead of its ID) | Yes |
 | Environment | String | Environment name or ID | Yes |
 
@@ -154,8 +154,8 @@ Get the name-value pairs of all environment properties and sets them as output p
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application | String | name/ID of the application that the environment belongs to. Not needed if you refer to environment by ID instead of name. | No |
 | Environment | String | name/ID of the environment. If you specify ID you dont need to specify the application. | Yes |
 
@@ -164,8 +164,8 @@ Get the name-value pairs of all environment properties and sets them as output p
 Gets the latest Version of a Component in a given Environment
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application | String | Required Application Name | No |
 | Component | String | Required Component Name | No |
 | Environment | String | Required Environment Name | No |
@@ -176,8 +176,8 @@ Sets an environment-specific property value for a component. The property must a
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application | String | name/ID of the application that the environment belongs to. Not required if you specify environment by ID instead of name. | No |
 | Component | String | name/ID of the component that the environment belongs to. | Yes |
 | Environment | String | name/ID of the environment. If you specify ID you dont need to specify the application. | Yes |
@@ -189,8 +189,8 @@ Sets an environment-specific property value for a component. The property must a
 Verifies that the environment has a component with a certain version in inventory.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application | String | name/ID of the application that the environment belongs to. Not needed if you refer to environment by ID instead of name. | No |
 | Component | String | name/ID of the component to verify. | Yes |
 | Environment | String | name/ID of the environment. If you specify ID you dont need to specify the application. | Yes |

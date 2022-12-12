@@ -21,8 +21,8 @@ Shell - Steps
 Use this step to run a shell or batch script.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Daemon | Boolean | If this property is enabled, the command runs in the background while it permits the step to complete immediately. The output is not captured if the command runs as a daemon. | No |
 | Directory Offset | String | The working directory to use when you execute this command. This directory is relative to the current working directory. | Yes |
 | Interpreter | String | The interpreter to use to evaluate the command.If this property is left blank the following platform-specific interpreters are used: Windows:`.bat` file interpreter VMS: `.com` file interpreter Other:The shell that is specified by the **air/shell** agent variable if it is present. Linux and UNIX systems might override this setting by having the command line start with a #! sequence. | No |
@@ -34,8 +34,8 @@ Use this step to run a shell or batch script.
 Use this step to run a shell or batch script a number of times equal to a multi-valued input.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Daemon | Boolean | If this property is enabled, the command runs in the background while permitting the step to complete immediately. The output is not captured if it runs as a daemon. | No |
 | Directory Offset | String | The working directory to use when you execute this command. This directory is relative to the current working directory. | Yes |
 | Interpreter | String | The interpreter to use to evaluate the command.If this property is left blank the following platform-specific interpreters are used: Windows:`.bat` file interpreter VMS: `.com` file interpreter Other:The shell that is specified by the **air/shell** agent variable if it is present. Linux and UNIX systems might override this setting by having the command line start with a #! sequence. | No |

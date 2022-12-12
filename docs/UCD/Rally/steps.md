@@ -23,8 +23,8 @@ Rally for IBM UrbanCode Deploy - Steps
 Add comments to Rally defects, tasks, and stories.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Api Key | Password | The Api Key to use as an authorization token in place of username/password to connect to the Rally Server. | No |
 | Comment | String | The text of the comment to add. | No |
 | Defect IDs | String | A list of defect IDs, separated by commas, to add a comment to. | No |
@@ -45,8 +45,8 @@ Add comments to Rally defects, tasks, and stories.
 Update a Rally artifact property.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Api Key | Password | The Api Key to use as an authorization token in place of username/password to connect to the Rally Server. | No |
 | Artifact IDs | String | A list of artifact IDs, separated by commas, to update. | Yes |
 | New Value | String | The new values for the artifact properties. Specify one value for all artifacts or a comma-separated list of values, where the number of values matches the number of artifact IDs. If the artifact is an option list in Rally, then the value must match one of the options exactly. This field is case sensitive. | Yes |
@@ -67,8 +67,8 @@ Update a Rally artifact property.
 Update the status of a Rally defect
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Api Key | Password | The Api Key to use as an authorization token in place of username/password to connect to the Rally Server. | No |
 | Defect IDs | String | A list of defect IDs to update, separated by commas. | No |
 | New State | Enumeration:
@@ -92,8 +92,8 @@ Update the status of a Rally defect
 Create a defect in Rally.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Api Key | Password | The Api Key to use as an authorization token in place of username/password to connect to the Rally Server. | No |
 | Defect Description | String | The description of the defect. | No |
 | Defect Name | String | The name of the defect. | Yes |

@@ -24,8 +24,8 @@ IBM UrbanCode Package Manager - Steps
 Create package from files.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Content Directory | String | The directory containing the content of the package. | Yes |
 | Output Directory | String | The directory to output the created package file to. | Yes |
 | PACKAGER\_HOME | String | Location of the UrbanCode Package Manager. | No |
@@ -39,8 +39,8 @@ Create package from files.
 Install package on target.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Force Install | Boolean | Attempt to install package even if it already installed. NOTE: THIS WILL ERASE ANY EXISTING INVENTORY / ROLLBACK DATA FOR THIS PACKAGE. | No |
 | Install Properties | String | Properties given to the package manager during installation. Enter each property on a separate line. Entries will most likely be in the form: -Dkey=value | No |
 | Inventory | String | Inventory name to use on the agent. | No |
@@ -55,8 +55,8 @@ Install package on target.
 Rollback package on target.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Inventory | String | Inventory name to use on the agent. | No |
 | PACKAGER\_HOME | String | Location of the UrbanCode Package Manager. | No |
 | Package Name | String | The name of the package to be rolled back one version, or a Package ID to roll back to the specified version. | Yes |
@@ -70,8 +70,8 @@ Rollback package on target.
 Uninstall package on target.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Inventory | String | Inventory name to use on the agent. | No |
 | PACKAGER\_HOME | String | Location of the UrbanCode Package Manager. | No |
 | Package Name | String | The name of the package to be uninstalled. | Yes |
@@ -85,8 +85,8 @@ Uninstall package on target.
 Verify installed files.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Inventory | String | Inventory name to use on the agent. | No |
 | PACKAGER\_HOME | String | Location of the UrbanCode Package Manager. | No |
 | Package Name | String | The name of the installed package to be verified. | Yes |

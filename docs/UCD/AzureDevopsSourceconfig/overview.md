@@ -13,8 +13,8 @@ The plugin adds these roles automatically to resources. You cannot add these rol
 
 * AzureComponentProperties
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Collection URL | String | The URL of the AzureDevops collection, for example: https://dev.azure.com/. | Yes |
 | Extensions of files to convert | String | The list of file extensions to be converted, if text-type files must be converted into another character set. Matching file types are converted into the default or system character set of the system where the agent is located. Separate each list item with a comma. | No |
 | Local Workspace Folder | String | The path to the local workspace folder of the computer with the agent. If the folder does not exist, it is created to the specified path. This value is only used if the Workspace property is specified. Otherwise, a temporary folder is created in the agent working directory. | Yes |
@@ -28,8 +28,8 @@ The plugin adds these roles automatically to resources. You cannot add these rol
 
 * AzureImportProperties
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Changeset | String | The version integer of the Azure DevOps Server changeset to load. | No |
 | Label | String | The name of the version label to load.	 | No |
 

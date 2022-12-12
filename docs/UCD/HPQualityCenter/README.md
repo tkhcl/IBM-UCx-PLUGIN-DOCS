@@ -27,12 +27,10 @@ Check StatusEnsure the status of issues are in the expected state.
 
 Query DefectsEnsure the status of issues are in the expected state
 
-
 **Answers page:**
 
-* Search on our answers page (note that the Open Link in New Tab function can interfere with the search terms in the link): [dW Answers: urbancode | deploy | plugins | hp | quality | center](https://developer.ibm.com/answers/search.html?f=&type=question&redirect=search%2Fsearch&sort=relevance&smartspace=urbancode&q=hp+quality+center%20%2B[urbancode])
-* If there are no search results, submit your issue as a question to our [answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | deploy | plugins | hp | quality | center
-
+* Search on our answers page (note that the Open Link in New Tab function can interfere with the search terms in the link): [IBM UrbanCode Community](https://community.ibm.com/community/user/wasdevops/communities/community-home?communitykey=9adfe6b6-2e23-4895-8b27-38b93b5e152c)
+* If there are no search results, submit your issue as a question to our [Discussions page](https://community.ibm.com/community/user/wasdevops/communities/community-home/digestviewer?communitykey=9adfe6b6-2e23-4895-8b27-38b93b5e152c). Use the following tags: ```urbancode | deploy | plugins | hp | quality | center```
 
 |Back to ...||Latest Version||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |

@@ -16,7 +16,7 @@ The Install Chef step searches for the Chef code in the same folder as the worki
 
 The following process downloads the application code and the Chef code. Then, it installs Chef. Finally, it installs two Chef nodes: one that installs prerequisites and another that installs the application.
 
-[![A simple process that downloads code, installs Chef, and installs two Chef nodes](examples_chef_installnode_a.gif)](examples_chef_installnode_a.gif)
+[![A simple process that downloads code, installs Chef, and installs two Chef nodes](media/examples_chef_installnode_a.gif)](media/examples_chef_installnode_a.gif)
 A simple process that downloads code, installs Chef, and installs two Chef nodes
 
 

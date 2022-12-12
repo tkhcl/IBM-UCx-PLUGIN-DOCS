@@ -20,8 +20,8 @@ Clover - Steps
 Use this step to upload a Clover report.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Report Name | String | The name of the report to publish. | No |
 | Report Directory | String | The directory containing the `coverage.xml` file. | No |
 

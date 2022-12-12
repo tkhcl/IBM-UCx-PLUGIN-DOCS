@@ -25,8 +25,8 @@ IBM Rational Asset Manager - Steps
 Assign one or more categories to an asset.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Asset ID | String | The asset ID for the asset to which a category is being assigned. | Yes |
 | Categorization | String | The list of categories to add to the asset. Press Enter after each category. To specify a hierarchy of categories, use a forward slash (/) to separate categories, for example, Continuous Delivery/Build/Integration. | Yes |
 | Password | Password | The password to authenticate with the repository. | No |
@@ -39,8 +39,8 @@ Assign one or more categories to an asset.
 Create a relationship from one asset to another asset.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Asset ID | String | The ID for the source asset. | Yes |
 | Asset Version | String | The version of the source asset. | Yes |
 | Password | Password | The password to authenticate with the repository. | Yes |
@@ -55,8 +55,8 @@ Create a relationship from one asset to another asset.
 Download assets from the IBM Rational Asset Manager repository.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Assets | String | A list of assets to download. Press Enter after each entry. Verify that each entry has one of these forms: `id/version` or `id/ramSearch:(SearchString)`.
 
 If the ID contains a forward slash (/), prefix the forward slash with a backslash (\). | Yes |
@@ -71,8 +71,8 @@ If the ID contains a forward slash (/), prefix the forward slash with a backslas
 Download related assets of an asset.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Asset ID | String | The ID for the asset. | Yes |
 | Asset Version | String | The version of the asset. | Yes |
 | Directory Offset | String | The working directory to use when you run this command. The directory is relative to current working directory. | Yes |
@@ -88,8 +88,8 @@ Download related assets of an asset.
 Set attribute on an asset.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Asset ID | String | The ID for the asset. | Yes |
 | Attribute Name | String | The name of the attribute. | Yes |
 | Attribute Value | String | The value of the attribute | Yes |
@@ -103,8 +103,8 @@ Set attribute on an asset.
 Upload asset to a Rational Asset Manager repository.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Asset ID | String | The ID for the asset. | Yes |
 | Community | String | The community for the asset. | Yes |
 | Directory Offset | String | The working directory to use when you run this command. The directory is relative to current working directory. | Yes |

@@ -21,8 +21,8 @@ Cucumber - Steps
 Compile the step definitions.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Classpath Include | String | The directories to include. Use the double-astrick(\*\*) to include all directories and the astrick(\*) to include all files. For example, the pattern dist/\*\*/\*.jar would retrieve the all JAR files. | No |
 | Implementation Base | String | The implementation base directory, for example:/opt/myProjectName/src/. | No |
 | Implementation Include | String | List of implementation files to include. Use the double-astrick(\*\*) to indicate include all directories and the astrick(\*) to include all files. For example, the pattern dist/\*\*/\*.java retrieves the all JAVA files. | No |
@@ -36,8 +36,8 @@ Compile the step definitions.
 Run the test scenarios.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Dry-run | Boolean | Skip execution of the Glue code. | No |
 | Features | String | The directory containing the feature files. Feature files contain the test scenarios. | Yes |
 | JAVA\_HOME | String | The fully-qualified path to the Java installation. The default is the value specified in the JAVA\_HOME environment variable for the agent. | No |

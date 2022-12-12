@@ -41,21 +41,21 @@ There is also one optional property on manual import.
 
 * **Snapshot Name**: Specify a single Snapshot name or acronym to import.
 
-[![](plugin-config-1.png)](plugin-config-1.png)
+[![](media/plugin-config-1.png)](media/plugin-config-1.png)
 Sample configuration IBM WebSphere BPM source config plug-in
 
 
 Many of these properties are pulled directly from the Process Application snapshots page. The picture below illustrates where to find the the URL, Process Application and snapshots names in a browser.
 
 
-[![](process-application.png)](process-application.png)
+[![](media/process-application.png)](media/process-application.png)
 Sample Application Process snapshots page
 
 
 If the above list of screenshots was imported successfully, the components versions tab may look like the below screenshot. Regardless of the snapshot value specified for the manual import, the versions name will be the Snapshots name and its acronym in parenthesis. Note in the below screenshot that two versions may first look like duplicates. However, they are actually from two different tracks, hence the different acronyms.
 
 
-[![](import-versions-1.png)](import-versions-1.png)
+[![](media/import-versions-1.png)](media/import-versions-1.png)
 Sample Component Version tab
 
 
@@ -71,11 +71,11 @@ In the IBM WebSphere BPM automation plug-in, many steps require a combination of
 On configuration, the tab should resemble the below screenshot:
 
 
-[![](version-properties.png)](version-properties.png)
+[![](media/version-properties.png)](media/version-properties.png)
 Sample Version Property Definitions
 
 
-The error explained above will manifest itself in the standard output logs as the outlined string: [![](create-props-warn.png)](create-props-warn.png)
+The error explained above will manifest itself in the standard output logs as the outlined string: [![](media/create-props-warn.png)](media/create-props-warn.png)
 
 
 |Back to ...||Latest Version|IBM Business Process Manager (WebSphere BPM) ||||

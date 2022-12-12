@@ -20,8 +20,8 @@ Microsoft SQL Server SQLCmd - Steps
 Run SQLCmd scripts in sorted order
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additonal Arguments | String | Specify additional command line arguments in the format: FLAG [VALUE]. Each Flag, and poential Value, should be separated with a space. Example: -v MyVar1=something or -N.Separate each argument pair with a new line or semicolon. | No |
 | DB Name | String | The name of the DB to use. | No |
 | Directory Offset | String | The directory offset relative to the current working directory where the step should run. | No |

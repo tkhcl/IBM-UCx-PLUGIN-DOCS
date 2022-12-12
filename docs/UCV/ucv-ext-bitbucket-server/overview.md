@@ -1,26 +1,25 @@
 
-BitBucket Server - Overview
-===========================
+# BitBucket Server - Overview
 
-Overview
--------------
+## Overview
+
 The BitBucket Server plug-in provides for integration with a BitBucket server.
 
 
-Compatibility
--------------
+## Compatibility
 
-This plug-in requires UrbanCode Velocity version 1.2.1 and later.
+This plug-in requires UrbanCode Velocity version 2.5.0 and later.
 
-Versions
---------
-
+## Versions
 
 UrbanCode Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode
 DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-bitbucket-server/tags).
 
-History
--------
+## History
+
+### Version 1.1.26
+
+* Added Regular Expression for Additional Branches field 
 
 ### Version 1.1.24
 
@@ -84,4 +83,4 @@ build target on Jenkinsfile.
 
 |Back to ...||Latest Version|BitBucket Server |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.24](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-bitbucket-server/ucv-ext-bitbucket-server:1.1.24.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.26](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-server/ucv-ext-bitbucket-server:1.1.26.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

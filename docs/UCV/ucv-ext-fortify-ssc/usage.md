@@ -45,8 +45,8 @@ The following tables describe the properties used to configure the integration.
 
 #### Fortify SSC Properties table
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | URL | String | The URL of the Fortify SSC server. | Yes |
 | token | String | The API key to authenticate with the Fortify SSC server. | Yes |
 | Initial sync date | String | The date to pull data for the initial run. | No |

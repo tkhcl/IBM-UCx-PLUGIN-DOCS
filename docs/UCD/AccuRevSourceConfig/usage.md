@@ -11,7 +11,7 @@ AccuRev SCM - Usage
 
 The AccuRev source configuration plug-in is capable of importing various artifact sets from AccuRev SCM. It is important to understand each of the properties to grab the correct artifact sets as component versions.
 
-[![](configuration.png)](configuration.png)
+[![](media/configuration.png)](media/configuration.png)
 
 ### Import Properties
 
@@ -27,7 +27,7 @@ The AccuRev source configuration plug-in is capable of importing various artifac
 * **Excludes**: Supply a list of files or regex of artifacts that should not be imported.
 * **AccuRev Executable Path**: If the `accurev` cli is not available on the Agents PATH environment, specify the full executable location.
 
-[![](manual-import.png)](manual-import.png)
+[![](media/manual-import.png)](media/manual-import.png)
 
 ### Manual Import Properties
 

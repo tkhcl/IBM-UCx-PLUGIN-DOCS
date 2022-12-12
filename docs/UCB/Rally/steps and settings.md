@@ -27,8 +27,8 @@ Rally for IBM UrbanCode Build - Steps and Settings
 Add comments from the current changelog to defects that match the specified pattern.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Comment | String | Text to add to the Rally defect comment in addition to the commit comment. | No |
 | Defect ID Pattern | String | A regular expression to use to locate Rally defect IDs in changelog comments. Use parentheses to group the part of the pattern that identifies the issue ID. For example, the pattern DE[0-9]+ matches DE1 and DE932415, but it does not match DEa, DE, or DE.1. However, the pattern Issue:\[(DE[0-9]+)\] matches Issue:[DE1] using Issue ID DE1. | No |
 | Rally Workspace |  | The name of the Rally workspace to use. | Yes |
@@ -42,8 +42,8 @@ Update a property on a Rally artifact.
 `
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | newValue | String | The new values for the artifacts properties. This can either be one value for all artifacts or a comma-separated list of values, where the number of values must match the number of artifact IDs. If the property is a select from list in Rally, then the value must match exactly. It is case sensitive. | Yes |
 | Artifact IDs | String | A comma separated list of artifact IDs for which the state is to be updated. Use ``${p:buildlife/issueIds}`` to update all issues in the current buildlife. | Yes |
 | Object Type | String | The type of artifacts to update. The specified artifact must match the type in the Rally Rest API documentation which can be found at %rallybase%/slm/doc/webservice/index.jsp, where %rallybase% is the Rally url such as https://trial.rallydev.com. Command examples include Task, Defect, HierarchicalRequirement, and more. | Yes |
@@ -55,8 +55,8 @@ Update a property on a Rally artifact.
 Change the status of a defect.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Item Type | Enumeration:
 | The type of item to be updated. The type can be a defect, task or user story. | Yes |
 | Items IDs | String | A comma-separated list of Defect IDs, Task IDs, or User Story IDs to change the state of.Use ``${p:buildlife/issues/id}`` to update all issues in the current build life. | Yes |
@@ -69,8 +69,8 @@ Change the status of a defect.
 Create a defect in the Rally repository.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Defect Description | String | The description for the defect. | No |
 | Defect Name | String | The name for the new defect. | Yes |
 | Environment | Enumeration:
@@ -92,8 +92,8 @@ Create a defect in the Rally repository.
 Create a report of Rally defects based on the current changelog.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Defect ID Pattern | String | A regular expression to use to locate Rally defect IDs in changelog comments. You can add parentheses around the part of the pattern that identifies the Issue ID.The pattern DE[0-9]+ matchesDE1 and DE932415, but it does not match DEa, DE, or DE.1.The pattern Issue:\[(DE[0-9]+)\] matches Issue:[DE1] using Issue ID DE1. | No |
 | Rally Workspace |  | The name of the Rally workspace to use. | Yes |
 | Task ID Pattern | String | A regular expression to locate Rally Task IDs in changelog comments. You can add parentheses around the part of the pattern that identifies the actual Task ID. The pattern TA[0-9]+ matches TA1 and TA932415, but does not match TAa, TA, or TA.1.The pattern Issue:\[(TA[0-9]+)\] matches Issue:[TA1] using Task ID TA1. | No |
@@ -104,8 +104,8 @@ Create a report of Rally defects based on the current changelog.
 Report the build status to Rally.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Build Definition ID | String | The Build Definition ID associated with the project that you want to assign the build status. | Yes |
 | Build Number | String | The build number or the label applied to the build if Rally is version 1.20 or earlier. | No |
 | Duration | String | The number of milliseconds for the build. | No |

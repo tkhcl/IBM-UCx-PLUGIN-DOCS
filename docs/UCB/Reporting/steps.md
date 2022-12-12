@@ -20,8 +20,8 @@ Reporting - Steps
 Run a report and save the output.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Output File | String | The path of the output file. | Yes |
 | Output Format | Enumeration:
 | The format of the output file. | Yes |

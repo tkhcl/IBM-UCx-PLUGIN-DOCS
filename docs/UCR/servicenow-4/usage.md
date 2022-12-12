@@ -34,12 +34,12 @@ about the deployment and is updated as the deployment progresses and completes.
 
 1.
 Create an integration using the Create SNOW Record when Deployment is Created step.
-![](usercase1_intergrationtype-2.jpg?resize=502%2C149)
+![](media/usercase1_intergrationtype-2.jpg)
 Provide information about the ServiceNow server.
 
 
 
-![](usercase1_authenconfig.jpg?resize=428%2C333)
+![](media/usercase1_authenconfig.jpg)
 
 
 | Name | Description |
@@ -57,7 +57,7 @@ populating, check your server URL and authentication. |
 required. |
 2. Select the phases to trigger the ticket creation. Not every deployment to every environment might require
 a change request. With this in mind, select which UrbanCode Release phases per lifecycle to perform this action.
-![](usercase1_phases.jpg?resize=598%2C187)
+![](media/usercase1_phases.jpg)
 3. Optionally, you can configure an UrbanCode Release approval. The
 ServiceNow change request can have a series of approvals that must be executed. These SNOW approvals can automatically
 approve an UrbanCode Release Phase Approval. To configure, navigate to the Release Detail page of a release and add the
@@ -65,18 +65,18 @@ approval within a phase under the Release Pipeline section of the page. In the i
 name of the approval in the **Approval Name** field. When a deployment is created with that UrbanCode Release Phase
 Approval, the approval is completed when the recurring integration detects the approvals are complete in ServiceNow.
 
-![](usercase1_phase_prod.jpg?resize=599%2C595)
+![](media/usercase1_phase_prod.jpg)
 
-![](usercase1_approvconfig.jpg?resize=334%2C130)
+![](media/usercase1_approvconfig.jpg)
 4. Specify the
 ServiceNow Assigned Group. This is a required field.
 
-![](usercase1_changeinfo.jpg?resize=343%2C387)
+![](media/usercase1_changeinfo.jpg)
 5. When a
 deployment is created, started, and ended the status of the associated Service Now change request is updated. Provide
 the change request status that should result from each of those events.
 
-![](usercase1_deploycreatstr.jpg?resize=344%2C161)
+![](media/usercase1_deploycreatstr.jpg)
 
 #### Try it out
 1. Create a deployment for a selected phase in the
@@ -110,7 +110,7 @@ ServiceNow. When a change request is created in ServiceNow, UrbanCode Release sc
 of the change request. When the deployment is started and finished, the status of the change request is updated
 according to your configuration.
 
-![](usercase1_intergrationtype-1.jpg?resize=502%2C149)
+![](media/usercase1_intergrationtype-1.jpg)
 
 Set up the integration
 
@@ -119,7 +119,7 @@ Set up the integration
 1. Create the integration using the Fetch SNOW Records and Create Deployments step.
 
 
-![](usecase2_intro.jpg?resize=319%2C67)
+![](media/usecase2_intro.jpg)
 
 Provide the basic server and authentication information. Include the table for
 which deployments are created. See Create SNOW records when UrbanCode Release deployments are created for property
@@ -129,20 +129,20 @@ details.
 request to include new fields to indicate the Urbancode Release release and environment.
 
 
-![](usecase2_step2a.jpg?resize=620%2C471)
+![](media/usecase2_step2a.jpg)
 
 One method for adding the custom fields is to add a custom section called
 `UrbanCode Release` and then adding two new fields `Release` and `Environment`.
 
 
-![](usecase2_step2b.jpg?resize=640%2C176)
+![](media/usecase2_step2b.jpg)
 
 3. Return to the UrbanCode Release integration configuration and provide the
 names of the custom fields you created. The names of these fields can be confirmed if you export a SNOW change request
 as XML, if you used the suggested field names above, the names are `u_release` and `u_environment`.
 
 
-![](usecase2_step3.jpg?resize=640%2C147)
+![](media/usecase2_step3.jpg)
 
 You can also specify a default environment, if the environment is not
 provided.
@@ -154,25 +154,25 @@ deployments are created.
 create the deployment. Also specify the state to which the change request should be set when the deployment is started
 and closed.
 
-![](usecase2_step5.jpg?resize=504%2C349)
+![](media/usecase2_step5.jpg)
 
 6. Ensure the integration frequency is not set to manual.
 
 
-![](usecase2_step6.jpg?resize=155%2C128)
+![](media/usecase2_step6.jpg)
 
 #### Try it out
 
 1. Create a ServiceNow Change Request and provide valid
 input to the two custom fields previously created.
 
-![](usecase2_environment.jpg?resize=640%2C163)
+![](media/usecase2_environment.jpg)
 
 2. Ensure that the
 integration runs in UrbanCode Release. After a successful integration navigate to the deployments and verify that a new
 deployment has been created.
 
-![](usecase2_successmessage.jpg?resize=640%2C457)
+![](media/usecase2_successmessage.jpg)
 
 3. Complete any approvals in Service
 Now, run and complete the UrbanCode Release deployment, and verify the synced statuses throughout the process.
@@ -191,14 +191,14 @@ Integration
 the server URL and authentication is required. Create an integration using the Create SNOW Record when Deployment is
 Created step.
 
-![](usecase3_step1a.jpg?resize=472%2C145)
+![](media/usecase3_step1a.jpg)
 
 Provide the basic server and authentication information. See
 [Create SNOW records when UrbanCode Release deployments are
 created](https://www.urbancode.com/plugindoc/ibmucr/servicenow/7-2/usage/create-and-updat…deployment-tasks/) for
 property details.
 
-![](usecase3_step1b.jpg?resize=640%2C546)
+![](media/usecase3_step1b.jpg)
 
 Do not specify any phases to create change requests;
 that way the only tickets created are from tasks in the deployment plan.
@@ -207,7 +207,7 @@ that way the only tickets created are from tasks in the deployment plan.
 must be enabled. Feature flags are located on the System Settings page. Click **Settings** > **System Settings** to set
 the feature flag. To save your setting, click **Save**.
 
-![](usecase3_step2.jpg?resize=455%2C70)
+![](media/usecase3_step2.jpg)
 
 3. Navigate to a
 deployment plan and add a new **Plugin Task** type task. You can choose one of the following for the task:
@@ -218,26 +218,26 @@ Service Now Ticket
 * Close Service Now Ticket
 
 
-![](usecase3_step3a.jpg?resize=589%2C297)
+![](media/usecase3_step3a.jpg)
 
 4. Edit the task you just created and go to the **Advanced** tab. There you
 can configure the details of the ticket that is created.
 
-![](usecase3_step4a.jpg?resize=500%2C555)
+![](media/usecase3_step4a.jpg)
 
 The values for
 the Short Description, Description, and Plugin properties can be dynamically resolved from the Scheduled Deployment (sd)
 or the Task (task) as seen below. This convention follows the standard fields available on the ScheduledDeployment and
 TaskExecution api entities.
 
-![](usecase3_step4b.jpg?resize=349%2C164)
+![](media/usecase3_step4b.jpg)
 
 #### Try it out
 
 Whenever these tasks
 execute, a comment is left with a link to the associated ServiceNow ticket.
 
-![](usecase3_tryit.jpg?resize=500%2C292)
+![](media/usecase3_tryit.jpg)
 
 
 When running the Wait for Approval of Service Now Ticket task, the task starts and remains in progress until the

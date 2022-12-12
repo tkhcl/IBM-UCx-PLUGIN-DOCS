@@ -20,8 +20,8 @@ Subversion-Export - Steps
 Use this step to checkout or export data from the Subversion repository.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Clean Workspace | Boolean | Erase all files from the workspace before you export data. | No |
 | Command Path | String | The location of the svn command-line executable file. For example, `c:\Program Files\TortoiseSVN\bin\svn.exe`. | No |
 | Date | String | The date to export. Use one of these formats: `yyyy-MM-dd HH:mm:ss z` `E MMM dd HH:mm:ss zzz yyyy` milliseconds | No |

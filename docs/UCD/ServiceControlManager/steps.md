@@ -27,8 +27,8 @@ Microsoft Windows Services - Steps
 Checks to see if one or more services exists.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Services | String | A comma-separated list of services to check for. | Yes |
 
 ### Check Service Status
@@ -36,8 +36,8 @@ Checks to see if one or more services exists.
 Gets the status of one or more services.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Service Name | String | A comma-separated list of services to check for. | Yes |
 
 ### Create Service
@@ -45,8 +45,8 @@ Gets the status of one or more services.
 Create a service.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Arguments | String | A newline-separated list of arguments to add to the sc.exe call. For example: /start=\nauto\n/binpath=\nC:\temp\n/ | No |
 | Service Name | String | The name of the service to create. | Yes |
 
@@ -55,8 +55,8 @@ Create a service.
 Delete one or more services.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Arguments | String | A newline-separated list of arguments to add to the sc.exe call. For example: /start=\nauto\n/binpath=\nC:\temp\n/ | No |
 | Services | String | A comma-separated list of services to delete. | Yes |
 
@@ -65,8 +65,8 @@ Delete one or more services.
 Disable one or more services.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Arguments | String | A newline-separated list of arguments to add to the sc.exe call. For example: /error=\nsevere\n/binpath=\nC:\temp\n/ | No |
 | Services | String | A comma-separated list of services to disable. | Yes |
 
@@ -75,8 +75,8 @@ Disable one or more services.
 Enable one or more services.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Arguments | String | A newline-separated list of arguments to add to the sc.exe call. For example: /error=\nsevere\n/binpath=\nC:\temp\n/ | No |
 | Service Name | String | A comma-separated list of services to enable. | Yes |
 | Start Type | Enumeration:
@@ -92,8 +92,8 @@ Enable one or more services.
 Start one or more services.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Arguments | String | A newline-separated list of arguments to add to the sc.exe call. For example: /start=\nauto\n/binpath=\nC:\temp\n/ | No |
 | Services | String | A comma-separated list of services to start. | Yes |
 | Wait for Started | Boolean | When selected, the step waits for the service to run before proceeding. | No |
@@ -103,8 +103,8 @@ Start one or more services.
 Stop one or more services.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Arguments | String | A newline-separated list of arguments to add to the sc.exe call. For example: /start=\nauto\n/binpath=\nC:\temp\n/ | No |
 | Services | String | A comma-separated list of services to stop. | Yes |
 | Set Timeout | String | If you enter a value for Set Timeout, the step terminates the service after the specified time interval. Specify the value in milliseconds. | No |
