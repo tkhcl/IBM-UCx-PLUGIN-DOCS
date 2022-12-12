@@ -36,8 +36,8 @@ File Utils for IBM UrbanCode Build - Steps
 Copy the contents of a directory to other directories. This step overwrites files but does not delete files.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Destination Directories | String | A list of directories to copy to, separated by newline characters. | Yes |
 | Exclude Files | String | A list of patterns, separated by newline characters, that describe the files to skip. For example, if you specify \*\*/\*.zip, all .zip files in all subdirectories are excluded. | No |
 | Include Files | String | A list of patterns, separated by newline characters, that describe the files to copy. The default, \*\*/\*, includes all files. | Yes |
@@ -49,8 +49,8 @@ Copy the contents of a directory to other directories. This step overwrites file
 Create a .zip file.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | .zip File Name | String | Name of the new .zip file. | Yes |
 | Base Directory | String | The directory that contains the files to add to the archive. | Yes |
 | Case Sensitive | Boolean | Select to use case-sensitive matching. | No |
@@ -64,8 +64,8 @@ Create a .zip file.
 Create a set of new directories including parent directories.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Directories | String | A list of directories to create, separated by newline characters. | Yes |
 
 ### Create File
@@ -73,8 +73,8 @@ Create a set of new directories including parent directories.
 Create a file.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Contents | String | The contents of the file. | No |
 | File Name | String | The name of the file. | Yes |
 | Overwrite if exists | Boolean | Select to overwrite an existing file with the same name. | No |
@@ -84,8 +84,8 @@ Create a file.
 Delete files and directories.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Base Directory | String | The base directory where files and directories are deleted. | Yes |
 | Case Sensitive | Boolean | Select to use case-sensitive matching. | No |
 | Exclude | String | A list of patterns, separated by newline characters, that describe the files and directories to skip when deleting. For example, specify \*\*/\*.txt to skip all .txt files. | No |
@@ -97,8 +97,8 @@ Delete files and directories.
 Convert file line endings between UNIX and Microsoft Windows formats.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Ending | Enumeration:
 * os
 * windows
@@ -112,8 +112,8 @@ Convert file line endings between UNIX and Microsoft Windows formats.
 Monitor a file for a token. The step continues when the token is found, and fails if the token is not found in the specified time. This step is similar to the UNIX tail command, and ignores content in the file that is present before the step starts.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Directory Offset | String | The directory relative to the current working directory that contains the file to monitor. | No |
 | Fail if found | Boolean | Select to configure the step to fail if the regular expression is matched. When selected, the step does not fail when the timeout expires. | No |
 | File Name | String | The name of the file to monitor. | Yes |
@@ -125,8 +125,8 @@ Monitor a file for a token. The step continues when the token is found, and fail
 Move the contents of a directory to another directory.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Destination Directory | String | The directory to move to. | Yes |
 | Exclude Files | String | A list of patterns, separated by newline characters, that describe the files to skip. For example, if you specify \*\*/\*.zip, all .zip files in all subdirectories are excluded. | No |
 | Include Files | String | A list of patterns, separated by newline characters, that describe the files to move. The default, \*\*/\*, includes all files. | Yes |
@@ -138,8 +138,8 @@ Move the contents of a directory to another directory.
 Parse an XML file to search for properties defined by element names.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Directory Offset | String | The directory relative to the current working directory that contains the files to operate on. | No |
 | Fail if no match found | Boolean | Select to configure the step to fail if any of the XPath expressions do not return a match. | No |
 | Property Keys | String | A list of elements, separated by newline characters, whose values will be used for properties. Use dot notation to refer to nested elements. For example, specify foo.bar.baz to retrieve the value of the baz element under the bar element under the foo element. | Yes |
@@ -150,8 +150,8 @@ Parse an XML file to search for properties defined by element names.
 Read properties from a file and set them as output properties for the step.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Directory Offset | String | The directory relative to the current working directory that contains the files to operate on. | No |
 | Property File | String | The name of the property file to read. | Yes |
 
@@ -160,8 +160,8 @@ Read properties from a file and set them as output properties for the step.
 Replace tokens in files using properties.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Directory Offset | String | The directory relative to the current working directory that contains the files to operate on. | No |
 | End Token Delimiter | String | The end delimiter character used to identify tokens. | No |
 | Exclude Files | String | A list of patterns, separated by commas or spaces, that describe the files to exclude. | No |
@@ -177,8 +177,8 @@ Replace tokens in files using properties.
 Move new files in a source directory to a destination directory, and delete files in the destination directory that are not in the source directory. Synchronization is based on the time stamp of the file.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Destination Directories | String | A list of directories to copy to and synchronize, separated by newline characters. | Yes |
 | Exclude Files | String | A list of patterns, separated by newline characters, that describe the files to skip. For example, if you specify \*\*/\*.zip, all .zip files in all subdirectories are excluded. | No |
 | Include Files | String | A list of patterns, separated by newline characters, that describe the files to synchronize. The default, \*\*/\*, includes all files. | Yes |
@@ -192,8 +192,8 @@ Move new files in a source directory to a destination directory, and delete file
 Extract a .tar file.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Extract directory | String | The directory to extract the .tar file to. | No |
 | Overwrite files | Boolean | If selected, files are overwritten even if they are newer than files in the .tar file. | No |
 | Tarball | String | The .tar file to extract. Use wildcards that are supported by Ant pattern matching to extract multiple .tar files. For example, if you specify json-\*.tar, both json-c-0.10.tar and json-c-0.20.tar are extracted. | Yes |
@@ -208,8 +208,8 @@ Extract a .tar file.
 Extract a .zip file.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | .zip files | String | A list of patterns, separated by commas or spaces, that describe the .zip files to extract. | Yes |
 | Exclude Files | String | A list of patterns, separated by commas or spaces, that describe the files in the archive to skip. | No |
 | Extract directory | String | The directory to extract the .zip file to. | No |
@@ -221,8 +221,8 @@ Extract a .zip file.
 Update a file in the Microsoft Windows INI format. This step supports property sections.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Add Section Comments | String | Specify a list of comments, separated by newline characters, to add to sections. For example, specify section1=newComment to add newComment in a comment line above the section1 section. | No |
 | File Name | String | The name of the file to update. | Yes |
 | Remove properties | String | A list of properties to remove, separated by newline characters. To remove properties in subsections, add the full path of the parent sections to the property name, using a backslash (\) as a separator. For example, specify section1\section2\propertyName to remove the propertyName property in the section2 subsection of the section1 section. | No |
@@ -234,8 +234,8 @@ Update a file in the Microsoft Windows INI format. This step supports property s
 Add, remove, or update properties in a properties file.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Add/Update properties | String | A list of name-value pairs, separated by newline characters. This field takes precedence over Additional properties. Use the format property\_name=property\_value. | No |
 | Additional properties | String | A list of additional properties, separated by commas. For example, specify ``${p:environment/allProperties}`` to add all environment properties as name-value pairs to the list of properties to update. | No |
 | Additional properties prefix | String | Specify a prefix to use to filter the properties specified in Additional properties. The prefix is removed from the property name to form the property that is added to the property file. | No |
@@ -249,8 +249,8 @@ Add, remove, or update properties in a properties file.
 Update XML files using XPath to locate items to edit.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Destination Directory Offset | String | The directory relative to the current working directory where the edited XML files will be stored. | No |
 | Fail if no match found | Boolean | Select to configure the step to fail if any of the XPath expressions do not return a match. | No |
 | File Excludes | String | A list of patterns, separated by newline characters, the describe the files to skip. | No |

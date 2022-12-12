@@ -22,8 +22,8 @@ Artifactory for IBM UrbanCode Build - Steps
 Download artifacts from an Artifactory repository
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Artifactory |  | Select an Artifactory repository from the list or specify a property whose value is the property sheet UUID of the relevant integration. | Yes |
 | Repository name | String | The name of the repository. | Yes |
 | Target Paths | String | A list of target paths to download. Specify each target path in a separate line. Target path should not contain the repository name. | Yes |
@@ -34,8 +34,8 @@ Download artifacts from an Artifactory repository
 Upload artifacts to an Artifactory repository
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Artifactory |  |  | Yes |
 | Build Info Json File | String | Specify the build info json file containing the build information to be uploaded | Yes |
 
@@ -44,8 +44,8 @@ Upload artifacts to an Artifactory repository
 Upload artifacts to an Artifactory repository
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Artifact Properties | String | Properties to add to each artifact. Properties should be in key=value format in each line | No |
 | Artifactory |  | Select an Artifactory repository from the list or specify a property whose value is the property sheet UUID of the relevant integration. | Yes |
 | Exclude Patterns | String | List of files to exclude Multiple ant-style patterns can be used, with each pattern in a separate line. | No |

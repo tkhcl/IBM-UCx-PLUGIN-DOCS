@@ -22,8 +22,8 @@ IBM Installation Manager - Steps
 Run a response file with IBM Installation Manager.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Data Location | String | The path to the Installation Manager application data. | No |
 | IMCL Path | String | Full path to the imcl executable. | Yes |
 | Master Password File | String | Specify the master password file, a text file that contains a passphrase to secure the storage file. Set appropriate operating system permissions on this file. | No |
@@ -36,8 +36,8 @@ Run a response file with IBM Installation Manager.
 Install or upgrade IBM Installation Manager.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Data Location | String | The path to the Installation Manager application data. | No |
 | Directory where the Installation Kit was unzipped | String | Specify the directory that contains the extracted installation kit. | Yes |
 | Installation Directory | String | Specify the path where IBM Installation Manager will be installed. | No |
@@ -52,8 +52,8 @@ Install or upgrade IBM Installation Manager.
 Uninstall IBM Installation Manager
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Data Location | String | The path to the Installation Manager application data. | Yes |
 | Mode | Enumeration:
 * administrator

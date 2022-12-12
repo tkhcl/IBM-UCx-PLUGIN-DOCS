@@ -21,8 +21,8 @@ Publish PMD results to a build life. The step reads the XML output gathered by t
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Exclude Patterns | String | A list of patterns used ot determine which PMD XML files to exclude from the report. Specify each pattern on a separate line. Patterns can include the following wildcards: ?, \*, or \*\*. | No |
 | Include Patterns | String | A list of patterns to determine which PMD XML files to include in the report. Specify each pattern on a separate line. Patterns can include the following wildcards: ?, \*, or \*\*. | Yes |
 | Report Name | String | The name of the report to published to the build life. | Yes |

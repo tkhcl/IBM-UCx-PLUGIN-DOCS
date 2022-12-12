@@ -52,10 +52,10 @@ When you run the process in IBM UrbanCode Deploy, the **snapshot** field in the 
 
 After completion of the Selenium test, the SELENIUM TEST PASSED status is added to the snapshot. The following figure shows the status applied to the Install Notification Manager application version in IBM UrbanCode Release.
 
-[![release-plugin-add-status-snapshot-result](release-plugin-add-status-snapshot-result.jpg)](release-plugin-add-status-snapshot-result.jpg)
+[![release-plugin-add-status-snapshot-result](media/release-plugin-add-status-snapshot-result.jpg)](media/release-plugin-add-status-snapshot-result.jpg)
 In the following figure, you see that the comment and the attachment have been added to the status.
 
-[![release-plugin-add-status-snapshot-status-detail](release-plugin-add-status-snapshot-status-detail.jpg)](release-plugin-add-status-snapshot-status-detail.jpg)
+[![release-plugin-add-status-snapshot-status-detail](media/release-plugin-add-status-snapshot-status-detail.jpg)](media/release-plugin-add-status-snapshot-status-detail.jpg)
 
 ### Obtaining the appropriate release for an environment
 
@@ -66,7 +66,7 @@ Use the Get Release for Environment step to facilitates auto progression for IBM
 
 When you deploy an application version to a DEV environment, say, a snapshot is created of all component versions that are deployed in the environment. This snapshot is automatically included in the IBM UrbanCode Release inventory. As soon as the snapshot acquires the required statuses, the recurring rule creates a scheduled deployment of that version for the next phase. By using recurring rules, application versions can be automatically deployed to every phase in the lifecycle through to production as shown in the following figure.
 
-[![release-plugin-release-for-environment-autoprogression](release-plugin-release-for-environment-autoprogression.jpg)](release-plugin-release-for-environment-autoprogression.jpg)
+[![release-plugin-release-for-environment-autoprogression](media/release-plugin-release-for-environment-autoprogression.jpg)](media/release-plugin-release-for-environment-autoprogression.jpg)
 The Get Release for Environment step addresses several issues.
 
 * Recurring rules can use patterns, such as simple naming patterns or a regular expression, to select versions automatically. By naming snapshots after releases, a recurring rule can be used to determine the intended release for a snapshot. For example, the following naming pattern can be used by a recurring rule.Using this simple pattern, a recurring rule can select only those versions that follow the pattern.  `Snapshot\_[ReleaseName]`
@@ -83,26 +83,26 @@ This example demonstrates how to use the Get Release for Environment step in a p
 
 The following figure shows the settings for the **Get Release for Environment** step. In this example, the **Output Property Name** property is named `releaseName`.
 
-[![release-plugin-release-for-environment-step](release-plugin-release-for-environment-step.jpg)](release-plugin-release-for-environment-step.jpg) The `releaseName` output property is passed to the next step in the workflow as **``${p:GetReleaseForEnvironment/releaseName}``**, as shown in the following figure.The **Create** **For Environment** step creates a snapshot by using the naming pattern that the recurring rule expects.
+[![release-plugin-release-for-environment-step](media/release-plugin-release-for-environment-step.jpg)](media/release-plugin-release-for-environment-step.jpg) The `releaseName` output property is passed to the next step in the workflow as **``${p:GetReleaseForEnvironment/releaseName}``**, as shown in the following figure.The **Create** **For Environment** step creates a snapshot by using the naming pattern that the recurring rule expects.
 
-[![release-plugin-release-for-environment-step2](release-plugin-release-for-environment-step2.jpg)](release-plugin-release-for-environment-step2.jpg)
+[![release-plugin-release-for-environment-step2](media/release-plugin-release-for-environment-step2.jpg)](media/release-plugin-release-for-environment-step2.jpg)
 When this sample process runs, it captures the name of the release, as shown in the following illustration.
 
-[![release-plugin-release-for-environment-trace](release-plugin-release-for-environment-trace.jpg)](release-plugin-release-for-environment-trace.jpg)
+[![release-plugin-release-for-environment-trace](media/release-plugin-release-for-environment-trace.jpg)](media/release-plugin-release-for-environment-trace.jpg)
 The following figure shows the snapshot in the IBM UrbanCode inventory after an integration process is run.
 
-[![release-plugin-release-for-environment-result2](release-plugin-release-for-environment-result2.jpg)](release-plugin-release-for-environment-result2.jpg)The recurring rule configuration in IBM UrbanCode Release is shown in the following figure:
+[![release-plugin-release-for-environment-result2](media/release-plugin-release-for-environment-result2.jpg)](media/release-plugin-release-for-environment-result2.jpg)The recurring rule configuration in IBM UrbanCode Release is shown in the following figure:
 
-[![release-plugin-release-for-environment-recurring](release-plugin-release-for-environment-recurring.jpg)](release-plugin-release-for-environment-recurring.jpg) **Using dates in naming patterns**
+[![release-plugin-release-for-environment-recurring](media/release-plugin-release-for-environment-recurring.jpg)](media/release-plugin-release-for-environment-recurring.jpg) **Using dates in naming patterns**
 In addition to the simple naming pattern that was used earlier, other patterns can be used to generate snapshot names.For example, you can generate a date to be used in snapshot names:
 
 1. Create a shell step that displays the system date.
 2. Use a post-processing script ([described in Adding comments to a task](#adding-comments-task)) to read the output date. Then make the date available to the following step by storing it in an output property. This figure shows a shell step that captures the system date:
 
-[![release-plugin-tips-generate-date](release-plugin-tips-generate-date.jpg)](release-plugin-tips-generate-date.jpg)
+[![release-plugin-tips-generate-date](media/release-plugin-tips-generate-date.jpg)](media/release-plugin-tips-generate-date.jpg)
 The following figure shows a post-processing script that stores the date in an output property named `GeneratedDate`.
 
-[![release-plugin-tips-generate-date-post-script](release-plugin-tips-generate-date-post-script.jpg)](release-plugin-tips-generate-date-post-script.jpg)
+[![release-plugin-tips-generate-date-post-script](media/release-plugin-tips-generate-date-post-script.jpg)](media/release-plugin-tips-generate-date-post-script.jpg)
 The date can be accessed by the following step that uses these properties:**Snapshot\_``${p:environment.name}``\_``${p:GenerateDate/GeneratedDate}``**. The generated name will be similar to `Snapshot_DEV_ 20142702`.
 
 
@@ -119,7 +119,7 @@ An IBM UrbanCode Deploy application can also run an integration process as part 
 
 This example shows how to update the inventory without using the Update Application step. In the example, an IBM UrbanCode Deploy deployment process creates a snapshot that contains all component versions that are deployed to a DEV environment. By using the Update Application step,the IBM UrbanCode Release inventory is updatedas soon as the snapshot is created.
 
-[![release-plugin-update-application-workflow](release-plugin-update-application-workflow.jpg)](release-plugin-update-application-workflow.jpg)
+[![release-plugin-update-application-workflow](media/release-plugin-update-application-workflow.jpg)](media/release-plugin-update-application-workflow.jpg)
 On the IBM UrbanCode Deploy Properties page, specify **``${p:application:id}``** in the **Application UUID** property. This is a unique number that is assigned when a new application is created in IBM UrbanCode Deploy.
 
 
@@ -139,16 +139,16 @@ The **post-deploy-message** property is accessible within the application proces
 
 To create the component process:
 
-1. In IBM UrbanCode Deploy, create a component process property without a default value for the property. In the example, the created property is called **taskPostMessage**.  [![release-plugin-property](release-plugin-property.jpg)](release-plugin-property.jpg)
-2. In the application process, use the new property to pass the value of the **post-deploy-message** property. On the Edit Properties page for the application process, specify **``${p:post-deploy-message}``** as the value for the created property.  [![release-plugin-add-comment-task-form](release-plugin-add-comment-task-form.jpg)](release-plugin-add-comment-task-form.jpg)
+1. In IBM UrbanCode Deploy, create a component process property without a default value for the property. In the example, the created property is called **taskPostMessage**.  [![release-plugin-property](media/release-plugin-property.jpg)](media/release-plugin-property.jpg)
+2. In the application process, use the new property to pass the value of the **post-deploy-message** property. On the Edit Properties page for the application process, specify **``${p:post-deploy-message}``** as the value for the created property.  [![release-plugin-add-comment-task-form](media/release-plugin-add-comment-task-form.jpg)](media/release-plugin-add-comment-task-form.jpg)
 ### **Example: Add a comment to automated task**
 
 In this example, comments are added to an IBM UrbanCode Release automated task in a scheduled deployment. The comments are generated from the output logs of two steps in an IBM UrbanCode Deploy component process. The following figure shows the requesting automated task in IBM UrbanCode Release.
 
-[![release-plugin-add-comment-task-sd](release-plugin-add-comment-task-sd.jpg)](release-plugin-add-comment-task-sd.jpg)
+[![release-plugin-add-comment-task-sd](media/release-plugin-add-comment-task-sd.jpg)](media/release-plugin-add-comment-task-sd.jpg)
 The following figure shows the workflow of the corresponding component process in IBM UrbanCode Deploy.The output logs of the ExportBackupLogs and SendNotification steps are examined and passed to the steps that follow them in the workflow,Add Comment with backup logs URL and Add Email Notification Comment, which are highlighted in the illustration.
 
-[![release-plugin-add-comment-task-workflow](release-plugin-add-comment-task-workflow.jpg)](release-plugin-add-comment-task-workflow.jpg)
+[![release-plugin-add-comment-task-workflow](media/release-plugin-add-comment-task-workflow.jpg)](media/release-plugin-add-comment-task-workflow.jpg)
 TheExportBackupLogs step uses an external tool to archive backup logs to a web server during processing. An automatically-generated URL is included in the steps output. By using a post processing script, you can scan the steps output and retrieve the URL and save it to a property that can be passed to the subsequent step. The following step, Add Comment with backup logs URL, uses the output property to create a comment in IBM UrbanCode Release.
 
 ### **Example: Scan step output by using post-processing script**
@@ -168,10 +168,10 @@ The following snippet retrieves the row and saves it to an output property that 
 
 The following figure below shows the configuration for an Add Comment to Task step, using the properties created earlier. The step retrieves the output log of the previous step and sends it to IBM UrbanCode Release.
 
-[![release-plugin-add-comment-task-step](release-plugin-add-comment-task-step.jpg)](release-plugin-add-comment-task-step.jpg)
+[![release-plugin-add-comment-task-step](media/release-plugin-add-comment-task-step.jpg)](media/release-plugin-add-comment-task-step.jpg)
 During the execution of the IBM UrbanCode Deploy deployment process, the comments are created and added to the task row in IBM UrbanCode Release. By expanding the row, the comments are displayed, as shown in the following figure:
 
-[![release-plugin-add-comment-task-result](release-plugin-add-comment-task-result.jpg)](release-plugin-add-comment-task-result.jpg)
+[![release-plugin-add-comment-task-result](media/release-plugin-add-comment-task-result.jpg)](media/release-plugin-add-comment-task-result.jpg)
 
 
 |Back to ...||Latest Version|IBM UrbanCode Release ||||

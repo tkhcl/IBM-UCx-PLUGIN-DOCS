@@ -25,8 +25,8 @@ Create a RTC changelog. The default timeframe for creating the changelog is betw
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Start BuildLife ID | String | The BuildLife ID to begin the changelog. | No |
 
 ### RTC Checkout
@@ -42,8 +42,8 @@ Clean the current working directory. There are no input properties for this step
 Create a baseline in RTC.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Label | String | The name of the baseline. | Yes |
 | Message | String | A description of the baseline. | No |
 
@@ -52,8 +52,8 @@ Create a baseline in RTC.
 Check the RTC history for quiet period detection and publish the results.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | End Date | String | End the changelog at the specified date. Enter the date in one of the following formats: `yyyy-MM-dd HH:mm:ss z`, `E MMM dd HH:mm:ss zzz yyyy`, or in milliseconds since Unix Epoch. | No |
 | Start Date | String | Start the changelog at the specified date. Enter the date in one of the following formats: `yyyy-MM-dd HH:mm:ss z`, `E MMM dd HH:mm:ss zzz yyyy`, or in milliseconds since Unix Epoch. | No |
 

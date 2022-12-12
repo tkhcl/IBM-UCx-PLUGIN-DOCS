@@ -41,7 +41,7 @@ The Execute Test Case and Execute Test Suite steps have two properties to specif
 
 In these two properties, specify the folder or file path containing the RQMExecutionTool.jar and RQMUrlUtility.jar. Follow the below picture for an example. The RQMExecutionTool.jar example property specifies the folder location, while the RQMUrlUtility example property shows the full file path. Note: These jars must be physically located on agent.
 
-![RQM Jars Specification Picture](rqmjars.png)
+![RQM Jars Specification Picture](media/rqmjars.png)
 
 
 

@@ -37,8 +37,8 @@ Microsoft Windows System Tools - Steps
 Adds or Overwrites a Key to the Registry
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Force Registry Overwrite  | Boolean | This will overwrite the existing registry key | No |
 | Registry Key | String | Specify the Registry Key (ie HKLM\Software\MyCo) | Yes |
 | Registry Value Data | String | Specifies the Registry Value Data | Yes |
@@ -59,8 +59,8 @@ Adds or Overwrites a Key to the Registry
 Check file contents against a regular expression.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Directory Offset | String | The working directory to use when executing this command. This is relative to current working directory. | No |
 | Fail if a match was found | Boolean | Check this option to fail the step if a match was found. Default is to fail if a match is not found. | No |
 | File to scan | String | The name of the file to scan. | Yes |
@@ -71,8 +71,8 @@ Check file contents against a regular expression.
 Configure DCOM Settings
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Authentication Level | Enumeration:
 * 1
 * 2
@@ -94,8 +94,8 @@ Configure DCOM Settings
 Create Message Queues
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Non-Transactional Queues | String | A new line separated list of non-transactional message queues to create. Ex: .\newQueue1 or .\Private$\newPrivateQueue1 | No |
 | Transactional Queues | String | A new line separated list of transactional message queues to create. Ex: .\newQueue1 or .\Private$\newPrivateQueue1 | No |
 
@@ -104,8 +104,8 @@ Create Message Queues
 Creates a new event log and a new event source.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Category Resource File | String | Specifies the path to the file that contains category strings for the source events. This file is also known as the Category Message File. | No |
 | Log Name | String | The Name of the event log. | Yes |
 | Message Resource File | String | Specifies the path to the file that contains message formatting strings for the source events. This file is also known as the Event Message File. | No |
@@ -118,8 +118,8 @@ Creates a new event log and a new event source.
 Creates a new scheduled task for Windows.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Day | String | Day of the week or month to run the task. The wildcard character (\*) specifies all days. Allowed values are MON, TUE, WEB, THU, FRI, SAT, SUN and for monthly schedules 1-31. | No |
 | Duration(HH:mm) | String | The duration to run the task. This value will be ignored for schedule types that it is invalid for. | No |
 | End Date(mm/dd/yyyy) | String | The last date that this schedule should run on. This value will be ignored for schedule types that it is invalid for. | No |
@@ -147,8 +147,8 @@ Creates a new scheduled task for Windows.
 Deletes a Key from the Registry
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Fail if not found | Boolean | Check this box if you want the process to fail if the registry key isnt found. | No |
 | Registry Key | String | Specify the Registry Key (ie HKLM\Software\MyCo). | Yes |
 | Registry Value | String | Specify a single value of a Registry key to delete. | No |
@@ -158,8 +158,8 @@ Deletes a Key from the Registry
 Delete a scheduled task for Windows.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Task Name | String | The Name of the scheduled task. | Yes |
 
 ### Disable Windows Features
@@ -167,8 +167,8 @@ Delete a scheduled task for Windows.
 Disable specific Windows Features. This only works with Windows 7 family of Windows.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Options | String | A comma and/or new-line separated list of additional options to be supplied to the dism command. | No |
 | Directory Offset | String | Specify a sub-directory of the current working directory where you want the command to execute | No |
 | Dism executable location | String | The path including the dism executable unless on the path. | No |
@@ -179,8 +179,8 @@ Disable specific Windows Features. This only works with Windows 7 family of Wind
 Enable specific Windows Features. This only works with Windows 7 family of Windows.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Options | String | A comma and/or new-line separated list of additional options to be supplied to the dism command. | No |
 | Directory Offset | String | Specify a sub-directory of the current working directory where you want the command to execute | No |
 | Dism executable location | String | The path including the dism executable unless on the path. | No |
@@ -191,8 +191,8 @@ Enable specific Windows Features. This only works with Windows 7 family of Windo
 End a scheduled task.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Task Name | String | The Name of the scheduled task. | Yes |
 
 ### Export Registry Subkey to File
@@ -200,8 +200,8 @@ End a scheduled task.
 Exports registry subkey to a file
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Destination File | String | Destination file for export (i.e. example.reg, c:/path/to/example.reg) | Yes |
 | Force File Overwrite  | Boolean | When enabled, this step will overwrite the destination file if it exists | No |
 | Registry Key | String | Specify the Registry Key to export (ie HKLM\Software\MyCo) | Yes |
@@ -211,8 +211,8 @@ Exports registry subkey to a file
 Imports a file containg registry keys
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Exclude Files | String | Enter a new line separated set of file filters for the files to exclude from the execution. | No |
 | Include Files | String | Enter a new line separated set of file filters to import intothe registry. | Yes |
 | Source Directory | String | Specify the Source Directory | Yes |
@@ -222,8 +222,8 @@ Imports a file containg registry keys
 Sends a message warning to logged on users to log off
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Message Text | String | Specify the message that will be displayed to users logged on to the server | Yes |
 | Number of Times to Retry | String | This determines the amount times the plugin willcheck for logged on users before failing the deploy | Yes |
 | Server to Query | String | This specifies the server to query active sessions | No |
@@ -238,8 +238,8 @@ Sends a message warning to logged on users to log off
 Logs off sessions on a server
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Number of Times to Retry | String | This determines the amount times the plugin will check for logged on users before forcing sessions to log off. Set to 0 if you dont want to wait. | Yes |
 | Server to Query | String | This specifies the server to query for sessions. | No |
 | Session name filter | String | Provide a regular expression if you want to filter the sessions affected by this step by name. Leave blank for all sessions. | No |
@@ -251,8 +251,8 @@ Logs off sessions on a server
 Assign ACLs to files or folders.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | CACLS Path | String | The path to the (X)CACLS executable. For example: C:\Windows\System32 | No |
 | CACLS Type | Enumeration:
 * cacls
@@ -275,8 +275,8 @@ Assign ACLs to files or folders.
 Reboot the os
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Agent Service Name | String | If Windows machine restarts but the step is failing, enter the Agent Service Name here. | No |
 | Time | String | The time in seconds to wait to reboot. | Yes |
 
@@ -285,8 +285,8 @@ Reboot the os
 Run a scheduled task.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Immediately | Boolean | Check to run this task immediately. | Yes |
 | Task Name | String | The Name of the scheduled task. | Yes |
 

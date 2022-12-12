@@ -28,8 +28,8 @@ Microsoft Windows Failover Clusters - Steps
 Bring clustered resources online.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Cluster Name | String | Leave blank to specify the local cluster. | No |
 | Resource List | String | A comma-separated list of resources to bring online. | Yes |
 | Run Commands In Parallel? | Boolean | If checked, all commands will be run in parallel. | No |
@@ -39,8 +39,8 @@ Bring clustered resources online.
 Bring clustered services or applications (resource groups) online.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Cluster Name | String | Leave blank to specify the local cluster. | No |
 | Run Commands In Parallel? | Boolean | If checked, all commands will be run in parallel. | No |
 | Service or Application List | String | A comma-separated list of services and/or applications to bring online. | Yes |
@@ -50,8 +50,8 @@ Bring clustered services or applications (resource groups) online.
 Move a clustered service or application to a different node.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Cluster Name | String | Leave blank to specify the local cluster. | No |
 | Node Name | String |  | Yes |
 | Service or Application Name | String | A comma-separated list of services and/or application to move to another node. | Yes |
@@ -62,8 +62,8 @@ Start the cluster service on one node in the cluster. If this is the first node 
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Cluster Name | String | Leave blank to specify the local cluster. | No |
 | Node Name | String | Leave blank to specify the local node. | No |
 
@@ -72,8 +72,8 @@ Start the cluster service on one node in the cluster. If this is the first node 
 Start the cluster service on all nodes that are not yet started.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Cluster Name | String | Leave blank to start the local cluster. | No |
 | Wait Time | String | Specifies the time in seconds to wait before starting. Leave blank to wait until there is a quorum. | No |
 
@@ -83,8 +83,8 @@ Stop the cluster service on one node in the cluster. This will fail if it would 
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Cluster Name | String | Leave blank to specify the local cluster. | No |
 | Node Name | String | Leave blank to specify the local node. | No |
 
@@ -94,8 +94,8 @@ Stop the cluster service on all nodes in a failover cluster, which will stop all
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Cluster Name | String | Leave blank to stop the local cluster. | No |
 
 ### Take Resources Offline
@@ -103,8 +103,8 @@ Stop the cluster service on all nodes in a failover cluster, which will stop all
 Take clustered resources offline.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Cluster Name | String | Leave blank to specify the local cluster. | No |
 | Resource List | String | A comma-separated list of resources to take offline. | Yes |
 | Run Commands In Parallel? | Boolean | If checked, all commands will be run in parallel. | No |
@@ -114,8 +114,8 @@ Take clustered resources offline.
 Take clustered services or applications (resource groups) offline.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Cluster Name | String | Leave blank to specify the local cluster. | No |
 | Run Commands In Parallel? | Boolean | If checked, all commands will be run in parallel. | No |
 | Service or Application List | String | A comma-separated list of services and/or applications to bring offline. | Yes |

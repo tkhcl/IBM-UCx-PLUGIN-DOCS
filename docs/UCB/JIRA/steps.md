@@ -25,8 +25,8 @@ Add comments to JIRA issues detected by parsing the source change comments of th
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Comment | String | The template to use for adding a comment to JIRA Issues. | Yes |
 | Fail Mode | Enumeration:
 | What should be done when an issue can not be commented on. | Yes |
@@ -39,8 +39,8 @@ Validate the status of JIRA issues detected by parsing the source change comment
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Fail Mode | Enumeration:
 | What should be done when an unexpected status is found. | Yes |
 | Issue ID Pattern | String | A regular expression that represents the IDs to search for in the build life source change comments.Eg. TEST-[0-9]+ | Yes |
@@ -52,8 +52,8 @@ Validate the status of JIRA issues detected by parsing the source change comment
 Create a new issue in JIRA. The type of issue created is configurable.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Assignee | String | The JIRA username to assign the issue to. Use -1 to use JIRAs automatic assignment. | Yes |
 | Environment | String | The environment of this issue. | No |
 | Issue Description | String | The description of this issue. | Yes |
@@ -68,8 +68,8 @@ Create a report of JIRA issues detected by parsing the source change comments of
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Issue ID Pattern | String | A regular expression that represents the IDs to search for in the build life source change comments.Eg. TEST-[0-9]+ | Yes |
 | JIRA Workspace |  |  | Yes |
 
@@ -78,8 +78,8 @@ Create a report of JIRA issues detected by parsing the source change comments of
 Update JIRA issues detected by parsing the source change comments of the build life.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Action Name | String | The Action which should be performed upon the issues. (e.g. Resolve Issue or Close Issue) | Yes |
 | Additional Comment | String | Enter any comments that you would like to be added to the issue when it is updated. Leave the field blank if you do not want to add any comments. | No |
 | Issue ID Pattern | String | A regular expression that represents the IDs to search for in the build life source change comments.Eg. TEST-[0-9]+ | Yes |

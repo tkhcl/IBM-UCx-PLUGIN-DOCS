@@ -20,8 +20,8 @@ Apache Ant - Steps
 Run an Ant script.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | ANT OPTS | String | One or more Ant-specific arguments, which are used in the ANT\_OPTS environment variable. For example, -Xmx1024m or -XX:MaxPermSize=512m. Enter each argument on a separate line. | No |
 | ANT\_HOME | String | The installation directory of Apache Ant. The default value is the ANT\_HOME environment variable for the agent. | Yes |
 | Ant Properties | String | One or more Ant-specific arguments, such as using -v for verbose output. Enter each argument on a separate line. | No |

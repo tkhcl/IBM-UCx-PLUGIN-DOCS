@@ -20,8 +20,8 @@ Gerrit - Steps
 Apply a Gerrit review.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Commit | String | The commit in Gerrit that is being reviewed. When using this plugin with Git repository triggers, the value will be in the buildlife/revision property. | No |
 | Labels | String | A comma-separated list of NAME=VALUE pairs | No |
 | Message | String |  | No |

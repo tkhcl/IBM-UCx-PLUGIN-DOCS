@@ -23,8 +23,8 @@ HP Fortify - Steps
 Run a build using Fortify
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Build Id | String | The build id for HP Fortify | Yes |
 | Build Options | String | The options passed to the SourceAnalyzer. Each argument should be on a new line. | No |
 | HP Fortify Configuration |  |  | No |
@@ -36,8 +36,8 @@ Run a build using Fortify
 Run a clean with the Fortify SourceAnalyzer
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Build Id | String | The build id for HP Fortify | Yes |
 | HP Fortify Configuration |  |  | No |
 | Java Memory Setting | String | An optional argument given to the HP Fortify scan to allocate its maximum memory. Example: -Xmx1200m | No |
@@ -48,8 +48,8 @@ Run a clean with the Fortify SourceAnalyzer
 Run a scan using Fortify and upload the results to uBuild
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Build Id | String | The build id for HP Fortify | Yes |
 | HP Fortify Configuration |  |  | No |
 | Java Memory Setting | String | An optional argument given to the HP Fortify scan to allocate its maximum memory. Example: -Xmx1200m | No |
@@ -62,8 +62,8 @@ Run a scan using Fortify and upload the results to uBuild
 Upload the Fortify scan output to the HP Fortify and uBuild servers
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | HP Fortify Configuration |  |  | No |
 | Project | String | The Project name in the HP Fortify server to upload results to | Yes |
 | Report Name | String | The name of the report | Yes |

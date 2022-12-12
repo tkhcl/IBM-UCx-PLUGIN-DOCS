@@ -49,14 +49,14 @@ Once the jar and .html files have been downloaded, place them in the same folder
 The Selenium plug-in is a simple automation plugin with the `Run Test Suite` step. To demo its functionality, create a simple generic process with this step. The entire generic process should look as simple as this:
 
 
-[![](process-1.png)](process-1.png)
+[![](media/process-1.png)](media/process-1.png)
 Simple generic process containing the Run Test Suite step.
 
 
 In my local environment, the `Run Test Suite` has the following configuration:
 
 
-[![](step-config-3.png)](step-config-3.png)
+[![](media/step-config-3.png)](media/step-config-3.png)
 Sample configuration of the Run Test Suite step.
 
 
@@ -103,7 +103,7 @@ After the process completes, view the step logs for important information. First
 Occasionally, you may find instances where the test suite runs successfully through Seleniums IDE, but fails when run through the plug-in. Before you create a PMR or devWorks questions, one quick check you can do locally is running the CLI manually. As you may recall, the plug-in is based on the Selenium standalone or runner jar, so the problem may be caused by the CLI itself. To identify the command to run, look in the logs for the outlined command snippet:
 
 
-[![](log-snippet.png)](log-snippet.png)
+[![](media/log-snippet.png)](media/log-snippet.png)
 The Selenium steps runtime command
 
 

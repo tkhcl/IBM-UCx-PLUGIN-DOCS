@@ -2,7 +2,7 @@
 DBmaestro
 =========
 
-![DBmaetro Logo](logo-300x74.png)DBmaestro TeamWork is the leading DevOps for Database solution that brings true continuous delivery – complete with the best practices proven effective for application development – to the database. DBmaestro TeamWork integration with IBM UrbanCode Deploy, can help your team to safely include the database component within the existing deployment processes of the application tiers from building (generating the upgrade SQL scripts) to verifying the environments are identical (no drifts) to deploying (executing the planned upgrade SQL scripts) while documenting the changes.
+![DBmaetro Logo](media/logo-300x74.png)DBmaestro TeamWork is the leading DevOps for Database solution that brings true continuous delivery – complete with the best practices proven effective for application development – to the database. DBmaestro TeamWork integration with IBM UrbanCode Deploy, can help your team to safely include the database component within the existing deployment processes of the application tiers from building (generating the upgrade SQL scripts) to verifying the environments are identical (no drifts) to deploying (executing the planned upgrade SQL scripts) while documenting the changes.
 
 Benefits:
 

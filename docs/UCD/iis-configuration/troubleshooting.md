@@ -13,7 +13,7 @@ You might get the following error message in the output log when you run topolog
 
 If you see null messages in the output log, copy the `cmd.exe` command that is printed at the top of the output log and run the command manually from a command prompt on the Microsoft Windows server where the agent is running. Remember to include the quotation marks at both ends of the command that you copy from the output log. Typically, when you run the command manually on the agent computer, more informative messages are displayed at the command prompt. See the following screen captures for an example.
 
-[![output log](iistrouble0.png)](iistrouble0.png)[![command line](iistrouble1_crop.png)](iistrouble1_crop.png)[![command output](iistrouble2_crop.png)](iistrouble2_crop.png)
+[![output log](media/iistrouble0.png)](media/iistrouble0.png)[![command line](media/iistrouble1_crop.png)](media/iistrouble1_crop.png)[![command output](media/iistrouble2_crop.png)](media/iistrouble2_crop.png)
 
 ### Messages about unrecognized attributes are displayed when you use the deployment command from the output log at a command prompt
 

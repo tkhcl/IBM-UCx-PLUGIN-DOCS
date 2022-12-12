@@ -34,7 +34,7 @@ IBM WebSphere Portal - Usage
 5. Click **Save**.
 3. On the Resources page, click the **Actions** push button that is associated with the `WebSphereCell` resource, and then click **Configure using WebSphere Topology Discovery**. The discovery step runs. This step might take several minutes. A log is displayed to show progress.
 4. When the discovery process completes, close the log window, and then refresh the resource tree. Resources that represent the WebSphere Application Server components are displayed in the resource tree.
-5. Define properties for the `WebSphere_Portal` resource, which is located under `*cell\_name*/Nodes/*node\_name*/Portal Servers` in the resource tree. Click the resource, then the **Configuration** tab, then **Resource Properties**. The Edit Resource window is displayed, with **Role** set to **PortalServer**. The heading of the properties table is `Role Properties: PortalServer`, as shown in the following screen capture.[![WebSphere Portal properties](portal3_crop.png)](portal3_crop.png)
+5. Define properties for the `WebSphere_Portal` resource, which is located under `*cell\_name*/Nodes/*node\_name*/Portal Servers` in the resource tree. Click the resource, then the **Configuration** tab, then **Resource Properties**. The Edit Resource window is displayed, with **Role** set to **PortalServer**. The heading of the properties table is `Role Properties: PortalServer`, as shown in the following screen capture.[![WebSphere Portal properties](media/portal3_crop.png)](media/portal3_crop.png)
 * For ND topology, define the properties for `Portal Cluster`, `Portal Primary Node`, and `Portal Secondary Node` resources.
 * For a stand-alone topology, define the properties for the `Portal Node` resource.Define the following properties:
 
@@ -45,11 +45,11 @@ IBM WebSphere Portal - Usage
 * `portal.config.port`: Portal configuration port, by default `10039`
 * `websphere.password`: WebSphere administrator password**Note:** The `portal.config.port` property must match the `XmlAccessPort` property that is defined in the `wkplc_comp.properties` file. For more information, see [Properties file: wkplc\_comp.properties](https://www.ibm.com/support/knowledgecenter/SSHRKX_8.5.0/mp/properties/wkplc_comp-dita.html).
 6. Create components for the resources. You need one component for each resource to deploy.
-The following example screen capture shows a portlet WAR file that is stored in the root of a component.[![portal1](portal1.png)](portal1.png)
+The following example screen capture shows a portlet WAR file that is stored in the root of a component.[![portal1](media/portal1.png)](media/portal1.png)
 7. Add the components to the resources.
 1. Go to the resource.
 2. Select **Actions > Add Component**.
-3. Select the component to use.The following example screen capture shows a portlet component that is mapped to a Portal server.[![portal2](portal2.png)](portal2.png)
+3. Select the component to use.The following example screen capture shows a portlet component that is mapped to a Portal server.[![portal2](media/portal2.png)](media/portal2.png)
 8. Create the application.
 1. Go to Applications.
 2. Click **Create New Application** (if one does not exist). You can also use an existing application that is attached to the cell to manage.
@@ -63,7 +63,7 @@ The following example screen capture shows a portlet WAR file that is stored in 
 10. Create a component process of type Deployment to deploy a Portal WAR file.
 1. On the component page, click **Processes**, and then click **Create Process**. The Create Process window is displayed.
 2. Specify a name for the process, select **Deployment** in the **Process Type** list, and then click **Save**.
-3. Add a Download Artifacts step and then a Deploy Portal WAR step to the process. The following example screen capture shows a component process that deploys a portlet WAR file.[![portal5](portal5.png)](portal5.png) If you edit the Deploy Portal WAR process step, and then select **Show Hidden Properties**, you can see that the step properties correspond to the properties that you defined in step 5 previously.[![Component process step properties](portal7.png)](portal7.png)
+3. Add a Download Artifacts step and then a Deploy Portal WAR step to the process. The following example screen capture shows a component process that deploys a portlet WAR file.[![portal5](media/portal5.png)](media/portal5.png) If you edit the Deploy Portal WAR process step, and then select **Show Hidden Properties**, you can see that the step properties correspond to the properties that you defined in step 5 previously.[![Component process step properties](media/portal7.png)](media/portal7.png)
 4. Save the process.
 11. Create an application process to install the component.
 1. On the application page, click **Processes**, and then click **Create Process**. The Create Process window is displayed.
@@ -73,7 +73,7 @@ The following example screen capture shows a portlet WAR file that is stored in 
 5. Save the process.
 12. To test the newly created component, run the application process on your environment.
 
-Open WebSphere Portal, and then search for the portlet by name. The portlet is displayed, as shown in the following screen capture. You can now add the portlet to a page.[![Portal portlet](portal10.png)](portal10.png)
+Open WebSphere Portal, and then search for the portlet by name. The portlet is displayed, as shown in the following screen capture. You can now add the portlet to a page.[![Portal portlet](media/portal10.png)](media/portal10.png)
 
 
 |Back to ...||Latest Version|IBM WebSphere Portal |||||

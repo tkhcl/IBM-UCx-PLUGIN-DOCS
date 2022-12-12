@@ -18,7 +18,7 @@ To use the steps in the plug-in, you must first install and initialize the plug-
 
 After these steps have run, the plug-in is installed and initialized. You can now run the following plug-in steps: [Build Image from Dockerfile](#build_image_from_dockerfile), [Run Container](#run_container), [Start Containers](#start_containers), [Stop Containers](#stop_containers), [Set Namespace](#set_namespace), [Request IP Address](#request_ip_address), [Release IP Address](#release_ip_address), [Bind IP Address](#bind_ip_address), [Unbind IP Address](#unbind_ip_address), [Execute Command On Container](#execute_command_on_container), [Create Group](#create_group), [Remove Group](#remove_group), and [Update Group](#update_group).
 
-The following screen capture shows an example process that installs and initializes the plug-in, and then runs a container: [![Cloud Foundry process](usage_example_process.gif)](usage_example_process.gif)
+The following screen capture shows an example process that installs and initializes the plug-in, and then runs a container: [![Cloud Foundry process](media/usage_example_process.gif)](media/usage_example_process.gif)
 
 
 |Back to ...||Latest Version|IBM Containers ||||

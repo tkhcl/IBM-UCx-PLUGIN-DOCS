@@ -43,8 +43,8 @@ Kubernetes - Steps
 Apply a configuration to a resource by filename. This resource will be created if it doesnt exist yet. To use, always create the resource initially with this step
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | File Name | String | File name, directory, or URL of a file to use to apply the resources. Only JSON and YAML formats are accepted. | Yes |
 | Namespace | String | The namespace on the Kubernetes server to apply the resource in. | No |
 | Password | Password | The password to access the Kubernetes server. | No |
@@ -56,8 +56,8 @@ Apply a configuration to a resource by filename. This resource will be created i
 Creates an autoscaler that automatically chooses and sets the number of pods that run in a kubernetes cluster.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | File Name | String | File name, directory, or URL of a file to use to specify the resources to auto scale. Only JSON and YAML formats are accepted. | No |
 | Namespace | String | The namespace on the Kubernetes server. | No |
 | Password | Password | The password to access the Kubernetes server. | No |
@@ -69,8 +69,8 @@ Creates an autoscaler that automatically chooses and sets the number of pods tha
 Creates UCD components for each container image found in a Helm release
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Component Name Prefix | String | If you wish to add a prefix to the name of the Components which will be created to represent container images, enter the prefix here. | No |
 | Component Template | String | The template to use when creating components from Kubernetes application resources. You can use component templates to store different sets of registry credentials. | No |
 | Release Name | String | Name of the Helm release to be inspected. | Yes |
@@ -80,8 +80,8 @@ Creates UCD components for each container image found in a Helm release
 Create a Kubernetes cluster resource in the Resource Tree.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Allow Insecure Connections | String | Set this property to true to allow insecure registry connections. | No |
 | Bearer Token | String | Bearer token for authentication to the API server. | No |
 | Certificate Authority | String | Path to a certificate file for the certificate authority. | No |
@@ -102,8 +102,8 @@ Create a Kubernetes cluster resource in the Resource Tree.
 Create a resource by file name.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | File Name | String | File name, directory, or URL of a file to use to create the resources. Only JSON and YAML formats are accepted. | Yes |
 | Namespace | String | The namespace on the Kubernetes server to create the resource in. | No |
 | Password | Password | The password to access the Kubernetes server. | No |
@@ -115,8 +115,8 @@ Create a resource by file name.
 Delete resources by file names, resource types and names, or resource types and labels.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Deletion Type | Enumeration:
 * names
 * labels
@@ -134,8 +134,8 @@ Delete resources by file names, resource types and names, or resource types and 
 Expose a replication controller, service, or pod as a new Kubernetes service.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Namespace | String | The namespace on the Kubernetes server to expose the resource in. | No |
 | Password | Password | The password to access the Kubernetes server. | No |
 | Resource | String | The name of the resource to expose. For a Resource Type of File, specify a file name, directory, or URL of a file that identifies the resource to expose. | Yes |
@@ -148,8 +148,8 @@ Expose a replication controller, service, or pod as a new Kubernetes service.
 Gets the current-context and sets it as an output property in the format ``${p:stepName/current-context}``
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Namespace | String | The namespace on the Kubernetes server to create the resource in. | No |
 | Password | Password | The password to access the Kubernetes server. | No |
 | URL | String | The URL of the Kubernetes server. For example: https://10.2.2.2:8443. | No |
@@ -160,8 +160,8 @@ Gets the current-context and sets it as an output property in the format ``${p:s
 Initializes the IBM Cloud Container Services plug-in and downloads Kubernetes configuration data and certificates to connect to your cluster by using kubectl commands. Output of this step is a property in the format ``${p:stepName/kubeconfig}`` which points to the downloaded Kubernetes config file.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Cluster Name | String | Name of the Kubernetes cluster for which to download configuration data and certificates for. | No |
 
 ### Helm Delete
@@ -169,8 +169,8 @@ Initializes the IBM Cloud Container Services plug-in and downloads Kubernetes co
 Deletes a release from Kubernetes
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Flags | String | A newline-seperated list of flags to set when running the helm command. For example: purge | No |
 | Release | String | Name of the release to be deleted. | Yes |
 
@@ -179,8 +179,8 @@ Deletes a release from Kubernetes
 Runs a helm status [RELEASE\_NAME] command to determine if a release exists or not. Sets an output property in the format ``${p:stepName/release-exists}`` to a value of true if the release does exist or false if the release does not exist
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Flags | String | A newline-seperated list of flags to set when running the helm command. For example: tls | No |
 | Release | String | Name of the release to check | Yes |
 
@@ -189,8 +189,8 @@ Runs a helm status [RELEASE\_NAME] command to determine if a release exists or n
 Sets up local configuration in $HELM\_HOME. If the client-only flag is not set, this step will install the latest version of Tiller onto your Kubernetes cluster.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Cluster Name | String | By default, Tiller will be installed to the Kubernetes cluster with the current context. To install to a differnet cluster, enter the clusters name in this field. | No |
 | Flags | String | A newline-seperated list of flags to set when running the helm command. For example: local-repo-url http://127.0.0.1:8879/charts | No |
 
@@ -199,8 +199,8 @@ Sets up local configuration in $HELM\_HOME. If the client-only flag is not set, 
 Installs a chart archive. The release name is set as an output property in the format ``${p:stepName/helm.release}`` and may be set as a component property if desired.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Chart | String | The chart to install. There are four different ways to specify a chart: 1. By chart reference (for example, stable/mariadb) 2. By path to a packaged chart (for example, ./nginx-1.2.3.tgz) 3. By path to an unpackaged chart (for example, ./nginx) 4. By absolute URL (for example, https://example.com/charts/nginx-1.2.3.tgz) | Yes |
 | Flags | String | A newline-seperated list of flags to set when running the helm command. For example: namespace myNamespace | No |
 | Release Name | String | Name of the release. If unspecified, a release name will be autogenerated for you. | No |
@@ -211,8 +211,8 @@ Installs a chart archive. The release name is set as an output property in the f
 Upgrades a release to a new version of a chart
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Chart | String | The chart to be applied. The chart can be either: a chart reference(stable/mariadb), a path to a chart directory, a packaged chart, or a fully qualified URL. For chart references, the latest version will be specified unless the version flag is set. | Yes |
 | Flags | String | A newline-seperated list of flags to set when running the helm command. For example: purge | No |
 | Release | String | Name of the release to be upgraded | Yes |
@@ -222,8 +222,8 @@ Upgrades a release to a new version of a chart
 Update field(s) of a resource using strategic merge patch
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | File Name | String | File name, directory, or URL of a file used to identify the resource to patch. Only JSON and YAML formats are accepted. | No |
 | Namespace | String | The namespace on the Kubernetes server to patch the resource in. | No |
 | Password | Password | The password to access the Kubernetes server. | No |
@@ -236,8 +236,8 @@ Update field(s) of a resource using strategic merge patch
 Reads a Kubernetes YAML file, creates UrbanCode Deploy components and resources representing container images found in the YAML file, and creates a updated YAML file with dynamically updated container image versions.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Always Apply Image Tags from YAML | String | If set to true, the container image tags specified in the YAML file(s) will always be applied. If set to false, container image tags specified by the user through the UrbanCode Deploy user interface will be applied (or the current container image tags in the UrbanCode Deploy inventory will be applied if none are selected). | No |
 | Component Template | String | The template to use when creating components from Kubernetes application resources. You can use component templates to store different sets of registry credentials. | No |
 | YAML File(s) | String | Path and name of your Kubernetes yaml file or a directory containing multiple yaml files. If left blank, all .yaml and .yml files in the working directory will be processed. | No |
@@ -247,8 +247,8 @@ Reads a Kubernetes YAML file, creates UrbanCode Deploy components and resources 
 Replace (update) a resource by file name.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | File Name | String | File name, directory, or URL of a file to use to replace (update) the resources. Only JSON and YAML formats are accepted. | Yes |
 | Namespace | String | The namespace on the Kubernetes server where the resource to replace is in. | No |
 | Password | Password | The password to access the Kubernetes server. | No |
@@ -260,8 +260,8 @@ Replace (update) a resource by file name.
 Perform a rolling update of the given Replication Controller.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | File Name | String | File name, directory, or URL of a file to use to specify the resources to update. Only JSON and YAML formats are accepted. | No |
 | Namespace | String | The namespace on the Kubernetes server. | No |
 | Password | Password | The password to access the Kubernetes server. | No |
@@ -274,8 +274,8 @@ Perform a rolling update of the given Replication Controller.
 Manage a deployment using subcommands like kubectl rollout undo deployment/abc. If performing kubectl rollout history, the history is set as an output property in the format ``${p:stepName/history}``
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command | Enumeration | Rollout command to use. Valid values are history, pause, restart, resume, status, and undo. | No |
 | Namespace | String | The namespace on the Kubernetes server to use. | No |
 | Password | Password | The password to access the Kubernetes server. | No |
@@ -288,8 +288,8 @@ Manage a deployment using subcommands like kubectl rollout undo deployment/abc. 
 Create and run a particular image.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Deployment Name | String | Name to use for the created deployment. Defaults to the specified image name if left blank. | No |
 | Image Name | String | Name of the image to run. | Yes |
 | Namespace | String | The namespace on the Kubernetes server to run the image in. | No |
@@ -302,8 +302,8 @@ Create and run a particular image.
 Set a new size for a Deployment, ReplicaSet, Replication Controller, or Job.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | File Name | String | File name, directory, or URL of a file to use to specify the resources to scale. Only JSON and YAML formats are accepted. | No |
 | Namespace | String | The namespace on the Kubernetes server. | No |
 | Password | Password | The password to access the Kubernetes server. | No |
@@ -315,8 +315,8 @@ Set a new size for a Deployment, ReplicaSet, Replication Controller, or Job.
 Sets a cluster entry in kubeconfig
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Cluster Entry Name | String | Name of the cluster entry. | Yes |
 | Namespace | String | The namespace for the context entry in kubeconfig | No |
 | Password | Password | The password to access the Kubernetes server. | No |
@@ -328,8 +328,8 @@ Sets a cluster entry in kubeconfig
 Sets a user entry in kubeconfig
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Namespace | String | The namespace for the context entry in kubeconfig | No |
 | Password | Password | The password to access the Kubernetes server. | No |
 | URL | String | The URL of the Kubernetes server. For example: https://10.2.2.2:8443. | No |
@@ -341,8 +341,8 @@ Sets a user entry in kubeconfig
 Sets a context entry in kubeconfig
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Context Name | String | Name of the context to be used. | Yes |
 | Namespace | String | The namespace for the context entry in kubeconfig | No |
 | Password | Password | The password to access the Kubernetes server. | No |
@@ -354,8 +354,8 @@ Sets a context entry in kubeconfig
 Sets the current-context in a kubeconfig file
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Context Name | String | Name of the context to be used. | Yes |
 | Namespace | String | The namespace on the Kubernetes server. | No |
 | Password | Password | The password to access the Kubernetes server. | No |
@@ -393,4 +393,4 @@ Role for resources that represents a Kubernetes Cluster.
 
 |Back to ...||Latest Version|Kubernetes ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[29.1130033](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/ucd-kubernetes-29.1130033.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[31.1145303](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/ucd-kubernetes-31.1145303.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

@@ -20,8 +20,8 @@ Maven for IBM UrbanCode Build - Steps
 Run a Maven build
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Goals | String | The names of the goals to run. If blank, the default goal is run. | No |
 | JAVA\_HOME | String | The path to the Java installation to use to run Maven. Default is the JAVA\_HOME environment variable of the agent. | Yes |
 | JVM Arguments | String | JVM-specific arguments. For example, specify -Xmx=512m to set the maximum heap size. Enter each argument on a new line. | No |

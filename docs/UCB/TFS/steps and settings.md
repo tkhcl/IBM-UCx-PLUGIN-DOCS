@@ -24,8 +24,8 @@ Use this step to perform a Team Foundation Server (TFS) changelog and publish th
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | End Date | String | The date that the changelog is to end. Specify in one of the following formats: `yyyy-MM-dd HH:mm:ss z`, `E MMM dd HH:mm:ss zzz yyyy`, or milliseconds since Unix Epoch. | No |
 | Start Date | String | The date that the changelog is to begin. Specify in one of the following formats: `yyyy-MM-dd HH:mm:ss z`, `E MMM dd HH:mm:ss zzz yyyy`, or milliseconds since Unix Epoch. | No |
 
@@ -34,8 +34,8 @@ Use this step to perform a Team Foundation Server (TFS) changelog and publish th
 Use this step to create a label in TFS.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Label | String | The name of the label to create. | No |
 | Message | String | The message text for the commit. | Yes |
 | Source Date | String | The date of the initial source to get in milliseconds. | Yes |
@@ -45,8 +45,8 @@ Use this step to create a label in TFS.
 Use this step to perform a TFS get source action.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Date | String | The date of sourcecode to checkout in one of the following formats: `yyyy-MM-dd HH:mm:ss z`, `E MMM dd HH:mm:ss zzz yyyy`, or milliseconds since Unix Epoch. The default value is the requested build date for the workflow. | No |
 
 ### TFS Quiet Period
@@ -55,8 +55,8 @@ Use this step to perform a TFS changelog for quiet period detection and publish 
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | End Date | String | The date the changelog is to end. Specify in one of the following formats: `yyyy-MM-dd HH:mm:ss z`, `E MMM dd HH:mm:ss zzz yyyy`, or in milliseconds since Unix Epoch. | No |
 | Start Date | String | The date that the changelog is to begin. Specify the date in one of the following formats: `yyyy-MM-dd HH:mm:ss z`, `E MMM dd HH:mm:ss zzz yyyy`, or in milliseconds since Unix Epoch. | No |
 

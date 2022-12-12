@@ -21,10 +21,10 @@ Map the relevant component to your application environments resource tree, as sh
 
 In IBM UrbanCode Deploy, go to the Applications page. Click the example IISApp application. Click the deployment push button on the environment where you want to run the live comparison. From the **Process** list, select **Live Compare**. Select the version or versions from multiple components to compare against the live configuration. If you select multiple component versions, they are compared sequentially. Ensure that **Only Changed Versions** is cleared. For an example of the Run Process window, see **Figure 2**. Click **Submit**. The live comparison process runs. Typically, it can take several seconds to run the comparison, depending on how much configuration data is stored.
 
-[![Figure 1. IIS application component that is mapped to the resource tree.](iiscompare1.png)](iiscompare1.png)
+[![Figure 1. IIS application component that is mapped to the resource tree.](media/iiscompare1.png)](media/iiscompare1.png)
 Figure 1. IIS application component that is mapped to the resource tree.
 
-[![Figure 2. The Run Process window for a live comparison process.](iiscompare2.png)](iiscompare2.png)
+[![Figure 2. The Run Process window for a live comparison process.](media/iiscompare2.png)](media/iiscompare2.png)
 Figure 2. The Run Process window for a live comparison process.
 
 ### Analyzing changes
@@ -33,13 +33,13 @@ After the live comparison process completes, you can review and analyze the resu
 
 To view the configuration drift, expanding the child objects of the process request until the IIS Configuration Live Comparison plug-in step is displayed. When you hover your mouse pointer over this row, a compare icon is displayed at the right side of the Step column. Click the compare icon. Any changes between the version that you selected and the current live configuration are displayed here, highlighted in yellow and orange. To view the full comparison tree that includes unchanged assets, clear **Only Show Changes** at the upper left. See **Figures 3-5** for visual reference.
 
-[![Figure 3. The compare icon on the process request page.](iiscompare3.png)](iiscompare3.png)
+[![Figure 3. The compare icon on the process request page.](media/iiscompare3.png)](media/iiscompare3.png)
 Figure 3. The compare icon on the process request page.
 
-[![Figure 4. The Differences window that is displayed after you click the compare icon. The arrow points to the link to view changed properties.](iiscompare4.png)](iiscompare4.png)
+[![Figure 4. The Differences window that is displayed after you click the compare icon. The arrow points to the link to view changed properties.](media/iiscompare4.png)](media/iiscompare4.png)
 Figure 4. The Differences window that is displayed after you click the compare icon. The arrow points to the link to view changed properties.
 
-[![Figure 5. The Compare Properties window that is displayed after you click View Properties. The Compare Properties window shows the changed properties.](iiscompare5.png)](iiscompare5.png)
+[![Figure 5. The Compare Properties window that is displayed after you click View Properties. The Compare Properties window shows the changed properties.](media/iiscompare5.png)](media/iiscompare5.png)
 Figure 5. The Compare Properties window that is displayed after you click View Properties. The Compare Properties window shows the changed properties.
 
 ### Result
@@ -75,14 +75,14 @@ Add the agent that is running on the computer where the preconfigured working ap
 
 Wait 10 seconds while the automatic discovery process runs, and then click **Refresh** at the lower left of the resource tree pane. A new resource role that is called webServer is displayed as a child of the agent. An example resource tree is shown in **Figure 1**.
 
-[![Resource tree](fig1.png)](fig1.png)
+[![Resource tree](media/fig1.png)](media/fig1.png)
 Figure 1. The resource tree with top-level group, agent, and discovered webServer object.
 
 Click the **Edit** icon for the webServer resource role and verify that the properties are set correctly for the computer, and then click **OK**.
 
 For the webServer object, click **Actions > Configure using IIS Configuration Configure**. The Configure step runs and creates the rest of the topology in UrbanCode Deploy. After the Configure step completes, a topology is displayed that matches your IIS topology. An example topology is shown in **Figure 2**.
 
-[![Full topology](fig2.png)](fig2.png)
+[![Full topology](media/fig2.png)](media/fig2.png)
 Figure 2. The resource tree with full topology (left) after the configure step completes. On the right, the topology on IIS Manager for comparison. The topologies should match.
 
 ### Discover an IIS configuration
@@ -101,19 +101,19 @@ You can now apply the configuration to a new environment. The first step is to a
 
 Go to the Applications page. The IISApp application is automatically installed when you install the plug-in. Click the IISApp application. Three example environments are displayed. In this example, you use two of the environments, IIS Test and IIS Prod. To set up the IIS Test environment, click the IIS Test environment to open the environment resource pane. Click **Add Base Resources**, and then select the entire topology that you discovered previously. After you add base resources from the topology, the resource tree looks similar to the tree shown in **Figure 3**.
 
-[![Base resources](fig3.png)](fig3.png)
+[![Base resources](media/fig3.png)](media/fig3.png)
 Figure 3. The resource tree in the IIS Test environment after you add base resources.
 
 After the IIS Test environment is set up, you discover the configuration of the target IIS computer, which you can then add to the resource tree for the IIS Prod environment. Repeat the steps in the *Discover an IIS configuration* section, but use the agent on the computer where you plan to deploy the application.
 
 The resource tree now contains two topologies: one that corresponds to the agent on the IIS Test environment, and one that corresponds to the target computer where you plan to deploy the application. The resource tree looks similar to the tree shown in **Figure 4**.
 
-[![After discovery](fig4.png)](fig4.png)
+[![After discovery](media/fig4.png)](media/fig4.png)
 Figure 4. The resource tree after you discover the topology on the target computer.
 
 Next, you add a resource role as a placeholder in the resource tree to represent the application to move to the target environment. Add a resource role by clicking the **Show** drop-down list underneath the tabs for the resource tree, and then click **Resource Roles**. A sidebar that contains resource roles is displayed on the right side of the window. The resource roles that are associated with the plug-in all have the `IIS` prefix. Drag the IISApp resource role to the production topology that you created and drop it under the target site. In this example, drag the IISApp resource role under the `Default Web Site` folder to host the application on that site. When you drop the IISApp resource role, you are prompted to provide basic properties for the application placeholder. Complete any relevant information, including a name. In this example, the application is called `b2evolution`, for the open source application B2Evolution, as shown in **Figure 5**. The applicationPool object in this example is DefaultAppPool.
 
-[![Renamed resource role](fig5.png)](fig5.png)
+[![Renamed resource role](media/fig5.png)](media/fig5.png)
 Figure 5. The resource roles on the right, after dragging an IISApp to the resource tree and renaming it to b2evolution.
 
 After you add the IISApp resource role, you add the IIS Application Config component to the tree so that the component has access to the supplied properties. This component contains your configuration files and thus represents the application. Click **Actions** for the IISApp resource role that you added, then click **Add Component** and select **IIS Application Config**. Your component is now displayed under the resource role that you added to the tree.

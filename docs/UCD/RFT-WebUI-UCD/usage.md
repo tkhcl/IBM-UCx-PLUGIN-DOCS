@@ -31,15 +31,15 @@ After deploying the Rational Test WorkbenchWeb UI Tester plugin on the server, c
 
 A typical process for the Rational Test Workbench Web UI Testerplugin will look like the following snapshot:
 
-[![rtw-ucd](rtw-ucd.png)](rtw-ucd.png)
+[![rtw-ucd](media/rtw-ucd.png)](media/rtw-ucd.png)
 
 A process with multiple tests will look like the following snapshot:
 
-[![rtw-ucd-multitests](rtw-ucd-multitests.png)](rtw-ucd-multitests.png)
+[![rtw-ucd-multitests](media/rtw-ucd-multitests.png)](media/rtw-ucd-multitests.png)
 
 If you have installed multiple products on one target machine, either in the same or different package groups, you can use a single process that includes steps from different products. You must install the plugins of all of the products that you want to use. The process will look like the following snapshot:
 
-[![rtw-ucd-multiprodtest](rtw-ucd-multiprodtest.png)](rtw-ucd-multiprodtest.png)
+[![rtw-ucd-multiprodtest](media/rtw-ucd-multiprodtest.png)](media/rtw-ucd-multiprodtest.png)
 
 
 |Back to ...||Latest Version|IBM Rational Test Workbench Web UI Tester ||||

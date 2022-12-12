@@ -22,8 +22,8 @@ Install agent to remote machine using WinRS
 Before you can run this step, you must configure the target system as described in [Installing agents on Windows through WinRS](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=agents-installing-windows-through-winrs) in the product documentation.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Agent Host | String | The hostname or IP address of the machine to install an agent to. | Yes |
 | Agent Name | String | The name that the agent should show up as in IBM UCD. | Yes |
 | Installation Directory | String | The directory that the agent should be installed to. | Yes |

@@ -14,8 +14,8 @@ The following integration settings are available when you install the Deployment
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Frequency | Enumeration | Frequency that
 report should be sent. Specify either Unrestricted, Weekly, or Monthly. | Yes |
 | Recipients | String | Comma-separated

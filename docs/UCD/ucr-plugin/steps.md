@@ -26,8 +26,8 @@ Use this step to add a comment to an automated task that was started from a sche
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Comment | String | The text to add as a comment to the task execution. | No |
 | Password | String | The password to access IBM UrbanCode Release. | Yes |
 | Post Message | String | The post message that is sent from IBM UrbanCode Release containing the taskID. Create the taskPostMessage property at the component process level without a default value. The application process sets the taskPostMessage property during execution with ``${p:post-deploy-message}`` property value. | Yes |
@@ -39,8 +39,8 @@ Use this step to add a comment to an automated task that was started from a sche
 Use this step to add a version status to a snapshot.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Attachment Description | String | A description of the file to be uploaded as attachment to the snapshot status. | No |
 | Attachment Path | String | The path of the file to be uploaded as attachment to the snapshot status. | No |
 | Comment | String | The comment text to be added to the snapshot status. | No |
@@ -56,8 +56,8 @@ Use this step to check if a snasphot is passing the gates for a specific lifecyc
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Lifecycle Name | String | The name of the lifecycle in IBM UrbanCode Release | Yes |
 | Password | String | The password to access IBM UrbanCode Release. | Yes |
 | Phase Name | String | The name of the lifecycle phase to check against in IBM UrbanCode Release. | Yes |
@@ -72,8 +72,8 @@ Use this step to find the active release for the current environment and save th
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Environment ID | String | The unique environment identifier that the process step is running against. | Yes |
 | Output Property For Phase Name | String | The name of the property containing the phase name to be passed to the next step as this value: ``${p:actualStepName/propertyName}``. | Yes |
 | Output Property for Release Name | String | The name of the property that contains the release name to be passed to the next step as this value:``${p:actualStepName/propertyName}``. | Yes |
@@ -86,8 +86,8 @@ Use this step to find the active release for the current environment and save th
 Use this step to create or update a snapshot in IBM UrbanCode Release.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application ID | String | The application unique ID of the inventory to update in IBM UrbanCode Release. | Yes |
 | Password | String | The password to access IBM UrbanCode Release. | Yes |
 | Snapshot ID | String | The snapshot unique ID to create or update in IBM UrbanCode Release. | Yes |
@@ -99,8 +99,8 @@ Use this step to create or update a snapshot in IBM UrbanCode Release.
 Use this step to update the inventory for an application in IBM UrbanCode Release.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application ID | String | The unique IBM UrbanCode Deploy application ID (UUID), for the inventory to be updated. | Yes |
 | Password | String | The password to access IBM UrbanCode Release. | Yes |
 | URL | String | The base URL of the IBM UrbanCode Release server web user interface. | Yes |

@@ -24,8 +24,8 @@ Create child resources of the component from Compose application resources. Dyna
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Component Template | String | The template to use when creating components from Compose application resources. You can use component templates to store different sets of registry credentials. | No |
 | Compose Files | String | A list of paths to Compose YAML files, separated by newline characters. The default Compose file is docker-compose.yml. | No |
 
@@ -35,8 +35,8 @@ Start all of the application services that are defined in a Compose file. Invoke
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Options | String | Specify additional command-line options for the docker-compose up command. | No |
 | Compose Files | String | A list of paths to Compose YAML files, separated by newline characters. The default Compose file is docker-compose.yml. | No |
 | Do Not Delete Script | Boolean | Select to save the plugins generated executable script to analyze and run manually later. | No |
@@ -51,8 +51,8 @@ Run any docker-compose command through this generalized step. It is highly sugge
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Options and Services | String | List of command specific options and services. Input will be placed directly onto the command line. | No |
 | Compose Command | Enumeration:
 * build
@@ -91,8 +91,8 @@ Run any docker-compose command through this generalized step. It is highly sugge
 Scale a service by assigning a number of available containers.(docker-compose scale)
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Options | String | Specify additional command-line options for the docker-compose Scale command. | No |
 | Compose Files | String | A list of paths to Compose YAML files, separated by newline characters. The default Compose file is docker-compose.yml. | No |
 | Do Not Delete Script | Boolean | Select to save the plugins generated executable script to analyze and run manually later. | No |

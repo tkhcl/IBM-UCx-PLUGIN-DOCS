@@ -20,8 +20,8 @@ MSBuild - Steps
 Invoke MSBuild
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Build File | String | The name of the build file to execute. | Yes |
 | Command Path | String | The full path to msbuild.exe including msbuild.exe (blank if it is on the path). | No |
 | Environment Variables | String | Optional environment variables in name=value format. Environment variable values may contain references to existing values in the following format: name=``${FOO}``;value. If the value of FOO variable is BAR in the current environment, then the above example will be expanded to: name=BAR;value. Using this technique, it is possible to add anentry to PATH in the following manner: PATH=my/path/entry;0. Case is significant even on Windows systems. | No |

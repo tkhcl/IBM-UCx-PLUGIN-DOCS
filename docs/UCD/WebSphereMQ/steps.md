@@ -66,8 +66,8 @@ Alter Client-Connection Channel
 Modify the parameters of an existing client connection channel
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Additional arguments will be added to the end of the command. Separate each argument by a newline or comma. | No |
 | Channel Name | String | The name of the channel toalter. | Yes |
 | Command Directory | String | Directory of the WebSphere MQ commands. | Yes |
@@ -94,8 +94,8 @@ Alter Queue
 Modify the parameters of an existing local queue
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Additional arguments will be added to the end of the command. Separate each argument by a newline or comma. | No |
 | Command Directory | String | Directory of the WebSphere MQ commands. | Yes |
 | Delete Script File After Execution | Boolean | Delete the script file after executing it. | Yes |
@@ -144,8 +144,8 @@ Alter Receiver Channel
 Modify the parameters of an existing receiver channel
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Additional arguments will be added to the end of the command. Separate each argument by a newline or comma. | No |
 | Batch Size | String | Maximum number of messages to be sent before a sync point is taken. Default value is 50. | No |
 | Channel Name | String | The name of the channel toalter. | Yes |
@@ -175,8 +175,8 @@ Alter Sender Channel
 Modify the parameters of an existing sender channel
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Additional arguments will be added to the end of the command. Separate each argument by a newline or comma. | No |
 | Batch Data Limit | String | The limit, in kilobytes, of data that can be sent through the channel before taking a sync point. Default value is 5000. | No |
 | Batch Interval | String | The period, in milliseconds, during which the channel keeps a batch open even if there are no messages on the transmission queue. Default value is 0. | No |
@@ -211,8 +211,8 @@ Alter Server-Connection Channel
 Modify the parameters of an existing server connection channel
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Additional arguments will be added to the end of the command. Separate each argument by a newline or comma. | No |
 | Channel Name | String | The name of the channel toalter. | Yes |
 | Command Directory | String | Directory of the WebSphere MQ commands. | Yes |
@@ -239,8 +239,8 @@ Alter Topic
 Modify the parameters of an existing Topic
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Additional arguments will be added to the end of the command. Separate each argument by a newline or comma. | No |
 | Command Directory | String | Directory of the WebSphere MQ commands. | Yes |
 | Default Persistence | Enumeration:
@@ -324,8 +324,8 @@ Configure Channel SSL
 Configure the Secure Sockets Layer (SSL) settings for a channel.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Channel Name | String | The name of the client channel to configure. | Yes |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Delete Script File After Execution | Boolean | Select to delete the script file after it runs. | Yes |
@@ -381,8 +381,8 @@ Configure Queue Manager SSL
 Configure the Secure Sockets Layer (SSL) settings for a queue manager.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Delete Script File After Execution | Boolean | Select to delete the script file after it runs. | Yes |
 | Enable FIPS | Boolean | Select to enable Federal Information Processing Standard (FIPS) mode for SSL. | Yes |
@@ -403,8 +403,8 @@ Create Queue Manager
 Run the command to create a queue manager.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Any additional arguments to pass to the create queue manager command. | No |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Queue Manager Description | String | A description of the queue manager. Maximum of 64 characters. | No |
@@ -416,8 +416,8 @@ Define Authinfo– IDPWOS
 Define authinfo for AUTHTYPE(IDPWOS).
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | AuthInfo Name | String | The name of the authInfo to create. | Yes |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Delete Script File After Execution | Boolean | Select to delete the script file after it runs. | Yes |
@@ -431,8 +431,8 @@ Define Client-Connection Channel
 Define a client connection channel.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Channel Name | String | The name of the client channel to define. | Yes |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Delete Script File After Execution | Boolean | Select to delete the script file after it runs. | Yes |
@@ -446,8 +446,8 @@ Define Namelist
 Define a namelist.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Delete Script File After Execution | Boolean | Select to delete the script file after it runs. | Yes |
 | Description | String | A description of the namelist. | No |
@@ -463,8 +463,8 @@ Define Queue
 Define a queue.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Additional arguments will be added to the end of the command. Separate each argument by a newline or comma. | No |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Delete Script File After Execution | Boolean | Select to delete the script file after it runs. | Yes |
@@ -517,8 +517,8 @@ Define Queue Alias
 Define a queue alias.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Additional arguments will be added to the end of the command. Separate each argument by a newline or comma. | No |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Delete Script File After Execution | Boolean | Select to delete the script file after it runs. | Yes |
@@ -550,8 +550,8 @@ Define Receive Channel
 Define a receive channel.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Channel Name | String | The name of the receiver channel to define. | Yes |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Delete Script File After Execution | Boolean | Select to delete the script file after it runs. | Yes |
@@ -565,8 +565,8 @@ Define Remote Queue
 Define Remote Queue.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Delete Script File After Execution | Boolean | Select to delete the script file after it runs. | Yes |
 | Is Batch | Boolean | Select to combine multiple commands in one script file and run by using the Run MQ Batch Script step. | Yes |
@@ -580,8 +580,8 @@ Define Sender Channel
 Define a sender channel.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Channel Name | String | The name of the sender channel to define. | Yes |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Connection Name | String | The connection name for the sender channel. | Yes |
@@ -597,8 +597,8 @@ Define Server Connection Channel
 Define a Server connection channel.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Channel Name | String | The name of the sender channel to define. | Yes |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Delete Script File After Execution | Boolean | Select to delete the script file after it runs. | Yes |
@@ -612,8 +612,8 @@ Define Service
 Define a service.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Delete Script File After Execution | Boolean | Select to delete the script file after it runs. | Yes |
 | Is Batch | Boolean | Select to combine multiple commands in one script file and run by using the Run MQ Batch Script step. | Yes |
@@ -627,8 +627,8 @@ Define Topic
 Define a topic.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Delete Script File After Execution | Boolean | Select to delete the script file after it runs. | Yes |
 | Is Batch | Boolean | Select to combine multiple commands in one script file and run by using the Run MQ Batch Script step. | Yes |
@@ -643,8 +643,8 @@ Define Topic Subscription
 Define a topic subscription.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Additional arguments will be added to the end of the command. Separate each argument by a newline or comma. | No |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Delete Script File After Execution | Boolean | Select to delete the script file after it runs. | Yes |
@@ -674,8 +674,8 @@ Delete Certificate
 Delete a certificate.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Label | String | The label of the certificate in the target database. | No |
 | Target DB | String | The full path file name of the key database. | Yes |
@@ -693,8 +693,8 @@ Delete Channel
 Delete a channel.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Channel Name | String | The name of the channel to delete. | Yes |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Delete Script File After Execution | Boolean | Select to delete the script file after it runs. | Yes |
@@ -708,8 +708,8 @@ Delete Namelist
 Delete a namelist.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Delete Script File After Execution | Boolean | Select to delete the script file after it runs. | Yes |
 | Is Batch | Boolean | Select to combine multiple commands in one script file and run by using the Run MQ Batch Script step. | Yes |
@@ -723,8 +723,8 @@ Delete Queue
 Delete a queue.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Delete Script File After Execution | Boolean | Select to delete the script file after it runs. | Yes |
 | Is Batch | Boolean | Select to combine multiple commands in one script file and run by using the Run MQ Batch Script step. | Yes |
@@ -738,8 +738,8 @@ Delete Queue Alias
 Delete a queue alias.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Delete Script File After Execution | Boolean | Select to delete the script file after it runs. | Yes |
 | Is Batch | Boolean | Select to combine multiple commands in one script file and run by using the Run MQ Batch Script step. | Yes |
@@ -753,8 +753,8 @@ Delete Queue Manager
 Run the command to delete a queue manager.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Queue Manager Name | String | The name of the queue manager to delete. | Yes |
 
@@ -764,8 +764,8 @@ Delete Topic
 Delete a topic.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Delete Script File After Execution | Boolean | Select to delete the script file after it runs. | Yes |
 | Is Batch | Boolean | Select to combine multiple commands in one script file and run by using the Run MQ Batch Script step. | Yes |
@@ -779,8 +779,8 @@ Delete Topic Subscription
 Delete a topic subscription.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Delete Script File After Execution | Boolean | Select to delete the script file after it runs. | Yes |
 | Is Batch | Boolean | Select to combine multiple commands in one script file and run by using the Run MQ Batch Script step. | Yes |
@@ -794,8 +794,8 @@ Enable Queue Triggering
 Enable triggering on a queue.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Delete Script File After Execution | Boolean | Select to delete the script file after it runs. | Yes |
 | Is Batch | Boolean | Select to combine multiple commands in one script file and run by using the Run MQ Batch Script step. | Yes |
@@ -816,8 +816,8 @@ Import Certificate
 Import a certificate.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Certificate label | String | The label of the certificate to import. | Yes |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Delete If Exists | Boolean | Select to delete the certificate in the target database if it already exists. | No |
@@ -846,8 +846,8 @@ Manage Queue Depth
 Manange the queue depth.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Delete Script File After Execution | Boolean | Select to delete the script file after it runs. | Yes |
 | High Depth Level | String | The percentage of queue depth that constitutes the high limit. | No |
@@ -864,8 +864,8 @@ Receive Certificate
 Receive a certificate.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Certificate File | String | The file name of the certificate. | Yes |
 | Certificate label | String | The label of the certificate to import. | Yes |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
@@ -891,8 +891,8 @@ Run a WebSphere MQ script that contains MQ control commands that were created by
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Delete Script File After Execution | Boolean | Select to delete the script file after it runs. | Yes |
 | Queue Manager Name | String | The name of the queue manager to work with. | Yes |
@@ -904,8 +904,8 @@ Run MQ Script
 Run a custom WebSphere MQ script that contains MQ control commands.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Any additional arguments to pass to the start queue manager command. | No |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Queue Manager Name | String | The name of the queue manager to work with. | Yes |
@@ -917,8 +917,8 @@ Set Channel Monitoring Level
 Set the monitoring level for a channel.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Channel Name | String | The name of the channel to alter. | Yes |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Delete Script File After Execution | Boolean | Select to delete the script file after it runs. | Yes |
@@ -939,8 +939,8 @@ Set Max Message Size On Queue
 Set the maximum message size for a queue.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Delete Script File After Execution | Boolean | Select to delete the script file after it runs. | Yes |
 | Is Batch | Boolean | Select to combine multiple commands in one script file and run by using the Run MQ Batch Script step. | Yes |
@@ -955,8 +955,8 @@ Set Permissions For Object
 Set the permissions for a given object and type.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Authorities | String | A list, separated by commas or newline characters, of authorities in the format: (+|-)permission\_name. For Example: ‘+ADMCHG, -ALLMQI’ | No |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Groups | String | A list, separated by commas or newline characters, of the groups to be given access permission to the object. | No |
@@ -971,8 +971,8 @@ Set Permissions For Queue
 Set the permissions for a given queue.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Authorities | String | A list, separated by commas or newline characters, of authorities in the format: (+|-)permission\_name. For Example: ‘+ADMCHG, -ALLMQI’ | No |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Groups | String | A list, separated by commas or newline characters, of the groups to be given access permission to the object. | No |
@@ -986,8 +986,8 @@ Set Permissions For Topic
 Set the permissions for a given topic.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Authorities | String | A list, separated by commas or newline characters, of authorities in the format: (+|-)permission\_name. For Example: ‘+ADMCHG, -ALLMQI’ | No |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Groups | String | A list, separated by commas or newline characters, of the groups to be given access permission to the object. | No |
@@ -1001,8 +1001,8 @@ Set Queue Usage Type
 Set the usage attribute for a queue.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Delete Script File After Execution | Boolean | Select to delete the script file after it runs. | Yes |
 | Is Batch | Boolean | Select to combine multiple commands in one script file and run by using the Run MQ Batch Script step. | Yes |
@@ -1020,8 +1020,8 @@ Start Channel
 Start a channel.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Channel Name | String | The name of the channel to start. | Yes |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Delete Script File After Execution | Boolean | Select to delete the script file after it runs. | Yes |
@@ -1035,8 +1035,8 @@ Start Queue Manager
 Start a queue manager.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Any additional arguments to pass to the start queue manager command. | No |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Queue Manager Name | String | The name of the queue manager to start. | Yes |
@@ -1047,8 +1047,8 @@ Stop Channel
 Stop a channel.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Channel Name | String | The name of the channel to stop. | Yes |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Delete Script File After Execution | Boolean | Select to delete the script file after it runs. | Yes |
@@ -1062,8 +1062,8 @@ Stop Queue Manager
 Stop a queue manager.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Any additional arguments to pass to the start queue manager command. | No |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Queue Manager Name | String | The name of the queue manager to stop. | Yes |

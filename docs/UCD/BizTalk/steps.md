@@ -30,8 +30,8 @@ Microsoft BizTalk - Steps
 Create a BizTalk application in the BizTalk Management database.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | BizTalk Application Name | String | Specify the name of the BizTalk application to add. If the application name includes spaces, enclose the name in double quotation marks. | Yes |
 | BizTalk BTSTask Executable location | String | If the BTSTask executable program is not in the system path, specify the full path. For example: C:\Program Files (x86)\Microsoft BizTalk Server 2010\BTSTask.exe | No |
 | BizTalk Database | String | Specify the name of the BizTalk Management database. If left blank, the BizTalk Management database that is running on the agent computer is used. | No |
@@ -44,8 +44,8 @@ Create a BizTalk application in the BizTalk Management database.
 Add an artifact to a BizTalk application
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | BizTalk Application Name | String | Name of the BizTalk application to add the artifact to. If the name includes spaces, enclose the name in double quotation marks. If left blank, the default BizTalk application is used. | No |
 | BizTalk BTSTask Executable location | String | If the BTSTask executable program is not in the system path, specify the full path. For example: C:\Program Files (x86)\Microsoft BizTalk Server 2010\BTSTask.exe | No |
 | BizTalk Database | String | Specify the name of the BizTalk Management database. If left blank, the BizTalk Management database running on the agent computer is used. Optional for all resource types. | No |
@@ -66,8 +66,8 @@ Add an artifact to a BizTalk application
 Exports a Biztalk Application
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | BizTalk Application Name | String | Specify the BizTalk Application to export | No |
 | BizTalk BTSTask Executable location | String | If the Btsadm executable is not in the system path please specify (e.g. C:\Program Files (x86)\Microsoft BizTalk Server 2010\BTSTask.exe | No |
 | BizTalk Database | String | Specify the Name of the BizTalk Management database. If not specified, the BizTalk Management database running on the server the uDeploy agent is running on is used is used | No |
@@ -81,8 +81,8 @@ Exports a Biztalk Application
 Exports Biztalk Application Bindings
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | BizTalk BTSTask Executable location | String | If the Btsadm executable is not in the system path please specify (e.g. C:\Program Files (x86)\Microsoft BizTalk Server 2010\BTSTask.exe | No |
 | BizTalk Database | String | Specify the Name of the BizTalk Management database. If not specified, the BizTalk Management database running on the server the uDeploy agent is running on is used is used | No |
 | BizTalk Destination | String | Specify the file name, for the binding information. | Yes |
@@ -97,8 +97,8 @@ Exports Biztalk Application Bindings
 Import bindings to a BizTalk application or group
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Biztalk Application Name | String | Specify the Biztalk Application to Import or Upgrade | Yes |
 | Biztalk BTSTask Executable location | String | If the BTSTask executable program is not in the system path, specify the full path. For example: C:\Program Files (x86)\Microsoft BizTalk Server 2010\BTSTask.exe | No |
 | Biztalk Database | String | Specify the name of the BizTalk Management database. If left blank, the BizTalk Management database that is running on the agent computer is used. | No |
@@ -111,8 +111,8 @@ Import bindings to a BizTalk application or group
 Installs or updates a Biztalk Application
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Biztalk Application Name | String | Specify the Biztalk Application to Import or Upgrade | Yes |
 | Biztalk BTSTask Executable location | String | If the Btsadm executable is not in the system path please specify (e.g. C:\Program Files (x86)\Microsoft BizTalk Server 2010\BTSTask.exe | No |
 | Biztalk Database | String |  | No |
@@ -125,8 +125,8 @@ Installs or updates a Biztalk Application
 Removes a Biztalk Application
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Biztalk Application Name | String | Specify the Biztalk Application to remove | Yes |
 | Biztalk BTSTask Executable location | String | If the Btsadm executable is not in the system path please specify (e.g. C:\Program Files (x86)\Microsoft BizTalk Server 2010\BTSTask.exe | No |
 | Biztalk Database Name | String | Name of the BizTalk Management database. If not specified, the BizTalk Management database running in the local instance of SQL Server is used. | No |
@@ -138,8 +138,8 @@ Removes a Biztalk Application
 Restarts a BizTalk host instance
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Host Instance | String | BizTalk Host Instance name (Default: root\MicrosoftBizTalkServer) | No |
 | Powershell Executable location | String | If the Powershell executable is not in the system path please specify (e.g. C:\winnt\powershell.exe | No |
 
@@ -148,8 +148,8 @@ Restarts a BizTalk host instance
 Starts Biztalk Application
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Biztalk Application Name | String | Specify the Biztalk Application to start | Yes |
 | Biztalk Database Name | String | Name of the BizTalk Management database. If not specified, the BizTalk Management database running in the local instance of SQL Server is used. | No |
 | Biztalk Database Server | String | Server containing the BizTalk Management database (Default: .) | No |
@@ -160,8 +160,8 @@ Starts Biztalk Application
 Performs a Full Stop of Biztalk Application
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Biztalk Application Name | String | Specify the Biztalk Application to stop | Yes |
 | Biztalk Database Name | String | Name of the BizTalk Management database. If not specified, the BizTalk Management database running in the local instance of SQL Server is used. | No |
 | Biztalk Database Server | String | Server containing the BizTalk Management database (Default: .) | No |
@@ -172,8 +172,8 @@ Performs a Full Stop of Biztalk Application
 Uninstalls a local Biztalk Application
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Biztalk Application Name | String | Specify the Biztalk Application to uninstall | Yes |
 | Biztalk BTSTask Executable location | String | If the Btsadm executable is not in the system path please specify (e.g. C:\Program Files (x86)\Microsoft BizTalk Server 2010\BTSTask.exe | No |
 | Powershell Executable location | String | If the Powershell executable is not in the system path please specify (e.g. C:\winnt\powershell.exe | No |

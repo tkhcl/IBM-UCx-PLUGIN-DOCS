@@ -33,8 +33,8 @@ Microsoft IIS AppCmd - Steps
 Run an arbitrary appcmd command.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Arguments | String | A newline separted list of arguments to be added to the appcmd call. e.g. /arg1:val1\n/arg2:val2\n/arg3:val3 | No |
 | Command | String | The command to be run using appcmd. | Yes |
 | Command Path | String | The directory location of the AppCmd command-line executable: e.g., C:\Windows\system32\inetsrv\ | No |
@@ -47,8 +47,8 @@ Run an arbitrary appcmd command.
 Create an Application in IIS.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Arguments | String | A newline separted list of arguments to be added to the appcmd call. e.g. /arg1:val1\n/arg2:val2\n/arg3:val3 | No |
 | Command Path | String | The directory location of the AppCmd command-line executable: e.g., C:\Windows\system32\inetsrv\ | No |
 | Parent Site | String | The Parent site the application should be created under, e.g. Default Web Site. | Yes |
@@ -60,8 +60,8 @@ Create an Application in IIS.
 Create an Application Pool in IIS.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Pool Name | String | The name of the Application Pool to create. | Yes |
 | Arguments | String | A newline separted list of arguments to be added to the appcmd call. e.g. /arg1:val1\n/arg2:val2\n/arg3:val3 | No |
 | Command Path | String | The directory location of the AppCmd command-line executable: e.g., C:\Windows\system32\inetsrv\ | No |
@@ -72,8 +72,8 @@ Create an Application Pool in IIS.
 Create a new Web Site in IIS.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Arguments | String | A newline separted list of arguments to be added to the appcmd call. e.g. /arg1:val1\n/arg2:val2\n/arg3:val3 | No |
 | Command Path | String | The directory location of the AppCmd command-line executable: e.g., C:\Windows\system32\inetsrv\ | No |
 | Site Name | String | The name of the Web Site to create, e.g. DefaultWebSite. | Yes |
@@ -84,8 +84,8 @@ Create a new Web Site in IIS.
 Create a new Virtual Directory in IIS.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Arguments | String | A newline separted list of arguments to be added to the appcmd call. e.g. /arg1:val1\n/arg2:val2\n/arg3:val3 | No |
 | Command Path | String | The directory location of the AppCmd command-line executable: e.g., C:\Windows\system32\inetsrv\ | No |
 | Parent Application | String | Application identifier under which this virtual directory is created. | Yes |
@@ -98,8 +98,8 @@ Create a new Virtual Directory in IIS.
 Create or update existing application using user supplied XML
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Name | String | The application name. | Yes |
 | Application XML | String | Enter the application configuration XML here or provide a path to a file below. | No |
 | Application XML File | String | Enter a path to a file that contains the application configuration XML or provide the contents above. | No |
@@ -111,8 +111,8 @@ Create or update existing application using user supplied XML
 Delete an Application from IIS.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Arguments | String | A newline separted list of arguments to be added to the appcmd call. e.g. /arg1:val1\n/arg2:val2\n/arg3:val3 | No |
 | Command Path | String | The directory location of the AppCmd command-line executable: e.g., C:\Windows\system32\inetsrv\ | No |
 | ID | String | The Application path or URL of the application to delete, e.g. Default Web Site/Application. | Yes |
@@ -123,8 +123,8 @@ Delete an Application from IIS.
 Delete an Application Pool from IIS.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Pool Name | String | The name of the Application Pool to delete. | Yes |
 | Arguments | String | A newline separted list of arguments to be added to the appcmd call. e.g. /arg1:val1\n/arg2:val2\n/arg3:val3 | No |
 | Command Path | String | The directory location of the AppCmd command-line executable: e.g., C:\Windows\system32\inetsrv\ | No |
@@ -135,8 +135,8 @@ Delete an Application Pool from IIS.
 Delete a Web Site from IIS.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Arguments | String | A newline separted list of arguments to be added to the appcmd call. e.g. /arg1:val1\n/arg2:val2\n/arg3:val3 | No |
 | Command Path | String | The directory location of the AppCmd command-line executable: e.g., C:\Windows\system32\inetsrv\ | No |
 | Site Name | String | The name of the Web Site to delete, e.g. DefaultWebSite. | Yes |
@@ -147,8 +147,8 @@ Delete a Web Site from IIS.
 Delete a Virtual Directory from IIS.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Arguments | String | A newline separted list of arguments to be added to the appcmd call. e.g. /arg1:val1\n/arg2:val2\n/arg3:val3 | No |
 | Command Path | String | The directory location of the AppCmd command-line executable: e.g., C:\Windows\system32\inetsrv\ | No |
 | Virtual Directory Path | String | Virtual Directory Path or URL to be deleted, e.g. Default Web Site/subdir. | Yes |
@@ -159,8 +159,8 @@ Delete a Virtual Directory from IIS.
 Recycle an Application Pool in IIS.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Pool Name | String | The name of the Application Pool to recycle. | Yes |
 | Arguments | String | A newline separted list of arguments to be added to the appcmd call. e.g. /arg1:val1\n/arg2:val2\n/arg3:val3 | No |
 | Command Path | String | The directory location of the AppCmd command-line executable: e.g., C:\Windows\system32\inetsrv\ | No |
@@ -171,8 +171,8 @@ Recycle an Application Pool in IIS.
 Start an Application Pool in IIS.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Pool Name | String | The name of the Application Pool to start. | Yes |
 | Arguments | String | A newline separted list of arguments to be added to the appcmd call. e.g. /arg1:val1\n/arg2:val2\n/arg3:val3 | No |
 | Command Path | String | The directory location of the AppCmd command-line executable: e.g., C:\Windows\system32\inetsrv\ | No |
@@ -183,8 +183,8 @@ Start an Application Pool in IIS.
 Start a Web Site in IIS.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Arguments | String | A newline separted list of arguments to be added to the appcmd call. e.g. /arg1:val1\n/arg2:val2\n/arg3:val3 | No |
 | Command Path | String | The directory location of the AppCmd command-line executable: e.g., C:\Windows\system32\inetsrv\ | No |
 | Site Name | String | The name of the Web Site to delete, e.g. DefaultWebSite. | Yes |
@@ -195,8 +195,8 @@ Start a Web Site in IIS.
 Stop an Application Pool in IIS.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Pool Name | String | The name of the Application Pool to stop. | Yes |
 | Arguments | String | A newline separted list of arguments to be added to the appcmd call. e.g. /arg1:val1\n/arg2:val2\n/arg3:val3 | No |
 | Command Path | String | The directory location of the AppCmd command-line executable: e.g., C:\Windows\system32\inetsrv\ | No |
@@ -207,8 +207,8 @@ Stop an Application Pool in IIS.
 Stop a Web Site in IIS.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Arguments | String | A newline separted list of arguments to be added to the appcmd call. e.g. /arg1:val1\n/arg2:val2\n/arg3:val3 | No |
 | Command Path | String | The directory location of the AppCmd command-line executable: e.g., C:\Windows\system32\inetsrv\ | No |
 | Site Name | String | The name of the Web Site to delete, e.g. DefaultWebSite. | Yes |

@@ -45,8 +45,8 @@ Create a configuration file from a file as content.ID of the new config will be 
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Config | String | Name of the new configuration | Yes |
 | Docker Client Variables | String | A list, separated by newline characters, of runtime environment variables for the Docker client. For example: DOCKER\_HOST=tcp://192.0.2.100:2376 | No |
 | Docker Config Create Options | String | Options for the Docker config create command. For example: label name=value | No |
@@ -58,8 +58,8 @@ Create a configuration file from a file as content.ID of the new config will be 
 Create an image registry resource in the Resource Tree.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | AWS Command Line File | String | When type is Amazon ECR. Command or path to the AWS command line interface. If specified, AWS authentication will be used.Ensure the User Name and Password properties are set to the AWS Access ID and Secret Key respectively. | No |
 | AWS Region | String | When type is Amazon ECR. Amazon ECR Region. | No |
 | Allow Insecure Connections | String | Set this property to true to allow insecure registry connections. | No |
@@ -86,8 +86,8 @@ Create a secret from a file.ID of the new secret will be stored in the output pr
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Docker Client Variables | String | A list, separated by newline characters, of runtime environment variables for the Docker client. For example: DOCKER\_HOST=tcp://192.0.2.100:2376 | No |
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
 | Docker Secret Create Options | String | Options for the Docker secret create command. For example: label name=value | No |
@@ -100,8 +100,8 @@ Create a new service. ID of the new service will be stored in the output propert
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command | String | Command and args to execute in the container. | No |
 | Docker Client Variables | String | A list, separated by newline characters, of runtime environment variables for the Docker client. For example: DOCKER\_HOST=tcp://192.0.2.100:2376 | No |
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
@@ -113,8 +113,8 @@ Create a new service. ID of the new service will be stored in the output propert
 Deploy a new stack or update an existing stack.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Bundle File | String | Path to a bundle file. Either Bundle File or Compose File must be specified. | No |
 | Compose File | String | Path to a Compose file. Either Compose File or Bundle File must be specified. | No |
 | Docker Client Variables | String | A list, separated by newline characters, of runtime environment variables for the Docker client. For example: DOCKER\_HOST=tcp://192.0.2.100:2376 | No |
@@ -127,8 +127,8 @@ Deploy a new stack or update an existing stack.
 Log in to a Docker registry.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Docker Client Variables | String | A list, separated by newline characters, of runtime environment variables for the Docker client. For example: DOCKER\_HOST=tcp://192.0.2.100:2376 | No |
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
 | Docker Registry | String | The Docker registry server. Leave blank to use the default, https://index.docker.io/v1/. | No |
@@ -141,8 +141,8 @@ Log in to a Docker registry.
 Logout of a Docker registry.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Docker Registry | String | The Docker registry server. Leave blank to use the default, https://index.docker.io/v1/. | No |
 
 ### Initialize Swarm
@@ -151,8 +151,8 @@ Initialize a swarm. Output properties will contain the manager/worker tokens and
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Docker Client Variables | String | A list, separated by newline characters, of runtime environment variables for the Docker client. For example: DOCKER\_HOST=tcp://192.0.2.100:2376 | No |
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
 | Docker Swarm Init Options | String | Options for the Docker swarm init command. For example: advertise-addr | No |
@@ -162,8 +162,8 @@ Initialize a swarm. Output properties will contain the manager/worker tokens and
 Join a swarm as a node and/or manager.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Docker Client Variables | String | A list, separated by newline characters, of runtime environment variables for the Docker client. For example: DOCKER\_HOST=tcp://192.0.2.100:2376 | No |
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
 | Docker Swarm Join Options | String | Options for the Docker swarm join command. For example: advertise-addr | No |
@@ -175,8 +175,8 @@ Join a swarm as a node and/or manager.
 Leave the swarm.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Docker Client Variables | String | A list, separated by newline characters, of runtime environment variables for the Docker client. For example: DOCKER\_HOST=tcp://192.0.2.100:2376 | No |
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
 | Docker Swarm Leave Options | String | Options for the Docker swarm leave command. For example: force | No |
@@ -187,8 +187,8 @@ Manage join tokens. Output properties will contain the requested token and optio
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Docker Client Variables | String | A list, separated by newline characters, of runtime environment variables for the Docker client. For example: DOCKER\_HOST=tcp://192.0.2.100:2376 | No |
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
 | Docker Swarm Join-Token Options | String | Options for the Docker swarm join-token command. For example: rotate | No |
@@ -202,8 +202,8 @@ Manage join tokens. Output properties will contain the requested token and optio
 Promote an image from a source registry to a destination registry.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Destination AWS Command Line Interface | String | When type is Amazon ECR. Command or path to the AWS command line interface. If specified, AWS authentication will be used.Ensure the User Name and Password properties are set to the AWS Access ID and Secret Key respectively. | No |
 | Destination AWS Region | String | When type is Amazon ECR. Region to use when logging into AWS. | No |
 | Destination Allow Insecure Connections | String | Set this property to true to allow insecure registry connections to the destination regsitry. | No |
@@ -232,8 +232,8 @@ Promote an image from a source registry to a destination registry.
 Retrieve an image from a Docker registry.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Docker Client Variables | String | A list, separated by newline characters, of runtime environment variables for the Docker client. For example: DOCKER\_HOST=tcp://192.0.2.100:2376 | No |
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
 | Image | String | The name of the image to pull. For example: mysql:5.5 | Yes |
@@ -244,8 +244,8 @@ Retrieve an image from a Docker registry.
 Upload an image to a Docker registry.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Docker Client Variables | String | A list, separated by newline characters, of runtime environment variables for the Docker client. For example: DOCKER\_HOST=tcp://192.0.2.100:2376 | No |
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
 | Image | String | The name of the image to push. For example: mysql:5.5 | Yes |
@@ -256,8 +256,8 @@ Upload an image to a Docker registry.
 Remove one or more configuration files.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Config Name | String | Name or ID of the docker configuration file(s) to remove. If multiple configuration files are specified, separate them with spaces. | Yes |
 | Docker Client Variables | String | A list, separated by newline characters, of runtime environment variables for the Docker client. For example: DOCKER\_HOST=tcp://192.0.2.100:2376 | No |
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
@@ -267,8 +267,8 @@ Remove one or more configuration files.
 Remove a Docker container.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Docker Client Variables | String | A list, separated by newline characters, of runtime environment variables for the Docker client. For example: DOCKER\_HOST=tcp://192.0.2.100:2376 | No |
 | Docker Container | String | The name or ID of the container to remove. | Yes |
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
@@ -279,8 +279,8 @@ Remove a Docker container.
 Remove one or more secrets.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Docker Client Variables | String | A list, separated by newline characters, of runtime environment variables for the Docker client. For example: DOCKER\_HOST=tcp://192.0.2.100:2376 | No |
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
 | Secret Name | String | Name or ID of the docker secret(s) to remove. If multiple secrets are specified, separate them with spaces. | Yes |
@@ -290,8 +290,8 @@ Remove one or more secrets.
 Remove one or more services.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Docker Client Variables | String | A list, separated by newline characters, of runtime environment variables for the Docker client. For example: DOCKER\_HOST=tcp://192.0.2.100:2376 | No |
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
 | Service Name | String | Name or ID of the docker service(s) to remove. If multiple services are specified, separate them with spaces. | Yes |
@@ -301,8 +301,8 @@ Remove one or more services.
 Remove the specified stack.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Docker Client Variables | String | A list, separated by newline characters, of runtime environment variables for the Docker client. For example: DOCKER\_HOST=tcp://192.0.2.100:2376 | No |
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
 | Stack Name | String | The name of the stack to remove | Yes |
@@ -312,8 +312,8 @@ Remove the specified stack.
 Create a Docker container and run a command in the container.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command | String | The command and arguments to run inside the new container. | No |
 | Docker Client Variables | String | A list, separated by newline characters, of runtime environment variables for the Docker client. For example: DOCKER\_HOST=tcp://192.0.2.100:2376 | No |
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
@@ -325,8 +325,8 @@ Create a Docker container and run a command in the container.
 Scale one or multiple replicated services.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Docker Client Variables | String | A list, separated by newline characters, of runtime environment variables for the Docker client. For example: DOCKER\_HOST=tcp://192.0.2.100:2376 | No |
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
 | Service Name | String | One or more ServiceName=ReplicaCount values. If multiple services are specified, separate them with spaces. No spaces around the equal sign. | Yes |
@@ -336,8 +336,8 @@ Scale one or multiple replicated services.
 Start a Docker container.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Docker Client Variables | String | A list, separated by newline characters, of runtime environment variables for the Docker client. For example: DOCKER\_HOST=tcp://192.0.2.100:2376 | No |
 | Docker Container | String | The name or ID of the container to start. | Yes |
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
@@ -348,8 +348,8 @@ Start a Docker container.
 Stop a Docker container.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Docker Client Variables | String | A list, separated by newline characters, of runtime environment variables for the Docker client. For example: DOCKER\_HOST=tcp://192.0.2.100:2376 | No |
 | Docker Container | String | The name or ID of the container to stop. | Yes |
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
@@ -360,8 +360,8 @@ Stop a Docker container.
 Tag an image into a repository.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Docker Client Variables | String | A list, separated by newline characters, of runtime environment variables for the Docker client. For example: DOCKER\_HOST=tcp://192.0.2.100:2376 | No |
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
 | Image | String | The name of the image to tag. For example: ubuntu:latest | Yes |
@@ -373,8 +373,8 @@ Tag an image into a repository.
 Update a service.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Docker Client Variables | String | A list, separated by newline characters, of runtime environment variables for the Docker client. For example: DOCKER\_HOST=tcp://192.0.2.100:2376 | No |
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
 | Docker Service Update Options | String | Options for the Docker service update command. For example: image string | No |

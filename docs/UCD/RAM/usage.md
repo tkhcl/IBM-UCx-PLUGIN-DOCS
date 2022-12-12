@@ -32,7 +32,7 @@ The following diagram shows this process.
 
 This example requires that the application binary files are in the component and the Selenium test cases are part of the component.
 
-[![rationalassetmanager_3](rationalassetmanager_3.gif)](rationalassetmanager_3.gif)
+[![rationalassetmanager_3](media/rationalassetmanager_3.gif)](media/rationalassetmanager_3.gif)
 1. The **Download Artifacts** step retrieves the binary files.
 2. The **Execute Test Case** step runs tests against the application. To learn more about running test cases, see the Rational Quality Manager plug-in.
 3. Based on the outcome of the **Execute Test Case** step, the **Categorize an Asset** step is used to mark the status of the component asset as Test Passed or Test Failed.
@@ -46,7 +46,7 @@ In this example, the component process deploys an application, runs an associate
 
 This example requires that the application binary files are in the component.
 
-[![rationalassetmanager_4](rationalassetmanager_4.gif)](rationalassetmanager_4.gif)
+[![rationalassetmanager_4](media/rationalassetmanager_4.gif)](media/rationalassetmanager_4.gif)
 1. The **Deploy** step deploys the application by using the process that was created in an earlier step in the scenario.
 2. The **Download Related Assets** step downloads the IBM Security AppScan test template that is associated with the component asset.
 3. The **Execute Test Case** step runs the specified IBM Security AppScan tests.

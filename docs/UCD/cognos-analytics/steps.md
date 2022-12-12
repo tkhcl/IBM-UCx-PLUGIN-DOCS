@@ -24,8 +24,8 @@ Export content from the content store to an archive file in the deployment direc
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Archive Name | String | The name of the export archive file. Do not include the .zip file extension. | Yes |
 | Cognos Analytics Java Library Directory | String | The Cognos Analytics Java library directory. The directory must contain the required JAR files, including the cognosClient.jar andcognos-axis.jar files. For example: C:\Program Files\IBM\cognos\analytics\sdk\java\lib. | Yes |
 | Deployment Spec | String | The name of an export deployment specification. If thisspecification does not exist on the Cognos Analytics server, it is be created. | Yes |
@@ -44,8 +44,8 @@ Import
 Import content from an archive to the Cognos Analytics content store.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Archive Name | String | The name of the archive file to import. Do not include the .zip file extension. | Yes |
 | Cognos Analytics Java Library Directory | String | The Cognos Analytics Java library directory. The directory must contain the required JAR files, including the cognosClient.jar and cognos-axis.jar files. For example: C:\Program Files\IBM\cognos\analytics\sdk\java\lib. | Yes |
 | Deployment Spec | String | The name of an import deployment specification. If this specification does not exist on the Cognos server, it is created. | Yes |

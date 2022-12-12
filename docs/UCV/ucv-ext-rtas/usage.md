@@ -92,7 +92,7 @@ used to configure the integration and define communication.
 
 The JSON file
 contains the information for creating a value stream and integrating with the IBM Rational Test Automation Server
-server. The following table describes the information for the creating a HCL Accelerate value stream map.
+server. The following table describes the information for the creating a IBM UrbanCode Velocity value stream map.
 
 1. Download
 the value stream map. The value stream map is a JSON file used to define integrations.

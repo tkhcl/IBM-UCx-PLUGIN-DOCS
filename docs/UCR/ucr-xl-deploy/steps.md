@@ -41,8 +41,8 @@ Execute Automated Task.
 Integration
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Check Authentication |  | Button to
 check if the connection can be established with the XL Deploy Server, and the UCR Server.
 | No |

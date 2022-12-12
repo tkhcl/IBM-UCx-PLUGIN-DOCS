@@ -24,8 +24,8 @@ Create Integration Node
 
 Create an Integration Node (Broker). This command creates the WebSphere MQ queues required by the broker if they do not already exist.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | ACE Installation Directory | String | The installation directory of the IBM ACE server. For example: /opt/ibm/server. | Yes |
 | Additional Arguments | String | A list of arguments to pass to the mqsicreatebroker script when running this step, for example: -i generalDefaultUserId. When specifying multiple arguments, list each arguments on a new line. | No |
 | Integration Node (Broker) | String | The name of the integration node to create. | Yes |
@@ -38,8 +38,8 @@ Create Integration Server
 
 Create integration servers.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | IP | String | The IP address of the target integration node. | Yes |
 | Integration Servers | String | A list of integration servers to create. The servers must be defined on the broker. Seperate each with a comma or new line. | Yes |
 | Port | String | The port of the target integration node. | Yes |
@@ -49,8 +49,8 @@ Delete Integration Node
 
 Delete an Integration Node (Broker).
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | ACE Installation Directory | String | The installation directory of the IBM ACE server. For example: /opt/ibm/server. | Yes |
 | Delete Trace Files | Boolean | Check this box to delete the node’s trace files from its work directory. | No |
 | Delete WebSphere MQ Queues | Boolean | Check this box to delete all current integration server administration security WebSphere MQ queues along with the integration node. | No |
@@ -61,8 +61,8 @@ Delete Integration Server
 
 Create integration servers.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | IP | String | The IP address of the target integration node. | Yes |
 | Integration Servers | String | A list of integration servers to delete. The servers must be defined on the broker. Seperate each with a comma or new line. | Yes |
 | Port | String | The port of the target integration node. | Yes |
@@ -72,8 +72,8 @@ Deploy
 
 Deploy a Broker Archive.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | ACE Installation Directory | String | The installation directory of the IBM ACE server. For example: /opt/ibm/server. | Yes |
 | BAR File | String | This parameter specifies the BAR file that you want to use to deploy a message flow and other resources. Example: C:\Users\IBM\_ADMIN\IBM\ACET11\workspace\AppConnectToIIB\AppConnectToIIB.bar | No |
 | Clear Old Deployments  | Boolean | The default operation is a delta or incremental deployment. Use this parameter to override the default operation and run a complete deployment. | No |
@@ -91,8 +91,8 @@ Does Integration Server Exist
 
 Does Integration Server Exist.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | IP | String | The IP address of the target integration node. | Yes |
 | Integration Server | String | Integration Server name to identify its existence. | Yes |
 | Port | String | The port of the target integration node. | Yes |
@@ -102,8 +102,8 @@ Start Integration Node
 
 Starts an integration node (broker).
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | ACE Installation Directory | String | The installation directory of the IBM ACE server. For example: /opt/ibm/server. | Yes |
 | Integration Node (Broker) | String | The name of the integration node to start. | Yes |
 
@@ -112,8 +112,8 @@ Start Integration Server
 
 Start integration servers.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | IP | String | The IP address of the target integration node. | Yes |
 | Integration Servers | String | A list of integration servers to start. The servers must be defined on the broker. Seperate each with a comma or new line. | Yes |
 | Port | String | The port of the target integration node. | Yes |
@@ -123,8 +123,8 @@ Re-start Integration Server
 
 Re-start integration servers.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | IP | String | The IP address of the target integration node. | Yes |
 | Integration Servers | String | A list of integration servers to start. The servers must be defined on the broker. Seperate each with a comma or new line. | Yes |
 | Port | String | The port of the target integration node. | Yes |
@@ -134,8 +134,8 @@ Stop Integration Node
 
 Stops an integration node (broker).
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | ACE Installation Directory | String | The installation directory of the IBM ACE server. For example: /opt/ibm/server. | Yes |
 | Integration Node (Broker) | String | The name of the integration node to stop. | Yes |
 
@@ -144,8 +144,8 @@ Stop Integration Server
 
 Stop integration servers.
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | IP | String | The IP address of the target integration node. | Yes |
 | Integration Servers | String | A list of integration servers to stop. The servers must be defined on the broker. Seperate each with a comma or new line. | Yes |
 | Port | String | The port of the target integration node. | Yes |

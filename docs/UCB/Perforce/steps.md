@@ -25,8 +25,8 @@ Perform a Perforce changelog. By default this will be between the previous build
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Changes URL | String |  | No |
 | End Date | String | End changelog at this date (yyyy-MM-dd HH:mm:ss z OR E MMM dd HH:mm:ss zzz yyyy OR milliseconds since Unix Epoch) | No |
 | Save Changes in Database | Boolean | Save the changes in the database for reporting on the build life changes tab. You usually only want to save them if you are running the changelog since the previous build. | No |
@@ -39,8 +39,8 @@ Perform a Perforce login, create client, getclientinfo, set workdir, sync as ind
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Date | String | Date of sourcecode to checkout (yyyy-MM-dd HH:mm:ss z OR E MMM dd HH:mm:ss zzz yyyyOR milliseconds since Unix Epoch) | No |
 | Source Config |  |  | No |
 
@@ -49,8 +49,8 @@ Perform a Perforce login, create client, getclientinfo, set workdir, sync as ind
 Perform a cleanup of the current working directory
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Source Config |  |  | No |
 
 ### Perforce Label
@@ -58,8 +58,8 @@ Perform a cleanup of the current working directory
 if (label =~ /[@#\*%\s]/) { errors.label = Label name can not contain @#\*% or any white-space characters! }``
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Depot Paths | String | A comma-separated list of depot paths to use when labeling files | No |
 | Label | String | The label to apply to the source | Yes |
 | Message | String | An optional message to use when applying the label | No |
@@ -70,8 +70,8 @@ if (label =~ /[@#\*%\s]/) { errors.label = Label name can not contain @#\*% or a
 Perform a Perforce changelog for quiet period detection and publish the results.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | End Date | String | End changelog at this date (yyyy-MM-dd HH:mm:ss z OR E MMM dd HH:mm:ss zzz yyyy OR milliseconds since Unix Epoch) | No |
 | Source Config |  |  | No |
 | Start Date | String | Start changelog at this date (yyyy-MM-dd HH:mm:ss z OR E MMM dd HH:mm:ss zzz yyyy OR milliseconds since Unix Epoch) | No |

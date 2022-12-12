@@ -22,8 +22,8 @@ Rational Team Concert Work Items - Steps
 Add Comments from the current changelog to matching RTC work items.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Add Changelog Comments | Boolean | Include comments from the changelog. | Yes |
 | Additional Comment | String | Any additional text to be added to the RTC work item comment in addtion to the commit comment. | No |
 | RTC Repository |  | Select RTC Repository to connect to. | Yes |
@@ -34,8 +34,8 @@ Update the status of RTC work items. \*Note\* If updating multiple work items it
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Action | String | The action to be performed on the work item(s). | No |
 | New Status | String | The new state for the work item(s). (Will not be used if Action is given.) | No |
 | RTC Repository |  | Select RTC Repository to connect to. | Yes |
@@ -47,8 +47,8 @@ Update the status of RTC work items. \*Note\* If updating multiple work items it
 Create a report of RTC work items from the build lifes changelog on the build life.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | RTC Repository |  | Select RTC Repository to connect to. | Yes |
 | Work Item Id Pattern | String | This is a regular expression to locate RTC work item Ids within changelog comments. You may add ()s around the portion of the pattern which identifies the actual Issue Id. The pattern DE[0-9]+ would match (returning the same string as issue ids) DE1 and DE932415, but not match DEa, DE, or DE.1The pattern Issue:\[(DE[0-9]+)\] would match Issue:[DE1] using issue Id DE1. | No |
 

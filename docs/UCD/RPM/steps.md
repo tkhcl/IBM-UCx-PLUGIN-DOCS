@@ -22,8 +22,8 @@ RPM - Steps
 Install an RPM package.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Install Options | String | One or more options to be used when installing the package. Put each option on a separate line. See the [RPM Guide](http://rpm5.org/docs/rpm-guide.html) for a list of options. | No |
 | RPM packages | String | A list of one or more packages to be installed. Put each package name on a separate line. | Yes |
 
@@ -32,8 +32,8 @@ Install an RPM package.
 Remove a package.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Erase Options | String | One or more options to use when removing the package. Put each option on a separate line.See the [RPM Guide](http://rpm5.org/docs/rpm-guide.html) for a list of options. | No |
 | Package name | String | A list of one or more packages to be uninstalled. Put each package name on a separate line. | Yes |
 
@@ -42,8 +42,8 @@ Remove a package.
 Update a package.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | RPM packages | String | A list of one or more RPM package names to be installed. Put each package name on a separate line. | Yes |
 | Update Options | String | One or more options to use when updating the package. Put each option on a separate line.See the [RPM Guide](http://rpm5.org/docs/rpm-guide.html) for a list of options. | No |
 

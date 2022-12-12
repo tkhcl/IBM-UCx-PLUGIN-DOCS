@@ -42,7 +42,7 @@ To create a workflow, do the following tasks:
 
 A basic process for a functional test plug-in is shown in the following snapshot:
 
-[![Run functional tests basic flow](rft_basic_flow.png)](rft_basic_flow.png)
+[![Run functional tests basic flow](media/rft_basic_flow.png)](media/rft_basic_flow.png)
 
 ### Note:
 

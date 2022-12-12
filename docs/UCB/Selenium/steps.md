@@ -20,8 +20,8 @@ Selenium for IBM UrbanCode Build - Steps
 Run a Selenium test suite
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Port Number | String | The port for running the test. The default port is 4444. | No |
 | Selenium Jar Location | String | The fully-qualified path to the Selenium JAR file. For example: `C:\Program Files\Selenium\selenium-server.jar`. | Yes |
 | Starting URL | String | The starting URL on which to execute the tests. For example: `http://www.google.com`. | Yes |

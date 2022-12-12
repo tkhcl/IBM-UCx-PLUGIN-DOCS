@@ -21,8 +21,8 @@ Docker Build - Steps
 Build a Docker image from a Dockerfile and set the image id as a build life property.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Image Property | String | The name of the build life property to set the image id as. | No |
 | DOCKER\_HOST | String | Optionally use a different Docker host value than the default. e.g. tcp://host:port | No |
 | Tag | String | The name to tag the image with if the build is successful. | No |
@@ -33,8 +33,8 @@ Build a Docker image from a Dockerfile and set the image id as a build life prop
 Publish a Docker image to a registry.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | DOCKER\_HOST | String | Optionally use a different Docker host value than the default. e.g. tcp://host:port | No |
 | Image Name | String | The name of the image to push to the registry. e.g. username/ubuntu or localhost.localdomain:5000/ubuntu | Yes |
 | Username | String | The username used to log in to the registry | Yes |

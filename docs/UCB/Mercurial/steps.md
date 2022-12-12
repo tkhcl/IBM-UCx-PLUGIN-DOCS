@@ -24,8 +24,8 @@ Mercurial - Steps
 Perform a Mercurial changelog and publish the results.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Changes URL | String |  | No |
 | End Date | String | End changelog at this date (yyyy-MM-dd HH:mm:ss z OR E MMM dd HH:mm:ss zzz yyyy OR milliseconds since Unix Epoch) | No |
 | End Revision | String | End changelog at this revision | No |
@@ -39,8 +39,8 @@ Perform a Mercurial changelog and publish the results.
 Perform a Mercurial clone and checkout of the workflows source
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Branch | String | Override the branch to check out | No |
 | Clean Workspace | Boolean | Erase all files from the worksapce before performing checkout | No |
 | Date | String | Date of sourcecode to checkout (yyyy-MM-dd HH:mm:ss z OR E MMM dd HH:mm:ss zzz yyyy OR milliseconds since Unix Epoch). Defaults to the requested build date for the workflow. | No |
@@ -53,8 +53,8 @@ Perform a Mercurial clone and checkout of the workflows source
 Perform a cleanup of the Mercurial working directory
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Source Config |  |  | No |
 
 ### Mercurial Create Tag
@@ -62,8 +62,8 @@ Perform a cleanup of the Mercurial working directory
 Create a tag in Mercurial of the specified working copy.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Message | String | A message for the commit | Yes |
 | Push Tag | Boolean | Immediately push the new tag back to the remote | No |
 | Source Config |  |  | No |
@@ -75,8 +75,8 @@ Perform a Mercurial changelog for quiet period detection and publish most recent
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | End Date | String | End changelog at this date (yyyy-MM-dd HH:mm:ss z OR E MMM dd HH:mm:ss zzz yyyy OR milliseconds since Unix Epoch) | No |
 | Source Config |  |  | No |
 | Start Date | String | Start changelog at this date (yyyy-MM-dd HH:mm:ss z OR E MMM dd HH:mm:ss zzz yyyy OR milliseconds since Unix Epoch) | No |

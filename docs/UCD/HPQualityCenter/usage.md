@@ -4,26 +4,19 @@ MicroFocus ALM (formerly HP Quality Center) - Usage
 
 # Usage
 
-
 ### Usage
 
+* [Before you begin](#before-you-begin)
+* [Step Palette](#step-palette)
+* [Tips](#tips)
 
-
-
-* [Before you begin](#before_you_begin)
-* [Step Palette](#palette)
-* [Tips](#tip)
-
-
-### **Before you begin**
+### Before you begin
 
 To use this plug-in, the HP Quality Center server 11.0 or 11.5 and agent must be installed. The HP Quality Center plug-in can be installed on any operating system that the IBM Rational Urban Code Deploy server supports.The HP Quality Center agent must be installed on a Windows operating system.
-
 
 ### **Step palette**
 
 To access this plug-in in the palette, click **Quality** > **Suite**.
-
 
 ### **Tips**
 
@@ -35,14 +28,9 @@ To expedite process design and execution, store frequently used values for the H
 * The domain in which the HP Quality Center project is saved, which is defined in the **Domain** field.
 * The name of the HP Quality Center project, which is defined in the **Project** field.
 
-
 Ensure that the HP Quality Center client files are located on the same system that the UrbanCode Deploy agent is installed on.
 
-
 ### Register an Agent with HP ALM
-
-
-
 
 ### The OTAClient.dll
 
@@ -54,9 +42,8 @@ To register your agent with HP ALM, you must visit the HP ALM Client Registratio
 
 After visiting the HP ALM Client Registration page, you will be greeted with the following instructions on how to register your machine:
 
-[![](screen-shot-2017-08-17-at-1.18.24-pm.png)](screen-shot-2017-08-17-at-1.18.24-pm.png)
+[![](media/screen-shot-2017-08-17-at-1.18.24-pm.png)](media/screen-shot-2017-08-17-at-1.18.24-pm.png)
 Follow the instructions, and then click Register HP ALM.
-
 
 ### Downloading the OTAClient.dll Library
 
@@ -65,7 +52,6 @@ The process of HP ALM Client Registration downloads the OTAClient.dll and places
 ### More Information
 
 For more information on the ALM Open Test Architecture API, please visit [HP ALM API References Page](http://alm-help.saas.hpe.com/en/12.50/online_help/Content/api_guides_main_page.htm) in the HP ALM Help Center.
-
 
 |Back to ...||Latest Version|MicroFocus ALM (formerly HP Quality Center) |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |

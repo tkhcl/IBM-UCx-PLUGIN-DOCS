@@ -24,8 +24,8 @@ InfoSphere-ISD - Steps
 Export all or selected applications and services from projects in your InfoSphere Information Services Director server into an XML output file.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma or newline delimited list of additionalarguments to pass to the ISDImportExport command. Surround any arguments that involve spaces with quotation marks. (i.e. -log C:Program Files\logs\test.log) | No |
 | Applications | String | A comma or newline delimited list of application namesto export from IIS. All services of the given applications will be exported if multiple applications are given. Specify only one application to export specific services. | No |
 | ISDImportExport Path | String | The path to your ISDImportExport executable file. Either specify an absolute path(i.e. C:\IBM\InformationServer\ASBServer\bin\ISDImportExport.bat) or a path that is relative to your working directory (i.e. bin\ISDImportExport.bat). | Yes |
@@ -42,8 +42,8 @@ Export all or selected applications and services from projects in your InfoSpher
 Import projects, applications, and services into your InfoSphere Information Services Director server from an XML input file.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma or newline delimited list of additionalarguments to pass to the ISDImportExport command. (i.e. -verbose) | No |
 | Applications | String | A comma or newline delimited list of application namesto import into IIS. All services of the given applications will be exported if multiple applications are given. All applications will be imported if this field is left blank. | No |
 | ISDImportExport Path | String | The path to your ISDImportExport executable file. Either specify an absolute path(i.e. C:\IBM\InformationServer\ASBServer\bin\ISDImportExport.bat) or a path that is relative to your working directory (i.e. bin\ISDImportExport.bat). | Yes |
@@ -60,8 +60,8 @@ Import projects, applications, and services into your InfoSphere Information Ser
 Export selected runtime applications from your InfoSphere Information Services Director server into a DAT output file.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma or newline delimited list of additionalarguments to pass to the ISDImportExport command. (i.e. -verbose) | No |
 | Applications | String | A comma or newline delimited list of runtime application names to export from IIS. | Yes |
 | ISDImportExport Path | String | The path to your ISDImportExport executable file. Either specify an absolute path(i.e. C:\IBM\InformationServer\ASBServer\bin\ISDImportExport.bat) or a path that is relative to your working directory (i.e. bin\ISDImportExport.bat). | Yes |
@@ -76,8 +76,8 @@ Export selected runtime applications from your InfoSphere Information Services D
 Import runtime applications into your InfoSphere Information Services Director server from a DAT input file.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma or newline delimited list of additionalarguments to pass to the ISDImportExport command. (i.e. -verbose) | No |
 | ISDImportExport Path | String | The path to your ISDImportExport executable file. Either specify an absolute path(i.e. C:\IBM\InformationServer\ASBServer\bin\ISDImportExport.bat) or a path that is relative to your working directory (i.e. bin\ISDImportExport.bat). | Yes |
 | Input XML File/ Directory | String | The file or directory path of the input XML file.Either specify an absolute path(i.e. C:\Program Files\agent\var\work\DataStage\input.XML) or a path that is relative to your working directory (i.e. input.XML). To import multiple projects you must specify an input directory instead of a file, and leave the project field empty. | Yes |

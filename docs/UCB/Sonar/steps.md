@@ -23,8 +23,8 @@ Run SonarQube to get information about source and tests from SonarQube
 if(Boolean.valueOf(createPom) && !automation) { errors.automation = Must Specify a Url if Pom is to be created }`` if(Boolean.valueOf(createPom) && !srcDir) { errors.srcDir = Must Specify a Source Directory if Pom is to be created }`` if(Boolean.valueOf(createPom) && !binDir) { errors.binDir = Must Specify an Artifact Directory if Pom is to be created }`` if(Boolean.valueOf(createPom) && !projName) { errors.projName = Must Specify a Project Name if Pom is to be created }`` if(Boolean.valueOf(createPom) && !artifactId) { errors.artifactId = Must Specify an Artifact ID if Pom is to be created }`` if(!Boolean.valueOf(createPom) && ( srcDir || binDir || projName || artifactId)) { errors.srcDir = This must be empty if a POM.xml does not need to be created; errors.binDir = This must be empty if a POM.xml does not need to be created; errors.projName = This must be empty if a POM.xml does not need to be created; errors.artifactId = This must be empty if a POM.xml does not need to be created; }``
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Artifact Directory | String | Relative path from the Pom file to the directory where artifacts are stored if a Pom file needs to be created. | No |
 | Artifact ID | String |  | No |
 | Create Pom File | Boolean | Required if your project is not a Maven project configured for SonarQube | No |
@@ -46,8 +46,8 @@ Run SonarQube to get information about source and tests from SonarQube for .NET
 if(Boolean.valueOf(createPom) && !automation) { errors.automation = Must Specify a Url if Pom is to be created }`` if(Boolean.valueOf(createPom) && !slnName) { errors.slnName = Must Specify a Solution file (.sln) if Pom is to be created }`` if(Boolean.valueOf(createPom) && !projName) { errors.projName = Must Specify a Project Name if Pom is to be created }`` if(Boolean.valueOf(createPom) && !artifactId) { errors.artifactId = Must Specify an Artifact ID if Pom is to be created }`` if(!Boolean.valueOf(createPom) && ( slnName || projName || artifactId)) { errors.slnName = This must be empty if a POM.xml does not need to be created; errors.projName = This must be empty if a POM.xml does not need to be created; errors.artifactId = This must be empty if a POM.xml does not need to be created; }``
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Artifact ID | String |  | No |
 | Create Pom File | Boolean | Required if your project is not a Maven project configured for SonarQube | No |
 | Exclude Directories | String | Relative path to the source to be excluded for static analysis. | No |

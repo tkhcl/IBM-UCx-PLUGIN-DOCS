@@ -33,8 +33,8 @@ Informatica - Steps
 Apply a label to objects in the target server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Domain Name | String | The domain name of the Informatica server. | No |
 | Host | String | The host name of the Informatica server. | No |
 | Informatica Label | String | The name of the label to apply to the objects. | Yes |
@@ -51,8 +51,8 @@ Apply a label to objects in the target server.
 Add, remove, or update permissions on a global object for a user, group, or the Others default group. Note: Only the administrator or the current owner of the object can manage permissions on the object.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Domain Name | String | The domain name of the Informatica server. | No |
 | Group Name to assign Object | String | Name of the group for which you want to add, remove, or update permissions. Specify Others as the group name to change permissions for the Others default group. Required if assigned User Name is not specified. Do not specify both. | No |
 | Host | String | The host name of the Informatica server. | No |
@@ -88,8 +88,8 @@ Add, remove, or update permissions on a global object for a user, group, or the 
 Create a dynamic Deployment Group and populate it using a named query.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Domain Name | String | The domain name of the Informatica server. | No |
 | Dynamic Group Query | String | The name of the query to use to populate the created dynamic deployment group. | Yes |
 | Host | String | The host name of the Informatica server. | No |
@@ -106,8 +106,8 @@ Create a dynamic Deployment Group and populate it using a named query.
 Creates a folder in the repository.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Description | String | Description to give to all folders. | No |
 | Domain Name | String | The domain name of the Informatica server. | No |
 | Folder List | String | List the names of the folders you wish to create. Separateeach folder with a new line or comma. | Yes |
@@ -133,8 +133,8 @@ Creates a folder in the repository.
 Create a static Deployment Group and add Informatica Workflows to it.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Domain Name | String | The domain name of the Informatica server. | No |
 | Host | String | The host name of the Informatica server. | No |
 | Informatica File | String | Informatica-formatted file containing the object to add to the deployment group. | No |
@@ -152,8 +152,8 @@ Create a static Deployment Group and add Informatica Workflows to it.
 Deploy a deployment group from one server to another.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Destination Informatica Folder(s) | String | The destination folder(s) for the deployment group objects. This is a 1:1 mapping with Source Informatica Folder(S). Separate each folder with a comma or new line. If this property is blank, the source folder names will be used as the destination folder names. | No |
 | Host | String | The host name of the Informatica server. | No |
 | Informatica Group | String | The name of the deployment group to deploy. | Yes |
@@ -177,8 +177,8 @@ Deploy a deployment group from one server to another.
 Import Objects from XML files. The step will automatically add the connect and exit commands and generate the necessary control files.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Checkin after import | Boolean | When selected, this will add the attribute CHECKIN\_AFTER\_IMPORT=YES to the IMPORTPARAMS element in the ctl files | No |
 | Conflict Resolution Rules | String | A new line separated list of conflict resolution overrides using the [object type name]=[resolution] notation. Full file path containing the conflict resolution rules list may be specified as an alternative. If no override is provided the default conflict resolution specified below will be used. | No |
 | Default Conflict Resolution | Enumeration:
@@ -208,8 +208,8 @@ Import Objects from XML files. The step will automatically add the connect and e
 Roll back a deployment of a deployment group.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Domain Name | String | The domain name of the Informatica server. | No |
 | Host | String | The host name of the Informatica server. | No |
 | Informatica Group | String | The name of the group to roll back. | Yes |
@@ -226,8 +226,8 @@ Run pmrep with the commands given to pmrep defined in this step. The step will a
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Domain Name | String | The domain name of the Informatica server. | No |
 | Host | String | The host name of the Informatica server. | No |
 | INFA HOME | String | The INFA\_HOME variable to be set on the environment. If set we will also use ``${INFA\_HOME}``/server/bin/pmrep as the exe and add this to LD\_LIBRARY\_PATH and LIBPATH | No |
@@ -243,8 +243,8 @@ Run pmrep with the commands given to pmrep defined in this step. The step will a
 Validate a deployed deployment group in the target server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Domain Name | String | The domain name of the Informatica server. | No |
 | Host | String | The host name of the Informatica server. | No |
 | Password | Password | The password to use to authenticate with Informatica. | No |

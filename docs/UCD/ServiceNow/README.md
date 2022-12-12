@@ -21,4 +21,4 @@ There is a [tutorial available here](https://developer.ibm.com/urbancode/2017/08
 
 |Back to ...||Latest Version||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[29.1143711](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-29.1143711.zip)|[Overview](overview.md)|[Usage](usage.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[30.1144780](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-30.1144780.zip)|[Overview](overview.md)|[Usage](usage.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|
