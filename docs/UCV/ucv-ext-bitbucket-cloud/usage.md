@@ -1,9 +1,7 @@
 
 # BitBucket Cloud - Usage
 
-## Usage
-
-To use the BitBucket projct Cloud plug-in, the plug-in must be loaded and an instance created before you can configure the plug-in integration. You define configuration properties in the user interface or in a JSON file.
+To use the BitBucket Cloud plug-in, the plug-in must be loaded and an instance created before you can configure the plug-in integration. You define configuration properties in the user interface or in a JSON file.
 
 ## Integration type
 
