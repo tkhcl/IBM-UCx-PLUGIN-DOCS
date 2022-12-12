@@ -1073,7 +1073,7 @@ IBM Rational Functional Tester is an automated functional testing and regression
 
 |Back to ...||IBM Rational Functional Tester (RFT) |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](RFT-UCD/README.md)|[6.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RFT-UCD/RFT-UCD-FunctionalTest-6.0.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](RFT-UCD/README.md)|[6.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RFT-UCD/RFT-UCD-FunctionalTest-6.1.zip)|
 
 ## IBM Rational Integration Tester (RIT)
 
