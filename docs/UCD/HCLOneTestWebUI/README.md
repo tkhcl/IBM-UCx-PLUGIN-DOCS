@@ -18,4 +18,4 @@ Run WebUI Functional Test
 
 |Back to ...||Latest Version||
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[11.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestWebUI/HOT-UI-UCD-UITest-11.0.zip)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[11.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestWebUI/HOT-UI-UCD-UITest-11.1.zip)|[Downloads](downloads.md)|

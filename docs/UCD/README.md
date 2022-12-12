@@ -723,7 +723,7 @@ The HCL OneTest UI plug-in for UrbanCode Deploy provides a step to run functiona
 
 |Back to ...||HCL OneTest UI |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](HCLOneTestUI/README.md)|[6.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestUI/HOT-UI-UCD-FunctionalTest-6.0.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](HCLOneTestUI/README.md)|[6.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestUI/HOT-UI-UCD-FunctionalTest-6.1.zip)|
 
 ## HCL OneTest Virtualization
 
@@ -743,7 +743,7 @@ The HCL OneTest WebUI plug-in for UrbanCode Deploy provides a step to run functi
 
 |Back to ...||HCL OneTest WebUI |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](HCLOneTestWebUI/README.md)|[11.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestWebUI/HOT-UI-UCD-UITest-11.0.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](HCLOneTestWebUI/README.md)|[11.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestWebUI/HOT-UI-UCD-UITest-11.1.zip)|
 
 ## HP LoadRunner
 
