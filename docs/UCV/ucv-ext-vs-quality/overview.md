@@ -1,8 +1,6 @@
 
 # Microsoft Visual Studio Testing - Overview
 
-## Overview
-
 Microsoft Visual Studio Testing plug-in allows for parsing of MSTest and VSTest data from the Microsoft Visual Studio. Data is uploaded to the UrbanCode Velocity server using an HTTP Post request.
 
 ## Compatibility

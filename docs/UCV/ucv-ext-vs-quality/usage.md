@@ -1,8 +1,6 @@
 
 # Microsoft Visual Studio Testing - Usage 
 
-## Usage
-
 To use the Microsoft Visual Studio Testing plug-in, the plug-in must be loaded and an instance created. Load the plug-in into the UrbanCode Velocity container if necessary using the below steps:
 1. From the user interface, click **Settings** > **Integrations** > **Plugins**. 
 2. On the Plugins page, locate the plug-in and click **Load Plugin**. 
