@@ -1163,7 +1163,7 @@ IBM® Rational® Test Workbench provides a comprehensive test automation solutio
 
 |Back to ...||IBM Rational Test Workbench Web UI Tester |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](RFT-WebUI-UCD/README.md)|[11.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RFT-WebUI-UCD/RFT-UCD-UITest-11.0.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](RFT-WebUI-UCD/README.md)|[11.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RFT-WebUI-UCD/RFT-UCD-UITest-11.1.zip)|
 
 ## IBM Security Access Manager (WebSEAL)  [community plugin]
 
