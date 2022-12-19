@@ -18,14 +18,12 @@ Agility server for new or updated work items. |
 
 ## Integration
 
-There are two methods to integrate the plug-
-in:
+There are two methods to integrate the plug-in:
 
 * Using the user interface
 * Using a JSON file
 
-The tables in the *Configuration properties* topic describe the
-properties used to define integrations.
+The tables in the *Configuration properties* topic describe the properties used to define integrations.
 
 ### Using the user interface
 
@@ -50,18 +48,16 @@ JSON file to include the plug-in configuration properties.
 JSON file with the new content.
 4. View the new integration on the Integrations page.
 
-### Configuration properties
+## Configuration properties
 
 
 The following tables describe the properties used to configure the integration. Each table contains the field name when
 using the user interface and the property name when using a JSON file.
 
-* The General Configuration Properties table
-describes configuration properties used by all plug-in integrations.
-* The Digital.ai Agility Configuration Properties
-table describes the Digital.ai Agility configuration properties that define the connection and communications with the
-Digital.ai Agility server. When using the JSON method to integrate the plug-in these properties are coded within the
-`properties` configuration property.
+* The General Configuration Properties table describes configuration properties used by all plug-in integrations.
+* The Digital.ai Agility Configuration Properties table describes the Digital.ai Agility configuration properties that define the connection and communications with the Digital.ai Agility server. When using the JSON method to integrate the plug-in these properties are coded within the `properties` configuration property.
+
+### General Configuration Properties
 
 |Name | Description |Required |  Property Name|
 | --- | --- | --- | --- | 
@@ -72,6 +68,7 @@ Digital.ai Agility server. When using the JSON method to integrate the plug-in t
 | NA | The name of the tenant. | Yes| tenant\_id |
 | NA | Unique identifier assigned to the plug-in. The value for the Digital.ai Agility Server plug-in is `ucv-ext-agility` | Yes | type |
 
+### Digital.ai Agility Configuration Properties
 
 | Name | Type | Description | Required | Hidden | Project Name |
 | --- | --- | --- | --- | --- | --- |
@@ -87,9 +84,7 @@ Digital.ai Agility server. When using the JSON method to integrate the plug-in t
 
 ## Example
 
-The following example can be used as a template
-to define the integration within the JSON file for a value stream. Copy and paste the template into the JSON file and
-make the appropriate changes.
+The following example can be used as a template to define the integration within the JSON file for a value stream. Copy and paste the template into the JSON file and make the appropriate changes.
 
 
 ```
