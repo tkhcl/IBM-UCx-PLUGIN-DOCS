@@ -1,37 +1,19 @@
 
-Azure DevOps - Overview
-=======================
+# Azure DevOps - Overview
 
-# Overview
+The Azure DevOps (formerly *Microsoft Team Foundation Server or TFS*) plug-in provides for integration with an Azure DevOps server. This plug-in imports work items, commits, pull requests and deployment data from an Azure DevOps server and saves them as UrbanCode Velocity issues. Data between the Azure DevOps server and the UrbanCode Velocity server is synchronized every five minutes.
 
+## Compatibility
 
-### Overview
+Must be running UrbanCode Velocity version 1.2.1 and later to use the plug-in.
 
+## Versions
 
-The Azure DevOps (formerly *Microsoft Team Foundation Server or TFS*) plug-in provides for
-integration with an Azure DevOps server. This plug-in imports work items, commits, pull requests and deployment data
-from an Azure DevOps server and saves them as UrbanCode Velocity issues. Data between the Azure DevOps server and the
-UrbanCode Velocity server is synchronized every five minutes.
+There is no install process for this plug-in. The Azure DevOps plug-in is identified to UrbanCode Velocity as a value stream integration. UrbanCode Velocity plug-in images are located in DockerHub and the UrbanCode Velolcity code accesses the version that you select. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-azure/tags).
 
-Compatibility
--------------
+## History
 
-Must be running UrbanCode
-Velocity version 1.2.1 and later to use the plug-in.
-
-Versions
---------
-
-There is no install process for this plug-in.
-The Azure DevOps plug-in is identified to UrbanCode Velocity as a value stream integration. UrbanCode Velocity plug-in
-images are located in DockerHub and the UrbanCode Velolcity code accesses the version that you select. To view available
-versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-azure/tags).
-
-History
--------
-
-###
-Version 4.0.26
+### Version 4.0.26
 
 * Auto generated User Access Key Related Changes.(For velocity version 3.0.0 we started supporting auto generated user access key. For version prior to 3.0.0 manually add user access key in the hidden field.)
 
@@ -44,8 +26,7 @@ Velocity version 2.4.4 or later.
 
 * Added orchestration support for Azure yaml pipelines.
 
-###
-Version 3.0.1
+### Version 3.0.1
 
 * Added release pipeline orchestration support.
 
@@ -53,8 +34,7 @@ Version 3.0.1
 
 * Minor enhancements.
 
-###
-Version 2.0.2
+### Version 2.0.2
 
 * Syncs deployment data.
 
