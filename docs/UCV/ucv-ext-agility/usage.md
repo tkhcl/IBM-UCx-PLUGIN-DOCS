@@ -1,19 +1,11 @@
 
-Digital.ai Agility - Usage
-==========================
-
-# Usage
-
-
-### Usage
-
+# Digital.ai Agility - Usage
 
 To use the Digital.io Agility plug-in, the plug-in must be loaded and an instance created before you can
 configure the plug-in integration. Configuration properties are defined using the product user interface or a JSON file.
 
 
-Integration type
-----------------
+## Integration type
 
 The Digital.io Agility plug-in supports scheduled events integration which are
 listed in the following table.
@@ -24,8 +16,7 @@ listed in the following table.
 | SyncV1WorkItems | Queries the Digital.io
 Agility server for new or updated work items. |
 
-Integration
------------
+## Integration
 
 There are two methods to integrate the plug-
 in:
@@ -72,50 +63,29 @@ table describes the Digital.ai Agility configuration properties that define the 
 Digital.ai Agility server. When using the JSON method to integrate the plug-in these properties are coded within the
 `properties` configuration property.
 
-NameDescriptionRequiredProperty Name
-
-
-| NA | The version of the plug-in that
-you want to use. To view available versions, click the **Version History** tab. If a value is not specified, the latest
-version is used. | No | image |
+|Name | Description |Required |  Property Name|
+| --- | --- | --- | --- | 
+| NA | The version of the plug-in that you want to use. To view available versions, click the **Version History** tab. If a value is not specified, the latest version is used. | No | image |
 | Integration Name | An assigned name to the value stream. | Yes | name</td |
-| Logging
-Level | The level of Log4j messages to display in the log file. Valid values are: all, debug, info, warn, error, fatal,
-off, and trace. | No | loggingLevel |
-| NA | List of configuration properties used to connect and communicate with the
-Digital.ai Agility server. Enclose the properties within braces. | Yes | properties |
-|  | The name of the tenant. | Yes
-| tenant\_id |
-| NA | Unique identifier assigned to the plug-in. The value for the Digital.ai Agility Server plug-in is
-`ucv-ext-agility` | Yes | type |
+| Logging Level | The level of Log4j messages to display in the log file. Valid values are: all, debug, info, warn, error, fatal, off, and trace. | No | loggingLevel |
+| NA | List of configuration properties used to connect and communicate with the Digital.ai Agility server. Enclose the properties within braces. | Yes | properties |
+| NA | The name of the tenant. | Yes| tenant\_id |
+| NA | Unique identifier assigned to the plug-in. The value for the Digital.ai Agility Server plug-in is `ucv-ext-agility` | Yes | type |
 
 
 | Name | Type | Description | Required | Hidden | Project Name |
-| --- | --- | ---
-| --- | --- | --- |
-| AccessToken | Secure | The access token to authenticate with the Digital.io Agility server.
-Either the Password or AccessToken property must contain a value. Do not specify a value for both at the same time. | No
-| No | accessToken |
-| Password | Secure | The password used to authenticate with the Digital.io Agility server. Either
-the Password or AccessToken property must contain a value. Do not specify a value for both at the same time. | No | No
-| password |
-| Projects | Array | A list of Digital.io Agility projects from which work items are imported. | Yes | No |
-projects |
-| Proxy Password | Secure | The password used to authenticate with the proxy server. | No | Yes |
-proxyPassword |
-| Proxy Server | String | The URL of the proxy server including the port number. The URL protocol can be
-http or https. | No | Yes | proxyServer |
-| Proxy User Name | String | The user name used to authenticate with the
-proxy server. | No | Yes | proxyUsername |
-| User Access Key | Secure | The user access key generated from UrbanCode
-Velocity used to authenticate with the UrbanCode Velocity server. | Yes | No | ucvAccessKey |
-| URL | String | The URL
-of the Digital.io Agility server. | Yes | No | serverUrl |
-| User ID | String | The user name used to authenticate with
-the Digital.io Agility server. | Yes | No | userId |
+| --- | --- | --- | --- | --- | --- |
+| AccessToken | Secure | The access token to authenticate with the Digital.io Agility server. Either the Password or AccessToken property must contain a value. Do not specify a value for both at the same time. | No| No | accessToken |
+| Password | Secure | The password used to authenticate with the Digital.io Agility server. Either the Password or AccessToken property must contain a value. Do not specify a value for both at the same time. | No | No| password |
+| Projects | Array | A list of Digital.io Agility projects from which work items are imported. | Yes | No | projects |
+| Proxy Password | Secure | The password used to authenticate with the proxy server. | No | Yes | proxyPassword |
+| Proxy Server | String | The URL of the proxy server including the port number. The URL protocol can be http or https. | No | Yes | proxyServer |
+| Proxy User Name | String | The user name used to authenticate with the proxy server. | No | Yes | proxyUsername |
+| User Access Key | Secure | The user access key generated from UrbanCode Velocity used to authenticate with the UrbanCode Velocity server. | Yes | No | ucvAccessKey |
+| URL | String | The URL of the Digital.io Agility server. | Yes | No | serverUrl |
+| User ID | String | The user name used to authenticate with the Digital.io Agility server. | Yes | No | userId |
 
-Example
--------
+## Example
 
 The following example can be used as a template
 to define the integration within the JSON file for a value stream. Copy and paste the template into the JSON file and
