@@ -645,6 +645,18 @@ Git is a free and open source distributed version control system designed to han
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](git-install/README.md)|[0]()|
 
+## GitLab-Sourceconfig-Generic-Packages  
+
+Gitlab Generic Packages
+Initial release of this plugin.
+
+---
+
+|Back to ...||Gitlab Generic Packages |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](gitlab-sourceconfig-generic-packages/README.md)|[1.1147446](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/gitlab-sourceconfig-generic-packages/ucd-plugins-sourceconfig-gitlab-generic-packages-1.1147446.zip)|
+
+
 ## GitHub-Release
 
 The GitHub Release plug-in is a source configuration plug-in that creates a component version on the UrbanCode Deploy server for a specified GitHub repository release being imported. The plug-in can be used to import ZIP and TAR artifacts from GitHub.
