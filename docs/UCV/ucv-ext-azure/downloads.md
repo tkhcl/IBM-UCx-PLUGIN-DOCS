@@ -1,8 +1,7 @@
 
-Azure DevOps - Downloads
-========================
+# Azure DevOps - Downloads
 
-# Downloads
+To download the plugins, click the following version specific links.
 
 - [ucv-ext-azure-4.0.26.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-azure/ucv-ext-azure-4.0.26.tar.zip)
 - [ucv-ext-azure-4.0.16.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-azure/ucv-ext-azure-4.0.16.tar.zip)
