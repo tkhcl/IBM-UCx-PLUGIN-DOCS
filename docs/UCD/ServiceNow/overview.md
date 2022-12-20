@@ -34,6 +34,10 @@ No special steps are required for installation. See [Installing plug-ins in IBM 
 
 ### History
 
+#### Version 31
+
+Updated log4j dependency.
+
 #### Version 30
 
 RFE - RFE URBANCODE-I-434: The state details in the logs improved for Check-Change-Request-State step
@@ -41,6 +45,7 @@ RFE - RFE URBANCODE-I-434: The state details in the logs improved for Check-Chan
 #### Version 29
 
 RFE - Add Oauth 2.0 authentication mechanism to ths plugin.
+
 
 #### Version 28
 
@@ -136,4 +141,4 @@ This version includes a fix for a defect related to the ServiceNow REST API in t
 
 |Back to ...||Latest Version|ServiceNow |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[30.1144780](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-30.1144780.zip)|[Readme](README.md)|[Usage](usage.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[31.1148995](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-31.1148995.zip)|[Readme](README.md)|[Usage](usage.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|
