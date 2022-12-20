@@ -875,7 +875,7 @@ The IBM UrbanCode Deploy plugin for DataPower Configuration Manager provides the
 
 |Back to ...||IBM DataPower Configuration Manager |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](datapower/README.md)|[datapower-v23.eb38543](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/datapower/datapower-v23.eb38543.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](datapower/README.md)|[datapower-v25](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/datapower/datapower-v25.zip)|
 
 ## IBM Db2 for z/OS Package
 
