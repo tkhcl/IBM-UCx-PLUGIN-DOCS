@@ -1,9 +1,7 @@
 
-Handlebar Reporter - Downloads
-==============================
+# Handlebar Reporter - Downloads
 
-# Downloads
-
+To download the plugins, click the following version specific links.
 - [ucv-ext-handlebars-reporter-0.0.41.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-handlebars-reporter/ucv-ext-handlebars-reporter-0.0.41.tar.zip)
 - [ucv-ext-handlebars-reporter-0.0.39.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-handlebars-reporter/ucv-ext-handlebars-reporter-0.0.39.tar.zip)
 - [ucv-ext-handlebars-reporter-0.0.38.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-handlebars-reporter/ucv-ext-handlebars-reporter-0.0.38.tar.zip)
