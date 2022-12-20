@@ -1,6 +1,5 @@
 
-HCL AppScan on Cloud (ASoC)
-===========================
+# HCL AppScan on Cloud (ASoC)
 
 HCL AppScan on Cloud (ASoC) is an application security offering that allows you to scan a web URL for security
 vulnerabilities.
