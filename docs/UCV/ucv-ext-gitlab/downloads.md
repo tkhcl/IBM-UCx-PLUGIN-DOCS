@@ -1,9 +1,7 @@
 
-GitLab - Downloads
-==================
+# GitLab - Downloads
 
-# Downloads
-
+To download the plugins, click the following version specific links.
 - [ucv-ext-gitlab:2.1.58.tar.7z.001](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-gitlab/ucv-ext-gitlab:2.1.58.tar.7z.001)
 - [ucv-ext-gitlab-2.0.50.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-gitlab/ucv-ext-gitlab-2.0.50.tar.zip)
 - [ucv-ext-gitlab-2.0.37.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-gitlab/ucv-ext-gitlab-2.0.37.tar.zip)
