@@ -1,8 +1,7 @@
 
-CircleCI - Downloads
-==================
+# CircleCI - Downloads
 
-# Downloads
+To download the plugins, click the following version specific links.
 
 - [ucv-ext-circleci-1.0.13.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-circleci/ucv-ext-circleci-1.0.13.tar.zip)
 - [ucv-ext-circleci-1.0.16.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-circleci/ucv-ext-circleci-1.0.16.tar.zip)

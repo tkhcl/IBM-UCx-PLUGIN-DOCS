@@ -1,16 +1,11 @@
 
 # IBM Engineering Workflow Management (EWM) - Usage
 
-## Usage
-
-To use the IBM Engineering Workflow Management (EWM) plug-in, the plug-in must be loaded and an instance
-created before you can configure the plug-in integration. Configuration properties are defined using the product user
-interface or a JSON file.
+To use the IBM Engineering Workflow Management (EWM) plug-in, the plug-in must be loaded and an instance created before you can configure the plug-in integration. Configuration properties are defined using the product user interface or a JSON file.
 
 ## Integration type
 
-The EWM plug-in supports scheduled events integration.
-There is only one scheduled event which is described in the following table.
+The EWM plug-in supports scheduled events integration. There is only one scheduled event which is described in the following table.
 
 | Name | Description |
 | --- | --- |
@@ -35,22 +30,21 @@ For details see [Using plug-ins in UrbanCode Velocity](https://community.ibm.com
 
 ### Using a JSON file
 
-The JSON file contains the information for
-creating a value stream and integrating with the IBM Engineering WorkFlow Management (EWM) server. The following table
-describes the information for the creating a UrbanCode Velocity value stream map.
+The JSON file contains the information for creating a value stream and integrating with the IBM Engineering WorkFlow Management (EWM) server. The following table describes the information for the creating a UrbanCode Velocity value stream map.
 
 1. Download the value stream map. The value stream map is a JSON file used to define integrations.
 2. Edit the JSON file to include the plug-in configuration properties.
 3. Save and upload the JSON file. This replaces the current JSON file with the new content.
 4. View the new integration on the Integrations page.
 
-### Configuration properties
+## Configuration properties
 
 The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the property name when using a JSON file.
 
 * The General Configuration Properties table describes configuration properties used by all plug-in integrations.
 * The IBM Engineering WorkFlow Management (EWM) Configuration Properties table describes the IBM Engineering WorkFlow Management (EWM) configuration properties that define the connection and communications with the IBM Engineering WorkFlow Management (EWM) server. When using the JSON method to integrate the plug-in these properties are coded within the `properties` configuration property.
 
+### General Configuration Properties
 | Name | Description | Required | Property Name |
 | --- | --- | --- | --- |
 | NA | The version of the plug-in that you want to use. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-bitbucket-server/tags). If a value is not specified, the latest version is used. | No | image |
@@ -59,6 +53,8 @@ The following tables describe the properties used to configure the integration. 
 | NA | List of [configuration properties](#properties) used to connect and communicate with the IBM Engineering WorkFlow Management (EWM) server. Enclose the properties within braces. | Yes | properties |
 |  | The name of the tenant. | Yes | tenant_id |
 | NA | Unique identifier assigned to the plug-in. The value for the IBM Engineering WorkFlow Management (EWM) Server plug-in is `ucv-ext-ewm/tags` | Yes | type |
+
+### IBM Engineering WorkFlow Management (EWM) Configuration Properties
 
 | Name | Type | Description | Required | Project Name |
 | --- | --- | --- | --- | --- |
@@ -71,9 +67,7 @@ The following tables describe the properties used to configure the integration. 
 
 ## Example
 
-The following example can be used as as
-template to include the Engineering Workflow Management plug-in integration into the JSON file. Copy and paste the
-template into the JSON file and make the appropriate changes.
+The following example can be used as as template to include the Engineering Workflow Management plug-in integration into the JSON file. Copy and paste the template into the JSON file and make the appropriate changes.
 
 ```json
 
@@ -102,8 +96,7 @@ access-key"
 
 ## Demonstration
 
-View a
-[video](https://www.youtube.com/watch?v=mY14Kn1R0EI) demonstrating the use of the EWM plug-in.
+View a [video](https://www.youtube.com/watch?v=mY14Kn1R0EI) demonstrating the use of the EWM plug-in.
 
 |Back to ...||Latest Version|IBM Engineering Workflow Management (EWM) |||
 | :---: | :---: | :---: | :---: | :---: | :---: |

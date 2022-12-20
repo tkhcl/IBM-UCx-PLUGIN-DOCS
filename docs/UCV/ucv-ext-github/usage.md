@@ -1,11 +1,9 @@
 
 # GitHub - Usage
 
-## Usage
-
 To use the GitHub plug-in, the plug-in must be loaded and an instance created before you can configure the plug-in integration. Configuration properties are defined using the product user interface or a JSON file.
 
-### Integration type
+## Integration type
 
 The GitHub plug-in supports scheduled events integration which are listed in the following table.
 
@@ -15,7 +13,7 @@ The GitHub plug-in supports scheduled events integration which are listed in the
 | syncGithubCommitsEvent | Queries the GitHub repository for commits. |
 | syncGithubPullRequestsEvent | Queries the GitHub repository for pull requests. |
 
-### Integration
+## Integration
 
 here are two methods to integrate the plug-in:
 
@@ -24,14 +22,14 @@ here are two methods to integrate the plug-in:
 
 The tables in the Configuration properties topic describe the properties used to define the integration.
 
-#### Using the user interface
+### Using the user interface
 
 1. From the Plugins page, click **Settings** > **Integrations** > **Plugins**.
 2. Under the **Action** column for the plug-in, click **Add Integration**.
 3. On the Add Integration page enter values for the fields used to configure the integration and define communication.
 4. Click **Save**.
 
-#### Using a JSON file
+### Using a JSON file
 
 The JSON file contains the information for creating a value stream. Within the JSON file is a section for integrations. It is in this section that plug-in properties can be defined.
 
@@ -40,14 +38,14 @@ The JSON file contains the information for creating a value stream. Within the J
 3. Save and upload the JSON file. This replaces the current JSON file with the new content.
 4. View the new integration on the Integrations page.
 
-### Configuration properties
+## Configuration properties
 
 The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the property name when using a JSON file.
 
 * The General Configuration Properties table describes configuration properties used by all plug-in integrations.
 * The GitHub Configuration Properties table describes the GitHub configuration properties that define the connection and communications with the GitHub server. When using the JSON method to integrate the plug-in these properties are coded within the `properties` configuration property.
 
-#### General Configuration Properties table
+### General Configuration Properties table
 
 | Name | Description | Required | Property Name |
 | --- | --- | ---| --- |
@@ -58,7 +56,7 @@ The following tables describe the properties used to configure the integration. 
 |  | The name of the tenant. | Yes | tenant_id |
 | NA | Unique identifier assigned to the plug-in. The value for the GitHub plug-in is `ucv-ext-github` | Yes | type |
 
-#### GitHub Configuration Properties table
+### GitHub Configuration Properties table
 
 | Name | Type | Description | Required | Project Name |
 | --- | --- | --- | --- | --- |
@@ -73,7 +71,7 @@ The following tables describe the properties used to configure the integration. 
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |
 | Proxy Password | String | The password used to authenticate with the proxy server. | No | proxyPassword |
 
-#### JSON code example
+### JSON code example
 
 The following example can be used as a template to define the integration within the JSON file for a value stream. Copy and paste the template into the JSON file and make the appropriate changes.
 

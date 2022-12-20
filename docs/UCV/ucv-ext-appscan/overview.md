@@ -1,40 +1,26 @@
 
-HCL AppScan Enterprise (ASE) - Overview
-=======================================
-
-# Overview
-
-
-### Overview
-
-
-
+# HCL AppScan Enterprise (ASE) - Overview
 
 The AppScan Enterprise plug-in provides integration with an HCL AppScan Enterprise server. This
 plug-in retrieves the security vulnerability report of the application and displays it as metrics in insights.
 
 
-Compatibility
--------------
+## Compatibility
 
 Must be running UrbanCode Velocity version 1.2.1 and later to use the plug-in.
 
-Versions
-
---------
+## Versions
 
 There is no install process for this plug-in. The AppScan Enterprise plug-in is identified to UrbanCode
 Velocity as a value stream integration. UrbanCode Velocity plug-in images are located in DockerHub and the UrbanCode
 Velolcity code accesses the version that you select. To view available versions, see the [UrbanCode
 DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-appscan/tags).
 
-History
--------
+## History
 
 ### Version 1.0.23
 
-* Bug
-fix.
+* Bug fix.
 
 ### Version 1.0.21
 
@@ -42,8 +28,7 @@ fix.
 
 ### Version 1.0.20
 
-*
-Bug fix.
+* Bug fix.
 
 ### Version 1.0.16
 
@@ -51,8 +36,7 @@ Bug fix.
 
 ### Version 0.0.13
 
-* Initial
-release
+* Initial release
 
 |Back to ...||Latest Version|HCL AppScan Enterprise (ASE) |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
