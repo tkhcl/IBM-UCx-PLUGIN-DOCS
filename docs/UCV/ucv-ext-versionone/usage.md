@@ -49,16 +49,18 @@ The following tables describe the properties used to configure the integration. 
 server. When using the JSON method to integrate the plug-in these properties are coded within the `properties` configuration property.
 
 ### General Configuration Properties
+
 | Name | Description | Required | Property Name |
 | --- | --- | --- | --- |
 | NA | The version of the plug-in that you want to use. To view available versions, click the **Version History** tab. If a value is not specified, the version named latest is used. | No | image |
 | Integration Name | An assigned name to the value stream. | Yes | name |
 | Logging Level | The level of Log4j messages to display in the log file. Valid values are: all, debug, info, warn, error, fatal, off, and trace. | No | loggingLevel |
-| NA | List of plug-in configuration properties used to connect and communicate with the VersionOne server. Enclose the properties within braces. | Yes | properties ||
-| The name of the tenant. | Yes | tenant\_id |
+| NA | List of plug-in configuration properties used to connect and communicate with the VersionOne server. Enclose the properties within braces. | Yes | properties |
+|NA | The name of the tenant. | Yes | tenant\_id |
 | NA | Unique identifier assigned to the plug-in. The value for the VersionOne plug-in is `ucv-ext-versionone` | Yes | type |
 
 ### CollabNet VersionOne Configuration Properties
+
 | Name | Type | Description | Required | Hidden | Project Name |
 | --- | --- | --- | --- | --- | --- |
 | AccessToken | Secure | The access token to authenticate with the VersionOne server. Either the Password or AccessToken property must contain a value. Do not specify a value for both at the same time. | No | No | accessToken |

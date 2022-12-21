@@ -2,8 +2,7 @@
 # Black Duck - Overview
 
 
-The Black Duck plug-in provides for integration with a Black Duck server. This plug-in imports scan
-result data from an Black Duck server and saves the data as metrics in UrbanCode Velocity insights.
+The Black Duck plug-in provides for integration with a Black Duck server. This plug-in imports scan result data from an Black Duck server and saves the data as metrics in UrbanCode Velocity insights.
 
 ## Compatibility
 
@@ -14,8 +13,7 @@ There is no install process for this plug-in. The Black Duck plug-in is identifi
 
 # History
 
-###
-Version 1.0.17
+### Version 1.0.17
 
 * User access key related changes.
 

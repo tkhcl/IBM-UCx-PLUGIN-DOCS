@@ -6,8 +6,7 @@ To use the Black Duck plug-in you must define the integration and send an HTTP P
 1. Download the value stream map. The value stream map is a JSON file used to define integrations.
 2. Edit the JSON file to include the plug-in configuration properties.
 3. Save and upload the JSON file. This replaces the current JSON file with the new content.
-4. View the new integration on the Integration user
-interface page. Click **Settings** > **Integrations** to view.
+4. View the new integration on the Integration user interface page. Click **Settings** > **Integrations** to view.
 
 ## Send HTTP Post
 
@@ -33,6 +32,7 @@ The Black Duck plug-in supports endpoint integration which are listed in the fol
 ## Integration
 
 From the user interface Value Steam page, click **Upload** to upload the value stream map which is a JSON file.
+
 The JSON file contains the information for creating a value stream and integrating with the Black Duck server. The following table describes the information for the creating the value stream map.
 
 
@@ -57,6 +57,7 @@ The configuration properties which are included in the `properties` field are un
 | UrbanCode Velocity User Access Key | ucvAccessKey | Secure | The user access key to authenticate with the UrbanCode Velocity server. | Yes |
 
 ## Example
+
 The following example can be used as a template to include the Black Duke plug-in integration into the JSON file. You can copy and paste the template into the JSON file and make the appropriate changes.
 ```
 

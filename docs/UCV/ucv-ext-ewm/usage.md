@@ -45,6 +45,7 @@ The following tables describe the properties used to configure the integration. 
 * The IBM Engineering WorkFlow Management (EWM) Configuration Properties table describes the IBM Engineering WorkFlow Management (EWM) configuration properties that define the connection and communications with the IBM Engineering WorkFlow Management (EWM) server. When using the JSON method to integrate the plug-in these properties are coded within the `properties` configuration property.
 
 ### General Configuration Properties
+
 | Name | Description | Required | Property Name |
 | --- | --- | --- | --- |
 | NA | The version of the plug-in that you want to use. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-bitbucket-server/tags). If a value is not specified, the latest version is used. | No | image |
