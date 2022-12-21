@@ -875,7 +875,7 @@ The IBM UrbanCode Deploy plugin for DataPower Configuration Manager provides the
 
 |Back to ...||IBM DataPower Configuration Manager |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](datapower/README.md)|[datapower-v23.eb38543](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/datapower/datapower-v23.eb38543.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](datapower/README.md)|[datapower-v25](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/datapower/datapower-v25.zip)|
 
 ## IBM Db2 for z/OS Package
 
@@ -2105,7 +2105,7 @@ This community plugin provides a mechanism to send SMTP emails in your deploymen
 
 |Back to ...||ServiceNow |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ServiceNow/README.md)|[30.1144780](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-30.1144780.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ServiceNow/README.md)|[31.1148995](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-31.1148995.zip)|
 
 ## Shell
 
