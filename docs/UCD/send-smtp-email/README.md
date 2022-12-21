@@ -1,6 +1,5 @@
 
-Send SMTP Email
-===============
+# Send SMTP Email
 
 This plugin provides a mechanism to send SMTP emails in your deployment process.
 
@@ -10,13 +9,9 @@ This plug-in is developed and supported by the UrbanCode Deploy Community on Git
 
 To build a local plug-in, follow the short directions at the bottom of the GitHub project’s README.
 
-
-Available Steps
----------------
+## Available Steps
 
 Send an SMTP email
-
-
 
 |Back to ...||Latest Version|
 | :---: | :---: | :---: |
