@@ -24,7 +24,7 @@ There is no install process for this plug-in. The GitLab plug-in is identified t
 * Removed Manual User Access Key: From current version onwards this plugin will only support Auto Generated User Access Key feature of UrbanCode Velocity.
 * Preventing Installation on Older Versions: This version of GitLab Plugin can only be installed on UrbanCode Velocity version 2.5.0 and later.
 * Resolved Previous Version Issue: Previous Version of plugin had some defect related to Project Names field. The plugin was syncing data only for those projects which were owned by the user. Now the plugin syncs data for the projects in which user is a member at any level.
-* Added Category: ALM | SCM | Build | Deploy are the categories of GitLab plugin.
+* Added Category: ALM, SCM, Build, Deploy are the categories of GitLab plugin.
 
 ### Version 2.0.57
 
@@ -37,13 +37,11 @@ There is no install process for this plug-in. The GitLab plug-in is identified t
 
 ### Version 2.0.31
 
-* ReSync support added (support starts with UrbanCode
-Velocity version 2.4.4 or later).
+* ReSync support added (support starts with UrbanCode Velocity version 2.4.4 or later).
 
 ### Version 2.0.30
 
-* Auto-generated User Access Key support added (support starts
-with UrbanCode Velocity version 2.4.0 or later).
+* Auto-generated User Access Key support added (support starts with UrbanCode Velocity version 2.4.0 or later).
 
 ### Version 2.0.28
 
@@ -51,8 +49,7 @@ with UrbanCode Velocity version 2.4.0 or later).
 
 ### Version 2.0.25
 
-* Added
-history to Issue and PR
+* Added history to Issue and PR
 
 ### Version 2.0.10
 
@@ -60,8 +57,7 @@ history to Issue and PR
 
 ### Version 2.0.9
 
-* Added
-HTTP proxy support
+* Added HTTP proxy support
 
 ### Version 2.0.7
 
@@ -69,26 +65,23 @@ HTTP proxy support
 
 ### Version 2.0.3
 
-* Performance Improvements for
-Build Feature (Requires Velocity Version 1.5.5 or above)
+* Performance Improvements for Build Feature (Requires Velocity Version 1.5.5 or above)
 
 ### Version 2.0.2
 
 * Performance Improvements
 
-### Version
-2.0.1
+### Version 2.0.1
 
 * Added support for multiple project IDs (Renamed **projectId** field to **projectIds**)
-* Build data will be
-pulled from GitLab into Value Stream
+* Build data will be pulled from GitLab into Value Stream
+
 
 ### Version 1.0.6
 
 * Customize integration from the user interface.
 
-###
-Version 1.0.5
+### Version 1.0.5
 
 * Update plugin version from 0.x.x to 1.x.x format.
 

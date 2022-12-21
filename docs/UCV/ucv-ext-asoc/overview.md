@@ -35,8 +35,7 @@ UrbanCode Velocity plug-in images are located in DockerHub. To view available ve
 
 * Syncs historic data from ASoC. Also webhook support enabled. Note: This is a **breaking change** as the end point changes from ‘POST’ to ‘GET’
 
-###
-Version 1.0.24
+### Version 1.0.24
 
 * Proxy support added.
 

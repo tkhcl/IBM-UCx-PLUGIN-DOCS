@@ -63,6 +63,7 @@ file.
 | type | Unique identifier assigned to the plug-in. The value for the UrbanCode Velocity plug-in is `ucv-ext-handlebars-reporter` | Yes |
 
 ### Handlebar Detection Configuration Properties
+
 | Name | Type | Description | Required | Project Name |
 | --- | --- | --- | --- | --- |
 | UCV User Access Key | Secure | The user access key used to authenticate with the UrbanCode Velocity server. | Yes | ucvKey |

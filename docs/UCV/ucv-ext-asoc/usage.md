@@ -51,9 +51,7 @@ The JSON file contains the information for creating a value stream and integrati
 | tenant\_id | The name of the tenant. | Yes |
 | type | Unique identifier assigned to the plug-in. The value for the Application Security On Cloud plug-in is `asocPlugin` | Yes |
 
-## Configuration
-
-### Properties
+## Configuration Properties
 
 The configuration properties which are included in the `properties` field are unique to the Application Security On Cloud plug-in and define the connection and communication to the Application Security On Cloud server.
 
@@ -64,7 +62,7 @@ The configuration properties which are included in the `properties` field are un
 | Key Secret | Secure | The key secret to authenticate with the Application Security On Cloud server. | Yes | keySecret |
 | UrbanCode Velocity User Access Key | Secure | The user access key to authenticate with the UrbanCode Velocity server. | Yes | ucvAccessKey |
 
-### Example
+## Example
 
 The following example can be used as as template to include the AppScan On Cloud plug-in integration into the JSON file. Copy and paste the template into the JSON file and make the appropriate changes.
 
