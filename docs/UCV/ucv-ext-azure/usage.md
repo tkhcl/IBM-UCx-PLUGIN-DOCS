@@ -47,6 +47,7 @@ The following tables describe the properties used to configure the integration. 
 * The Azure DevOps Properties table describes the Azure DevOps configuration properties are unique to the Azure DevOps plug-in and define the connection and communication to the Azure DevOps server. When using the JSON method to integrate the plug-in these properties are coded within the `properties` configuration property.
 
 ### General Configuration Properties
+
 | Name | Description                                                                  | Required | Property Name |
 | ---- | ---------------------------------------------------------------------------- | -------- | ------------- |
 | NA | The version of the plug-in that you want to use. To view available versions, click the **Version History** tab. If a value is not specified, the version named latest is used. | No | image |
@@ -56,7 +57,9 @@ The following tables describe the properties used to configure the integration. 
 |  | The name of the tenant. | Yes | tenant\_id |
 | NA | Unique identifier assigned to the plug-in. The value for the Azure DevOps plug-in is `ucv-ext-azure` | Yes | type |
 
+
 ### Azure DevOps Properties
+
 | Name         | Type | Description                                      | Required | Hidden | Property Name |
 | ------------ | ---- | ------------------------------------------------ | -------- | ------ | ------------- |
 | Access Token | Secure | The access token to authenticate with the Azure DevOps server. You can use either this property or the Password property to authenticate with the server. | No | No | accessToken |
@@ -72,7 +75,6 @@ The following tables describe the properties used to configure the integration. 
 | User Name | String | The user name to authenticate with the Azure DevOps server. | No | No | username |
 | UrbanCode Velocity User AccessKey | Secure | The user access key to authenticate with the UrbanCode Velocity server. | No | No | ucvAccessKey |
 
----
 
 |Back to ...||Latest Version|Azure DevOps |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
