@@ -1,7 +1,5 @@
 # Rally - Overview
 
-## Overview
-
 The Rally plug-in provides for integration with a Rally server. This plug-in imports work items from a Rally server and saves them as UrbanCode Velocity issues. The plug-in uses the Rally REST API to import data from a Rally server.
 
 Data between the Rally server and the UrbanCode Velocity server is synchronized every five minutes.

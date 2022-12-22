@@ -1,8 +1,7 @@
 
-Rational Test Automation Server - Downloads
-===========================================
+# Rational Test Automation Server - Downloads
 
-# Downloads
+To download the plugins, click the following version specific links.
 
 - [ucv-ext-rtas-1.0.22.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rtas/ucv-ext-rtas-1.0.22.tar.zip)
 - [ucv-ext-rtas-1.0.6.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rtas/ucv-ext-rtas-1.0.6.tar.zip)

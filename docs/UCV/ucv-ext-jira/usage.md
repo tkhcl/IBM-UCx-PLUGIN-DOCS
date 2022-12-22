@@ -1,12 +1,9 @@
 
 # Jira - Usage
 
-## Usage
+To use the Jira plug-in, the plug-in must be loaded and an instance created before you can configure the plug-in integration. You define configuration properties in the user interface or in a JSON file.
 
-To use the Jira plug-in, the plug-in must be loaded and an instance created before you can configure
-the plug-in integration. You define configuration properties in the user interface or in a JSON file.
-
-### Integration type
+## Integration type
 
 The Jira plug-in supports scheduled events integration which are listed in the following table.
 
@@ -14,7 +11,7 @@ The Jira plug-in supports scheduled events integration which are listed in the f
 | --- | --- |
 | SyncJiraDataEvent | Synchronize data from a Jira server. |
 
-### Integration
+## Integration
 
 There are two methods to integrate the plug-in:
 
@@ -32,23 +29,21 @@ The tables in the Configuration properties topic describe the properties used to
 
 ### Using a JSON file
 
-The JSON file contains the information for creating a value stream. Within the JSON file is a section for integrations. It is in this section
-that plug-in properties can be defined.
+The JSON file contains the information for creating a value stream. Within the JSON file is a section for integrations. It is in this section that plug-in properties can be defined.
 
 1. From a value stream page, download the value stream map. The value stream map is a JSON file used to define integrations.
 2. Edit the JSON file to include the plug-in configuration properties.
 3. Save and upload the JSON file. This replaces the current JSON file with the new content.
 4. View the new integration on the Integrations page.
 
-### Configuration properties
+## Configuration properties
 
-The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the
-property name when using a JSON file.
+The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the property name when using a JSON file.
 
 * The General Configuration Properties table describes configuration properties used by all plug-in integrations.
 * The Jira Configuration Properties table describes the configuration properties that define the connection and communications with the Jira server. When using the JSON method to integrate the plug-in these properties are coded within the `properties` configuration property.
 
-#### General Configuration table
+### General Configuration table
 
 | Name | Description | Required |
 | --- | --- | --- |
@@ -59,7 +54,7 @@ property name when using a JSON file.
 | tenant_id | The name of the tenant. | Yes |
 | type | Unique identifier assigned to the plug-in. The value for the Jira plug-in is `ucv-ext-jira` | Yes |
 
-#### Jira Configuration Properties table
+### Jira Configuration Properties table
 
 | Name | Type | Description | Required | Property Name |
 | --- | --- | --- | --- | --- |
@@ -77,7 +72,7 @@ property name when using a JSON file.
 | User Name | String | The user name used to authenticate with the Jira server. | No | username |
 
 
-#### Example
+## Example
 
 The following example can be used as a template to include the Jira plug-in integration into the JSON file. Copy and paste the template into the JSON file
 and make the appropriate changes.

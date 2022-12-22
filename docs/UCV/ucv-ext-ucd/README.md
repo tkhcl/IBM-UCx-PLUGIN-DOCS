@@ -1,6 +1,5 @@
 
-Urbancode Deploy
-===========
+# Urbancode Deploy
 
 UrbanCode Deploy is engineered to handle the most complex deployment situations with push-button automation and controlled auditing needed in production. UrbanCode Deploy automates application deployments across varying IT environments.
 

@@ -1,13 +1,5 @@
 
-Twistlock - Usage
-=================
-
-# Usage
-
-
-### Usage
-
-
+# Twistlock - Usage
 
 To use the Code Coverage plug-in, the plug-in must be loaded and an instance created. Load the plug-in
 into the UrbanCode Velocity container if necessary. From the user interface, click **Settings** > ****Integrations**** >
@@ -18,23 +10,18 @@ in and click **Install**. The plug-in is now listed below those plug-ins to be i
 To invoke the plug-in, send an HTTP Post request with the data to parse. Whenever a there is a hit to the endpoint, the
 data is parsed and displayed as metrics in UrbanCode Velocity.
 
-Integration type
-----------------
+## Integration type
 
-The Twistlock plug-
-in is a parser type plug-in. It parses data from Twistlock JSON files.
+The Twistlock plug-in is a parser type plug-in. It parses data from Twistlock JSON files.
 
-Invoking the plug-in
---------------------
+## Invoking the plug-in
 
-You
-can invoke the plug-in manually using a REST Call or by [using a Jenkins plug-in](#invokejenkins) to integrate
+You can invoke the plug-in manually using a REST Call or by [using a Jenkins plug-in](#invokejenkins) to integrate
 UrbanCode Velocity in a Jenkins environment.
 
-### **Invoke using Jenkins plug-in**
+### Invoke using Jenkins plug-in
 
-Install the [UrbanCode Velocity
-plug-in](https://plugins.jenkins.io/urbancode-velocity) into your Jenkins server. In your freestyle job or pipeline use
+Install the [UrbanCode Velocity plug-in](https://plugins.jenkins.io/urbancode-velocity) into your Jenkins server. In your freestyle job or pipeline use
 the **UCV-Upload Metrics File to UrbanCode Velocity** step and provide the required fields. This step allows your build
 job to upload generated coverage results files to UrbanCode Velocity.
 
@@ -58,19 +45,16 @@ pluginType: 'twistlock', tenantId: '<tenant Id>', testSetName: 'twistlock', metr
 
 ```
 
-### **Invoke the plug-in using a Rest call**
+### Invoke the plug-in using a Rest call
 
-When using a REST call to
-invoke the Code Coverage plug-in, it must be a POST method and include the location of the UrbanCode Velocity quality
+When using a REST call to invoke the Code Coverage plug-in, it must be a POST method and include the location of the UrbanCode Velocity quality
 data endpoint.
 
 The following request sample shows a REST call that you can copy and update as necessary. Key points
 about the snippet:
 
-* The URL points to the UrbanCode Velocity quality data endpoint. Update with the server location
-for your installation of UrbanCode Velocity.
-* The BODY of the call is a multipart/form data. It includes information
-about the payload.
+* The URL points to the UrbanCode Velocity quality data endpoint. Update with the server location for your installation of UrbanCode Velocity.
+* The BODY of the call is a multipart/form data. It includes information about the payload.
 
 
 ```
@@ -126,8 +110,7 @@ of application
 
 ```
 
-###
-Example: Invoking using Curl
+### Example: Invoking using Curl
 
 
 ```

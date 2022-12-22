@@ -1,7 +1,6 @@
-Jenkins For Urbancode Velocity - Downloads
-================
+# Jenkins For Urbancode Velocity - Downloads
 
-# Downloads
+To download the plugins, click the following version specific links.
 
 - [urbancode-velocity-3.0.0.hpi](https://github.com/jenkinsci/urbancode-velocity-plugin/releases/download/3.0.0/urbancode-velocity-3.0.0.hpi)
 - [urbancode-velocity-2.1.3.hpi](https://updates.jenkins.io/download/plugins/urbancode-velocity/2.1.3/urbancode-velocity.hpi)

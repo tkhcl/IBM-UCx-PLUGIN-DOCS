@@ -1,8 +1,5 @@
 
-WhiteSource
-=================
-
-## Overview
+# WhiteSource - Overview
 
 WhiteSource plug-in provides for the management of open source components security, licenses, 
 and maintenance throughout a software development cycle. It identifies the open source components within a software development lifecycle with security or compliance issues. 

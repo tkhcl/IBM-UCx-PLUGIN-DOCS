@@ -1,8 +1,6 @@
 
 # Jenkins For Urbancode Velocity - Usage
 
-### Usage
-
 * **Posting job metadata to your UrbanCode Velocity instance** – As you create and edit jobs, the metadata for the jobs will uploaded including the names of the jobs as well as the names of parameters. This is done so that the jobs can be invoked from UrbanCode Velocity within the Velocity security model.
 
 * **Invoke jobs from UrbanCode Velocity** – An authenticated, encrypted persistent connection is established with UrbanCode Velocity so that you can trigger off jobs and pipelines with no special firewall configuration.
@@ -13,11 +11,11 @@
 
 * **Detects quality data provided by IBM Deployment Risk Analytics** - If you use the capabilities found in the IBM Cloud DevOps plugin to provide data to IBM DRA, then this plugin will forward that data to your composite pipeline to visualize quality data across your whole suite of applications.
 
-### Installation
+## Installation
 
 Process steps for the Jenkins plugin includes the following:
 
-* 1. Generate an **Integration Id** and **Integration Token**.
+1. Generate an **Integration Id** and **Integration Token**.
      
     Navigate to the **Settings Page** of UrbanCode Velocity and select the Integrations section in the left navigation. Create a new Jenkins integration.
 
@@ -27,23 +25,21 @@ Process steps for the Jenkins plugin includes the following:
 
     ![Jenkins Integration Dialog](media/jenkins-dialog.PNG)
 
-* 2. Install this plugin on your Jenkins instance
+2. Install this plugin on your Jenkins instance
 
     Navigate to the plugins page on your Jenkins instance by clicking **Manage Jenkins** > **Manage Plugins** > **Available (tab)** and search for UrbanCode Velocity Plugin. When located install the plugin and restart your instance when possible.
 
     If the plugin is not available in the Jenkins publically hosted plugins, please download [urbancode-velocity.hpi](http://public.dhe.ibm.com/software/products/UrbanCode/plugins/) and upload it to your Jenkins instance by navigating to the Advanced tab on the plugins page.
 
-* 3. Populate Jenkins Configuration with **Integration Id**, **Integration Token**, and **Jenkins Credentials**
+3. Populate Jenkins Configuration with **Integration Id**, **Integration Token**, and **Jenkins Credentials**
 
     Navigate to the Jenkins configuration page **Manage Jenkins** > **Configure System** > **UrbanCode Velocity (section)**. Under the UrbanCode Velocity section paste the Integration ID and Integration Token values from Step 1 above. Please add a credentials entry for a Jenkins user on whose behalf this plugin may access your Jenkins items. Please **Apply** or save the values before clicking the **Test Connection** button to confirm your connection to UrbanCode Velocity. Upon successful connection, your data will be posted to UrbanCode Velocity.
 
     ![Jenkins Global Config Page](media/jenkins-config.PNG)
 
-    # Note
+    **Note:** Jenkins integrations on Kubernetes/Openshift instances: When a user configures the UrabanCode Velocity plugin within Jenkins, they need to manually specify the "Rabbit MQ Port" in Jenkins (typically 31672) since the default value (5672) will not work.
 
-    Jenkins integrations on Kubernetes/Openshift instances: When a user configures the UrabanCode Velocity plugin within Jenkins, they need to manually specify the "Rabbit MQ Port" in Jenkins (typically 31672) since the default value (5672) will not work.
-
-### Manual build
+## Manual build
 
 To perform a manual build for the plugin directly from the GitHub repository, clone the repository from https://github.com/jenkinsci/urbancode-velocity-plugin
 
@@ -55,7 +51,7 @@ From the root directory, run either of the following commands:
 **Note**: The plugin requires **Java 8 or later**. To avoid potential errors, delete the **target** directory.
 
 
-#### Configuration properties
+## Configuration properties
 
 * Check gate in UrbanCode Velocity
 * Upload Build to UrbanCode Velocity
@@ -63,7 +59,7 @@ From the root directory, run either of the following commands:
 * Upload JUnit Results to UrbanCode Velocity
 * Upload JUnit Metrics File to UrbanCode Velocity
 
-# Check gate in UrbanCode Velocity
+## Check gate in UrbanCode Velocity
 
 The CheckGate class is used to check gates applied on a particular stage of the UrbanCode Velocity pipeline for a particular versionId of an application.
 
@@ -75,7 +71,7 @@ versionId: "NWZkOWUyZjYtOGE3Yy00NmJhLTlmZD-#48",
 )
 
 ```
-**Check gate input properties**
+## Check gate input properties
 
 | Name | Type | Description | Required | Property name |
 | --- | --- | --- | --- | --- |
@@ -83,7 +79,7 @@ versionId: "NWZkOWUyZjYtOGE3Yy00NmJhLTlmZD-#48",
 | Stage Name | String | Stage name of UrbanCode Velocity pipeline. | Yes | stageName |
 | Version ID | String | Version Id for particular application. | Yes | versionId |
 
-# Upload build to UrbanCode Velocity
+## Upload build to UrbanCode Velocity
 
 The UploadBuild class is used to upload build data to UrbanCode Velocity. The revision parameter is important for linking the build to the work item via GitHub data (GIT_COMMIT in this case). The versionName is important for linking forward to deployments. The appName corresponds to the UrbanCode Velocity pipeline application name.
 
@@ -98,7 +94,7 @@ id: "${currentBuild.displayName}"
 )
 
 ```
-**Upload build input properties**
+## Upload build input properties
 
 | Name | Type | Description | Required | Property name |
 | --- | --- | --- | --- | --- |
@@ -116,7 +112,7 @@ id: "${currentBuild.displayName}"
 | Debug | Boolean | For Getting debug logs. | No | debug |
 | Fatal | Boolean | Fail build on failed upload, rather than just making build unstable. | No | fatal |
 
-# Upload Deployment to UrbanCode Velocity
+## Upload Deployment to UrbanCode Velocity
 
 The UploadDeployment class is used to upload deployment data to UrbanCode Velocity. The versionName parameter is critical for linking to build data. The appName corresponds to the UrbanCode Velocity pipeline application name, while environmentName and environmentId are used to identify the deployment environment.
 
@@ -136,7 +132,7 @@ result: 'true'
 ])
 
 ```
-**Upload deployment input properties**
+## Upload deployment input properties
 
 | Name | Type | Description | Required | Property name |
 | --- | --- | --- | --- | --- |
@@ -159,13 +155,13 @@ result: 'true'
 | Debug | Boolean | For Getting debug logs. | No | debug |
 | Fatal | Boolean | Fail build on failed upload, rather than just making build unstable. | No | fatal |
 
-# Upload JUnit Results to UrbanCode Velocity
+## Upload JUnit Results to UrbanCode Velocity
 
 | Type | Description | Required | Property name |
 | --- | --- | --- | --- |
-| java.util.Map<java.lang.String, java.lang.String> | Upload JUnit Results to UrbanCode Velocity | Yes | properties |
+| java.util.Map <java.lang.String, java.lang.String> | Upload JUnit Results to UrbanCode Velocity | Yes | properties |
 
-# Upload JUnit Metrics File to UrbanCode Velocity
+## Upload JUnit Metrics File to UrbanCode Velocity
 
 The UploadMetricsFile class is used to upload metrics file into UrbanCode Velocity. The uploaded metrics file will be available in Insights in graphical form.
 
@@ -183,7 +179,8 @@ buildUrl: "${env.BUILD_URL}",
 )
 
 ```
-**Upload metrics file input properties**
+
+## Upload metrics file input properties
 
 | Name | Type | Description | Required | Property name |
 | --- | --- | --- | --- | --- |

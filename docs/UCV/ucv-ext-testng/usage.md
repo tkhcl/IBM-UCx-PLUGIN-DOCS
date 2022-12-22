@@ -1,13 +1,5 @@
 
-TestNG - Usage
-==============
-
-# Usage
-
-
-### Usage
-
-
+# TestNG - Usage
 
 To use the TestNG plug-in, the plug-in must be loaded and an instance created. Load the plug-in into
 the IBM UrbanCode Velocity container if necessary. From the user interface, click **Settings** > ****Integrations**** >
@@ -15,24 +7,21 @@ the IBM UrbanCode Velocity container if necessary. From the user interface, clic
 in and click **Install**. The plug-in is now listed below those plug-ins to be installed and available for invoking.
 
 
-Integration type
-----------------
+## Integration type
 
 The TestNG plug-in is a parser type plug-in. It parses TestNG data sent in a JSON or
 XML file.
 
-Invoking the plug-in
---------------------
+## Invoking the plug-in
 
 To gather data from the TestNG server, send an HTTP Post
 request with the data to parse. Whenever a there is a hit to the endpoint, the data is parsed and displayed as metrics
 in IBM UrbanCode Velocity. You can use various methods such as Postman, REST calls, CURL, and CI/CD tools like Jenkins to invoke
 the plug-in endpoints.
 
-### **Invoke using Jenkins plug-in**
+### Invoke using Jenkins plug-in
 
-Install the [UrbanCode Velocity plug-
-in](https://plugins.jenkins.io/urbancode-velocity) into your Jenkins server. In your freestyle job or pipeline use the
+Install the [UrbanCode Velocity plug-in](https://plugins.jenkins.io/urbancode-velocity) into your Jenkins server. In your freestyle job or pipeline use the
 **UCV-Upload Metrics File to UrbanCode Velocity** step and provide the required fields. This step allows your build job
 to upload generated coverage results files to UrbanCode Velocity.
 
@@ -58,7 +47,7 @@ testng-test', pluginType: 'testng', tenantId: '<tenant Id>', testSetName: 'testn
 
 ```
 
-### **Invoke using a Rest call**
+### Invoke using a Rest call
 
 When using a
 REST call to invoke the Code Coverage plug-in, it must be a POST method and include the location of the UrbanCode

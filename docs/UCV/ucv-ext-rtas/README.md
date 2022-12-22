@@ -1,9 +1,7 @@
 
-Rational Test Automation Server
-===============================
+# Rational Test Automation Server
 
-Rational Test Automation Server is a fully-containerized (Docker) server component used by test teams to consolidate
-testing from each of the Test Workbench products into a single view.
+Rational Test Automation Server is a fully-containerized (Docker) server component used by test teams to consolidate testing from each of the Test Workbench products into a single view.
 
 |Back to ...||Latest Version||||
 | :---: | :---: | :---: | :---: | :---: | :---: |

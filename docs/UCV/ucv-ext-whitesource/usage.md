@@ -1,9 +1,6 @@
 
 # WhiteSource - Usage
 
-## Usage
-
-
 To use the WhiteSource plug-in, the plug-in must be loaded and an instance created before you can configure the plug-in integration. 
 You define configuration properties in the user interface or in a JSON file.
 
@@ -62,9 +59,7 @@ Each table contains the field name when using the user interface and the propert
 
 * The General Configuration Properties table describes configuration properties used by all plug-in integrations.
 
-* The WhiteSource Configuration Properties table describes the configuration properties that define the connection and communications with the WhiteSource server. 
-When using the JSON method to integrate the plug-in these properties are coded within the `properties` configuration property.
-
+* The WhiteSource Configuration Properties table describes the configuration properties that define the connection and communications with the WhiteSource server. When using the JSON method to integrate the plug-in these properties are coded within the `properties` configuration property.
 
 Some properties might not be displayed in the user interface, to see all properties enable the **Show Hidden Properties** field.
 

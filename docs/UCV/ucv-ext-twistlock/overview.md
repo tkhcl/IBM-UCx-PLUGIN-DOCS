@@ -1,32 +1,21 @@
 
-Twistlock - Overview
-====================
-
-# Overview
-
-
-### Overview
-
+# Twistlock - Overview
 
 The Twistlock plug-in provides for integration with a Twistlock server. Data is uploaded to the
 UrbanCode Velocity server using an HTTP Post request.
 
-Compatibility
--------------
+## Compatibility
 
-Must be running UrbanCode Velocity
-version 1.2.1 and later to use the plug-in.
+Must be running UrbanCode Velocity version 1.2.1 and later to use the plug-in.
 
-Versions
---------
+## Versions
 
 There is no install process for this plug-in. The
 Twistlock plug-in is identified to UrbanCode Velocity as a value stream integration. UrbanCode Velocity plug-in images
 are located in DockerHub and the UrbanCode Velolcity code accesses the version that you select. To view available
 versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-twistlock/tags).
 
-History
--------
+## History
 
 
 ### Version 1.0.43
@@ -39,8 +28,7 @@ History
 
 ### Version 1.0.35
 
-* Update plugin
-version from 0.x.x to 1.x.x format.
+* Update plugin version from 0.x.x to 1.x.x format.
 
 ### Version 0.0.32
 
