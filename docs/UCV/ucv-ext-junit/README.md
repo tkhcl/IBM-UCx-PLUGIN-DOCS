@@ -1,9 +1,7 @@
 
-JUnit
-=====
+# JUnit
 
-JUnit provides a testing framework for the Java programming language. The JUnit plug-in imports the test results data in
-UrbanCode Velocity metrics.
+JUnit provides a testing framework for the Java programming language. The JUnit plug-in imports the test results data in UrbanCode Velocity metrics.
 
 |Back to ...||Latest Version||||
 | :---: | :---: | :---: | :---: | :---: | :---: |

@@ -1,15 +1,11 @@
 
-SonarQube - Scripts
-===================
-
-# Scripts
+# SonarQube - Scripts
 
 
-### Add Integration Script
+## Add Integration Script
 
 
-The curl command for adding integrations can be converted to a script. An example script
-is shown below.
+The curl command for adding integrations can be converted to a script. An example scriptis shown below.
 
 ```
 
