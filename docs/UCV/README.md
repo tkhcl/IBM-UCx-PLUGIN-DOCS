@@ -45,7 +45,7 @@
 
 ## Apache JMeter
 
-Meter is a testing tool to analyze and measure web application performance. The JMeter plug-in imports the test results  data in UrbanCode Velocity metrics.
+Apache JMeter is a testing tool to analyze and measure web application performance. The JMeter plug-in imports the test results  data in UrbanCode Velocity metrics.
 
 ---
 
