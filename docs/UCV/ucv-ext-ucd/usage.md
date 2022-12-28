@@ -1,18 +1,9 @@
 
-Urbancode Deploy - Usage
-===================
-
-# Usage
-
-
-## Usage
-
-
+# Urbancode Deploy - Usage
 
 To use the UrbanCode Deploy plugin, the plugin must be loaded and an instance created before you can configure the plugin integration. You define configuration properties in the user interface or in a JSON file.
 
-### Integration type
-----------------
+## Integration type
 
 The UrbanCode Deploy plugin supports scheduled events integration which are listed in the following table.
 
@@ -20,8 +11,7 @@ The UrbanCode Deploy plugin supports scheduled events integration which are list
 | --- | --- |
 | syncDeployEvent | Timed event that synchronizes with UrbanCode Deploy |
 
-### Integration
---------------------
+## Integration
 
 There are two methods to integrate the plug-in:
 
@@ -46,7 +36,7 @@ The JSON file contains the information for creating a value stream. Within the J
    * Save and upload the JSON file. This replaces the current JSON file with the new content.
    * View the new integration on the Integrations page.
 
-### Configuration Properties
+## Configuration Properties
 
 The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the property name when using a JSON file.
 
@@ -55,7 +45,7 @@ The following tables describe the properties used to configure the integration. 
 
 Some properties might not be displayed in the user interface, to see all properties enable the **Show Hidden Properties** field.
 
-#### General Configuration Properties
+### General Configuration Properties
 
 | Name | Description | Required | Property Name |
 | --- | --- | --- | --- | ---|
@@ -76,7 +66,7 @@ Some properties might not be displayed in the user interface, to see all propert
 | Url | String | UrbanCode Deploy server url. | Yes | baseUrl |
 | User Access Key | String | The user access key to authenticate with this server. | Yes | ucvAccessKey |
 
-### JSON Code Sample
+## JSON Code Sample
 
 The following sample code can be used as a template to define the integration within the JSON file for a value stream. Copy and paste the template into the JSON file Integration section and make the appropriate changes.
 
@@ -96,8 +86,7 @@ The following sample code can be used as a template to define the integration wi
 
 ```
 
-### Minimum permission to integrate with UrbanCode Deploy
----------------------------------------------------------
+## Minimum permission to integrate with UrbanCode Deploy
 
 The access token generated from UrbanCode Deploy must have the following permissions to connect with UrbanCode Deploy.
 

@@ -332,7 +332,8 @@ IBM App Connect Enterprise (ACE) combines the technologies of IBM Integration Bu
 
 |Back to ...||App Connect Enterprise |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-ace/README.md)|[10.1143319](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-ace/ucd-plugins-ibm-ace-10.1143319.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-ace/README.md)|[11.1149154](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-ace/ucd-plugins-ibm-ace-11.1149154.zip)|
+
 
 
 ## Apple Xcode  [community plugin]
@@ -645,6 +646,18 @@ Git is a free and open source distributed version control system designed to han
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](git-install/README.md)|[0]()|
 
+## GitLab-Sourceconfig-Generic-Packages  
+
+Gitlab Generic Packages
+Initial release of this plugin.
+
+---
+
+|Back to ...||Gitlab Generic Packages |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](gitlab-sourceconfig-generic-packages/README.md)|[1.1147446](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/gitlab-sourceconfig-generic-packages/ucd-plugins-sourceconfig-gitlab-generic-packages-1.1147446.zip)|
+
+
 ## GitHub-Release
 
 The GitHub Release plug-in is a source configuration plug-in that creates a component version on the UrbanCode Deploy server for a specified GitHub repository release being imported. The plug-in can be used to import ZIP and TAR artifacts from GitHub.
@@ -863,7 +876,7 @@ The IBM UrbanCode Deploy plugin for DataPower Configuration Manager provides the
 
 |Back to ...||IBM DataPower Configuration Manager |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](datapower/README.md)|[datapower-v23.eb38543](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/datapower/datapower-v23.eb38543.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](datapower/README.md)|[datapower-v25](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/datapower/datapower-v25.zip)|
 
 ## IBM Db2 for z/OS Package
 
@@ -2093,7 +2106,7 @@ This community plugin provides a mechanism to send SMTP emails in your deploymen
 
 |Back to ...||ServiceNow |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ServiceNow/README.md)|[30.1144780](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-30.1144780.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ServiceNow/README.md)|[31.1148995](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-31.1148995.zip)|
 
 ## Shell
 
@@ -2233,7 +2246,7 @@ The Web Utilities plug-in includes steps for interacting with web sites and web 
 
 |Back to ...||Web Utilities |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](web-utilities/README.md)|[17.1138530](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/ucd-web-utilities-17.1138530.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](web-utilities/README.md)|[17.1148552](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/ucd-web-utilities-17.1148552.zip)|
 
 ## WebSphere Application Server - Configure
 

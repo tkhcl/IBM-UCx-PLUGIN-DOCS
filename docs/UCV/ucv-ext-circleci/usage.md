@@ -1,11 +1,9 @@
 
 # CircleCI - Usage
 
-## Usage
-
 To use the CircleCI plug-in, you must load the plug-in, and then configure the plug-in for integration. You can define the Configuration properties by using the product user interface or a JSON file.
 
-### Integration type
+## Integration type
 
 The CircleCI plug-in supports the following scheduled events integration.
 
@@ -13,7 +11,7 @@ The CircleCI plug-in supports the following scheduled events integration.
 | --- | --- |
 | SyncCCPipeline | Synchronize CircleCI pipeline data. |
 
-### Integration
+## Integration
 
 You can integrate the plug-in in two ways:
 
@@ -22,14 +20,14 @@ You can integrate the plug-in in two ways:
 
 The tables in the Configuration properties topic describe the properties that you use to define the integration.
 
-#### Using the user interface
+### Using the user interface
 
 1. From the Plugins page, click **Settings** > **Integrations** > **Plugins**.
 2. Under the **Action** column for the plug-in, click **Add Integration**.
 3. On the Add Integration page, enter values for the fields for configuring the integration and defining communication.
 4. Click **Save**.
 
-#### Using a JSON file
+### Using a JSON file
 
 The JSON file contains the information for creating a value stream. The JSON file includes a section for integrations. It is in this section, you can define plug-in properties can be defined.
 
@@ -38,14 +36,14 @@ The JSON file contains the information for creating a value stream. The JSON fil
 3. Save and upload the JSON file. This action replaces the current JSON file with the new content.
 4. View the new integration on the Integrations page.
 
-### Configuration properties
+## Configuration properties
 
 The following tables describe the properties you use to configure the integration. Each table contains the field name from the user interface and the property name in a JSON file.
 
 * The General Configuration Properties table describes configuration properties that all plug-in integrations use.
 * The CircleCI Configuration Properties table describes the configuration properties that facilitate communication with IBM UrbanCode Velocity.
 
-#### General Configuration Properties table
+### General Configuration Properties table
 
 | Name | Description | Required | Property Name |
 | --- | --- | ---| --- |
@@ -56,7 +54,7 @@ The following tables describe the properties you use to configure the integratio
 |  | The name of the tenant. | Yes | tenant_id |
 | NA | A unique identifier assigned to the plug-in. The value for the GitHub plug-in is `ucv-ext-circleci` | Yes | type |
 
-#### CircleCI Configuration Properties table
+### CircleCI Configuration Properties table
 
 | Name | Type | Description | Required | Project Name |
 | --- | --- | --- | --- | --- |
@@ -71,10 +69,7 @@ The following tables describe the properties you use to configure the integratio
 | URL| String | API URL of CircleCI. | Yes | apiUrl |
 | User Access Key | String | The user access key used to authenticate with the IBM UrbanCode Velocity server.| Yes | velocityAccessKey |
 
-
-
-
-#### JSON code example
+## JSON code example
 
 You can use the following example as a template to define the integration within the JSON file for a value stream. Copy and paste the template into the JSON file and make the appropriate changes.
 
@@ -104,4 +99,4 @@ You can use the following example as a template to define the integration within
 
 |Back to ...||Latest Version|CircleCI |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.22](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-circleci/ucv-ext-circleci-1.0.22.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.22](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-circleci/ucv-ext-circleci-1.0.22.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

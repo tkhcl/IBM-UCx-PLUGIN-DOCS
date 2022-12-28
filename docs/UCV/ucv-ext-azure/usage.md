@@ -1,15 +1,11 @@
 
 # Azure DevOps - Usage
 
-## Usage
+To use the Azure DevOps plug-in, the plug-in must be loaded and an instance created before you can configure the plug-in integration. You define configuration properties in the user interface or in a JSON file.
 
-To use the Azure DevOps plug-in, the plug-in must be loaded and an instance created before you can
-configure the plug-in integration. You define configuration properties in the user interface or in a JSON file.
+## Integration type
 
-### Integration type
-
-The Azure DevOps plug-in supports scheduled events integration which are listed in
-the following table.
+The Azure DevOps plug-in supports scheduled events integration which are listed in the following table.
 
 | Name | Description                                                                                         |
 | ---- | --------------------------------------------------------------------------------------------------- |
@@ -18,41 +14,39 @@ the following table.
 | SyncAzureBuildsEvent | Queries the Query Azure DevOps server for build data. |
 | SyncAzurePipelines | Queries the Azure DevOps server for deployment data. |
 
-### Integration
+## Integration
 
 There are two methods to integrate the plug-in:
 
 * Using the user interface
 * Using a JSON file
 
-The tables in the Configuration
-properties topic describe the properties used to define the integration.
+The tables in the Configuration properties topic describe the properties used to define the integration.
 
-#### Using the user interface
+### Using the user interface
 
 1. From the Plugins page, click **Settings** > **Integrations** > **Plugins**.
 2. Under the **Action** column for the plug-in, click **Add Integration**.
 3. On the Add Integration page enter values for the fields used to configure the integration and define communication.
 4. Click **Save**.
 
-#### Using a JSON file
+### Using a JSON file
 
-The JSON file contains the information for creating a value stream. Within the JSON file is a section for integrations. It is in this section that plug-in properties can be
-defined.
+The JSON file contains the information for creating a value stream. Within the JSON file is a section for integrations. It is in this section that plug-in properties can be defined.
 
 1. From a value stream page, download the value stream map. The value stream map is a JSON file used to define integrations.
 2. Edit the JSON file to include the plug-in configuration properties.
 3. Save and upload the JSON file. This replaces the current JSON file with the new content.
 4. View the new integration on the Integrations page.
 
-### Configuration Properties
+## Configuration properties
 
-The following tables describe the properties used to configure the
-integration. Each table contains the field name when using the user interface and the property name when using a JSON
-file.
+The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the property name when using a JSON file.
 
 * The General Configuration Properties table describes configuration properties used by all plug-in integrations.
 * The Azure DevOps Properties table describes the Azure DevOps configuration properties are unique to the Azure DevOps plug-in and define the connection and communication to the Azure DevOps server. When using the JSON method to integrate the plug-in these properties are coded within the `properties` configuration property.
+
+### General Configuration Properties
 
 | Name | Description                                                                  | Required | Property Name |
 | ---- | ---------------------------------------------------------------------------- | -------- | ------------- |
@@ -62,6 +56,9 @@ file.
 | NA | List of plug-in configuration properties used to connect and communicate with the Azure DevOps server. Enclose the properties within braces. | Yes | properties |
 |  | The name of the tenant. | Yes | tenant\_id |
 | NA | Unique identifier assigned to the plug-in. The value for the Azure DevOps plug-in is `ucv-ext-azure` | Yes | type |
+
+
+### Azure DevOps Properties
 
 | Name         | Type | Description                                      | Required | Hidden | Property Name |
 | ------------ | ---- | ------------------------------------------------ | -------- | ------ | ------------- |
@@ -78,7 +75,6 @@ file.
 | User Name | String | The user name to authenticate with the Azure DevOps server. | No | No | username |
 | UrbanCode Velocity User AccessKey | Secure | The user access key to authenticate with the UrbanCode Velocity server. | No | No | ucvAccessKey |
 
----
 
 |Back to ...||Latest Version|Azure DevOps |||
 | :---: | :---: | :---: | :---: | :---: | :---: |

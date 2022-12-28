@@ -1,11 +1,9 @@
 
 # HCL AppScan on Cloud (ASoC) - Usage
 
-## Usage
-
 To use the HCL AppScan on Cloud plug-in, the plug-in must be loaded and an instance created before you can configure the plug-in integration. You define configuration properties in the user interface or in a JSON file. To invoke the plug-in, you must send an HTTP Post to request the plug-in endpoint.
 
-### **Define integration**
+## Define integration
 
 The value stream map contains the properties, you will use to define the plug-in integration. Basically, the plug-in integration is defined with a value stream within the UrbanCode Velocity user interface. Defining the integration includes defining [configuration properties](#integration) that connect the UrbanCode Velocity server to the Application Security On Cloud server.
 
@@ -16,10 +14,9 @@ To define the integration, the basic flow includes:
 3. Save and upload the JSON file. This replaces the current JSON file with the new content.
 4. View the new integration on the Integration user interface page.
 
-### **Send HTTP Post**
+## Send HTTP Post
 
-To gather data, send an HTTP POST
-request to your endpoint:
+To gather data, send an HTTP POST request to your endpoint:
 
 ```url
 
@@ -44,8 +41,7 @@ The AppScan On Cloud plug-in supports endpoint integration which are listed in t
 
 From the user interface Value Steam page, click **Upload** to upload the value stream map which is a JSON file.
 
-The JSON file contains the information for creating a value stream and integrating with the Application Security on Cloud server. The following table describes the information for the
-creating a UrbanCode Velocity value stream map.
+The JSON file contains the information for creating a value stream and integrating with the Application Security on Cloud server. The following table describes the information for the creating a UrbanCode Velocity value stream map.
 
 | Name | Description | Required |
 | --- | --- | --- |
@@ -55,9 +51,7 @@ creating a UrbanCode Velocity value stream map.
 | tenant\_id | The name of the tenant. | Yes |
 | type | Unique identifier assigned to the plug-in. The value for the Application Security On Cloud plug-in is `asocPlugin` | Yes |
 
-## Configuration
-
-### Properties
+## Configuration Properties
 
 The configuration properties which are included in the `properties` field are unique to the Application Security On Cloud plug-in and define the connection and communication to the Application Security On Cloud server.
 
@@ -68,10 +62,9 @@ The configuration properties which are included in the `properties` field are un
 | Key Secret | Secure | The key secret to authenticate with the Application Security On Cloud server. | Yes | keySecret |
 | UrbanCode Velocity User Access Key | Secure | The user access key to authenticate with the UrbanCode Velocity server. | Yes | ucvAccessKey |
 
-### Example
+## Example
 
-The following example can be used as as template to include the AppScan On Cloud plug-in integration into the JSON file. Copy and
-paste the template into the JSON file and make the appropriate changes.
+The following example can be used as as template to include the AppScan On Cloud plug-in integration into the JSON file. Copy and paste the template into the JSON file and make the appropriate changes.
 
 ```json
 

@@ -1,8 +1,6 @@
 
 # Jenkins For Urbancode Velocity - Overview
 
-## Overview
-
 The UrbanCode Velocity plugin for Jenkins allows you to perform the following functions:
 
    * Post job metadata to your UrbanCode Velocity instance.
@@ -17,17 +15,17 @@ Must be running UrbanCode Velocity version 2.0 or later to use the plugin.
 
 ## Versions
 
-### History
+## History
 
-#### Version 3.0.0
+### Version 3.0.0
 
 * Multiple instance support
 
-#### Version 2.1.5
+### Version 2.1.5
 
 * Minor Bug Fix
 
-#### Version 2.0.0
+### Version 2.0.0
 
 * Initial release
 

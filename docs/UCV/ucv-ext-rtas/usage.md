@@ -1,20 +1,11 @@
 
-Rational Test Automation Server - Usage
-=======================================
-
-# Usage
-
-
-### Usage
-
+# Rational Test Automation Server - Usage
 
 To use the Rational Test Automation Server plug-in, the plug-in must be loaded and an instance created
 before you can configure the plug-in integration. You define configuration properties in the user interface or in a JSON
 file.To invoke the plug-in, you must send an HTTP Post to request the plug-in endpoint.
 
-Integration type
-
-----------------
+## Integration type
 
 The Rational Test Automation Server plug-in supports endpoint integration which are listed in the
 following table.
@@ -24,11 +15,9 @@ following table.
 | --- | --- | --- |
 | RTASEndpoint | rtas/callback | Post |
 
-### Send the
-HTTP Post
+## Send the HTTP Post
 
 To gather data, send an HTTP POST request to your endpoint:  `https:///pluginEndpoint//rtas/callback`
-
 
 The payload for this POST must be in the following format:
 
@@ -57,102 +46,65 @@ test name or test path must be specified)
 ```
 
 
-**commitID** is the SHA of the commit.
-You can either not link it to anything in UrbanCode Velocity, or you can link it to a build, or to a commit (will
-accomplish the same thing in the end, by making the metric show up on the DOT). There are some IDs that are readily
-available when orchestrating from a Jenkins job for instance (such as the BUILD\_ID).
+**commitID** is the SHA of the commit. You can either not link it to anything in UrbanCode Velocity, or you can link it to a build, or to a commit (will accomplish the same thing in the end, by making the metric show up on the DOT). There are some IDs that are readily available when orchestrating from a Jenkins job for instance (such as the BUILD\_ID).
 
-You can map a build to a metric
-using tags defined on the Rational Test Automation Server by evaluating the tag against a regular express. Use the
-**Build Label Pattern** field to define the regular expression. For example, a build expression of “([A-Z]+-[0-9]+)” and
-a test has a tag of “BUILD-123”, the build is mapped with ID BUILD-123 in the UrbanCode Velocity server to the newly
-created metric. For assistance in forming a regular expression, see the [Regular expression tester](https://regexr.com)
-website. You can use the website to help form and test a regular expression based on your build ID.
+You can map a build to a metric using tags defined on the Rational Test Automation Server by evaluating the tag against a regular express. Use the
 
-Integration
+**Build Label Pattern** field to define the regular expression. For example, a build expression of “([A-Z]+-[0-9]+)” and a test has a tag of “BUILD-123”, the build is mapped with ID BUILD-123 in the UrbanCode Velocity server to the newly created metric. For assistance in forming a regular expression, see the [Regular expression tester](https://regexr.com) website. You can use the website to help form and test a regular expression based on your build ID.
 
------------
+## Integration
 
 There are two methods to integrate the plug-in:
 
 * Using the user interface
 * Using a JSON file
 
-###
-Using the user interface
+### Using the user interface
 
 1. From the Plugins page, click **Settings** > **Integrations** > **Plugins**.
-2. Under the
-Action column for the plug-in, click **Add Integration**.
-3. On the Add Integration page enter values for the fields
-used to configure the integration and define communication.
+2. Under the Action column for the plug-in, click **Add Integration**.
+3. On the Add Integration page enter values for the fields used to configure the integration and define communication.
 4. Click **Save**.
 
 ### Using a JSON file
 
-The JSON file
-contains the information for creating a value stream and integrating with the IBM Rational Test Automation Server
-server. The following table describes the information for the creating a IBM UrbanCode Velocity value stream map.
+The JSON file contains the information for creating a value stream and integrating with the IBM Rational Test Automation Server server. The following table describes the information for the creating a IBM UrbanCode Velocity value stream map.
 
-1. Download
-the value stream map. The value stream map is a JSON file used to define integrations.
-2. Edit the JSON file to include
-the plug-in configuration properties.
-3. Save and upload the JSON file. This replaces the current JSON file with the new
-content.
+1. Download the value stream map. The value stream map is a JSON file used to define integrations.
+2. Edit the JSON file to include the plug-in configuration properties.
+3. Save and upload the JSON file. This replaces the current JSON file with the new content.
 4. View the new integration on the Integrations page.
 
-Configuration properties
-------------------------
+## Configuration properties
 
+The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the property name when using a JSON file.
 
-The following tables describe the properties used to configure the integration. Each table contains the field name when
-using the user interface and the property name when using a JSON file.
+* The General Configuration Properties table describes configuration properties used by all plug-in integrations.
+* The Rational Test Automation Server Configuration Properties table describes the configuration properties that define the connection and communications with the Rational Test Automation Server server. When using the JSON method to integrate the plug-in these properties are coded within the `properties` configuration property.
 
-* The General Configuration Properties table
-describes configuration properties used by all plug-in integrations.
-* The Rational Test Automation Server Configuration
-Properties table describes the configuration properties that define the connection and communications with the Rational
-Test Automation Server server. When using the JSON method to integrate the plug-in these properties are coded within
-the `properties` configuration property.
-
+### General Configuration Properties
 
 | Name | Description | Required | Property Name |
 | --- | --- | --- | --- |
-
-| NA | The version of the plug-in that you want to use. To view available versions, click the **Version History** tab.
-If a value is not specified, the version named latest is used. | No | image |
-| Integration Name | An assigned name to
-the value stream. | Yes | name |
-| Logging Level | The level of Log4j messages to display in the log file. Valid values
-are: all, debug, info, warn, error, fatal, off, and trace. | No | loggingLevel |
-| NA | List of plug-in configuration
-properties used to connect and communicate with the Rational Test Automation Server server. Enclose the properties
-within braces. | Yes | properties |
+| NA | The version of the plug-in that you want to use. To view available versions, click the **Version History** tab. If a value is not specified, the version named latest is used. | No | image |
+| Integration Name | An assigned name to the value stream. | Yes | name |
+| Logging Level | The level of Log4j messages to display in the log file. Valid values are: all, debug, info, warn, error, fatal, off, and trace. | No | loggingLevel |
+| NA | List of plug-in configuration properties used to connect and communicate with the Rational Test Automation Server server. Enclose the properties within braces. | Yes | properties |
 |  | The name of the tenant. | Yes | tenant\_id |
-| NA | Unique identifier assigned
-to the plug-in. The value for the Rational Test Automation Server plug-in is `ucv-ext-rtas` | Yes | type |
+| NA | Unique identifier assigned to the plug-in. The value for the Rational Test Automation Server plug-in is `ucv-ext-rtas` | Yes | type |
 
+### Rational Test Automation Server Configuration Properties
 
-| Name |
-Property Name | Type | Description | Required |
+| Name | Property Name | Type | Description | Required |
 | --- | --- | --- | --- | --- |
-| Build Label Pattern | buildRegExp |
-String | A regular expression pattern to match a build ID on a test execution label. For example: ([A-Z]+-[0-9]+). | No
-|
-| Rational Test Automation Server Offline User Token | rtasOfflineToken | String | The offline user token created in
-the Rational Test Automation Server user interface by clicking the Create Token button. | Yes |
-| Rational Test
-Automation Server URL | rtasUrl | String | The base URL of the Rational Test Automation Server. For example: https://tp-
-cicd2.nonprod.hclpnp.com. | Yes |
-| UrbanCode Velocity User Access Key | ucvAccessKey | String | The user access key
-used to authenticate with the UrbanCode Velocity server. | Yes |
+| Build Label Pattern | buildRegExp | String | A regular expression pattern to match a build ID on a test execution label. For example: ([A-Z]+-[0-9]+). | No|
+| Rational Test Automation Server Offline User Token | rtasOfflineToken | String | The offline user token created in the Rational Test Automation Server user interface by clicking the Create Token button. | Yes |
+| Rational Test Automation Server URL | rtasUrl | String | The base URL of the Rational Test Automation Server. For example: https://tp- cicd2.nonprod.hclpnp.com. | Yes |
+| UrbanCode Velocity User Access Key | ucvAccessKey | String | The user access key used to authenticate with the UrbanCode Velocity server. | Yes |
 
-### Example
+## Example
 
-The following example can be used as as
-template to include the AppScan plug-in integration into the JSON file. Copy and paste the template into the JSON file
-and make the appropriate changes.
+The following example can be used as as template to include the AppScan plug-in integration into the JSON file. Copy and paste the template into the JSON file and make the appropriate changes.
 
 
 ```

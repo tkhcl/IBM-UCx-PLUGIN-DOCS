@@ -1,9 +1,7 @@
 
-Shell - Downloads
-==================
+# Shell - Downloads
 
-# Downloads
-
+To download the plugins, click the following version specific links.
 - [ucv-ext-shell-0.0.7.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-shell/ucv-ext-shell-0.0.7.tar.zip)
 
 

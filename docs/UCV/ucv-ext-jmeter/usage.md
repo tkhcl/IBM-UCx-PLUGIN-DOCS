@@ -1,13 +1,5 @@
 
-Apache JMeter - Usage
-=====================
-
-# Usage
-
-
-### Usage
-
-
+# Apache JMeter - Usage
 
 
 The Apache JMeter plug-in provides for integration with a JMeter server. To use the plug-in, the
@@ -21,20 +13,17 @@ Post request with the data to parse. Whenever a there is a hit to the endpoint, 
 metrics in rbanCode Velocity. You can use various methods such as Postman, REST calls, CURL, and CI/CD tools like
 Jenkins to invoke the plug-in endpoints.
 
-Integration type
-----------------
+## Integration type
 
-The JMeter plug-in is a parser type plug-
-in. It parses data from a JMeter CSV and XML data.
+The JMeter plug-in is a parser type plug-in. It parses data from a JMeter CSV and XML data.
 
-Invoking the plug-in
---------------------
+## Invoking the plug-in
 
 You can invoke the
 plug-in manually using a REST Call or by [using a Jenkins plug-in](#invokejenkins) to integrate UrbanCode Velocity in a
 Jenkins environment.
 
-### **Invoke using Jenkins plug-in**
+### Invoke using Jenkins plug-in
 
 Install the [UrbanCode Velocity plug-
 in](https://plugins.jenkins.io/urbancode-velocity) into your Jenkins server. In your freestyle job or pipeline use the
@@ -63,14 +52,11 @@ pluginType: 'jmeter', tenantId: '<tenant Id>', testSetName: 'jmeter', metricsRec
 
 ```
 
-### **Invoke the plug-in using a Rest call**
+### Invoke the plug-in using a Rest call
 
-When using a REST call to
-invoke the Code Coverage plug-in, it must be a POST method and include the location of the UrbanCode Velocity quality
-data endpoint.
+When using a REST call to invoke the Code Coverage plug-in, it must be a POST method and include the location of the UrbanCode Velocity quality data endpoint.
 
-The following request sample shows a REST call that you can copy and update as necessary. Key points
-about the snippet:
+The following request sample shows a REST call that you can copy and update as necessary. Key points about the snippet:
 
 * The URL points to the UrbanCode Velocity quality data endpoint. Update with the server location
 for your installation of UrbanCode Velocity.
@@ -131,9 +117,7 @@ jmeter xml
 
 ```
 
-Example:
-Invoking using Curl
-----------------------------
+### Example:Invoking using Curl
 
 
 ```

@@ -1,21 +1,19 @@
 
 # GitHub - Overview
 
-## Overview
-
 The GitHub plug-in provides for integration with a GitHub server. This plug-in imports issues, pull request and commit data from a GitHub server and saves them as UrbanCode Velocity issues. Data between the GitHub server and the UrbanCode Velocity server is synchronized every five minutes.
 
-### Compatibility
+## Compatibility
 
 Must be running UrbanCode Velocity version 1.2.1 and later to use the plug-in.
 
 **Note:** For integrations created before upgrading to version 2.4.0 of UrbanCode Velocity, Auto-generated User Access Key is not present, so the integration will fail after upgrading. In this case, you have to manually add a new User Access Key in the hidden property named ***UrbanCode Velocity User Access Key.***
 
-### Upgrade impact
+##  Upgrade impact
 
 When migrating to version 1.0.30 of this plug-in, you must make an update to your integration. The **Name** property has been removed. Use the Repositories property to identify one or more GitHub repositories to be used to import data. Additionally, you must specify a value for the **UrbanCode Velocity User Access Key** property.
 
-### Versions
+## Versions
 
 UrbanCode Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-github/tags).
 

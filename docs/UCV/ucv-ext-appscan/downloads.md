@@ -1,9 +1,6 @@
 
-HCL AppScan Enterprise (ASE) - Downloads
-========================================
-
-# Downloads
-
+# HCL AppScan Enterprise (ASE) - Downloads
+To download the plugins, click the following version specific links.
 - [ucv-ext-appscan-2.0.35.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-appscan/ucv-ext-appscan-2.0.35.tar.zip)
 - [ucv-ext-appscan-1.0.31.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-appscan/ucv-ext-appscan-1.0.31.tar.zip)
 - [ucv-ext-appscan-1.0.30.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-appscan/ucv-ext-appscan-1.0.30.tar.zip)

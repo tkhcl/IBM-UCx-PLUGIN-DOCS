@@ -1,9 +1,7 @@
 
-HCL OneTest - Downloads
-=======================
+# HCL OneTest - Downloads
 
-# Downloads
-
+To download the plugins, click the following version specific links.
 - [ucv-ext-onetest-1.0.30.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest-1.0.30.tar.zip)
 - [ucv-ext-onetest-1.0.12.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest-1.0.12.tar.zip)
 - [ucv-ext-onetest-1.0.8.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest-1.0.8.tar.zip)

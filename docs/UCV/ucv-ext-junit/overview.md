@@ -1,32 +1,20 @@
 
-JUnit - Overview
-================
-
-# Overview
-
-
-### Overview
-
-
+# JUnit - Overview
 
 The JUnit plug-in provides for integration with a JUnit server. Data is uploaded to the UrbanCode
 Velocity server using an HTTP Post request.
 
-Compatibility
--------------
+## Compatibility
 
-Must be running UrbanCode Velocity version
-1.2.1 and later to use the plug-in.
+Must be running UrbanCode Velocity version 1.2.1 and later to use the plug-in.
 
-Versions
---------
+## Versions
 
 UrbanCode Velocity plug-in images are located in DockerHub. To
 view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-junit/tags).
 
 
-History
--------
+## History
 
 ### Version 1.0.66
 
@@ -38,8 +26,7 @@ History
 
 ### Version 1.0.34
 
-*
-Update plugin version from 0.x.x to 1.x.x format.
+* Update plugin version from 0.x.x to 1.x.x format.
 
 ### Version 0.0.31
 

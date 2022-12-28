@@ -1,9 +1,7 @@
 
-Code Coverage - Downloads
-=========================
+# Code Coverage - Downloads
 
-# Downloads
-
+To download the plugins, click the following version specific links.
 - [ucv-ext-coverage-core-1.0.30.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-coverage-core/ucv-ext-coverage-core-1.0.30.tar.zip)
 
 |Back to ...||Latest Version|Code Coverage |||

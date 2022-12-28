@@ -1,112 +1,74 @@
 
-Handlebar Reporter - Usage
-==========================
-
-# Usage
-
-
-### Usage
-
-
-
+# Handlebar Reporter - Usage
 
 To use the Handlebar Reporter plug-in, the plug-in must be loaded and an instance created before you
 can configure the plug-in integration. You define configuration properties in the user interface or in a JSON file.
 
 
-### Integration type
+## Integration type
 
 The Handlebar Reporter plug-in supports scheduled events integration. There is one scheduled
 event which is described in the following table.
 
-Integration type
-----------------
+## Integration type
 
-The Handlebar Reporter plug-in
-supports scheduled events integration. There is one scheduled event which is described in the following table.
+The Handlebar Reporter plug-in supports scheduled events integration. There is one scheduled event which is described in the following table.
 
-
-|
-Name | Description |
+| Name | Description |
 | --- | --- |
 | handlebarsRunner | Generates a report. |
 
-Integration
------------
-
-There are two
-methods to integrate the plug-in:
+## Integration
+There are two methods to integrate the plug-in:
 
 * Using the user interface
 * Using a JSON file
 
-The tables in the Configuration
-properties topic describe the properties used to define the integration.
+The tables in the Configuration properties topic describe the properties used to define the integration.
 
-#### Using the user interface
+### Using the user interface
 
-1. From the
-Plugins page, click **Settings** > **Integrations** > **Plugins**.
-2. Under the **Action** column for the plug-in, click
-**Add Integration**.
-3. On the Add Integration page enter values for the fields used to configure the integration and
-define communication.
+1. From the Plugins page, click **Settings** > **Integrations** > **Plugins**.
+2. Under the **Action** column for the plug-in, click **Add Integration**.
+3. On the Add Integration page enter values for the fields used to configure the integration and define communication.
 4. Click **Save**.
 
-#### Using a JSON file
+### Using a JSON file
 
-The JSON file contains the information for creating
-a value stream. Within the JSON file is a section for integrations. It is in this section that plug-in properties can be
-defined.
+The JSON file contains the information for creating a value stream. Within the JSON file is a section for integrations. It is in this section that plug-in properties can be defined.
 
-1. From a value stream page, download the value stream map. The value stream map is a JSON file used to
-define integrations.
+1. From a value stream page, download the value stream map. The value stream map is a JSON file used to define integrations.
 2. Edit the JSON file to include the plug-in configuration properties.
-3. Save and upload the JSON
-file. This replaces the current JSON file with the new content.
+3. Save and upload the JSON file. This replaces the current JSON file with the new content.
 4. View the new integration on the Integrations page.
 
 
-Configuration Properties
-------------------------
+## Configuration Properties
 
-The following tables describe the properties used to configure the
-integration. Each table contains the field name when using the user interface and the property name when using a JSON
+The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the property name when using a JSON
 file.
 
-* The General Configuration Properties table describes configuration properties used by all plug-in
-integrations.
-* The Handlebar Detection Configuration Properties table describes the configuration properties that
-define the connection and communications with the Handlebar Detection server. When using the JSON method to integrate
-the plug-in these properties are coded within the `properties` configuration property.
+* The General Configuration Properties table describes configuration properties used by all plug-in integrations.
+* The Handlebar Detection Configuration Properties table describes the configuration properties that define the connection and communications with the Handlebar Detection server. When using the JSON method to integrate the plug-in these properties are coded within the `properties` configuration property.
 
+### General Configuration Properties 
 
-| Name | Description |
-Required |
+| Name | Description | Required |
 | --- | --- | --- |
-| image | The version of the plug-in that you want to use. To view available versions,
-see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-handlebars-reporter). If a value is not
-specified, the latest version is used. | No |
+| image | The version of the plug-in that you want to use. To view available versions,see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-handlebars-reporter). If a value is not specified, the latest version is used. | No |
 | name | An assigned name to the value stream. | Yes |
-| loggingLevel |
-The level of Log4j messages to log. Valid values are: all, debug, info, warn, error, fatal, off, and trace. The default
-is info. | No |
-| properties | List of configuration properties used to connect and communicate with the UrbanCode
-Velocity server. Enclose the properties within braces. | Yes |
+| loggingLevel | The level of Log4j messages to log. Valid values are: all, debug, info, warn, error, fatal, off, and trace. The default is info. | No |
+| properties | List of configuration properties used to connect and communicate with the UrbanCode Velocity server. Enclose the properties within braces. | Yes |
 | tenant\_id | The name of the tenant. | Yes |
-| type |
-Unique identifier assigned to the plug-in. The value for the UrbanCode Velocity plug-in is `ucv-ext-handlebars-reporter`
-| Yes |
+| type | Unique identifier assigned to the plug-in. The value for the UrbanCode Velocity plug-in is `ucv-ext-handlebars-reporter` | Yes |
 
+### Handlebar Detection Configuration Properties
 
 | Name | Type | Description | Required | Project Name |
 | --- | --- | --- | --- | --- |
-| UCV User Access
-Key | Secure | The user access key used to authenticate with the UrbanCode Velocity server. | Yes | ucvKey |
+| UCV User Access Key | Secure | The user access key used to authenticate with the UrbanCode Velocity server. | Yes | ucvKey |
 
-Example
-
--------
+## Example
 
 The following example can be used as as template to include the Handlebar Reporter plug-in integration into
 the JSON file. Copy and paste the template into the JSON file and make the appropriate changes.
@@ -131,14 +93,7 @@ the JSON file. Copy and paste the template into the JSON file and make the appro
 
 ```
 
-
-
-[Premium WordPress Themes
-Download](https://www.thewpclub.net)[Premium WordPress Themes Download](https://www.themeslide.com)[Free Download
-WordPress Themes](https://www.script-stack.com)[Premium WordPress Themes Download](https://www.thememazing.com)[udemy
-free download](https://www.onlinefreecourse.net)[download mobile firmware](https://www.frendx.com/firmware/)[Download
-Premium WordPress Themes Free](https://www.themebanks.com)[udemy free download](https://downloadtutorials.net)
-#primary
+[Premium WordPress Themes Download](https://www.thewpclub.net)[Premium WordPress Themes Download](https://www.themeslide.com)[Free Download WordPress Themes](https://www.script-stack.com)[Premium WordPress Themes Download](https://www.thememazing.com)[udemy free download](https://www.onlinefreecourse.net)[download mobile firmware](https://www.frendx.com/firmware/)[Download Premium WordPress Themes Free](https://www.themebanks.com)[udemy free download](https://downloadtutorials.net)
 
 |Back to ...||Latest Version|Handlebar Reporter |||
 | :---: | :---: | :---: | :---: | :---: | :---: |

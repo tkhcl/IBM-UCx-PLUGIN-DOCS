@@ -1,14 +1,13 @@
 
 # Shell - Automation task
 
-## Automation tasks
-
 The following steps are available in the Shell plugin:
    
 - Execute Shell
+- Adding automation tasks to a release
 
 
-### Execute Shell
+## Execute Shell
 
 Select the command to run the shell script.
 
@@ -18,7 +17,7 @@ Select the command to run the shell script.
 | Description |	A description of the step. | No |
 | Shell Script | The shell script to run in the task. |	Yes |
 
-### Adding automation tasks to a release
+## Adding automation tasks to a release
 
 To add automation tasks to a release, complete the following steps:
 

@@ -1,8 +1,6 @@
 
 # BitBucket Server - Usage
 
-## Usage
-
 To use the BitBucket Server plug-in, the plug-in must be loaded and an instance created before you can configure the plug-in integration. Configuration properties are defined using the product user interface or a JSON file.
 
 

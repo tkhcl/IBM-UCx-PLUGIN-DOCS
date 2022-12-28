@@ -1,6 +1,6 @@
 # Rally - Downloads
 
-## Downloads
+To download the plugins, click the following version specific links.
 
 - [ucv-ext-rally-1.0.34.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rally/ucv-ext-rally-1.0.34.tar.zip)
 - [ucv-ext-rally-1.0.33.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rally/ucv-ext-rally-1.0.33.tar.zip)

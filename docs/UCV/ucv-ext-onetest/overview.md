@@ -1,36 +1,21 @@
 
-HCL OneTest - Overview
-======================
+# HCL OneTest - Overview
 
-# Overview
+The HCL One Test plug-in allows for parsing of data from the HCL OneTest testing tool. Data is uploaded to the UrbanCode Velocity server using an HTTP Post request.
 
+## Compatibility
 
-### Overview
+Must be running UrbanCode Velocity version 1.2.1 and later to use this plug-in.
 
+## Versions
 
-The HCL One Test plug-in allows for parsing of data from the HCL OneTest testing tool. Data is
-uploaded to the UrbanCode Velocity server using an HTTP Post request.
+UrbanCode Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-onetest/tags).
 
-Compatibility
--------------
-
-Must be running
-UrbanCode Velocity version 1.2.1 and later to use this plug-in.
-
-Versions
---------
-
-UrbanCode Velocity plug-in images
-are located in DockerHub. To view available versions, see the [UrbanCode
-DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-onetest/tags).
-
-History
--------
+## History
 
 ### Version 1.0.30
 
-* Updated
-dataset names
+* Updated dataset names
 
 ### Version 1.0.12
 

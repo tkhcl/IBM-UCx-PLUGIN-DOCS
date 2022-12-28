@@ -1,11 +1,9 @@
 
 # Fortify-SSC - Usage
 
-## Usage
-
 To use the Fortify SSC server plugin, the plugin must be loaded and an instance created before you can configure the plugin integration. You define configuration properties in the user interface.
 
-### Integration type
+## Integration type
 
 The Fortify SSC plugin supports scheduled events integration which is listed in the following table.
 
@@ -13,7 +11,7 @@ The Fortify SSC plugin supports scheduled events integration which is listed in 
 | --- | --- |
 | fortifyScheduledEvents | The Fortify SSC plug-in processes incoming data from the Fortify SSC server. |
 
-### Integration
+## Integration
 
 Use the user interface to integrate the plugin.
 
@@ -24,14 +22,14 @@ Use the user interface to integrate the plugin.
 
 See Configuration properties topic for the properties used to define the integration.
 
-### Configuration properties
+## Configuration properties
 
 The following tables describe the properties used to configure the integration.
 
 * The General Configuration Properties table describes configuration properties used by all plug-in integrations.
 * The Fortify SSC Configuration Properties table describes the configuration properties that define the connection and communications with the Fortify server.
 
-#### General Configuration table
+### General Configuration table
 
 | Name | Description | Required |
 | --- | --- | --- |
@@ -43,7 +41,7 @@ The following tables describe the properties used to configure the integration.
 | type | Unique identifier assigned to the plugin. The value for the Redmine plugin is `ucv-ext-fortify-ssc`. | Yes |
 | ucvAccessKey | The auto-generated User Access Key that the containerized plugin will use to communicate with UrbanCode Velocity (support starts with plugin v2.0.30 or later). | Yes |
 
-#### Fortify SSC Properties table
+### Fortify SSC Properties table
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |

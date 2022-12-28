@@ -106,4 +106,4 @@ Initial release of the plug-in.
 
 |Back to ...||Latest Version|Web Utilities ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[17.1138530](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/ucd-web-utilities-17.1138530.zip)|[Readme](README.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[17.1148552](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/ucd-web-utilities-17.1148552.zip)|[Readme](README.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

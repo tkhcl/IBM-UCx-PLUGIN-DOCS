@@ -1,26 +1,17 @@
 
-Fortify SSC - Overview
-==========================
-
-
-Overview
---------
-
+# Fortify SSC - Overview
 
 Fortify Software security center (SSC) enables teams with the application security program automation capabilities. It enables to manage, develop, and provide security for the software protection activities.
 
-Compatibility
--------------
+## Compatibility
 
 Must be running UrbanCode Velocity version 2.0.0 and later to use the plug-in.
 
-Versions
---------
+## Versions
 UrbanCode Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-fortify-ssc/tags).
 
 
-History
--------
+## History
 
 ### Version 1.0.19
 
