@@ -2,13 +2,6 @@
 AccuRev SCM - Overview
 ======================
 
-# Overview
-
-
-### Overview
-
-
-
 The AccuRev source configuration plug-in supports creating components from AccuRev promote transactions, issues, snapshots, and workspaces.
 
 ### Compatibility
