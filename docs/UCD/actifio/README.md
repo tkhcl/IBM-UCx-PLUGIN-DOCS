@@ -1,11 +1,11 @@
 
-Actifio
-=======
+# Actifio
 
-This plugin allows process steps to be created that leverage the instant mount capabilities for databases that Actifio’s data management platform provides.
 
-Downloads
-----------
+This plugin allows process steps to be created that leverage the instant mount capabilities for databases provided by the Actifio’s data management platform.
+
+## Downloads
+
 
 * [Source project](https://github.com/Actifio/act-ucd-plugin)
 * [Plug-in Installables](https://github.com/Actifio/act-ucd-plugin/releases)
@@ -15,8 +15,7 @@ If you encounter issues with the plug-in, or want to send feedback:
 * Ask Actifio plug-in specific questions on the [GitHub Issues](https://github.com/Actifio/urbancode-plug-in/issues) page.
 * For general plug-in issues, submit questions to the [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins
 
-Available Steps
----------------
+## Available Steps
 
 SQL Server database provisioning Oracle database provisioning (standalone/RAC, file system/ASM)
 

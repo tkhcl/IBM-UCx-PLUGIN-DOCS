@@ -1,12 +1,5 @@
 
-AccuRev SCM - Usage
-===================
-
-# Usage
-
-
-### Usage
-
+# AccuRev SCM - Usage
 
 
 The AccuRev source configuration plug-in is capable of importing various artifact sets from AccuRev SCM. It is important to understand each of the properties to grab the correct artifact sets as component versions.
