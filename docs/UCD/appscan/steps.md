@@ -1,16 +1,6 @@
 
-IBM AppScan Enterprise - Steps
-==============================
+# IBM AppScan Enterprise - Process Steps
 
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the AppScan plug-in
 
 * [Configure Job Options](#configure_job_options)
 * [Create Scan](#create_scan)
