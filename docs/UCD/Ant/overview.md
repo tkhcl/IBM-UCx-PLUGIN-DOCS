@@ -1,14 +1,5 @@
 
-Apache Ant - Overview
-=====================
-
-# Overview
-
-
-### Overview
-
-
-
+# Apache Ant - Overview
 
 You can use Apache Ant to build and deploy applications. The Apache Ant plug-in automates the use of the Apache Ant command line tool.
 

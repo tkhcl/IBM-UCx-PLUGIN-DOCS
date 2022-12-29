@@ -2,15 +2,6 @@
 IBM Rational Team Concert - SCM - Settings
 ==========================================
 
-# Settings
-
-
-### Settings
-
-
-
-### Settings in the IBM Rational Team Concert SCM plug-in
-
 
 ### Create Component
 

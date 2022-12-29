@@ -1,8 +1,5 @@
 
-IBM API Connect - Tutorials
-===========================
-
-## Tutorials
+# IBM API Connect - Tutorials
 
 - [IBM API Connect - Tutorials](#ibm-api-connect---tutorials)
   - [Tutorials](#tutorials)

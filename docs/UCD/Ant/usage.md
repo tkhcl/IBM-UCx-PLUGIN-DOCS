@@ -1,13 +1,5 @@
 
-Apache Ant - Usage
-==================
-
-# Usage
-
-
-### Usage
-
-
+# Apache Ant - Usage
 
 
 With the **Ant** step you can specify the build script to run or you can include the build script in the step.You can also specify command-line options in the step.

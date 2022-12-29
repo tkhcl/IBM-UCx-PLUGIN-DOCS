@@ -1,9 +1,7 @@
 
-IBM AppScan Enterprise - Downloads
-==================================
+# IBM AppScan Enterprise - Downloads
 
-# Downloads
-
+To download the plug-in, click the following version specific links.
 - [appscan-14.1105371.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan/appscan-14.1105371.zip)
 - [appscan-14.1101790.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan/appscan-14.1101790.zip)
 - [appscan-14.1011277.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan/appscan-14.1011277.zip)

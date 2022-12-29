@@ -1,16 +1,6 @@
 
-IBM MobileFirst Platform (formerly Worklight) - Steps
-=====================================================
+# IBM MobileFirst Platform (formerly Worklight) - Process Steps
 
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the IBM MobileFirst plug-in
 
 * [Change Application Configuration](#change_application_configuration)
 * [Delete Adapter](#delete_adapter)

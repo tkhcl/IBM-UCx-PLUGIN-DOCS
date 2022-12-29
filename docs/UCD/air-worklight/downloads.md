@@ -1,9 +1,7 @@
 
-IBM MobileFirst Platform (formerly Worklight) - Downloads
-=========================================================
+# IBM MobileFirst Platform (formerly Worklight) - Downloads
 
-# Downloads
-
+To download the plug-in, click the following version-specific links.
 - [ibm-mobilefirst-13.1098510.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/air-worklight/ibm-mobilefirst-13.1098510.zip)
 - [ibm-mobilefirst-13.1056574.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/air-worklight/ibm-mobilefirst-13.1056574.zip)
 - [ibm-mobilefirst-13.1026813.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/air-worklight/ibm-mobilefirst-13.1026813.zip)

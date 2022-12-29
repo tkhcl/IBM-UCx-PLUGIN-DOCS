@@ -1,8 +1,7 @@
 
-IBM Rational Team Concert - SCM - Downloads
-===========================================
+# IBM Rational Team Concert - SCM - Downloads
 
-# Downloads
+Click the following version-specific links to download the plug-ins.
 
 - [air-plugin-RTC-scm-8.1101694.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/air-plugin-RTC-scm/air-plugin-RTC-scm-8.1101694.zip)
 - [air-plugin-RTC-scm-7.1044519.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/air-plugin-RTC-scm/air-plugin-RTC-scm-7.1044519.zip)

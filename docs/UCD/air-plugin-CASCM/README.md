@@ -1,6 +1,6 @@
 
-CA SCM (formerly Harvest)
-=========================
+# CA SCM (formerly Harvest)
+
 
 The CA SCM plug-in enables you to import artifacts as component version
 

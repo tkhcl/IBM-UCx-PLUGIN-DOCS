@@ -1,16 +1,6 @@
 
-IBM MobileFirst Platform (formerly Worklight) - Overview
-========================================================
+# IBM MobileFirst Platform (formerly Worklight) - Overview
 
-# Overview
-
-
-### Overview
-
-
-
-
-### Overview
 
 The IBM MobileFirst Platform plug-in provides functionality for deploying artifacts, including mobile application artifacts, to an IBM MobileFirst Server. IBM MobileFirst Platform was previously known as IBM Worklight.
 

@@ -1,14 +1,5 @@
 
-Amazon EC2 - Overview
-=====================
-
-# Overview
-
-
-### Overview
-
-
-
+# Amazon EC2 - Overview
 
 The Amazon EC2 plug-in automates managing an Amazon Elastic Cloud (EC2) instance as a process step.
 

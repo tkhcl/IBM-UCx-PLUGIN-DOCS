@@ -1,7 +1,5 @@
 
-Ansible
-=======
-
+# Ansible
 
 The Ansible plug-in enables IBM UrbanCode Deploy to run various commands. Any missing commands can be run through a generic Shell step or AShell plug-in step.
 
@@ -9,8 +7,7 @@ The Ansible plug-in enables IBM UrbanCode Deploy to run various commands. Any mi
 The AirWatch Toolkit plug-in is a community plug-in. Community plug-ins are open source projects that are developed and supported by the IBM UrbanCode development community. Click **Visit Project** at the top of the page to go to the project for further information.
 
 
-Downloads:
-----------
+# Downloads:
 
 * [Ansible Toolkit plug-in distribution](https://github.com/UrbanCode/Ansible-Toolkit-UCD/releases)
 * [Source project](https://github.com/UrbanCode/Ansible-Toolkit-UCD)
@@ -21,8 +18,8 @@ If you encounter issues with the plug-in, or want to send feedback:
 * For general plug-in issues, submit questions to the [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins
 
 
-Available Steps
----------------
+# Available Steps
+
 
 AShell
 

@@ -1,12 +1,5 @@
 
-CA SCM (formerly Harvest) - Overview
-====================================
-
-# Overview
-
-### Overview
-
-### Overview
+# CA SCM (formerly Harvest) - Overview
 
 The CA SCM source configuration plug-in enables you to import artifacts as component version
 

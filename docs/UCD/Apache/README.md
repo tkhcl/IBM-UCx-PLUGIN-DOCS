@@ -1,6 +1,5 @@
 
-Apache HTTP Server
-==================
+# Apache HTTP Server
 
 The Apache HTTP Server is an open-source HTTP server that can be used on UNIX and Microsoft Windows operating systems. The Apache HTTP Server was developed by the Apache Software Foundation. The Apache HTTP Server provides a secure, efficient and extensible server that provides HTTP services that are compatible with the current HTTP standards.
 
@@ -12,8 +11,8 @@ With the steps that this plug-in provides IBM UrbanCode Deploy processes can sta
 * This plug-in is supported to run on Apache HTTP Server v2.2 or later.
 
 
-Available Steps
----------------
+# Available Steps
+
 
 Start the Apache HTTP server.
 

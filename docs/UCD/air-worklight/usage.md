@@ -1,14 +1,5 @@
 
-IBM MobileFirst Platform (formerly Worklight) - Usage
-=====================================================
-
-# Usage
-
-
-### Usage
-
-
-
+# IBM MobileFirst Platform (formerly Worklight) - Usage
 
 The IBM MobileFirst Platform plug-in for IBM UrbanCode Deploy is part of a complete process for building and deploying mobile applications.
 

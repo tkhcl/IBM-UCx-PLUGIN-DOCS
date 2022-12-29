@@ -1,16 +1,4 @@
-
-CA SCM (formerly Harvest) - Steps
-=================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the CA SCM plug-in
+# CA SCM (formerly Harvest) - Process Steps
 
 * [Harvest Checkout](#harvest_checkout)
 

@@ -1,14 +1,5 @@
 
-IBM MobileFirst Platform (formerly Worklight) - Troubleshooting
-===============================================================
-
-# Troubleshooting
-
-
-### Troubleshooting
-
-
-
+# IBM MobileFirst Platform (formerly Worklight) - Troubleshooting
 
 The following information can assist you in troubleshooting the IBM MobileFirst Platform plug-in:
 

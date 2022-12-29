@@ -1,8 +1,7 @@
 
-IBM API Connect - Downloads
-===========================
+# IBM API Connect - Downloads
 
-# Downloads
+To download the plug-in, click the following version-specific link.
 
 - [apiconnect-7.1022553.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/apiconnect/apiconnect-7.1022553.zip)
 - [apiconnect-6.970677.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/apiconnect/apiconnect-6.970677.zip)

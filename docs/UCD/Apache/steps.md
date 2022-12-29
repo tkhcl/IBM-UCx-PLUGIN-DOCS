@@ -1,16 +1,5 @@
 
-Apache HTTP Server - Steps
-==========================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the Apache HTTP Server plug-in
+# Apache HTTP Server - Process steps
 
 * [Start](#start)
 * [Stop](#stop)
