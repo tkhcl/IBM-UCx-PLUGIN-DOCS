@@ -1,8 +1,7 @@
 
-Aspera - Downloads
-==================
+# Aspera - Downloads
 
-# Downloads
+To download the plug-in, click the following version-specific links.
 
 - [aspera-3.1100729.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/aspera/aspera-3.1100729.zip)
 - [aspera-3.869076.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/aspera/aspera-3.869076.zip)

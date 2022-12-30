@@ -1,16 +1,5 @@
 
-Artifactory - Steps
-===================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the Artifactory plug-in
+# Artifactory - Process steps
 
 * [Download Latest Build for SNAPSHOT](#download_latest_build_for_snapshot)
 * [Download NuGet Package](#download_nuget_package)

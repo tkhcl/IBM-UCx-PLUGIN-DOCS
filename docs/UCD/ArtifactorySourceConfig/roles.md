@@ -1,16 +1,5 @@
 
-Artifactory Source Config - Roles
-=================================
-
-# Roles
-
-
-### Roles
-
-
-
-Roles in the Artifactory plug-in
---------------------------------
+# Artifactory Source Config - Roles
 
 The following roles are added automatically to resources. You cannot add these roles manually.
 
@@ -18,9 +7,7 @@ The following roles are added automatically to resources. You cannot add these r
 * [ArtifactoryImportProperties](#artifactoryimportproperties_role)
 
 
-ArtifactoryComponentProperties
-------------------------------
-
+### ArtifactoryComponentProperties
 
 | Name | Type | Description | Reference |
 | --- | --- | --- | --- |
@@ -52,8 +39,7 @@ ArtifactoryComponentProperties
 
 
 
-ArtifactoryImportProperties
----------------------------
+### ArtifactoryImportProperties
 
 
 | Name | Type | Description | Reference |

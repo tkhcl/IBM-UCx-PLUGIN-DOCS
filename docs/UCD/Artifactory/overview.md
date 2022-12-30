@@ -1,14 +1,5 @@
 
-Artifactory - Overview
-======================
-
-# Overview
-
-
-### Overview
-
-
-
+# Artifactory - Overview
 
 The Artifactory plug-in automates the following tasks:
 

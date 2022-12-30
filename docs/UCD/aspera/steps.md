@@ -1,16 +1,5 @@
 
-Aspera - Steps
-==============
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the Aspera plug-in
+# Aspera - Process Steps
 
 * [Download Artifacts](#download_artifacts)
 * [Upload Artifacts](#upload_artifacts)
