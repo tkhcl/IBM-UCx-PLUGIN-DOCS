@@ -1,18 +1,6 @@
 
-IBM API Connect - Steps
-=======================
+# IBM API Connect - Process steps
 
-# Steps
-
-
-### Steps
-
-
-
-
-
-
-### Process steps in the IBM API Connect plug-in
 
 * [Login](#login)
 * [Logout](#logout)

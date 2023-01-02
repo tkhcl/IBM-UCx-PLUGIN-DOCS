@@ -1,16 +1,5 @@
 
-Amazon EC2 - Steps
-==================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the AmazonEC2 plug-in
+Amazon EC2 - Process Steps
 
 - [Amazon EC2 - Steps](#amazon-ec2---steps)
 - [Steps](#steps)

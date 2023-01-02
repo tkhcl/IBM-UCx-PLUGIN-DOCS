@@ -1,16 +1,6 @@
 
-Apache Ant - Steps
-==================
+# Apache Ant - Process steps
 
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the Apache Ant plug-in
 
 * [Ant](#ant)
 

@@ -1,9 +1,7 @@
 
-AccuRev SCM - Downloads
-=======================
+# AccuRev SCM - Downloads
 
-# Downloads
-
+Click the following version-specific links to download the plug-in.
 - [AccuRevSourceConfig-9.1100795.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/AccuRevSourceConfig/AccuRevSourceConfig-9.1100795.zip)
 - [AccuRevSourceConfig-9.1053434.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/AccuRevSourceConfig/AccuRevSourceConfig-9.1053434.zip)
 - [AccuRevSourceConfig-8.1026763.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/AccuRevSourceConfig/AccuRevSourceConfig-8.1026763.zip)

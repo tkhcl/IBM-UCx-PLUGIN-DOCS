@@ -1,20 +1,12 @@
 
-Artifactory Source Config - Overview
-====================================
-
-# Overview
-
-
-### Overview
-
+# Artifactory Source Config - Overview
 
 
 The Artifactory source configuration plug-in includes steps to complete the following tasks:
 
 * Import Generic, Ivy, or Gradle packages from an Artifactory repository as a component version
 
-Compatibility
--------------
+### Compatibility
 
 This plug-in requires Artifactory versions 2.0 or later. The Artifactory Pro edition is also supported. Some functions of the plug-in steps require Artifactory Pro version, such as recursive download.
 
@@ -22,18 +14,16 @@ This plug-in requires version IBM UrbanCode Deploy 6.0.1 or later.
 
 This runs on all operating systems that are supported by the IBM UrbanCode Deploy agent.
 
-Upgrade note
-------------
+### Upgrade note
 
 When **upgrading to version 18 or later from an earlier version, the **Include Files** field has replaced the **File Extension** field. This will need to be updated by customers previously using the ‘File Extension’ field. If the field was previously blank, no action is necessary**
 
-Installation
-------------
+### Installation
 
 No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
 
-History
--------
+### History
+
 
 #### Version 29 *Dec 12, 2019*
 

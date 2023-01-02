@@ -1,9 +1,9 @@
 
-Apple Xcode
-===========
+# Apple Xcode
 
-Overview
-========
+
+### Overview
+
 
 The Apple Xcode plug-in includes steps that manage the continuous delivery of Apple iOS applications by interacting with simulators and devices. These steps include tasks that are related to installing and removing the application on devices and simulators, and running tests as part of a DevOps solution. The plug-in also includes steps for creating and deleting simulators.
 
@@ -22,7 +22,7 @@ If you encounter issues with the plug-in, or want to send feedback:
 * For general plug-in issues, submit questions to our [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins
 
 **Steps**
----------
+
 
 The plug-in includes steps for creating and deleting simulators, and for starting and stopping the simulator:
 
@@ -50,7 +50,6 @@ With the [xcrun](https://developer.ibm.com/urbancode/plugindoc/ibmucd/apple-xcod
 To view a video demonstration of the Apple Xcode 1 plug-in, see [http://youtu.be/kHD46\_kCvnI](http://youtu.be/kHD46_kCvnI "http://youtu.be/kHD46_kCvnI")
 
 **Compatibility**
------------------
 
 The UrbanCode Deploy automation plug-in for Apple Xcode works with Xcode version 6.1.0.
 
@@ -61,7 +60,6 @@ This plug-in is supported to run only on an agent that is started from and runni
 **Important**: Start the agent from a Terminal prompt. **Restriction**: The agent must run on a computer that is configured to use English as the system language.
 
 **Installation**
-----------------
 
 No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
 

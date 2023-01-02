@@ -1,14 +1,5 @@
 
-IBM API Connect - Troubleshooting
-=================================
-
-# Troubleshooting
-
-
-### Troubleshooting
-
-
-
+# IBM API Connect - Troubleshooting
 
 **Tip:** For more questions and answers, see the [UrbanCode forum on IBM developerWorks](https://community.ibm.com/community/user/wasdevops/urbancode-discussion "UrbanCode forum").
 
