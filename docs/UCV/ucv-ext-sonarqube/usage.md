@@ -39,8 +39,7 @@ The parameters for adding a SonarQube integration are summarized in the table be
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Velocity Hostname | String | The Velocity hostname including the port if applicable. For example, “velocityHost:9000”. | API only |
-| Velocity Access Key | Secure
-| The access key used to authenticate to UrbanCode Velocity. You can use a previously generated key or generate a new key. | Yes |
+| Velocity Access Key | Secure | The access key used to authenticate to UrbanCode Velocity. You can use a previously generated key or generate a new key. | Yes |
 | Integration Name | String | A name used to reference the integration. | Yes |
 | SonarQube Auth Token | Secure | The SonarQube authentication token. You can use a previously generated token or generate a new token in SonarQube. | Yes |
 | SonarQube URL | String | The base URL of the SonarQube server including the port number. For example: “http://sonarQubeHost:9000”. | Yes |
