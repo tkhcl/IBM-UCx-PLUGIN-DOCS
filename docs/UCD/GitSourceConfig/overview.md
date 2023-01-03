@@ -1,8 +1,6 @@
 
 # Git - Overview
 
-## Overview
-
 The Git plug-in automates importing artifacts from a Git repository.
 
 This plug-in includes one step which has no input properties:

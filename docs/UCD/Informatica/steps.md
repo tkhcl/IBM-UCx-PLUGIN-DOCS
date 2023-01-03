@@ -1,16 +1,5 @@
 
-Informatica - Steps
-===================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the Informatica plug-in
+# Informatica - Process Steps
 
 - [Informatica - Steps](#informatica---steps)
 - [Steps](#steps)

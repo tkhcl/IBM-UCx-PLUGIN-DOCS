@@ -1,13 +1,5 @@
 
-Maven Resolve - Overview
-========================
-
-# Overview
-
-
-### Overview
-
-
+# Maven Resolve - Overview
 
 The Maven Resolve plug-in includes a step that resolves artifacts from a Maven repository:
 

@@ -1,23 +1,17 @@
 
-IBM MQ for z/OS - Generate MQSC Commands
-========================================
-
-IBM MQ for z/OS – Generate MQSC Commands
-----------------------------------------
+# IBM MQ for z/OS - Generate MQSC Commands
 
 
 The IBM MQ for z/OS Generate MQSC Commands plugin can be used to provision IBM MQ for z/OS queue and channel resources. Resources are represented in REST form, held in files in a Source Control Management (SCM) system, and deployed to a target IBM MQ for z/OS queue manager environment.
 
 
-Further information about the plugin
-------------------------------------
+### Further information about the plugin
 
 
 More detailed information and examples, with specific syntax, can be found in the associated white paper: [IBM MQ for zOS – Generate MQSC Commands](https://github.com/IBM-UrbanCode/IBM-MQ-zOS-UCD/blob/master/doc/white_paper/IBM%20MQ%20for%20zOS%20Generate%20MQSC%20Commands.pdf)
 
 
-Downloads:
-----------
+### Downloads:
 
 * [IBM MQ for z/OS – Generate MQSC Commmands plug-in distribution](https://github.com/IBM-UrbanCode/IBM-MQ-zOS-UCD/releases)
 * [Source project](https://github.com/IBM-UrbanCode/IBM-MQ-zOS-UCD)
@@ -29,8 +23,7 @@ If you encounter issues with the plug-in, or want to send feedback:
 * For general plug-in issues, submit questions to the [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins
 
 
-Available Steps
----------------
+### Available Steps
 
 Generate MQSC CommandsGenerate MQSC commands from the base file, overrides file and property file.
 

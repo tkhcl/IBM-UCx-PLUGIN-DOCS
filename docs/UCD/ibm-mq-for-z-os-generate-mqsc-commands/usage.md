@@ -1,14 +1,5 @@
 
-IBM MQ for z/OS - Generate MQSC Commands - Usage
-================================================
-
-# Usage
-
-
-### Usage
-
-
-
+# IBM MQ for z/OS - Generate MQSC Commands - Usage
 
 The REST form IBM MQ for z/OS queue and/or channel resource representations are defined as a triplet of files in the SCM system:
 

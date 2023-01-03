@@ -1,8 +1,7 @@
 
-Maven - Downloads
-=================
+# Maven - Downloads
 
-# Downloads
+To download the plug-in, click the following version-specific links.
 
 - [ucd-MavenSourceConfig-25.1131554.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MavenSourceConfig/ucd-MavenSourceConfig-25.1131554.zip)
 - [ucd-MavenSourceConfig-24.1128773.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MavenSourceConfig/ucd-MavenSourceConfig-24.1128773.zip)

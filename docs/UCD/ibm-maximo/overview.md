@@ -1,7 +1,6 @@
 
 # IBM Maximo - Overview
 
-## Overview
 
 Maximo plugin allows the user to upload and deploy configuration using migration manager.
 

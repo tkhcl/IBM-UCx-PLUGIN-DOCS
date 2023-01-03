@@ -1,15 +1,6 @@
 
-Microsoft IIS AppCmd - Steps
-============================
+# Microsoft IIS AppCmd - Process Steps
 
-# Steps
-
-
-### Steps
-
-
-
-### Process steps in the IIS AppCmd plug-in
 
 * [AppCmd](#appcmd)
 * [Create Application](#create_application)

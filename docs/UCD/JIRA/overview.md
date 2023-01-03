@@ -1,14 +1,5 @@
 
-JIRA for IBM UrbanCode Deploy - Overview
-========================================
-
-# Overview
-
-
-### Overview
-
-
-
+# JIRA for IBM UrbanCode Deploy - Overview
 
 The JIRA plug-in includes steps to automate working with JIRA issues as a process step.
 

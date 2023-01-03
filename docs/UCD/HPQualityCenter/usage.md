@@ -1,10 +1,5 @@
 
-MicroFocus ALM (formerly HP Quality Center) - Usage
-===================================================
-
-# Usage
-
-### Usage
+# MicroFocus ALM (formerly HP Quality Center) - Usage
 
 * [Before you begin](#before-you-begin)
 * [Step Palette](#step-palette)

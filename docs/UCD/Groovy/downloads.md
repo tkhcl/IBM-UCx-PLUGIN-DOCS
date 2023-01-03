@@ -1,8 +1,7 @@
 
-Groovy - Downloads
-==================
+# Groovy - Downloads
 
-# Downloads
+To download the plug-in, click the following version-specific links.
 
 - [Groovy-12.1060531.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Groovy/Groovy-12.1060531.zip)
 - [Groovy-11.1056562.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Groovy/Groovy-11.1056562.zip)

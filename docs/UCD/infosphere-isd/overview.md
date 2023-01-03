@@ -1,14 +1,5 @@
 
-InfoSphere-ISD - Overview
-=========================
-
-# Overview
-
-
-### Overview
-
-
-
+# InfoSphere-ISD - Overview
 
 The InfoSphere-ISD plugin provides steps to integrate with IBM InfoSphere Information Services Director.
 

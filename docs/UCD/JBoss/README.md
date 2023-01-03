@@ -1,6 +1,5 @@
 
-JBoss Application Server
-========================
+# JBoss Application Server
 
 JBoss Application Server is a open-source application server for Java EE. This plug-in interacts with the jboss-cli command line tool to provide access to JBoss operational and configuration tasks through the IBM UrbanCode Deploy process designer.
 
@@ -10,8 +9,7 @@ JBoss Application Server is a open-source application server for Java EE. This p
 * This plug-in is supported to run against JBoss Application Server v6.1 or higher
 
 
-Available Steps
----------------
+### Available Steps
 
 * Add Data Source
 * Add JMS Connection Factory

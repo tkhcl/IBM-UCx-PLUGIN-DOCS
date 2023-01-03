@@ -1,9 +1,7 @@
 
-JIRA for IBM UrbanCode Deploy - Downloads
-=========================================
+# JIRA for IBM UrbanCode Deploy - Downloads
 
-# Downloads
-
+To download the plug-in, click the following version-specific links.
 - [JIRA-16.1090067.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JIRA/JIRA-16.1090067.zip)
 - [JIRA-15.1071463.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JIRA/JIRA-15.1071463.zip)
 - [JIRA-14.1064585.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JIRA/JIRA-14.1064585.zip)

@@ -1,16 +1,5 @@
 
-Microsoft IIS AdminScripts - Steps
-==================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the IIS AdminScripts plug-in
+# Microsoft IIS AdminScripts - Process Steps
 
 * [AdsUtil](#adsutil)
 * [Set .Net Version](#set_.net_version)

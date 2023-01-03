@@ -1,16 +1,5 @@
 
-IBM Operational Decision Manager (ODM) Source Config - Settings
-===============================================================
-
-# Settings
-
-
-### Settings
-
-
-
-
-### Settings in the IBM ODM Source Config plug-in
+# IBM Operational Decision Manager (ODM) Source Config - Settings
 
 
 * [Importing from Classic Rule Project](#import_classic_ruleapp)

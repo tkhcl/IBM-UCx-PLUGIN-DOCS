@@ -1,16 +1,6 @@
 
-HP LoadRunner - Steps
-=====================
+# HP LoadRunner - Process Steps
 
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the HP LoadRunner plug-in
 
 * [Run Test Scenario](#run_test_scenario)
 

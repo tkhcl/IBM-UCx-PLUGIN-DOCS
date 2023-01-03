@@ -1,13 +1,5 @@
 
-IBM Operational Decision Manager (ODM) Source Config - Usage
-============================================================
-
-# Usage
-
-
-### Usage
-
-
+# IBM Operational Decision Manager (ODM) Source Config - Usage
 
 
 For a full ODM plug-in usage tutorial, refer to [IBM Operational Decision Manager (ODM) with UrbanCode Deploy](https://developer.ibm.com/urbancode/2017/08/02/ibm-operational-decision-manager-odm-urbancode-deploy/)

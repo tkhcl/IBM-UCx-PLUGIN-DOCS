@@ -1,6 +1,5 @@
 
-MicroFocus ALM (formerly HP Quality Center)
-===========================================
+# MicroFocus ALM (formerly HP Quality Center)
 
 The HP Quality Center Plugin enables you to add interactions with an HP Quality Center server into your IBM UrbanCode Deploy Processes. Typically, this is for the purpose of running tests and adding a status to a Component Version that will either allow or deny it from being promoted to the next Environment in your SDLC.
 
@@ -12,8 +11,8 @@ This plug-in uses Visual Basic scripts to connect to the HP Quality Center serve
 * This plug-in is supported to run against HP Quality Center v11, v11.5, and v12
 
 
-Available Steps
----------------
+# Available Steps
+
 
 Create IssueCreate a new defect in HP Quality Center.
 
