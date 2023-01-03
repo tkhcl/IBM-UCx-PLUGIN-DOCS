@@ -22,7 +22,7 @@ These pages provide usage information about this plug-in:
 
 * [Including Service Integration Buses](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/01/03/including-service-integration-buses)
 
-* [Comparing configurations with live WebSphere Application Server instances](https://www.urbancode.com/resource/comparing-configurations-with-live-websphere-application-server-instances/)
+* [Comparing configurations with live WebSphere Application Server instances](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/01/03/comparing-configurations-with-live-websphere-appli)
 
 * Smart Compare: [Ignoring Property objects during comparison](https://youtu.be/xeGiIKNuuX0)
 * Smart Compare: [Ignoring specific attributes during comparison](https://youtu.be/JBlTKpsP7aw)
