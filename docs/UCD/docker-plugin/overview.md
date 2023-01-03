@@ -1,13 +1,5 @@
 
-Docker - Overview
-=================
-
-# Overview
-
-
-### Overview
-
-
+# Docker - Overview
 
 
 The Docker plug-in includes steps that map Docker images to components in IBM UrbanCode Deploy.

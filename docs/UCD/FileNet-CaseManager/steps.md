@@ -1,16 +1,6 @@
 
-FileNet - IBM Case Manager - Steps
-==================================
+# FileNet - IBM Case Manager - Process Steps
 
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the FileNetIBM Case Manager plug-in
 
 * [Deploy Solution](#deploy)
 * [Export Solution](#export_solution)

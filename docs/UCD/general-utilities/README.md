@@ -1,14 +1,12 @@
 
-IBM UrbanCode Deploy General Utilites
-=====================================
+# IBM UrbanCode Deploy General Utilites
 
-This plugin provides various utilities for use in your UrbanCode Deploy process.
+This plug-in provides various utilities for use in your UrbanCode Deploy process.
 
 
-Available Steps
----------------
+### Available Steps
 
-WaitThe number of seconds to wait.
+Wait: The number of seconds to wait.
 
 
 

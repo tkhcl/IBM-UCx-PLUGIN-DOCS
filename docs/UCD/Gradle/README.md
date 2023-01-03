@@ -1,6 +1,5 @@
 
-Gradle
-======
+# Gradle
 
 Gradle is a tool for automating common build tasks including testing and deployment. This plug-in calls the gradle command line to run a build script with the provided options against the defined tasks.
 

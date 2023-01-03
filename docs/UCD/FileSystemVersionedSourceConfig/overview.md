@@ -1,13 +1,5 @@
 
-File System (Versioned) - Overview
-==================================
-
-# Overview
-
-
-### Overview
-
-
+# File System (Versioned) - Overview
 
 
 The File System (Versioned) plug-in automates importing artifacts with versions and maintaining the versioning structure.

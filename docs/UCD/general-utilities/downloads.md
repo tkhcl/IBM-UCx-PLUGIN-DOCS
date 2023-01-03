@@ -1,9 +1,7 @@
 
-IBM UrbanCode Deploy General Utilites - Downloads
-=================================================
+# IBM UrbanCode Deploy General Utilites - Downloads
 
-# Downloads
-
+To download the plug-in, click the following version-specific links.
 - [general-utilities-2.1056692.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/general-utilities/general-utilities-2.1056692.zip)
 - [general-utilities-2.858558.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/general-utilities/general-utilities-2.858558.zip)
 - [general-utilities-2.855633.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/general-utilities/general-utilities-2.855633.zip)

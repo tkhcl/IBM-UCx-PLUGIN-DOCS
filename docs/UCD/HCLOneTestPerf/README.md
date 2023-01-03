@@ -1,6 +1,5 @@
 
-HCL OneTest Performance
-=======================
+# HCL OneTest Performance
 
 The HCL OneTest Performance plug-in for UrbanCode Deploy provides a step to run performance tests on the same system in which HCL OneTest Performance is installed.
 
@@ -9,8 +8,7 @@ The HCL OneTest Performance plug-in for UrbanCode Deploy provides a step to run 
 * This plug-in works with HCL OneTest 9.2.1 or higher.
 
 
-Available Steps
----------------
+### Available Steps
 
 Run Performance Test
 

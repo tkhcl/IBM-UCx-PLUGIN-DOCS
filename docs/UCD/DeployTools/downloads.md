@@ -1,9 +1,7 @@
 
-IBM UrbanCode Deploy Tools - Downloads
-======================================
+# IBM UrbanCode Deploy Tools - Downloads
 
-# Downloads
-
+To download the plug-in, click the following version-specific links.
 - [DeployTools-9.1056566.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DeployTools/DeployTools-9.1056566.zip)
 - [DeployTools-8.787096.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DeployTools/DeployTools-8.787096.zip)
 - [DeployTools-8.773601.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DeployTools/DeployTools-8.773601.zip)

@@ -1,13 +1,5 @@
 
-File Utils - Overview
-=====================
-
-# Overview
-
-
-### Overview
-
-
+# File Utils - Overview
 
 The steps in this plug-in manipulate files on the target system.
 
