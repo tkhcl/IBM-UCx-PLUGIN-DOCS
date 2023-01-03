@@ -20,7 +20,7 @@ These pages provide usage information about this plug-in:
 * [Managing WebSphere Application Server configurations](https://community.ibm.com/community/user/wasdevops/communities/community-home/recent-community-blogs?communitykey=9adfe6b6-2e23-4895-8b27-38b93b5e152c)
 * [Converting WebSphere Application Server configuration data into templates](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/25/converting-websphere-application-server-configurat?CommunityKey=9adfe6b6-2e23-4895-8b27-38b93b5e152c)
 
-* [Including Service Integration Buses](https://www.urbancode.com/resource/including-service-integration-buses/)
+* [Including Service Integration Buses](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/01/03/including-service-integration-buses)
 
 * [Comparing configurations with live WebSphere Application Server instances](https://www.urbancode.com/resource/comparing-configurations-with-live-websphere-application-server-instances/)
 
