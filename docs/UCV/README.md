@@ -169,7 +169,7 @@ GitHub is a Git repository hosting service. It provides tools to manage artifact
 
 ## GitHub Dependabot
 
-Github Dependabot scans package dependency vulnerabilities as Dependabot alerts from GitHub.
+Github Dependabot plug-in scans package dependency vulnerabilities as Dependabot alerts from GitHub.
 
 ---
 
@@ -320,7 +320,7 @@ Rational Test Automation Server is a fully-containerized (Docker) server compone
 
 ## SAP ChaRM
 
-Plugin will sync SAP Normal Changes in SAP's Change Request Management with Jira issues .
+The SAP ChaRM plug-in will sync SAP Normal Changes in SAP's Change Request Management with Jira issues .
 
 ---
 
@@ -358,7 +358,7 @@ The Shell plug-in for IBM UrbanCode Velocity automates the task in releases.
 
 ## Snyk
 
-Scans GitHub , GitLab and Bitbucket repositories package dependency vulnerabilities from Snyk . Works on top of existing GiHub , GitLab or Bitbucket integraions.
+The Snyk plug-in scans GitHub , GitLab and Bitbucket repositories package dependency vulnerabilities from Snyk . Works on top of existing GiHub , GitLab or Bitbucket integraions.
 
 ---
 
