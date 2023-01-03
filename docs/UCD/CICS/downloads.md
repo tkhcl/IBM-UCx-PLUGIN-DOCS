@@ -1,6 +1,6 @@
 # CICS TS - Downloads
 
----
+To download the plug-in, click the following version-specific links.
 
 - [cics-44.20220614-1106.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-44.20220614-1106.zip)
 - [cics-43.20220310-2307.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-43.20220310-2307.zip)

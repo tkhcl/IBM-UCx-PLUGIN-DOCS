@@ -1,9 +1,5 @@
 
-# IBM DataPower Configuration Manager - Steps
-
-## Steps
-
-### Process steps in the DataPower plug-in
+# IBM DataPower Configuration Manager - Process Steps
 
 - [IBM DataPower Configuration Manager - Steps](#ibm-datapower-configuration-manager---steps)
   - [Steps](#steps)

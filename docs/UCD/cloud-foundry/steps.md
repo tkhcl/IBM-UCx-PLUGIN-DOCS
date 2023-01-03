@@ -1,16 +1,6 @@
 
-Cloud Foundry - Steps
-=====================
+# Cloud Foundry - Process Steps
 
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the CloudFoundry plug-in
 
 * [Bind Service](#bind_service)
 * [CF Auto-Configure](#cf_auto-configure)

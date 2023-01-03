@@ -1,12 +1,10 @@
 
-Cloud Foundry
-=============
+# Cloud Foundry
 
 The Cloud Foundry plug-in uses the CloudFoundry command line utility to interact with applications in a target Cloud Foundry system.
 
 
-Available Steps
----------------
+### Available Steps
 
 Bind ServiceBinds a Cloud Foundry service instance onto a Cloud Foundry application.
 

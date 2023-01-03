@@ -1,13 +1,5 @@
 
-IBM Cognos Analytics - Overview
-===============================
-
-# Overview
-
-
-### Overview
-
-
+# IBM Cognos Analytics - Overview
 
 
 Cognos software includes business intelligence and performance management solutions. The Cognos Analytics plug-in for UrbanCode Deploy includes steps to import and export content to and from the Cognos content store.

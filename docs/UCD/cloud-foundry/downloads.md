@@ -1,9 +1,7 @@
 
-Cloud Foundry - Downloads
-=========================
+# Cloud Foundry - Downloads
 
-# Downloads
-
+To download the plug-in, click the following version-specific links.
 - [cloud-foundry-35.1122072.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/cloud-foundry/cloud-foundry-35.1122072.zip)
 - [cloud-foundry-34.1107441.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/cloud-foundry/cloud-foundry-34.1107441.zip)
 - [cloud-foundry-30.1009819.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/cloud-foundry/cloud-foundry-30.1009819.zip)

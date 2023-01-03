@@ -1,13 +1,5 @@
 
-CICS CM (Beta) - Usage
-======================
-
-# Usage
-
-
-### Usage
-
-
+# CICS CM (Beta) - Usage
 
 
 ### Migrating resource definitions

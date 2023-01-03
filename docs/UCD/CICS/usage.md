@@ -1,6 +1,5 @@
 # CICS TS - Usage
 
----
 
 * [Setting up resources for simple management of properties](#setting-up-resources-for-simple-management-of-properties)
 * [Deploying new load modules and performing a NEWCOPY on the related programs](#deploying-new-load-modules-and-performing-a-newcopy-on-the-related-programs)

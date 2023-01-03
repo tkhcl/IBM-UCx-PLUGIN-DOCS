@@ -1,14 +1,5 @@
 
-IBM Bluemix Auto-Scaling - Steps
-================================
-
-# Steps
-
-
-### Steps
-
-
-
+# IBM Bluemix Auto-Scaling - Steps
 
 ### Process steps in the IBM BlueMix Auto-Scaling plug-in
 

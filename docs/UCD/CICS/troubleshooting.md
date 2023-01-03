@@ -1,6 +1,5 @@
 # CICS TS - Troubleshooting
 
----
 
 For more questions and answers, see the [UrbanCode forum](https://community.ibm.com/community/user/integration/communities/community-home?communitykey=9adfe6b6-2e23-4895-8b27-38b93b5e152c&tab=groupdetails "UrbanCode forum").
 

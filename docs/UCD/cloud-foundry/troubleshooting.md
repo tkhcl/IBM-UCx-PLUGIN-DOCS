@@ -1,14 +1,5 @@
 
-Cloud Foundry - Troubleshooting
-===============================
-
-# Troubleshooting
-
-
-### Troubleshooting
-
-
-
+# Cloud Foundry - Troubleshooting
 
 ### Upgrading From Cloud Foundry Community Plugin
 
