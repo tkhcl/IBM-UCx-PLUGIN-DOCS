@@ -27,7 +27,7 @@ These pages provide usage information about this plug-in:
 * Smart Compare: [Ignoring Property objects during comparison](https://youtu.be/xeGiIKNuuX0)
 * Smart Compare: [Ignoring specific attributes during comparison](https://youtu.be/JBlTKpsP7aw)
 
-* [Automating live comparisons](https://www.urbancode.com/resource/automating-live-comparisons/)
+* [Automating live comparisons](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/01/03/automating-live-comparisons)
 * [Importing specific configuration types](https://www.urbancode.com/resource/importing-specific-configuration-types/)
 * [Managing configuration information in clustered environments](https://www.urbancode.com/resource/managing-configuration-information-in-clustered-environments/)
 * [Migrating WebSphere Application Server versions with IBM UrbanCode Deploy](https://www.urbancode.com/resource/migrating-websphere-application-server-versions-with-ibm-urbancode-deploy/)
