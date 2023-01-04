@@ -40,7 +40,7 @@ These pages provide usage information about this plug-in:
 * [Managing configurations with snippet collections](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/25/managing-configurations-with-snippet-collections)
 * [Tokenizing values in snippet files](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/25/tokenizing-values-in-snippet-files)
 * [Managing individual configuration objects with snippets](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/01/04/managing-individual-configuration-objects-with-sni)
-* [Creating a WebSphere Application Server with a Snippet](https://www.urbancode.com/resource/creating-a-websphere-application-server-with-a-snippet/)
+* [Creating a WebSphere Application Server with a Snippet](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/01/04/creating-a-websphere-application-server-with-a-sni)
 
 ## Components
 
