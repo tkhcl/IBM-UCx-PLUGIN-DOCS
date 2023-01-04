@@ -34,7 +34,7 @@ This application includes processes that demonstrate how to manage WebSphere App
 
 This application does not include processes. Use this application instead of the previous application to migrate versions of WebSphere Application Server with IBM UrbanCode Deploy. This application is not installed with the WebSphere Application Server Configure plug-in. You must manually import this application into IBM UrbanCode Deploy. [Download the application (JSON file)](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/WebSphereConfiguration/SampleApplications/WebSphereConfigurationExampleMigrationApplication.json).
 
-To learn more about migrating versions, see [Migrating WebSphere Application Server versions with IBM UrbanCode Deploy](https://www.urbancode.com/resource/migrating-websphere-application-server-versions-with-ibm-urbancode-deploy/).
+To learn more about migrating versions, see [Migrating WebSphere Application Server versions with IBM UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/01/04/migrating-websphere-application-server-versions-wi).
 
 #### WebSphere Configuration Example Application Snippets for Individual Configuration Objects
 

@@ -30,11 +30,11 @@ These pages provide usage information about this plug-in:
 * [Automating live comparisons](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/01/03/automating-live-comparisons)
 * [Importing specific configuration types](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/01/03/importing-specific-configuration-types)
 * [Managing configuration information in clustered environments](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/01/04/managing-configuration-information-in-clustered-en)
-* [Migrating WebSphere Application Server versions with IBM UrbanCode Deploy](https://www.urbancode.com/resource/migrating-websphere-application-server-versions-with-ibm-urbancode-deploy/)
+* [Migrating WebSphere Application Server versions with IBM UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/01/04/migrating-websphere-application-server-versions-wi)
 
 ## Configuration Snippets
 
-* [Configuration snippet overview](https://www.urbancode.com/resource/configuration-snippet-overview/)
+* [Configuration snippet overview](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/01/04/configuration-snippet-overview)
 * Video: [Using Snippets to Manage Configuration Data](https://youtu.be/I6H3daJ6XSc)
 * [Creating configuration snippets](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/22/creating-configuration-snippets)
 * [Managing configurations with snippet collections](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/25/managing-configurations-with-snippet-collections)
