@@ -1,9 +1,6 @@
 
-# Salesforce - Steps
+# Salesforce - Process Steps
 
-## Steps
-
-### Process steps in the SalesForce plug-in
 
 - [Salesforce - Steps](#salesforce---steps)
   - [Steps](#steps)

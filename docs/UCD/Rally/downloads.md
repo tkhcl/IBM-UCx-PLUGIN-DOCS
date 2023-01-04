@@ -1,9 +1,7 @@
 
-Rally for IBM UrbanCode Deploy - Downloads
-==========================================
+# Rally for IBM UrbanCode Deploy - Downloads
 
-# Downloads
-
+To download the plug-in, click the following version-specific links.
 - [Rally-6.1056546.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Rally/Rally-6.1056546.zip)
 - [Rally-5.869049.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Rally/Rally-5.869049.zip)
 - [Rally-4.772117.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Rally/Rally-4.772117.zip)

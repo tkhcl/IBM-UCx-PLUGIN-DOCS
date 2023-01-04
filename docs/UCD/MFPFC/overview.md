@@ -1,16 +1,5 @@
 
-IBM MobileFirst Platform Foundation on IBM Containers - Overview
-================================================================
-
-# Overview
-
-
-### Overview
-
-
-
-
-### Overview
+# IBM MobileFirst Platform Foundation on IBM Containers - Overview
 
 The IBM MobileFirst Platform Foundation on IBM Containers plug-in includes steps to create database dependencies, build containers, run containers, and deploy artifacts to an IBM MobileFirst Server that is running in a container.
 

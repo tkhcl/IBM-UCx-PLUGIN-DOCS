@@ -1,6 +1,5 @@
 
-Perforce Helix
-==============
+# Perforce Helix
 
 Perforce is a commercial, proprietary, centralized revision control system developed by Perforce Software, Inc.
 

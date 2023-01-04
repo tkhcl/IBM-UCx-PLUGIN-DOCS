@@ -1,9 +1,7 @@
 
-Microsoft Windows Services - Downloads
-======================================
+# Microsoft Windows Services - Downloads
 
-# Downloads
-
+To download the plug-in, click the following version-specific links.
 - [ucd-ServiceControlManager-11.1126866.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceControlManager/ucd-ServiceControlManager-11.1126866.zip)
 - [ServiceControlManager-10.1056541.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceControlManager/ServiceControlManager-10.1056541.zip)
 - [ServiceControlManager-10.1023650.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceControlManager/ServiceControlManager-10.1023650.zip)

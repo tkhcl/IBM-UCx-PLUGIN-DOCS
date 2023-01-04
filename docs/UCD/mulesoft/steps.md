@@ -1,15 +1,5 @@
 
-Mulesoft - Steps
-================
-
-# Steps
-
-
-### Steps
-
-
-
-### Process steps in the Mulesoft plug-in
+# Mulesoft - Process Steps
 
 * [Deploy to Cloudhub](#deploy_to_cloudhub)
 

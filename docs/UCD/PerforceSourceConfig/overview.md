@@ -1,14 +1,5 @@
 
-Perforce Helix - Overview
-=========================
-
-# Overview
-
-
-### Overview
-
-
-
+# Perforce Helix - Overview
 
 The Perforce Helix source configuration plug-in includes a step to import artifacts from a Perforce server as component versions in IBM UrbanCode Deploy.
 

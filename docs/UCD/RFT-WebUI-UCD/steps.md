@@ -1,16 +1,5 @@
 
-IBM Rational Test Workbench Web UI Tester - Steps
-=================================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the IBM Rational Test WorkbenchRTWec plug-in
+# IBM Rational Test Workbench Web UI Tester - Process Steps
 
 * [Run RTWec Test](#run_rtwec_test)
 

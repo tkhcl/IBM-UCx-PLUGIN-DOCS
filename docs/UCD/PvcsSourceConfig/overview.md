@@ -1,14 +1,5 @@
 
-PVCS - Overview
-===============
-
-# Overview
-
-
-### Overview
-
-
-
+# PVCS - Overview
 
 The PVCS source configuration plug-in imports artifacts from Serena PVCS Version Manager as component versions in IBM UrbanCode Deploy.
 

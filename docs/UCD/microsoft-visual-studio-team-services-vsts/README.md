@@ -1,6 +1,5 @@
 
-Microsoft Visual Studio Team Services (VSTS)
-============================================
+# Microsoft Visual Studio Team Services (VSTS)
 
 
 The Microsoft Visual Studio Team Services (VSTS) extension provides the ability to import artifacts into IBM UrbanCode Deploy from Team Foundation Server (TFS). This extension is installed into TFS or VSO, not IBM UrbanCode Deploy.

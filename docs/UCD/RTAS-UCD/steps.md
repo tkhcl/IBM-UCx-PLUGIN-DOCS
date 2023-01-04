@@ -1,14 +1,5 @@
 
-IBM Rational Test Automation Server (RTAS) - Steps
-==================================================
-
-# Steps
-
-
-### Steps
-
-
-
+# IBM Rational Test Automation Server (RTAS) - Process Steps
 
 Process steps in the IBM Rational Test Automation Server plug-in:
 

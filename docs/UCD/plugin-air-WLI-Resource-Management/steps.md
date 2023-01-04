@@ -1,16 +1,5 @@
 
-Oracle WebLogic Integration Resource Management - Steps
-=======================================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the WLI Resource Management plug-in
+# Oracle WebLogic Integration Resource Management - Process Steps
 
 * [Create FTP EG](#create_ftp_eg)
 * [Create File EG](#create_file_eg)

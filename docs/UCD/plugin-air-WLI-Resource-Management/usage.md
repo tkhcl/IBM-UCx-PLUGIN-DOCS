@@ -1,14 +1,5 @@
 
-Oracle WebLogic Integration Resource Management - Usage
-=======================================================
-
-# Usage
-
-
-### Usage
-
-
-
+# Oracle WebLogic Integration Resource Management - Usage
 
 * [Before you begin](#before_you_begin)
 * [Step Palette](#palette)

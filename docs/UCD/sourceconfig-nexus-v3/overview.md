@@ -1,16 +1,7 @@
 
-Nexus Repository Manager V3 - Overview
-======================================
+# Nexus Repository Manager V3 - Overview
 
-# Overview
-
-
-### Overview
-
-
-
-
-The Nexus Repository Manager V3 plugin provides steps to integration UrbanCode Deploy with Nexus Repository Manager V3.
+The Nexus Repository Manager V3 plug-in provides steps to integration UrbanCode Deploy with Nexus Repository Manager V3.
 
 This plug-in includes the following step:
 
@@ -30,7 +21,7 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 #### Version 1
 
-Initial release of this plugin.
+Initial release of this plug-in.
 
 
 |Back to ...||Latest Version|Nexus Repository Manager V3 ||||

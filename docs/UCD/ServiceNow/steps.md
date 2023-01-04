@@ -1,16 +1,5 @@
 
-ServiceNow - Steps
-==================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the ServiceNow plug-in
+# ServiceNow - Process Steps
 
 * [Check Change Request Approval](#check_change_request_approval)
 * [Check Change Request State](#check_change_request_state)

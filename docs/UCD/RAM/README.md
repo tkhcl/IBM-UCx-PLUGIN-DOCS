@@ -1,6 +1,5 @@
 
-IBM Rational Asset Manager
-==========================
+# IBM Rational Asset Manager
 
 This plug-in provides steps that enable you to work with Rational Asset Manager assets in your IBM UrbanCode Deploy Processes.
 
@@ -9,20 +8,19 @@ This plug-in provides steps that enable you to work with Rational Asset Manager 
 * This plug-in is supported to run on all operating systems that are supported by both the IBM UrbanCode Deploy agent
 
 
-Available Steps
----------------
+### Available Steps
 
-Categorize an AssetAssign one or more categories on an asset.
+Categorize an Asset: Assign one or more categories on an asset.
 
-Create Relationship to an AssetCreate a relationship from one asset to another asset.
+Create Relationship to an Asset: Create a relationship from one asset to another asset.
 
-Download AssetsDownload assets from the IBM Rational Asset Manager repository.
+Download Assets: Download assets from the IBM Rational Asset Manager repository.
 
-Download Related AssetsDownload related assets of an asset.
+Download Related Assets: Download related assets of an asset.
 
-Set AttributeSet attribute on an asset.
+Set Attribute: Set attribute on an asset.
 
-Upload AttributeUpload asset to a Rational Asset Manager repository.
+Upload Attribute: Upload asset to a Rational Asset Manager repository.
 
 
 

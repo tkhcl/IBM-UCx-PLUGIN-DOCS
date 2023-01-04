@@ -1,6 +1,5 @@
 
-Puppet
-======
+# Puppet
 
 Puppet is a declarative, model-based approach to IT automation, helping you manage infrastructure throughout its lifecycle, from provisioning and configuration to orchestration and reporting. Using Puppet, you can easily automate repetitive tasks, quickly deploy critical applications, and proactively manage change, scaling from 10s of servers to 1000s, on-premise or in the cloud.
 
@@ -19,8 +18,7 @@ If you encounter issues with the plug-in, or want to send feedback:
 * For general plug-in issues, submit questions to our [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins
 
 
-Available Steps
----------------
+### Available Steps
 
 Apply one or more manifest through puppet
 

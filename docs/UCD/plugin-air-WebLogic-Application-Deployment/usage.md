@@ -1,14 +1,5 @@
 
-Oracle WebLogic Application Deployment - Usage
-==============================================
-
-# Usage
-
-
-### Usage
-
-
-
+# Oracle WebLogic Application Deployment - Usage
 
 * [Before you begin](#before_you_begin)
 * [Step palette](#palette)

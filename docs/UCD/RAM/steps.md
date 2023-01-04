@@ -1,16 +1,5 @@
 
-IBM Rational Asset Manager - Steps
-==================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the IBM Rational Asset Manager Integration plug-in
+# IBM Rational Asset Manager - Process Steps
 
 * [Categorize an Asset](#categorize_an_asset)
 * [Create Relationship to an Asset](#create_relationship_to_an_asset)

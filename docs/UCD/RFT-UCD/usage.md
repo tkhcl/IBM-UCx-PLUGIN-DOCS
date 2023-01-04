@@ -1,13 +1,5 @@
 
-IBM Rational Functional Tester (RFT) - Usage
-============================================
-
-# Usage
-
-
-### Usage
-
-
+# IBM Rational Functional Tester (RFT) - Usage
 
 
 ### [Example: Running functional tests](#component_process_run)

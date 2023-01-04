@@ -1,16 +1,5 @@
 
-GitHub-Release - Steps
-======================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the GitHub Release plug-in
+# GitHub-Release - Process Steps
 
 * [Import Version](#import_version)
 

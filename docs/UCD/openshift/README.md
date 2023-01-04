@@ -1,6 +1,5 @@
 
-OpenShift for IBM UrbanCode Deploy
-==================================
+# OpenShift for IBM UrbanCode Deploy
 
 OpenShift provides application lifecycle management functionality and DevOps tooling, and is built around a core of Docker container packaging and Kubernetes container cluster management. Origin provides a complete open source application container platform.
 

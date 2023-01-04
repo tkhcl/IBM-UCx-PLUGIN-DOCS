@@ -1,6 +1,5 @@
 
-Google Android SDK
-==================
+# Google Android SDK
 
 View a demo of this plug-in [here](https://www.youtube.com/watch?v=Qrw8hz8Jv9c)
 
@@ -30,30 +29,29 @@ The Android SDK plug-in includes steps to achieve continuous delivery of Androi
 * Android
 
 
-Available Steps
----------------
+### Available Steps
 
-Install ApplicationInstalls the Android APK application.
+Install Application: Installs the Android APK application.
 
-Remove ApplicationRemoves the Android application.
+Remove Application: Removes the Android application.
 
-Random UI TestRuns the monkey command for random UI Testing.
+Random UI Test: Runs the monkey command for random UI Testing.
 
-UI TestRuns the specified UI test against the application.
+UI Test: Runs the specified UI test against the application.
 
-Unit TestRuns the specified unit test against the application.
+Unit Test: Runs the specified unit test against the application.
 
-ADBRuns the Android Debug Bridge command.
+ADB: Runs the Android Debug Bridge command.
 
-AndroidRuns the Android tool command.
+Android: Runs the Android tool command.
 
-Create EmulatorCreates an emulator.
+Create Emulator: Creates an emulator.
 
-Remove EmulatorRemoves an emulator.
+Remove Emulator: Removes an emulator.
 
-Start EmulatorStarts an emulator.
+Start Emulator: Starts an emulator.
 
-Stop EmulatorStop an emulator.
+Stop Emulator: Stop an emulator.
 
 
 

@@ -1,16 +1,5 @@
 
-Rally for IBM UrbanCode Deploy - Steps
-======================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the Rally plug-in
+# Rally for IBM UrbanCode Deploy - Process Steps
 
 * [Add Comments](#add_comments)
 * [Change Rally Artifact Property](#change_rally_artifact_property)

@@ -1,9 +1,7 @@
 
-IBM Rational Functional Tester (RFT) - Downloads
-================================================
+# IBM Rational Functional Tester (RFT) - Downloads
 
-# Downloads
-
+To download the plug-in, click the following version-specific links.
 - [RFT-UCD-FunctionalTest-6.1.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RFT-UCD/RFT-UCD-FunctionalTest-6.1.zip)
 - [RFT-UCD-FunctionalTest-6.0.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RFT-UCD/RFT-UCD-FunctionalTest-6.0.zip)
 - [RFT-UCD-5.2.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RFT-UCD/RFT-UCD-5.2.zip)

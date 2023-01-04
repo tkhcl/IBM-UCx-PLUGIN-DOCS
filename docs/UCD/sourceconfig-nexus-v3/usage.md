@@ -1,16 +1,5 @@
 
-Nexus Repository Manager V3 - Usage
-===================================
-
-# Usage
-
-
-### Usage
-
-
-
-
-### Nexus Repository Manager V3 Plugin Usage
+# Nexus Repository Manager V3 - Usage
 
 * [NRM V3 Rest API Versions](#nrm-v3-rest-api-versions)
 * [Plugin Demonstration Video](#plugin-demonstration-video)

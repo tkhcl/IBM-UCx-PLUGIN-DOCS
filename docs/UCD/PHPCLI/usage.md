@@ -1,13 +1,5 @@
 
-IBM UrbanCode PHP CLI Tool - Usage
-==================================
-
-# Usage
-
-
-### Usage
-
-
+# IBM UrbanCode PHP CLI Tool - Usage
 
 
 ### Run an application process

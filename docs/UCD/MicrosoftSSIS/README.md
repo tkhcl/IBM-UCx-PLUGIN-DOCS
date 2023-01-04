@@ -1,6 +1,5 @@
 
-Microsoft SSIS
-==============
+# Microsoft SSIS
 
 The Microsoft SSIS plug-in provides deployment automation of packages to SQL database servers that can work alone or with other deployed packages to provide solutions to complex business needs. The testing was done using UrbanCode Deploy 6.1.0.1.
 

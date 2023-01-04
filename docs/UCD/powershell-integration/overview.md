@@ -1,8 +1,6 @@
 
 # PowerShell - Overview
 
-## Overview
-
 The PowerShell plug-in provides a step for running user-defined PowerShell scripts.
 
 To add the PowerShell plug-in steps to processes, click **Scripting > PowerShell** in the step palette of the process editor.

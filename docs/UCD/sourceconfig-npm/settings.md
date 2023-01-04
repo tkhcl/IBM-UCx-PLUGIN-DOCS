@@ -1,14 +1,5 @@
 
-NPM - Settings
-==============
-
-# Settings
-
-
-### Settings
-
-
-
+# NPM - Settings
 
 ### Process steps in the NPM plug-in
 

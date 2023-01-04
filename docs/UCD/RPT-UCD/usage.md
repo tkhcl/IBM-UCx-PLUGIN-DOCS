@@ -1,13 +1,5 @@
 
-IBM Rational Performance Tester (RPT) - Usage
-=============================================
-
-# Usage
-
-
-### Usage
-
-
+# IBM Rational Performance Tester (RPT) - Usage
 
 
 Use the Performance Tester plugin to continuously initiate the launch of tests, compound tests, and schedules from IBM UrbanCode Deploy.

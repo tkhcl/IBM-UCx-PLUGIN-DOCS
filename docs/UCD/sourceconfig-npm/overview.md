@@ -1,14 +1,5 @@
 
-NPM - Overview
-==============
-
-# Overview
-
-
-### Overview
-
-
-
+# NPM - Overview
 
 The Node Package Manager (NPM) source configuration plug-in automates the importing of NPM packages. It uses the NPM `Pack` command to import a package as a TAR file. You can then imported the TAR file into other NPM projects.
 

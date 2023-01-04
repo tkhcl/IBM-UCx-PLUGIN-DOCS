@@ -1,6 +1,5 @@
 
-Nexus Repository Manager V3
-===========================
+# Nexus Repository Manager V3
 
 Nexus is a repository manager, developed by SonaType, designed to store artifacts and cache remote repositories while providing universal package support.
 

@@ -1,14 +1,5 @@
 
-NPM - Usage
-===========
-
-# Usage
-
-
-### Usage npm
-
-
-
+# NPM - Usage
 
 Youll need to define an UrbanCode Deploy component which defines the source and processes for the NPM repository. The component contains the information for importing the artifacts and any processes to perform on the artifacts.
 

@@ -1,6 +1,5 @@
 
-IBM UrbanCode PHP CLI Tool
-==========================
+# IBM UrbanCode PHP CLI Tool
 
 The IBM Urban Code PHP CLI tool provides the following capabilities:
 

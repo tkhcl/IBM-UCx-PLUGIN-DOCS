@@ -1,6 +1,5 @@
 
-Oracle WebLogic Server Resource Management
-==========================================
+# Oracle WebLogic Server Resource Management
 
 This plug-in provides steps to support automated deployment of various WebLogic server resources, such as connection factories, quotas, templates, queues, JDBC data sources, file stores, and subdeployments.
 
@@ -15,8 +14,7 @@ Each step is self-contained. That is, connection credentials that are required t
 * This plug-in requires IBM UrbanCode Deploy version 6.0.1 or later.
 
 
-Available Steps
----------------
+### Available Steps
 
 Refer to the [documentation](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/plugin-air-WLS-Resource-Management/steps.html "Installing plug-ins in UrbanCode Deploy") for a list of available steps.
 

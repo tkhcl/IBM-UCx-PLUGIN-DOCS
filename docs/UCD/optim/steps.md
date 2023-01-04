@@ -1,16 +1,5 @@
 
-IBM InfoSphere Optim - Steps
-============================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the InfoSphere Optim plug-in
+# IBM InfoSphere Optim - Process Steps
 
 * [Convert Request](#convert_request)
 * [Extract Request](#extract_request)

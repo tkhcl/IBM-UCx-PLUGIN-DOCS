@@ -1,6 +1,5 @@
 
-NuGet
-=====
+# NuGet
 
 NuGet is an open-source package manager designed by Microsoft Corporation.
 
