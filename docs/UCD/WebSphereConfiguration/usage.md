@@ -20,16 +20,16 @@ These pages provide usage information about this plug-in:
 * [Managing WebSphere Application Server configurations](https://community.ibm.com/community/user/wasdevops/communities/community-home/recent-community-blogs?communitykey=9adfe6b6-2e23-4895-8b27-38b93b5e152c)
 * [Converting WebSphere Application Server configuration data into templates](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/25/converting-websphere-application-server-configurat?CommunityKey=9adfe6b6-2e23-4895-8b27-38b93b5e152c)
 
-* [Including Service Integration Buses](https://www.urbancode.com/resource/including-service-integration-buses/)
+* [Including Service Integration Buses](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/01/03/including-service-integration-buses)
 
-* [Comparing configurations with live WebSphere Application Server instances](https://www.urbancode.com/resource/comparing-configurations-with-live-websphere-application-server-instances/)
+* [Comparing configurations with live WebSphere Application Server instances](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/01/03/comparing-configurations-with-live-websphere-appli)
 
 * Smart Compare: [Ignoring Property objects during comparison](https://youtu.be/xeGiIKNuuX0)
 * Smart Compare: [Ignoring specific attributes during comparison](https://youtu.be/JBlTKpsP7aw)
 
-* [Automating live comparisons](https://www.urbancode.com/resource/automating-live-comparisons/)
-* [Importing specific configuration types](https://www.urbancode.com/resource/importing-specific-configuration-types/)
-* [Managing configuration information in clustered environments](https://www.urbancode.com/resource/managing-configuration-information-in-clustered-environments/)
+* [Automating live comparisons](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/01/03/automating-live-comparisons)
+* [Importing specific configuration types](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/01/03/importing-specific-configuration-types)
+* [Managing configuration information in clustered environments](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/01/04/managing-configuration-information-in-clustered-en)
 * [Migrating WebSphere Application Server versions with IBM UrbanCode Deploy](https://www.urbancode.com/resource/migrating-websphere-application-server-versions-with-ibm-urbancode-deploy/)
 
 ## Configuration Snippets
