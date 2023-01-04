@@ -1,8 +1,5 @@
-# z/OS External Artifact Repository - Steps
+# z/OS External Artifact Repository - Process Steps
 
----
-
-## Process steps in the External Artifact Repository plug-in
 
 * [Download Artifacts](#download-artifacts)
 

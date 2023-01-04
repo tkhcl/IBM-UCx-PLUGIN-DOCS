@@ -1,16 +1,5 @@
 
-IBM UrbanCode Build - Steps
-===========================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the uBuild plug-in
+# IBM UrbanCode Build - Process Steps
 
 * [Import Version](#import_version)
 

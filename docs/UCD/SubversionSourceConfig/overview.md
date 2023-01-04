@@ -1,14 +1,5 @@
 
-Subversion - Overview
-=====================
-
-# Overview
-
-
-### Overview
-
-
-
+# Subversion - Overview
 
 Subversion software offers a versioning and a revision control system distributed under a free license. It is used to maintain current and historical versions of files such as source code, web pages, and documentation.
 

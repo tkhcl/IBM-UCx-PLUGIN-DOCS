@@ -1,17 +1,8 @@
 
-IBM UrbanCode Release - Usage
-=============================
-
-# Usage
+# IBM UrbanCode Release - Usage
 
 
-### Usage
-
-
-
-
-IBM UrbanCode Release
-=====================
+### IBM UrbanCode Release
 
 * [Before you begin](#before_you_begin)
 * [Adding comments to a task](#adding-comments-task)

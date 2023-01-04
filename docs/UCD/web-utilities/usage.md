@@ -1,14 +1,5 @@
 
-Web Utilities - Usage
-=====================
-
-# Usage
-
-
-### Usage
-
-
-
+# Web Utilities - Usage
 
 Use the **Send HTTP Call** step to specify an HTTP request and send the request to a web server. You can invoke a RESTful service against a specified URL and write the results to a file. You can use RESTful service calls to integrate with any technology that has a REST-based API.
 

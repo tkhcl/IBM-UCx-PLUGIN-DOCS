@@ -1,7 +1,7 @@
 
 # z/OS Utility - Downloads
 
----
+To download the plug-in, click the following version-specific links.
 
 - [ucd-zos-deploy-74.1140702.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-74.1140702.zip)
 - [ucd-zos-deploy-74.1139650.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-74.1139650.zip)

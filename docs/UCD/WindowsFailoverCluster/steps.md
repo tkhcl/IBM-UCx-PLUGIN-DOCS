@@ -1,16 +1,6 @@
 
-Microsoft Windows Failover Clusters - Steps
-===========================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the Windows Failover Clusters plug-in
+# Microsoft Windows Failover Clusters - Process Steps
+rs plug-in
 
 * [Bring Resources Online](#bring_resources_online)
 * [Bring Services or Applications Online](#bring_services_or_applications_online)

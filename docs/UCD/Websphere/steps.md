@@ -1,7 +1,6 @@
 
 # WebSphere Application Server - Deployment - Steps
 
-## Steps
 
 Process steps in the WAS Deploy plug-in
 

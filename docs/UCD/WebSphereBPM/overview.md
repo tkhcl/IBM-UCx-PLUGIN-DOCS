@@ -1,16 +1,5 @@
 
-IBM Business Process Manager (WebSphere BPM) for IBM UrbanCode Deploy - Overview
-================================================================================
-
-# Overview
-
-
-### Overview
-
-
-
-
-### Overview
+# IBM Business Process Manager (WebSphere BPM) for IBM UrbanCode Deploy - Overview
 
 The IBM Business Process Manager plug-in includes steps that take the following actions on Business Process Manager cells:
 

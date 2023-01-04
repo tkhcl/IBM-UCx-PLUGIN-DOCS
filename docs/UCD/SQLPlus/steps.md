@@ -1,16 +1,5 @@
 
-Oracle SQLPlus - Steps
-======================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the Oracle SQL\*Plus plug-in
+# Oracle SQLPlus - Process Steps
 
 * [Run SQLPlus script](#run_sqlplus_script)
 * [SQLPlus through Control File](#sqlplus_through_control_file)

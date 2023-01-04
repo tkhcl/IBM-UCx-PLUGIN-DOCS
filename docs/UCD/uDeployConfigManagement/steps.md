@@ -1,16 +1,5 @@
 
-IBM UrbanCode Deploy Configuration Management - Steps
-=====================================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the IBM UrbanCode Deploy Configuration Management plug-in
+# IBM UrbanCode Deploy Configuration Management - Process Steps
 
 * [Batch Import Properties](#batch_import_properties)
 * [Import Properties](#import_properties)

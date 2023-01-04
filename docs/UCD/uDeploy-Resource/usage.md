@@ -1,17 +1,7 @@
 
-IBM UrbanCode Deploy Resources - Usage
-======================================
+# IBM UrbanCode Deploy Resources - Usage
 
-# Usage
-
-
-### Usage
-
-
-
-
-Create Multiple Resources
-=========================
+### Create Multiple Resources
 
 The Create Multiple Resources step provides the ability to create multiple resources using one JSON file or JSON text body. The format of this JSON body follows the IBM UrbanCode Deploy resource/create REST endpoint. The documentation for this endpoint can be found in the knowledge center: [IBM UrbanCode Deploy create/resource REST endpoint](https://www.ibm.com/support/knowledgecenter/SS4GSP_6.2.7/com.ibm.udeploy.api.doc/topics/rest_cli_resource_create_put.html)
 

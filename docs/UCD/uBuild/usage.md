@@ -1,13 +1,5 @@
 
-IBM UrbanCode uBuild - Usage
-============================
-
-# Usage
-
-
-### Usage
-
-
+# IBM UrbanCode uBuild - Usage
 
 
 Use this plug-in to download and work with uBuild life artifacts within the deploy process.

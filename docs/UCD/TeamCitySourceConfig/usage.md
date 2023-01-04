@@ -1,16 +1,7 @@
 
-TeamCity - Usage
-================
+# TeamCity - Usage
 
-# Usage
-
-
-### Usage
-
-
-
-
-Youll need to define an UrbanCode Deploy component which defines the source and processes for the Maven repository. The component contains the information for importing the artifacts and any processes to implement on the artifacts.
+You will need to define an UrbanCode Deploy component which defines the source and processes for the Maven repository. The component contains the information for importing the artifacts and any processes to implement on the artifacts.
 
 When creating the component, youll supply information described on the [Import Version](#steps) step. After the component is created, use the **Components** page in the user interface to import a version of the artifacts if automatic import is not selected.
 

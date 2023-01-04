@@ -1,14 +1,5 @@
 
-IBM UrbanCode Deploy Resources - Steps
-======================================
-
-# Steps
-
-
-### Steps
-
-
-
+# IBM UrbanCode Deploy Resources - Process Steps
 
 ### Process steps in the IBM UrbanCode Deploy Resources plug-in
 

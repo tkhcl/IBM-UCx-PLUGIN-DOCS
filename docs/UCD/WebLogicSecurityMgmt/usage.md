@@ -1,13 +1,5 @@
 
-Oracle WebLogic Server Security Management - Usage
-==================================================
-
-# Usage
-
-
-### Usage
-
-
+# Oracle WebLogic Server Security Management - Usage
 
 
 * [Before you begin](#before_you_begin)

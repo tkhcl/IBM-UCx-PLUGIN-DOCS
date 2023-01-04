@@ -1,14 +1,5 @@
 
-IBM UrbanCode Deploy Configuration Management - Overview
-========================================================
-
-# Overview
-
-
-### Overview
-
-
-
+# IBM UrbanCode Deploy Configuration Management - Overview
 
 This plug-in includes steps that install configuration templates and import properties.
 

@@ -1,15 +1,5 @@
 
-Sybase - Steps
-==============
-
-# Steps
-
-
-### Steps
-
-
-
-### Process steps in the Sybase plug-in
+# Sybase - Process Steps
 
 * [Run SQL Scripts](#run_sql_scripts)
 

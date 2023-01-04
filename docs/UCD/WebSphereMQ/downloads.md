@@ -1,9 +1,7 @@
 
-IBM-MQ - Downloads
-==================
+# IBM-MQ - Downloads
 
-# Downloads
-
+To download the plug-in, click the following version-specific links.
 - [WebSphereMQ-12.1100959.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereMQ/WebSphereMQ-12.1100959.zip)
 - [WebSphereMQ-12.1063245.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereMQ/WebSphereMQ-12.1063245.zip)
 - [WebSphereMQ-11.1056523.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereMQ/WebSphereMQ-11.1056523.zip)

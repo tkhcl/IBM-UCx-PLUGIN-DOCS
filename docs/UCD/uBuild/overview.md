@@ -1,16 +1,7 @@
 
-IBM UrbanCode uBuild - Overview
-===============================
+# IBM UrbanCode uBuild - Overview
 
-# Overview
-
-
-### Overview
-
-
-
-
-The uBuild plugin provides steps to run uBuild processes automatically within the deploy process.
+The uBuild plug-in provides steps to run uBuild processes automatically within the deploy process.
 
 This plug-in includes these steps:
 

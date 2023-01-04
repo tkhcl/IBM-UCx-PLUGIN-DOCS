@@ -1,9 +1,7 @@
 
-WebSphere Application Server - Deployment - Downloads
-=====================================================
+# WebSphere Application Server - Deployment - Downloads
 
-# Downloads
-
+To download the plug-in, click the following version-specific links.
 - [ucd-WebSphere-127.1131367.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/ucd-WebSphere-127.1131367.zip)
 - [WAS-Deploy-126.1100956.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-126.1100956.zip)
 - [WAS-Deploy-126.1074081.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-126.1074081.zip)

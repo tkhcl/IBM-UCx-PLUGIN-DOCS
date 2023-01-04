@@ -1,9 +1,7 @@
 
-IBM UrbanCode Deploy System - Downloads
-=======================================
+# IBM UrbanCode Deploy System - Downloads
 
-# Downloads
-
+To download the plug-in, click the following version-specific links.
 - [uDeploy-System-65.1102020.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-System/uDeploy-System-65.1102020.zip)
 - [uDeploy-System-65.1026774.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-System/uDeploy-System-65.1026774.zip)
 - [uDeploy-System-64.974584.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-System/uDeploy-System-64.974584.zip)

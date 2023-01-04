@@ -1,16 +1,5 @@
 
-IBM WebSphere Service Registry and Repository - Steps
-=====================================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the WebSphere Service Registry And Repository plug-in
+# IBM WebSphere Service Registry and Repository - Process Steps
 
 * [Activate Configuration Profile](#activate_configuration_profile)
 * [Delete Configuration Profile](#delete_configuration_profile)

@@ -1,16 +1,5 @@
 
-Oracle SQLPlus - Overview
-=========================
-
-# Overview
-
-
-### Overview
-
-
-
-
-### Overview
+# Oracle SQLPlus - Overview
 
 The Oracle SQL\*Plus plug-in includes steps that run SQL scripts during deployment.
 

@@ -1,7 +1,5 @@
 
-IBM UrbanCode Deploy Components
-===============================
-
+# IBM UrbanCode Deploy Components
 
 uDeploy is Urbancode’s application release automation tool. For more information, see [UrbanCode Deploy](https://www.ibm.com/cloud/urbancode)
 
@@ -15,18 +13,17 @@ Component for creating and managing IBM UrbanCode Deploy components.
 * Starting with plug-in version 71, UrbanCode Deploy version 6.2.7.1 or greater is required. Follow the “Download Past Plug-in Versions” button to find plug-ins compatible with older versions of UrbanCode Deploy.
 
 
-Available Steps
----------------
+### Available Steps
 
-Add Component To TeamAdds a component to a team for a given type classification.
+Add Component To Team: Adds a component to a team for a given type classification.
 
-Check If Component ExistsThis step will succeed if the component exists and fail if it doesn’t.
+Check If Component Exists: This step will succeed if the component exists and fail if it doesn’t.
 
-Create ComponentCreates a new component.
+Create Component: Creates a new component.
 
-Create Component PropertyCreates or sets an existing component property.
+Create Component Property: Creates or sets an existing component property.
 
-Delete ComponentDeletes a component.
+Delete Component: Deletes a component.
 
 
 

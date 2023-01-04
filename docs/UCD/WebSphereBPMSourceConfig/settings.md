@@ -1,14 +1,5 @@
 
-IBM Business Process Manager (WebSphere BPM) - Settings
-=======================================================
-
-# Settings
-
-
-### Settings
-
-
-
+# IBM Business Process Manager (WebSphere BPM) - Settings
 
 ### Process properties in the WebSphere BPM plug-in
 

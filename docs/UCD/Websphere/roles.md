@@ -1,8 +1,6 @@
 
 # WebSphere Application Server - Deployment - Roles
 
-## Roles
-
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
 
 - [WebSphere Application Server - Deployment - Roles](#websphere-application-server---deployment---roles)

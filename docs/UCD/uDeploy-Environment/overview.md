@@ -1,13 +1,5 @@
 
-IBM UrbanCode Deploy Environments - Overview
-============================================
-
-# Overview
-
-
-### Overview
-
-
+# IBM UrbanCode Deploy Environments - Overview
 
 
 This plug-in includes steps that create and manage environments on the IBM UrbanCode Deploy server.
@@ -30,7 +22,7 @@ RFE 121148 Removed isSecure property from Set Component Environment Property to 
 
 #### Version 78
 
-Plugin name changed.
+Plug-in name changed.
 
 #### Version 77
 

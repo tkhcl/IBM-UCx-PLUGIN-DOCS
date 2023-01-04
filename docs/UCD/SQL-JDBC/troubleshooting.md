@@ -1,6 +1,5 @@
 
-SQL-JDBC - Troubleshooting
-==========================
+# SQL-JDBC - Troubleshooting
 
 * [Deploying Stored Procedures from UCD](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/SQL-JDBC/troubleshooting.html)
 

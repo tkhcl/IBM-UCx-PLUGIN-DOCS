@@ -1,14 +1,12 @@
 
-IBM WebSphere Portal
-====================
+# IBM WebSphere Portal
 
 WebSphere Portal is a framework that includes a runtime server, services, tools, and other features. WebSphere Portal is used to integrate enterprises into a single, customizable interface called a portal. An enterprise portal combines components, applications, processes, and content from a wide variety of sources into a unified presentation, which users can access from a wide variety of devices.
 
 The WebSphere Portal plug-in deploys WebSphere Portal artifacts such as themes, skins, portlets, and Portal Application Archive files.
 
 
-Available Steps
----------------
+### Available Steps
 
 Deploy Portal WARDeploys a WAR on a WebSphere Portal Server
 

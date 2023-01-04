@@ -1,16 +1,5 @@
 
-IBM UrbanCode Deploy Environments - Steps
-=========================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the UrbanCode Deploy Environments plug-in
+# IBM UrbanCode Deploy Environments - Process Steps
 
 * [Add Base Resource To Environment](#add_base_resource_to_environment)
 * [Add Environment To Team](#add_environment_to_team)

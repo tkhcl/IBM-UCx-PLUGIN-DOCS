@@ -1,15 +1,12 @@
 
-z/OS FTP Utility - Steps
-========================
+# z/OS FTP Utility - Steps
 
-Process steps in the zOS FTP Utility plug-in
---------------------------------------------
+### Process steps in the zOS FTP Utility plug-in
 
 * [FTP Artifacts](#ftp-artifacts)
 
 
-FTP Artifacts
--------------
+# FTP Artifacts
 
 Load artifacts from a remote repository using FTP.
 

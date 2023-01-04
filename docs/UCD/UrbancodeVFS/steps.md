@@ -1,16 +1,5 @@
 
-IBM UrbanCode Deploy Versioned File Storage - Steps
-===================================================
-
-# Steps
-
-
-### Steps
-
-
-
-Process steps in the UrbanCode Deploy Versioned File Storage plug-in
---------------------------------------------------------------------
+# IBM UrbanCode Deploy Versioned File Storage - Process Steps
 
 * [Download Artifacts](#download-artifacts)
 * [Download Artifacts for zOS](#download-artifacts-for-zos)
@@ -20,8 +9,7 @@ Process steps in the UrbanCode Deploy Versioned File Storage plug-in
 * [Compare version Artifacts for zOS](#compare-version-artifacts-for-zos)
 
 
-Download Artifacts
-------------------
+### Download Artifacts
 
 Download artifacts from a VFS server.
 
@@ -41,8 +29,7 @@ Download artifacts from a VFS server.
 
 
 
-Compare version Artifacts for zOS
----------------------------------
+### Compare version Artifacts for zOS
 
 Compare two zOS version artifacts with new package format
 
@@ -55,8 +42,7 @@ Compare two zOS version artifacts with new package format
 
 
 
-Download Artifacts for zOS
---------------------------
+### Download Artifacts for zOS
 
 Download zOS component artifacts from a VFS server.
 
@@ -67,8 +53,7 @@ Download zOS component artifacts from a VFS server.
 
 
 
-Sync Artifacts
---------------
+### Sync Artifacts
 
 Compare local artifacts with the artifacts expected to be on the resource according to its inventory, and remediate any differences.
 
@@ -83,8 +68,7 @@ Compare local artifacts with the artifacts expected to be on the resource accord
 
 
 
-Upload Artifacts
-----------------
+### Upload Artifacts
 
 Upload artifacts to a VFS server.
 
@@ -99,8 +83,7 @@ Upload artifacts to a VFS server.
 
 
 
-Verify Local Artifacts
-----------------------
+### Verify Local Artifacts
 
 Compare artifacts on local machine with inventory.
 

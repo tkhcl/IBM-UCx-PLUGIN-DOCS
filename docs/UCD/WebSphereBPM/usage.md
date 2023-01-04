@@ -1,14 +1,5 @@
 
-IBM Business Process Manager (WebSphere BPM) for IBM UrbanCode Deploy - Usage
-=============================================================================
-
-# Usage
-
-
-### Usage
-
-
-
+# IBM Business Process Manager (WebSphere BPM) for IBM UrbanCode Deploy - Usage
 
 * [Deploying to an offline Process Server](https://www.urbancode.com/plugindoc/ibmucd/websphere-bpm/1-2/usage/deployments-offline-process-server/)
 * [Deploying to an online Process Server](https://www.urbancode.com/plugindoc/ibmucd/websphere-bpm/1-2/usage/deployments-online-process-server/)
@@ -16,9 +7,6 @@ IBM Business Process Manager (WebSphere BPM) for IBM UrbanCode Deploy - Usage
 * [Continuous Integration with UrbanCode Deploy and IBM Business Process Server](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/20/bpserver): Sample deployment architecture and process using IBM WebSphere Application Server (WAS), Business Process Manager (BPM), and Rational Team Concert (RTC).
 
 ### Deploying to an offline Process Server
-
-
-
 
 1. To deploy a process application snapshot to an offline Process Server, create a resource that represents the Process Center, and then define the following properties for the resource:
 * **profile.root.directory**: The profile root directory of the managed node running the Process Center application. For example, /opt/IBM/BPM/profiles/processCenterNode01.

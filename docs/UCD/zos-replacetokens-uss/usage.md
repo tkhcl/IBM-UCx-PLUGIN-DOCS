@@ -1,6 +1,5 @@
 
-z/OS USS Utility - Usage
-========================
+# z/OS USS Utility - Usage
 
 The z/OS USS plug-in contains the following step:
 

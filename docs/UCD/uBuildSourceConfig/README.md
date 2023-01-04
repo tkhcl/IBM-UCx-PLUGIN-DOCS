@@ -1,6 +1,5 @@
 
-IBM UrbanCode Build
-===================
+# IBM UrbanCode Build
 
 Get artifacts from IBM UrbanCode Build.
 

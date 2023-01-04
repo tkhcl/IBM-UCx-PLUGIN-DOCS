@@ -1,16 +1,6 @@
 
-IBM UrbanCode Deploy Process - Steps
-====================================
+# IBM UrbanCode Deploy Process - Process Steps
 
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the IBM UrbanCode Deploy Processes plug-in
 
 * [Set Link on Process Request](#set_link_on_process_request)
 * [Set Process Request Property](#set_process_request_property)

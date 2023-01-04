@@ -1,6 +1,6 @@
 # z/OS External Artifact Repository - Downloads
 
----
+To download the plug-in, click the following version-specific links.
 
 - [ucd-ExtArtRepo-9.1140093.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ucd-ExtArtRepo-9.1140093.zip)
 - [ExtArtRepo-8.1101664.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ExtArtRepo-8.1101664.zip)

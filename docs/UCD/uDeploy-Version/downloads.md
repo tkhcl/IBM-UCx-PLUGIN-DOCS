@@ -1,9 +1,7 @@
 
-IBM UrbanCode Deploy Versions - Downloads
-=========================================
+# IBM UrbanCode Deploy Versions - Downloads
 
-# Downloads
-
+To download the plug-in, click the following version-specific links.
 - [ucd-uDeploy-Version-71.1132358.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Version/ucd-uDeploy-Version-71.1132358.zip)
 - [ucd-uDeploy-Version-70.1131559.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Version/ucd-uDeploy-Version-70.1131559.zip)
 - [ucd-uDeploy-Version-69.1128768.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Version/ucd-uDeploy-Version-69.1128768.zip)

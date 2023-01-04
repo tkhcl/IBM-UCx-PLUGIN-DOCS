@@ -1,16 +1,5 @@
 
-Microsoft Windows System Tools - Steps
-======================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the Windows System Tools plug-in
+# Microsoft Windows System Tools - Process Steps
 
 * [Add Or Overwrite Registry Key](#add_or_overwrite_registry_key)
 * [Check File Contents](#check_file_contents)

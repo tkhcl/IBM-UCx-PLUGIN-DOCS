@@ -1,16 +1,5 @@
 
-IBM WebSphere Commerce - Overview
-=================================
-
-# Overview
-
-
-### Overview
-
-
-
-
-### Overview
+# IBM WebSphere Commerce - Overview
 
 The WebSphere Commerce plug-in includes steps to install, configure, and deploy a server deployment package to a WebSphere Commerce server on a WebSphere Commerce cell.
 
