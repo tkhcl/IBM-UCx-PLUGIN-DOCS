@@ -1,16 +1,5 @@
 
-JBoss Application Server - Steps
-================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the JBoss plug-in
+# JBoss Application Server - Process Steps
 
 * [Add Data Source](#add_data_source)
 * [Add JMS Connection Factory](#add_jms_connection_factory)

@@ -1,12 +1,5 @@
 
-Mulesoft - Overview
-===================
-
-# Overview
-
-
-### Overview
-
+# Mulesoft - Overview
 
 Use the MuleSoft plug-in to automate the deployment of MuleSoft applications to CloudHub. CloudHub is a cloud-based integration platform as a service (iPaaS) that can be used to deploy cross-cloud integration applications in the cloud.
 

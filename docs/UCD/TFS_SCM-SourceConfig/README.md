@@ -1,6 +1,5 @@
 
-Microsoft TFS_SCM (Team Foundation Server)
-==========================================
+# Microsoft TFS_SCM (Team Foundation Server)
 
 The Microsoft TFS\_SCM plug-in imports version artifacts from a Team Foundation Server (TFS) server. TFS is supported both as a source of builds with the [TFS plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/TFS-SourceConfig/), and by direct retrieval of deployable artifacts from source control.
 

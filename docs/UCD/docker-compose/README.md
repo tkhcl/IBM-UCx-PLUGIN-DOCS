@@ -1,6 +1,5 @@
 
-Docker Compose
-==============
+# Docker Compose
 
 The Docker Compose plug-in for IBM UrbanCode Deploy automates deployment and resource creation for services.
 

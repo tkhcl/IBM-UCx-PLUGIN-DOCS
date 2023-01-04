@@ -1,9 +1,7 @@
 
-WebSphere Application Server - Configure - Downloads
-====================================================
+# WebSphere Application Server - Configure - Downloads
 
-# Downloads
-
+To download the plug-in, click the following version-specific links.
 - [WebSphereConfiguration-91.1114389.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/WebSphereConfiguration-91.1114389.zip)
 - [WAS-Configure-90.1061625.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/WAS-Configure-90.1061625.zip)
 - [WAS-Configure-89.1037710.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/WAS-Configure-89.1037710.zip)

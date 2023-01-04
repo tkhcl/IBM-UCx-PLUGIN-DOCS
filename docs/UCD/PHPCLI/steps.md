@@ -1,14 +1,5 @@
 
-IBM UrbanCode PHP CLI Tool - Steps
-==================================
-
-# Steps
-
-
-### Steps
-
-
-
+# IBM UrbanCode PHP CLI Tool - Steps
 
 **Run UrbanCode PHP CLI .php**
 

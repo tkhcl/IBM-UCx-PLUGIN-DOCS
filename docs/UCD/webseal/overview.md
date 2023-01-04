@@ -1,14 +1,5 @@
 
-IBM Security Access Manager (WebSEAL) - Overview
-================================================
-
-# Overview
-
-
-### Overview
-
-
-
+# IBM Security Access Manager (WebSEAL) - Overview
 
 The IBM Security Access Manager (WebSEAL) plug-in includes a step to update a configuration entry for a Reverse Proxy. This plug-in communicates via IBM Security Access Manager REST API.
 

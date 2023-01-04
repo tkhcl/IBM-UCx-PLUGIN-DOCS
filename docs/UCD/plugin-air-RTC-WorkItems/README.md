@@ -1,12 +1,10 @@
 
-IBM Rational Team Concert Work Items
-====================================
+# IBM Rational Team Concert Work Items
 
 The RTC Work Items plugin provides steps for the build to comment and change the status of work items found in RTC.
 
 
-Available Steps
----------------
+### Available Steps
 
 Add Work Item Comments Add Comments to an RTC Work Item
 

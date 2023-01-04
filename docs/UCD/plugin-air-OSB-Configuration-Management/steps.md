@@ -1,15 +1,5 @@
 
-Oracle Service Bus Configuration Management - Steps
-===================================================
-
-# Steps
-
-
-### Steps
-
-
-
-### Process steps in the OSB Management plug-in
+### Oracle Service Bus Configuration Management - Process Steps
 
 * [Apply Customization](#apply_customization)
 * [Import Configuration](#import_configuration)

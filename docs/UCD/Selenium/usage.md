@@ -1,14 +1,5 @@
 
-Selenium - Usage
-================
-
-# Usage
-
-
-### Usage
-
-
-
+# Selenium - Usage
 
 ### **Summary**
 

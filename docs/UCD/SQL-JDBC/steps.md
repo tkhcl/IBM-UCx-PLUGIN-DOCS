@@ -1,8 +1,5 @@
 
-SQL-JDBC - Steps
-================
-
-### Process steps in the SQL-JDBC plug-in
+# SQL-JDBC - Process Steps
 
 * [Execute SQL Scripts](#execute-sql-scripts)
 * [Execute SQL Scripts with PassTicket Authentication](#execute-sql-scripts-with-passticket-authentication)

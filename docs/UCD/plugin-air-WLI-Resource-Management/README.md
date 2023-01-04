@@ -1,6 +1,5 @@
 
-Oracle WebLogic Integration Resource Management
-===============================================
+# Oracle WebLogic Integration Resource Management
 
 The WebLogic Integration Resource Management plug-in includes steps that allow you to create, update, and delete WebLogic Integration objects.
 
@@ -12,32 +11,31 @@ This plug-in allows you to automate the creation, update, and deletion of object
 * XML cache entry
 
 
-Available Steps
----------------
+### Available Steps
 
-Create FTP EGCreates an FTP Event Generator on WLI.
+Create FTP EG: Creates an FTP Event Generator on WLI.
 
-Create File EGCreates a File Event Generator on WLI.
+Create File EG: Creates a File Event Generator on WLI.
 
-Create JMS EGCreates a JMS Event Generator on WLI.
+Create JMS EG: Creates a JMS Event Generator on WLI.
 
-Create XML Cashe EntryCreates an Entry in the XML Cache.
+Create XML Cashe Entry: Creates an Entry in the XML Cache.
 
-Delete FTP EGDeletes an FTP EG on WLI.
+Delete FTP EG: Deletes an FTP EG on WLI.
 
-Delete File EGDelete a File Event Generator on WLI.
+Delete File EG: Delete a File Event Generator on WLI.
 
-Delete JMS EGDelete a JMS EG on WLI.
+Delete JMS EG: Delete a JMS EG on WLI.
 
-Delete XML Cache EntryDelete an Entry in the XML Cache
+Delete XML Cache Entry: Delete an Entry in the XML Cache
 
-Update FTP EGUpdate an FTP Event Generator on WLI.
+Update FTP EG: Update an FTP Event Generator on WLI.
 
-Update File EGUpdates a File Event Generator on WLI.
+Update File EG: Updates a File Event Generator on WLI.
 
-Update JMS EGUpdate an JMS EG on WLI.
+Update JMS EG: Update an JMS EG on WLI.
 
-Update XML Cache EntryUpdate an Entry in the XML Cache
+Update XML Cache Entry: Update an Entry in the XML Cache
 
 
 

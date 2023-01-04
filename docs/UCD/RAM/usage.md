@@ -1,14 +1,5 @@
 
-IBM Rational Asset Manager - Usage
-==================================
-
-# Usage
-
-
-### Usage
-
-
-
+# IBM Rational Asset Manager - Usage
 
 * [Before you begin](#before_you_begin)
 * [Deploying an application and running Selenium test](#example1)

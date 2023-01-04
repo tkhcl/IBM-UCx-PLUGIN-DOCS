@@ -1,6 +1,5 @@
 
-IBM Installation Manager
-========================
+# IBM Installation Manager
 
 
 IBM Installation Manager is a tool that you can use to install and maintain IBM software packages. Wizards guide you through the steps to install, modify, update, roll back, or uninstall IBM products. Use Installation Manager to install individual software packages on your local computer, or in conjunction with the IBM Packaging Utility to install software for an enterprise scenario. See the [IBM Installation Manager product help](http://www.ibm.com/support/knowledgecenter/SSDV2W/) to review feature details for all versions of Installation Manager and Packaging Utility.
@@ -19,8 +18,7 @@ This plug-in is developed and supported by IBM UrbanCode with assistance from th
 * [Source project](https://github.com/IBM-UrbanCode/IBM-Installation-Manager-UCD)
 
 
-Available Steps
----------------
+### Available Steps
 
 Execute Response FileExecute a response file using IBM Installation Manager.
 

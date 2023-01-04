@@ -1,16 +1,5 @@
 
-IBM UrbanCode Deploy General Utilites - Steps
-=============================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the General Utilities plug-in
+# IBM UrbanCode Deploy General Utilites - Process Steps
 
 * [Wait](#wait)
 

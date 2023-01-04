@@ -1,15 +1,13 @@
 
-z/OS Shell - Steps
-==================
+# z/OS Shell - Steps
 
-Process steps in the Java Shell plug-in
----------------------------------------
+### Process steps in the Java Shell plug-in
 
 * [Shell](#shell)
 
 
-Shell
------
+### Shell
+
 
 This step runs a shell or batch script.
 

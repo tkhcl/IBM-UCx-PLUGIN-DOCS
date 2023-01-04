@@ -1,14 +1,5 @@
 
-IBM UrbanCode Deploy System - Overview
-======================================
-
-# Overview
-
-
-### Overview
-
-
-
+# IBM UrbanCode Deploy System - Overview
 
 The IBM UrbanCode Deploy System plug-in includes steps that manage IBM UrbanCode Deploy system properties and global settings.
 

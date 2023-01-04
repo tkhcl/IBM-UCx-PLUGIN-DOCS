@@ -1,16 +1,5 @@
 
-WinRS Agent Install - Steps
-===========================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the WinRS Agent Install plug-in
+# WinRS Agent Install - Process Steps
 
 * [WinRS Agent Install](#winrs_agent_install)
 

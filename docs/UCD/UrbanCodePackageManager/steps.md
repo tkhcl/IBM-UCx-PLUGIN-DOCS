@@ -1,16 +1,5 @@
 
-IBM UrbanCode Package Manager - Steps
-=====================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the UrbanCode Package Manager plug-in
+# IBM UrbanCode Package Manager - Process Steps
 
 * [Create Package](#create_package)
 * [Install Package](#install_package)

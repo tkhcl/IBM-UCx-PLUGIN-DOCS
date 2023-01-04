@@ -1,14 +1,5 @@
 
-MicroFocus ALM (formerly HP Quality Center) - Overview
-======================================================
-
-# Overview
-
-
-### Overview
-
-
-
+# MicroFocus ALM (formerly HP Quality Center) - Overview
 
 The HP Quality Center plug-in automates the creation and deletion of issues in the HP Quality Center. The plug-in also contains steps to run test sets and publish test reports.
 

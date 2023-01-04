@@ -1,16 +1,5 @@
 
-Nexus - Steps
-=============
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the Nexus plug-in
+# Nexus - Process Steps
 
 * [Download NuGet package](#download_nuget_package)
 

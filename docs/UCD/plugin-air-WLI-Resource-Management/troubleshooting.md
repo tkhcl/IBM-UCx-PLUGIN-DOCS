@@ -1,14 +1,5 @@
 
-Oracle WebLogic Integration Resource Management - Troubleshooting
-=================================================================
-
-# Troubleshooting
-
-
-### Troubleshooting
-
-
-
+# Oracle WebLogic Integration Resource Management - Troubleshooting
 
 If you experience one of the following problems whenyou use the plug-in, check the associated tip for resolving the issue.
 

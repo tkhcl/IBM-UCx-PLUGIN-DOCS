@@ -1,8 +1,6 @@
 
 # Microsoft IIS - Configure - Overview
 
-## Overview
-
 The IISConfigure plug-in includes steps to discover IIS configurations, and to apply configurations and applications to IIS instances. To learn more about the IISConfigure plug-in, watch the [tutorial video](https://www.youtube.com/embed/XaJbWQQMRR0).
 
 To add the IISConfigure plug-in steps to processes, click **IISConfiguration > Discovery** in the step palette of the process editor.

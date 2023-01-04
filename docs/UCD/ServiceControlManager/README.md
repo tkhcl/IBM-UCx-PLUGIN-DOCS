@@ -1,14 +1,12 @@
 
-Microsoft Windows Services
-==========================
+# Microsoft Windows Services
 
-This plugin manipulates Windows Services. On Microsoft Windows operating systems, a Windows service is a long-running executable that performs specific functions and which is designed not to require user intervention. Windows services can be configured to start when the operating system is booted and run in the background as long as Windows is running, or they can be started manually when required. This plugin makes this easy.
+This plug-in manipulates Windows Services. On Microsoft Windows operating systems, a Windows service is a long-running executable that performs specific functions and which is designed not to require user intervention. Windows services can be configured to start when the operating system is booted and run in the background as long as Windows is running, or they can be started manually when required. This plug-in makes this easy.
 
-The Service Control Manager plugin is an automation based plugin. It is used during the deployment to automate Windows Services.
+The Service Control Manager plug-in is an automation based plugin. It is used during the deployment to automate Windows Services.
 
 
-Available Steps
----------------
+### Available Steps
 
 **Check If Service Exists:** Checks to see if one or more windows services exists.
 

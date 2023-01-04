@@ -1,16 +1,5 @@
 
-Microsoft SSIS - Steps
-======================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the Microsoft SSIS plug-in
+# Microsoft SSIS - Process Steps
 
 * [Deploy](#deploy)
 

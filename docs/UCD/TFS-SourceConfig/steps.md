@@ -1,16 +1,5 @@
 
-Microsoft TFS (Team Foundation Server) - Steps
-==============================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the Team Foundation Server (TFS) plug-in
+# Microsoft TFS (Team Foundation Server) - Process Steps
 
 * [Import Version](#import_version)
 

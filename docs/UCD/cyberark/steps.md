@@ -1,16 +1,5 @@
 
-CyberArk - Steps
-================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the CyberArk plug-in
+# CyberArk - Process Steps
 
 * [Authenticate Conjur](#authenticate_conjur)
 * [Get Password from CCP (Web Service)](#get_password_from_ccp_(web_service))

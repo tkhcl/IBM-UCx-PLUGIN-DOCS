@@ -1,13 +1,5 @@
 
-Informatica - Usage
-===================
-
-# Usage
-
-
-### Usage
-
-
+# Informatica - Usage
 
 
 ### Importing objects via XML

@@ -1,16 +1,5 @@
 
-IBM UrbanCode DBUpgrader - Steps
-================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the DBUpgrader plug-in
+# IBM UrbanCode DBUpgrader - Process Steps
 
 * [Rollback DB](#rollback_db)
 * [Upgrade DB](#upgrade_db)

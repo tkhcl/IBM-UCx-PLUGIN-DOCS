@@ -1,6 +1,5 @@
 
-IBM WebSphere Service Registry and Repository
-=============================================
+# IBM WebSphere Service Registry and Repository
 
 This WSRR (WebSphere Service Registry and Repository) plug-in enables you to do the following:
 
@@ -20,7 +19,7 @@ The following steps provide and overview of the process you follow
 * Define components, applications, and environments to automate deployment.
 * Deploy.
 
-Refer to plugin documentation for system requirements and a complete list of steps available.
+Refer to plug-in documentation for system requirements and a complete list of steps available.
 
 
 |Back to ...||Latest Version|||||

@@ -1,12 +1,5 @@
 
-Maven Resolve - Usage
-=====================
-
-# Usage
-
-
-### Usage
-
+# Maven Resolve - Usage
 
 
 The format that is required by the Artifacts field in the [Maven Resolve](#maven_resolve "Maven Resolve step") step is groupId/artifactId/version/filename. The default value of the Artifacts field is ``${p:component/MavenComponentProperties/groupId}``/``${p:component/MavenComponentProperties/artifactId}``/``${p:version.name}``/``${p:component/MavenComponentProperties/artifactId}``-``${p:version.name}``.``${p:component/MavenComponentProperties/extension}``.

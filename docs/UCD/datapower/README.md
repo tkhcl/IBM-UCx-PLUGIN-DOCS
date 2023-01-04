@@ -1,6 +1,5 @@
 
-IBM DataPower Configuration Manager
-===================================
+# IBM DataPower Configuration Manager
 
 The IBM UrbanCode Deploy plugin for DataPower Configuration Manager provides the ability to automate updates to DataPower configuration as part of the software delivery process. Configuration information is stored in DataPower export files, which contain the “golden” version of services or objects, along with simple XML files that define the changes necessary for each service in each environment. These XML files can be created or modified using an XML editor. The plugin also allows easy upload of files, including keys and certificates, as well as easy customization of validation credential objects and load balancer groups, among others.
 

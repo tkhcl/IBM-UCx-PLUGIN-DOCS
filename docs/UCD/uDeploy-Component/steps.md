@@ -1,16 +1,5 @@
 
-IBM UrbanCode Deploy Components - Steps
-=======================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the IBM UrbanCode Deploy Components plug-in
+# IBM UrbanCode Deploy Components - Process Steps
 
 * [Add Component To Team](#add_component_to_team)
 * [Check If Component Exists](#check_if_component_exists)

@@ -1,9 +1,6 @@
 
-# Microsoft IIS - Configure - Steps
+# Microsoft IIS - Configure - Process Steps
 
-## Steps
-
-### Process steps in the IISConfigure plug-in
 
 - [Microsoft IIS - Configure - Steps](#microsoft-iis---configure---steps)
   - [Steps](#steps)

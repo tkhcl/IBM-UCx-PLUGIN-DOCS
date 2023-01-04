@@ -1,16 +1,5 @@
 
-Microsoft Windows Services - Steps
-==================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the Service Control Manager plug-in
+# Microsoft Windows Services - Process Steps
 
 * [Check If Service Exists](#check_if_service_exists)
 * [Check Service Status](#check_service_status)

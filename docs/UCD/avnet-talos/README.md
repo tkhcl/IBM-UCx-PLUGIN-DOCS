@@ -1,6 +1,5 @@
 
-Avnet Talos
-===========
+# Avnet Talos
 
 Talos is a middleware configuration automation tool that integrates with a variety of cloud providers as well as IBM UrbanCode Deploy and is intended to automate configuration changes and application deployments across both commercial and open source middleware platforms and appliances eliminating the need to write custom scripts for each type of middleware.
 

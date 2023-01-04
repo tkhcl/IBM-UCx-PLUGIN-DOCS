@@ -1,13 +1,5 @@
 
-IBM Rational Functional Tester (RFT) - Overview
-===============================================
-
-# Overview
-
-
-### Overview
-
-
+# IBM Rational Functional Tester (RFT) - Overview
 
 
 IBM Rational Functional Tester offers automated capabilities for functional, regression, GUI, and data-driven testing. The IBM UrbanCode Deploy plug-in for Rational Functional Tester includes process steps for running functional test scripts remotely on UrbanCode Deploy agent computers. Rational Functional Tester integration with UrbanCode Deploy is only supported for Java Scripting and Simplified Scripting on Windows computers in the Eclipse IDE. Test scripts recorded in the Visual Studio IDE are not supported.

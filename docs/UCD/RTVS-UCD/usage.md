@@ -1,14 +1,5 @@
 
-IBM Rational Test Virtualization Server (RTVS) - Usage
-======================================================
-
-# Usage
-
-
-### Usage
-
-
-
+# IBM Rational Test Virtualization Server (RTVS) - Usage
 
 Use the Service Virtualization plug-in to automate the virtualization of services from IBM UrbanCode Deploy.
 

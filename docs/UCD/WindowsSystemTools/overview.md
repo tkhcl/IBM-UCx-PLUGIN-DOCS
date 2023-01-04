@@ -1,16 +1,5 @@
 
-Microsoft Windows System Tools - Overview
-=========================================
-
-# Overview
-
-
-### Overview
-
-
-
-
-### Overview
+# Microsoft Windows System Tools - Overview
 
 Use the Windows System Tools plug-in to automate various Windows system tasks as part of the deployment process.
 

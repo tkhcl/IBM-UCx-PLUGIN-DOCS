@@ -1,6 +1,5 @@
 
-IBM Integration Bus (formerly WebSphere Message Broker) - CMP
-=============================================================
+# IBM Integration Bus (formerly WebSphere Message Broker) - CMP
 
 IBM Integration Bus, from the WebSphere product family, enables business information to flow between disparate applications across multiple hardware and software platforms. The plug-in includes steps that can be used when designing a component process to deploy broker archives and to start, stop or delete message flows by using the IBM Integration API. For information on usage, including a sample of how to install IBM Integration Bus using IBM UrbanCode Deploy, see [How to automate IBM Integration Bus installation and deployments using IBM UrbanCode Deploy and Chef](https://www.urbancode.com/resource/how-to-automate-ibm-integration-bus-installation-and-deployments-using-ibm-urbancode-deploy-and-chef/).
 

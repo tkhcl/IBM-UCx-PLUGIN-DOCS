@@ -1,16 +1,5 @@
 
-Shell - Steps
-=============
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the Shell plug-in
+# Shell - Process Steps
 
 * [Shell](#shell)
 * [Shell (with xargs)](#shell_(with_xargs))

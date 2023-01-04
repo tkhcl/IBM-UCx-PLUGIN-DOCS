@@ -1,9 +1,6 @@
 
-z/OS USS Utility - Steps
-========================
+# z/OS USS Utility - Process Steps
 
-Process steps in the Replace Token USS plug-in
-----------------------------------------------
 
 * [Replace Tokens USS](#replace-tokens-uss)
 

@@ -1,16 +1,5 @@
 
-IBM UrbanCode Deploy Applications - Steps
-=========================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the IBM UrbanCode Deploy Applications plug-in
+# IBM UrbanCode Deploy Applications - Process Steps
 
 * [Add Application To Team](#add_application_to_team)
 * [Add Component To Application](#add_component_to_application)

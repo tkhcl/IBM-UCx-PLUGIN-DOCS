@@ -1,14 +1,5 @@
 
-Microsoft TFS_SCM (Team Foundation Server) - Usage
-==================================================
-
-# Usage
-
-
-### Usage
-
-
-
+# Microsoft TFS_SCM (Team Foundation Server) - Usage
 
 ### Summary
 

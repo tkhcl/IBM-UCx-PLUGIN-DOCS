@@ -1,9 +1,5 @@
 
-# z/OS Utility - Steps
-
----
-
-### Process steps in the zOS Utility plug-in
+# z/OS Utility - Process Steps
 
 * [Allocate Data Set](#allocate-data-set)
 * [Allocate Data Set From Existing](#allocate-data-set-from-existing)

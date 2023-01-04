@@ -1,16 +1,5 @@
 
-Selenium - Steps
-================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the Selenium plug-in
+# Selenium - Process Steps
 
 * [Run Test Suite](#run_test_suite)
 

@@ -1,14 +1,5 @@
 
-TeamCity - Overview
-===================
-
-# Overview
-
-
-### Overview
-
-
-
+# TeamCity - Overview
 
 TeamCity is a build management and continuous integration server from JetBrains.
 

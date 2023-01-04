@@ -1,14 +1,5 @@
 
-IBM Integration Bus (formerly WebSphere Message Broker) - CMP - Usage
-=====================================================================
-
-# Usage
-
-
-### Usage
-
-
-
+# IBM Integration Bus (formerly WebSphere Message Broker) - CMP - Usage
 
 ### IIB Integration With UrbanCode Deploy
 

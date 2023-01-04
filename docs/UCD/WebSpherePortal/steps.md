@@ -1,16 +1,5 @@
 
-IBM WebSphere Portal - Steps
-============================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the WebSphere Portal plug-in
+# IBM WebSphere Portal - Process Steps
 
 * [Deploy Portal WAR](#deploy_portal_war)
 * [Deploy Theme](#deploy_theme)

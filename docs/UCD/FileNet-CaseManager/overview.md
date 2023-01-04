@@ -1,13 +1,5 @@
 
-FileNet - IBM Case Manager - Overview
-=====================================
-
-# Overview
-
-
-### Overview
-
-
+# FileNet - IBM Case Manager - Overview
 
 
 The FileNetIBM Case Manager automation plug-in includes steps to complete the following tasks:

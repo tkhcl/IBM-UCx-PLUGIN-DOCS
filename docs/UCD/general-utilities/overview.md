@@ -1,13 +1,5 @@
 
-IBM UrbanCode Deploy General Utilites - Overview
-================================================
-
-# Overview
-
-
-### Overview
-
-
+# IBM UrbanCode Deploy General Utilites - Overview
 
 
 The General Utilities plugin automates a number of general utilities as a process step. This plug-in is installed as part of IBM UrbanCode Deploy.

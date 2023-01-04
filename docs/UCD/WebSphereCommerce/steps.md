@@ -1,16 +1,5 @@
 
-IBM WebSphere Commerce - Steps
-==============================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the WebSphere Commerce plug-in
+# IBM WebSphere Commerce - Process Steps
 
 * [Configure server deployment settings (Deprecated)](#configure_server_deployment_settings_(deprecated))
 * [Install server deployment package (Deprecated)](#install_server_deployment_package_(deprecated))

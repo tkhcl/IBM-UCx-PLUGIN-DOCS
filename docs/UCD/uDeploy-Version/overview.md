@@ -1,16 +1,5 @@
 
-IBM UrbanCode Deploy Versions - Overview
-========================================
-
-# Overview
-
-
-### Overview
-
-
-
-
-### Overview
+# IBM UrbanCode Deploy Versions - Overview
 
 This plug-in contains steps that manipulate versions on the IBM UrbanCode Deploy server, including creating versions and assigning statuses to versions.
 

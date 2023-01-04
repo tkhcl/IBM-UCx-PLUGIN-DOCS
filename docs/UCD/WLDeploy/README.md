@@ -1,6 +1,5 @@
 
-Oracle WebLogic WLDeploy
-========================
+# Oracle WebLogic WLDeploy
 
 The **wldeploy** Ant task is used to complete **weblogic.Deployer** functions by using attributes that are specified in an Ant XML file. You can use the **wldeploy** Ant task with other WebLogic Server Ant tasks to create a single Ant build script.
 
@@ -15,8 +14,7 @@ If you encounter issues with the plug-in or want to send feedback, take one of t
 * If no search results are found, submit your issue as a question to the [answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | deploy | plugins | wldeploy
 
 
-Available Steps
----------------
+# Available Steps
 
 Check Application StatusCheck the status of an application on target servers and clusters.
 

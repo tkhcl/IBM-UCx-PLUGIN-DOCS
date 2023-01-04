@@ -1,13 +1,5 @@
 
-IBM WebSphere Portal - Usage
-============================
-
-# Usage
-
-
-### Usage
-
-
+# IBM WebSphere Portal - Usage
 
 
 #### Before you begin

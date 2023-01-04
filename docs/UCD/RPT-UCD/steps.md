@@ -1,16 +1,5 @@
 
-IBM Rational Performance Tester (RPT) - Steps
-=============================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the IBM Rational Test WorkbenchRPT plug-in
+# IBM Rational Performance Tester (RPT) - Process Steps
 
 * [Run RPT Test](#run_rpt_test)
 

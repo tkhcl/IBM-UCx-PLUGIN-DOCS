@@ -1,7 +1,5 @@
 # CICS TS - Component Templates
 
----
-
 * [Overview](#overview)
 * [Using a component template](#using-a-component-template)
 * [Updating a component template](#updating-a-cics-supplied-component-template)

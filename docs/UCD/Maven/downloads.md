@@ -1,8 +1,7 @@
 
-Maven Resolve - Downloads
-=========================
+# Maven Resolve - Downloads
 
-# Downloads
+To download the plug-in, click the following version-specific links.
 
 - [ucd-Maven-10.1126874.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Maven/ucd-Maven-10.1126874.zip)
 - [Maven-9.982528.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Maven/Maven-9.982528.zip)

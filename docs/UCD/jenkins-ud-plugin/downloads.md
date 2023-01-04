@@ -1,8 +1,7 @@
 
-Jenkins Publisher - Downloads
-=============================
+# Jenkins Publisher - Downloads
 
-# Downloads
+To download the plug-in, click the following version-specific links.
 
 - [ibm-ucdeploy-publisher-1.16.1107398.hpi](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/jenkins-ud-plugin/ibm-ucdeploy-publisher-1.16.1107398.hpi)
 - [ibm-ucdeploy-publisher-1.15.1064493.hpi](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/jenkins-ud-plugin/ibm-ucdeploy-publisher-1.15.1064493.hpi)

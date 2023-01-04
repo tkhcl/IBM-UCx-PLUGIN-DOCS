@@ -1,9 +1,7 @@
 
-Microsoft TFS (Team Foundation Server) - Downloads
-==================================================
+# Microsoft TFS (Team Foundation Server) - Downloads
 
-# Downloads
-
+To download the plug-in, click the following version-specific links.
 - [ucd-TFS-SourceConfig-22.1131551.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS-SourceConfig/ucd-TFS-SourceConfig-22.1131551.zip)
 - [ucd-TFS-SourceConfig-21.1128776.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS-SourceConfig/ucd-TFS-SourceConfig-21.1128776.zip)
 - [ucd-TFS-SourceConfig-20.1126846.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS-SourceConfig/ucd-TFS-SourceConfig-20.1126846.zip)

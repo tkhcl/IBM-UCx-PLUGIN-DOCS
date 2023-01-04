@@ -1,16 +1,5 @@
 
-Microsoft SharePoint - Steps
-============================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the Sharepoint plug-in
+# Microsoft SharePoint - Process Steps
 
 * [Activate SharePoint Feature](#activate_sharepoint_feature)
 * [Deploy SharePoint CMP File](#deploy_sharepoint_cmp_file)

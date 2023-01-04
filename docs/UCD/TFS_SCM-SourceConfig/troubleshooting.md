@@ -1,13 +1,5 @@
 
-Microsoft TFS_SCM (Team Foundation Server) - Troubleshooting
-============================================================
-
-# Troubleshooting
-
-
-### Troubleshooting
-
-
+# Microsoft TFS_SCM (Team Foundation Server) - Troubleshooting
 
 
 Unable to delete temporary workspace

@@ -1,13 +1,5 @@
 
-IBM UrbanCode DBUpgrader - Usage
-================================
-
-# Usage
-
-
-### Usage
-
-
+# IBM UrbanCode DBUpgrader - Usage
 
 
 The DBUpgrader plug-in helps you manage database changes that include schema changes and rollbacks. Change management is done using a proprietary, formatted XML file in conjunction with a database version table.

@@ -1,13 +1,5 @@
 
-Oracle Service Bus Configuration Management - Overview
-======================================================
-
-# Overview
-
-
-### Overview
-
-
+# Oracle Service Bus Configuration Management - Overview
 
 Oracle Service Bus connects, mediates, and manages interactions between services and applications.
 

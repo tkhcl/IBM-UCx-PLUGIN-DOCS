@@ -1,16 +1,6 @@
 
-BMC Remedy Action Request System - Steps
-========================================
+# BMC Remedy Action Request System - Process Steps
 
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the BMC Remedy plug-in
 
 * [Check Entry](#check_entry)
 * [Create Entry](#create_entry)

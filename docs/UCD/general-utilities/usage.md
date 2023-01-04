@@ -1,13 +1,5 @@
 
-IBM UrbanCode Deploy General Utilites - Usage
-=============================================
-
-# Usage
-
-
-### Usage
-
-
+# IBM UrbanCode Deploy General Utilites - Usage
 
 
 With the **Wait** step you can suspend processing for a specified number of seconds.

@@ -1,8 +1,7 @@
 
-WinRS Agent Install
-===================
+# WinRS Agent Install
 
-Plugin for installing agent to remote windows machine using WinRS.
+Plug-in for installing agent to remote windows machine using WinRS.
 
 
 |Back to ...||Latest Version||||

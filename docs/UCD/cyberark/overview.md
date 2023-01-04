@@ -1,13 +1,5 @@
 
-CyberArk - Overview
-===================
-
-# Overview
-
-
-### Overview
-
-
+# CyberArk - Overview
 
 
 CyberArk Application Identity Manager, an integrated part of the CyberArk Privileged Account Security Solution, enables organizations to protect critical business systems by eliminating hard-coded credentials from applications, automation scripts, configuration files and software code, and by removing SSH keys from servers where they are used by applications and scripts. CyberArk Application Identity Manager offers agent and agentless deployment options to best meet the security and availability requirements of various business applications. The product is designed to help customers achieve enterprise level scalability, high availability and offer centralized management and reporting.

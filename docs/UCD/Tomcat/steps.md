@@ -1,15 +1,5 @@
 
-Apache Tomcat - Steps
-=====================
-
-# Steps
-
-
-### Steps
-
-
-
-### Process steps in the Tomcat plug-in
+# Apache Tomcat - Process Steps
 
 * [Check Application Status](#check_application_status)
 * [Deploy Application](#deploy_application)

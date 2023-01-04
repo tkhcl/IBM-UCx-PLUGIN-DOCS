@@ -1,16 +1,5 @@
 
-Docker Compose - Steps
-======================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the Docker Compose plug-in
+# Docker Compose - Process Steps
 
 * [Create Child Resources](#create_child_resources)
 * [Launch Docker Compose Application](#launch_docker_compose_application)

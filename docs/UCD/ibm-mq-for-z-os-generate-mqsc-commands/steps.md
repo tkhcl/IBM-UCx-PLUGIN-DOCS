@@ -1,16 +1,5 @@
 
-IBM MQ for z/OS - Generate MQSC Commands - Steps
-================================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the MQ for zOS plug-in
+# IBM MQ for z/OS - Generate MQSC Commands - Process Steps
 
 * [Generate MQSC Commands](#generate_mqsc_commands)
 

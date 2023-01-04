@@ -1,8 +1,8 @@
 
-IBM Rational Test Workbench Web UI Tester - Downloads
-=====================================================
+# IBM Rational Test Workbench Web UI Tester - Downloads
 
-# Downloads
+
+To download the plug-in, click the following version-specific links.
 
 - [RFT-UCD-UITest-11.1.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RFT-WebUI-UCD/RFT-UCD-UITest-11.1.zip)
 - [RFT-UCD-UITest-11.0.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RFT-WebUI-UCD/RFT-UCD-UITest-11.0.zip)

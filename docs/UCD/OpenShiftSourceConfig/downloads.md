@@ -1,9 +1,7 @@
 
-OpenShift - Downloads
-=====================
+# OpenShift - Downloads
 
-# Downloads
-
+To download the plug-in, click the following version-specific links.
 - [OpenShiftSourceConfig-6.1034331.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/OpenShiftSourceConfig/OpenShiftSourceConfig-6.1034331.zip)
 - [OpenShiftSourceConfig-5.1026828.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/OpenShiftSourceConfig/OpenShiftSourceConfig-5.1026828.zip)
 - [OpenShiftSourceConfig-4.1003932.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/OpenShiftSourceConfig/OpenShiftSourceConfig-4.1003932.zip)

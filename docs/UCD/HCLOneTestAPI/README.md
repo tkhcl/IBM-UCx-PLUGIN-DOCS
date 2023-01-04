@@ -1,6 +1,5 @@
 
-HCL OneTest API
-===============
+# HCL OneTest API
 
 The HCL OneTest API plug-in for UrbanCode Deploy provides a step to run integration tests on the same system in which HCL OneTest API is installed.
 
@@ -9,8 +8,7 @@ The HCL OneTest API plug-in for UrbanCode Deploy provides a step to run integrat
 * This plug-in works with HCL OneTest 9.2.1 or higher.
 
 
-Available Steps
----------------
+### Available Steps
 
 Run Integration Tests
 

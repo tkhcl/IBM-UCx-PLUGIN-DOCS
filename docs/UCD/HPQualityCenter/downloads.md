@@ -1,9 +1,7 @@
 
-MicroFocus ALM (formerly HP Quality Center) - Downloads
-=======================================================
+# MicroFocus ALM (formerly HP Quality Center) - Downloads
 
-# Downloads
-
+To download the plug-in, click the following version-specific links.
 - [HPQualityCenter-16.1011648.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HPQualityCenter/HPQualityCenter-16.1011648.zip)
 - [HPQualityCenter-15.1011207.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HPQualityCenter/HPQualityCenter-15.1011207.zip)
 - [HPQualityCenter-15.1008315.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HPQualityCenter/HPQualityCenter-15.1008315.zip)

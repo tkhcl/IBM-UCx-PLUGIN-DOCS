@@ -1,6 +1,5 @@
 
-Oracle WebLogic Application Deployment
-======================================
+# Oracle WebLogic Application Deployment
 
 The Oracle Weblogic Server is an application server for building and deploying enterprise JAVA application programs.
 
@@ -16,8 +15,7 @@ We are currently looking into the prospect of open sourcing this particular plug
 * This plug-in is supported for use with WebLogic Server version 10.3 or later.
 
 
-Available Steps
----------------
+### Available Steps
 
 **Deploy:**Deploy an application to the Weblogic server.
 

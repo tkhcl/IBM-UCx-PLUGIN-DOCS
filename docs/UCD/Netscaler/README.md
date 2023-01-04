@@ -1,35 +1,32 @@
 
-Citrix NetScaler
-================
+# Citrix NetScaler
 
 Citrix NetScaler is a platform that includes the following features: load balancing and content switching, data compression, content caching, SSL acceleration, network optimization, application visibility and application security.
 
 The NetScaler plug-in includes steps to enable and disable servers, server groups, and services on NetScaler servers.
 
-Compatibility
--------------
+### Compatibility
 
 Versions 1 through 7 of the Citrix NetScaler plugin support uDeploy 4 and 5. Versions 7 and up of the Citrix NetScaler plugin support IBM UrbanCode Deploy 6.2.1 and up.
 
 
-Available Steps
----------------
+### Available Steps
 
-Check Service Group Bindings Check the status of servers bound to a given service group
+Check Service Group Bindings: Check the status of servers bound to a given service group
 
-Check Service Group Status Check the status of service groups in Netscaler
+Check Service Group Status: Check the status of service groups in Netscaler
 
-Disable Servers Disable one or more servers in NetScaler
+Disable Servers Disable: one or more servers in NetScaler
 
-Disable Service Groups Disable one or more service groups in NetScaler
+Disable Service Groups Disable: one or more service groups in NetScaler
 
-Disable Services Disable one or more services in NetScaler
+Disable Services: Disable one or more services in NetScaler
 
-Enable Servers Enable one or more servers in NetScaler
+Enable Servers: Enable one or more servers in NetScaler
 
-Enable Service Groups Enable one or more service groups in NetScaler
+Enable Service Groups: Enable one or more service groups in NetScaler
 
-Enable Services Enable one or more services in NetScaler
+Enable Services: Enable one or more services in NetScaler
 
 
 

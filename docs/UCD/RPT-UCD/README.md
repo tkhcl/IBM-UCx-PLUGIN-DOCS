@@ -1,6 +1,5 @@
 
-IBM Rational Performance Tester (RPT)
-=====================================
+# IBM Rational Performance Tester (RPT)
 
 IBM® Rational® Performance Tester is a performance testing solution that validates the scalability of web and server applications. Rational Performance Tester identifies the presence and cause of system performance bottlenecks and reduces load testing complexity.
 

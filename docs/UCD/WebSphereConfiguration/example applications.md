@@ -1,11 +1,5 @@
 
-WebSphere Application Server - Configure - Example Applications
-===============================================================
-
-# Example Applications
-
-
-### Example Applications
+# WebSphere Application Server - Configure - Example Applications
 
 
 
@@ -14,15 +8,13 @@ You can work with two types of applications:
 * [Example IBM UrbanCode Deploy applications](#UCD-example)
 * [Example WebSphere Application Server plug-in example applications](#WAS_plugin-ex)
 
-Example IBM UrbanCode Deploy applications
-=========================================
+### Example IBM UrbanCode Deploy applications
 
 #### Plants by WebSphere
 
 The `Plants1_artifacts.zip` file contains an example IBM UrbanCode Deploy application that creates and configures a WebSphere cluster, and then installs the PlantsByWebSphere application on the cluster. The processes in the UrbanCode Deploy application use the multiplicity feature to create the cluster. See [Installing Plants by WebSphere](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2022/06/16/example-installing-the-plantsbywebsphere-applicati).
 
-Example WebSphere Application Server plug-in example applications
-=================================================================
+### Example WebSphere Application Server plug-in example applications
 
 The WebSphere Application Server Configure plug-in includes applications that you can use as examples for managing WebSphere Application Server configurations in IBM UrbanCode Deploy.
 

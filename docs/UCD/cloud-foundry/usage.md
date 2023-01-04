@@ -1,14 +1,5 @@
 
-Cloud Foundry - Usage
-=====================
-
-# Usage
-
-
-### Usage
-
-
-
+# Cloud Foundry - Usage
 
 ### Cloud Foundry Auto-Discovery
 

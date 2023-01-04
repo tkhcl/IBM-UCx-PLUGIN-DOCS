@@ -1,14 +1,5 @@
 
-Microsoft SQL Server SQLCmd - Overview
-======================================
-
-# Overview
-
-
-### Overview
-
-
-
+# Microsoft SQL Server SQLCmd - Overview
 
 The Microsoft SQL Server SQLCmd plug-in automates the execution of the Microsoft  utility as a process step.
 

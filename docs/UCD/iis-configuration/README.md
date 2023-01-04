@@ -1,6 +1,5 @@
 
-Microsoft IIS - Configure
-=========================
+# Microsoft IIS - Configure
 
 To get started with the plug-in, read the [plug-in documentation](overview.md) and watch the tutorial video:
 

@@ -1,6 +1,5 @@
 
-New Relic
-=========
+# New Relic
 
 New Relic provides application performance management, allowing you to monitor, troubleshoot, and configure applications. This plugin sends deployment notifications to New Relic.
 
@@ -18,8 +17,7 @@ If you encounter issues with the plug-in, or want to send feedback:
 * For general plug-in issues, submit questions to our [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins
 
 
-Available Steps
----------------
+### Available Steps
 
 Deployment Notification: Send a deployment notifications to New Relic.
 

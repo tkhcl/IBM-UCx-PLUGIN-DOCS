@@ -1,16 +1,5 @@
 
-Microsoft SQL Server SQLCmd - Steps
-===================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the Microsoft SQL Server SQLCmd plug-in
+# Microsoft SQL Server SQLCmd - Process Steps
 
 * [Run SQLCmd scripts](#run_sqlcmd_scripts)
 

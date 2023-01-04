@@ -1,16 +1,5 @@
 
-IBM UrbanCode Deploy System - Steps
-===================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the IBM UrbanCode Deploy System plug-in
+# IBM UrbanCode Deploy System - Process Steps
 
 * [Add Group To Team](#add_group_to_team)
 * [Add User To Team](#add_user_to_team)

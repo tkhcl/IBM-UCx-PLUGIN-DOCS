@@ -1,16 +1,5 @@
 
-IBM UrbanCode Deploy Components - Overview
-==========================================
-
-# Overview
-
-
-### Overview
-
-
-
-
-### Overview
+# IBM UrbanCode Deploy Components - Overview
 
 This plug-in manipulates components on the IBM UrbanCode Deploy server. For example, the steps in this plug-in can create components, add components to teams, and add properties to components.
 

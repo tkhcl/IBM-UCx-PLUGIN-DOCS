@@ -1,14 +1,5 @@
 
-ServiceNow - Overview
-=====================
-
-# Overview
-
-
-### Overview
-
-
-
+# ServiceNow - Overview
 
 ServiceNow supports application delivery by integrating service management processes, social collaboration for IT departments, software-as-a-service delivery, and web functionality.
 

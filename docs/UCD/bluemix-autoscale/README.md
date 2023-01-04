@@ -1,6 +1,5 @@
 
-IBM Bluemix Auto-Scaling
-========================
+# IBM Bluemix Auto-Scaling
 
 This plug-in provides steps to interact with the Auto-Scaling for Bluemix service by using the REST API. Currently the plug-in supports attaching an Auto-Scaling policy to a Bluemix application with authorization support from the IBM Containers plug-in.
 
@@ -11,8 +10,7 @@ This plug-in provides steps to interact with the Auto-Scaling for Bluemix servic
 * The Auto-Scaling service must first be configured on your Bluemix workspace or application.
 
 
-Available Steps
----------------
+### Available Steps
 
 
 **Add Auto-Scale Policy to Application**: Attach an Auto-Scale policy to a Bluemix application.

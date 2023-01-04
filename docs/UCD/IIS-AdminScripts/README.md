@@ -1,14 +1,12 @@
 
-Microsoft IIS AdminScripts
-==========================
+# Microsoft IIS AdminScripts
 
 Microsoft’s IIS 6 is a web server application packaged with Windows server 2003.
 
 The IIS-AdminScripts plugin allows IBM UrbanCode Deploy to automate IIS6 configuration changes during a deployment.
 
 
-Available Steps
----------------
+# Available Steps
 
 **AdsUtil**Run an arbitrary adsutil command.
 

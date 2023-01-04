@@ -1,6 +1,5 @@
 
-IBM Sterling B2B Integrator
-===========================
+# IBM Sterling B2B Integrator
 
 IBM Sterling B2B Integrator integrates critical B2B processes, transactions, and relationships.
 
@@ -21,8 +20,7 @@ If you encounter issues with the plug-in, or want to send feedback:
 * For general plug-in issues, submit questions to our [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins
 
 
-Available Steps
----------------
+### Available Steps
 
 * Add Workflow
 * Apply Configurations

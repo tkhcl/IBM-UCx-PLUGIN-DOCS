@@ -1,6 +1,5 @@
 
-Resource Utilities
-==================
+# Resource Utilities
 
 The Resource Utilities plug-in supplements the existing IBM UrbanCode Deploy resources plugin with additional steps to help manage large resource trees and the properties on resources in large trees.
 
@@ -17,8 +16,7 @@ If you encounter issues with the plug-in, or want to send feedback:
 * For general plug-in issues, submit questions to our [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins
 
 
-Available Steps
----------------
+### Available Steps
 
 Find Resource Properties Without ValuesFind resource and / or resource role properties that do not have a value (within a given resource tree scope). Find Specific PropertiesFind instances of specific properties on resources and report the values. List ResourcesList IBM UrbanCode Deploy resources under a specific root resource.
 

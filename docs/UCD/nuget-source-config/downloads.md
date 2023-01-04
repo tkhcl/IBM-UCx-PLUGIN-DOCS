@@ -1,9 +1,7 @@
 
-NuGet - Downloads
-=================
+# NuGet - Downloads
 
-# Downloads
-
+To download the plug-in, click the following version-specific links.
 - [nuget-source-config-16.1108465.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/nuget-source-config/nuget-source-config-16.1108465.zip)
 - [nuget-source-config-15.1053073.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/nuget-source-config/nuget-source-config-15.1053073.zip)
 - [nuget-source-config-14.1026880.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/nuget-source-config/nuget-source-config-14.1026880.zip)

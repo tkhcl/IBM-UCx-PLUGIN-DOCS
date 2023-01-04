@@ -1,14 +1,5 @@
 
-IBM UrbanCode Deploy Configuration Management - Troubleshooting
-===============================================================
-
-# Troubleshooting
-
-
-### Troubleshooting
-
-
-
+# IBM UrbanCode Deploy Configuration Management - Troubleshooting
 
 When using the Batch Import Properties step, you must include the component name in the properties file, as shown in the following example code:
 

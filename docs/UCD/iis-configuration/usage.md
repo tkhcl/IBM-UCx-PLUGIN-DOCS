@@ -1,7 +1,6 @@
 
 # Microsoft IIS - Configure - Usage
 
-## Usage
 
 * [Discovering and applying configurations](#discovering-and-applying-configurations)
 * [Comparing configurations with live IIS instances](#comparing-configurations-with-live-iis-instances)

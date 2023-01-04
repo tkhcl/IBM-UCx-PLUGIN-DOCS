@@ -1,6 +1,6 @@
 # z/OS External Artifact Repository - Overview
 
----
+
 
 The External Artifact Repository plug-in automates the downloading of IBM z/OS artifacts from a [Nexus](https://www.sonatype.com/product-nexus-repository) or [JFrog Artifactory](https://jfrog.com/artifactory/) repository.
 

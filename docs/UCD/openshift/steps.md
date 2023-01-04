@@ -1,9 +1,6 @@
 
-# OpenShift for IBM UrbanCode Deploy - Steps
+# OpenShift for IBM UrbanCode Deploy - Process Steps
 
-## Steps
-
-### Process steps in the OpenShift plug-in
 
 - [OpenShift for IBM UrbanCode Deploy - Steps](#openshift-for-ibm-urbancode-deploy---steps)
   - [Steps](#steps)

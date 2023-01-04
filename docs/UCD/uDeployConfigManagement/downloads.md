@@ -1,8 +1,7 @@
 
-IBM UrbanCode Deploy Configuration Management - Downloads
-=========================================================
+# IBM UrbanCode Deploy Configuration Management - Downloads
 
-# Downloads
+To download the plug-in, click the version-specific links.
 
 - [ucd-uDeployConfigManagement-17.1132359.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeployConfigManagement/ucd-uDeployConfigManagement-17.1132359.zip)
 - [ucd-uDeployConfigManagement-16.1131570.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeployConfigManagement/ucd-uDeployConfigManagement-16.1131570.zip)

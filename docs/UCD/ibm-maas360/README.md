@@ -1,6 +1,5 @@
 
-IBM MaaS360
-===========
+# IBM MaaS360
 
 This plug-in provides access to utilities that are related to integrating with IBM MaaS360 via web services. For example, you can use this plug-in to request an authentication token.
 
@@ -18,8 +17,7 @@ If you encounter issues with the plug-in, or want to send feedback:
 * For general plug-in issues, submit questions to our [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins
 
 
-Available Steps
----------------
+### Available Steps
 
 * Add iOS Mobile App
 * Distribute App

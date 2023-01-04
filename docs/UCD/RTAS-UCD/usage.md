@@ -1,14 +1,5 @@
 
-IBM Rational Test Automation Server (RTAS) - Usage
-==================================================
-
-# Usage
-
-
-### Usage
-
-
-
+# IBM Rational Test Automation Server (RTAS) - Usage
 
 Use the IBM Rational Test Automation Server plug-in to start a job on Rational Test Automation Server.
 

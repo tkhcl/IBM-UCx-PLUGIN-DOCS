@@ -1,14 +1,5 @@
 
-IBM InfoSphere DataStage - Steps
-================================
-
-# Steps
-
-
-### Steps
-
-
-
+# IBM InfoSphere DataStage - Process Steps
 
 ### Process steps in the DataStage plug-in
 

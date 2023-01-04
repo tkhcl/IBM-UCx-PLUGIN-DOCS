@@ -1,16 +1,6 @@
 
-IBM MobileFirst Platform Foundation on IBM Containers - Steps
-=============================================================
+# IBM MobileFirst Platform Foundation on IBM Containers - Process Steps
 
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the IBM MobileFirst Platform Foundation on IBM Bluemix Container Deployment Automation plug-in
 
 * [Create Databases](#create_databases)
 * [Create Server Container (Create database, Prepare, Push and Start Container)](#create_server_container_(create_database,_prepare,_push_and_start_container))

@@ -1,9 +1,7 @@
 
-IBM UrbanCode Deploy Applications - Downloads
-=============================================
+# IBM UrbanCode Deploy Applications - Downloads
 
-# Downloads
-
+To download the plug-in, click the following version-specific links.
 - [ucd-uDeploy-Application-84.1132353.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Application/ucd-uDeploy-Application-84.1132353.zip)
 - [ucd-uDeploy-Application-83.1131564.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Application/ucd-uDeploy-Application-83.1131564.zip)
 - [ucd-uDeploy-Application-82.1128761.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Application/ucd-uDeploy-Application-82.1128761.zip)

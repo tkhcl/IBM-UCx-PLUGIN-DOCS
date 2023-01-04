@@ -1,14 +1,5 @@
 
-Microsoft Windows System Tools - Troubleshooting
-================================================
-
-# Troubleshooting
-
-
-### Troubleshooting
-
-
-
+# Microsoft Windows System Tools - Troubleshooting
 
 Windows Server 2012 OS restarts using Reboot step, but fails.
 

@@ -1,14 +1,5 @@
 
-IBM UrbanCode Deploy Process - Overview
-=======================================
-
-# Overview
-
-
-### Overview
-
-
-
+# IBM UrbanCode Deploy Process - Overview
 
 The IBM UrbanCode Deploy Process plug-in includes steps to work with process requests in IBM UrbanCode Deploy. You can use this plug-in to create or remove a link on a process request that directs users to supplementary information related to the process execution.
 

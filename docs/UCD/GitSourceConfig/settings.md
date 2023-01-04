@@ -1,8 +1,6 @@
 
 # Git - Settings
 
-## Settings
-
 ## Process steps in the Git plug-in
 
 * [Import Version](#import-version)

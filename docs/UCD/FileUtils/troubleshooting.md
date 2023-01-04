@@ -1,12 +1,5 @@
 
-File Utils - Troubleshooting
-============================
-
-# Troubleshooting
-
-
-### Troubleshooting
-
+# File Utils - Troubleshooting
 
 
 * [Copy Directory on Windows](#copy-directory-on-windows)

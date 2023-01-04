@@ -1,9 +1,7 @@
 
-Microsoft SQL Server SQLCmd - Downloads
-=======================================
+# Microsoft SQL Server SQLCmd - Downloads
 
-# Downloads
-
+To download the plug-in, click teh following version-specific links.
 - [SQLCmd-9.1100934.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLCmd/SQLCmd-9.1100934.zip)
 - [SQLCmd-9.1056538.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLCmd/SQLCmd-9.1056538.zip)
 - [SQLCmd-9.1008732.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLCmd/SQLCmd-9.1008732.zip)

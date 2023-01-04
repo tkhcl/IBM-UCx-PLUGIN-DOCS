@@ -1,6 +1,5 @@
 
-IBM Rational Team Concert - Build
-=================================
+# IBM Rational Team Concert - Build
 
 No source configuration plug-in is required to use Rational Team Concert builds in IBM UrbanCode Deploy.
 

@@ -1,7 +1,7 @@
 
 # Artifactory Source Config - Downloads
 
-To download the plug-in, click the version-specific links.
+To download the plug-in, click the following version-specific links.
 - [ArtifactorySourceConfig-29.1098516.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ArtifactorySourceConfig-29.1098516.zip)
 - [ArtifactorySourceConfig-29.1039003.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ArtifactorySourceConfig-29.1039003.zip)
 - [ArtifactorySourceConfig-29.1036933.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ArtifactorySourceConfig-29.1036933.zip)

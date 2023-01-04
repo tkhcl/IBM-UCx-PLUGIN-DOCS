@@ -1,9 +1,7 @@
 
-IBM UrbanCode Deploy Components - Downloads
-===========================================
+# IBM UrbanCode Deploy Components - Downloads
 
-# Downloads
-
+To download the plug-in, click the following version-specific link.
 - [ucd-uDeploy-Component-78.1132354.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Component/ucd-uDeploy-Component-78.1132354.zip)
 - [ucd-uDeploy-Component-77.1131563.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Component/ucd-uDeploy-Component-77.1131563.zip)
 - [ucd-uDeploy-Component-76.1128762.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Component/ucd-uDeploy-Component-76.1128762.zip)

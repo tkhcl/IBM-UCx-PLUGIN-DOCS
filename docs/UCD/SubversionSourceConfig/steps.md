@@ -1,16 +1,5 @@
 
-Subversion - Steps
-==================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the Subversion plug-in
+# Subversion - Process Steps
 
 * [Import Version](#import_version)
 

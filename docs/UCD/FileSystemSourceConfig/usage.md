@@ -1,16 +1,7 @@
 
-File System - Usage
-===================
+# File System - Usage
 
-# Usage
-
-
-### Usage
-
-
-
-
-Youll need to define an UrbanCode Deploy component which defines the source and processes for the File System repository. The component contains the information for importing the artifacts and any processes to implement on the artifacts.
+You will need to define an UrbanCode Deploy component which defines the source and processes for the File System repository. The component contains the information for importing the artifacts and any processes to implement on the artifacts.
 
 To import artifacts that are not stored in versioned folders, store the artifacts in a folder and create a component with the **File System** source configuration type.
 

@@ -1,16 +1,5 @@
 
-IBM UrbanCode Deploy Tools - Steps
-==================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the Deploy Tools plug-in
+# IBM UrbanCode Deploy Tools - Process Steps
 
 * [Check Total Application Process Execution Time](#check_total_application_process_execution_time)
 * [Check Total Component Process Execution Time](#check_total_component_process_execution_time)

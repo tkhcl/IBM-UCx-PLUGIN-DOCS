@@ -1,6 +1,5 @@
 
-Node-RED
-========
+# Node-RED
 
 Node-RED provides a browser-based flow editor that makes it easy to wire together flows using the wide range nodes in the palette. Flows can be then deployed to the runtime in a single-click. JavaScript functions can be created within the editor using the rich capabilities of the embedded Eclipse Orion.
 
@@ -19,8 +18,7 @@ If you encounter issues with the plug-in, or want to send feedback:
 * For general plug-in issues, submit questions to our [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins
 
 
-Available Steps
----------------
+### Available Steps
 
 Install Node-RED Uninstall Node-RED Start Node-RED Stop Node-RED Deploy Flow to Node-RED
 

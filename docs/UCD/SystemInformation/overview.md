@@ -1,16 +1,5 @@
 
-System Information - Overview
-=============================
-
-# Overview
-
-
-### Overview
-
-
-
-
-### Overview
+# System Information - Overview
 
 The steps in this plug-in provide information about the system on which the agent is running. You can use these steps to verify that a deployment can succeed or has succeeded by verifying the amount of disk space and the environment variables on the system.
 

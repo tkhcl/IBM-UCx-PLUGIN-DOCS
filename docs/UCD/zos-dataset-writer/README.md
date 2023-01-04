@@ -1,6 +1,5 @@
 # z/OS Dataset Writer
 
----
 
 The z/OS Dataset Writer plug-in copies text, dataset, or USS file to a mainframe dataset.
 

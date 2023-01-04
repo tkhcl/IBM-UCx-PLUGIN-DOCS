@@ -1,14 +1,5 @@
 
-Git - Troubleshooting
-=====================
-
-# Troubleshooting
-
-
-### Troubleshooting
-
-
-
+# Git - Troubleshooting
 
 For more questions and answers about plug-ins, see the [UrbanCode forum on IBM developerWorks](https://community.ibm.com/community/user/wasdevops/urbancode-discussion "UrbanCode forum").
 

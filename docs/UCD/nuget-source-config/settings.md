@@ -1,12 +1,5 @@
 
-NuGet - Settings
-================
-
-# Settings
-
-
-### Settings
-
+# NuGet - Settings
 
 
 ### Process steps in the NuGet plug-in

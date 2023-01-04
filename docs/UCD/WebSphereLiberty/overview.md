@@ -1,14 +1,5 @@
 
-IBM WebSphere Liberty - Overview
-================================
-
-# Overview
-
-
-### Overview
-
-
-
+# IBM WebSphere Liberty - Overview
 
 The IBM WebSphere Application Server Liberty profile is a lightweight configuration of IBM WebSphere Application Server. It provides rapid deployment of applications for use in the development process.
 

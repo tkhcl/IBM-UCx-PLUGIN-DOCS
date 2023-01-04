@@ -1,14 +1,5 @@
 
-IBM UrbanCode Build - Overview
-==============================
-
-# Overview
-
-
-### Overview
-
-
-
+# IBM UrbanCode Build - Overview
 
 The UrbanCode Build plug-in automates uploading artifacts from a UrbanCode Build server.
 

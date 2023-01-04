@@ -1,12 +1,5 @@
 
-NuGet - Usage
-=============
-
-# Usage
-
-
-### Usage
-
+# NuGet - Usage
 
 
 * [Create a component](#create-a-component)

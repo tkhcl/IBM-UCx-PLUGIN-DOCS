@@ -1,9 +1,7 @@
 
-z/OS File Source Config - Downloads
-===================================
+# z/OS File Source Config - Downloads
 
-# Downloads
-
+To download the plug-in, click the following  version-specific links.
 - [ucd-zOSFileSourceConfig-7.1131549.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/ucd-zOSFileSourceConfig-7.1131549.zip)
 - [ucd-zOSFileSourceConfig-6.1128334.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/ucd-zOSFileSourceConfig-6.1128334.zip)
 - [zOSFileSourceConfig-5.1109122.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/zOSFileSourceConfig-5.1109122.zip)

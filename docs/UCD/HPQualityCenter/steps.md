@@ -1,16 +1,5 @@
 
-MicroFocus ALM (formerly HP Quality Center) - Steps
-===================================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the HP Quality Center Plugin plug-in
+# MicroFocus ALM (formerly HP Quality Center) - Process Steps
 
 - [MicroFocus ALM (formerly HP Quality Center) - Steps](#microfocus-alm-formerly-hp-quality-center---steps)
 - [Steps](#steps)

@@ -1,14 +1,5 @@
 
-IBM IMS - Usage
-===============
-
-# Usage
-
-
-### Usage
-
-
-
+# IBM IMS - Usage
 
 ### Using the IMS plug-in in UrbanCode Deploy
 

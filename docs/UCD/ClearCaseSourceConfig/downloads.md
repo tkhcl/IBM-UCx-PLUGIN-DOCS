@@ -1,9 +1,7 @@
 
-IBM Rational ClearCase - Downloads
-==================================
+# IBM Rational ClearCase - Downloads
 
-# Downloads
-
+To download the plug-in, click the following version-specific links.
 - [ucd-ClearCaseSourceConfig-13.1131556.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ClearCaseSourceConfig/ucd-ClearCaseSourceConfig-13.1131556.zip)
 - [ucd-ClearCaseSourceConfig-12.1128769.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ClearCaseSourceConfig/ucd-ClearCaseSourceConfig-12.1128769.zip)
 - [ClearCaseSourceConfig-11.1109007.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ClearCaseSourceConfig/ClearCaseSourceConfig-11.1109007.zip)

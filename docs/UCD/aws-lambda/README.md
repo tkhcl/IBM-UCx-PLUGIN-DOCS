@@ -1,6 +1,5 @@
+# Amazon Web Services (AWS) Lambda
 
-Amazon Web Services (AWS) Lambda
-================================
 
 Amazon Web Services (AWS) Lambda provides on demand computing power for any application or service. Amazon manages the provisioning environments or servers. The AWS Lambda plugin enables you to create, delete, and invoke Lambda functions. The [AWS command line interface](https://aws.amazon.com/cli/) is required to run this plug-in and must be downloaded and installed separately.
 
@@ -14,8 +13,7 @@ If you encounter issues with the plug-in, or want to send feedback:
 * For general plug-in issues, submit questions to our [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: ucdev | urbancode | plugins
 
 
-Available Steps
----------------
+### Available Steps
 
 Create Function Create an AWS Lambda function.
 

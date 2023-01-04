@@ -1,8 +1,6 @@
 
 # IBM DataPower Configuration Manager - Overview
 
-## Overview
-
 The IBM DataPower configuration manager plug-in includes steps to work with WebSphere DataPower appliances.
 
 To add the IBM DataPower configuration manager plug-in steps to processes, click **Infrastructure > WebSphere DataPower** in the step palette of the process editor.

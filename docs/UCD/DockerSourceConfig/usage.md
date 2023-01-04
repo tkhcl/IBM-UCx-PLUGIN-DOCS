@@ -1,7 +1,6 @@
 
 # Docker Registry - Usage
 
-## Usage
 
 The Docker Registry plug-in supports a number of container registries:
 

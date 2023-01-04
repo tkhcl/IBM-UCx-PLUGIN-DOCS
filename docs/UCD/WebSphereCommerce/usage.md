@@ -1,13 +1,5 @@
 
-IBM WebSphere Commerce - Usage
-==============================
-
-# Usage
-
-
-### Usage
-
-
+# IBM WebSphere Commerce - Usage
 
 
 To create resources and define deployment processes for use with commerce servers, complete the following steps.

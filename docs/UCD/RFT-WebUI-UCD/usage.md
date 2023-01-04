@@ -1,13 +1,5 @@
 
-IBM Rational Test Workbench Web UI Tester - Usage
-=================================================
-
-# Usage
-
-
-### Usage
-
-
+# IBM Rational Test Workbench Web UI Tester - Usage
 
 
 Use the Rational Test Workbench Web UI Tester plugin to continuously initiate the test and compound test run from IBM UrbanCode Deploy.From version 9.0, Rational Test Workbench Web UI Tester is the new name for Rational Test Workbench Eclipse Client. **Before you begin**

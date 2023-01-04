@@ -1,16 +1,5 @@
 
-Oracle WebLogic Application Deployment - Steps
-==============================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the WebLogic Application Deployment plug-in
+# Oracle WebLogic Application Deployment - Process Steps
 
 * [Deploy](#deploy)
 * [Redeploy](#redeploy)

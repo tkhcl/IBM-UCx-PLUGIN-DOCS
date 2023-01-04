@@ -1,13 +1,5 @@
 
-Cloud Foundry - Overview
-========================
-
-# Overview
-
-
-### Overview
-
-
+# Cloud Foundry - Overview
 
 
 The Cloud Foundry plug-in uses the Cloud Foundry command-line utility to interact with applications in a target Cloud Foundry system.

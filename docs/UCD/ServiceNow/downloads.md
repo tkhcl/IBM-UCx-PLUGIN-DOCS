@@ -1,9 +1,7 @@
 
-ServiceNow - Downloads
-======================
+# ServiceNow - Downloads
 
-# Downloads
-
+To download the plug-in, click the following version-specific links.
 - [ucd-ServiceNow-31.1148995.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-31.1148995.zip)
 - [ucd-ServiceNow-30.1144780.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-30.1144780.zip)
 - [ucd-ServiceNow-29.1143711.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-29.1143711.zip)

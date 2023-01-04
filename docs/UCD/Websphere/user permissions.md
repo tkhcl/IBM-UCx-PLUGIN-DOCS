@@ -1,13 +1,5 @@
 
-WebSphere Application Server - Deployment - User permissions
-============================================================
-
-# User permissions
-
-
-### User permissions
-
-
+# WebSphere Application Server - Deployment - User permissions
 
 There are three different users that require permissions to run the WebSphere Application Server Deploy plug-in.
 

@@ -1,6 +1,5 @@
 
-SAP Change and Transport System (CTS)
-=====================================
+# SAP Change and Transport System (CTS)
 
 This plug-in is designed to interact with the SAP Change and Transport System.
 
@@ -11,14 +10,13 @@ This plug-in is designed to interact with the SAP Change and Transport System.
 * [GitHub Issues](https://github.com/IBM-UrbanCode/SAP-CTS/issues)
 
 
-Available Steps
----------------
+### Available Steps
 
-Add to Buffer Add transport requests to the CTS buffer
+Add to Buffer: Add transport requests to the CTS buffer
 
-Import Import transport requests from the CTS buffer to the target system
+Import: Import transport requests from the CTS buffer to the target system
 
-Add File to Transport Add files to existing transport requests
+Add File to Transport: Add files to existing transport requests
 
 
 

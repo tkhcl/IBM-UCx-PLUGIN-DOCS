@@ -1,9 +1,7 @@
 
-IBM Rational Performance Tester (RPT) - Downloads
-=================================================
+# IBM Rational Performance Tester (RPT) - Downloads
 
-# Downloads
-
+To download the plug-in, click the following version-specific links.
 - [RPT-UCD-9.3.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RPT-UCD/RPT-UCD-9.3.zip)
 - [RPT-UCD-9.2.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RPT-UCD/RPT-UCD-9.2.zip)
 - [RPT-UCD-8.0.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RPT-UCD/RPT-UCD-8.0.zip)

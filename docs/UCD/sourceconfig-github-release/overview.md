@@ -1,14 +1,5 @@
 
-GitHub-Release - Overview
-=========================
-
-# Overview
-
-
-### Overview
-
-
-
+# GitHub-Release - Overview
 
 The Github Release plug-in automates importing artifacts from a GitHub repository. You can import ZIP and TAR archive files into your UrbanCode Deploy server. The plug-in creates a component version of release in the UrbanCode Deploy server for the specified release being imported. You can specify a specific version to import or use the default to import the latest version.
 

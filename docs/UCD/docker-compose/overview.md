@@ -1,14 +1,5 @@
 
-Docker Compose - Overview
-=========================
-
-# Overview
-
-
-### Overview
-
-
-
+# Docker Compose - Overview
 
 This plug-in provides steps for running Docker Compose.
 

@@ -1,9 +1,7 @@
 
-Microsoft TFS_SCM (Team Foundation Server) - Downloads
-======================================================
+# Microsoft TFS_SCM (Team Foundation Server) - Downloads
 
-# Downloads
-
+To download the plug-in, click the following version-specific links.
 - [ucd-TFS_SCM-SourceConfig-14.1131548.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS_SCM-SourceConfig/ucd-TFS_SCM-SourceConfig-14.1131548.zip)
 - [ucd-TFS_SCM-SourceConfig-13.1128777.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS_SCM-SourceConfig/ucd-TFS_SCM-SourceConfig-13.1128777.zip)
 - [TFS_SCM-SourceConfig-12.1109125.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS_SCM-SourceConfig/TFS_SCM-SourceConfig-12.1109125.zip)

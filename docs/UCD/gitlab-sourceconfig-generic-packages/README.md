@@ -1,5 +1,4 @@
-Gitlab Generic Packages
-===========
+# Gitlab Generic Packages
 
 Initial release of this plugin.
 

@@ -1,13 +1,5 @@
 
-Docker Registry - Settings
-==========================
-
-# Settings
-
-
-### Settings
-
-
+# Docker Registry - Settings
 
 ### Process steps in the Docker plug-in
 

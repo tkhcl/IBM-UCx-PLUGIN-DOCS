@@ -1,16 +1,6 @@
 
-IBM UrbanCode Deploy Applications - Overview
-============================================
+# IBM UrbanCode Deploy Applications - Overview
 
-# Overview
-
-
-### Overview
-
-
-
-
-### Overview
 
 This plug-in manipulates applications on the IBM UrbanCode Deploy server. For example, the steps in this plug-in can create applications, add applications to teams, and add components to applications.
 
@@ -55,7 +45,7 @@ Support property file encryption..
 
 #### Version 71
 
-Adds five minute timeout and fault-tolerance to running application processes.
+sAdds five minute timeout and fault-tolerance to running application processes.
 
 #### Version 70
 

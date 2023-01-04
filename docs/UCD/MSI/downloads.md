@@ -1,9 +1,7 @@
 
-Microsoft Software Installer (MSI) - Downloads
-==============================================
+# Microsoft Software Installer (MSI) - Downloads
 
-# Downloads
-
+To download the plug-in, click the following version-specific links.
 - [MSI-3.911818.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MSI/MSI-3.911818.zip)
 - [MSI-2.879047.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MSI/MSI-2.879047.zip)
 

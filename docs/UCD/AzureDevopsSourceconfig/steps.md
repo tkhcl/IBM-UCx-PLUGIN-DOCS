@@ -1,10 +1,7 @@
 
-Artifactory - Steps
-===================
+# Artifactory - Steps
 
-# Steps
-
-The following process steps are available in the in the Azure plugin
+The following process steps are available in the in the Azure plug-in
 
 ### Import Version
 
