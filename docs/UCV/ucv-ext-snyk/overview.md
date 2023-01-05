@@ -1,9 +1,9 @@
 
 # Snyk - Overview
 
-The Snyk plugin imports repository vulnerability data from Snyk server into HCL Accelerate. 
+The Snyk plug-in imports repository vulnerability data from Snyk server into UrbanCode Velocity. 
 It scans for existing GitHub , Gitlab or Bitbucket integrations and retrieves data only for those particular repositories. 
-The Plugin works on organisational level and imports data for entire organisation . It can import data from multiple organisations.
+The plug-in works on organisational level and imports data for entire organisation . It can import data from multiple organisations.
 
 
 ## Compatibility

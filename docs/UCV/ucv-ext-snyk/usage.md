@@ -1,11 +1,11 @@
 
 # Snyk - Usage
 
-To use the Snyk plugin, the plugin must be loaded only if you an existing GitHub / GitLab / Bitbucket integration . The Snyk data is imported only if Snyk scan is performed on the repositories .
+To use the Snyk plug-in, the plug-in must be loaded only if you an existing GitHub / GitLab / Bitbucket integration . The Snyk data is imported only if Snyk scan is performed on the repositories .
 
 ## Integration type
 
-The Snyk plugin supports scheduled event integration which are listed in the following table.
+The Snyk plug-in supports scheduled event integration which are listed in the following table.
 
 ### Scheduled Events
 
@@ -14,7 +14,7 @@ The Snyk plugin supports scheduled event integration which are listed in the fol
 |SyncSnykDataEvent               |Queries the Snyk data for the organisation.                  |
 
 ## Integration
-The method to integrate the plugin:
+The method to integrate the plug-in:
 - Using the user interface
 
 The tables in the Configuration properties topic describe the properties used to define the integration.
@@ -31,7 +31,7 @@ The tables in the Configuration properties topic describe the properties used to
 The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the property name when using a JSON file.
 
 * The General Configuration Properties table describes configuration properties used by all plug-in integrations.
-* The Snyk Plugin Configuration Properties table describes the Snyk configuration properties that define the connection and communications with the Snyk server.
+* The Snyk plug-in Configuration Properties table describes the Snyk configuration properties that define the connection and communications with the Snyk server.
 
 Some properties might not be displayed in the user interface, to see all properties enable the `Show Hidden Properties` field.
 
@@ -41,7 +41,7 @@ Some properties might not be displayed in the user interface, to see all propert
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------- |
 | Integration Name               | An assigned name to the value stream.                                                                                           | Yes      | name          |
 | Logging Level                  | The level of Log4j messages to display in the log file. Valid values are: all, debug, info, warn, error, fatal, off, and trace. | No       | loggingLevel  |
-| HCL Accelerate User Access Key | An auto-generated user access key provides credentials for communicating with the HCL Accelerate server.                        | Yes      | NA            |
+| UrbanCode Velocity User Access Key | An auto-generated user access key provides credentials for communicating with the UrbanCode Velocity server.                        | Yes      | NA            |
 
 ### Snyk properties
 
@@ -49,7 +49,7 @@ Some properties might not be displayed in the user interface, to see all propert
 | --------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------- |
 | Personal Access Token | String | The token to use to authenticate with the Snyk server.                                                                                           | Yes      |
 | Organisation IDs      | String | At least one Snyk organisation ID should be provided . For adding multiple IDs , separate IDs by a line .                                        | Yes      |
-| Project Names         | String | Add Snyk project names to run plugin for specific projects (line separated) . By default it will get data for all projects in the organisation . | No       |
+| Project Names         | String | Add Snyk project names to run plug-in for specific projects (line separated) . By default it will get data for all projects in the organisation . | No       |
 
 
 |Back to ...||Latest Version|Snyk |||

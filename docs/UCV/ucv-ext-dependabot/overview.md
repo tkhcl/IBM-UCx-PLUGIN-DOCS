@@ -1,11 +1,11 @@
 
 # GitHub Dependabot - Overview
 
-The GitHub Dependabot plugin imports repository vulnerability data from GitHub server into HCL Accelerate. It scans for existing GitHub integrations and retrieves data only for those particular GitHub repositories . The Plugin works on repository level and imports data for entire repository .
+The GitHub Dependabot plug-in imports repository vulnerability data from GitHub server into UrbanCode Velocity. It scans for existing GitHub integrations and retrieves data only for those particular GitHub repositories . The Plugin works on repository level and imports data for entire repository .
 
 ## Compatibility
 
-This plug-in requires UrbanCode Velocity version 2.5.0 and later. The plugin works on top of GitHub Plugin so at least one GitHub integration should be already there .
+This plug-in requires UrbanCode Velocity version 2.5.0 and later. The plug-in works on top of GitHub plug-in so at least one GitHub integration should be already there .
 
 ## Versions
 
@@ -16,7 +16,7 @@ DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-dependabot/tags).
 
 ### Version 1.0.2
 
-- Syncs with GitHub Plugin to get Dependency Vulnerabilities
+- Syncs with GitHub plug-in to get Dependency Vulnerabilities
 - Show data in metrics bar
 - Show data in insights
 - Used GraphQL queries

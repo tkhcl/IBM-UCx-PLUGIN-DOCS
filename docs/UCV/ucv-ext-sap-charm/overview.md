@@ -1,13 +1,13 @@
 
 # SAP ChaRM - Overview
 
-- Plugin sync SAP Normal Changes in SAP’s Change Request Management with Jira issues
-- Fetch all Jira issues using the provided JQL Query , for each Jira issue plugin checks whether Charm ID is already there or not . If not , it creates a Charm ID for each issue 
+- Plug-in sync SAP Normal Changes in SAP’s Change Request Management with Jira issues
+- Fetch all Jira issues using the provided JQL Query , for each Jira issue plug-in checks whether Charm ID is already there or not . If not , it creates a Charm ID for each issue 
 - In user input , user specifies Custom field name in Jira where they have stored Transport ID 
 - If Transport ID is not there , then in SAP status changes to “In Development” using the Charm ID
-- Jira status and HCL Accelerate’s VSM status changes as the SAP Charm ID’s status changes 
-- Charm ID and Transport ID will be shown as “labels” in HCL Accelerate
-- Plugin will sync in every 5 min
+- Jira status and UrbanCode Velocity’s VSM status changes as the SAP Charm ID’s status changes 
+- Charm ID and Transport ID will be shown as “labels” in UrbanCode Velocity
+- Plug-in will sync in every 5 min
 
 
 ## Compatibility
@@ -26,6 +26,6 @@ DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-bitbucket-cloud/tags).
 - Initial release: syncs SAP Normal changes with Jira issues
 
 
-|Back to ...||Latest Version|SAP ChaRM |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.2.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-sap-charm/ucv-ext-sap-charm:1.0.1.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|Back to ...||Latest Version|SAP ChaRM ||
+| :---: | :---: | :---: | :---: | :---: | 
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.2.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-sap-charm/ucv-ext-sap-charm:1.0.1.tar.7z.001)|[Readme](README.md)|[Downloads](downloads.md)|

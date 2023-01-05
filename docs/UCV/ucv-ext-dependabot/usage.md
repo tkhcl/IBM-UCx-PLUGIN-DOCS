@@ -1,11 +1,11 @@
 
 # GitHub Dependabot - Usage
 
-To use the GitHub Dependabot plugin, the plugin must be loaded only if you an existing GitHub integration . The GitHub Dependabot data is imported only if Dependabot alerts are enabled for the repository .
+To use the GitHub Dependabot plug-in, the plug-in must be loaded only if you an existing GitHub integration . The GitHub Dependabot data is imported only if Dependabot alerts are enabled for the repository .
 
 ## Integration type
 
-The GitHub Dependabot plugin supports scheduled event integration which are listed in the following table.
+The GitHub Dependabot plug-in supports scheduled event integration which are listed in the following table.
 
 ## Scheduled events
 |Name	|Description|
@@ -13,7 +13,7 @@ The GitHub Dependabot plugin supports scheduled event integration which are list
 |syncDependabotDataEvent	|Queries the GitHub Dependabot alerts for the repository.|
 
 ## Integration
-The method to integrate the plugin:
+The method to integrate the plug-in:
 
 - Using the user interface
 
@@ -21,7 +21,7 @@ The tables in the Configuration properties topic describe the properties used to
 
 ### Using the user interface
 1. From the Plugins page, click **Settings > Integrations > Plugins**.
-2. Under the Action column for the plugin, click **Add Integration**.
+2. Under the Action column for the plug-in, click **Add Integration**.
 3. On the Add Integration page, enter values for the fields used to configure the integration and define communication.
 4. Click **Save**.
 
@@ -40,7 +40,7 @@ Some properties might not be displayed in the user interface, to see all propert
 | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------- |
 | Integration Name | An assigned name to the value stream.                                                                                                   | Yes      | name          |
 | Logging Level    | The level of Log4j messages to display in the log file. Valid values are: all, debug, info, warn, error, fatal, off, and trace.         | No       | loggingLevel  |
-| UrbanCode Velocity User Access Key|An auto-generated user access key provides credentials for communicating with the HCL Accelerate server.                |Yes       |NA             |
+| UrbanCode Velocity User Access Key|An auto-generated user access key provides credentials for communicating with the UrbanCode Velocity server.                |Yes       |NA             |
 
 ### GitHub Dependabot properties
 

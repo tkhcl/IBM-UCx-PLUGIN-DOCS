@@ -1,7 +1,7 @@
 
 # Planview Leankit - Overview
 
-The Planview LeanKit plugin imports data from Planview LeanKit server into IBM UrbanCode Velocity.
+The Planview LeanKit plug-in imports data from Planview LeanKit server into IBM UrbanCode Velocity.
 
 
 ## Compatibility

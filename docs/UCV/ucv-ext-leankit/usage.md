@@ -1,11 +1,11 @@
 
 # Planview Leankit - Usage
 
-To use the Planview LeanKit plugin, the plugin must be loaded and an instance created before you can configure the plugin integration. You define configuration properties in the user interface.
+To use the Planview LeanKit plug-in, the plug-in must be loaded and an instance created before you can configure the plug-in integration. You define configuration properties in the user interface.
 
 ## Integration type
 
-The Planview LeanKit plugin supports scheduled events integration which is listed in the following table.
+The Planview LeanKit plug-in supports scheduled events integration which is listed in the following table.
 
 ### Scheduled Events
 
@@ -38,13 +38,13 @@ Some properties might not be displayed in the user interface, to see all propert
 
 | Name                           | Description                                                                                                                                                         | Required | Property Name |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------- |
-| NA                             | The version of the plugin that you want to use. To view available versions, click the Version History tab. If a value is not specified, the latest version is used. | No       | image         |
+| NA                             | The version of the plug-in that you want to use. To view available versions, click the Version History tab. If a value is not specified, the latest version is used. | No       | image         |
 | Integration Name               | An assigned name to the value stream.                                                                                                                               | Yes      | name          |
 | Logging Level                  | The level of Log4j messages to display in the log file. Valid values are: all, debug, info, warn, error, fatal, off, and trace.                                     | No       | loggingLevel  |
 | NA                             | List of configuration properties used to connect and communicate with the Planview LeanKit server. Enclose the properties within braces.                            | Yes      | properties    |
 |                                | The name of the tenant.                                                                                                                                             | Yes      | tenant_id     |
-| NA                             | Unique identifier assigned to the plugin. The value for the Planview LeanKit plugin is `ucv-ext-leankit`.                                                           | Yes      | type          |
-| HCL Accelerate User Access Key | The auto-generated User Access Key that the containerized plugin will use to communicate with HCL Accelerate (support starts with plugin v2.0.30 or later).         | Yes      | ucvAccessKey  |
+| NA                             | Unique identifier assigned to the plug-in. The value for the Planview LeanKit plug-in is `ucv-ext-leankit`.                                                           | Yes      | type          |
+| UrbanCode Velocity User Access Key | The auto-generated User Access Key that the containerized plug-in will use to communicate with UrbanCode Velocity (support starts with plugin v2.0.30 or later).         | Yes      | ucvAccessKey  |
 
 ### Planview LeanKit properties
 
@@ -53,7 +53,7 @@ Some properties might not be displayed in the user interface, to see all propert
 | URL             | String | The URL of the Planview LeanKit server.                                                                                                                                                                          | Yes      |
 | Private Token   | Secure | The token to authenticate with Planview LeanKit server.                                                                                                                                                          | Yes      |
 | Board IDS       | Array  | The Planview LeanKit board ID to pull the data from Planview LeanKit board. To pull data from multiple boards, enter the board ID’s separated with comma. For example, 1400100201, 1112053040, 1999999789.       | No       |
-| User Access Key | Secure | The user access key to authenticate with HCL Acclerate server. This property is applicable for HCL Accelerate version earlier to 2.4.0.                                                                          | No       |
+| User Access Key | Secure | The user access key to authenticate with UrbanCode Velocity server. This property is applicable for UrbanCode Velocity version earlier to 2.4.0.                                                                          | No       |
 
 
 |Back to ...||Latest Version|Planview Leankit |||
