@@ -1,14 +1,5 @@
 
-OpenShift - Overview
-====================
-
-# Overview
-
-
-### Overview
-
-
-
+# OpenShift - Overview
 
 The OpenShift source configuration plug-in supports creating component version from OpenShift.
 

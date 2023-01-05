@@ -1,9 +1,7 @@
 
-IBM InfoSphere DataStage - Downloads
-====================================
+# IBM InfoSphere DataStage - Downloads
 
-# Downloads
-
+To download the plug-in, click the following version-specific links.
 - [datastage-9.998792.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/datastage/datastage-9.998792.zip)
 - [datastage-8.983808.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/datastage/datastage-8.983808.zip)
 - [datastage-7.981341.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/datastage/datastage-7.981341.zip)

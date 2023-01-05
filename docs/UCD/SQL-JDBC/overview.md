@@ -1,6 +1,5 @@
 
-SQL-JDBC - Overview
-===================
+# SQL-JDBC - Overview
 
 The SQL-JDBC plug-in automates SQL script runs by using a JDBC driver in a deploy process.
 

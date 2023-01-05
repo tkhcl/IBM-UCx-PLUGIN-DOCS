@@ -1,6 +1,5 @@
 
-IBM Rational Functional Tester (RFT)
-====================================
+# IBM Rational Functional Tester (RFT)
 
 IBM Rational Functional Tester is an automated functional testing and regression testing tool. This software provides automated testing capabilities for functional, regression, GUI, and data-driven testing.
 

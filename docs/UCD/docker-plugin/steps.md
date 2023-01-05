@@ -1,16 +1,5 @@
 
-Docker - Steps
-==============
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the Docker plug-in
+# Docker - Proces Steps
 
 * [Create Config](#create_config)
 * [Create Image Registry Resource](#create_image_registry_resource)

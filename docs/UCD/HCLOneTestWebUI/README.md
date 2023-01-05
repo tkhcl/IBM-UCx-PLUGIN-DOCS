@@ -1,6 +1,5 @@
 
-HCL OneTest WebUI
-=================
+# HCL OneTest WebUI
 
 The HCL OneTest WebUI plug-in for UrbanCode Deploy provides a step to run functional tests on the same system in which HCL OneTest WebUI is installed.
 
@@ -9,8 +8,7 @@ The HCL OneTest WebUI plug-in for UrbanCode Deploy provides a step to run functi
 * This plug-in works with HCL OneTest 9.2.1 or higher.
 
 
-Available Steps
----------------
+### Available Steps
 
 Run WebUI Functional Test
 

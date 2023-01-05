@@ -1,6 +1,5 @@
 
-z/OS Shell
-==========
+# z/OS Shell
 
 The z/OS Shell plug-in is for the z/OS only operating system. It performs the same functions as the [Shell plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Shell/) for UrbanCode Deploy. The plug-in reduces the CPU consumption in the z/OS environment by using Java code instead of Groovy code.
 

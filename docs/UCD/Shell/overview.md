@@ -1,14 +1,5 @@
 
-Shell - Overview
-================
-
-# Overview
-
-
-### Overview
-
-
-
+# Shell - Overview
 
 The Shell plug-in includes steps that run commands on the target system. You can run a command with or without arguments.
 

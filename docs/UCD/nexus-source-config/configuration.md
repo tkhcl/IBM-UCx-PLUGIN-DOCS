@@ -1,13 +1,5 @@
 
-Nexus Source Config - Configuration
-===================================
-
-# Configuration
-
-
-### Configuration
-
-
+# Nexus Source Config - Configuration
 
 
 #### Overview

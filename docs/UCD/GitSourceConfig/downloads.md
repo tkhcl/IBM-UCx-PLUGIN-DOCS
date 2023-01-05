@@ -1,8 +1,7 @@
 
-Git - Downloads
-===============
+# Git - Downloads
 
-# Downloads
+To download the plug-in, click the following version-specific links.
 
 - [ucd-GitSourceConfig-23.1131566.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/GitSourceConfig/ucd-GitSourceConfig-23.1131566.zip)
 - [ucd-GitSourceConfig-22.1128772.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/GitSourceConfig/ucd-GitSourceConfig-22.1128772.zip)

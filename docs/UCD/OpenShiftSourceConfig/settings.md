@@ -1,14 +1,5 @@
 
-OpenShift - Settings
-====================
-
-# Settings
-
-
-### Settings
-
-
-
+# OpenShift - Settings
 
 ### Import Version
 

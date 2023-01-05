@@ -1,6 +1,5 @@
 
-BMC Remedy Action Request System
-================================
+# BMC Remedy Action Request System
 
 Create, update, and check entries in BMC Remedy Action Request System. The plug-in depends on the arapi.jar file that is installed with BMC Remedy Action Request System and the path to that file must be specified as a step property (the plug-in should be run on the same system BMC Remedy Action Request System is installed on).
 
@@ -10,16 +9,15 @@ Create, update, and check entries in BMC Remedy Action Request System. The plug-
 * This plug-in is supported to run against a BMC Remedy Action Request System v7.1 or higher
 
 
-Available Steps
----------------
+### Available Steps
 
-Check EntryCheck an entry in a form in BMC Remedy.
+Check Entry: Check an entry in a form in BMC Remedy.
 
-Create EntryCreate an entry in a form in BMC Remedy.
+Create Entry: Create an entry in a form in BMC Remedy.
 
-Import DefinitionsImport the definitions from a file to the server. Objects already defined will be replaced. Administrator privleges on the server are required for this command.
+Import Definitions: Import the definitions from a file to the server. Objects already defined will be replaced. Administrator privleges on the server are required for this command.
 
-Update EntryUpdate an entry in a form in BMC Remedy.
+Update Entry: Update an entry in a form in BMC Remedy.
 
 
 

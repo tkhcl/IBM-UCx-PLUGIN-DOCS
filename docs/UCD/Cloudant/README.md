@@ -1,6 +1,5 @@
 
-Cloudant
-========
+# Cloudant
 
 The Cloudant Plugin is an automation based plugin. It is used to manage documents stored in Cloudant.
 

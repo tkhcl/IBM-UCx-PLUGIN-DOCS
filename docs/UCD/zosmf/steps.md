@@ -1,16 +1,5 @@
 
-z/OS Management Facility - Steps
-================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the zOSMF plug-in
+# z/OS Management Facility - Process Steps
 
 * [Create Workflow](#create_workflow)
 * [Run Published Software Service Template](#run_published_software_service_template)

@@ -1,16 +1,5 @@
 
-Microsoft IIS MS-Deploy (Azure App Service) - Steps
-===================================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the Microsoft IIS MS-Deploy plug-in
+# Microsoft IIS MS-Deploy (Azure App Service) - Process Steps
 
 * [Delete](#delete)
 * [Recycle Application](#recycle_application)

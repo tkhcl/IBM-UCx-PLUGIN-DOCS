@@ -1,14 +1,5 @@
 
-Microsoft TFS Work Items - Overview
-===================================
-
-# Overview
-
-
-### Overview
-
-
-
+# Microsoft TFS Work Items - Overview
 
 The Microsoft TFS Work Items plug-in automates the management of work items from the Term Foundation Server database.
 

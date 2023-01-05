@@ -1,13 +1,5 @@
 
-Groovy - Steps
-==============
-
-# Steps
-
-
-### Steps
-
-
+# Groovy - Steps
 
 
 Process steps in the Groovy plug-in:

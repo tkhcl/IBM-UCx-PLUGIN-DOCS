@@ -1,16 +1,5 @@
 
-Microsoft TFS_SCM (Team Foundation Server) - Settings
-=====================================================
-
-# Settings
-
-
-### Settings
-
-
-
-
-### Process steps in the TFS\_SCM plug-in
+# Microsoft TFS_SCM (Team Foundation Server) - Settings
 
 * [Import Version](#import_version)
 

@@ -1,13 +1,5 @@
 
-Kubernetes - Overview
-=====================
-
-# Overview
-
-
-### Overview
-
-
+# Kubernetes - Overview
 
 The Kubernetes plug-in includes steps with interact with Kubernetes resources in IBM UrbanCode Deploy.
 

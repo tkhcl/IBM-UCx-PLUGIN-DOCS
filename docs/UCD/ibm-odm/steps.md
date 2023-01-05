@@ -1,16 +1,6 @@
 
-IBM Operational Decision Manager (ODM) - Steps
-==============================================
+#  IBM Operational Decision Manager (ODM) - Process Steps
 
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the IBM ODM plug-in
 
 * [Delete XOM](#delete_data_model)
 * [Delete Rule Archive](#delete_rule_archive)

@@ -1,6 +1,5 @@
 
-Docker
-======
+# Docker
 
 Docker automates the deployment of applications inside Linux containers. This plug-in maps Docker images to components in IBM UrbanCode Deploy. The included component template provides a process for running Docker containers.
 

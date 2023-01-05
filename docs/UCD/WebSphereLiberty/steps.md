@@ -1,16 +1,5 @@
 
-IBM WebSphere Liberty - Steps
-=============================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the WebSphere Liberty plug-in
+# IBM WebSphere Liberty - Process Steps
 
 * [Create Collective](#create_collective)
 * [Create Server](#create_server)

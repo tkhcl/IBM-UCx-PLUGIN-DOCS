@@ -1,15 +1,5 @@
 
-WebSphere Application Server - Configure - Roles
-================================================
-
-# Roles
-
-
-### Roles
-
-
-
-### Roles in the WebSphere Application Server Configure plug-in
+# WebSphere Application Server - Configure - Roles
 
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
 

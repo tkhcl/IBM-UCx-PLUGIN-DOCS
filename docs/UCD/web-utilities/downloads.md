@@ -1,9 +1,7 @@
 
-Web Utilities - Downloads
-=========================
+# Web Utilities - Downloads
 
-# Downloads
-
+To download the plug-in, click the following version-specific links.
 - [web-utilities-17.1148552.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/ucd-web-utilities-17.1148552.zip)
 - [web-utilities-17.1138530.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/ucd-web-utilities-17.1138530.zip)
 - [web-utilities-16.1107121.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/web-utilities-16.1107121.zip)

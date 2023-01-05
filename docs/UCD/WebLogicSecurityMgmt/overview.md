@@ -1,14 +1,5 @@
 
-Oracle WebLogic Server Security Management - Overview
-=====================================================
-
-# Overview
-
-
-### Overview
-
-
-
+# Oracle WebLogic Server Security Management - Overview
 
 The Oracle WebLogic Security Management plug-in automates the management of security features on an Oracle WebLogic server.
 

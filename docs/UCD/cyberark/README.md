@@ -1,6 +1,5 @@
 
-CyberArk
-========
+# CyberArk
 
 This is a partner provided plugin.
 
@@ -11,8 +10,7 @@ If you encounter issues with the plug-in or want to send feedback, take one of t
 * Ask CyberArk plug-in specific questions on the [GitHub Issues](https://github.com/cyberark/urbancode-conjur-aim/issues) page.
 * For general plug-in issues, submit questions to the [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins
 
-Available Steps
----------------
+# Available Steps
 
 Get Password from CCP (Web Service) Retrieve a password from CyberArk AIM Central Credential Provider via an HTTP request. The Central Credential Provider is installed remote to the agent on a central IIS server. This step will set the CyberArk/username, CyberArk/address, and CyberArk/password properties at either the component process request level or the generic process request level.
 

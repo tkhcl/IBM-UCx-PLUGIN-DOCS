@@ -1,12 +1,5 @@
 
-WebSphere Application Server - Configure - Troubleshooting
-==========================================================
-
-# Troubleshooting
-
-
-### Troubleshooting
-
+# WebSphere Application Server - Configure - Troubleshooting
 
 
 * [DB2 errors](#db2_errors)

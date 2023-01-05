@@ -1,8 +1,7 @@
 
-IBM WebSphere Liberty - Downloads
-=================================
+# IBM WebSphere Liberty - Downloads
 
-# Downloads
+To download the plug-in, click the following version-specific links.
 - [ucd-WebSphereLiberty-22.1134888.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/ucd-WebSphereLiberty-22.1134888.zip)
 - [WebSphereLiberty-21.1100824.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/WebSphereLiberty-21.1100824.zip)
 - [WebSphereLiberty-21.1056525.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/WebSphereLiberty-21.1056525.zip)

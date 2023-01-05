@@ -1,9 +1,6 @@
 
-# PowerShell - Steps
+# PowerShell - Process Steps
 
-## Steps
-
-### Process steps in the Powershell Integration plug-in
 
 * [Run PowerShell Script](#run_powershell_script)
 

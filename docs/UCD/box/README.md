@@ -1,6 +1,5 @@
 
-Box
-===
+# Box
 
 Box is a file sharing and management cloud service. Using Box you can create, edit, review, and securely share documents and files on any device.
 
@@ -17,8 +16,7 @@ If you encounter issues with the plug-in, or want to send feedback:
 * For general plug-in issues, submit questions to our [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: ucdev | urbancode | plugins
 
 
-Available Steps
----------------
+### Available Steps
 
 Create App User Create Folder Get File Download Url Request App User Authentication Request Enterprise Authentication Upload File
 

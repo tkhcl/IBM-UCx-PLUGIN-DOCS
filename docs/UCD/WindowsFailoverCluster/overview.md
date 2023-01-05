@@ -1,14 +1,5 @@
 
-Microsoft Windows Failover Clusters - Overview
-==============================================
-
-# Overview
-
-
-### Overview
-
-
-
+# Microsoft Windows Failover Clusters - Overview
 
 This plug-in provides steps that manage the nodes in a Windows physical failover cluster. The steps can start and stop the cluster service on all nodes in the cluster or on specific nodes.
 ### Compatibility

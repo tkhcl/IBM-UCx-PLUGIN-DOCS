@@ -1,13 +1,5 @@
 
-Microsoft IIS MS-Deploy (Azure App Service) - Overview
-======================================================
-
-# Overview
-
-
-### Overview
-
-
+# Microsoft IIS MS-Deploy (Azure App Service) - Overview
 
 
 The Web Deploy tool (msdeploy) simplifies the migration, management and deployment of IIS web servers, web applications, websites, and Azure App Service websites.

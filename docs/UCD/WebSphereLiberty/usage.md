@@ -1,7 +1,6 @@
 
 # IBM WebSphere Liberty - Usage
 
-## Usage
 
 - [IBM WebSphere Liberty - Usage](#ibm-websphere-liberty---usage)
   - [Usage](#usage)

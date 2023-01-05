@@ -1,8 +1,5 @@
-# IBM Maximo - Steps
+# IBM Maximo - Process Steps
 
-## Steps
-
-### Process steps in the Maximo plug-in
 
 - Deploy Package
 - Upload Package

@@ -1,16 +1,6 @@
 
-F5 BIG-IP - Steps
-=================
+# F5 BIG-IP - Process Steps
 
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the F5 plug-in
 
 * [Add Pool Member](#add_pool_member)
 * [Confirm Disabled Node](#confirm_disabled_node)

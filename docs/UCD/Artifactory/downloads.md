@@ -1,9 +1,7 @@
 
-Artifactory - Downloads
-=======================
+# Artifactory - Downloads
 
-# Downloads
-
+To download the plug-in, click the following version-specific links.
 - [ucd-Artifactory-22.1126875.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Artifactory/ucd-Artifactory-22.1126875.zip)
 - [Artifactory-21.1098499.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Artifactory/Artifactory-21.1098499.zip)
 - [Artifactory-20.993061.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Artifactory/Artifactory-20.993061.zip)

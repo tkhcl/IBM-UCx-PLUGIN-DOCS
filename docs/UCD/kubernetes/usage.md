@@ -1,12 +1,5 @@
 
-Kubernetes - Usage
-==================
-
-# Usage
-
-
-### Usage
-
+# Kubernetes - Usage
 
 Use this plug-in to work with resources and images in Kubernetes.
 

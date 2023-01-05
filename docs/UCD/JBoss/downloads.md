@@ -1,9 +1,7 @@
 
-JBoss Application Server - Downloads
-====================================
+# JBoss Application Server - Downloads
 
-# Downloads
-
+To download the plug-in, click the following version-specific links.
 - [ucd-JBoss-24.1144778.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JBoss/ucd-JBoss-24.1144778.zip)
 - [JBoss-23.1108451.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JBoss/JBoss-23.1108451.zip)
 - [JBoss-22.1095836.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JBoss/JBoss-22.1095836.zip)

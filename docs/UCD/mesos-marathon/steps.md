@@ -1,16 +1,5 @@
 
-Mesos Marathon - Steps
-======================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the Mesos Marathon plug-in
+# Mesos Marathon - Process Steps
 
 * [Kill Tasks](#kill_tasks)
 * [Launch Application](#launch_application)

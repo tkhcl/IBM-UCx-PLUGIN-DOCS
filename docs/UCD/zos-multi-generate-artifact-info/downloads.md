@@ -1,7 +1,6 @@
 # z/OS Multi Generate Artifact Information - Downloads
 
----
-
+To download the plug-in, click the following version-specific links.
 - [ucd-plugins-zos-multi-generate-artifact-info-6.1132902.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-6.1132902.zip)
 - [ucd-plugins-zos-multi-generate-artifact-info-6.1132811.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-6.1132811.zip)
 - [ucd-plugins-zos-multi-generate-artifact-info-5.1126660.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-5.1126660.zip)

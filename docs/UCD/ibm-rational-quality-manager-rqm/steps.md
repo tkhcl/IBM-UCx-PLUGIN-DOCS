@@ -1,14 +1,5 @@
 
-IBM Rational Quality Manager (RQM) - Steps
-==========================================
-
-# Steps
-
-
-### Steps
-
-
-
+# IBM Rational Quality Manager (RQM) - Steps
 
 ### Process steps in the Rational Quality Manager plug-in
 

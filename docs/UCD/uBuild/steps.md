@@ -1,16 +1,5 @@
 
-IBM UrbanCode uBuild - Steps
-============================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the uBuild plug-in
+# IBM UrbanCode uBuild - Process Steps
 
 * [Assign Label](#assign_label)
 * [Assign Status](#assign_status)

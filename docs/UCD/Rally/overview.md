@@ -1,14 +1,5 @@
 
-Rally for IBM UrbanCode Deploy - Overview
-=========================================
-
-# Overview
-
-
-### Overview
-
-
-
+# Rally for IBM UrbanCode Deploy - Overview
 
 The Rally plug-in for IBM UrbanCode Deploy includes steps that modify existing Rally issues and create Rally defects.
 

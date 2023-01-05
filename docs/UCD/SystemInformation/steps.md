@@ -1,16 +1,6 @@
 
-System Information - Steps
-==========================
+System Information - Process Steps
 
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the System Information plug-in
 
 * [Check Available Disk Space](#check_available_disk_space)
 * [Check Connectivity](#check_connectivity)

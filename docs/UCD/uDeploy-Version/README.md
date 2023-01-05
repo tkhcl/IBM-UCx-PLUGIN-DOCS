@@ -1,8 +1,7 @@
 
-IBM UrbanCode Deploy Versions
-=============================
+# IBM UrbanCode Deploy Versions
 
-This plugin provides capabilities for editing Component Versions in IBM UrbanCode Deploy.
+This plug-in provides capabilities for editing Component Versions in IBM UrbanCode Deploy.
 
 
 |Back to ...||Latest Version||||

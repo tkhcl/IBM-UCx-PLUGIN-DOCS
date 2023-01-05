@@ -1,16 +1,5 @@
 
-Oracle WebLogic Server Security Management - Steps
-==================================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the WLS Security Management plug-in
+# Oracle WebLogic Server Security Management - Process Steps
 
 - [Oracle WebLogic Server Security Management - Steps](#oracle-weblogic-server-security-management---steps)
 - [Steps](#steps)

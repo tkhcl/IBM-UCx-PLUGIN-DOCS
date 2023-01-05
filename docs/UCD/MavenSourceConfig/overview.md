@@ -1,13 +1,5 @@
 
-Maven - Overview
-================
-
-# Overview
-
-
-### Overview
-
-
+# Maven - Overview
 
 
 The Maven plug-in automates importing of artifacts from a Maven repository. To use the plug-in, create a component defining the repository connection information and artifacts to be imported.

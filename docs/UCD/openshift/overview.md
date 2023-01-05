@@ -1,12 +1,5 @@
 
-OpenShift for IBM UrbanCode Deploy - Overview
-=============================================
-
-# Overview
-
-
-### Overview
-
+# OpenShift for IBM UrbanCode Deploy - Overview
 
 
 The OpenShift plug-in includes steps to interact with OpenShift applications in IBM UrbanCode Deploy.

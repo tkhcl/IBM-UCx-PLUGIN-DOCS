@@ -1,13 +1,5 @@
 
-Sybase - Overview
-=================
-
-# Overview
-
-
-### Overview
-
-
+# Sybase - Overview
 
 The Sybase plugin provides steps to integrate with a Sybase Adaptive Server Enterprise relational database server.
 

@@ -1,16 +1,6 @@
 
-Chef - Steps
+# Chef - Process steps
 ============
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the Chef plug-in
 
 * [Install Chef](#install_chef)
 * [Install Chef Node](#install_chef_node)

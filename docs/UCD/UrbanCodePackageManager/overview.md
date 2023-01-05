@@ -1,14 +1,5 @@
 
-IBM UrbanCode Package Manager - Overview
-========================================
-
-# Overview
-
-
-### Overview
-
-
-
+# IBM UrbanCode Package Manager - Overview
 
 This plug-in includes steps that create, install, and remove packages.
 

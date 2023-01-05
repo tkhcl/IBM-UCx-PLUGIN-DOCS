@@ -1,14 +1,5 @@
 
-IBM Rational Integration Tester (RIT) - Usage
-=============================================
-
-# Usage
-
-
-### Usage
-
-
-
+# IBM Rational Integration Tester (RIT) - Usage
 
 Use the Rational Integration Tester plug-in to continuously initiate integration tests from IBM UrbanCode Deploy.
 

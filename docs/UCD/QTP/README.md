@@ -1,6 +1,5 @@
 
-HP Unified Functional Testing (QTP)
-===================================
+# HP Unified Functional Testing (QTP)
 
 HP QuickTest Professional provides functional and regression test automation for software applications and environments, and can be used for enterprise quality assurance.
 
@@ -9,8 +8,7 @@ The QTP plugin executes QTP tests and can set a status of fail on a deployment i
 Refer to the linked documentation for platform requirements.
 
 
-Available Steps
----------------
+### Available Steps
 
 Refer to the documentation link on right for a complete set of steps.
 

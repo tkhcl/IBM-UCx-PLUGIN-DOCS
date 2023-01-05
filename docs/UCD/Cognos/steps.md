@@ -1,16 +1,5 @@
 
-IBM Cognos - Steps
-==================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the Cognos plug-in
+# IBM Cognos - Process Steps
 
 * [Export](#export)
 * [Import](#import)

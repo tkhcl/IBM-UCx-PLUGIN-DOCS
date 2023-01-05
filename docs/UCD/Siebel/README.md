@@ -1,6 +1,5 @@
 
-Siebel
-======
+# Siebel
 
 Siebel is a customer relationship management (CRM) system that is produced by Oracle.
 

@@ -1,16 +1,6 @@
 
-IBM Containers - Steps
-======================
+# IBM Containers - Process Steps
 
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the Cloud Foundry IBM Containers plug-in
 
 * [Bind IP Address](#bind_ip_address)
 * [Build Image from Dockerfile](#build_image_from_dockerfile)

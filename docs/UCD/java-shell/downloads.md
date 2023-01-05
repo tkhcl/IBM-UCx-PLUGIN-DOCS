@@ -1,6 +1,7 @@
 
-z/OS Shell - Downloads
-======================
+# z/OS Shell - Downloads
+
+To download the plug-in, click the following version-specific links.
 
 - [ucd-java-shell-2.1133862.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/java-shell/ucd-java-shell-2.1133862.zip)
 - [ucd-java-shell-1.1133860.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/java-shell/ucd-java-shell-1.1133860.zip)

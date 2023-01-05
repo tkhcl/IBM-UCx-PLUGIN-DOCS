@@ -1,6 +1,5 @@
 
-z/OS USS Utility - Overview
-===========================
+# z/OS USS Utility - Overview
 
 The z/OS USS Utility plug-in automates the manipulation of files and directories. This plug-in runs on an z/OS Mainframe System supported by the IBM UrbanCode Deploy agent.
 

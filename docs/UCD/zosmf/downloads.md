@@ -1,9 +1,7 @@
 
-z/OS Management Facility - Downloads
-====================================
+# z/OS Management Facility - Downloads
 
-# Downloads
-
+To download the plug-in, click the following links.
 - [zosmf-14.1098512.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zosmf/zosmf-14.1098512.zip)
 - [zosmf-14.1041082.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zosmf/zosmf-14.1041082.zip)
 - [zosmf-13.1038208.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zosmf/zosmf-13.1038208.zip)

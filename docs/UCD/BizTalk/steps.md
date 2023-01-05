@@ -1,16 +1,6 @@
 
-Microsoft BizTalk - Steps
-=========================
+# Microsoft BizTalk - Process steps
 
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the Biztalk plug-in
 
 * [Add Biztalk Application](#add_biztalk_application)
 * [Add Biztalk Resource](#add_biztalk_resource)

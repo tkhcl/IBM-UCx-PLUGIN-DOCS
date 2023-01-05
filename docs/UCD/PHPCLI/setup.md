@@ -1,13 +1,5 @@
 
-IBM UrbanCode PHP CLI Tool - Setup
-==================================
-
-# Setup
-
-
-### Setup
-
-
+# IBM UrbanCode PHP CLI Tool - Setup
 
 
 To run any of the commands provided by UrbanCode PHP CLI , a few steps are needed in order to make the scripts work properly

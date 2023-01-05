@@ -1,16 +1,5 @@
 
-IBM BigFix - Steps
-==================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the BigFix plug-in
+# IBM BigFix - Process Steps
 
 * [Start Action](#start_action)
 

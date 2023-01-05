@@ -1,15 +1,5 @@
 
-Kubernetes - Steps
-==================
-
-# Steps
-
-
-### Steps
-
-
-
-### Process steps in the Kubernetes plug-in
+# Kubernetes - Process Steps
 
 * [Apply Resources](#apply_resources)
 * [Auto Scale](#auto_scale)

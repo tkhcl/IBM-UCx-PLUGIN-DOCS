@@ -1,8 +1,7 @@
 
-Oracle SQLPlus - Downloads
-==========================
+# Oracle SQLPlus - Downloads
 
-# Downloads
+To download the plug-in, click the following version-specific links.
 
 - [ucd-SQLPlus-22.1126471.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLPlus/ucd-SQLPlus-22.1126471.zip)
 - [SQLPlus-21.1124890.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLPlus/SQLPlus-21.1124890.zip)

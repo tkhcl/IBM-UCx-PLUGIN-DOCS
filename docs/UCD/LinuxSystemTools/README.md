@@ -1,12 +1,10 @@
 
-Linux System Tools
-==================
+# Linux System Tools
 
 Developed by UrbanCode, the Linux Tools plugin allows Urban CodeDeploy to automate various Linux system commands; such as rebooting the operating system and setting file permissions.
 
 
-Available Steps
----------------
+# Available Steps
 
 **Add group:**Add a user group to this Linux machine.
 

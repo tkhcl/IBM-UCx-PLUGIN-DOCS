@@ -1,13 +1,5 @@
 
-WinRS Agent Install - Overview
-==============================
-
-# Overview
-
-
-### Overview
-
-
+# WinRS Agent Install - Overview
 
 
 The WinRS Agent Install plug-in installs agents on Windows systems through WinRS. It contains a single step, which installs an agent. This step is equivalent to installing an agent from the server with the WinRS option.
@@ -28,7 +20,7 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 #### Version 10
 
-Plugin updates to install Web agents
+Plug-in updates to install Web agents
 
 #### Version 9
 
@@ -38,7 +30,7 @@ Compatibility update to match 6.2.7.2+ UCD server.
 
 #### Version 7
 
-Plugin now obfuscates WinRS service password.
+Plug-in now obfuscates WinRS service password.
 
 #### Version 6
 

@@ -1,16 +1,5 @@
 
-Oracle WebLogic WLDeploy - Steps
-================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the Oracle WebLogic WLDeploy plug-in
+# Oracle WebLogic WLDeploy - Process Steps
 
 * [Check Application on Targets](#check_application_on_targets)
 * [Check Targets](#check_targets)

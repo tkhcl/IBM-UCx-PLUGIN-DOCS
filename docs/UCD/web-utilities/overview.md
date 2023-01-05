@@ -1,14 +1,5 @@
 
-Web Utilities - Overview
-========================
-
-# Overview
-
-
-### Overview
-
-
-
+# Web Utilities - Overview
 
 Use the Web Utilities plug-in to send HTTP requests to web servers in IBM UrbanCode Deploy processes.
 

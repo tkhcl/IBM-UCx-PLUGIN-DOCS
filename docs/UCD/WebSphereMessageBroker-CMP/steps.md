@@ -1,16 +1,5 @@
 
-IBM Integration Bus (formerly WebSphere Message Broker) - CMP - Steps
-=====================================================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the WebSphere Message BrokerCMP plug-in
+# IBM Integration Bus (formerly WebSphere Message Broker) - CMP - Process Steps
 
 * [Create Execution Group](#create_execution_group)
 * [Create Integration Node](#create_integration_node)

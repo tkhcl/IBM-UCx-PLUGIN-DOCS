@@ -1,9 +1,5 @@
 
-# WebSphere Application Server - Configure - Steps
-
-## Steps
-
-### Process steps in the WAS Configure plug-in
+# WebSphere Application Server - Configure - Process Steps
 
 - [WebSphere Application Server - Configure - Steps](#websphere-application-server---configure---steps)
   - [Steps](#steps)

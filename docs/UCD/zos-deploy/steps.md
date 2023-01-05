@@ -1,9 +1,5 @@
 
-# z/OS Utility - Steps
-
----
-
-### Process steps in the zOS Utility plug-in
+# z/OS Utility - Process Steps
 
 * [Allocate Data Set](#allocate-data-set)
 * [Allocate Data Set From Existing](#allocate-data-set-from-existing)
@@ -308,10 +304,10 @@ Wait for a submitted job to complete. **Note:** Using passphrase in place of pas
 Deletes a dataset PDS or Sequential.
 
 
-| Name         | Type   | Description                                                                                                                                                                                                          | Required |
-|--------------|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| Dataset Name | String | Name of the dataset to be deleted. If the single quotation marks are omitted, the user’s data set prefix from the TSO profile is automatically appended to the front of the dataset name. Wildcards are not allowed. | Yes      |
-| Members List | String | Specify only members to be deleted from the PDS. Separate member names with a newline. PDS is deleted if no members are specified.                                                                                   | No       |
+| Name         | Type   | Description                                                                                                                                                                                                                                                                                                                                                             | Required |
+|--------------|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| Dataset Name | String | Name of the datasets to be deleted. It can be a sequential dataset or PDS member or PDS. Separate dataset names with a newline. If the single quotation marks are omitted, the user's data set prefix from the TSO profile is automatically appended to the front of the dataset name. Wildcards are not allowed. GDGs with relative generation number are not allowed. | Yes      |
+| Members List | String | Specify members to be deleted from the only PDS mentioned in Datasets input. Separate member names with a newline.                                                                                                                                                                                                                                                      | No       |
 
 ### Cleanup Backup Files
 
@@ -330,4 +326,4 @@ All the properties in the step are __hidden properties__
 
 |          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |||||
 |:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [74.1140702](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-74.1140702.zip) | [Readme](README.md) |[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [76.1149314](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-76.1149314.zip) | [Readme](README.md) |[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Downloads](downloads.md)|

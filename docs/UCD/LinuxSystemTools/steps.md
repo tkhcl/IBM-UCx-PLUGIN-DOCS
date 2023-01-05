@@ -1,15 +1,5 @@
 
-Linux System Tools - Steps
-==========================
-
-# Steps
-
-
-### Steps
-
-
-
-### Process steps in the Linux System Tools plug-in
+# Linux System Tools - Process Steps
 
 * [Add group](#add_group)
 * [Add user](#add_user)

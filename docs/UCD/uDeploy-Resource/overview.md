@@ -1,16 +1,5 @@
 
-IBM UrbanCode Deploy Resources - Overview
-=========================================
-
-# Overview
-
-
-### Overview
-
-
-
-
-### Overview
+# IBM UrbanCode Deploy Resources - Overview
 
 This plug-in contains steps that work with resources, such as agents.
 

@@ -1,22 +1,20 @@
 
-IBM UrbanCode Package Manager
-=============================
+# IBM UrbanCode Package Manager
 
-Plugin integration for Urbancode Package Manager.
+Plug-in integration for Urbancode Package Manager.
 
 
-Available Steps
----------------
+### Available Steps
 
-Create PackageCreate package from files.
+Create Package: Create package from files.
 
-Install PackageInstall package on target.
+Install Package: Install package on target.
 
-Rollback PackageRollback package on target.
+Rollback Package: Rollback package on target.
 
-Uninstall PackageUninstall package on target.
+Uninstall Package: Uninstall package on target.
 
-Verify InstallVerify installed files.
+Verify Install: Verify installed files.
 
 
 

@@ -1,11 +1,5 @@
 
-WebSphere Application Server - Configure - Example Applications
-===============================================================
-
-# Example Applications
-
-
-### Example Applications
+# WebSphere Application Server - Configure - Example Applications
 
 
 
@@ -14,15 +8,13 @@ You can work with two types of applications:
 * [Example IBM UrbanCode Deploy applications](#UCD-example)
 * [Example WebSphere Application Server plug-in example applications](#WAS_plugin-ex)
 
-Example IBM UrbanCode Deploy applications
-=========================================
+### Example IBM UrbanCode Deploy applications
 
 #### Plants by WebSphere
 
 The `Plants1_artifacts.zip` file contains an example IBM UrbanCode Deploy application that creates and configures a WebSphere cluster, and then installs the PlantsByWebSphere application on the cluster. The processes in the UrbanCode Deploy application use the multiplicity feature to create the cluster. See [Installing Plants by WebSphere](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2022/06/16/example-installing-the-plantsbywebsphere-applicati).
 
-Example WebSphere Application Server plug-in example applications
-=================================================================
+### Example WebSphere Application Server plug-in example applications
 
 The WebSphere Application Server Configure plug-in includes applications that you can use as examples for managing WebSphere Application Server configurations in IBM UrbanCode Deploy.
 
@@ -34,7 +26,7 @@ This application includes processes that demonstrate how to manage WebSphere App
 
 This application does not include processes. Use this application instead of the previous application to migrate versions of WebSphere Application Server with IBM UrbanCode Deploy. This application is not installed with the WebSphere Application Server Configure plug-in. You must manually import this application into IBM UrbanCode Deploy. [Download the application (JSON file)](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/WebSphereConfiguration/SampleApplications/WebSphereConfigurationExampleMigrationApplication.json).
 
-To learn more about migrating versions, see [Migrating WebSphere Application Server versions with IBM UrbanCode Deploy](https://www.urbancode.com/resource/migrating-websphere-application-server-versions-with-ibm-urbancode-deploy/).
+To learn more about migrating versions, see [Migrating WebSphere Application Server versions with IBM UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/01/04/migrating-websphere-application-server-versions-wi).
 
 #### WebSphere Configuration Example Application Snippets for Individual Configuration Objects
 

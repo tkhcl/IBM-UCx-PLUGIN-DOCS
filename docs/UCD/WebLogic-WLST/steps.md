@@ -1,16 +1,5 @@
 
-Oracle WebLogic Scripting Tool (WLST) - Steps
-=============================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the Oracle WebLogic Scripting Tool (WLST) plug-in
+# Oracle WebLogic Scripting Tool (WLST) - Process Steps
 
 * [Check Server Status](#check_server_status)
 * [Deploy](#deploy)

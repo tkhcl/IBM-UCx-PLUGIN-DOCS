@@ -1,9 +1,7 @@
 
-IBM Business Process Manager (WebSphere BPM) - Downloads
-========================================================
+# IBM Business Process Manager (WebSphere BPM) - Downloads
 
-# Downloads
-
+To download the plug-in, click the following version-specific links.
 - [WebSphereBPMSourceConfig-8.1056527.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereBPMSourceConfig/WebSphereBPMSourceConfig-8.1056527.zip)
 - [WebSphereBPMSourceConfig-8.1053077.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereBPMSourceConfig/WebSphereBPMSourceConfig-8.1053077.zip)
 - [WebSphereBPMSourceConfig-7.1026789.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereBPMSourceConfig/WebSphereBPMSourceConfig-7.1026789.zip)

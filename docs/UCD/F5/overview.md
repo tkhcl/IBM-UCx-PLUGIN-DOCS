@@ -1,13 +1,5 @@
 
-F5 BIG-IP - Overview
-====================
-
-# Overview
-
-
-### Overview
-
-
+# F5 BIG-IP - Overview
 
 
 This plug-in includes steps that work with nodes and pools in the F5 BIG-IP family of products. The plug-in communicates with the F5 BIG-IP systems by using the iControl API.

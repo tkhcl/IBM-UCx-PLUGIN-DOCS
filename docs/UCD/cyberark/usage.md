@@ -1,13 +1,5 @@
 
-CyberArk - Usage
-================
-
-# Usage
-
-
-### Usage
-
-
+# CyberArk - Usage
 
 
 ### Process Request Properties

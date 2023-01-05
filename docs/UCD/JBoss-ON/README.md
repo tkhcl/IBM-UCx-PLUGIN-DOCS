@@ -1,6 +1,5 @@
 
-JBoss-ON
-========
+# JBoss-ON
 
 JBoss Operations Network (JBoss ON) is network management software for deploying, managing, and monitoring JBoss middleware as well as Apache Tomcat, Apache HTTP Server, and other applications and services. The JBoss ON plug-in interacts with the rhq-cli command-line tool to provide access to JBoss ON management tasks. The rhq-cli tool is typically installed in your server’s management GUI.
 
@@ -15,8 +14,7 @@ If you encounter issues with the plug-in, or want to send feedback:
 * If there are no search results, submit your issue as a question to our [answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins | jboss-on
 
 
-Available Steps
----------------
+### Available Steps
 
 Check Status: Check the status of a JBoss ON service. Configure Resources: Configure properties on JBoss ON Resources. Execute JavaScript: Execute a JavaScript file on the JBoss ON server.
 

@@ -1,13 +1,5 @@
 
-MicroFocus ALM (formerly HP Quality Center) - Troubleshooting
-=============================================================
-
-# Troubleshooting
-
-
-### Troubleshooting
-
-
+# MicroFocus ALM (formerly HP Quality Center) - Troubleshooting
 
 
 * [Troubleshooting](#trouble)

@@ -1,6 +1,5 @@
 
-Docker Registry
-===============
+# Docker Registry
 
 Use the Docker source configuration plug-in to manually or automatically create component versions from a Docker registry or the IBM Container Service. The plug-in works by detecting Docker registry image tags and creating associated component versions for the tag.
 

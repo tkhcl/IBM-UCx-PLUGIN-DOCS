@@ -1,16 +1,6 @@
 
-IBM Installation Manager - Steps
-================================
+# IBM Installation Manager - Process Steps
 
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the IBM Installation Manager plug-in
 
 * [Execute Response File](#execute_response_file)
 * [Install or Upgrade IBM Installation Manager](#install_or_upgrade_ibm_installation_manager)

@@ -1,14 +1,5 @@
 
-Oracle WebLogic Scripting Tool (WLST) - Overview
-================================================
-
-# Overview
-
-
-### Overview
-
-
-
+# Oracle WebLogic Scripting Tool (WLST) - Overview
 
 The Oracle WebLogic Scripting Tool (WLST) plug-in automates the deployment and management of applications on Oracle WebLogic Server.
 

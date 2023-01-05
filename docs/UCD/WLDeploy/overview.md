@@ -1,14 +1,5 @@
 
-Oracle WebLogic WLDeploy - Overview
-===================================
-
-# Overview
-
-
-### Overview
-
-
-
+# Oracle WebLogic WLDeploy - Overview
 
 The Oracle WLDeploy plug-in automates managing and deploying applications to one or more WebLogic servers. You can complete the following tasks with the plug-in:
 

@@ -1,9 +1,7 @@
 
-Apache Tomcat - Downloads
-=========================
+# Apache Tomcat - Downloads
 
-# Downloads
-
+To download the plug-in, click the following version-specific links.
 - [Tomcat-7.1107438.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Tomcat/Tomcat-7.1107438.zip)
 - [Tomcat-7.1056532.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Tomcat/Tomcat-7.1056532.zip)
 - [Tomcat-7.868953.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Tomcat/Tomcat-7.868953.zip)

@@ -1,17 +1,5 @@
 
-Perforce Helix - Settings
-=========================
-
-# Settings
-
-
-### Settings
-
-
-
-
-### Settings in the Perforce Helix plug-in
-
+# Perforce Helix - Settings
 
 ### Create Component
 

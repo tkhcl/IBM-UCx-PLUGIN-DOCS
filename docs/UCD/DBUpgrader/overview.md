@@ -1,13 +1,5 @@
 
-IBM UrbanCode DBUpgrader - Overview
-===================================
-
-# Overview
-
-
-### Overview
-
-
+# IBM UrbanCode DBUpgrader - Overview
 
 
 The DBUpgrader plug-in helps you manage database changes including schema updates and rollbacks. Use this plug-in to automate database changes in IBM UrbanCode Deploy. The plug-in uses a proprietary formatted XML file in conjunction with a version table in your database that tracks what changes have been applied. This plug-in is used when you upgrade UrbanCode Deploy Applications.

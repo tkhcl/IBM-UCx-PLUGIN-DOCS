@@ -1,16 +1,5 @@
 
-IBM UrbanCode Release - Steps
-=============================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the IBM UrbanCode Release plug-in
+# IBM UrbanCode Release - Process Steps
 
 * [Add Comment to Task](#add_comment_to_task)
 * [Add Snapshot Status](#add_snapshot_status)

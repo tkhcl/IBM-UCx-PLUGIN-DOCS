@@ -1,6 +1,5 @@
 
-IBM Rational Test Workbench Web UI Tester
-=========================================
+# IBM Rational Test Workbench Web UI Tester
 
 IBM® Rational® Test Workbench provides a comprehensive test automation solution for functional testing, regression testing, integration technologies and performance and scalability testing. It helps you build intelligent and interconnected enterprise applications that can be deployed on traditional and cloud infrastructures.
 

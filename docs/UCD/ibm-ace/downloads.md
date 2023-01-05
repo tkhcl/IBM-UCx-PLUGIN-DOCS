@@ -1,8 +1,7 @@
 
-App Connect Enterprise - Downloads
-==================================
+# App Connect Enterprise - Downloads
 
-# Downloads
+To download the plug-in, click the following version-specific links.
 
 - [ucd-plugins-ibm-ace-11.1149154.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-ace/ucd-plugins-ibm-ace-11.1149154.zip)
 - [ucd-plugins-ibm-ace-10.1143319.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-ace/ucd-plugins-ibm-ace-10.1143319.zip)

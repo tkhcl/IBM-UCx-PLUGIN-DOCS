@@ -1,6 +1,5 @@
 
-IBM UrbanCode Release
-=====================
+# IBM UrbanCode Release
 
 This plug-in provides several steps for retrieving and updating information in IBM UrbanCode Release from your IBM UrbanCode Deploy processes, allowing for tighter integration and easier tracking of release status.
 
@@ -10,20 +9,19 @@ This plug-in provides several steps for retrieving and updating information in I
 * This plug-in is supported to run against IBM UrbanCode Release v6.0.1.2 or higher
 
 
-Available Steps
----------------
+### Available Steps
 
-Add Comment to TaskAdd a comment to an automated task that was started from a scheduled deployment.
+Add Comment to Task: Add a comment to an automated task that was started from a scheduled deployment.
 
-Add Snapshot StatusAdd a version status to a snapshot.
+Add Snapshot Status: Add a version status to a snapshot.
 
-Check Gate StatusCheck if a snapshot is passing the gates for a specific lifecycle.
+Check Gate Status: Check if a snapshot is passing the gates for a specific lifecycle.
 
-Get Release for EnvironmentFind the release that is active for the current environment and save its name as an output property.
+Get Release for Environment: Find the release that is active for the current environment and save its name as an output property.
 
-Sync SnapshotCreate or update a snapshot in IBM UrbanCode Release.
+Sync Snapshot: Create or update a snapshot in IBM UrbanCode Release.
 
-Update ApplicationUpdate the inventory for an application in IBM UrbanCode Release.
+Update Application: Update the inventory for an application in IBM UrbanCode Release.
 
 
 

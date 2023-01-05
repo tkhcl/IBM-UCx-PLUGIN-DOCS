@@ -1,8 +1,5 @@
-# z/OS Multi Generate Artifact Information - Steps
+# z/OS Multi Generate Artifact Information - Process Steps
 
----
-
-Process steps in the zOS Multi Generate Artifact Information plug-in
 
 * [Generate Multiple Artifact Information](#generate-multiple-artifact-information)
 

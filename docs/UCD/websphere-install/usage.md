@@ -1,13 +1,5 @@
 
-WebSphere Application Server - Install - Usage
-==============================================
-
-# Usage
-
-
-### Usage
-
-
+# WebSphere Application Server - Install - Usage
 
 
 **Setting up the UrbanCode Deploy application**

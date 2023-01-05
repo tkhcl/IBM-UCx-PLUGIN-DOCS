@@ -1,8 +1,5 @@
-# CICS TS - Steps
+# CICS TS - Process Steps
 
----
-
-## Process steps in the CICS TS plug-in
 
 - [CICS TS - Steps](#cics-ts---steps)
   - [Process steps in the CICS TS plug-in](#process-steps-in-the-cics-ts-plug-in)

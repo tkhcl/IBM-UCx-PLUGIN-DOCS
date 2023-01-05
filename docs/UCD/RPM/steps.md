@@ -1,16 +1,5 @@
 
-RPM - Steps
-===========
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the RPM plug-in
+# RPM - Process Steps
 
 * [Install RPM](#install_rpm)
 * [Uninstall RPM](#uninstall_rpm)

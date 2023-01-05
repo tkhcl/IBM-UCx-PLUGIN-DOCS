@@ -1,16 +1,5 @@
 
-InfoSphere-ISD - Steps
-======================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the IBM InfoSphere ISD plug-in
+# InfoSphere-ISD - Process Steps
 
 * [Design Time Export](#design_time_export)
 * [Design Time Import](#design_time_import)

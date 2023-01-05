@@ -1,16 +1,5 @@
 
-IBM Business Process Manager (WebSphere BPM) for IBM UrbanCode Deploy - Steps
-=============================================================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the WebSphere BPM plug-in
+# IBM Business Process Manager (WebSphere BPM) for IBM UrbanCode Deploy - Process Steps
 
 * [Create Generic Install Package](#create_generic_install_package)
 * [Deactivate Snapshot](#deactivate_snapshot)

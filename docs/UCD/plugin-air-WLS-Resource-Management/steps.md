@@ -1,16 +1,5 @@
 
-Oracle WebLogic Server Resource Management - Steps
-==================================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the WebLogic Server Resource Management plug-in
+# Oracle WebLogic Server Resource Management - Process Steps
 
 * [Create Capacity](#create_capacity)
 * [Create Connection Factory](#create_connection_factory)

@@ -1,16 +1,5 @@
 
-HP Unified Functional Testing (QTP) - Steps
-===========================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the QTP plug-in
+# HP Unified Functional Testing (QTP) - Process Steps
 
 * [Run QuickTest Pro tests](#run_quicktest_pro_tests)
 

@@ -1,16 +1,5 @@
 
-WebSphere Application Server - Install - Steps
-==============================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the WASInstall plug-in
+# WebSphere Application Server - Install - Process Steps
 
 * [Create Deployment Manager Profile](#create_deployment_manager_profile)
 * [Create Node Profile](#create_node_profile)

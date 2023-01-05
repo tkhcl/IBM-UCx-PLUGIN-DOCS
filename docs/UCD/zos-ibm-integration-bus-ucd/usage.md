@@ -1,14 +1,5 @@
 
-IBM Integration Bus (IIB) plugin Deploy step for zOS - Usage
-============================================================
-
-# Usage
-
-
-### Usage
-
-
-
+# IBM Integration Bus (IIB) plugin Deploy step for zOS - Usage
 
 Refer original plugin documentation for usage of Deploy step. Deploy a BAR File Example
 

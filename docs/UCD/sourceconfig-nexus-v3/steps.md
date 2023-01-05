@@ -1,16 +1,5 @@
 
-Nexus Repository Manager V3 - Steps
-===================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the Nexus Repository Manager V3 plug-in
+# Nexus Repository Manager V3 - Process Steps
 
 * [Import Version](#import_version)
 

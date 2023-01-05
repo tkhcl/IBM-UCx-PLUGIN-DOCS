@@ -1,14 +1,5 @@
 
-Nexus Source Config - Overview
-==============================
-
-# Overview
-
-
-### Overview
-
-
-
+# Nexus Source Config - Overview
 
 The Nexus Source Config plug-in for IBM UrbanCode Deploy enables the import of Maven artifacts from Release and Snapshot repositories.
 

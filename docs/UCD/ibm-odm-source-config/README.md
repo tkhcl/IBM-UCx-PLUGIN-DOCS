@@ -1,6 +1,5 @@
 
-IBM Operational Decision Manager (ODM) Source Config
-====================================================
+# IBM Operational Decision Manager (ODM) Source Config
 
 The IBM Operational Decision Manager (ODM) source configuration plug-in supports below authentication:
 

@@ -1,8 +1,7 @@
 
-Microsoft IIS AppCmd - Downloads
-================================
+# Microsoft IIS AppCmd - Downloads
 
-# Downloads
+To download the plug-in, click the following version-specific links.
 
 - [IIS-AppCmd-6.1108801.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IIS-AppCmd/ucd-IIS-AppCmd-7.1138456.zip)
 - [IIS-AppCmd-6.1108801.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IIS-AppCmd/IIS-AppCmd-6.1108801.zip)

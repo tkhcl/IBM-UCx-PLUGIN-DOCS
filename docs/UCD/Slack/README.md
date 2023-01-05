@@ -1,6 +1,5 @@
 
-Slack
-=====
+# Slack
 
 
 Slack is a team collaboration tool. This plug-in sends deployment notifications to Slack in a specified channel.
@@ -21,8 +20,7 @@ If you encounter issues with the plug-in, or want to send feedback:
 * For general plug-in issues, submit questions to our [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion).Use the following tags: urbancode | ucdev | plugins
 
 
-Available Steps
----------------
+### Available Steps
 
 Post Notification to Slack Post Attachment Notification to Slack
 

@@ -1,6 +1,5 @@
 
-z/OS Shell - Usage
-==================
+# z/OS Shell - Usage
 
 Use z/OS Shell plug-in to run a Shell script as part of the deployment process. The plug-in step contains the scripts.
 

@@ -1,14 +1,5 @@
 
-Microsoft Windows System Tools - Usage
-======================================
-
-# Usage
-
-
-### Usage
-
-
-
+# Microsoft Windows System Tools - Usage
 
 Use the Windows System Tools plug-in to automate a number of systems tools for the Microsoft Windows operating system.
 

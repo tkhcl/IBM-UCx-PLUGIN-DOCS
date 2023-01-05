@@ -1,14 +1,5 @@
 
-Subversion-Export - Overview
-============================
-
-# Overview
-
-
-### Overview
-
-
-
+# Subversion-Export - Overview
 
 The Subversion-Export plug-in automates accessing data from a Subversion directory. This plug-in includes the following step:
 

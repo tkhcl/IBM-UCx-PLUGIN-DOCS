@@ -1,16 +1,7 @@
 
-HP LoadRunner - Overview
-========================
+# HP LoadRunner - Overview
 
-# Overview
-
-
-### Overview
-
-
-
-
-The HP LoadRunner plugin provides steps to integrate with HP LoadRunner. Using this plugin you can run test scenarios, analyze the results, and generate an HTML report.
+The HP LoadRunner plug-in provides steps to integrate with HP LoadRunner. Using this plugin you can run test scenarios, analyze the results, and generate an HTML report.
 
 This plug-in includes the following step:
 
@@ -20,11 +11,11 @@ This plug-in includes the following step:
 
 This plug-in requires IBM UrbanCode Deploy version 6.0 or later.
 
-You must run this plugin in an agent environment with an instance of HP LoadRunner installed. This means that the agent running the plugin steps must be installed on your HP LoadRunner machine.
+You must run this plug-in in an agent environment with an instance of HP LoadRunner installed. This means that the agent running the plugin steps must be installed on your HP LoadRunner machine.
 
 ### Installation
 
-Installing this plugin requires no special steps. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+Installing this plug-in requires no special steps. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
 
 ### History
 

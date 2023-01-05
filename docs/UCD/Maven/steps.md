@@ -1,15 +1,6 @@
 
-Maven Resolve - Steps
-=====================
+# Maven Resolve - Process Steps
 
-# Steps
-
-
-### Steps
-
-
-
-### Process steps in the Maven Resolve plug-in
 
 * [Maven Resolve](#maven_resolve)
 

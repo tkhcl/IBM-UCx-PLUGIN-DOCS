@@ -1,16 +1,5 @@
 
-IBM Rational Test Virtualization Server (RTVS) - Steps
-======================================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the IBM Rational Test WorkbenchService Virtualization plug-in
+# IBM Rational Test Virtualization Server (RTVS) - Process Steps
 
 * [Create Transient Environment](#create_transient_environment)
 * [Delete Transient Environment](#delete_transient_environment)

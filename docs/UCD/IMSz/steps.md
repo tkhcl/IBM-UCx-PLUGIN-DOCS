@@ -1,13 +1,5 @@
 
-IBM IMS - Steps
-===============
-
-# Steps
-
-
-### Steps
-
-
+# IBM IMS - Steps
 
 
 ### Process steps in the IMS plug-in

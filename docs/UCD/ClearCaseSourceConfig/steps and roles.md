@@ -1,14 +1,5 @@
 
-IBM Rational ClearCase - Steps and Roles
-========================================
-
-# Steps and Roles
-
-
-### Steps and Roles
-
-
-
+# IBM Rational ClearCase - Process Steps and Roles
 
 ### Process steps in the ClearCase plug-in
 

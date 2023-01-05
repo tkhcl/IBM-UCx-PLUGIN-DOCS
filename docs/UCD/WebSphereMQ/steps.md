@@ -1,17 +1,5 @@
 
-IBM-MQ - Steps
-==============
-
-# Steps
-
-
-### Steps
-
-
-
-
-Process steps in the WebSphereMQ plug-in
-----------------------------------------
+# IBM-MQ - Process Steps
 
 * [Alter Client-Connection Channel](#alter_client-connection_channel)
 * [Alter Queue](#alter_queue)

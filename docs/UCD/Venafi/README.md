@@ -1,6 +1,5 @@
 
-Venafi
-======
+# Venafi
 
 
 The Venafi Trust Protection Platform provides continuous monitoring and control over keys and certificates across different devices. The Venafi plug-in for IBM UrbanCode Deploy contains various steps to control Venafi certificates.
@@ -9,8 +8,7 @@ The Venafi Trust Protection Platform provides continuous monitoring and control 
 The Venafi plug-in is a community plug-in. Community plug-ins are open source projects that are developed and supported by the IBM UrbanCode development community. Click **Visit Project** at the top of the page to go to the project for further information.
 
 
-Downloads:
-----------
+### Downloads:
 
 * [Source project](https://github.com/UrbanCode/Venafi-UCD)
 
@@ -21,32 +19,31 @@ If you encounter issues with the plug-in, or want to send feedback:
 * For general plug-in issues, submit questions to the [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins
 
 
-Available Steps
----------------
+### Available Steps
 
-Authentication testTest the communication with the Venafi server.
+Authentication test: Test the communication with the Venafi server.
 
-Generate certificate CSRCreate a certificate signing request that may then be submitted to Venafi.
+Generate certificate CSR: Create a certificate signing request that may then be submitted to Venafi.
 
-Get Certificate StatusGet information about a certificate from Venafi.
+Get Certificate Status: Get information about a certificate from Venafi.
 
-Get Venafi PolicyRetrieve the details of the Venafi policy associated with a specific policy folder.
+Get Venafi Policy: Retrieve the details of the Venafi policy associated with a specific policy folder.
 
-Renew CertificateRenew a certificate.
+Renew Certificate: Renew a certificate.
 
-Request CertifcateRequest a certificate from TPP.
+Request Certifcate: Request a certificate from TPP.
 
-Request Certificate WaitRequest a certificate from TPP and poll for to get the status for issuance.
+Request Certificate Wait: Request a certificate from TPP and poll for to get the status for issuance.
 
-Retrieve CertificateRetrieve a certificate from TPP. Certificate already exists.
+Retrieve Certificate: Retrieve a certificate from TPP. Certificate already exists.
 
-Revoke CertificateRevoke a certificate.
+Revoke Certificate: Revoke a certificate.
 
-Submit Custom Fields to VenafiSupplement a previously submitted certificate request with custom field values.
+Submit Custom Fields to Venafi: Supplement a previously submitted certificate request with custom field values.
 
-Submit CSR to VenafiSubmit the previously created CSR to Venafi for processing.
+Submit CSR to Venafi: Submit the previously created CSR to Venafi for processing.
 
-Validate Remaining DaysValidate the remaining days of a certificate before expiry. If the certificate is valid for less than the indicated number of days then the step will fail.
+Validate Remaining Days: Validate the remaining days of a certificate before expiry. If the certificate is valid for less than the indicated number of days then the step will fail.
 
 
 

@@ -1,16 +1,5 @@
 
-IBM Rational Functional Tester (RFT) - Steps
-============================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the IBM Rational Test WorkbenchFunctional Tester plug-in
+# IBM Rational Functional Tester (RFT) - Process Steps
 
 * [Run Functional Test](#run_functional_test)
 

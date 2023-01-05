@@ -1,14 +1,5 @@
 
-JBoss Application Server - Usage
-================================
-
-# Usage
-
-
-### Usage
-
-
-
+# JBoss Application Server - Usage
 
 ### Example: Deploying an application on JBoss Application Server
 

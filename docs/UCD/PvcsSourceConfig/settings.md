@@ -1,16 +1,6 @@
 
-PVCS - Settings
-===============
+# PVCS - Settings
 
-# Settings
-
-
-### Settings
-
-
-
-
-### Settings in the PVCS plug-in
 
 ### Create Component
 

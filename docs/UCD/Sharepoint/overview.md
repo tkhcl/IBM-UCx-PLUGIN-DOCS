@@ -1,14 +1,5 @@
 
-Microsoft SharePoint - Overview
-===============================
-
-# Overview
-
-
-### Overview
-
-
-
+# Microsoft SharePoint - Overview
 
 Microsoft SharePoint is a web application platform for common enterprise web requirements.
 

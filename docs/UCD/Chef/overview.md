@@ -1,16 +1,6 @@
 
-Chef - Overview
-===============
+# Chef - Overview
 
-# Overview
-
-
-### Overview
-
-
-
-
-### Overview
 
 Chef is a tool for automating deployment tasks. The Chef plug-in includes a step that installs Chef and a step that uses Chef to install a Chef node on a system.
 

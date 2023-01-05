@@ -1,16 +1,5 @@
 
-TeamCity - Steps
-================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the TeamCity plug-in
+# TeamCity - Process Steps
 
 * [Import Version](#import_version)
 

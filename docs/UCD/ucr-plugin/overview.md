@@ -1,14 +1,5 @@
 
-IBM UrbanCode Release - Overview
-================================
-
-# Overview
-
-
-### Overview
-
-
-
+# IBM UrbanCode Release - Overview
 
 Use the IBM UrbanCode Release plug-in to manage the integration of IBM UrbanCode Deploy with IBM UrbanCode Release. The plug-in includes steps to retrieve the active release for an environment, add comments to tasks, add statuses to snapshots and updating the IBM UrbanCode Release inventory for an application.
 

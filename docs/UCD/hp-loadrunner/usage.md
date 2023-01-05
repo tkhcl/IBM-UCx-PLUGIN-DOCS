@@ -1,13 +1,5 @@
 
-HP LoadRunner - Usage
-=====================
-
-# Usage
-
-
-### Usage
-
-
+# HP LoadRunner - Usage
 
 
 * [Default UCD Analysis Template](#default-ucd-analysis-template)
