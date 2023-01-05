@@ -23,8 +23,29 @@ DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-bitbucket-cloud/tags).
 
 ### Version 2.2.1
 
-- Initial release: syncs SAP Normal changes with Jira issues
+- Manage multiple Transport IDs
+- Jira UI improvements
 
+### Version 1.2.1
+
+- Added multiple Transport ID creation
+- Other fixes
+
+### Version 1.1.1
+
+- Added ATC checks and details
+
+### Version 1.0.3
+
+- Minor Improvements
+
+### Version 1.0.2
+
+- Initial release syncs SAP Normal changes with Jira issues
+
+### Version 1.0.1
+
+- Initial release syncs SAP Normal changes with Jira issues
 
 |Back to ...||Latest Version|SAP ChaRM ||
 | :---: | :---: | :---: | :---: | :---: | 
