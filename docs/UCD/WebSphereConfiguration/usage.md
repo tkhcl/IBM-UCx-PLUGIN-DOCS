@@ -44,11 +44,11 @@ These pages provide usage information about this plug-in:
 
 ## Components
 
-* [Creating components for use with the WebSphere Application Server Configure plug-in](https://www.urbancode.com/resource/creating-components-for-use-with-the-websphere-application-server-configure-plug-in/)
+* [Creating components for use with the WebSphere Application Server Configure plug-in](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/01/05/creating-components-for-use-with-the-websphere-app)
 
 ## WebSphere Application Server discovery
 
-* [Limiting the scope of WebSphere Application Server discovery](https://www.urbancode.com/resource/limiting-the-scope-of-websphere-application-server-discovery/)
+* [Limiting the scope of WebSphere Application Server discovery](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/01/05/limiting-the-scope-of-websphere-application-server)
 
 ## Creating a WebSphere Application Server from a process
 
@@ -56,7 +56,7 @@ These pages provide usage information about this plug-in:
 
 ## Partial Configuration Changes
 
-* [Drawbacks of using the Partial Apply/Remove Steps](https://www.urbancode.com/resource/drawbacks-of-using-partial-apply-remove/)
+* [Drawbacks of using the Partial Apply/Remove Steps](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/01/05/drawbacks-of-using-partial-applyremove)
 * [Applying and removing partial configurations](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2022/07/06/applying-and-removing-partial-configurations/)
 * Video: [Partial Apply and Partial Remove Steps](https://youtu.be/I6H3daJ6XSc)
 
