@@ -20,6 +20,14 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 14
+
+Fixes APAR PH27500 - Shell step will now use AGENT_HOME/var/temp as the temporary directory.
+
+#### Version 13
+
+Updating jettison library for CVE-2022-40150 CVE-2022-40149
+
 #### Version 12
 
 Update log4j 2.17.
