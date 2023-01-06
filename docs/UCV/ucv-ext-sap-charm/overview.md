@@ -17,7 +17,7 @@ This plug-in requires UrbanCode Velocity version 2.5.0 and later.
 ## Versions
 
 UrbanCode Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode
-DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-bitbucket-cloud/tags).
+DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-sap-charm/tags).
 
 ## History
 

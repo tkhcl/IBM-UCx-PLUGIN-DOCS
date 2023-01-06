@@ -30,7 +30,7 @@
 	- [Jira](#jira)
 	- [Microsoft Visual Studio Testing](#microsoft-visual-studio-testing)
 	- [urbancode-velocity](#urbancode-velocity)
-	- [Planview Leankit] (#planview-leankit)
+	- [Planview Leankit](#planview-leankit)
 	- [Rally](#rally)
 	- [Rational Test Automation Server](#rational-test-automation-server)
 	- [SAP ChaRM](#sap-charm)

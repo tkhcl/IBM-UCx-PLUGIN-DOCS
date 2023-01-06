@@ -8,9 +8,10 @@ To use the GitHub Dependabot plug-in, the plug-in must be loaded only if you an 
 The GitHub Dependabot plug-in supports scheduled event integration which are listed in the following table.
 
 ## Scheduled events
-|Name	|Description|
+
+|Name|Description|
 |---|---|
-|syncDependabotDataEvent	|Queries the GitHub Dependabot alerts for the repository.|
+|syncDependabotDataEvent|Queries the GitHub Dependabot alerts for the repository.|
 
 ## Integration
 The method to integrate the plug-in:
