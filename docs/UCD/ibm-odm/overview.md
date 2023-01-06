@@ -22,6 +22,10 @@ No special steps are required for installation. See [Installing plug-ins in IBM 
 
 ### History
 
+#### Version 15
+
+* Fixed issue to support both oauth and basic auth .
+
 #### Version 14
 
 * RFE - URBANCODE-I-395 - Implement oAuth .
@@ -76,4 +80,4 @@ Version 11 of the plug-in includes updates from RFE 104196:
 
 |Back to ...||Latest Version|IBM Operational Decision Manager (ODM) ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[14.1143098](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm/ucd-ibm-odm-14.1143098.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[15.1149406](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm/ucd-ibm-odm-15.1149406.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

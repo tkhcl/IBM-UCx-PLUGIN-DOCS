@@ -335,7 +335,6 @@ IBM App Connect Enterprise (ACE) combines the technologies of IBM Integration Bu
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-ace/README.md)|[11.1149154](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-ace/ucd-plugins-ibm-ace-11.1149154.zip)|
 
 
-
 ## Apple Xcode  [community plugin]
 
 Overview The Apple Xcode plug-in includes steps that manage the continuous delivery of Apple iOS applications by interacting with simulators and devices. These steps include tasks that are related to installing and removing the application on devices and simulators, and running tests as part of a DevOps solution. The plug-in also includes steps for creating and deleting simulators.
@@ -1016,7 +1015,7 @@ Overview IBM® Operational Decision Manager (ODM) is a full-featured, easy-to-us
 
 |Back to ...||IBM Operational Decision Manager (ODM) |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-odm/README.md)|[14.1143098](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm/ucd-ibm-odm-14.1143098.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-odm/README.md)|[15.1149406](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm/ucd-ibm-odm-15.1149406.zip)|
 
 ## IBM Operational Decision Manager (ODM) Source Config
 
@@ -1026,7 +1025,7 @@ The IBM Operational Decision Manager (ODM) source configuration plug-in includes
 
 |Back to ...||IBM Operational Decision Manager (ODM) Source Config |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-odm-source-config/README.md)|[13.1143099](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm-source-config/ucd-ibm-odm-source-config-13.1143099.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-odm-source-config/README.md)|[14.1149407](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm-source-config/ucd-ibm-odm-source-config-14.1149407.zip)|
 
 ## IBM Rational Asset Manager
 
