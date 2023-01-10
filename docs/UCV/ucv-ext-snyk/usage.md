@@ -1,7 +1,7 @@
 
 # Snyk - Usage
 
-To use the Snyk plug-in, the plug-in must be loaded only if you an existing GitHub / GitLab / Bitbucket integration. The Snyk data is imported only if Snyk scan is performed on the repositories.
+To use the Snyk plug-in, the plug-in must be loaded only if you have an existing GitHub, GitLab, or Bitbucket integration. The Snyk data is imported only if Snyk scan is performed on the repositories.
 
 ## Integration type
 

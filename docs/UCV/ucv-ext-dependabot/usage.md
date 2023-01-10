@@ -1,7 +1,7 @@
 
 # GitHub Dependabot - Usage
 
-To use the GitHub Dependabot plug-in, the plug-in must be loaded only if you an existing GitHub integration . The GitHub Dependabot data is imported only if Dependabot alerts are enabled for the repository .
+To use the GitHub Dependabot plug-in, the plug-in must be loaded only if you an existing GitHub integration. The GitHub Dependabot data is imported only if Dependabot alerts are enabled for the repository.
 
 ## Integration type
 
@@ -48,7 +48,7 @@ Some properties might not be displayed in the user interface, to see all propert
 | Name                           | Type   | Description                                                                                                                                                                                          | Required |
 | ------------------------------ | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
 | Personal Access Token          | String | The token to use to authenticate with the GitHub repository.                                                                                                                                         | Yes      |
-| API URL (GraphQL Endpoint Url) | String | For GitHub Enterprise edition , replace it with Enterprise GraphQL endpoint. Eg – http(s)://_\[hostname\]_/api/graphql or use the default value . (Default value :  https://api.github.com/graphql ) | Yes      |
+| API URL (GraphQL Endpoint Url) | String | For GitHub Enterprise edition , replace it with Enterprise GraphQL endpoint. Example: `http(s)://_\[hostname\]_/api/graphql` or use the default value. (Default value :  `https://api.github.com/graphql`) | Yes      |
 | Repositories                   | Array  | List of GitHub repositories as comma separated, Use either Repositories field or name field to specify the repositories .                                                                            | No       |
 
 
