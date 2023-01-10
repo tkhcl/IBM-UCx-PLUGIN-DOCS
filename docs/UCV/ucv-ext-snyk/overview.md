@@ -2,7 +2,7 @@
 # Snyk - Overview
 
 The Snyk plug-in imports repository vulnerability data from Snyk server into UrbanCode Velocity. 
-It scans for existing GitHub , Gitlab or Bitbucket integrations and retrieves data only for those particular repositories. 
+It scans for existing GitHub, Gitlab, or BitBucket integrations and retrieves data only for those particular repositories. 
 The plug-in works on organisational level and imports data for entire organisation . It can import data from multiple organisations.
 
 
@@ -20,7 +20,7 @@ DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-snyk/tags).
 ### Version 1.0.1
 
 - Imports Snyk vulnerability data
-- Works with GitHub,GitLab and Bitbucket integrations
+- Works with GitHub, GitLab, and BitBucket integrations
 - Vulnerabilities will be displayed as Application vulnerabilities in metrics bar
 
 |Back to ...||Latest Version|Snyk |||
