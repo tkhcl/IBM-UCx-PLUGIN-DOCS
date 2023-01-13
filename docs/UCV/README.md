@@ -414,7 +414,7 @@ The Deploy Plugin for UrbanCode Velocity imports deployment data from UrbanCode 
 
 |Back to ...||Urbancode Deploy |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-ucd/README.md)|[1.0.12](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-ucd/ucv-ext-ucd:1.0.12.tar)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-ucd/README.md)|[2.3.52 - File 1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd:2.3.52.tar.7z.001) [2.3.52 - File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd:2.3.52.tar.7z.002)|
 
 ## WhiteSource
 
