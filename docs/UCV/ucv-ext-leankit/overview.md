@@ -15,7 +15,7 @@ DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-leankit/tags).
 
 ## History
 
-### Version 1.0.26
+### Version 1.0.1
 
 * Retrieves Leankit Cards details
 * Fetch multiple board cards
