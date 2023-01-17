@@ -18,6 +18,7 @@
 	- [Digital.ai Agility](#digitalai-agility)
 	- [Fortify SSC](#fortify-ssc)
 	- [GitHub](#github)
+	- [GitHub Dependabot](#github-dependabot)
 	- [GitLab](#gitlab)
 	- [HCL AppScan Enterprise (ASE)](#hcl-appscan-enterprise-ase)
 	- [HCL AppScan on Cloud (ASoC)](#hcl-appscan-on-cloud-asoc)
@@ -29,11 +30,14 @@
 	- [Jira](#jira)
 	- [Microsoft Visual Studio Testing](#microsoft-visual-studio-testing)
 	- [urbancode-velocity](#urbancode-velocity)
+	- [Planview Leankit](#planview-leankit)
 	- [Rally](#rally)
 	- [Rational Test Automation Server](#rational-test-automation-server)
+	- [SAP ChaRM](#sap-charm)
 	- [Selenium](#selenium)
 	- [ServiceNow](#servicenow)
 	- [Shell](#shell)
+	- [Snyk](#snyk)
 	- [SonarQube](#sonarqube)
 	- [TestComplete](#testcomplete)
 	- [TestNG](#testng)
@@ -163,6 +167,16 @@ GitHub is a Git repository hosting service. It provides tools to manage artifact
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-github/README.md)|[1.2.25](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github-1.2.25.tar.zip)|
 
+## GitHub Dependabot
+
+Github Dependabot plug-in scans package dependency vulnerabilities as Dependabot alerts from GitHub.
+
+---
+
+|Back to ...||GitHub Dependabot |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-dependabot/README.md)|[1.0.2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-dependabot/ucv-ext-dependabot:1.0.2.tar.7z.001)|
+
 ## GitLab
 
 GitLab provides management of git repositories. The GitLab plug-in imports issues, commits, merge requests and builds  from a GitLab server.
@@ -274,6 +288,16 @@ With this Jenkins plugin, you can run Jenkins jobs as a part of a deployment pla
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](urbancode-velocity/README.md)|[3.0.0](https://github.com/jenkinsci/urbancode-velocity-plugin/releases/download/3.0.0/urbancode-velocity-3.0.0.hpi)|
 
 
+## Planview Leankit
+
+The Planview Leankit plugin processes incoming data from Planview LeanKit server.
+
+---
+
+|Back to ...||Planview Leankit |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-leankit/README.md)|[1.0.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-leankit/ucv-ext-leankit:1.0.1.tar.7z.001)|
+
 ## Rally
 
 Rally is an Agile project management tool for planning, scheduling, and tracking iterations and releases. The Rally  plug-in provides for integration with a Rally server. It imports Rally artifacts into the UrbanCode Velocity server.
@@ -293,6 +317,16 @@ Rational Test Automation Server is a fully-containerized (Docker) server compone
 |Back to ...||Rational Test Automation Server |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-rtas/README.md)|[1.0.22](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rtas/ucv-ext-rtas-1.0.22.tar.zip)|
+
+## SAP ChaRM
+
+The SAP ChaRM plug-in will sync SAP Normal Changes in SAP's Change Request Management with Jira issues .
+
+---
+
+|Back to ...||SAP ChaRM |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-sap-charm/README.md)|[2.2.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-sap-charm/ucv-ext-sap-charm:2.2.1.tar.7z.001)|
 
 ## Selenium
 
@@ -321,6 +355,16 @@ The Shell plug-in for IBM UrbanCode Velocity automates the task in releases.
 |Back to ...||Shell |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-shell/README.md)|[0.0.7](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-shell-0.0.7.tar.zip)|
+
+## Snyk
+
+The Snyk plug-in scans GitHub , GitLab and Bitbucket repositories package dependency vulnerabilities from Snyk . Works on top of existing GiHub , GitLab or Bitbucket integraions.
+
+---
+
+|Back to ...||Snyk |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-snyk/README.md)|[1.0.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-snyk/ucv-ext-snyk:1.0.1.tar.7z.001)|
 
 ## SonarQube
 
@@ -370,7 +414,7 @@ The Deploy Plugin for UrbanCode Velocity imports deployment data from UrbanCode 
 
 |Back to ...||Urbancode Deploy |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-ucd/README.md)|[1.0.12](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-ucd/ucv-ext-ucd:1.0.12.tar)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-ucd/README.md)|[2.3.52 - File 1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd:2.3.52.tar.7z.001) [2.3.52 - File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd:2.3.52.tar.7z.002)|
 
 ## WhiteSource
 
