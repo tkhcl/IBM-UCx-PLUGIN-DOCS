@@ -1,7 +1,5 @@
 
-AccuRev SCM
-===========
-
+# AccuRev SCM
 
 AccuRev is a client/server based source configuration management tool developed by AccuRev Inc. and maintained by MicroFocus.
 

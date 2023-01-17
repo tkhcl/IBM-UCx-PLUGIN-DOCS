@@ -1,16 +1,8 @@
 
-AccuRev SCM - Steps and Roles
-=============================
-
-# Steps and Roles
+# AccuRev SCM - Steps and Roles
 
 
-### Steps and Roles
-
-
-
-Process steps in the AccuRev plug-in
-------------------------------------
+### Process steps in the AccuRev plug-in
 
 * [Import Version](#import_version)
 
@@ -22,8 +14,7 @@ Creates a new component version and imports artifacts from AccuRev.
 This step has no input properties.
 
 
-Roles in the AccuRev plug-in
-----------------------------
+### Roles in the AccuRev plug-in
 
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
 
