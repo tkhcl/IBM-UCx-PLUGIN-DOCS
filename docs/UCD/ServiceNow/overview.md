@@ -1,13 +1,15 @@
 
 # ServiceNow - Overview
 
+## Details
+
 ServiceNow supports application delivery by integrating service management processes, social collaboration for IT departments, software-as-a-service delivery, and web functionality.
 
 The ServiceNow plug-in includes steps that check approvals and set the status of change requests.
 
 To add the ServiceNow plug-in steps to processes, click **ITSM Process > ServiceNow** in the step palette of the process editor.
 
-Follow this link (https://www.youtube.com/watch?v=7Vp1bnnkOps) to learn how to generate the Client-ID and Client-Secret for authenticating the plugin using Oauth 2.0
+[Follow this link](https://www.youtube.com/watch?v=7Vp1bnnkOps) to learn how to generate the Client-ID and Client-Secret for authenticating the plugin using Oauth 2.0
 
 ### Compatibility
 
@@ -36,7 +38,6 @@ RFE - RFE URBANCODE-I-434: The state details in the logs improved for Check-Chan
 #### Version 29
 
 RFE - Add Oauth 2.0 authentication mechanism to ths plugin.
-
 
 #### Version 28
 
@@ -128,7 +129,6 @@ This version uses manual API checking. This version also enforces tighter passin
 #### Version 10
 
 This version includes a fix for a defect related to the ServiceNow REST API in the Eureka and Fuji releases. This version of the plug-in automatically checks the ServiceNow API version.
-
 
 |Back to ...||Latest Version|ServiceNow |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
