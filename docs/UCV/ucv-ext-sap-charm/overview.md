@@ -12,7 +12,7 @@
 
 ## Compatibility
 
-This plug-in requires UrbanCode Velocity version 3.0.0 and later.
+This plug-in requires UrbanCode Velocity version 3.0.0 or later.
 
 ## Versions
 

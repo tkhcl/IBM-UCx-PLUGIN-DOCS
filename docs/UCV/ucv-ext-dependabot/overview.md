@@ -11,7 +11,7 @@
 
 ## Compatibility
 
-This plug-in requires UrbanCode Velocity version 2.5.0 and later. The plug-in works on top of GitHub plug-in so at least one GitHub integration should be already there.
+This plug-in requires UrbanCode Velocity version 2.5.0 or later. The plug-in works on top of GitHub plug-in so at least one GitHub integration should be already there.
 
 ## Versions
 
