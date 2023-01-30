@@ -6,7 +6,7 @@ The Planview LeanKit plug-in imports data from Planview LeanKit server into IBM 
 
 ## Compatibility
 
-This plug-in requires UrbanCode Velocity version 2.0.0 and later.
+This plug-in requires UrbanCode Velocity version 2.0.0 or later.
 
 ## Versions
 
