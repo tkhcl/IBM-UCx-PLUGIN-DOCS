@@ -185,7 +185,7 @@ GitLab provides management of git repositories. The GitLab plug-in imports issue
 
 |Back to ...||GitLab |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-gitlab/README.md)|[2.0.58](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-gitlab/ucv-ext-gitlab:2.1.58.tar.7z.001)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-gitlab/README.md)|[2.1.63](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-gitlab/ucv-ext-gitlab:2.1.63.tar.7z.001)|
 
 ## HCL AppScan Enterprise (ASE)
 
