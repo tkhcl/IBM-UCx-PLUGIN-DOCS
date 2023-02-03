@@ -15,6 +15,9 @@ DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-bitbucket-cloud/tags).
 
 ## History
 
+### Version 1.0.29
+
+Initial Sync Date Field Added: Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync.
 ### Version 1.0.26
 
 * Removed Manual User Access Key: From current version onwards this plug-in will only support Auto Generated User Access Key feature of UrbanCode Velocity.
@@ -44,4 +47,4 @@ DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-bitbucket-cloud/tags).
 
 |Back to ...||Latest Version|BitBucket Cloud |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.26](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-cloud/ucv-ext-bitbucket-cloud:1.0.26.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.29](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-cloud/ucv-ext-bitbucket-cloud:1.0.29.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
