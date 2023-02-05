@@ -225,7 +225,7 @@ The HCL OneTest Server plug-in imports test results as metrics into the UrbanCod
 
 |Back to ...||HCL OneTest Server |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-onetest-server/README.md)|[1.0.15](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server-1.0.15.tar.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-onetest-server/README.md)|[1.0.17](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server-1.0.17.tar.7z.001)|
 
 ## Handlebar Reporter
 
