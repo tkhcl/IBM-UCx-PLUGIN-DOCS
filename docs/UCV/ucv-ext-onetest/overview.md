@@ -13,6 +13,11 @@ UrbanCode Velocity plug-in images are located in DockerHub. To view available ve
 
 ## History
 
+### Version 1.0.34
+
+* **Preventing Installation on Older Versions**: This version of HCL Onetest Plugin can only be installed on Urbancode Velocity version 3.0.0 and later.
+* **Added Category**:Quality is the category of HCL Onetest plugin.
+
 ### Version 1.0.30
 
 * Updated dataset names
@@ -34,4 +39,4 @@ UrbanCode Velocity plug-in images are located in DockerHub. To view available ve
 
 |Back to ...||Latest Version|HCL OneTest |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.30](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest-1.0.30.tar.zip)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.34](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest-1.0.34.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
