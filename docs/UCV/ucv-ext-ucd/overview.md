@@ -16,7 +16,15 @@ UrbanCode Velocity plug-in images are located in DockerHub. To view available ve
 
 ### Version 2.3.52
 
-* Internal Server Error Fix: The urbancode deploy plugin was giving internal server error while syncing the application processes from the UCD server.
+* **Internal Server Error Fix**: The urbancode deploy plugin was giving internal server error while syncing the application processes from the UCD server.
+
+### Version 2.3.51
+
+* Major Enhancements
+
+### Version 1.0.16
+
+* **Corrected incorrectly spelled plugin name**: In urbancode deploy plugin, display name was incorrectly spelled as Ubrancode deploy. Now corrected to Urbancode deploy.
 
 ### Version 1.0.12
 
