@@ -1,23 +1,18 @@
 
 # z/OS Management Facility - Usage
 
-The following pages provide usage information about this plug-in:
+## The following pages provide usage information about this plug-in
 
 [Discovering Mainframe Software Services Instances](#discovering-mainframe-software-services-instances)
+[Provisioning and Discovering Mainframe Software Services Instances](#provisioning-and-discovering-mainframe-software-services-instances)
 
-[Provisioning and Discovering Mainframe Software Services Instances](#provisioning-discovering-mainframe-software-services-instances)
+## Discovering Mainframe Software Services Instances
 
+* [Before you begin](#before-you-begin-discovering-mainframe-software-services-instances)
+* [Discovering Software Services Instances](#discovering-mainframe-software-services-instances)
+* [Software Services Instances Resources](#software-services-instances-resources)
 
-### Discovering Mainframe Software Services Instances
-
-
-
-
-* [Before you begin](#begin)
-* [Discovering Software Services Instances](#discover)
-* [Software Services Instances Resources](#resources)
-
-### Before you begin
+### Before you begin discovering Mainframe Software Services Instances
 
 * Install the current version of the z/OS Management Facility plug-in.
 * Install an UrbanCode Deploy agent on theLPAR where z/OSMF is running.
@@ -37,11 +32,9 @@ Open zOSMFService resource and click **Configuration**>**Basic Settings**. The r
 
 **Note:** The ID is an MVS user ID with proper permissions setup. To ensure the user ID is working properly, use it to log into the z/OSMF web interface and list the software services instances.
 
-[![](zosmf-specify-userid-password.jpg)](zosmf-specify-userid-password.jpg)
-
+[![](zosmf-specify-userid-password.jpg)](media/zosmf-specify-userid-password.jpg)
 
 Go back to the Resource Tree view, click the**Actions**button that is associated with the zOSMFServiceresource, and then click**Configure using Software Services Instance Discovery**. The discovery step runs. A log displays to show progress.When the discovery process completes, close the log window, and refresh the resource tree.Resources that represent the software services instancesare displayed in the resource tree. Thenew resources are organized in structure `plex\system\software type\instance name`.
-
 
 [![](media/zosmf-discover-step-2.jpg)](media/zosmf-discover-step-2.jpg)
 
@@ -55,18 +48,14 @@ You may add components to the resources and add these resources to an environmen
 
 [![](media/zosmf-property-reference.jpg)](media/zosmf-property-reference.jpg)
 
-
-### Provisioning and Discovering Mainframe Software Services Instances
-
-
-
+## Provisioning and Discovering Mainframe Software Services Instances
 
 Software services instances discovery can be run manually from the resource tree and automatically in an UrbanCode Deployprocess. This document describes a use case where a software instance is provisioned and discovered in a singleautomated UrbanCode Deploy process.
 
-* [Before you begin](#begin)
-* [Create a generic process](#create)
-* [Run the process](#runprocess)
-* [Next steps](#nextsteps)
+* [Before you begin](#before-you-begin)
+* [Create a generic process](#create-a-generic-process)
+* [Run the process](#run-the-process)
+* [Next steps](#next-step)
 
 ### Before you begin
 
@@ -109,7 +98,6 @@ After the process completes, refresh the resource tree.Resources that represent 
 You can now provision a software services instanceand have the resources automatically created in UrbanCode Deploy to represent the subsystem. You can use the resource or you can further enhance theautomation. For example you can map a component to the resource, createenvironment and start initial deployments.
 
 **Note:**If you prefer to usez/OSPTto provision software, you can replace the **Run Published Software Service Template** step with a **Shell** step and input the corresponding z/OSPT commands. You will need to parse the z/OSPT output to find the name of the instance.
-
 
 |Back to ...||Latest Version|z/OS Management Facility ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
