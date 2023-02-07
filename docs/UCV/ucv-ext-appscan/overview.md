@@ -18,6 +18,27 @@ DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-appscan/tags).
 
 ## History
 
+### Version 2.0.41
+
+* **Removed Manual User Access Key**: From current version onwards this plugin will only support Auto Generated User Access Key feature of Urbancode Velocity.
+* **Initial Sync Date Field Added**: Under the hidden properties section of add integration page for the HCL Appscan Enterprise plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync.
+* **Added WorkflowId**: Under the hidden properties section of add integration page for HCL Appscan Enterprise plugin a Workflow ID field is added. This field is optional and can be used to provide Urbancode Velocity WorkflowId - the ID of a Value Stream (VSM )to which HCL Appscan Enterprise vulnerability data is associated.
+* **Preventing Installation on Older Versions**: This version of HCL Appscan Enterprise Plugin can only be installed on Urbancode Velocity version 3.0.0 and later
+
+### Version 2.0.35
+
+* Scheduled Event Functionality Added
+* UAK Changes
+* Issue Level Data Chart Added
+
+### Version 1.0.31
+
+* Removed IBM related keywords
+
+### Version 1.0.30
+
+* Updated data retrieval logic
+
 ### Version 1.0.23
 
 * Bug fix.
@@ -40,4 +61,4 @@ DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-appscan/tags).
 
 |Back to ...||Latest Version|HCL AppScan Enterprise (ASE) |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.0.35](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-appscan/ucv-ext-appscan-2.0.35.tar.zip)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.0.41](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-appscan/ucv-ext-appscan-2.0.41.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

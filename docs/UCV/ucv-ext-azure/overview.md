@@ -13,14 +13,31 @@ There is no install process for this plug-in. The Azure DevOps plug-in is identi
 
 ## History
 
-### Version 4.0.26
+### Version 4.0.38
 
-* Auto generated User Access Key Related Changes.(For velocity version 3.0.0 we started supporting auto generated user access key. For version prior to 3.0.0 manually add user access key in the hidden field.)
+* Minor Enhancements
+
+### Version 4.0.37
+
+* Minor Enhancements
+* Pipelines issue fixed
 
 ### Version 4.0.3
 
 * ReSync support added. Applies to UrbanCode
 Velocity version 2.4.4 or later.
+
+### Version 4.0.26
+
+* Auto generated User Access Key Related Changes.(For velocity version 3.0.0 we started supporting auto generated user access key. For version prior to 3.0.0 manually add user access key in the hidden field.)
+
+### Version 4.0.16
+
+* UAK Changes.
+
+### Version 4.0.15
+
+* Adding logger and UCV functionality.
 
 ### Version 4.0.1
 
@@ -77,4 +94,4 @@ bug fix.
 
 |Back to ...||Latest Version|Azure DevOps |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[4.0.26](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-azure/ucv-ext-azure-4.0.26.tar.zip)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[4.0.38](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-azure/ucv-ext-azure-4.0.38.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

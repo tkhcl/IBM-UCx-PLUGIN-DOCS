@@ -65,7 +65,7 @@ Azure DevOps (formerly Microsoft Team Foundation Server (TFS) or Microsoft TFS)p
 
 |Back to ...||Azure DevOps |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-azure/README.md)|[4.0.26](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-azure/ucv-ext-azure-4.0.26.tar.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-azure/README.md)|[4.0.38](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-azure/ucv-ext-azure-4.0.38.tar.7z.001)|
 
 ## BitBucket Cloud
 
@@ -75,7 +75,7 @@ BitBucket Cloud is a source code version control repository hosting service owne
 
 |Back to ...||BitBucket Cloud |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-bitbucket-cloud/README.md)|[1.0.26](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-cloud/ucv-ext-bitbucket-cloud:1.0.26.tar.7z.001)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-bitbucket-cloud/README.md)|[1.0.29](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-cloud/ucv-ext-bitbucket-cloud:1.0.29.tar.7z.001)|
 
 ## BitBucket Server
 
@@ -105,7 +105,7 @@ CircleCI is a modern continuous integration and continuous delivery (CI/CD) plat
 
 |Back to ...||Code Coverage |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-circleci/README.md)|[1.0.22](https://raw.githubusercontent.com//UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-circleci/ucv-ext-circleci:1.0.22.tar.7z.001)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-circleci/README.md)|[1.0.24](https://raw.githubusercontent.com//UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-circleci/ucv-ext-circleci:1.0.24.tar.7z.001)|
 
 ## Code Coverage
 
@@ -165,7 +165,7 @@ GitHub is a Git repository hosting service. It provides tools to manage artifact
 
 |Back to ...||GitHub |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-github/README.md)|[1.2.25](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github-1.2.25.tar.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-github/README.md)|[1.3.35](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github-1.3.35.tar.7z.001)|
 
 ## GitHub Dependabot
 
@@ -195,7 +195,7 @@ AppScan Enterprise delivers scalable application security testing and risk manag
 
 |Back to ...||HCL AppScan Enterprise (ASE) |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-appscan/README.md)|[2.0.35](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-appscan/ucv-ext-appscan-2.0.35.tar.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-appscan/README.md)|[2.0.41](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-appscan/ucv-ext-appscan-2.0.41.tar.7z.001)|
 
 ## HCL AppScan on Cloud (ASoC)
 
@@ -215,7 +215,7 @@ The HCL OneTest tool provides automated software testing tools. This plug-in pro
 
 |Back to ...||HCL OneTest |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-onetest/README.md)|[1.0.30](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest-1.0.30.tar.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-onetest/README.md)|[1.0.34](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest-1.0.34.tar.7z.001)|
 
 ## HCL OneTest Server
 
@@ -225,7 +225,7 @@ The HCL OneTest Server plug-in imports test results as metrics into the UrbanCod
 
 |Back to ...||HCL OneTest Server |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-onetest-server/README.md)|[1.0.15](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server-1.0.15.tar.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-onetest-server/README.md)|[1.0.17](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server-1.0.17.tar.7z.001)|
 
 ## Handlebar Reporter
 
@@ -265,7 +265,7 @@ Jira is an issue tracking product, developed by Atlassian. The Jira plug-in prov
 
 |Back to ...||Jira |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-jira/README.md)|[2.2.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira-2.2.1.tar.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-jira/README.md)|[2.2.8](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira-2.2.8.tar.7z.001)|
 
 ## Microsoft Visual Studio Testing
 
