@@ -19,6 +19,10 @@ UrbanCode Velocity plug-in images are located in DockerHub. To view available ve
 
 ### History
 
+#### Version 2.2.9
+
+* **Minor Bug Fix**: Previous version of plugin was failing with ECONNREFUSED error
+
 #### Version 2.2.8
 
 * **Deployment plan task added for release process**: Deployment plan task created in order to release selected version in the task
@@ -98,4 +102,4 @@ UrbanCode Velocity plug-in images are located in DockerHub. To view available ve
 
 |Back to ...||Latest Version|Jira |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.2.8](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira-2.2.8.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.2.9](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira-2.2.9.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
