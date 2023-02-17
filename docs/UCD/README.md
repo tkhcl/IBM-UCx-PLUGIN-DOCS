@@ -2245,7 +2245,7 @@ The Web Utilities plug-in includes steps for interacting with web sites and web 
 
 |Back to ...||Web Utilities |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](web-utilities/README.md)|[17.1148552](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/ucd-web-utilities-17.1148552.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](web-utilities/README.md)|[18.1151823](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/ucd-web-utilities-18.1151823.zip)|
 
 ## WebSphere Application Server - Configure
 
