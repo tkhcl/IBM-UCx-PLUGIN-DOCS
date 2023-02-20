@@ -1215,7 +1215,7 @@ The DBUpgrader plug-in helps to manage database changes including schema updates
 
 |Back to ...||IBM UrbanCode DBUpgrader |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](DBUpgrader/README.md)|[4.1127382](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DBUpgrader/ucd-DBUpgrader-4.1127382.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](DBUpgrader/README.md)|[5.1151802](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DBUpgrader/ucd-DBUpgrader-5.1151802.zip)|
 
 ## IBM UrbanCode Deploy Agent Package for Dynamic Cloud Environments
 
