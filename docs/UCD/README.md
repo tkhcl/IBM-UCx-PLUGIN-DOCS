@@ -695,7 +695,7 @@ Groovy is an object-oriented programming language for the Java platform and the 
 
 |Back to ...||Groovy |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Groovy/README.md)|[12.1060531](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Groovy/Groovy-12.1060531.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](Groovy/README.md)|[15.1151773](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Groovy/ucd-Groovy-15.1151773.zip)|
 
 ## HCL OneTest API
 
