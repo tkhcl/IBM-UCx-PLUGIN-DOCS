@@ -4,12 +4,12 @@
 
 ### This page covers below sections -
 
-* [Deploy a component version to z/OS platform](usage-deploy-rollback.md#deploy-a-component-version-to-zos-platform)
-    * [Component process setup for deploying component version](usage-deploy-rollback.md#component-process-setup-for-deploying-component-version)
-    * [Application process setup for deploying component version](usage-deploy-rollback.md#application-process-setup-for-deploying-component-version)
-* [Rollback a component version from z/OS platform](usage-deploy-rollback.md#rollback-a-component-version-from-zos-platform)
-    * [Component process setup for rolling back a component version](usage-deploy-rollback.md#component-process-setup-for-rolling-back-a-component-version)
-    * [Application process setup for rolling back a component version](usage-deploy-rollback.md#application-process-setup-for-rolling-back-a-component-version)
+* [Deploy a component version to z/OS platform](deploy-rollback.md#deploy-a-component-version-to-zos-platform)
+    * [Component process setup for deploying component version](deploy-rollback.md#component-process-setup-for-deploying-component-version)
+    * [Application process setup for deploying component version](deploy-rollback.md#application-process-setup-for-deploying-component-version)
+* [Rollback a component version from z/OS platform](deploy-rollback.md#rollback-a-component-version-from-zos-platform)
+    * [Component process setup for rolling back a component version](deploy-rollback.md#component-process-setup-for-rolling-back-a-component-version)
+    * [Application process setup for rolling back a component version](deploy-rollback.md#application-process-setup-for-rolling-back-a-component-version)
 
 
 ## Deploy a component version to z/OS platform
@@ -24,7 +24,7 @@ Following steps are mandatory for deploying a zOS Component version stored on Ur
 
 Component process design will be as below.
 
-[![deployzos](../media/deployzos.png)](../media/deployzos.png)
+[![deploy-zos](../media/deploy-zos.png)](../media/deploy-zos.png)
 
 Post-processing steps can be added as per the requirement after [Deploy Data sets](../steps.md#deploy-data-sets) step with below steps
 * [Generate Artifact Information](../steps.md#generate-artifact-information) step to generate text based on the passed template.
@@ -35,7 +35,7 @@ Post-processing steps can be added as per the requirement after [Deploy Data set
 If external repository (Artifactory or Nexus) is used to store zOS Component version, Use [Download Artifacts for zOS External Repo](../../zOS-external-artifact-download/steps.md#download-artifacts) step to download version artifacts from the external repository.
 Component process design will be as below.
 
-[![deployzos2](../media/deployzos2.png)](../media/deployzos2.png)
+[![deploy-zos2](../media/deploy-zos2.png)](../media/deploy-zos2.png)
 
 ### Application process setup for deploying component version
 
@@ -44,7 +44,7 @@ A sample application process contains __Install Component__ step which internall
 
 Application process design will be as below.
 
-[![deployzos3](../media/deployzos3.png)](../media/deployzos3.png)
+[![deploy-zos3](../media/deploy-zos3.png)](../media/deploy-zos3.png)
 
 ## Rollback a component version from z/OS platform
 
@@ -60,7 +60,7 @@ Post-processing steps can be added as per the requirements after [Rollback data 
 
 Component process design will be as below.
 
-[![rollbackzos](../media/rollbackzos.png)](../media/rollbackzos.png)
+[![rollback-zos](../media/rollback-zos.png)](../media/rollback-zos.png)
 
 ### Application process setup for rolling back a component version
 
@@ -79,7 +79,7 @@ __Component Inventory Update__ step must be the last step in the application pro
 
 Application process design will be as below.
 
-[![rollbackzos2](../media/rollbackzos2.png)](../media/rollbackzos2.png)
+[![rollback-zos2](../media/rollback-zos2.png)](../media/rollback-zos2.png)
 
 
 | Back to ...          |

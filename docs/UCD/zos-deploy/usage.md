@@ -4,13 +4,14 @@
 
 The following pages provide usage information about this plug-in:
 
-* [Deployment and Rollback for z/OS component version](usage-pages/usage-deploy-rollback.md#deployment-and-rollback-for-zos-component-version)
-  * [Deploy a component version to z/OS platform](usage-pages/usage-deploy-rollback.md#deploy-a-component-version-to-zos-platform)
-    * [Component process setup for deploying component version](usage-pages/usage-deploy-rollback.md#component-process-setup-for-deploying-component-version)
-    * [Application process setup for deploying component version](usage-pages/usage-deploy-rollback.md#application-process-setup-for-deploying-component-version)
-  * [Rollback a component version from z/OS platform](usage-pages/usage-deploy-rollback.md#rollback-a-component-version-from-zos-platform)
-    * [Component process setup for rolling back a component version](usage-pages/usage-deploy-rollback.md#component-process-setup-for-rolling-back-a-component-version)
-    * [Application process setup for rolling back a component version](usage-pages/usage-deploy-rollback.md#application-process-setup-for-rolling-back-a-component-version)
+* [Deployment and Rollback for z/OS component version](usage-pages/deploy-rollback.md#deployment-and-rollback-for-zos-component-version)
+  * [Deploy a component version to z/OS platform](usage-pages/deploy-rollback.md#deploy-a-component-version-to-zos-platform)
+    * [Component process setup for deploying component version](usage-pages/deploy-rollback.md#component-process-setup-for-deploying-component-version)
+    * [Application process setup for deploying component version](usage-pages/deploy-rollback.md#application-process-setup-for-deploying-component-version)
+  * [Rollback a component version from z/OS platform](usage-pages/deploy-rollback.md#rollback-a-component-version-from-zos-platform)
+    * [Component process setup for rolling back a component version](usage-pages/deploy-rollback.md#component-process-setup-for-rolling-back-a-component-version)
+    * [Application process setup for rolling back a component version](usage-pages/deploy-rollback.md#application-process-setup-for-rolling-back-a-component-version)
+* [Rollback for z/OS component version with application template](usage-pages/rollback-with-template.md#rollback-for-zos-component-version-with-application-template)
 * [Deploying by using the Job Monitor](#deploying-by-using-the-job-monitor)
 * [Submitting a JCL job and then checking for status](#submitting-a-jcl-job-and-then-checking-for-status)
 * [Submitting a JCL job from a template](#submitting-jcl-jobs-from-a-template)
