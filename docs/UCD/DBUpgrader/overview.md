@@ -22,4 +22,4 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 |Back to ...||Latest Version|IBM UrbanCode DBUpgrader ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[4.1127382](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DBUpgrader/ucd-DBUpgrader-4.1127382.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[5.1151802](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DBUpgrader/ucd-DBUpgrader-5.1151802.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
