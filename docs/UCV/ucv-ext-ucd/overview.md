@@ -14,6 +14,11 @@ UrbanCode Velocity plug-in images are located in DockerHub. To view available ve
 ## History
 
 
+### Version 3.3.56
+
+* **Removed UrbanCode Deploy Status Task**: Assign status task is removed and made part of main UrbanCode Deploy Task as post deployment success or failure step for assigning Snapshot or Component Version status.
+
+
 ### Version 2.3.52
 
 * **Internal Server Error Fix**: The urbancode deploy plugin was giving internal server error while syncing the application processes from the UCD server.
@@ -41,4 +46,4 @@ UrbanCode Velocity plug-in images are located in DockerHub. To view available ve
 
 |Back to ...||Latest Version|Urbancode Deploy |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.3.52 - File 1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd:2.3.52.tar.7z.001) [2.3.52 - File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd:2.3.52.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[3.3.56 - File 1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd:3.3.56.tar.7z.001) [3.3.56 - File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd:3.3.56.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
