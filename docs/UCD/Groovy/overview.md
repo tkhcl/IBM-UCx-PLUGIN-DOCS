@@ -19,6 +19,18 @@ No special steps are required for installation. This plug-in is included with th
 
 ### History
 
+#### Version 15
+
+* Updated Jettison library for CVE-2022-45693 and CVE-2022-45685.
+ 
+#### Version 14
+
+* Updated Jettison library for CVE-2022-40150 and CVE-2022-40149.
+
+#### Version 13
+
+* Added default value to the classpath property.
+ 
 #### Version 12
 
 * Fixed RFE 116752 – Allow Plugin to use additional classpath options.
