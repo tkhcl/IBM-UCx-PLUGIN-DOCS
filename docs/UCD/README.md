@@ -2255,7 +2255,7 @@ To learn more about different solutions for WebSphere Application Server, see [F
 
 |Back to ...||WebSphere Application Server - Configure |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](WebSphereConfiguration/README.md)|[91.1114389](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/WebSphereConfiguration-91.1114389.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](WebSphereConfiguration/README.md)|[92.1152136](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/ucd-WebSphereConfiguration-92.1152136.zip)|
 
 ## WebSphere Application Server - Deployment
 
