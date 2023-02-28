@@ -376,7 +376,7 @@ The Artifactory source configuration plug-in includes steps to complete the foll
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ArtifactorySourceConfig/README.md)|[30.1150599](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ucd-ArtifactorySourceConfig-30.1150599.zip)|
 
-## ASOC
+## ASOC [community plugin]
 
 The AppScan On Cloud plug-in includes steps to complete the following tasks:
 
