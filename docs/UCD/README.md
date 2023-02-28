@@ -20,6 +20,7 @@
 	- [Apprenda  [partner plugin]](#apprenda--partner-plugin)
 	- [Artifactory](#artifactory)
 	- [Artifactory Source Config](#artifactory-source-config)
+	- [ASOC](#ASOC)
 	- [Aspera](#aspera)
 	- [Autosys](#autosys)
 	- [Avnet Talos  [partner plugin]](#avnet-talos--partner-plugin)
@@ -374,6 +375,17 @@ The Artifactory source configuration plug-in includes steps to complete the foll
 |Back to ...||Artifactory Source Config |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ArtifactorySourceConfig/README.md)|[30.1150599](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ucd-ArtifactorySourceConfig-30.1150599.zip)|
+
+## ASOC [community plugin]
+
+The AppScan On Cloud plug-in includes steps to complete the following tasks:
+
+---
+
+|Back to ...||HCL-ASOC UCD PLugin for UCD |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ASOC/README.md)|[14.1152459](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ASOC/ucd-HCL-ASoC-UCD-14.1152459.zip)|
+
 
 ## Aspera
 
