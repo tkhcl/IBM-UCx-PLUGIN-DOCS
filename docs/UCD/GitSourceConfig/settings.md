@@ -11,6 +11,18 @@ Import a new version from a Git repository.
 
 This step has no input properties.
 
+
+Support for git sparse-checkout set added for this plugin v26.
+Previously the plugin pulls all artifacts of a particular git-repository.
+
+## How this works
+In the "Sparse Paths" field specify the path of the directories in the base git repository to clone specifically. Separate each path with new lines or commas: MY/DIR1,SUB/DIR2. 
+
+This is only checked if configured for sparse mode. So, Check this check-box "Sparse" if you want to use the sparse clone feature of git and Specify the path accordingly in the Path to Sparse Paths.
+
+
+## Note: This feature is experimental from git. We have implemented this as few customers have very large git reps and they wanted only some  amount of artifacts to get imported. We are not sure if this feature will work in future,as git might not support this experimental feature in future.
+
 ## Roles in the Git plug-in
 
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
@@ -44,4 +56,4 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 
 |Back to ...||Latest Version|Git |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[23.1131566](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/GitSourceConfig/ucd-GitSourceConfig-23.1131566.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[26.1152463](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/GitSourceConfig/ucd-GitSourceConfig-26.1152463.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Downloads](downloads.md)|

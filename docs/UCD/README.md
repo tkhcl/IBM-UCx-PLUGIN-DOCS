@@ -633,7 +633,7 @@ The Git source config plug-in enables you to manually or automatically import ar
 
 |Back to ...||Git |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](GitSourceConfig/README.md)|[23.1131566](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/GitSourceConfig/ucd-GitSourceConfig-23.1131566.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](GitSourceConfig/README.md)|[26.1152463](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/GitSourceConfig/ucd-GitSourceConfig-26.1152463.zip)|
 
 ## Git Install  [community plugin]
 
