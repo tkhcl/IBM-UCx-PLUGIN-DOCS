@@ -1,7 +1,7 @@
 
 # WebSphere Application Server - Configure
 
-To learn more about different solutions for WebSphere Application Server, see [Frequently Asked Questions about IBM UrbanCode Deploy solutions for WebSphere Application Server](http://developer.ibm.com/urbancode/docs/frequently-asked-questions-ibm-urbancode-deploy-solutions-websphere-application-server/ "Frequently Asked Questions about IBM UrbanCode Deploy solutions for WebSphere Application Server").
+To learn more about different solutions for WebSphere Application Server, see [Frequently Asked Questions about IBM UrbanCode Deploy solutions for WebSphere Application Server](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/03/03/frequently-asked-questions-about-ibm-urbancode-dep/ "Frequently Asked Questions about IBM UrbanCode Deploy solutions for WebSphere Application Server").
 Starting with version 14 of the WebSphere Application Server – Configure plug-in for IBM UrbanCode Deploy, you can use JSON files to manage WebSphere Application Server configuration.
 
 |Back to ...||Latest Version|||||||||
