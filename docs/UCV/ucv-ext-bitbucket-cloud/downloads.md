@@ -2,6 +2,7 @@
 # BitBucket Cloud - Downloads
 
 To download the plugins, click the following version specific links.
+- [ucv-ext-bitbucket-cloud-1.0.29.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-cloud/ucv-ext-bitbucket-cloud:1.0.29.tar.7z.001)
 - [ucv-ext-bitbucket-cloud-1.0.26.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-cloud/ucv-ext-bitbucket-cloud:1.0.26.tar.7z.001)
 - [ucv-ext-bitbucket-cloud-1.0.22.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-cloud/ucv-ext-bitbucket-cloud:1.0.22.tar.7z.001)
 - [ucv-ext-bitbucket-cloud-1.0.16.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-cloud/ucv-ext-bitbucket-cloud-1.0.16.tar.zip)
@@ -11,4 +12,4 @@ To download the plugins, click the following version specific links.
 
 |Back to ...||Latest Version|BitBucket Cloud |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.26](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-cloud/ucv-ext-bitbucket-cloud:1.0.26.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.29](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-cloud/ucv-ext-bitbucket-cloud:1.0.29.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|

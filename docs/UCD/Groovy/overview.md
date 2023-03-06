@@ -19,6 +19,18 @@ No special steps are required for installation. This plug-in is included with th
 
 ### History
 
+#### Version 15
+
+* Updated Jettison library for CVE-2022-45693 and CVE-2022-45685.
+ 
+#### Version 14
+
+* Updated Jettison library for CVE-2022-40150 and CVE-2022-40149.
+
+#### Version 13
+
+* Added default value to the classpath property.
+ 
 #### Version 12
 
 * Fixed RFE 116752 – Allow Plugin to use additional classpath options.
@@ -51,4 +63,4 @@ This release includes a fix for a defect that is related to running Groovy on Mi
 
 |Back to ...||Latest Version|Groovy ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[12.1060531](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Groovy/Groovy-12.1060531.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[15.1151773](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Groovy/ucd-Groovy-15.1151773.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

@@ -15,6 +15,13 @@ There is no install process for this plug-in. The HCL OneTest Server plug-in is 
 
 ## History
 
+### Version 1.0.17
+
+* **Removed Manual User Access Key**: From current version onwards this plugin will only support Auto Generated User Access Key feature of Urbancode Velocity.
+* **Added WorkflowId**: Under the hidden properties section of add integration page for HCL OneTest Server plugin a Workflow ID field is added. This field is optional and can be used to provide Urbancode Velocity WorkflowId - the ID of a Value Stream (VSM )to which HCL OneTest Server vulnerability data is associated.
+* **Preventing Installation on Older Versions**: This version of HCL OneTest Server Plugin can only be installed on Urbancode Velocity version 3.0.0 and later
+* **Added Category**:Quality is the plugin category of HCL OneTest Server.
+
 ### Version 1.0.15
 
 * User access key related changes.
@@ -39,4 +46,4 @@ There is no install process for this plug-in. The HCL OneTest Server plug-in is 
 
 |Back to ...||Latest Version|HCL OneTest Server |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.15](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server-1.0.15.tar.zip)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.17](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server-1.0.17.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

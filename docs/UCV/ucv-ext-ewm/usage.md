@@ -51,7 +51,7 @@ The following tables describe the properties used to configure the integration. 
 | NA | The version of the plug-in that you want to use. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-bitbucket-server/tags). If a value is not specified, the latest version is used. | No | image |
 | Integration Name | An assigned name to the value stream. | Yes | name |
 | Logging Level | The level of Log4j messages to display in the log file. Valid values are: all, debug, info, warn, error, fatal, off, and trace. | No | loggingLevel |
-| NA | List of [configuration properties](#properties) used to connect and communicate with the IBM Engineering WorkFlow Management (EWM) server. Enclose the properties within braces. | Yes | properties |
+| NA | List of [configuration properties](#ibm-engineering-workflow-management-ewm-configuration-properties) used to connect and communicate with the IBM Engineering WorkFlow Management (EWM) server. Enclose the properties within braces. | Yes | properties |
 |  | The name of the tenant. | Yes | tenant_id |
 | NA | Unique identifier assigned to the plug-in. The value for the IBM Engineering WorkFlow Management (EWM) Server plug-in is `ucv-ext-ewm/tags` | Yes | type |
 
@@ -73,24 +73,20 @@ The following example can be used as as template to include the Engineering Work
 ```json
 
 "integrations": [
-{
-"type": "ucv-ext-
-ewm",
-"name": "*integration\_name*",
-"logginglevel": "info",
-"tenant_id": "*tenant\_id*",
-
-"properties": {
-"serverUrl":"*url\_ewm\_server*",
-"projects" : ["*project\_name*"],
-"userId"
-: "*user\_id*",
-"password" : "*password*",
-"since": "60",
-"ucvAccessKey":"a-valid-user-
-access-key"
-}``
-}``
+    {
+        "type": "ucv-ext-ewm",
+        "name": "*integration_name*",
+        "logginglevel": "info",
+        "tenant_id": "*tenant_id*",
+        "properties": {
+            "serverUrl":"*url_ewm_server*",
+            "projects" : ["*project_name*"],
+            "userId"   : "*user_id*",
+            "password" : "*password*",
+            "since"    : "60",
+            "ucvAccessKey":"a-valid-user-access-key"
+        }
+    }
 ]
 
 ```

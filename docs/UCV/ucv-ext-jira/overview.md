@@ -19,7 +19,24 @@ UrbanCode Velocity plug-in images are located in DockerHub. To view available ve
 
 ### History
 
-#### Version 2.1.1
+#### Version 2.2.9
+
+* **Minor Bug Fix**: Previous version of plugin was failing with ECONNREFUSED error
+
+#### Version 2.2.8
+
+* **Deployment plan task added for release process**: Deployment plan task created in order to release selected version in the task
+
+#### Version 2.2.7
+
+* **Previous Version Bug Fix**: Previous versions of the plugin had a bug due to which plugin was giving 401 error.
+* **Added Category**: Application lifecycle management (ALM) is the category of Jira plugin.
+
+#### Version 2.2.5
+
+* Added Project keys
+
+#### Version 2.2.1
 
 * Added JQL Query.
 * Removed Project Keys.
@@ -85,4 +102,4 @@ UrbanCode Velocity plug-in images are located in DockerHub. To view available ve
 
 |Back to ...||Latest Version|Jira |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.2.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira-2.2.1.tar.zip)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.2.9](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira-2.2.9.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

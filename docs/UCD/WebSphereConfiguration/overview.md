@@ -25,6 +25,10 @@ No special steps are required for installing the plug-in. See [Installing plug-i
 
 ### History
 
+#### Version 92
+
+* Log4j dependency updated.
+
 #### Version 91
 
 * Fixes APAR PH38708 – Resolves issue where ‘Apply’ of an MQQueue Snippet deleted all existing MQQueues.
@@ -322,4 +326,4 @@ Version 37 includes fixes for the following APARs:
 
 |Back to ...||Latest Version|WebSphere Application Server - Configure ||||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[91.1114389](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/WebSphereConfiguration-91.1114389.zip)|[Readme](README.md)|[Usage](usage.md)|[Example Applications](example applications.md)|[Example Processes](example processes.md)|[Steps](steps.md)|[Roles](roles.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[92.1152136](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/ucd-WebSphereConfiguration-92.1152136.zip)|[Readme](README.md)|[Usage](usage.md)|[Example Applications](example applications.md)|[Example Processes](example processes.md)|[Steps](steps.md)|[Roles](roles.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

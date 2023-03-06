@@ -19,10 +19,43 @@ UrbanCode Velocity plug-in images are located in DockerHub. To view available ve
 
 ## History
 
+### Version 1.3.35
+
+* Minor Enhancements
+### Version 1.3.34
+
+* **Removed Manual User Access Key**: From current version onwards this plugin will only support Auto Generated User Access Key feature of Urbancode Velocity.
+* **Added Category**:ALM | SCM | BUILD are the categories of Github plugin . Also added global regex pattern to generate default link rule.
+
+### Version 1.2.25
+
+* Global Initial Sync date feature
+
+### Version 1.2.24
+
+* Primary and secondary API rate limit fix
+* Labels Updated
+* Additional branch error fix
+* Wildcard functionality added
+* Initail sync date added
+* Debug logs added
+
+### Version 1.1.22
+
+* UAK changes
+
+### Version 1.1.20
+
+* **Bug fix**: UAK support for older versions
+
 ### Version 1.1.18
 
 * ReSync support added (support starts with UrbanCode Velocity version 2.4.4 or later).
 * Auto-generated User Access Key support added (support starts with UrbanCode Velocity version 2.4.0 or later).
+
+### Version 1.1.15
+
+* Labels bug fix
 
 ### Version 1.1.1
 
@@ -96,4 +129,4 @@ UrbanCode Velocity plug-in images are located in DockerHub. To view available ve
 
 |Back to ...||Latest Version|GitHub |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.2.25](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github-1.2.25.tar.zip)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.3.35](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github-1.3.35.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

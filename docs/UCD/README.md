@@ -5,37 +5,38 @@
 - [Welcome to UrbanCode Deploy Plugins](#welcome-to-urbancode-deploy-plugins)
 	- [Contents](#contents)
 - [List of all Plugins](#list-of-all-plugins)
-	- [7-Zip  [community plugin]](#7-zip--community-plugin)
+	- [7-Zip  \[community plugin\]](#7-zip--community-plugin)
 	- [AccuRev SCM](#accurev-scm)
-	- [Actifio  [partner plugin]](#actifio--partner-plugin)
+	- [Actifio  \[partner plugin\]](#actifio--partner-plugin)
 	- [Amazon EC2](#amazon-ec2)
-	- [Amazon Web Services (AWS) Lambda  [community plugin]](#amazon-web-services-aws-lambda--community-plugin)
-	- [Ansible  [community plugin]](#ansible--community-plugin)
+	- [Amazon Web Services (AWS) Lambda  \[community plugin\]](#amazon-web-services-aws-lambda--community-plugin)
+	- [Ansible  \[community plugin\]](#ansible--community-plugin)
 	- [Apache Ant](#apache-ant)
 	- [Apache HTTP Server](#apache-http-server)
-	- [Apache Hadoop  [community plugin]](#apache-hadoop--community-plugin)
+	- [Apache Hadoop  \[community plugin\]](#apache-hadoop--community-plugin)
 	- [Apache Tomcat](#apache-tomcat)
 	- [App Connect Enterprise](#app-connect-enterprise)
-	- [Apple Xcode  [community plugin]](#apple-xcode--community-plugin)
-	- [Apprenda  [partner plugin]](#apprenda--partner-plugin)
+	- [Apple Xcode  \[community plugin\]](#apple-xcode--community-plugin)
+	- [Apprenda  \[partner plugin\]](#apprenda--partner-plugin)
 	- [Artifactory](#artifactory)
 	- [Artifactory Source Config](#artifactory-source-config)
+	- [ASOC \[community plugin\]](#asoc-community-plugin)
 	- [Aspera](#aspera)
 	- [Autosys](#autosys)
-	- [Avnet Talos  [partner plugin]](#avnet-talos--partner-plugin)
+	- [Avnet Talos  \[partner plugin\]](#avnet-talos--partner-plugin)
 	- [Azure DevOps Sourceconfig](#azure-devops-sourceconfig)
 	- [BMC Remedy Action Request System](#bmc-remedy-action-request-system)
-	- [Box  [community plugin]](#box--community-plugin)
+	- [Box  \[community plugin\]](#box--community-plugin)
 	- [CA SCM (formerly Harvest)](#ca-scm-formerly-harvest)
 	- [CICS CM (Beta)](#cics-cm-beta)
 	- [CICS TS](#cics-ts)
 	- [Chef](#chef)
 	- [Citrix NetScaler](#citrix-netscaler)
 	- [Cloud Foundry](#cloud-foundry)
-	- [Cloudant  [community plugin]](#cloudant--community-plugin)
-	- [CyberArk  [partner plugin]](#cyberark--partner-plugin)
-	- [DBmaestro [partner plugin]](#dbmaestro-partner-plugin)
-	- [Datical DB  [partner plugin]](#datical-db--partner-plugin)
+	- [Cloudant  \[community plugin\]](#cloudant--community-plugin)
+	- [CyberArk  \[partner plugin\]](#cyberark--partner-plugin)
+	- [DBmaestro \[partner plugin\]](#dbmaestro-partner-plugin)
+	- [Datical DB  \[partner plugin\]](#datical-db--partner-plugin)
 	- [Dimensions](#dimensions)
 	- [Docker](#docker)
 	- [Docker Compose](#docker-compose)
@@ -46,10 +47,11 @@
 	- [File Utils](#file-utils)
 	- [FileNet - IBM Case Manager](#filenet---ibm-case-manager)
 	- [Git](#git)
-	- [Git Install  [community plugin]](#git-install--community-plugin)
+	- [Git Install  \[community plugin\]](#git-install--community-plugin)
+	- [GitLab-Sourceconfig-Generic-Packages](#gitlab-sourceconfig-generic-packages)
 	- [GitHub-Release](#github-release)
 	- [Google Android SDK](#google-android-sdk)
-	- [Gradle  [community plugin]](#gradle--community-plugin)
+	- [Gradle  \[community plugin\]](#gradle--community-plugin)
 	- [Groovy](#groovy)
 	- [HCL OneTest API](#hcl-onetest-api)
 	- [HCL OneTest Performance](#hcl-onetest-performance)
@@ -70,15 +72,15 @@
 	- [IBM Containers](#ibm-containers)
 	- [IBM DataPower Configuration Manager](#ibm-datapower-configuration-manager)
 	- [IBM Db2 for z/OS Package](#ibm-db2-for-zos-package)
-	- [IBM Globalization Pipeline  [community plugin]](#ibm-globalization-pipeline--community-plugin)
+	- [IBM Globalization Pipeline  \[community plugin\]](#ibm-globalization-pipeline--community-plugin)
 	- [IBM IMS](#ibm-ims)
 	- [IBM InfoSphere DataStage](#ibm-infosphere-datastage)
 	- [IBM InfoSphere Optim](#ibm-infosphere-optim)
 	- [IBM Installation Manager](#ibm-installation-manager)
 	- [IBM Integration Bus (IIB) plugin Deploy step for zOS](#ibm-integration-bus-iib-plugin-deploy-step-for-zos)
 	- [IBM Integration Bus (formerly WebSphere Message Broker) - CMP](#ibm-integration-bus-formerly-websphere-message-broker---cmp)
-	- [IBM MQ for z/OS - Generate MQSC Commands](#ibm-mq-for-zos---generate-mqsc-commands)
-	- [IBM MaaS360  [community plugin]](#ibm-maas360--community-plugin)
+	- [IBM MQ for z/OS - Generate MQSC Commands \[community plugin\]](#ibm-mq-for-zos---generate-mqsc-commands-community-plugin)
+	- [IBM MaaS360  \[community plugin\]](#ibm-maas360--community-plugin)
 	- [IBM Maximo](#ibm-maximo)
 	- [IBM MobileFirst Platform (formerly Worklight)](#ibm-mobilefirst-platform-formerly-worklight)
 	- [IBM MobileFirst Platform Foundation on IBM Containers](#ibm-mobilefirst-platform-foundation-on-ibm-containers)
@@ -86,9 +88,9 @@
 	- [IBM Operational Decision Manager (ODM) Source Config](#ibm-operational-decision-manager-odm-source-config)
 	- [IBM Rational Asset Manager](#ibm-rational-asset-manager)
 	- [IBM Rational Asset Manager for IBM UrbanCode Deploy](#ibm-rational-asset-manager-for-ibm-urbancode-deploy)
-	- [IBM Rational Automation Framework for WebSphere  [community plugin]](#ibm-rational-automation-framework-for-websphere--community-plugin)
+	- [IBM Rational Automation Framework for WebSphere  \[community plugin\]](#ibm-rational-automation-framework-for-websphere--community-plugin)
 	- [IBM Rational ClearCase](#ibm-rational-clearcase)
-	- [IBM Rational ClearQuest  [community plugin]](#ibm-rational-clearquest--community-plugin)
+	- [IBM Rational ClearQuest  \[community plugin\]](#ibm-rational-clearquest--community-plugin)
 	- [IBM Rational Functional Tester (RFT)](#ibm-rational-functional-tester-rft)
 	- [IBM Rational Integration Tester (RIT)](#ibm-rational-integration-tester-rit)
 	- [IBM Rational Performance Tester (RPT)](#ibm-rational-performance-tester-rpt)
@@ -99,8 +101,8 @@
 	- [IBM Rational Test Automation Server (RTAS)](#ibm-rational-test-automation-server-rtas)
 	- [IBM Rational Test Virtualization Server (RTVS)](#ibm-rational-test-virtualization-server-rtvs)
 	- [IBM Rational Test Workbench Web UI Tester](#ibm-rational-test-workbench-web-ui-tester)
-	- [IBM Security Access Manager (WebSEAL)  [community plugin]](#ibm-security-access-manager-webseal--community-plugin)
-	- [IBM Sterling B2B Integrator  [community plugin]](#ibm-sterling-b2b-integrator--community-plugin)
+	- [IBM Security Access Manager (WebSEAL)  \[community plugin\]](#ibm-security-access-manager-webseal--community-plugin)
+	- [IBM Sterling B2B Integrator  \[community plugin\]](#ibm-sterling-b2b-integrator--community-plugin)
 	- [IBM UrbanCode Build](#ibm-urbancode-build)
 	- [IBM UrbanCode DBUpgrader](#ibm-urbancode-dbupgrader)
 	- [IBM UrbanCode Deploy Agent Package for Dynamic Cloud Environments](#ibm-urbancode-deploy-agent-package-for-dynamic-cloud-environments)
@@ -115,30 +117,30 @@
 	- [IBM UrbanCode Deploy Tools](#ibm-urbancode-deploy-tools)
 	- [IBM UrbanCode Deploy Versioned File Storage](#ibm-urbancode-deploy-versioned-file-storage)
 	- [IBM UrbanCode Deploy Versions](#ibm-urbancode-deploy-versions)
-	- [IBM UrbanCode PHP CLI Tool  [community plugin]](#ibm-urbancode-php-cli-tool--community-plugin)
+	- [IBM UrbanCode PHP CLI Tool  \[community plugin\]](#ibm-urbancode-php-cli-tool--community-plugin)
 	- [IBM UrbanCode Package Manager](#ibm-urbancode-package-manager)
 	- [IBM UrbanCode Release](#ibm-urbancode-release)
 	- [IBM UrbanCode uBuild](#ibm-urbancode-ubuild)
-	- [IBM VDP  [partner plugin]](#ibm-vdp--partner-plugin)
+	- [IBM VDP  \[partner plugin\]](#ibm-vdp--partner-plugin)
 	- [IBM WebSphere Commerce](#ibm-websphere-commerce)
 	- [IBM WebSphere Liberty](#ibm-websphere-liberty)
 	- [IBM WebSphere Portal](#ibm-websphere-portal)
 	- [IBM WebSphere Service Registry and Repository](#ibm-websphere-service-registry-and-repository)
-	- [IBM Workload Automation  [community plugin]](#ibm-workload-automation--community-plugin)
+	- [IBM Workload Automation  \[community plugin\]](#ibm-workload-automation--community-plugin)
 	- [IBM z/TPF Beta](#ibm-ztpf-beta)
 	- [IBM-MQ](#ibm-mq)
 	- [InfoSphere-ISD](#infosphere-isd)
-	- [Informatica  [community plugin]](#informatica--community-plugin)
+	- [Informatica  \[community plugin\]](#informatica--community-plugin)
 	- [JBoss Application Server](#jboss-application-server)
-	- [JBoss-ON  [community plugin]](#jboss-on--community-plugin)
+	- [JBoss-ON  \[community plugin\]](#jboss-on--community-plugin)
 	- [JIRA for IBM UrbanCode Deploy](#jira-for-ibm-urbancode-deploy)
-	- [Jenkins Job Manager  [community plugin]](#jenkins-job-manager--community-plugin)
+	- [Jenkins Job Manager  \[community plugin\]](#jenkins-job-manager--community-plugin)
 	- [Jenkins Pipeline](#jenkins-pipeline)
 	- [Jenkins Publisher](#jenkins-publisher)
 	- [Kubernetes](#kubernetes)
 	- [Linux System Tools](#linux-system-tools)
-	- [Liquibase  [community plugin]](#liquibase--community-plugin)
-	- [LogiGear TestArchitect  [community plugin]](#logigear-testarchitect--community-plugin)
+	- [Liquibase  \[community plugin\]](#liquibase--community-plugin)
+	- [LogiGear TestArchitect  \[community plugin\]](#logigear-testarchitect--community-plugin)
 	- [Maven](#maven)
 	- [Maven Resolve](#maven-resolve)
 	- [Mesos Marathon](#mesos-marathon)
@@ -154,19 +156,19 @@
 	- [Microsoft Software Installer (MSI)](#microsoft-software-installer-msi)
 	- [Microsoft TFS (Team Foundation Server)](#microsoft-tfs-team-foundation-server)
 	- [Microsoft TFS Work Items](#microsoft-tfs-work-items)
-	- [Microsoft TFS_SCM (Team Foundation Server)](#microsoft-tfs_scm-team-foundation-server)
-	- [Microsoft Visual Studio Team Services (VSTS)  [partner plugin]](#microsoft-visual-studio-team-services-vsts--partner-plugin)
+	- [Microsoft TFS\_SCM (Team Foundation Server)](#microsoft-tfs_scm-team-foundation-server)
+	- [Microsoft Visual Studio Team Services (VSTS)  \[partner plugin\]](#microsoft-visual-studio-team-services-vsts--partner-plugin)
 	- [Microsoft Windows Failover Clusters](#microsoft-windows-failover-clusters)
 	- [Microsoft Windows Services](#microsoft-windows-services)
 	- [Microsoft Windows System Tools](#microsoft-windows-system-tools)
 	- [Mulesoft](#mulesoft)
 	- [NPM](#npm)
-	- [New Relic  [community plugin]](#new-relic--community-plugin)
+	- [New Relic  \[community plugin\]](#new-relic--community-plugin)
 	- [Nexus](#nexus)
 	- [Nexus Repository Manager V3](#nexus-repository-manager-v3)
 	- [Nexus Source Config](#nexus-source-config)
-	- [Node-RED  [community plugin]](#node-red--community-plugin)
-	- [Node.js  [community plugin]](#nodejs--community-plugin)
+	- [Node-RED  \[community plugin\]](#node-red--community-plugin)
+	- [Node.js  \[community plugin\]](#nodejs--community-plugin)
 	- [NuGet](#nuget)
 	- [OpenShift](#openshift)
 	- [OpenShift for IBM UrbanCode Deploy](#openshift-for-ibm-urbancode-deploy)
@@ -181,8 +183,8 @@
 	- [PVCS](#pvcs)
 	- [Perforce Helix](#perforce-helix)
 	- [PowerShell](#powershell)
-	- [Property Utils  [community plugin]](#property-utils--community-plugin)
-	- [Puppet  [community plugin]](#puppet--community-plugin)
+	- [Property Utils  \[community plugin\]](#property-utils--community-plugin)
+	- [Puppet  \[community plugin\]](#puppet--community-plugin)
 	- [RPM](#rpm)
 	- [Rally for IBM UrbanCode Deploy](#rally-for-ibm-urbancode-deploy)
 	- [Resource Utilities](#resource-utilities)
@@ -190,28 +192,28 @@
 	- [SQL-JDBC](#sql-jdbc)
 	- [Salesforce](#salesforce)
 	- [Selenium](#selenium)
-	- [Send SMTP Email  [community plugin]](#send-smtp-email--community-plugin)
+	- [Send SMTP Email  \[community plugin\]](#send-smtp-email--community-plugin)
 	- [ServiceNow](#servicenow)
 	- [Shell](#shell)
-	- [Siebel  [community plugin]](#siebel--community-plugin)
-	- [Skytap Automation Pack  [partner plugin]](#skytap-automation-pack--partner-plugin)
-	- [Slack  [community plugin]](#slack--community-plugin)
+	- [Siebel  \[community plugin\]](#siebel--community-plugin)
+	- [Skytap Automation Pack  \[partner plugin\]](#skytap-automation-pack--partner-plugin)
+	- [Slack  \[community plugin\]](#slack--community-plugin)
 	- [Subversion](#subversion)
 	- [Subversion-Export](#subversion-export)
 	- [Sybase](#sybase)
 	- [System Information](#system-information)
-	- [TIBCO  [partner plugin]](#tibco--partner-plugin)
+	- [TIBCO  \[partner plugin\]](#tibco--partner-plugin)
 	- [TeamCity](#teamcity)
-	- [Text Utility  [community plugin]](#text-utility--community-plugin)
-	- [VMware AirWatch  [community plugin]](#vmware-airwatch--community-plugin)
-	- [Venafi  [community plugin]](#venafi--community-plugin)
+	- [Text Utility  \[community plugin\]](#text-utility--community-plugin)
+	- [VMware AirWatch  \[community plugin\]](#vmware-airwatch--community-plugin)
+	- [Venafi  \[community plugin\]](#venafi--community-plugin)
 	- [Web Utilities](#web-utilities)
 	- [WebSphere Application Server - Configure](#websphere-application-server---configure)
 	- [WebSphere Application Server - Deployment](#websphere-application-server---deployment)
 	- [WebSphere Application Server - Install](#websphere-application-server---install)
 	- [WinRS Agent Install](#winrs-agent-install)
 	- [CyberArk](#cyberark)
-	- [eggPlant  [partner plugin]](#eggplant--partner-plugin)
+	- [eggPlant  \[partner plugin\]](#eggplant--partner-plugin)
 	- [z/OS Dataset Writer](#zos-dataset-writer)
 	- [z/OS External Artifact Repository](#zos-external-artifact-repository)
 	- [z/OS FTP Utility](#zos-ftp-utility)
@@ -322,7 +324,7 @@ Apache Tomcat is an open source web server and servlet container that is develop
 
 |Back to ...||Apache Tomcat |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Tomcat/README.md)|[7.1107438](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Tomcat/Tomcat-7.1107438.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](Tomcat/README.md)|[8.1150600](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Tomcat/ucd-Tomcat-8.1150600.zip)|
 
 ## App Connect Enterprise
 
@@ -332,7 +334,7 @@ IBM App Connect Enterprise (ACE) combines the technologies of IBM Integration Bu
 
 |Back to ...||App Connect Enterprise |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-ace/README.md)|[11.1149154](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-ace/ucd-plugins-ibm-ace-11.1149154.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-ace/README.md)|[12.1152640](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-ace/ucd-plugins-ibm-ace-12.1152640.zip)|
 
 
 ## Apple Xcode  [community plugin]
@@ -373,7 +375,18 @@ The Artifactory source configuration plug-in includes steps to complete the foll
 
 |Back to ...||Artifactory Source Config |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ArtifactorySourceConfig/README.md)|[29.1098516](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ArtifactorySourceConfig-29.1098516.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ArtifactorySourceConfig/README.md)|[30.1150599](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ucd-ArtifactorySourceConfig-30.1150599.zip)|
+
+## ASOC [community plugin]
+
+The AppScan On Cloud plug-in includes steps to complete the following tasks:
+
+---
+
+|Back to ...||HCL-ASOC UCD PLugin for UCD |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ASOC/README.md)|[14.1152459](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ASOC/ucd-HCL-ASoC-UCD-14.1152459.zip)|
+
 
 ## Aspera
 
@@ -633,7 +646,7 @@ The Git source config plug-in enables you to manually or automatically import ar
 
 |Back to ...||Git |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](GitSourceConfig/README.md)|[23.1131566](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/GitSourceConfig/ucd-GitSourceConfig-23.1131566.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](GitSourceConfig/README.md)|[26.1152463](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/GitSourceConfig/ucd-GitSourceConfig-26.1152463.zip)|
 
 ## Git Install  [community plugin]
 
@@ -695,7 +708,7 @@ Groovy is an object-oriented programming language for the Java platform and the 
 
 |Back to ...||Groovy |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Groovy/README.md)|[12.1060531](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Groovy/Groovy-12.1060531.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](Groovy/README.md)|[15.1151773](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Groovy/ucd-Groovy-15.1151773.zip)|
 
 ## HCL OneTest API
 
@@ -957,15 +970,15 @@ IBM Integration Bus, from the WebSphere product family, enables business informa
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](WebSphereMessageBroker-CMP/README.md)|[47.1100834](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereMessageBroker-CMP/WebSphereMessageBroker-CMP-47.1100834.zip)|
 
-## IBM MQ for z/OS - Generate MQSC Commands
+## IBM MQ for z/OS - Generate MQSC Commands \[community plugin\]
 
 IBM MQ for z/OS – Generate MQSC Commands
 
 ---
 
-|Back to ...||IBM MQ for z/OS - Generate MQSC Commands |Latest Version|
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-mq-for-z-os-generate-mqsc-commands/README.md)|[0]()|
+|        Back to ...         || IBM MQ for z/OS - Generate MQSC Commands |                       Latest Version                       |
+|:--------------------------:|:----------------------------------------:|:----------------------------------------------------------:| :---: |
+| [All Plugins](../index.md) |             [Top](#contents)             | [Readme](ibm-mq-for-z-os-generate-mqsc-commands/README.md) |[0]()|
 
 ## IBM MaaS360  [community plugin]
 
@@ -1215,7 +1228,7 @@ The DBUpgrader plug-in helps to manage database changes including schema updates
 
 |Back to ...||IBM UrbanCode DBUpgrader |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](DBUpgrader/README.md)|[4.1127382](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DBUpgrader/ucd-DBUpgrader-4.1127382.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](DBUpgrader/README.md)|[5.1151802](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DBUpgrader/ucd-DBUpgrader-5.1151802.zip)|
 
 ## IBM UrbanCode Deploy Agent Package for Dynamic Cloud Environments
 
@@ -2105,7 +2118,7 @@ This community plugin provides a mechanism to send SMTP emails in your deploymen
 
 |Back to ...||ServiceNow |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ServiceNow/README.md)|[31.1148995](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-31.1148995.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ServiceNow/README.md)|[32.1152182](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-32.1152182.zip)|
 
 ## Shell
 
@@ -2245,21 +2258,21 @@ The Web Utilities plug-in includes steps for interacting with web sites and web 
 
 |Back to ...||Web Utilities |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](web-utilities/README.md)|[17.1148552](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/ucd-web-utilities-17.1148552.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](web-utilities/README.md)|[18.1151823](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/ucd-web-utilities-18.1151823.zip)|
 
 ## WebSphere Application Server - Configure
 
-To learn more about different solutions for WebSphere Application Server, see [Frequently Asked Questions about IBM UrbanCode Deploy solutions for WebSphere Application Server](http://developer.ibm.com/urbancode/docs/frequently-asked-questions-ibm-urbancode-deploy-solutions-websphere-application-server/ "Frequently Asked Questions about IBM UrbanCode Deploy solutions for WebSphere Application Server").  Starting with version 14 of the WebSphere Application Server – Configure plug-in for IBM UrbanCode Deploy, you can use JSON files to manage WebSphere Application Server configuration.
+To learn more about different solutions for WebSphere Application Server, see [Frequently Asked Questions about IBM UrbanCode Deploy solutions for WebSphere Application Server](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/03/03/frequently-asked-questions-about-ibm-urbancode-dep/ "Frequently Asked Questions about IBM UrbanCode Deploy solutions for WebSphere Application Server").  Starting with version 14 of the WebSphere Application Server – Configure plug-in for IBM UrbanCode Deploy, you can use JSON files to manage WebSphere Application Server configuration.
 
 ---
 
 |Back to ...||WebSphere Application Server - Configure |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](WebSphereConfiguration/README.md)|[91.1114389](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/WebSphereConfiguration-91.1114389.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](WebSphereConfiguration/README.md)|[92.1152136](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/ucd-WebSphereConfiguration-92.1152136.zip)|
 
 ## WebSphere Application Server - Deployment
 
-The WebSphere Application Server – Deployment plug-in provides a number of steps for deploying application files to and performing administrative tasks for WebSphere Application Server. The plug-in also contains a number of steps that are related to configuration management, such as creating data sources and JMS requests. These configuration steps are deprecated; instead, use the WebSphere Application Server – Configure plug-in for all configuration-related activities. To learn more about different solutions for WebSphere Application Server, see [Frequently Asked Questions about IBM UrbanCode Deploy solutions for WebSphere Application Server](http://developer.ibm.com/urbancode/docs/frequently-asked-questions-ibm-urbancode-deploy-solutions-websphere-application-server/ "Frequently Asked Questions about IBM UrbanCode Deploy solutions for WebSphere Application Server").
+The WebSphere Application Server – Deployment plug-in provides a number of steps for deploying application files to and performing administrative tasks for WebSphere Application Server. The plug-in also contains a number of steps that are related to configuration management, such as creating data sources and JMS requests. These configuration steps are deprecated; instead, use the WebSphere Application Server – Configure plug-in for all configuration-related activities. To learn more about different solutions for WebSphere Application Server, see [Frequently Asked Questions about IBM UrbanCode Deploy solutions for WebSphere Application Server](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/03/03/frequently-asked-questions-about-ibm-urbancode-dep/ "Frequently Asked Questions about IBM UrbanCode Deploy solutions for WebSphere Application Server").
 
 ---
 
@@ -2367,7 +2380,7 @@ The z/OS Multi Generate Artifact Information plug-in scans version artifacts and
 
 |Back to ...||z/OS Multi Generate Artifact Information |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](zos-multi-generate-artifact-info/README.md)|[6.1150110](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-6.1150110.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](zos-multi-generate-artifact-info/README.md)|[7.1150817](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-7.1150817.zip)|
 
 ## z/OS Shell
 
@@ -2397,4 +2410,4 @@ The z/OS Utility plug-in includes steps for retrieving and deploying IBM z/OS ar
 
 |Back to ...||z/OS Utility |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](zos-deploy/README.md)|[77.1150109](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-77.1150109.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](zos-deploy/README.md)|[78.1151227](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-78.1151227.zip)|

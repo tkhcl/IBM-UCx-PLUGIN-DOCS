@@ -17,6 +17,14 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+####  Version 22
+
+* Fixed APAR PH42585 - Improved handling of connection passwords containing special characters. The @ character in a password may not be compatible with all versions of the sqlplus client.
+
+####  Version 21
+
+* Fixed APAR PH38827 - Wildcard issue and modified description in UI.
+
 ####  Version 20
 
 * Fixed APAR PH19241Avoid memory leaks by streaming file contents instead of storing them in memory.

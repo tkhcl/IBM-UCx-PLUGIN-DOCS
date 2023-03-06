@@ -19,14 +19,22 @@ There is no install process for this plug-in. The GitLab plug-in is identified t
 
 ## History
 
-### Version 2.0.58
+### Version 2.1.63
+
+* Minor Bug Fix: Previous version of plugin was giving Cannot read property status of null error.
+
+### Version 2.1.62
+
+* Resolved 502 Bad Gateway Error: Previous version of plugin was giving a 502 Bad Gateway error for GitLab Server.
+
+### Version 2.1.58
 
 * Removed Manual User Access Key: From current version onwards this plugin will only support Auto Generated User Access Key feature of UrbanCode Velocity.
 * Preventing Installation on Older Versions: This version of GitLab Plugin can only be installed on UrbanCode Velocity version 2.5.0 and later.
 * Resolved Previous Version Issue: Previous Version of plugin had some defect related to Project Names field. The plugin was syncing data only for those projects which were owned by the user. Now the plugin syncs data for the projects in which user is a member at any level.
 * Added Category: ALM, SCM, Build, Deploy are the categories of GitLab plugin.
 
-### Version 2.0.57
+### Version 2.1.57
 
 * Added project names :Removed project IDs property and added project names property. Instead of using array of Project IDs , an array of project names are used. While integrating user must provide comma separated list of project names.
 * Wild card implementation :Supports wildcard functionality for project names. Example : *Sample, *Sample*, Sample*.
@@ -92,4 +100,4 @@ There is no install process for this plug-in. The GitLab plug-in is identified t
 
 |Back to ...||Latest Version|GitLab |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.0.58](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-gitlab/ucv-ext-gitlab:2.1.58.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.1.63](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-gitlab/ucv-ext-gitlab:2.1.63.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
