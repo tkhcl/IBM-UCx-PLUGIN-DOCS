@@ -57,8 +57,7 @@ DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-bitbucket-server/tags).
 
 ### Version 1.0.23
 
-* Minor
-enhancements.
+* Minor enhancements.
 
 ### Version 1.0.19
 
