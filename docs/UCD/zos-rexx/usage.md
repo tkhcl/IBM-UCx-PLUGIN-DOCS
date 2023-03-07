@@ -34,6 +34,7 @@ the second argument is the property value.
 > CALL SETPROP propertyName propertyValue
 
 For example, below REXX snippet will set an output property **currentDate** with value of **date** variable
+
 ***
     /* REXX */
     date = DATE('S')  /* Returns date in YYYYMMDD format E.g., 20120327 */
