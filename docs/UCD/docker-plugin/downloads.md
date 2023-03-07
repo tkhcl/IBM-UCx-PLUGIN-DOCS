@@ -1,7 +1,8 @@
 
 # Docker - Downloads
 
-To download the plug-in, click the following version-specifi links.
+To download the plug-in, click the following version-specific links.
+
 - [docker-plugin-10.950098.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-plugin/docker-plugin-10.950098.zip)
 - [docker-plugin-9.927770.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-plugin/docker-plugin-9.927770.zip)
 - [docker-plugin-8.924063.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-plugin/docker-plugin-8.924063.zip)
