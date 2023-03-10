@@ -954,12 +954,13 @@ IBM Installation Manager is a tool that you can use to install and maintain IBM 
 
 ## IBM Instana 
 
+Instana is an automated Application Performance Management (APM) solution designed specifically for the challenges of managing microservice and cloud-native applications.
 
 ---
 
 |Back to ...||IBM Instana  |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-instana/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-instana/README.md)|[1.1152844](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-instana/ucd-Instana-1.1152844.zip)|
 
 
 ## IBM Integration Bus (IIB) plugin Deploy step for zOS
