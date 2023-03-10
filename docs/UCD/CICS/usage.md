@@ -179,25 +179,16 @@ Each CICS step has default,hidden properties. In order to use SSL, update the re
 safkeyring:///<keyring name>
 ```
 
+For java 11 and above:
+```
+safkeyringjce:///<keyring name>
+```
+
 .
 * For keys contained in a key ring managed by a security manager that are stored in hardware with ICSF, use
 
 ```
 safkeyringhw:///<keyring name>
-```
-
--For certificates contained in a key ring managed by a security manager that are stored in software, use a URL in the format
-
-```
-safkeyring:///<keyring name>
-
-```
-
--For certificates contained in a key ring managed by a security manager that are stored in hardware with ICSF, use
-
-```
-safkeyringhw:///<keyring name>
-
 ```
 
 |          Back to ...          |                                |                                                      Latest Version                                                       |       CICS TS       ||||||
