@@ -77,6 +77,7 @@
 	- [IBM InfoSphere DataStage](#ibm-infosphere-datastage)
 	- [IBM InfoSphere Optim](#ibm-infosphere-optim)
 	- [IBM Installation Manager](#ibm-installation-manager)
+	- [IBM Instana ](#ibm-instana)
 	- [IBM Integration Bus (IIB) plugin Deploy step for zOS](#ibm-integration-bus-iib-plugin-deploy-step-for-zos)
 	- [IBM Integration Bus (formerly WebSphere Message Broker) - CMP](#ibm-integration-bus-formerly-websphere-message-broker---cmp)
 	- [IBM MQ for z/OS - Generate MQSC Commands \[community plugin\]](#ibm-mq-for-zos---generate-mqsc-commands-community-plugin)
@@ -950,6 +951,16 @@ IBM Installation Manager is a tool that you can use to install and maintain IBM 
 |Back to ...||IBM Installation Manager |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-installation-manager/README.md)|[0]()|
+
+## IBM Instana 
+
+
+---
+
+|Back to ...||IBM Instana  |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-instana/README.md)|[0]()|
+
 
 ## IBM Integration Bus (IIB) plugin Deploy step for zOS
 
