@@ -265,7 +265,7 @@ Jira is an issue tracking product, developed by Atlassian. The Jira plug-in prov
 
 |Back to ...||Jira |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-jira/README.md)|[2.2.9](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira-2.2.9.tar.7z.001)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-jira/README.md)|[2.3.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira-2.3.1.tar.7z.001)|
 
 ## Microsoft Visual Studio Testing
 
