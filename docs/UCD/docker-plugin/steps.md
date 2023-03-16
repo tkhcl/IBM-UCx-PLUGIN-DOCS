@@ -1,38 +1,41 @@
 
 # Docker - Proces Steps
 
-* [Create Config](#create_config)
-* [Create Image Registry Resource](#create_image_registry_resource)
-* [Create Secret](#create_secret)
-* [Create Service](#create_service)
-* [Deploy Stack](#deploy_stack)
-* [Docker Login](#docker_login)
-* [Docker Logout](#docker_logout)
-* [Initialize Swarm](#initialize_swarm)
-* [Join Swarm](#join_swarm)
-* [Leave Swarm](#leave_swarm)
-* [Manage Swarm Join Tokens](#manage_swarm_join_tokens)
-* [Promote Image](#promote_image)
-* [Pull Docker Image](#pull_docker_image)
-* [Push Docker Image](#push_docker_image)
-* [Remove Config](#remove_config)
-* [Remove Docker Container](#remove_docker_container)
-* [Remove Secret](#remove_secret)
-* [Remove Service](#remove_service)
-* [Remove Stack](#remove_stack)
-* [Run Docker Container](#run_docker_container)
-* [Scale Service](#scale_service)
-* [Start Docker Container](#start_docker_container)
-* [Stop Docker Container](#stop_docker_container)
-* [Tag Docker Image](#tag_docker_image)
-* [Update Service](#update_service)
+## Steps
 
+- [Docker - Proces Steps](#docker---proces-steps)
+  - [Steps](#steps)
+    - [Create Config](#create-config)
+    - [Create Image Registry Resource](#create-image-registry-resource)
+    - [Create Secret](#create-secret)
+    - [Create Service](#create-service)
+    - [Deploy Stack](#deploy-stack)
+    - [Docker Login](#docker-login)
+    - [Docker Logout](#docker-logout)
+    - [Initialize Swarm](#initialize-swarm)
+    - [Join Swarm](#join-swarm)
+    - [Leave Swarm](#leave-swarm)
+    - [Manage Swarm Join Tokens](#manage-swarm-join-tokens)
+    - [Promote Image](#promote-image)
+    - [Pull Docker Image](#pull-docker-image)
+    - [Push Docker Image](#push-docker-image)
+    - [Remove Config](#remove-config)
+    - [Remove Docker Container](#remove-docker-container)
+    - [Remove Secret](#remove-secret)
+    - [Remove Service](#remove-service)
+    - [Remove Stack](#remove-stack)
+    - [Run Docker Container](#run-docker-container)
+    - [Scale Service](#scale-service)
+    - [Start Docker Container](#start-docker-container)
+    - [Stop Docker Container](#stop-docker-container)
+    - [Tag Docker Image](#tag-docker-image)
+    - [Update Service](#update-service)
+  - [Roles in the Docker plug-in](#roles-in-the-docker-plug-in)
+    - [ImageRegistry Role](#imageregistry-role)
 
 ### Create Config
 
 Create a configuration file from a file as content.ID of the new config will be stored in the output property configID.
-
-
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
@@ -46,7 +49,6 @@ Create a configuration file from a file as content.ID of the new config will be 
 
 Create an image registry resource in the Resource Tree.
 
-
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | AWS Command Line File | String | When type is Amazon ECR. Command or path to the AWS command line interface. If specified, AWS authentication will be used.Ensure the User Name and Password properties are set to the AWS Access ID and Secret Key respectively. | No |
@@ -54,26 +56,23 @@ Create an image registry resource in the Resource Tree.
 | Allow Insecure Connections | String | Set this property to true to allow insecure registry connections. | No |
 | CF\_HOME | String | When type is IBM Containers. The CF\_HOME environment variable specifies the location of config.json for authentication. | No |
 | Email Address | String | The image registry email address. This field may be required if the Docker client attempts to prompt for the email interactively. | No |
-| ICS API | String | The api to use when logging in to Bluemix | No |
-| ICS Organization | String | The Bluemix organization to use when logging in to Bluemix | No |
-| ICS Space | String | The Bluemix space to use when logging in to Bluemix | No |
-| ICS apikey | Password | The Bluemix apikey to use when logging in to Bluemix | No |
+| ICS API | String | The api to use when logging in to IBM Cloud | No |
+| ICS Organization | String | The IBM Cloud organization to use when logging in to IBM Cloud | No |
+| ICS Space | String | The IBM Cloud space to use when logging in to IBM Cloud | No |
+| ICS apikey | Password | The IBM Cloud apikey to use when logging in to IBM Cloud | No |
 | Image Registry Host | String | The image registry server. | Yes |
-| Image Registry Type | Enumeration:
-* docker
-* ibm-containers
-* artifactory
-* amazon-ecr
-| Specify which API to connect with the Image Registry. When using IBM Containers, provide Bluemix Credentials. For Amazon ECR, use AWS access key as username and secret key as password. | Yes |
+| Image Registry Type | Enumeration: | Specify which API to connect with the Image Registry. When using IBM Containers, provide IBM Cloud Credentials. For Amazon ECR, use AWS access key as username and secret key as password. | Yes |
+| | * docker | | |
+| | * ibm-containers | | |
+| | * artifactory | | |
+| | * amazon-ecr | | |
 | Parent Resource | String | The parent resource under which the image registry resource will be created. | Yes |
-| Password | Password | The image registry password. When using IBM Containers, provide Bluemix Credentials. For Amazon ECR, use AWS access key as username and secret key as password. | Yes |
-| User Name | String | The image registry user name.When using IBM Containers, provide Bluemix Credentials. For Amazon ECR, use AWS access key as username and secret key as password. | Yes |
+| Password | Password | The image registry password. When using IBM Containers, provide IBM Cloud Credentials. For Amazon ECR, use AWS access key as username and secret key as password. | Yes |
+| User Name | String | The image registry user name.When using IBM Containers, provide IBM Cloud Credentials. For Amazon ECR, use AWS access key as username and secret key as password. | Yes |
 
 ### Create Secret
 
 Create a secret from a file.ID of the new secret will be stored in the output property secretID.
-
-
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
@@ -87,8 +86,6 @@ Create a secret from a file.ID of the new secret will be stored in the output pr
 
 Create a new service. ID of the new service will be stored in the output property serviceID.
 
-
-
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command | String | Command and args to execute in the container. | No |
@@ -100,7 +97,6 @@ Create a new service. ID of the new service will be stored in the output propert
 ### Deploy Stack
 
 Deploy a new stack or update an existing stack.
-
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
@@ -115,12 +111,11 @@ Deploy a new stack or update an existing stack.
 
 Log in to a Docker registry.
 
-
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Docker Client Variables | String | A list, separated by newline characters, of runtime environment variables for the Docker client. For example: DOCKER\_HOST=tcp://192.0.2.100:2376 | No |
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
-| Docker Registry | String | The Docker registry server. Leave blank to use the default, https://index.docker.io/v1/. | No |
+| Docker Registry | String | The Docker registry server. Leave blank to use the default, <https://index.docker.io/v1/>. | No |
 | Email Address | String | The Docker registry email address. This field may be required if the Docker client attempts to prompt for the email interactively. | No |
 | Password | Password | The Docker registry password. | Yes |
 | User Name | String | The Docker registry user name. | Yes |
@@ -129,16 +124,13 @@ Log in to a Docker registry.
 
 Logout of a Docker registry.
 
-
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
-| Docker Registry | String | The Docker registry server. Leave blank to use the default, https://index.docker.io/v1/. | No |
+| Docker Registry | String | The Docker registry server. Leave blank to use the default, <https://index.docker.io/v1/>. | No |
 
 ### Initialize Swarm
 
 Initialize a swarm. Output properties will contain the manager/worker tokens and the address:port of the new swarm manager.
-
-
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
@@ -149,7 +141,6 @@ Initialize a swarm. Output properties will contain the manager/worker tokens and
 ### Join Swarm
 
 Join a swarm as a node and/or manager.
-
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
@@ -163,7 +154,6 @@ Join a swarm as a node and/or manager.
 
 Leave the swarm.
 
-
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Docker Client Variables | String | A list, separated by newline characters, of runtime environment variables for the Docker client. For example: DOCKER\_HOST=tcp://192.0.2.100:2376 | No |
@@ -174,22 +164,18 @@ Leave the swarm.
 
 Manage join tokens. Output properties will contain the requested token and optionally the advertise address for the swarm.
 
-
-
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Docker Client Variables | String | A list, separated by newline characters, of runtime environment variables for the Docker client. For example: DOCKER\_HOST=tcp://192.0.2.100:2376 | No |
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
 | Docker Swarm Join-Token Options | String | Options for the Docker swarm join-token command. For example: rotate | No |
-| Docker Swarm Join-Token Type | Enumeration:
-* worker
-* manager
-| The type of swarm token to manage, worker or manager | Yes |
+| Docker Swarm Join-Token Type | Enumeration: | The type of swarm token to manage, worker or manager | Yes |
+| | * worker | | |
+| | * manager | | |
 
 ### Promote Image
 
 Promote an image from a source registry to a destination registry.
-
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
@@ -198,20 +184,19 @@ Promote an image from a source registry to a destination registry.
 | Destination Allow Insecure Connections | String | Set this property to true to allow insecure registry connections to the destination regsitry. | No |
 | Destination CF\_HOME | String | When type is IBM Containers. The CF\_HOME environment variable specifies the location of config.json for authentication. | No |
 | Destination Email Address | String | The destination registry email address. This field may be required if the Docker client attempts to prompt for the email interactively. | No |
-| Destination ICS API | String | The api to use when logging in to IBM Container Service on Bluemix | No |
-| Destination ICS Organization | String | The Bluemix organization to use when logging in to IBM Container Service on Bluemix | No |
-| Destination ICS Space | String | The Bluemix space to use when logging in to IBM Container Service on Bluemix | No |
-| Destination ICS apikey | Password | The Bluemix apikey to use when logging in to IBM Container Service on Bluemix | No |
-| Destination Image Registry Type | Enumeration:
-* docker
-* ibm-containers
-* artifactory
-* amazon-ecr
-| Specify which API to connect with the Destination Image Registry. When using IBM Containers, provide Bluemix Credentials. For Amazon ECR, use AWS access key as username and secret key as password. | Yes |
+| Destination ICS API | String | The api to use when logging in to IBM Container Service on IBM Cloud | No |
+| Destination ICS Organization | String | The IBM Cloud organization to use when logging in to IBM Container Service on IBM Cloud | No |
+| Destination ICS Space | String | The IBM Cloud space to use when logging in to IBM Container Service on IBM Cloud | No |
+| Destination ICS apikey | Password | The IBM Cloud apikey to use when logging in to IBM Container Service on IBM Cloud | No |
+| Destination Image Registry Type | Enumeration: | Specify which API to connect with the Destination Image Registry. When using IBM Containers, provide IBM Cloud Credentials. For Amazon ECR, use AWS access key as username and secret key as password. | Yes |
+| | * docker  | | |
+| | * ibm-containers | | |
+| | * artifactory | | |
+| | * amazon-ecr | | |
 | Destination Image Tag | String | The tag to apply to the image in the destination registry.If not specified, the tag given in the Image field will be used. | No |
-| Destination Password | Password | The destination registry password. When using IBM Containers, provide Bluemix Credentials. For Amazon ECR, use AWS access key as username and secret key as password. | Yes |
-| Destination Registry | String | The Docker registry server the image will be promoted to. Leave blank to use the default, https://index.docker.io/v1/. | Yes |
-| Destination User Name | String | The destination registry user name. When using IBM Containers, provide Bluemix Credentials. For Amazon ECR, use AWS access key as username and secret key as password. | Yes |
+| Destination Password | Password | The destination registry password. When using IBM Containers, provide IBM Cloud Credentials. For Amazon ECR, use AWS access key as username and secret key as password. | Yes |
+| Destination Registry | String | The Docker registry server the image will be promoted to. Leave blank to use the default, <https://index.docker.io/v1/>. | Yes |
+| Destination User Name | String | The destination registry user name. When using IBM Containers, provide IBM Cloud Credentials. For Amazon ECR, use AWS access key as username and secret key as password. | Yes |
 | Docker Client Variables | String | A list, separated by newline characters, of runtime environment variables for the Docker client. For example: DOCKER\_HOST=tcp://192.0.2.100:2376 | No |
 | Docker Options | String | Options for the Docker client. For example: -H tcp://127.0.0.1:2375 log-level=info | No |
 | Image | String | The source image to be promoted to the destination registry. For example: mysql:5.5 | Yes |
@@ -219,7 +204,6 @@ Promote an image from a source registry to a destination registry.
 ### Pull Docker Image
 
 Retrieve an image from a Docker registry.
-
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
@@ -232,7 +216,6 @@ Retrieve an image from a Docker registry.
 
 Upload an image to a Docker registry.
 
-
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Docker Client Variables | String | A list, separated by newline characters, of runtime environment variables for the Docker client. For example: DOCKER\_HOST=tcp://192.0.2.100:2376 | No |
@@ -244,7 +227,6 @@ Upload an image to a Docker registry.
 
 Remove one or more configuration files.
 
-
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Config Name | String | Name or ID of the docker configuration file(s) to remove. If multiple configuration files are specified, separate them with spaces. | Yes |
@@ -254,7 +236,6 @@ Remove one or more configuration files.
 ### Remove Docker Container
 
 Remove a Docker container.
-
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
@@ -267,7 +248,6 @@ Remove a Docker container.
 
 Remove one or more secrets.
 
-
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Docker Client Variables | String | A list, separated by newline characters, of runtime environment variables for the Docker client. For example: DOCKER\_HOST=tcp://192.0.2.100:2376 | No |
@@ -277,7 +257,6 @@ Remove one or more secrets.
 ### Remove Service
 
 Remove one or more services.
-
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
@@ -289,7 +268,6 @@ Remove one or more services.
 
 Remove the specified stack.
 
-
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Docker Client Variables | String | A list, separated by newline characters, of runtime environment variables for the Docker client. For example: DOCKER\_HOST=tcp://192.0.2.100:2376 | No |
@@ -299,7 +277,6 @@ Remove the specified stack.
 ### Run Docker Container
 
 Create a Docker container and run a command in the container.
-
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
@@ -313,7 +290,6 @@ Create a Docker container and run a command in the container.
 
 Scale one or multiple replicated services.
 
-
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Docker Client Variables | String | A list, separated by newline characters, of runtime environment variables for the Docker client. For example: DOCKER\_HOST=tcp://192.0.2.100:2376 | No |
@@ -323,7 +299,6 @@ Scale one or multiple replicated services.
 ### Start Docker Container
 
 Start a Docker container.
-
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
@@ -336,7 +311,6 @@ Start a Docker container.
 
 Stop a Docker container.
 
-
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Docker Client Variables | String | A list, separated by newline characters, of runtime environment variables for the Docker client. For example: DOCKER\_HOST=tcp://192.0.2.100:2376 | No |
@@ -347,7 +321,6 @@ Stop a Docker container.
 ### Tag Docker Image
 
 Tag an image into a repository.
-
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
@@ -361,7 +334,6 @@ Tag an image into a repository.
 
 Update a service.
 
-
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Docker Client Variables | String | A list, separated by newline characters, of runtime environment variables for the Docker client. For example: DOCKER\_HOST=tcp://192.0.2.100:2376 | No |
@@ -369,16 +341,13 @@ Update a service.
 | Docker Service Update Options | String | Options for the Docker service update command. For example: image string | No |
 | Service Name | String | The service to update. | Yes |
 
+## Roles in the Docker plug-in
 
-### Roles in the Docker plug-in
+- [ImageRegistry](#imageregistry-role)
 
-* [ImageRegistry](#imageregistry_role)
-
-
-### ImageRegistry
+### ImageRegistry Role
 
 Role for resources that represents a Container Image Registry.
-
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -387,17 +356,14 @@ Role for resources that represents a Container Image Registry.
 | Allow Insecure Connections | String | Set this property to true to allow insecure registry connections. |
 | CF\_HOME | String | When type is IBM Containers. The CF\_HOME environment variable specifies the location of config.json for authentication. |
 | Email | String | Email address associated with User Name. |
-| ICS API | String | When type is IBM Containers. The api to use when logging in to Bluemix Container Registry. |
-| ICS Organization | String | When type is IBM Containers. The Bluemix organization to login to. |
-| ICS Space | String | When type is IBM Containers. The Bluemix space to login to. |
-| ICS apikey | Password | When type is IBM Containers. The Bluemix apikey to login with. |
+| ICS API | String | When type is IBM Containers. The api to use when logging in to IBM Cloud Container Registry. |
+| ICS Organization | String | When type is IBM Containers. The IBM Cloud organization to login to. |
+| ICS Space | String | When type is IBM Containers. The IBM Cloud space to login to. |
+| ICS apikey | Password | When type is IBM Containers. The IBM Cloud apikey to login with. |
 | Image Registry Host | String | The Docker image registry server. |
-| Password | Password | Password used to access the image registery. When using IBM Containers, provide Bluemix Credentials. For Amazon ECR, use AWS access key as username and secret key as password. |
-| Registry Type | Enumeration:
-| Specify which API to connect with the Image Registry. When using IBM Containers, provide Bluemix Credentials. For Amazon ECR, use AWS access key as username and secret key as password. |
-| User Name | String | User name used to access the image registery. When using IBM Containers, provide Bluemix Credentials. For Amazon ECR, use AWS access key as username and secret key as password. |
-
-
+| Password | Password | Password used to access the image registery. When using IBM Containers, provide IBM Cloud Credentials. For Amazon ECR, use AWS access key as username and secret key as password. |
+| Registry Type | Enumeration: | Specify which API to connect with the Image Registry. When using IBM Containers, provide IBM Cloud Credentials. For Amazon ECR, use AWS access key as username and secret key as password. |
+| User Name | String | User name used to access the image registery. When using IBM Containers, provide IBM Cloud Credentials. For Amazon ECR, use AWS access key as username and secret key as password. |
 
 |Back to ...||Latest Version|Docker |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
