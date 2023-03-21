@@ -1,17 +1,22 @@
 
 # z/OS Management Facility - Process Steps
 
-* [Create Workflow](#create_workflow)
-* [Run Published Software Service Template](#run_published_software_service_template)
-* [Software Services Instance Discovery](#software_services_instance_discovery)
-* [Start Workflow](#start_workflow)
-* [zOSMF Cloud Provisioning Discovery](#zosmf_cloud_provisioning_discovery)
+- [z/OS Management Facility - Process Steps](#zos-management-facility---process-steps)
+  - [Steps](#steps)
+    - [Create Workflow](#create-workflow)
+    - [Run Published Software Service Template](#run-published-software-service-template)
+    - [Software Services Instance Discovery](#software-services-instance-discovery)
+    - [Start Workflow](#start-workflow)
+    - [zOSMF Cloud Provisioning Discovery](#zosmf-cloud-provisioning-discovery)
+  - [Roles in the zOSMF plug-in](#roles-in-the-zosmf-plug-in)
+    - [zOSMFService Role](#zosmfservice-role)
+    - [zOSMFSoftwareInstance Role](#zosmfsoftwareinstance-role)
 
+## Steps
 
 ### Create Workflow
 
 Use this step to create a workflow.
-
 
 | Name                             | Type    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Required |
 |----------------------------------|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
@@ -30,8 +35,6 @@ Use this step to create a workflow.
 ### Run Published Software Service Template
 
 Use this step to define the input properties for the Run Published Software Service template.
-
-
 
 | Name                    | Type    | Description                                                                                                                                                                                                                                                                                                                                           | Required |
 |-------------------------|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
@@ -57,8 +60,6 @@ Use this step to define the input properties for the Run Published Software Serv
 
 Use this step to discover all the software instances. Also use to create resources for each software instance under a root resource, apply the correct role, and set the properties.
 
-
-
 | Name             | Type   | Description                                                                                                                                | Required |
 |------------------|--------|--------------------------------------------------------------------------------------------------------------------------------------------|----------|
 | Query Parameters | String | A list of one or more query variables. Check the z/OSMF List the software services instances REST API for a list of valid query parameters | No       |
@@ -70,7 +71,6 @@ Use this step to discover all the software instances. Also use to create resourc
 ### Start Workflow
 
 Use this step to start a workflow.
-
 
 | Name                      | Type    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Required |
 |---------------------------|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
@@ -93,29 +93,22 @@ Use this step to start a workflow.
 
 Use this step to discover if the zOSMF service is available by checking the URL specified in zosmf.url agent property. If it is available, the zOSMFService role is assigned to the resource and the properties are set.
 
-
-
 | Name     | Type   | Description                           | Required |
 |----------|--------|---------------------------------------|----------|
 | zOSMFURL | String | The URL to access the zOSMF REST API. | No       |
 | sysUser  | String | The user to use.                      | No       |
 | Resource | String | The resource to configure.            | No       |
 
-
-### Roles in the zOSMF plug-in
+## Roles in the zOSMF plug-in
 
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
 
+- [zOSMFService](#zosmfservice-role)
+- [zOSMFSoftwareInstance](#zosmfsoftwareinstance-role)
 
-* [zOSMFService](#zosmfservice_role)
-* [zOSMFSoftwareInstance](#zosmfsoftwareinstance_role)
-
-
-### zOSMFService
-
+### zOSMFService Role
 
 Role for resources that represent zOSMF Service.
-
 
 | Name               | Type     | Description                                                                                                                                                                                                                                                            |
 |--------------------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -131,11 +124,9 @@ Role for resources that represent zOSMF Service.
 | zOSMF User         | String   | The zOSMF user to use. The Resource Role property name is zosmf.user.                                                                                                                                                                                                  |
 | zOSMF Version      | String   | The z/OSMF level. The Resource Role property name is zosmf.zosmf\_version.                                                                                                                                                                                             |
 
-### zOSMFSoftwareInstance
-
+### zOSMFSoftwareInstance Role
 
 Role for resources that represent a software instance.
-
 
 | Name              | Type   | Description                                                                                                                   |
 |-------------------|--------|-------------------------------------------------------------------------------------------------------------------------------|
@@ -150,8 +141,6 @@ Role for resources that represent a software instance.
 | State             | String | The current state of the software. The Resource Role property name is instance.state.                                         |
 | Tenant Name       | String | The name of the tenant. The Resource Role property name is instance.tenant-name.                                              |
 | Type              | String | The type of software instance.                                                                                                |
-
-
 
 |          Back to ...          ||         Latest Version         |                                              z/OS Management Facility                                               ||||
 |:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------:| :---: | :---: | :---: | :---: |
