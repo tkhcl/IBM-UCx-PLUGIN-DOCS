@@ -3,24 +3,27 @@
 
 The z/OS Management Facility (zOSMF) plug-in provides functions to discover software instances provisioned by[z/OSMFCloud Provisioning](https://www.ibm.com/systems/z/os/zos/features/zosmf/)or[z/OS Provisioning Toolkit](https://developer.ibm.com/mainframe/products/zospt/). A collection of resources are created inthe resource tree torepresent thesoftware instances such as CICS regions, WebSphere Liberty profile, MQ queues, and DB2 databases.
 
+## Discovering resources
+
 Discovering resources takes less time than manually creating resources to match the sub systems. For additional information about discovering resources, see the following topics:
 
-* [Discovering Mainframe Software Services Instances](#discovering-mainframe-software-services-instances)
-* [Provisioning and Discovering Mainframe Software Services Instances](#provisioning-discovering-mainframe-software-services-instances)
+* [Discovering Mainframe Software Services Instances](usage.md#discovering-mainframe-software-services-instances)
+* [Provisioning and Discovering Mainframe Software Services Instances](usage.md#provisioning-discovering-mainframe-software-services-instances)
+
+## Steps and Roles
 
 This plug-in includes the following steps:
 
-* [Create Workflow](#create_workflow)
-* [Start Workflow](#start_workflow)
-* [Run Published Software Service Template](#run_published_software_service_template)
-* [Software Services Instance Discovery](#software_services_instance_discovery)
-* [zOSMF Cloud Provisioning Discovery](#zosmf_cloud_provisioning_discovery)
+* [Create Workflow](steps.md#create-workflow)
+* [Start Workflow](steps.md#start-workflow)
+* [Run Published Software Service Template](steps.md#run-published-software-service-template)
+* [Software Services Instance Discovery](steps.md#software-services-instance-discovery)
+* [zOSMF Cloud Provisioning Discovery](steps.md#zosmf-cloud-provisioning-discovery)
 
 The following roles are added by this plug-in.
 
-* [zOSMFService](#zosmfservice_role)
-* [zOSMFSoftwareInstance](#zosmfsoftwareinstance_role)
-
+* [zOSMFService](steps.md#zosmfservice-role)
+* [zOSMFSoftwareInstance](steps.md#zosmfsoftwareinstance-role)
 
 ### Step palette
 
@@ -45,25 +48,25 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
-#### Version 15.1153789 includes the following updates:
+#### Version 15.1153789 includes the following updates
 
 * Fixes Groovy compilation issue on Groovy-3.0.x.
 
-#### Version 6.934842 includes the following updates:
+#### Version 6.934842 includes the following updates
 
 * Added zOSMF discovery feature. The plug-in is now able to discover software instances provisioned by zOSMF Cloud Provisioning or zOS Provisioning Toolkit. A set of resources representing the software instances are automatically created as the result of the discovery.
 * Added a new step to Run Published Software Service Template.
 
-#### Version 5.868918 includes the following updates:
+#### Version 5.868918 includes the following updates
 
 * Enhanced Start Workflow step to store job logs to output properties.
 
-#### Version 4.839888 includes the following updates:
+#### Version 4.839888 includes the following updates
 
 * Fixed a problem in Start Workflow step that Perform Subsequent parameter does not work.
 * Fixed a problem in Start Workflow step that partially completed workflow gives a step failure.
 * Enhanced Start Workflow step to display job logs.
 
-|          Back to ...          ||         Latest Version         |                                                             z/OS Management Facility                                                              ||||
+|          Back to ...          | |         Latest Version         |                                                             z/OS Management Facility                                                              ||||
 |:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :----: |:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [15.1153789](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zosmf/ucd-zosmf-15.1153789 [Readme](README.md) me](README.md) |[Usage](usage.md) [Downloads](downloads.md) loads](downloads.md) |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [15.1153789](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zosmf/ucd-zosmf-15.1153789) | [Readme](README.md) | [Usage](usage.md) | [Steps](steps.md) | [Downloads](downloads.md)|
