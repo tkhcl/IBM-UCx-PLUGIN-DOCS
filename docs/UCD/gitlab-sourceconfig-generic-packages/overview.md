@@ -28,6 +28,6 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 
 
-|Back to ...||Latest Version|GitLab Generic Packages|||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+|Back to ...| |Latest Version|GitLab Generic Packages|||
+| :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.1147446](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/gitlab-sourceconfig-generic-packages/ucd-plugins-sourceconfig-gitlab-generic-packages-1.1147446.zip)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

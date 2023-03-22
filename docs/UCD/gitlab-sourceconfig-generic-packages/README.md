@@ -1,4 +1,4 @@
-# Gitlab Generic Packages
+# GitLab Generic Packages
 
 The GitLab Generic Packages plug-in creates versions and imports packaged files from GitLab Generic Packages.
 
@@ -13,7 +13,7 @@ For a complete list of steps, refer to the Steps documentation link below.
 
 
 
-|          Back to ...          ||         Latest Version         |GitLab Generic Packages|||||
-|:-----------------------------:|:------------------------------:| :---: | :---: | :---: | :---: | :---: | :---: |
+|          Back to ...          | |         Latest Version         |GitLab Generic Packages||||
+|:-----------------------------:|:------------------------------:| :---: | :---: | :---: | :---: | :---: |
 | [All Plugins](../../index.md) | [Deploy Plugins](../README.md) |[1.1147446](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/gitlab-sourceconfig-generic-packages/ucd-plugins-sourceconfig-gitlab-generic-packages-1.1147446.zip)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
 

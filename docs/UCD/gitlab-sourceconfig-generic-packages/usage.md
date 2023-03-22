@@ -1,6 +1,13 @@
 # GitLab Generic Packages - Usage
 
-You will need to define an UrbanCode Deploy component which defines the source and processes for the GitLab Generic Packages. The component contains the information for importing the artifacts and any processes to implement on the artifacts.
+## Prerequisite
+Before you use the plug-in, ensure that:
+ - The packages are published.
+ - You have the access token ready.
+ - The project ID is captured.
+ 
+ ## Procedure
+ You will need to define an UrbanCode Deploy component which defines the source and processes for the GitLab Generic Packages. The component contains the information for importing the artifacts and any processes to implement on the artifacts.
 
 When creating the component, supply information described on the [GitLab Generic Packages Component Properties](#comp-prop) step. After the component is created use the **Components** page in the user interface to import a version of the artifacts if automatic import is not selected.
 
@@ -14,8 +21,8 @@ To create a component, complete the following steps. For more information about 
 6. Click **Save**.
 
 
-|          Back to ...          ||         Latest Version         |GitLab Generic Packages|||||
-|:-----------------------------:|:------------------------------:| :---: | :---: | :---: | :---: | :---: | :---: |
+|          Back to ...          | |         Latest Version         |GitLab Generic Packages|||
+|:-----------------------------:|:------------------------------:| :---: | :---: | :---: | :---: |
 | [All Plugins](../../index.md) | [Deploy Plugins](../README.md) |[1.1147446](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/gitlab-sourceconfig-generic-packages/ucd-plugins-sourceconfig-gitlab-generic-packages-1.1147446.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
 
 
