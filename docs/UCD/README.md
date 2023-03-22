@@ -2182,7 +2182,7 @@ Subversion is an open source version control software. It is used to maintain cu
 
 |Back to ...||Subversion |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](SubversionSourceConfig/README.md)|[21.1131553](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SubversionSourceConfig/ucd-SubversionSourceConfig-21.1131553.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](SubversionSourceConfig/README.md)|[24.1153955](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SubversionSourceConfig/ucd-SubversionSourceConfig-24.1153955.zip)|
 
 ## Subversion-Export
 
