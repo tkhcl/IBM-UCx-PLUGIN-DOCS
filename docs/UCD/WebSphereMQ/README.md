@@ -12,4 +12,4 @@ See plug-in documentation for a [complete list of available steps](https://urban
 
 |Back to ...||Latest Version||||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[12.1100959](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereMQ/WebSphereMQ-12.1100959.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1154095](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereMQ/ucd-WebSphereMQ-13.1154095.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

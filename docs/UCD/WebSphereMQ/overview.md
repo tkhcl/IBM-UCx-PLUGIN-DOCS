@@ -19,6 +19,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 13
+
+* Updated jettison and log4j dependencies.
+
 #### Version 12
 
 Version 12 includes the following steps:
@@ -80,4 +84,4 @@ Version 6 includes multiple updates:
 
 |Back to ...||Latest Version|IBM-MQ |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[12.1100959](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereMQ/WebSphereMQ-12.1100959.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1154095](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereMQ/ucd-WebSphereMQ-13.1154095.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

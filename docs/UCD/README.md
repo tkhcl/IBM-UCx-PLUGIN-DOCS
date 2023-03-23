@@ -1481,7 +1481,7 @@ IBM® MQ is robust messaging middleware that simplifies and accelerates the inte
 
 |Back to ...||IBM-MQ |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](WebSphereMQ/README.md)|[12.1100959](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereMQ/WebSphereMQ-12.1100959.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](WebSphereMQ/README.md)|[13.1154095](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereMQ/ucd-WebSphereMQ-13.1154095.zip)|
 
 ## InfoSphere-ISD
 
