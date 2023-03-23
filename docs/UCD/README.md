@@ -2232,7 +2232,7 @@ TeamCity is a build management and continuous integration tool which supports a 
 
 |Back to ...||TeamCity |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](TeamCity/README.md)|[19.1131552](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TeamCitySourceConfig/ucd-TeamCitySourceConfig-19.1131552.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](TeamCity/README.md)|[20.1153959](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TeamCitySourceConfig/ucd-TeamCitySourceConfig-20.1153959.zip)|
 
 ## Text Utility  [community plugin]
 
