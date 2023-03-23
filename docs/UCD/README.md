@@ -2302,7 +2302,7 @@ The IBM WebSphere Application Server – Install plug-in includes a sample appli
 
 |Back to ...||WebSphere Application Server - Install |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](websphere-install/README.md)|[10.975654](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/websphere-install/WAS-Install-10.975654.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](websphere-install/README.md)|[11.1154050](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/websphere-install/ucd-WAS-Install-11.1154050.zip)|
 
 ## WinRS Agent Install
 

@@ -2,6 +2,8 @@
 # WebSphere Application Server - Install - Downloads
 
 To download the plug-in, click the following version-specific links.
+
+- [ucd-WAS-Install-11.1154050.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/websphere-install/ucd-WAS-Install-11.1154050.zip)
 - [WAS-Install-10.975654.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/websphere-install/WAS-Install-10.975654.zip)
 - [WAS-Install-10.974454.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/websphere-install/WAS-Install-10.974454.zip)
 - [WAS-Install-9.943073.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/websphere-install/WAS-Install-9.943073.zip)
@@ -13,4 +15,4 @@ To download the plug-in, click the following version-specific links.
 
 |Back to ...||Latest Version|WebSphere Application Server - Install ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.975654](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/websphere-install/WAS-Install-10.975654.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[11.1154050](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/websphere-install/ucd-WAS-Install-11.1154050.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|
