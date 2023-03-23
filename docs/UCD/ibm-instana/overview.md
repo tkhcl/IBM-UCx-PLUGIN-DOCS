@@ -3,6 +3,7 @@
 
 Instana is an automated Application Performance Management (APM) solution designed specifically for the challenges of managing microservice and cloud-native applications. https://www.ibm.com/docs/en/instana-observability/current?topic=getting-started
 
+## Overview
 
 ### Compatibility
 
@@ -17,7 +18,6 @@ This plug-in is supported to run on all operating systems that are supported by 
 No special steps are required for installation. See [Installing plug-ins in IBM UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in IBM UrbanCode Deploy").
 
 ### History
-
 
 #### Version 1
 

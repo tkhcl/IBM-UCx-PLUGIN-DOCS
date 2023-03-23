@@ -1,13 +1,11 @@
 
-#  IBM Instana - Process Steps
-
+# IBM Instana - Process Steps
 
 * [Add Global Release Marker](#add_global_release_maker)
 
+## Steps
 
 ### Add Global Release Marker
-
-
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
