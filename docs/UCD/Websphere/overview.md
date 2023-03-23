@@ -57,6 +57,11 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 #### Version 127
 
+* Updated log4j and jettison dependencies.
+
+
+#### Version 127
+
 * Added resource role of the max-heap-size property.
 
 #### Version 126
@@ -234,4 +239,4 @@ The following features were added in version 96:
 
 |Back to ...||Latest Version|WebSphere Application Server - Deployment |||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[127.1131367](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/ucd-WebSphere-127.1131367.zip)|[Readme](README.md)|[User permissions](user permissions.md)|[Usage](usage.md)|[Steps](steps.md)|[Roles](roles.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[128.1154038](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/ucd-WebSphere-128.1154038.zip)|[Readme](README.md)|[User permissions](user permissions.md)|[Usage](usage.md)|[Steps](steps.md)|[Roles](roles.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
