@@ -14,7 +14,7 @@ Create versions and import packaged files from GitLab.
 | Access Token | String | The access token to use to authenticate with the GitLab server. | No |
 | Project Id | String | The project ID in GitLab. | Yes |
 | Package Name | Boolean | The exact name of package that must match to import a specific package. | Yes |
-| Status | String | The package status. It can be default (default) or hidden. | No |
+| Status | String | The package status. | No |
 | File Includes | String | A list of file patterns to include in the component. Separate each pattern with a new line or comma. To include all files, leave blank or type **/*. | No |
 | File Excludes | String | A list of file patterns to exclude from the component. Separate each pattern with a new line or comma. | No |
 | Extensions of files to Convert | String | If text-type files must be converted into another character set, type the list of file extensions to be converted. Matching file types are converted into the default or system character set of the system where the agent is located. Separate list items with commas. | No |
