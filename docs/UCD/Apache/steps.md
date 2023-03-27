@@ -7,7 +7,7 @@
 
 ### Start
 
-This step starts the Apache HTTP server.
+This step starts the Apache HTTP server .
 
 
 | Name | Type | Description                                                                                                          | Required |
