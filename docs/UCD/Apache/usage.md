@@ -17,4 +17,4 @@ To access this plug-in in the palette, click **Application Server** > **Apache**
 
 |Back to ...||Latest Version|Apache HTTP Server ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.1100838](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Apache/Apache-3.1100838.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[4.1154066](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Apache/ucd-Apache-4.1154066.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
