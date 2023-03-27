@@ -2111,7 +2111,7 @@ Selenium is a testing tool which automates web applications.It can also be used 
 
 |Back to ...||Selenium |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Selenium/README.md)|[8.1100926](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Selenium/Selenium-8.1100926.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](Selenium/README.md)|[9.1154067](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Selenium/ucd-Selenium-9.1154067.zip)|
 
 ## Send SMTP Email  [community plugin]
 

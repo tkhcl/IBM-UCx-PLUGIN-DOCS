@@ -26,6 +26,10 @@ No special steps are required for installation. This plug-in is included with th
 
 ### History
 
+#### Version 9
+
+Log4j and Jettison dependency updated .
+
 #### Version 8
 
 * Enhance usability and improve logging of the Selenium automation plug-in.
@@ -57,4 +61,4 @@ Installing this plugin will give you access to the Run Test Suite step. This ste
 
 |Back to ...||Latest Version|Selenium ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.1100926](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Selenium/Selenium-8.1100926.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1154067](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Selenium/ucd-Selenium-9.1154067.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
