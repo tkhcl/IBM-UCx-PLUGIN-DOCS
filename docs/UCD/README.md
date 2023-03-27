@@ -296,7 +296,7 @@ Apache Ant is a command line tool that is used to automate the build and deploym
 
 |Back to ...||Apache Ant |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Ant/README.md)|[9.1127374](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Ant/ucd-Ant-9.1127374.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](Ant/README.md)|[10.1154069](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Ant/ucd-Ant-10.1154069.zip)|
 
 ## Apache HTTP Server
 
