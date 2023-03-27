@@ -296,7 +296,7 @@ Apache Ant is a command line tool that is used to automate the build and deploym
 
 |Back to ...||Apache Ant |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Ant/README.md)|[9.1127374](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Ant/ucd-Ant-9.1127374.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](Ant/README.md)|[10.1154069](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Ant/ucd-Ant-10.1154069.zip)|
 
 ## Apache HTTP Server
 
@@ -306,7 +306,7 @@ The Apache HTTP Server is an open-source HTTP server that can be used on UNIX an
 
 |Back to ...||Apache HTTP Server |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Apache/README.md)|[3.1100838](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Apache/Apache-3.1100838.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](Apache/README.md)|[4.1154066](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Apache/ucd-Apache-4.1154066.zip)|
 
 ## Apache Hadoop  [community plugin]
 
@@ -2111,7 +2111,7 @@ Selenium is a testing tool which automates web applications.It can also be used 
 
 |Back to ...||Selenium |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Selenium/README.md)|[8.1100926](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Selenium/Selenium-8.1100926.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](Selenium/README.md)|[9.1154067](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Selenium/ucd-Selenium-9.1154067.zip)|
 
 ## Send SMTP Email  [community plugin]
 

@@ -22,4 +22,4 @@ Run a Selenium test suite
 
 |Back to ...||Latest Version|Selenium ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.1100926](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Selenium/Selenium-8.1100926.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1154067](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Selenium/ucd-Selenium-9.1154067.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
