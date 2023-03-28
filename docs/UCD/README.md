@@ -1891,7 +1891,7 @@ NuGet is an open-source package manager designed by Microsoft Corporation. The N
 
 |Back to ...||NuGet |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](nuget-source-config/README.md)|[16.1108465](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/nuget-source-config/nuget-source-config-16.1108465.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](nuget-source-config/README.md)|[17.1154071](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/nuget-source-config/ucd-nuget-source-config-17.1154071.zip)|
 
 ## OpenShift
 
