@@ -790,7 +790,7 @@ HP QuickTest Professional provides functional and regression test automation for
 
 |Back to ...||HP Unified Functional Testing (QTP) |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](QTP/README.md)|[6.1100726](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/QTP/QTP-6.1100726.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](QTP/README.md)|[7.1154086](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/QTP/ucd-QTP-7.1154086.zip)|
 
 ## IBM API Connect
 
