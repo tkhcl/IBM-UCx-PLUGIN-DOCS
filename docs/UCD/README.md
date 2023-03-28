@@ -336,7 +336,7 @@ IBM App Connect Enterprise (ACE) combines the technologies of IBM Integration Bu
 
 |Back to ...||App Connect Enterprise |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-ace/README.md)|[12.1152640](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-ace/ucd-plugins-ibm-ace-12.1152640.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-ace/README.md)|[13.1154087](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-ace/ucd-plugins-ibm-ace-13.1154087.zip)|
 
 
 ## Apple Xcode  [community plugin]
@@ -790,7 +790,7 @@ HP QuickTest Professional provides functional and regression test automation for
 
 |Back to ...||HP Unified Functional Testing (QTP) |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](QTP/README.md)|[6.1100726](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/QTP/QTP-6.1100726.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](QTP/README.md)|[7.1154086](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/QTP/ucd-QTP-7.1154086.zip)|
 
 ## IBM API Connect
 
@@ -1581,7 +1581,7 @@ Developed by UrbanCode, the Linux Tools plugin allows Urban CodeDeploy to automa
 
 |Back to ...||Linux System Tools |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](LinuxSystemTools/README.md)|[13.1108835](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/LinuxSystemTools/LinuxSystemTools-13.1108835.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](LinuxSystemTools/README.md)|[14.1154088](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/LinuxSystemTools/ucd-LinuxSystemTools-14.1154088.zip)|
 
 ## Liquibase  [community plugin]
 
@@ -1671,7 +1671,7 @@ Microsoft’s IIS 6 is a web server application packaged with Windows server 200
 
 |Back to ...||Microsoft IIS AdminScripts |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](IIS-AdminScripts/README.md)|[9.1056561](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IIS-AdminScripts/IIS-AdminScripts-9.1056561.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](IIS-AdminScripts/README.md)|[10.1154089](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IIS-AdminScripts/ucd-IIS-AdminScripts-10.1154089.zip)|
 
 ## Microsoft IIS AppCmd
 
@@ -1691,7 +1691,7 @@ The Web Deploy tool (msdeploy) simplifies the migration, management and deployme
 
 |Back to ...||Microsoft IIS MS-Deploy (Azure App Service) |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](IIS-MSDeploy/README.md)|[4.1056559](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IIS-MSDeploy/IIS-MSDeploy-4.1056559.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](IIS-MSDeploy/README.md)|[5.115409](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IIS-MSDeploy/ucd-IIS-MSDeploy-5.1154090.zip)|
 
 ## Microsoft SQL Server SQLCmd
 
@@ -1701,7 +1701,7 @@ With the sqlcmd utility, you can enter Transact-SQL statements, system procedure
 
 |Back to ...||Microsoft SQL Server SQLCmd |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](SQLCmd/README.md)|[9.1100934](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLCmd/SQLCmd-9.1100934.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](SQLCmd/README.md)|[10.1154073](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLCmd/ucd-SQLCmd-10.1154073.zip)|
 
 ## Microsoft SSIS
 
@@ -1891,7 +1891,7 @@ NuGet is an open-source package manager designed by Microsoft Corporation. The N
 
 |Back to ...||NuGet |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](nuget-source-config/README.md)|[16.1108465](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/nuget-source-config/nuget-source-config-16.1108465.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](nuget-source-config/README.md)|[17.1154071](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/nuget-source-config/ucd-nuget-source-config-17.1154071.zip)|
 
 ## OpenShift
 
@@ -2091,7 +2091,7 @@ The SQL-JDBC plugin is a database-independent plug-in. It allows users to run SQ
 
 |Back to ...||SQL-JDBC |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](SQL-JDBC/README.md)|[12.1100867](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQL-JDBC/SQL-JDBC-12.1100867.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](SQL-JDBC/README.md)|[13.1154072](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQL-JDBC/ucd-SQL-JDBC-13.1154072.zip)|
 
 ## Salesforce
 
