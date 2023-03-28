@@ -680,7 +680,7 @@ The GitHub Release plug-in is a source configuration plug-in that creates a comp
 
 |Back to ...||GitHub-Release |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](sourceconfig-github-release/README.md)|[4.1141382](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-github-release/ucd-GitHubReleaseSourceConfig-4.1141382.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](sourceconfig-github-release/README.md)|[5.1154619](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-github-release/ucd-GitHubReleaseSourceConfig-5.1154619.zip)|
 
 ## Google Android SDK
 
@@ -1091,7 +1091,7 @@ The IBM Rational Clearcase plug-in enables you to manually or automatically impo
 
 |Back to ...||IBM Rational ClearCase |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ClearCaseSourceConfig/README.md)|[13.1131556](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ClearCaseSourceConfig/ucd-ClearCaseSourceConfig-13.1131556.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ClearCaseSourceConfig/README.md)|[16.1154103](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ClearCaseSourceConfig/ucd-ClearCaseSourceConfig-16.1154103.zip)|
 
 ## IBM Rational ClearQuest  [community plugin]
 
@@ -1531,7 +1531,7 @@ JIRA is an issue tracking tool. You can use the tool to capture and organize iss
 
 |Back to ...||JIRA for IBM UrbanCode Deploy |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](JIRA/README.md)|[16.1090067](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JIRA/JIRA-16.1090067.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](JIRA/README.md)|[17.1154618](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JIRA/ucd-JIRA-17.1154618.zip)|
 
 ## Jenkins Job Manager  [community plugin]
 
@@ -1571,7 +1571,7 @@ Kubernetes is an open-source system for automating deployment, operations, and s
 
 |Back to ...||Kubernetes |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](kubernetes/README.md)|[31.1145303](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/ucd-kubernetes-31.1145303.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](kubernetes/README.md)|[32.1154499](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/ucd-kubernetes-32.1154499.zip)|
 
 ## Linux System Tools
 
@@ -1681,7 +1681,7 @@ The IIS-AppCmd plugin is an automation based plugin. It is used during the deplo
 
 |Back to ...||Microsoft IIS AppCmd |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](IIS-AppCmd/README.md)|[7.1138456](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IIS-AppCmd/ucd-IIS-AppCmd-7.1138456.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](IIS-AppCmd/README.md)|[8.1154620](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IIS-AppCmd/ucd-IIS-AppCmd-8.1154620.zip)|
 
 ## Microsoft IIS MS-Deploy (Azure App Service)
 

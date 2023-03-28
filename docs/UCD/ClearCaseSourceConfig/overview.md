@@ -28,6 +28,10 @@ This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in
 
 ### History
 
+#### Version 16
+
+* Log4j and Jettison dependency updated
+
 #### Version 11
 
 * Allow specifying custom java opts
@@ -52,8 +56,8 @@ This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in
 
 * Fixes running a process after creating a version.#### Version 1
 
-* Initial release of the ClearCaseUCM source configuration plugin.
+* Initial release of the ClearCaseUCM source configuration plugin .
 
 |Back to ...||Latest Version|IBM Rational ClearCase ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1131556](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ClearCaseSourceConfig/ucd-ClearCaseSourceConfig-13.1131556.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps and Roles](steps and roles.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[16.1154103](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ClearCaseSourceConfig/ucd-ClearCaseSourceConfig-16.1154103.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps and Roles](steps and roles.md)|[Downloads](downloads.md)|
