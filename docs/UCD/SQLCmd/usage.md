@@ -12,4 +12,4 @@ To access this plug-in in the palette, click **Database** > **SQLCmd**.
 
 |Back to ...||Latest Version|Microsoft SQL Server SQLCmd ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1100934](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLCmd/SQLCmd-9.1100934.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.1154073](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLCmd/ucd-SQLCmd-10.1154073.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

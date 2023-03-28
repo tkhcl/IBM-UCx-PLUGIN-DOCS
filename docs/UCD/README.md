@@ -1701,7 +1701,7 @@ With the sqlcmd utility, you can enter Transact-SQL statements, system procedure
 
 |Back to ...||Microsoft SQL Server SQLCmd |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](SQLCmd/README.md)|[9.1100934](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLCmd/SQLCmd-9.1100934.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](SQLCmd/README.md)|[10.1154073](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLCmd/ucd-SQLCmd-10.1154073.zip)|
 
 ## Microsoft SSIS
 
