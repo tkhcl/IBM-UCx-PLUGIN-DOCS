@@ -608,7 +608,7 @@ The File System source config plug-in enables one to manually import artifacts f
 
 |Back to ...||File System |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](FileSystemSourceConfig/README.md)|[10.1131567](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemSourceConfig/ucd-FileSystemSourceConfig-10.1131567.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](FileSystemSourceConfig/README.md)|[12.1150687](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemSourceConfig/ucd-FileSystemSourceConfig-12.1150687.zip)|
 
 ## File System (Versioned)
 
@@ -618,7 +618,7 @@ The File System (Versioned) source config plug-in imports source artifacts with 
 
 |Back to ...||File System (Versioned) |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](FileSystemVersionedSourceConfig/README.md)|[16.1131555](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemVersionedSourceConfig/ucd-FileSystemVersionedSourceConfig-16.1131555.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](FileSystemVersionedSourceConfig/README.md)|[18.1150658](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemVersionedSourceConfig/ucd-FileSystemVersionedSourceConfig-18.1150658.zip)|
 
 ## File Utils
 
@@ -628,7 +628,7 @@ The File Utils plug-in provides useful steps for manipulating files and director
 
 |Back to ...||File Utils |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](FileUtils/README.md)| [87.1134890.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-87.1134890.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](FileUtils/README.md)| [90.1150683](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-90.1150683.zip)|
 
 ## FileNet - IBM Case Manager
 
