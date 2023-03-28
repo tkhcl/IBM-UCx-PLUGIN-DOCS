@@ -20,4 +20,4 @@ Update WebSitePropertiesSet properties on a website
 
 |Back to ...||Latest Version||||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1056561](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IIS-AdminScripts/IIS-AdminScripts-9.1056561.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.1154089](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IIS-AdminScripts/ucd-IIS-AdminScripts-10.1154089.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
