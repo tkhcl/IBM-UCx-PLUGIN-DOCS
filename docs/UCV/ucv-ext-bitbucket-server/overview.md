@@ -24,7 +24,11 @@ History
 
 ### Version 1.1.26
 
-* Added Regular Expression for Additional Branches field 
+* Added Regular Expression for Additional Branches field: some examples are :
+* *: it could be used to get all the repositories. 
+* **/*: it could be used for string followed by / followed by string
+* PLUGINS*: it could be used for anything after PLUGINS
+* dir/* : it could be used for anything after dir/.
 
 ### Version 1.1.24
 
