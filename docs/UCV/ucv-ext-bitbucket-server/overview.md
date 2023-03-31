@@ -28,7 +28,10 @@ History
 * *: it could be used to get all the repositories. 
 * **/*: it could be used for string followed by / followed by string
 * PLUGINS*: it could be used for anything after PLUGINS
-* dir/* : it could be used for anything after dir/.
+* /var/log/** will match all files in /var/log and all files in all child directories, recursively.
+* /var/log/**/*.log will match all files whose names end in .log in /var/log and all files in all child directories, recursively.
+* /home/*/.bashrc will match all .bashrc files in all user's home directories.
+* /home/*/.ssh/**/*.key will match all files ending in .key in all user's .ssh directories in all user's home directories.
 
 ### Version 1.1.24
 
