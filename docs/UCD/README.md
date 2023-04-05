@@ -367,7 +367,7 @@ Artifactory provides repository management for various types of resources. The A
 
 |Back to ...||Artifactory |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Artifactory/README.md)|[22.1126875](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Artifactory/ucd-Artifactory-22.1126875.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](Artifactory/README.md)|[24.1154918](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Artifactory/ucd-Artifactory-24.1154918.zip)|
 
 ## Artifactory Source Config
 
@@ -568,7 +568,7 @@ Docker automates the deployment of applications inside Linux containers. This pl
 
 |Back to ...||Docker |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](docker-plugin/README.md)|[10.950098](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-plugin/docker-plugin-10.950098.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](docker-plugin/README.md)|[11.1154926](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-plugin/ucd-docker-plugin-11.1154926.zip)|
 
 ## Docker Compose
 
