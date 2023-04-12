@@ -5,7 +5,6 @@ IBM Security Access Manager enables businesses to more securely adopt web, mobil
 
 This community supported plug-in will update a Reverse Proxy’s configuration entry.
 
-
 |Back to ...||Latest Version||||
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.769633](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/webseal/webseal-1.769633.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

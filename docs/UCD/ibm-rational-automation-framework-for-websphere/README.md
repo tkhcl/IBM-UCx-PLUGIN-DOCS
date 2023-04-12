@@ -7,12 +7,9 @@ This plugin exposes steps to call a Rational Automation Framework action or auto
 
 This plug-in is developed and supported by the UrbanCode Deploy Community on the IBM DevOps Services platform. Click the “Visit Project” button at the top of the page to navigate to the project for further information.
 
-
-### Available Steps
+## Available Steps
 
 Run RAF Action
-
-
 
 |Back to ...||Latest Version|
 | :---: | :---: | :---: |

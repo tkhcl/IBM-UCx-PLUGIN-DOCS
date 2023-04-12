@@ -5,7 +5,7 @@ The IBM Workload Automation plug-in is a facility provided to help you moving wo
 
 The IBM Workload Automation plug-in is a community plug-in. Community plug-ins are open source projects that are developed and supported by the IBM UrbanCode Development Community. Click Visit Project at the top of the page to go to the project for further information.
 
-### Source Code
+## Source Code
 
 * [Source project](https://github.com/UrbanCode/IBM-Workload-Automation-UCD)
 * [Releases](https://github.com/UrbanCode/IBM-Workload-Automation-UCD/releases)
@@ -16,12 +16,9 @@ If you encounter issues with the plug-in, or want to send feedback:
 * Ask IBM Workload Automation plug-in specific questions on the [GitHub Issues](https://github.com/UrbanCode/IBM-Workload-Automation-UCD/issues) page.
 * For general plug-in issues, submit questions to our [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: ucdev | urbancode | plugins
 
-
-### Available Steps
+## Available Steps
 
 **Import Job Stream Definition (Distributed)**: Deploy job streams on distributed engines. **Generate JCL to import Job Stream Definition (zOS)**: Generate the JCL to deploy job streams on zOS engines.
-
-
 
 |Back to ...||Latest Version|
 | :---: | :---: | :---: |
