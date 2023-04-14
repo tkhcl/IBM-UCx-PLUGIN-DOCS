@@ -17,6 +17,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+####  Version 23
+
+* Updated log4j and jettison dependencies.
+
 ####  Version 22
 
 * Fixed APAR PH42585 - Improved handling of connection passwords containing special characters. The @ character in a password may not be compatible with all versions of the sqlplus client.
@@ -95,4 +99,4 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 |Back to ...||Latest Version|Oracle SQLPlus ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[22.1126471](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLPlus/ucd-SQLPlus-22.1126471.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[23.1153956](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLPlus/ucd-SQLPlus-23.1153956.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

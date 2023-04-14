@@ -20,6 +20,10 @@ No special steps are required for installing the plug-in. See [Installing plug-i
 
 ### History
 
+#### Version 11
+
+* Updated jettison and log4j dependencies.
+
 #### Version 10
 
 * Change dependency on UrbanCode Deploy Versioned File Storage plug-in to version 30 and UrbanCode Deploy Resources plug-in to version 75.
@@ -59,4 +63,4 @@ This version of the plug-in includes a new Start Node step, updates to the compo
 
 |Back to ...||Latest Version|WebSphere Application Server - Install ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.975654](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/websphere-install/WAS-Install-10.975654.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[11.1154050](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/websphere-install/ucd-WAS-Install-11.1154050.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

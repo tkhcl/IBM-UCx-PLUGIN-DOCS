@@ -19,6 +19,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 13
+
+*  Log4j and Jettison dependency updated .
+
 #### Version 12.0
 
 *  Adderessed authentication issue for StartIntegrationServer steps.
@@ -69,5 +73,5 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 |Back to ...||Latest Version|App Connect Enterprise ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[12.1152640](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-ace/ucd-plugins-ibm-ace-12.1152640.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1154087](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-ace/ucd-plugins-ibm-ace-13.1154087.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
 

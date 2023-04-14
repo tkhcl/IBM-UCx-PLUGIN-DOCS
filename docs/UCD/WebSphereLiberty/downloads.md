@@ -2,6 +2,8 @@
 # IBM WebSphere Liberty - Downloads
 
 To download the plug-in, click the following version-specific links.
+
+- [ucd-WebSphereLiberty-23.1154049.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/ucd-WebSphereLiberty-23.1154049.zip)
 - [ucd-WebSphereLiberty-22.1134888.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/ucd-WebSphereLiberty-22.1134888.zip)
 - [WebSphereLiberty-21.1100824.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/WebSphereLiberty-21.1100824.zip)
 - [WebSphereLiberty-21.1056525.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/WebSphereLiberty-21.1056525.zip)
@@ -31,4 +33,4 @@ To download the plug-in, click the following version-specific links.
 
 |Back to ...||Latest Version|IBM WebSphere Liberty |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[22.1134888](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/ucd-WebSphereLiberty-22.1134888.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Steps](steps.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[23.1154049](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/ucd-WebSphereLiberty-23.1154049.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Steps](steps.md)|

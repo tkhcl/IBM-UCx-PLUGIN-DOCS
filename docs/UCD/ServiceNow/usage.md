@@ -101,4 +101,6 @@ The **Environments** page for a specific environment displays the agent pools as
 
 |Back to ...||Latest Version|ServiceNow |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[32.1152182](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-32.1152182.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[35.1155199](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-35.1155199.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+
+

@@ -24,4 +24,4 @@ Synchronize: Synchronize two IIS objects.
 
 |Back to ...||Latest Version|||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[4.1056559](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IIS-MSDeploy/IIS-MSDeploy-4.1056559.zip)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[5.1154090](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IIS-MSDeploy/ucd-IIS-MSDeploy-5.1154090.zip)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

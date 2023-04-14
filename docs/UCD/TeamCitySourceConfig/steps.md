@@ -52,4 +52,4 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 
 |Back to ...||Latest Version|TeamCity ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[19.1131552](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TeamCitySourceConfig/ucd-TeamCitySourceConfig-19.1131552.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[20.1153959](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TeamCitySourceConfig/ucd-TeamCitySourceConfig-20.1153959.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

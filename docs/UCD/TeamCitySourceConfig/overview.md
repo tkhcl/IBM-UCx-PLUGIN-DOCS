@@ -27,6 +27,10 @@ This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in
 
 #### Version 14
 
+* Updated log4j dependencies
+
+#### Version 14
+
 * APAR 33793982: Update Jackson dependency.
 
 #### Version 13
@@ -89,4 +93,4 @@ This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in
 
 |Back to ...||Latest Version|TeamCity ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[19.1131552](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TeamCitySourceConfig/ucd-TeamCitySourceConfig-19.1131552.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[20.1153959](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TeamCitySourceConfig/ucd-TeamCitySourceConfig-20.1153959.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

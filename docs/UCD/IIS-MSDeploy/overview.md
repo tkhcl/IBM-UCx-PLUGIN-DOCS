@@ -14,6 +14,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 5
+
+Log4j and Jettison dependency updated .
+
 #### Version 3
 
 Version 3 includes a fix for an issue related to white space in path names.
@@ -21,4 +25,4 @@ Version 3 includes a fix for an issue related to white space in path names.
 
 |Back to ...||Latest Version|Microsoft IIS MS-Deploy (Azure App Service) ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[4.1056559](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IIS-MSDeploy/IIS-MSDeploy-4.1056559.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[5.1154090](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IIS-MSDeploy/ucd-IIS-MSDeploy-5.1154090.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

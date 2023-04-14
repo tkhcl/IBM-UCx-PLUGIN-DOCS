@@ -16,4 +16,4 @@ SQLPlus through Control File: Run SQLPlus scripts using control files for orches
 
 |Back to ...||Latest Version|||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[22.1126471](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLPlus/ucd-SQLPlus-22.1126471.zip)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[23.1153956](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLPlus/ucd-SQLPlus-23.1153956.zip)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

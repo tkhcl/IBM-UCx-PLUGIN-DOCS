@@ -265,7 +265,7 @@ Jira is an issue tracking product, developed by Atlassian. The Jira plug-in prov
 
 |Back to ...||Jira |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-jira/README.md)|[2.2.9](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira-2.2.9.tar.7z.001)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-jira/README.md)|[2.3.1](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-jira/ucv-ext-jira:2.3.1.tar.7z.001)|
 
 ## Microsoft Visual Studio Testing
 
@@ -285,7 +285,7 @@ With this Jenkins plugin, you can run Jenkins jobs as a part of a deployment pla
 
 |Back to ...||urbancode-velocity |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](urbancode-velocity/README.md)|[3.0.0](https://github.com/jenkinsci/urbancode-velocity-plugin/releases/download/3.0.0/urbancode-velocity-3.0.0.hpi)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](urbancode-velocity/README.md)|[3.0.1](https://github.com/jenkinsci/urbancode-velocity-plugin/releases/download/3.0.1/urbancode-velocity-3.0.1.hpi)|
 
 
 ## Planview Leankit
@@ -414,7 +414,7 @@ The Deploy Plugin for UrbanCode Velocity imports deployment data from UrbanCode 
 
 |Back to ...||Urbancode Deploy |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-ucd/README.md)|[3.3.56 - File 1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd:3.3.56.tar.7z.001) [3.3.56 - File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd:3.3.56.tar.7z.002)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-ucd/README.md)|[3.4.5](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd:3.4.5.tar.7z.001)|
 
 ## WhiteSource
 
