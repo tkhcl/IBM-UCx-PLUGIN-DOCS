@@ -73,6 +73,7 @@ The payload for the POST is shown below.
 You can use the HCL AppScan on Cloud plugin’s scheduled event integration to automatically sync or import the scan data into UrbanCode Velocity’s application vulnerabilities metrics at regular interval of time. Currently, HCL AppScan on Cloud plugin sync or import scan data from HCL AppScan on Cloud to UrbanCode Velocity at an interval of 5 minutes.
 
 ## Integration
+
 There are two methods to integrate the plugin:
 
 * Using the user interface
