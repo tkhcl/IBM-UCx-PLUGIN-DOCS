@@ -1,14 +1,11 @@
 
 # Slack
 
-
 Slack is a team collaboration tool. This plug-in sends deployment notifications to Slack in a specified channel.
-
 
 The Slack plug-in is a community plug-in. Community plug-ins are open source projects that are developed and supported by the IBM UrbanCode development community. Click Visit Project at the top of the page to go to the project for further information.
 
-
-Downloads:
+## Downloads
 
 * [Slack plug-in distribution](https://github.com/UrbanCode/Slack-UCD/releases)
 * [Source project](https://github.com/UrbanCode/Slack-UCD)
@@ -19,12 +16,9 @@ If you encounter issues with the plug-in, or want to send feedback:
 * Ask Slack plug-in specific questions on the [GitHub Issues](https://github.com/UrbanCode/Slack-UCD/issues) page.
 * For general plug-in issues, submit questions to our [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion).Use the following tags: urbancode | ucdev | plugins
 
+## Available Steps
 
-### Available Steps
-
-Post Notification to Slack Post Attachment Notification to Slack
-
-
+* Post Notification to Slack Post Attachment Notification to Slack
 
 |Back to ...||Latest Version|
 | :---: | :---: | :---: |

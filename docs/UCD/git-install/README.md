@@ -17,12 +17,9 @@ If you encounter issues with the plug-in, or want to send feedback:
 * Ask Git Install plug-in specific questions on the [GitHub Issues](https://github.com/UrbanCode/Git-Install-UCD/issues) page.
 * For general plug-in issues, submit questions to our [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins
 
-
-### Available Steps
+## Available Steps
 
 Install Git on a target server
-
-
 
 |Back to ...||Latest Version|
 | :---: | :---: | :---: |

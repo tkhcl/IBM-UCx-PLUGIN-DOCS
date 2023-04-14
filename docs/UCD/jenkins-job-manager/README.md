@@ -1,10 +1,13 @@
 
 # Jenkins Job Manager
 
-This IBM UrbanCode Deploy Jenkins Job Manager plug-in provides support to manage Jenkins Jobs.
+This IBM UrbanCode Deploy Jenkins Job Manager plug-in provides support to manage Jenkins Jobs. This is a community plug-in
 
+## Downloads
 
-### Available Steps
+* [Source project](https://github.com/UrbanCode/Jenkins-Job-Manager-UCD)
+
+## Available Steps
 
 Delete JobDelete a Jenkins Job
 
@@ -13,8 +16,6 @@ Disable JobDisable a Jenkins Job
 Enable JobEnable a Jenkins Job
 
 Start JobStart a Jenkins Job
-
-
 
 |Back to ...||Latest Version|
 | :---: | :---: | :---: |
