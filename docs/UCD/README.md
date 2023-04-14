@@ -367,7 +367,7 @@ Artifactory provides repository management for various types of resources. The A
 
 |Back to ...||Artifactory |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Artifactory/README.md)|[22.1126875](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Artifactory/ucd-Artifactory-22.1126875.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](Artifactory/README.md)|[24.1154918](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Artifactory/ucd-Artifactory-24.1154918.zip)|
 
 ## Artifactory Source Config
 
@@ -568,7 +568,7 @@ Docker automates the deployment of applications inside Linux containers. This pl
 
 |Back to ...||Docker |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](docker-plugin/README.md)|[10.950098](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-plugin/docker-plugin-10.950098.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](docker-plugin/README.md)|[11.1154926](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-plugin/ucd-docker-plugin-11.1154926.zip)|
 
 ## Docker Compose
 
@@ -1611,7 +1611,7 @@ Apache Maven provides developers a complete build lifecycle framework. It is use
 
 |Back to ...||Maven |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](MavenSourceConfig/README.md)|[25.1131554](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MavenSourceConfig/ucd-MavenSourceConfig-25.1131554.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](MavenSourceConfig/README.md)|[27.1150685](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MavenSourceConfig/ucd-MavenSourceConfig-27.1150685.zip)|
 
 ## Maven Resolve
 
@@ -2131,7 +2131,8 @@ This community plugin provides a mechanism to send SMTP emails in your deploymen
 
 |Back to ...||ServiceNow |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ServiceNow/README.md)|[33.1153216](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-33.1153216.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ServiceNow/README.md)|[35.1155199](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-35.1155199.zip)|
+
 
 
 ## Shell
@@ -2424,7 +2425,7 @@ The z/OS Utility plug-in includes steps for retrieving and deploying IBM z/OS ar
 
 |        Back to ...         ||   z/OS Utility   |         Latest Version         |
 |:--------------------------:|:----------------:|:------------------------------:| :---: |
-| [All Plugins](../index.md) | [Top](#contents) | [Readme](zos-deploy/README.md) |[79.1153131](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-79.1153131.zip)|
+| [All Plugins](../index.md) | [Top](#contents) | [Readme](zos-deploy/README.md) |[80.1155287](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-80.1155287.zip)|
 
 ## z/OS Rexx Executor
 
