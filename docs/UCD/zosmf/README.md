@@ -19,8 +19,6 @@ Start Workflow: Start a workflow.
 
 Run Published Software Service Template: Define input properties for the Run Published Software Service template.
 
-
-
-|Back to ...||Latest Version|||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[14.1098512](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zosmf/zosmf-14.1098512.zip)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|          Back to ...          ||         Latest Version         |||||
+|:-----------------------------:|:------------------------------:| :---: | :---: | :---: | :----: |:-------------------------:|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) |[15.1153789](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zosmf/ucd-zosmf-15.1153789.zip)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

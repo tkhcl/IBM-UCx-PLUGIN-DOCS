@@ -2,6 +2,8 @@
 # IBM-MQ - Downloads
 
 To download the plug-in, click the following version-specific links.
+
+- [ucd-WebSphereMQ-13.1154095.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereMQ/ucd-WebSphereMQ-13.1154095.zip)
 - [WebSphereMQ-12.1100959.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereMQ/WebSphereMQ-12.1100959.zip)
 - [WebSphereMQ-12.1063245.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereMQ/WebSphereMQ-12.1063245.zip)
 - [WebSphereMQ-11.1056523.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereMQ/WebSphereMQ-11.1056523.zip)
@@ -18,4 +20,4 @@ To download the plug-in, click the following version-specific links.
 
 |Back to ...||Latest Version|IBM-MQ |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[12.1100959](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereMQ/WebSphereMQ-12.1100959.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1154095](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereMQ/ucd-WebSphereMQ-13.1154095.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|

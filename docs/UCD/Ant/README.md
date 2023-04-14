@@ -18,4 +18,4 @@ Ant – Execute an Ant script.
 
 |Back to ...||Latest Version|||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1127374](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Ant/ucd-Ant-9.1127374.zip)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.1154069](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Ant/ucd-Ant-10.1154069.zip)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

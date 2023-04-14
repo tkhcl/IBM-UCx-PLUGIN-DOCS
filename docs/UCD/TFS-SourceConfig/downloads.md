@@ -2,6 +2,8 @@
 # Microsoft TFS (Team Foundation Server) - Downloads
 
 To download the plug-in, click the following version-specific links.
+
+- [ucd-TFS-SourceConfig-25.1154010.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS-SourceConfig/ucd-TFS-SourceConfig-25.1154010.zip)
 - [ucd-TFS-SourceConfig-22.1131551.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS-SourceConfig/ucd-TFS-SourceConfig-22.1131551.zip)
 - [ucd-TFS-SourceConfig-21.1128776.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS-SourceConfig/ucd-TFS-SourceConfig-21.1128776.zip)
 - [ucd-TFS-SourceConfig-20.1126846.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS-SourceConfig/ucd-TFS-SourceConfig-20.1126846.zip)
@@ -24,4 +26,4 @@ To download the plug-in, click the following version-specific links.
 
 |Back to ...||Latest Version|Microsoft TFS (Team Foundation Server) ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[22.1131551](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS-SourceConfig/ucd-TFS-SourceConfig-22.1131551.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[25.1154010](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS-SourceConfig/ucd-TFS-SourceConfig-25.1154010.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|

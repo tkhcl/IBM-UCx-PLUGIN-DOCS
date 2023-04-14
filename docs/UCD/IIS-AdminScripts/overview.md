@@ -18,6 +18,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 10
+
+Log4j and Jettison dependency updated .
+
 #### Version 8
 
 Version 8 fixes a compatibility defect with IBM Urbancode Deploy version 6.1.0.4 and later.
@@ -25,4 +29,4 @@ Version 8 fixes a compatibility defect with IBM Urbancode Deploy version 6.1.0.4
 
 |Back to ...||Latest Version|Microsoft IIS AdminScripts |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1056561](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IIS-AdminScripts/IIS-AdminScripts-9.1056561.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.1154089](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IIS-AdminScripts/ucd-IIS-AdminScripts-10.1154089.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

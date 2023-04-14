@@ -2,6 +2,7 @@
 # Jira - Downloads
 
 To download the plugins, click the following version specific links.
+- [ucv-ext-jira-2.3.1.tar.7z.001](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-jira/ucv-ext-jira:2.3.1.tar.7z.001)
 - [ucv-ext-jira-2.2.9.tar.7z.001](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira-2.2.9.tar.7z.001)
 - [ucv-ext-jira-2.2.8.tar.7z.001](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira-2.2.8.tar.7z.001)
 - [ucv-ext-jira-2.2.7.tar.7z.001](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira-2.2.7.tar.7z.001)
@@ -25,4 +26,4 @@ To download the plugins, click the following version specific links.
 
 |Back to ...||Latest Version|Jira |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.2.9](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira-2.2.9.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.3.1](https://github.com/UrbanCode/IBM-UCV-PLUGINS/blob/main/files/ucv-ext-jira/ucv-ext-jira:2.3.1.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|

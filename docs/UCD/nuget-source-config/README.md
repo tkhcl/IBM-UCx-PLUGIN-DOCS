@@ -8,4 +8,4 @@ The NuGet source configuation plug-in imports versioned source artifacts from a 
 
 |Back to ...||Latest Version|||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[16.1108465](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/nuget-source-config/nuget-source-config-16.1108465.zip)|[Overview](overview.md)|[Usage](usage.md)|[Settings](settings.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[17.1154071](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/nuget-source-config/ucd-nuget-source-config-17.1154071.zip)|[Overview](overview.md)|[Usage](usage.md)|[Settings](settings.md)|[Downloads](downloads.md)|

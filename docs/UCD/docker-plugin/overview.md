@@ -1,16 +1,15 @@
 
 # Docker - Overview
 
-
 The Docker plug-in includes steps that map Docker images to components in IBM UrbanCode Deploy.
 
-To add the Docker plug-in steps to processes, click**Cloud > Docker** in the step palette of the process editor.
+To add the Docker plug-in steps to processes, click **Cloud > Docker** in the step palette of the process editor.
 
-### Prerequisites
+## Prerequisites
 
 The Docker automation plug-in requires the [Docker source-configuration plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/DockerSourceConfig/).
 
-### Compatibility
+## Compatibility
 
 The IBM UrbanCode Deploy automation plug-in for Docker works with Docker Version 1.0 and later.
 
@@ -18,11 +17,17 @@ This plug-in requires IBM UrbanCode Deploy version 6.1.1 or later.
 
 This plug-in supports agents on any operating system that is supported by IBM UrbanCode Deploy. This plug-in also supports agents on Linux OS on z Systems.
 
-### Installation
+## Installation
 
 No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode products").
 
-### History
+## History
+
+### Versions
+
+#### Version 11
+
+* Log4j and Jettison dependency updated .
 
 #### Version 10
 
@@ -83,4 +88,4 @@ This version of the plug-in includes the following features:
 
 |Back to ...||Latest Version|Docker |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.950098](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-plugin/docker-plugin-10.950098.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[11.1154926](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-plugin/ucd-docker-plugin-11.1154926.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

@@ -16,4 +16,4 @@ RunSQLCmd scriptsRun SQLCmd scripts in sorted order
 
 |Back to ...||Latest Version|||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1100934](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLCmd/SQLCmd-9.1100934.zip)|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.1154073](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLCmd/ucd-SQLCmd-10.1154073.zip)|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

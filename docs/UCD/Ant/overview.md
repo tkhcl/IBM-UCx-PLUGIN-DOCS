@@ -21,6 +21,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 10
+
+Log4j and Jettison dependency updated
+
 #### Version 7
 
 Added translations for steps and properties
@@ -36,4 +40,4 @@ This release includes the ability to specify the ANT\_OPT environment variable.
 
 |Back to ...||Latest Version|Apache Ant ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1127374](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Ant/ucd-Ant-9.1127374.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.1154069](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Ant/ucd-Ant-10.1154069.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

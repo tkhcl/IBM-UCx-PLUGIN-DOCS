@@ -23,6 +23,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 10
+
+Log4j and Jettison dependency updated.
+
 #### Version 8
 
 Updated SQLCmd Executable Path description for clarity.
@@ -42,4 +46,4 @@ Fixes APAR PI35342compatibility defect with IBM Urbancode Deploy version 6.1.0.4
 
 |Back to ...||Latest Version|Microsoft SQL Server SQLCmd ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1100934](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLCmd/SQLCmd-9.1100934.zip)|[Readme](README.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.1154073](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLCmd/ucd-SQLCmd-10.1154073.zip)|[Readme](README.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

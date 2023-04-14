@@ -99,6 +99,6 @@ You can now provision a software services instanceand have the resources automat
 
 **Note:**If you prefer to usez/OSPTto provision software, you can replace the **Run Published Software Service Template** step with a **Shell** step and input the corresponding z/OSPT commands. You will need to parse the z/OSPT output to find the name of the instance.
 
-|Back to ...||Latest Version|z/OS Management Facility ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[14.1098512](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zosmf/zosmf-14.1098512.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|          Back to ...          ||         Latest Version         |                                              z/OS Management Facility                                               ||||
+|:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------:| :---: | :---: | :---: | :---: |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [15.1153789](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zosmf/ucd-zosmf-15.1153789.zip) |[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
