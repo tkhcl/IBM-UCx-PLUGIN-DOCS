@@ -2,7 +2,7 @@
 # HCL AppScan on Cloud (ASoC) - Overview
 
 
-The AppScan on Cloud plug-in allows for integration with the HCL Application Security on Cloud server. This plug-in uses the Application Security on Cloud REST interface to interact with the HCL Application Security on Cloud application. Data is gathered from the Application Security on Cloud server and displayed as a graphical view in the UrbanCode Velocity portfolio.
+The HCL AppScan on Cloud (ASoC) plugin allows for integration with the HCL Appscan on Cloud server. This plugin uses the Appscan on Cloud REST interface to interact with the HCL Appscan on Cloud application. Data is gathered from the ASoC server and displayed as a graphical view in the UrbanCode Velocity portfolio.
 
 ## Compatibility
 
@@ -14,6 +14,9 @@ UrbanCode Velocity plug-in images are located in DockerHub. To view available ve
 
 ## History
 
+### Version 3.0.19
+
+* The older versions of ASoC plugin was not reporting critical issues. The issue is fixed.
 
 ### Version 3.0.12
 
@@ -70,4 +73,4 @@ UrbanCode Velocity plug-in images are located in DockerHub. To view available ve
 
 |Back to ...||Latest Version|HCL AppScan on Cloud (ASoC) |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[3.0.12](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-asoc/ucv-ext-asoc:3.0.12.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[3.0.19](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-asoc/ucv-ext-asoc:3.0.19.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

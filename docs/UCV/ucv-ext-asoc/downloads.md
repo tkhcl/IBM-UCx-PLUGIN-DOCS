@@ -3,6 +3,7 @@
 
 To download the plugins, click the following version specific links.
 
+- [ucv-ext-asoc:3.0.19.tar.7z.001](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-asoc/ucv-ext-asoc:3.0.19.tar.7z.001)
 - [ucv-ext-asoc:3.0.12.tar.7z.001](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-asoc/ucv-ext-asoc:3.0.12.tar.7z.001)
 - [ucv-ext-asoc-3.0.11.tar.zip](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-asoc/ucv-ext-asoc:3.0.11.tar)
 - [ucv-ext-asoc-3.0.5.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-asoc/ucv-ext-asoc-3.0.5.tar.zip)
@@ -15,4 +16,4 @@ To download the plugins, click the following version specific links.
 
 |Back to ...||Latest Version|HCL AppScan on Cloud (ASoC) |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[3.0.12](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-asoc/ucv-ext-asoc:3.0.12.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[3.0.19](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-asoc/ucv-ext-asoc:3.0.19.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|
