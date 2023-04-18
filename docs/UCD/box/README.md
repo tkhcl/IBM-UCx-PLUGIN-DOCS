@@ -3,9 +3,9 @@
 
 Box is a file sharing and management cloud service. Using Box you can create, edit, review, and securely share documents and files on any device.
 
-This plug-in is developed and supported by the UrbanCode Deploy Community on the IBM® DevOps Services platform. Click **Visit Project** at the top of the page to navigate to the project for further information.
+This plug-in is developed and supported by the UrbanCode Deploy Community on the IBM® DevOps Services platform. 
 
-Downloads:
+## Downloads
 
 * [Box plug-in distribution](https://github.com/UrbanCode/Box-UCD/releases)
 * [Source project](https://github.com/UrbanCode/Box-UCD)
@@ -13,14 +13,11 @@ Downloads:
 If you encounter issues with the plug-in, or want to send feedback:
 
 * Ask Box plug-in specific questions on the [GitHub Issues](https://github.com/UrbanCode/Box-UCD/issues) page.
-* For general plug-in issues, submit questions to our [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: ucdev | urbancode | plugins
+* For general plug-in issues, submit questions to our [Community discussions page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: ucdev | urbancode | plugins
 
-
-### Available Steps
+## Available Steps
 
 Create App User Create Folder Get File Download Url Request App User Authentication Request Enterprise Authentication Upload File
-
-
 
 |Back to ...||Latest Version|
 | :---: | :---: | :---: |

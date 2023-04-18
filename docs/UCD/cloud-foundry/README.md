@@ -3,8 +3,7 @@
 
 The Cloud Foundry plug-in uses the CloudFoundry command line utility to interact with applications in a target Cloud Foundry system.
 
-
-### Available Steps
+## Available Steps
 
 Bind ServiceBinds a Cloud Foundry service instance onto a Cloud Foundry application.
 
@@ -28,7 +27,7 @@ Delete DomainDeletes a domain.
 
 Delete RouteDeletes a route.
 
-Delete ServiceDeletes a CF\_SERVICE.
+Delete ServiceDeletes a CF_SERVICE.
 
 Delete SubdomainDeletes a subdomain.
 
@@ -50,11 +49,9 @@ Unbind ServiceUnbinds a Cloud Foundry service from a Cloud Foundry application.
 
 Unmap RouteRemoves a URL route from an application.
 
-
 There is also an UrbanCode Deploy Community supported plugin for cloud foundry: [UrbanCode Deploy Community Cloud Foundry Plugin](https://github.com/IBM-UrbanCode/Cloud-Foundry-UCD)
 
 Please see the [Troubleshooting Documentation](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/cloud-foundry/troubleshooting.html) for information about migrating properties from the community plugin.
-
 
 |Back to ...||Latest Version||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |

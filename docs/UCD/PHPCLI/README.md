@@ -16,4 +16,4 @@ This integration is developed and supported by the UrbanCode Deploy Community. C
 
 |Back to ...||Latest Version||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.714879](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/PHPCLI/SubversionSourceConfig-6.714879.zip)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Setup](setup.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[2.0.1.1](https://github.com/UrbanCode/IBM-UCD-PLUGINS/raw/main/files/PHPCLI/ucommand-2.0.1.1.zip)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Setup](setup.md)|[Downloads](downloads.md)|

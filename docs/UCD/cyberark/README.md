@@ -8,6 +8,7 @@ CyberArk Application Identity Manager, part of the CyberArk Privileged Account 
 If you encounter issues with the plug-in or want to send feedback, take one of the following steps:
 
 * Ask CyberArk plug-in specific questions on the [GitHub Issues](https://github.com/cyberark/urbancode-conjur-aim/issues) page.
+* [Source project](https://github.com/cyberark/urbancode-conjur-aim)
 * For general plug-in issues, submit questions to the [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins
 
 # Available Steps
