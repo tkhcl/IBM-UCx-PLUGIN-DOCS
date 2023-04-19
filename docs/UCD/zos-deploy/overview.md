@@ -46,6 +46,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 81
+
+* Fixed APAR PH53341 related to parsing error when deploying zOS versions
+
 #### Version 80
 
 * Fixed issue with agent version check and minor improvements
@@ -309,4 +313,4 @@ This release includes the following updates:
 
 |          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |                                       |                   |                   |                           |
 |:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-------------------------------------:|:-----------------:|:-----------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [80.1155287](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-80.1155287.zip) | [Readme](README.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [81.1155387](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-81.1155387.zip) | [Readme](README.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
