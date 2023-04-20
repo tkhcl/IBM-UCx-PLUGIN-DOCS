@@ -1,11 +1,9 @@
 # z/OS Utility
 
-
-
 The z/OS Utility plug-in includes steps for retrieving and deploying IBM z/OS artifacts. It is installed and upgraded as part of the IBM UrbanCode Deploy server. This plugin will work with all the supported versions of UCD server/agents. There are some new features that are only supported if the agent is upgraded to those versions. If you attempt to use the feature that is not enabled for a version, process might fail with the message to upgrade the agent.
 
 This plug-in requires agents that run on the z/OS platform and works with z/OS component versions in UrbanCode Deploy.
-To learn how to create z/OS component versions in UrbanCode Deploy with data sets and HFS files on IBM z/OS, see [Creating z/OS component versions](https://www.ibm.com/docs/en/urbancode-deploy/7.2.1?topic=platform-creating-zos-component-versions).
+To learn how to create z/OS component versions in UrbanCode Deploy with data sets and HFS files on IBM z/OS, see [Creating z/OS component versions](https://www.ibm.com/docs/en/urbancode-deploy/7.3.1?topic=platform-creating-zos-component-versions).
 
 The plug-in includes steps that are related to deploying and rolling back data sets and HFS files, such as the following steps:
 
@@ -30,9 +28,8 @@ The plug-in also includes steps that are related to running z/OS commands, submi
 The Submit Job and Wait For Job steps require the job server component (JMON server) that is included with IBM UrbanCode Deploy, Rational Team Concert, or Rational Developer for System z.
 The Generate Artifact Information step scans version artifacts and generates text based on a template. The output text can be used as an input property to subsequent steps. Use the Generate Artifact Information step to batch-process data sets or members in a component version. You can also use the Generate Artifact Information step to select a subset of artifacts to process by applying filters on data set names, member names, deployment types, and custom properties.
 
-For more information and examples, see the [Usage page in the plug-in documentation](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/overview.html).
+For more information and examples, see the [Usage page in the plug-in documentation](usage.md).
 
-
-|          Back to ...          |                                |                                                        Latest Version                                                         ||||||
-|:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:| :---: | :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [79.1153131](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-79.1153131.zip) |[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|          Back to ...          |                                |                                                        Latest Version                                                         |                         |                                       |                   |                   |                           |
+|:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-----------------------:|:-------------------------------------:|:-----------------:|:-----------------:|:-------------------------:|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [81.1155387](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-81.1155387.zip) | [Overview](overview.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |

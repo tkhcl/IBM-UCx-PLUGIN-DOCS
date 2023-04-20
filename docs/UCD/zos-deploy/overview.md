@@ -1,6 +1,6 @@
-# z/OS Utility - Overview
+# z/OS Utility
 
-
+## Overview
 
 The z/OS Utility plug-in includes steps for retrieving and deploying IBM z/OS artifacts.
 
@@ -45,6 +45,14 @@ The plug-in also includes steps that are related to managing redundant increment
 No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins). You must install and configure the z/OS deployment tools before you use the plug-in. To learn how to install and configure the z/OS deployment tools, see [Deploying to the z/OS platform](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=integrating-deploying-components-zos-platform). You must configure the job server component before you run the following steps: Submit Job and Wait For Job.
 
 ### History
+
+#### Version 81
+
+* Fixed APAR PH53341 related to parsing error when deploying zOS versions
+
+#### Version 80
+
+* Fixed issue with agent version check and minor improvements
 
 #### Version 79
 
@@ -303,6 +311,6 @@ This release includes the following updates:
 * A fix for an issue where the Submit Job step did not use PassTicket authentication.
 
 
-|          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |||||
-|:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [79.1153131](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-79.1153131.zip) | [Readme](README.md) |[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |                                       |                   |                   |                           |
+|:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-------------------------------------:|:-----------------:|:-----------------:|:-------------------------:|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [81.1155387](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-81.1155387.zip) | [Readme](README.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
