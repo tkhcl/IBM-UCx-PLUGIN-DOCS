@@ -92,12 +92,12 @@ The tables in the Configuration properties topic describe the properties used to
 
 ### Using a JSON file
 
-The JSON file contains the information for creating a value stream. Within the JSON file is a section for integrations. It is in this section that plugin properties can be defined.
+The JSON file contains the information for creating a value stream. Within the JSON file there is a section for integrations. In this section the plugin properties can be defined.
 
 1. From a value stream page, download the value stream map. The value stream map is a JSON file used to define integrations.
 2. Edit the JSON file to include the plugin configuration properties.
 3. Save and upload the JSON file. This replaces the current JSON file with the new content.
-4. View the new integration on the Integrations pages.
+4. View the new integration on the Integrations page.
 
 ## Minimum permission to integrate with HCL AppScan on Cloud (ASoC)
 
