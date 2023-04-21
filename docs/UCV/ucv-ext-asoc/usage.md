@@ -1,13 +1,13 @@
 
 # HCL AppScan on Cloud (ASoC) - Usage
 
-To use the HCL AppScan on Cloud plugin (ASoC), the plugin must be loaded, and an instance is created before you can configure the plugin integration. You can define configuration properties either in the user interface or in a JSON file of a value stream.
+To use the HCL AppScan on Cloud plug-in (ASoC), the plug-in must be loaded, and an instance is created before you can configure the plug-in integration. You can define configuration properties either in the user interface or in a JSON file of a value stream.
 
 ## Integration type
-The ASoC plugin supports endpoint integration and a scheduled event integration.
+The ASoC plug-in supports endpoint integration and a scheduled event integration.
 
 ### Endpoint Integration
-You can use the ASoC plugin’s endpoint integration to sync or import the scan data into UrbanCode Velocity’s application vulnerabilities metrics by triggering the API endpoint with GET or POST request.
+You can use the ASoC plug-in’s endpoint integration to sync or import the scan data into UrbanCode Velocity’s application vulnerabilities metrics by triggering the API endpoint with GET or POST request.
 
 The endpoint integration is listed in the following table.
 
@@ -19,13 +19,13 @@ The endpoint integration is listed in the following table.
 
 #### Notes
 
-The following two features are available from version 2.0.1 or later of the plugin:
+The following two features are available from version 2.0.1 or later of the plug-in:
 
-* The plugin imports historical scan data from ASoC.
-    * To sync or import the scan data into UrbanCode Velocity, update the ASoC applications field in the plugin configuration with the application names in ASoC. The plugin will import the latest scan data from ASoC.
-* The plugin supports ASoC webhooks.
-    * The plugin endpoint can be defined as a webhook in ASoC. When the webhook is called by ASoC after every scan execution, the plugin will run and import the scan data from ASoC to UrbanCode Velocity.
-    * To call out ASoC scan using REST API, pass the ‘build url’ as a ‘Comment’ as shown in the below example. As a result, the plugin imports the ‘build url’ and associate the scan result to the specific ‘build’ / ‘build url’ in UrbanCode Velocity.
+* The plug-in imports historical scan data from ASoC.
+    * To sync or import the scan data into UrbanCode Velocity, update the ASoC applications field in the plug-in configuration with the application names in ASoC. The plug-in will import the latest scan data from ASoC.
+* The plug-in supports ASoC webhooks.
+    * The plug-in endpoint can be defined as a webhook in ASoC. When the webhook is called by ASoC after every scan execution, the plug-in will run and import the scan data from ASoC to UrbanCode Velocity.
+    * To call out ASoC scan using REST API, pass the ‘build url’ as a ‘Comment’ as shown in the below example. As a result, the plug-in imports the ‘build url’ and associate the scan result to the specific ‘build’ / ‘build url’ in UrbanCode Velocity.
     ```
     curl --location --request POST 'https://cloud.appscan.com/api/v2/Scans/MobileAnalyzer' \
     --header 'Content-Type: application/x-www-form-urlencoded' \
@@ -49,7 +49,7 @@ The following two features are available from version 2.0.1 or later of the plug
     --data-urlencode 'Global=true'    
     ```    
 
-The following example shows calling the plugin end point using a ‘non webhook’ method, such as CURL, Postman, or as a part of the CI/ CD pipeline.
+The following example shows calling the plug-in end point using a ‘non webhook’ method, such as CURL, Postman, or as a part of the CI/ CD pipeline.
 
 Send an HTTP GET (For version 2.0.1 or later) or HTTP POST (For version 2.0.0 or earlier) request to your endpoint.
 
@@ -70,11 +70,11 @@ The payload for the POST is shown below.
 
 ### Scheduled Integration
 
-You can use the HCL AppScan on Cloud plugin’s scheduled event integration to automatically sync or import the scan data into UrbanCode Velocity’s application vulnerabilities metrics at regular interval of time. Currently, HCL AppScan on Cloud plugin sync or import scan data from HCL AppScan on Cloud to UrbanCode Velocity at an interval of 5 minutes.
+You can use the HCL AppScan on Cloud plug-in’s scheduled event integration to automatically sync or import the scan data into UrbanCode Velocity’s application vulnerabilities metrics at regular interval of time. Currently, HCL AppScan on Cloud plug-in sync or import scan data from HCL AppScan on Cloud to UrbanCode Velocity at an interval of 5 minutes.
 
 ## Integration
 
-There are two methods to integrate the plugin:
+There are two methods to integrate the plug-in:
 
 * Using the user interface
 * Using a JSON file
@@ -84,18 +84,18 @@ The tables in the Configuration properties topic describe the properties used to
 ### Using the user interface
 
 1. From the Plugins page, click **Settings > Integrations > Plugins**.
-2. Under the **Action** column for the plugin, click **Add Integration**.
+2. Under the **Action** column for the plug-in, click **Add Integration**.
 3. On the Add Integration page, enter values for the fields used to configure the integration and define communication.
 4. Select the **Run as Scheduled Event** checkbox.
-**Note:** Select the checkbox only if you want to integrate the plugin as a scheduled event and clear the checkbox if you want to integrate the plugin as an endpoint.
+**Note:** Select the checkbox only if you want to integrate the plug-in as a scheduled event and clear the checkbox if you want to integrate the plug-in as an endpoint.
 5. Click **Save**.
 
 ### Using a JSON file
 
-The JSON file contains the information for creating a value stream. Within the JSON file there is a section for integrations. In this section the plugin properties can be defined.
+The JSON file contains the information for creating a value stream. Within the JSON file there is a section for integrations. In this section the plug-in properties can be defined.
 
 1. From a value stream page, download the value stream map. The value stream map is a JSON file used to define integrations.
-2. Edit the JSON file to include the plugin configuration properties.
+2. Edit the JSON file to include the plug-in configuration properties.
 3. Save and upload the JSON file. This replaces the current JSON file with the new content.
 4. View the new integration on the Integrations page.
 
@@ -107,7 +107,7 @@ The HCL AppScan on Cloud (ASoC) Account used to generate the token must have acc
 
 The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the property name when using a JSON file.
 
-The General Configuration Properties table describes configuration properties used by all plugin integrations. The HCL AppScan on Cloud configuration properties table describes the configuration properties that define the connection and communications with the UrbanCode Velocity server. When using the JSON method to integrate the plugin these properties are coded within the properties configuration property.
+The General Configuration Properties table describes configuration properties used by all plug-in integrations. The HCL AppScan on Cloud configuration properties table describes the configuration properties that define the connection and communications with the UrbanCode Velocity server. When using the JSON method to integrate the plug-in these properties are coded within the properties configuration property.
 
 Some properties might not be displayed in the user interface, to see all properties enable the Show Hidden Properties field.
 
@@ -129,7 +129,7 @@ Some properties might not be displayed in the user interface, to see all propert
 | URL | String | The URL of the Application Security on Cloud server. | Yes | asocUrl |
 | Key Secret | Secure | The key secret to authenticate with the Application Security On Cloud server. | Yes | keySecret |
 | UrbanCode Velocity User Access Key | Secure | The user access key to authenticate with the UrbanCode Velocity server. | Yes | ucvAccessKey |
-|Run as a Scheduled Event|Boolean|To integrate the plugin as a Scheduled Event. Set this property to “true” to run the integration as a scheduled event.|No|isScheduledEvent|
+|Run as a Scheduled Event|Boolean|To integrate the plug-in as a Scheduled Event. Set this property to “true” to run the integration as a scheduled event.|No|isScheduledEvent|
 
 ## JSON code sample
 
