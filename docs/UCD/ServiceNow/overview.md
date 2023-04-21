@@ -35,10 +35,6 @@ Implement Condition on Record Number .
 
 RFE URBANCODE-I-537 .
 
-#### Version 34
-
-RFE URBANCODE-I-537 .
-
 #### Version 33
 
 Check Deployment Window Steps issue resolved with correct mapping of the date.
@@ -153,5 +149,4 @@ This version includes a fix for a defect related to the ServiceNow REST API in t
 |Back to ...||Latest Version|ServiceNow |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[35.1155199](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-35.1155199.zip)|[Readme](README.md)|[Usage](usage.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|
-
 

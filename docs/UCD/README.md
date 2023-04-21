@@ -1511,7 +1511,7 @@ JBoss Application Server is a open-source application server for Java EE. This p
 
 |Back to ...||JBoss Application Server |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](JBoss/README.md)|[24.1144778](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JBoss/ucd-JBoss-24.1144778.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](JBoss/README.md)|[25.1155393](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JBoss/ucd-JBoss-25.1155393.zip)|
 
 ## JBoss-ON  [community plugin]
 
@@ -2132,7 +2132,6 @@ This community plugin provides a mechanism to send SMTP emails in your deploymen
 |Back to ...||ServiceNow |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ServiceNow/README.md)|[35.1155199](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-35.1155199.zip)|
-
 
 
 ## Shell
