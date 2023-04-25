@@ -77,7 +77,7 @@
 	- [IBM InfoSphere DataStage](#ibm-infosphere-datastage)
 	- [IBM InfoSphere Optim](#ibm-infosphere-optim)
 	- [IBM Installation Manager](#ibm-installation-manager)
-	- [IBM Instana ](#ibm-instana)
+	- [IBM Instana](#ibm-instana)
 	- [IBM Integration Bus (IIB) plugin Deploy step for zOS](#ibm-integration-bus-iib-plugin-deploy-step-for-zos)
 	- [IBM Integration Bus (formerly WebSphere Message Broker) - CMP](#ibm-integration-bus-formerly-websphere-message-broker---cmp)
 	- [IBM MQ for z/OS - Generate MQSC Commands \[community plugin\]](#ibm-mq-for-zos---generate-mqsc-commands-community-plugin)
@@ -224,7 +224,7 @@
 	- [z/OS Shell](#zos-shell)
 	- [z/OS USS Utility](#zos-uss-utility)
 	- [z/OS Utility](#zos-utility)
-    - [z/OS Rexx Executor](#zos-rexx-executor)
+	- [z/OS Rexx Executor](#zos-rexx-executor)
 
 # List of all Plugins
 
@@ -2232,7 +2232,7 @@ TeamCity is a build management and continuous integration tool which supports a 
 
 |Back to ...||TeamCity |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](TeamCity/README.md)|[20.1153959](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TeamCitySourceConfig/ucd-TeamCitySourceConfig-20.1153959.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](TeamCitySourceConfig/README.md)|[20.1153959](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TeamCitySourceConfig/ucd-TeamCitySourceConfig-20.1153959.zip)|
 
 ## Text Utility  [community plugin]
 
