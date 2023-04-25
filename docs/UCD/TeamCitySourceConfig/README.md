@@ -5,16 +5,13 @@ TeamCity is a build management and continuous integration tool which supports a 
 
 The TeamCity plug-in automates downloading artifacts from TeamCity projects.
 
-### Compatibility
+## Compatibility
 
 The TeamCity plug-in supports TeamCity version 9 (2015) and later. If you are using a previous version of TeamCity, use a plug-in version prior to v11.
 
-
-### Available Steps
+## Available Steps
 
 Import Version Create a new component version and import artifacts from the TeamCity server.
-
-
 
 |Back to ...||Latest Version|||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
