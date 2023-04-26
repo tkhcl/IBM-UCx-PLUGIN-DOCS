@@ -83,8 +83,15 @@ The tables in the Configuration properties topic describe the properties used to
 
 ### Using the user interface
 
-1. From the Plugins page, click **Settings > Integrations > Plugins**.
-2. Under the **Action** column for the plug-in, click **Add Integration**.
+To install the plug-in, perform the following steps:
+
+1. From the home page, click **Settings > Integrations > Available**.
+2. Under the **Action** column for the ASOC plug-in, click **Install**.
+
+To integrate the plug-in, perform the following steps:
+
+1. From the home page, click **Settings > Integrations > Plugins**.
+2. In the **Action** column for the ASOC plug-in, click **Add Integration**.
 3. On the Add Integration page, enter values for the fields used to configure the integration and define communication.
 4. Select the **Run as Scheduled Event** checkbox.
 **Note:** Select the checkbox only if you want to integrate the plug-in as a scheduled event and clear the checkbox if you want to integrate the plug-in as an endpoint.
