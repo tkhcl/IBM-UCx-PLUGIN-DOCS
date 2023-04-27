@@ -26,6 +26,7 @@
 	- [HCL OneTest Server](#hcl-onetest-server)
 	- [Handlebar Reporter](#handlebar-reporter)
 	- [IBM Engineering Workflow Management (EWM)](#ibm-engineering-workflow-management-ewm)
+	- [Jenkins](#jenkins)
 	- [JUnit](#junit)
 	- [Jira](#jira)
 	- [Microsoft Visual Studio Testing](#microsoft-visual-studio-testing)
@@ -246,6 +247,16 @@ The IBM Engineering Workflow Management (EWM) plug-in, previously known as the I
 |Back to ...||IBM Engineering Workflow Management (EWM) |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-ewm/README.md)|[1.1.27](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-ewm/ucv-ext-ewm:1.1.27.tar)|
+
+## Jenkins
+
+A new plug-in for Jenkins works as any other plug-ins of UrbanCode Velocity. The old plugin has been renamed to Jenkins (Legacy). The Jenkins plug-in pull jobs from Jenkins and provide as an Input to the release pipelines and as an automation task in deployment plan. 
+
+---
+
+|Back to ...||Jenkins |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-jenkins/README.md)|[1.0.4](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jenkins/ucv-ext-jenkins:1.0.4.tar.7z.001)|
 
 ## JUnit
 
