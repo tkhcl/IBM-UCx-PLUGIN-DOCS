@@ -8,12 +8,12 @@ The Jenkins plug-in provides features that can be used for the following purpose
 
 The tables in the Configuration properties describe the properties to define the integration.
 
-To install the plug-in, perform the following steps:
+To install the Jenkins plug-in, perform the following steps:
 
 1.	From the home page, **click Settings > Integrations > Available**.
 2.	In the **Action** column for the Jenkins plug-in, click **Install**.
 
-To integrate the plug-in, perform the following steps:
+To integrate the Jenkins plug-in, perform the following steps:
 
 1.	From the home page, click **Settings > Integrations > Installed**.
 2.	In the **Action** column for the Jenkins plug-in, click **Add Integration**.
@@ -23,7 +23,7 @@ To integrate the plug-in, perform the following steps:
 ## Using Jenkins jobs as input for the release pipelines
 
 To use Jenkins jobs as input for the release pipelines, perform the following steps:
-1. Log in to HCL Accelerate.
+1. Log in to UrbanCode Velocity.
 2. Click **Value streams** on the Navigation bar.
 3. Click **All Value Streams** tab and select the required value stream.
 4. On the Value Streams page, click **Pipeline** tab and then click **Add app** to add an application.
@@ -41,7 +41,7 @@ To use Jenkins jobs as input for the release pipelines, perform the following st
 
 To use Jenkins jobs as automation tasks in deployment plans, perform the following steps:
 
-1. Log in to HCL Accelerate. 
+1. Log in to UrbanCode Velocity. 
 2. Click **Releases** on the Navigation bar.
 3. Click the required release.
 4. On the Releases page, click the required deployment plan to open the deployment plan page.
@@ -56,6 +56,42 @@ To use Jenkins jobs as automation tasks in deployment plans, perform the followi
 12. Perform any of the following step:
     * Click **Save** to save the task and close the dialog. 
     * Click **Save and create** another to save the task and create another task.
+
+## Configuration properties
+
+The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the property name when using a JSON file.
+
+* The General Configuration Properties table describes configuration properties used by all plug-in integrations.
+* The  Configuration Properties table describes the configuration properties that define the connection and communications with the Jenkins server.
+
+### General Configuration Properties
+
+| Name | Description                                                                  | Required | Property Name |
+| ---- | ---------------------------------------------------------------------------- | -------- | ------------- |
+| NA | The version of the plug-in that you want to use. To view available versions, click the **Version History** tab. If a value is not specified, the version named latest is used. | No | image |
+| Integration Name | An assigned name to the value stream. | Yes | name |
+| Logging LJenkinsevel | The level of Log4j messages to display in the log file. Valid values are: all, debug, info, warn, error, fatal, off, and trace. | No | loggingLevel |
+| NA | List of configuration properties used to connect and communicate with the Jenkins server. Enclose the properties within braces. | Yes | properties |
+|  | The name of the tenant. | Yes | tenant\_id |
+| NA | Unique identifier assigned to the plug-in. The value for the Jenkins plug-in is `ucv-ext-jenkins` | Yes | type |
+| UrbanCode Velocity User Access Key | An auto-generated user access key provides credentials for communicating with the UrbanCode Velocity server. | Yes | NA |
+
+
+### Jenkins Configuration Properties
+
+| Name | Type      | Description                                              | Required |
+| ---- | ----------| ---------------------------------------------------------| -------- |
+| Jenkins Server URL | String | Base URL of the Jenkins server. | Yes |
+| Username | String | An assigned name to the value stream. | Yes | name |
+| API Token | Secure	| API Token to authenticate with the Jenkins server. To create one navigate to Jenkins -> User (top right) -> Configure -> Api Token) |	Yes |
+| Job Filter (xPath) | String	| Restrict which jobs get synced with an xPath filter string. For example: ‘starts-with(fullName,”folder/path/”)’ to only get jobs in a specific folder or: ‘contains(name,”Team Name”)’ to only get jobs that contain a specific substring or: ‘(starts-with(fullName,”folder/path/”) or contains(name,”Team Name”)) and ends-with(name,”my-suffix”)’ etc… | No |
+| Request Timeout	| String | Timeout (in seconds) to apply to each request to the Jenkins server. | No |
+| Request Retries	| String	| Number of times to attempt each request to the Jenkins server (to help eliminate on-off request errors failing entire sync). |	No |
+| Parallel Requests’ |	Boolean	| Whether or not to make requests to the Jenkins server in parallel (parallelized requests make syncing faster but put more pressure on Jenkins server). |	No |
+| Request Depth |	String | The depth of folder levels that Jenkins API requests should make. Increased depth puts more load on each request but requires less requests for deeply nested folder structures. | No |
+| Queue Polling Timeout |	String | Length of time (in minutes) to poll for build to be kicked off from queue. | No |
+| Queue Polling Interval |	String | Time (in seconds) to wait between requests to get build after it is kicked off from queue. |	No |
+
 
 
 |Back to ...||Latest Version|Jenkins |||

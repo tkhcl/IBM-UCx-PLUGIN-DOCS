@@ -23,7 +23,7 @@ Must be running UrbanCode Velocity version 4.0.9 and later to use the plug-in.
 ## Versions
 
 UrbanCode Velocity plug-in images are located in DockerHub. To
-view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-junit/tags).
+view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-jenkins/tags).
 
 
 ## History
