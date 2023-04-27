@@ -1,5 +1,5 @@
 
-# JUnit - Usage
+# Jenkins - Usage
 
 The Jenkins plug-in provides features that can be used for the following purposes:
 
