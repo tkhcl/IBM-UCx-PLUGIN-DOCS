@@ -84,7 +84,7 @@ The following tables describe the properties used to configure the integration. 
 | Name | Type      | Description                                              | Required |
 | ---- | ----------| ---------------------------------------------------------| -------- |
 | Jenkins Server URL | String | Base URL of the Jenkins server. | Yes |
-| Username | String | An assigned name to the value stream. | Yes | name |
+| Username | String | An assigned name to the value stream. | Yes |
 | API Token | Secure	| API Token to authenticate with the Jenkins server. To create one navigate to Jenkins -> User (top right) -> Configure -> Api Token) |	Yes |
 | Job Filter (xPath) | String	| Restrict which jobs get synced with an xPath filter string. For example: ‘starts-with(fullName,”folder/path/”)’ to only get jobs in a specific folder or: ‘contains(name,”Team Name”)’ to only get jobs that contain a specific substring or: ‘(starts-with(fullName,”folder/path/”) or contains(name,”Team Name”)) and ends-with(name,”my-suffix”)’ etc… | No |
 | Request Timeout	| String | Timeout (in seconds) to apply to each request to the Jenkins server. | No |
