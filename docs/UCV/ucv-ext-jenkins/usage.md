@@ -64,6 +64,7 @@ The following tables describe the properties used to configure the integration. 
 * The General Configuration Properties table describes configuration properties used by all plug-in integrations.
 * The  Configuration Properties table describes the configuration properties that define the connection and communications with the Jenkins server.
 
+
 ### General Configuration Properties
 
 | Name | Description                                                                  | Required | Property Name |
@@ -75,6 +76,7 @@ The following tables describe the properties used to configure the integration. 
 |  | The name of the tenant. | Yes | tenant\_id |
 | NA | Unique identifier assigned to the plug-in. The value for the Jenkins plug-in is `ucv-ext-jenkins` | Yes | type |
 | UrbanCode Velocity User Access Key | An auto-generated user access key provides credentials for communicating with the UrbanCode Velocity server. | Yes | NA |
+
 
 
 ### Jenkins Configuration Properties
