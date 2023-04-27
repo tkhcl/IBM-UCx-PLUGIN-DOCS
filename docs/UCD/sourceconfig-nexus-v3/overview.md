@@ -19,6 +19,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 4
+
+Log4j and Jettison dependency updated.
+
 #### Version 1
 
 Initial release of this plug-in.
@@ -26,4 +30,4 @@ Initial release of this plug-in.
 
 |Back to ...||Latest Version|Nexus Repository Manager V3 ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.1053071](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-nexus-v3/sourceconfig-nexus-v3-3.1053071.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[4.1155934](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-nexus-v3/ucd-sourceconfig-nexus-v3-4.1155934.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
