@@ -1911,7 +1911,7 @@ OpenShift provides application lifecycle management functionality and DevOps too
 
 |Back to ...||OpenShift Automation |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](openshift/README.md)|[19.1140931](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/openshift/openshift-19.1140931.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](openshift/README.md)|[20.1155990](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/openshift/ucd-openshift-20.1155990.zip)|
 
 ## Oracle SQLPlus
 
