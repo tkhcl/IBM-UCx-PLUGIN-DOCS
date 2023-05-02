@@ -1791,7 +1791,7 @@ This plugin manipulates Windows Services. On Microsoft Windows operating systems
 
 |Back to ...||Microsoft Windows Services |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ServiceControlManager/README.md)|[11.1126866](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceControlManager/ucd-ServiceControlManager-11.1126866.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ServiceControlManager/README.md)|[12.1155989](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceControlManager/ucd-ServiceControlManager-12.1155989.zip)|
 
 ## Microsoft Windows System Tools
 
