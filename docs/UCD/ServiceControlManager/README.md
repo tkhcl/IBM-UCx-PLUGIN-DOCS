@@ -28,4 +28,4 @@ The Service Control Manager plug-in is an automation based plugin. It is used du
 
 |Back to ...||Latest Version||||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[11.1126866](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceControlManager/ucd-ServiceControlManager-11.1126866.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[12.1155989](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceControlManager/ucd-ServiceControlManager-12.1155989.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
