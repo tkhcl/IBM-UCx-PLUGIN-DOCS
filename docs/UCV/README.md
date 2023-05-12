@@ -166,7 +166,7 @@ GitHub is a Git repository hosting service. It provides tools to manage artifact
 
 |Back to ...||GitHub |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-github/README.md)|[1.3.35](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github-1.3.35.tar.7z.001)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-github/README.md)|[1.3.46](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github:1.3.46.tar.7z.001)|
 
 ## GitHub Dependabot
 
