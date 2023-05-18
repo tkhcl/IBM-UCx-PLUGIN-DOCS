@@ -195,7 +195,7 @@ AppScan Enterprise delivers scalable application security testing and risk manag
 
 |Back to ...||HCL AppScan Enterprise (ASE) |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-appscan/README.md)|[2.0.41](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-appscan/ucv-ext-appscan-2.0.41.tar.7z.001)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-appscan/README.md)|[2.0.47](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-appscan/ucv-ext-appscan:2.0.47.tar.7z.001)|
 
 ## HCL AppScan on Cloud (ASoC)
 

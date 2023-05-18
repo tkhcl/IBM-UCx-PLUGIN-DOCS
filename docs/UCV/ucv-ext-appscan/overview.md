@@ -18,6 +18,11 @@ DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-appscan/tags).
 
 ## History
 
+### Version 2.0.47
+
+* **Preventing Syncing of plugin on older Versions of ASE**: This version of HCL Appscan Enterprise plugin sync's appscan data only when appscan enterprise version is 10.0.0 or greater than 10.0.0. Plugin throws error if appscan enterprise version is older and no syncing of appscan data happens.
+* **Disabled certificate verification**: Disabled strict certificate verification for REST API calls made by plugin.
+
 ### Version 2.0.41
 
 * **Removed Manual User Access Key**: From current version onwards this plugin will only support Auto Generated User Access Key feature of Urbancode Velocity.
@@ -61,4 +66,4 @@ DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-appscan/tags).
 
 |Back to ...||Latest Version|HCL AppScan Enterprise (ASE) |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.0.41](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-appscan/ucv-ext-appscan-2.0.41.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.0.47](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-appscan/ucv-ext-appscan:2.0.47.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
