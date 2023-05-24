@@ -27,6 +27,10 @@ No special steps are required for installation. See [Installing plug-ins in IBM 
 
 ### History
 
+#### Version 37
+
+RFE URBANCODE-I-557 .
+
 #### Version 36
 
 Implemented OR condition for check fileds in the Check Records steps.
@@ -152,5 +156,5 @@ This version includes a fix for a defect related to the ServiceNow REST API in t
 
 |Back to ...||Latest Version|ServiceNow |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[36.1156862](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-36.1156862.zip)|[Readme](README.md)|[Usage](usage.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[37.1156992](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-37.1156992.zip)|[Readme](README.md)|[Usage](usage.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|
 
