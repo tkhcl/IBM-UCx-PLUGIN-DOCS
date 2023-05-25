@@ -99,6 +99,7 @@ Check records in a specified table against specified field values.
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Check Fields | String | Newline seperated list of field value pairs. You may use the Name, what you see in the XML export, of the field. The record(s) will be checked to ensure that the values of the inputed field match and that the fields exist. For example: description=This is a high valued task | Yes |
+| OR for Check Fileds | Boolean | Select to implement OR opertions for Check fields. | No |
 | HTTP Proxy Host | String | Provide the hostname of the HTTP proxy to use to connect to ServiceNow. Eg proxy.domain.com | No |
 | HTTP Proxy Password | Password | Provide the password to authenticate with HTTP proxy. | No |
 | HTTP Proxy Port | String | Provide the port number of the HTTP proxy to use to connect to ServiceNow. | No |
@@ -244,5 +245,5 @@ Update records by specifying field values.
 
 |Back to ...||Latest Version|ServiceNow |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[36.1156862](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-36.1156862.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[37.1156992](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-37.1156992.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
 
