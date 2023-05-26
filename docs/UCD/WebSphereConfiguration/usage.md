@@ -7,9 +7,9 @@ You can find more information about this plug-in:
 * Blog post: [More flexibility improves configuration data management in WebSphere Application Server Configure plug-in](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/25/more-flexibility-improves-configuration-data-manag)
 * Blog post: [Managing WebSphere configurations with JSON snippets](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/25/managing-websphere-configurations-with-json-snippe)
 * Blog post: [How to create a new WebSphere Application Server from a process](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/01/03/how-to-create-a-new-websphere-application-server-f)
-* Video: [Using Snippets to Manage Configuration Data](https://youtu.be/I6H3daJ6XSc)
+* Video: [Using Snippets to Manage Configuration Data](https://www.youtube.com/watch?v=iy8D2z6vPQ8)
 * Video: [Partial Apply and Partial Remove Steps](https://youtu.be/Qhf1r8_mljc)
-* Video: [Using UrbanCode Deploy to Migrate to WebSphere Application Server Version 9](https://youtu.be/2LnyWEOMt5g)
+* Video: [Using UrbanCode Deploy to Migrate to WebSphere Application Server Version 9](https://www.youtube.com/watch?v=Gu5veyk6DUo)
 * Video: [Scheduling Live Comparison of WebSphere Configuration and Sending Results](https://youtu.be/VjT2VGwdlW4)
 
 These pages provide usage information about this plug-in:
@@ -35,7 +35,7 @@ These pages provide usage information about this plug-in:
 ## Configuration Snippets
 
 * [Configuration snippet overview](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/01/04/configuration-snippet-overview)
-* Video: [Using Snippets to Manage Configuration Data](https://youtu.be/I6H3daJ6XSc)
+* Video: [Using Snippets to Manage Configuration Data](https://www.youtube.com/watch?v=iy8D2z6vPQ8)
 * [Creating configuration snippets](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/22/creating-configuration-snippets)
 * [Managing configurations with snippet collections](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/25/managing-configurations-with-snippet-collections)
 * [Tokenizing values in snippet files](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/25/tokenizing-values-in-snippet-files)
@@ -58,7 +58,7 @@ These pages provide usage information about this plug-in:
 
 * [Drawbacks of using the Partial Apply/Remove Steps](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/01/05/drawbacks-of-using-partial-applyremove)
 * [Applying and removing partial configurations](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2022/07/06/applying-and-removing-partial-configurations/)
-* Video: [Partial Apply and Partial Remove Steps](https://youtu.be/I6H3daJ6XSc)
+* Video: [Partial Apply and Partial Remove Steps](https://youtu.be/https://www.youtube.com/watch?v=Qhf1r8_mljc)
 
 |Back to ...||Latest Version|WebSphere Application Server - Configure ||||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
