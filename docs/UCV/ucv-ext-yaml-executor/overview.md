@@ -1,7 +1,7 @@
 
 # YAML Executor - Overview
 
-The YAML Executor plug-in is automatically installed and configured without manual configuration. You can apply the YAML file under **Settings>External config pipeline** to initiate the YAML Executor plug-in integration process.
+The YAML Executor plug-in is automatically installed and configured without manual configuration. You can apply the YAML file under **Settings>External Config Pipeline** to initiate the YAML Executor plug-in integration process.
 
 
 ## Compatability
