@@ -442,7 +442,7 @@ The WhiteSource plug-in retrieves WhiteSource scan results and displays the Lice
 
 ## YAML Executor
 
-The YAML Executor plug-in automates the initial setup process for integrating different CI/CD tools into HCL Accelerate. You can define the integration configurations in a YAML file and apply it in HCL Accelerate to automate the integration process.
+The YAML Executor plug-in automates the initial setup process for integrating different CI/CD tools into UrbanCode Velocity. You can define the integration configurations in a YAML file and apply it in UrbanCode Velocity to automate the integration process.
 
 ---
 
