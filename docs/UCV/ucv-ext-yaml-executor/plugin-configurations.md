@@ -2,39 +2,39 @@
 
 ## Content
 
-- [HCL AppScan Enterprise (ASE)](#appscanPlugin)
-- [HCL AppScan on Cloud (ASoC)](#asocPlugin)
-- [Azure DevOps](#ucv-ext-azure)
-- [Bitbucket Cloud](#ucv-ext-bitbucket-cloud)
-- [BitBucket Server](#ucv-ext-bitbucket-server)
-- [Black Duck](#blackDuckPlugin)
-- [Bottleneck Detection](#ucv-ext-bottleneck-detection)
-- [CircleCI](#ucv-ext-circleci)
-- [HCL Compass](#ucv-ext-compass)
-- [Digital.ai Agility](#ucv-ext-agility)
-- [GitHub Dependabot](#ucv-ext-dependabot)
-- [IBM Engineering Workflow Management (EWM)](#ucv-ext-ewm)
-- [Fortify SSC](#ucv-ext-fortify-ssc)
-- [GitHub](#ucv-ext-github)
-- [GitLab](#ucv-ext-gitlab)
-- [HCL Launch](#ucv-ext-launch)
-- [LeanKit](#ucv-ext-leankit)
-- [MicroFocus ALM Octance](#ucv-ext-alm-octane)
-- [Milestone Risk Prediction](#ucv-ext-milestone-risk-prediction)
-- [HCL OneTest API](#ucv-ext-onetest-api)
-- [HCL OneTest Server](#ucv-ext-onetest-server)
-- [HCL OneTest Service Virtualization](#ucv-ext-onetest-sv)
-- [Rally](#ucv-ext-rally)
-- [Redmine](#ucv-ext-redmine)
-- [Rational Test Automation Server](#ucv-ext-rtas)
-- [SAP ChaRM](#ucv-ext-sap-charm)
-- [SAP ITSM](#ucv-ext-sapitsm)
-- [ServiceNow](#ucv-ext-servicenow)
-- [Snyk](#ucv-ext-snyk)
-- [SonarQube](#sonarqubePlugin)
-- [UrbanCode Deploy ( External )](#ucv-ext-ucd)
-- [VersionVault Express](#ucv-ext-vv-express)
-- [WhiteSource](#ucv-ext-whitesource)
+- [HCL AppScan Enterprise (ASE)](#hcl-appscan-enterprise-ase-appscanplugin)
+- [HCL AppScan on Cloud (ASoC)](#hcl-appscan-on-cloud-asoc-asocplugin)
+- [Azure DevOps](#azure-devops-ucv-ext-azure)
+- [Bitbucket Cloud](#bitbucket-cloud-ucv-ext-bitbucket-cloud)
+- [BitBucket Server](#bitbucket-server-ucv-ext-bitbucket-server)
+- [Black Duck](#black-duck-blackduckplugin)
+- [Bottleneck Detection](#bottleneck-detection-ucv-ext-bottleneck-detection)
+- [CircleCI](#circleci-ucv-ext-circleci)
+- [HCL Compass](#hcl-compass-ucv-ext-compass)
+- [Digital.ai Agility](#digitalai-agility-ucv-ext-agility)
+- [GitHub Dependabot](#github-dependabot-ucv-ext-dependabot)
+- [IBM Engineering Workflow Management (EWM)](#ibm-engineering-workflow-management-ewm-ucv-ext-ewm)
+- [Fortify SSC](#fortify-ssc-ucv-ext-fortify-ssc)
+- [GitHub](#github-ucv-ext-github)
+- [GitLab](#gitlab-ucv-ext-gitlab)
+- [HCL Launch](#hcl-launch-ucv-ext-launch)
+- [LeanKit](#leankit-ucv-ext-leankit)
+- [MicroFocus ALM Octance](#microfocus-alm-octance-ucv-ext-alm-octane)
+- [Milestone Risk Prediction](#milestone-risk-prediction-ucv-ext-milestone-risk-prediction)
+- [HCL OneTest API](#hcl-onetest-api-ucv-ext-onetest-api)
+- [HCL OneTest Server](#hcl-onetest-server-ucv-ext-onetest-server)
+- [HCL OneTest Service Virtualization](#hcl-onetest-service-virtualization-ucv-ext-onetest-sv)
+- [Rally](#rally-ucv-ext-rally)
+- [Redmine](#redmine-ucv-ext-redmine)
+- [Rational Test Automation Server](#rational-test-automation-server-ucv-ext-rtas)
+- [SAP ChaRM](#sap-charm-ucv-ext-sap-charm)
+- [SAP ITSM](#sap-itsm-ucv-ext-sapitsm)
+- [ServiceNow](#servicenow-ucv-ext-servicenow)
+- [Snyk](#snyk-ucv-ext-snyk)
+- [SonarQube](#sonarqube-sonarqubeplugin)
+- [UrbanCode Deploy ( External )](#urbancode-deploy--external--ucv-ext-ucd)
+- [VersionVault Express](#versionvault-express-ucv-ext-vv-express)
+- [WhiteSource](#whitesource-ucv-ext-whitesource)
 
 ## HCL AppScan Enterprise (ASE) (appscanPlugin)
 
@@ -155,7 +155,7 @@
 | timezone     | Dropdown  | true     | The timezone offset from the Coordinated Universal Time (UTC). For example, if the timezone is Asia/Kolkata select UTC+05:30. |
 | since        | String    | false    | Issues or work items are imported for the specified number of months when the plug-in runs for the first time.                |
 
-##Digital.ai Agility (ucv-ext-agility)
+## Digital.ai Agility (ucv-ext-agility)
 
 | Name          | Type   | Required | Description                                                                                                                                                                                   |
 | ------------- | ------ | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -349,7 +349,7 @@
 | proxyPassword         | Secure    | false    | The Password used to authenticate with the proxy server.                                                                                                                                                                                                                                                                                                          |
 | fieldMapping          | Multiline | false    | Map Jira fields to the fields expected by this server as a Name Value pair, for example: “Epic Link”: “Epic field in Jira”, “Sprint”: “Sprint field in Jira”, “Story Points”: “Story field in Jira” .                                                                                                                                                                      |
 
-##SAP ITSM (ucv-ext-sapitsm)
+## SAP ITSM (ucv-ext-sapitsm)
 
 | Name         | Type   | Required | Description                                                      |
 | ------------ | ------ | -------- | ---------------------------------------------------------------- |
