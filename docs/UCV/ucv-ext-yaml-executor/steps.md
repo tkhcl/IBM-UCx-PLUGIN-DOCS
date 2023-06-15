@@ -5,7 +5,7 @@
 
 Import the YAML configuration file into UrbanCode Velocity by using any one of the following methods:
 
-### Method 1: Using GitHub Plug-in
+### Method 1: Using GitHub plug-in
 
 Integrate UrbanCode Velocity with a GitHub repository that contains the ucv.yml file to import the YAML configuration file into HCL accelerate.
 
