@@ -28,6 +28,10 @@ products/#ucr "Installing plug-ins in UrbanCode Release").
 
 ### History
 
+#### Version 3
+
+* Added Ansible job URL in UCR as Hyperlink
+When we trigger the Ansible templates from UCR, Ansible Tower IDs are now visible as hyperlink instead of text format
 
 
 #### Version 2
@@ -43,4 +47,4 @@ plug-in version.
 
 |Back to ...||Latest Version|Ansible Tower ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[2.1106038](https://raw.githubusercontent.com/UrbanCode/IBM-UCR-PLUGINS/main/files/ucr-plugin-ansible/ucr-plugin-ansible-tower-2.1106038.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[3.1145832](https://raw.githubusercontent.com/UrbanCode/IBM-UCR-PLUGINS/main/files/ucr-plugin-ansible/ucr-plugin-ansible-tower-3.1145832.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
