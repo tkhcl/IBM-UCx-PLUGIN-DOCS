@@ -48,6 +48,7 @@
 	- [FileNet - IBM Case Manager](#filenet---ibm-case-manager)
 	- [Git](#git)
 	- [Git Install  \[community plugin\]](#git-install--community-plugin)
+	- [GitLab-Generic-Packages](#gitlab-generic-packages)
 	- [GitLab-Sourceconfig-Generic-Packages](#gitlab-sourceconfig-generic-packages)
 	- [GitHub-Release](#github-release)
 	- [Google Android SDK](#google-android-sdk)
@@ -659,6 +660,17 @@ Git is a free and open source distributed version control system designed to han
 |Back to ...||Git Install |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](git-install/README.md)|[0]()|
+
+## GitLab-Generic-Packages  
+
+Gitlab Generic Packages automation plufgin.
+Initial release of this plugin.
+
+---
+
+|Back to ...||Gitlab Generic Packages |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](gitlab-sourceconfig-generic-packages/README.md)|[1.1155527](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/gitlab-generic-packages/ucd-plugins-gitlab-generic-packages-1.1155527.zip)|
 
 ## GitLab-Sourceconfig-Generic-Packages  
 
