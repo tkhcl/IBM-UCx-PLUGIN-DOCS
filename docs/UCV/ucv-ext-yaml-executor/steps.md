@@ -1,0 +1,138 @@
+
+# YAML Executor - Steps
+
+## Importing YAML configuration file into UrbanCode Velocity
+
+Import the YAML configuration file into UrbanCode Velocity by using any one of the following methods:
+
+### Method 1: Using GitHub Plug-in
+
+Integrate UrbanCode Velocity with a GitHub repository that contains the ucv.yml file to import the YAML configuration file into HCL accelerate.
+
+Perform the following steps to import the YAML configuration file using GitHub plug-in:
+
+1. Log in to UrbanCode Velocity.
+2. Click **Settings>Integrations**.
+3. In the Installed tab, click **Add Integration** for the installed GitHub plug-in.
+      
+   Note: If the GitHub plug-in is not installed, go to Available tab and click Install for GitHub Plug-in.
+ 
+4. Enter the details in the required fields to add GitHub integration. 
+5. Click **Add** to save the details and enable the integration.
+   
+   The The YAML configuration file from the GitHub repository is automatically synced to UrbanCode Velocity and displayed under Settings>External config pipeline.
+
+### Method 2: Using user interface
+
+You can import the YAML configuration file into UrbanCode Velocity using user interface if it is not hosted in a GitHub repository.
+
+Perform the following steps to add YAML configuration file using user interface:
+
+1. Log in to UrbanCode Velocity.
+2. Click **Settings>External config pipeline**.
+3. Click **Download sample yaml** to download the sample YAML file.
+4. Edit the sample file with the actual values of your configuration.
+5. Click **Add new config file**.
+   Add New Config dialog opens.
+6. Click **Choose file** to select the edited file. 
+7. Click **Confirm** to upload the file.
+   The uploaded YAML configuration file is displayed in the list. 
+8. To edit the existing YAML configuration file, perform the following steps:
+    a) Click overflow menu of the YAML configuration file and then click **Edit**.
+       The existing YAML configuration file will download.
+    b) Edit the downloaded YAML configuration file.
+    c) Click overflow menu of the YAML configuration file which you have edited and then click **Update**.
+       Update config dialog opens.
+    d) Click **Choose file** to select the edited file.
+    e) Click **Confirm** to upload the file.
+     
+    The updated YAML configuration file is displayed in the list.
+
+ 
+## Applying YAML configuration file
+
+Once you have the YAML configuration file in UrbanCode Velocity, perform the following steps to apply the configuration:
+
+1. Log in to UrbanCode Velocity.
+2. Click **Settings>External config pipeline**.
+3. Choose the required YAML configuration file in the list and click right angle bracket to preview the configuration details.
+4. Click **Apply** for the required YAML configuration file.
+5. Click overflow menu for the required YAML configuration file and then click View Logs to view the logs of the applied YAML configuration file.
+   
+## YAML configuration file properties
+
+The YAML configuration file is used to define configuration settings for automating the initial setup process for integrating various CI/CD tools into UrbanCode Velocity.
+
+### YAML File Structure
+
+The following table describe the properties used to define the configuration in the YAML file.
+
+|Property name |Type  |Description                          |Required|
+|--------------|------|-------------------------------------|--------|
+|version	   |String| The version number of YAML file.	|Yes     |	
+|integrations  |Array | List of integration configurations. |Yes     |	
+
+#### Integrations
+
+The following table describe the properties that you must define under integrations:
+
+|Property name|Type  |Description	                                   |Required|
+|-------------|------|--------------------------------------------------|--------|
+|type	     |String|Type or category of the CI/CD tool.	           |Yes     |
+|attributes   |Object|Additional attributes specific to the integration.|Yes     |
+|configs	  |Object|	Configuration object for the integration.	 |Yes     |
+
+##### Configuration Object
+
+The following table describe the properties that you must define under configs :
+
+|Property name|Type  |Description	                               |Required|
+|-------------|------|----------------------------------------------|--------|
+|name	     |String|Name of the configuration.	                |Yes     |
+|loggingLevel |String|Logging level for the integration.	        |Yes     |
+|deltaTime	|String|Optional: Time difference for the integration.|Yes     |
+
+For additional configuration properties depending on integration type, see [UrbanCode Velocity Plugins Configuration.](plugin-configurations.md)
+
+### Sample YAML configuration file
+
+Following is the sample YAML configuration file with two integrations:
+
+```
+version: "8.0.0"
+integrations:
+  - type: ucv-ext-launch
+    attributes:
+      auto-config: true
+    configs:
+      name: Launch Integration
+      loggingLevel: DEBUG
+      deltaTime: '2023-05-15T18:30:00.000Z'
+      # Additional integration-specific fields for Launch Integration
+
+  - type: another-integration
+    attributes:
+      auto-config: true
+    configs:
+      name: Another Integration
+      loggingLevel: INFO
+      # Additional integration-specific fields for Another Integration
+```
+
+Replace the property values in the sample file with the actual values specific to your configuration.
+
+#### Customizing YAML configuration file
+
+Perform the following steps to customize the YAML configuration file for your required integrations:
+
+1.	Open the YAML configuration file in a text editor.
+2.	Update `version` property with the appropriate version number.
+3.	Under `integrations` property, add or remove any property as required.
+4.	For each integration, add `type`, `attributes`, and `configs` property.
+5.	Under `configs` property, you must add the required properties based on the integration type.
+6.	Set the `auto-config` attribute to **true** for enabling automatic setup of pipeline applications processes and environments after creating a new integration.
+7.	Save the YAML configuration file.
+
+|Back to ...||Latest Version|YAML Executor |||
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[0.0.5](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-yaml-executor/ucv-ext-yaml-executor:0.0.5.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

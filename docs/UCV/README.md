@@ -45,6 +45,7 @@
 	- [Twistlock](#twistlock)
 	- [Urbancode Deploy](#urbancode-deploy)
 	- [WhiteSource](#whitesource)
+	- [YAML Executor](#yaml-executor)
 
 # List of all Plugins
 
@@ -438,3 +439,14 @@ The WhiteSource plug-in retrieves WhiteSource scan results and displays the Lice
 |Back to ...||WhiteSource |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-whitesource/README.md)|[2.0.15](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-whitesource/ucv-ext-whitesource-2.0.15.tar.zip)|
+
+## YAML Executor
+
+The YAML Executor plug-in automates the initial setup process for integrating different CI/CD tools into HCL Accelerate. You can define the integration configurations in a YAML file and apply it in HCL Accelerate to automate the integration process.
+
+---
+
+|Back to ...||YAML Executor |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-yaml-executor/README.md)|[0.0.5](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-yaml-executor/ucv-ext-yaml-executor:0.0.5.tar.7z.001)|
+
