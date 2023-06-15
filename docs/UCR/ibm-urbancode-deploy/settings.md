@@ -25,4 +25,4 @@ in.
 
 |Back to ...||Latest Version|IBM UrbanCode Deploy |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[1.1141582.ifix01](https://github.com/UrbanCode/IBM-UCR-PLUGINS/blob/main/files/ucr-plugin-deploy/ucr-plugin-deploy-1.1141582.ifix01.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|
+|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[9.1158051](https://github.com/UrbanCode/IBM-UCR-PLUGINS/blob/main/files/ucr-plugin-deploy/ucr-plugin-deploy-9.1158051.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|
