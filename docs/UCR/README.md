@@ -30,7 +30,7 @@ The Red Hat© Ansible© Tower centralize and control your IT infrastructure with
 
 |Back to ...||Ansible Tower |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucr-plugin-ansible/README.md)|[2.1106038](https://raw.githubusercontent.com/UrbanCode/IBM-UCR-PLUGINS/main/files/ucr-plugin-ansible/ucr-plugin-ansible-tower-2.1106038.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucr-plugin-ansible/README.md)|[3.1145832](https://raw.githubusercontent.com/UrbanCode/IBM-UCR-PLUGINS/main/files/ucr-plugin-ansible/ucr-plugin-ansible-tower-3.1145832.zip)|
 
 ## CA Nolio
 
@@ -70,7 +70,7 @@ The IBM UrbanCode Deploy plug-in provides a full integration between IBM UrbanCo
 
 |Back to ...||IBM UrbanCode Deploy |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-urbancode-deploy/README.md)|[1.1141582.ifix01](https://github.com/UrbanCode/IBM-UCR-PLUGINS/blob/main/files/ucr-plugin-deploy/ucr-plugin-deploy-1.1141582.ifix01.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-urbancode-deploy/README.md)|[9.1158051](https://github.com/UrbanCode/IBM-UCR-PLUGINS/blob/main/files/ucr-plugin-deploy/ucr-plugin-deploy-9.1158051.zip)|
 
 ## Jenkins for IBM UrbanCode Release
 
