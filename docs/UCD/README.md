@@ -377,7 +377,7 @@ The Artifactory source configuration plug-in includes steps to complete the foll
 
 |Back to ...||Artifactory Source Config |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ArtifactorySourceConfig/README.md)|[30.1150599](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ucd-ArtifactorySourceConfig-30.1150599.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ArtifactorySourceConfig/README.md)|[31.1158135](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ucd-ArtifactorySourceConfig-31.1158135.zip)|
 
 ## ASOC [community plugin]
 

@@ -15,6 +15,7 @@ The following roles are added automatically to resources. You cannot add these r
 | Add Property as Status | String | Artifactory properties to be set as component version statuses on the imported version. If the property does not exist in Artifactory, or the status does not exist in Deploy, it will be skipped. Multiple properties can be set as statuses with a comma ‘,’ delimited list. | ``${p:component/ArtifactoryComponentProperties/statuses}`` |
 | Allow Insecure Connection | Boolean | Select this option to allow insecure connections to the Artifactory repository. | ``${p:component/ArtifactoryComponentProperties/allowInsecure}`` |
 | Api Key | Password | The api key to authenticate with the Artifactory server. If using api key, username and password will be ignored. | ``${p:component/ArtifactoryComponentProperties/apiKey}`` |
+| Identity token | Password | The Identity token to authenticate with the Artifactory server. If using Identity token , api key, username and password will be ignored. | ``${p:component/ArtifactoryComponentProperties/identityToken}`` |
 | Artifact ID | String | Artifact ID. | ``${p:component/ArtifactoryComponentProperties/artifactId}`` |
 | Artifactory URL | String | Base URL for the Artifactory server. | ``${p:component/ArtifactoryComponentProperties/repoUrl}`` |
 | Download Recursively | Boolean | Select this box to download files and folders in subfolders of versions. Requires Artifactory Pro edition or higher. | ``${p:component/ArtifactoryComponentProperties/recursive}`` |
@@ -51,4 +52,4 @@ The following roles are added automatically to resources. You cannot add these r
 
 |Back to ...||Latest Version|Artifactory Source Config |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[30.1150599](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ucd-ArtifactorySourceConfig-30.1150599.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[31.1158135](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ucd-ArtifactorySourceConfig-31.1158135.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

@@ -25,6 +25,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 ### History
 
 
+#### Version 31 *June 20, 2023*
+
+* RFE URBANCODE-I-564 implemented .
+
 #### Version 30 *Jan 30, 2023*
 
 * Updated log4j dependency .
@@ -167,4 +171,4 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 |Back to ...||Latest Version|Artifactory Source Config |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[30.1150599](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ucd-ArtifactorySourceConfig-30.1150599.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Roles](roles.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[31.1158135](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ucd-ArtifactorySourceConfig-31.1158135.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Roles](roles.md)|[Downloads](downloads.md)|

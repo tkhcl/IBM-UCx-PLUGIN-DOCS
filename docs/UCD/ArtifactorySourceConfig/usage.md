@@ -21,4 +21,4 @@ To access this plugin in the palette, click **Source and Repositories** > **Arti
 
 |Back to ...||Latest Version|Artifactory Source Config |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[30.1150599](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ucd-ArtifactorySourceConfig-30.1150599.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Roles](roles.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[31.1158135](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ucd-ArtifactorySourceConfig-31.1158135.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Roles](roles.md)|[Downloads](downloads.md)|
