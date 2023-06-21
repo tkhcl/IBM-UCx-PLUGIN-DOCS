@@ -7,7 +7,7 @@ Import the YAML configuration file into UrbanCode Velocity by using any one of t
 
 ### Method 1: Using GitHub plug-in
 
-Integrate UrbanCode Velocity with a GitHub repository that contains the ucv.yml file to import the YAML configuration file into HCL accelerate.
+Integrate UrbanCode Velocity with a GitHub repository that contains the ucv.yml file to import the YAML configuration file into UrbanCode Velocity.
 
 Perform the following steps to import the YAML configuration file using GitHub plug-in:
 
@@ -20,7 +20,7 @@ Perform the following steps to import the YAML configuration file using GitHub p
 4. Enter the details in the required fields to add GitHub integration. 
 5. Click **Add** to save the details and enable the integration.
    
-   The The YAML configuration file from the GitHub repository is automatically synced to UrbanCode Velocity and displayed under Settings>External config pipeline.
+   The YAML configuration file from the GitHub repository is automatically synced to UrbanCode Velocity and displayed under Settings>External config pipeline.
 
 ### Method 2: Using user interface
 
@@ -38,17 +38,15 @@ Perform the following steps to add YAML configuration file using user interface:
 7. Click **Confirm** to upload the file.
    The uploaded YAML configuration file is displayed in the list. 
 8. To edit the existing YAML configuration file, perform the following steps:
-    a) Click overflow menu of the YAML configuration file and then click **Edit**.
+    1. Click overflow menu of the YAML configuration file and then click **Edit**.
        The existing YAML configuration file will download.
-    b) Edit the downloaded YAML configuration file.
-    c) Click overflow menu of the YAML configuration file which you have edited and then click **Update**.
+    2. The Edit the downloaded YAML configuration file.
+    3. Click overflow menu of the YAML configuration file which you have edited and then click **Update**.
        Update config dialog opens.
-    d) Click **Choose file** to select the edited file.
-    e) Click **Confirm** to upload the file.
-     
+    4. Click **Choose file** to select the edited file.
+    5. Click **Confirm** to upload the file.    
     The updated YAML configuration file is displayed in the list.
-
- 
+    
 ## Applying YAML configuration file
 
 Once you have the YAML configuration file in UrbanCode Velocity, perform the following steps to apply the configuration:
@@ -57,8 +55,8 @@ Once you have the YAML configuration file in UrbanCode Velocity, perform the fol
 2. Click **Settings>External config pipeline**.
 3. Choose the required YAML configuration file in the list and click right angle bracket to preview the configuration details.
 4. Click **Apply** for the required YAML configuration file.
-5. Click overflow menu for the required YAML configuration file and then click View Logs to view the logs of the applied YAML configuration file.
-   
+5. Click overflow menu for the required YAML configuration file and then click View Logs to view the logs of the applied YAML configuration file.  
+
 ## YAML configuration file properties
 
 The YAML configuration file is used to define configuration settings for automating the initial setup process for integrating various CI/CD tools into UrbanCode Velocity.
@@ -125,13 +123,13 @@ Replace the property values in the sample file with the actual values specific t
 
 Perform the following steps to customize the YAML configuration file for your required integrations:
 
-1.	Open the YAML configuration file in a text editor.
-2.	Update `version` property with the appropriate version number.
-3.	Under `integrations` property, add or remove any property as required.
-4.	For each integration, add `type`, `attributes`, and `configs` property.
-5.	Under `configs` property, you must add the required properties based on the integration type.
-6.	Set the `auto-config` attribute to **true** for enabling automatic setup of pipeline applications processes and environments after creating a new integration.
-7.	Save the YAML configuration file.
+1. Open the YAML configuration file in a text editor.
+2. Update `version` property with the appropriate version number.
+3. Under `integrations` property, add or remove any property as required.
+4. For each integration, add `type`, `attributes`, and `configs` property.
+5. Under `configs` property, you must add the required properties based on the integration type.
+6. Set the `auto-config` attribute to **true** for enabling automatic setup of pipeline applications processes and environments after creating a new integration.
+7. Save the YAML configuration file.
 
 |Back to ...||Latest Version|YAML Executor |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
