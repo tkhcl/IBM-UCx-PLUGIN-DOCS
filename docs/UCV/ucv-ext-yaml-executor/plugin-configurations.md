@@ -1,4 +1,4 @@
-# HCL Accelerate Plugins Configuration
+# UrbanCode Velocity Plugins Configuration
 
 ## Content
 
