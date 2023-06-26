@@ -972,7 +972,7 @@ Instana is an automated Application Performance Management (APM) solution design
 
 |Back to ...||IBM Instana  |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-instana/README.md)|[1.1152844](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-instana/ucd-Instana-1.1152844.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-instana/README.md)|[2.1158245](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-instana/ucd-Instana-2.1158245.zip)|
 
 
 ## IBM Integration Bus (IIB) plugin Deploy step for zOS
