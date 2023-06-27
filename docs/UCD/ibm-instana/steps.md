@@ -1,7 +1,9 @@
 
 # IBM Instana - Process Steps
 
-* [Add Global Release Marker](#add_global_release_maker)
+* [Add Global Release Marker](#add_global_release_marker)
+* [Add Application Release Marker](#add_application_release_marker)
+* [Add Service Release Marker](#add_service_release_marker)
 
 ## Steps
 
