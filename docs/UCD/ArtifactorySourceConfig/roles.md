@@ -52,4 +52,4 @@ The following roles are added automatically to resources. You cannot add these r
 
 |Back to ...||Latest Version|Artifactory Source Config |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[31.1158135](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ucd-ArtifactorySourceConfig-31.1158135.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[32.1158294](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ucd-ArtifactorySourceConfig-32.1158294.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

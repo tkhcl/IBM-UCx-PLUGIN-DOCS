@@ -24,6 +24,9 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 32 *June 29, 2023*
+
+* Plugin upload issue resolved.
 
 #### Version 31 *June 20, 2023*
 
@@ -171,4 +174,4 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 |Back to ...||Latest Version|Artifactory Source Config |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[31.1158135](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ucd-ArtifactorySourceConfig-31.1158135.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Roles](roles.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[32.1158294](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ucd-ArtifactorySourceConfig-32.1158294.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Roles](roles.md)|[Downloads](downloads.md)|
