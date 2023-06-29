@@ -7,7 +7,7 @@ This plug-in enables you to apply puppet manifests, or call a puppet agent.
 
 This plug-in is developed and supported by the UrbanCode Deploy Community on the IBM DevOps Services platform. Click the “Visit Project” button at the top of the page to navigate to the project for further information.
 
-Downloads:
+## Downloads
 
 * [Puppet plug-in distribution](https://github.com/UrbanCode/Puppet-UCD/releases)
 * [Source project](https://github.com/UrbanCode/Puppet-UCD)
@@ -17,14 +17,10 @@ If you encounter issues with the plug-in, or want to send feedback:
 * Ask Puppet plug-in specific questions on the [GitHub Issues](https://github.com/UrbanCode/Puppet-UCD/issues) page.
 * For general plug-in issues, submit questions to our [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins
 
+## Available Steps
 
-### Available Steps
-
-Apply one or more manifest through puppet
-
-Run puppet agent to get updates from master
-
-
+* Apply one or more manifest through puppet
+* Run puppet agent to get updates from master
 
 |Back to ...||Latest Version|
 | :---: | :---: | :---: |

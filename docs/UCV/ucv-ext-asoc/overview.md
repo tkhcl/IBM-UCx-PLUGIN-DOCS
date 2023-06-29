@@ -2,7 +2,7 @@
 # HCL AppScan on Cloud (ASoC) - Overview
 
 
-The AppScan on Cloud plug-in allows for integration with the HCL Application Security on Cloud server. This plug-in uses the Application Security on Cloud REST interface to interact with the HCL Application Security on Cloud application. Data is gathered from the Application Security on Cloud server and displayed as a graphical view in the UrbanCode Velocity portfolio.
+The HCL AppScan on Cloud (ASoC) plug-in allows for integration with the HCL Appscan on Cloud server. This plug-in uses the Appscan on Cloud REST interface to interact with the HCL Appscan on Cloud application. Data is gathered from the ASoC server and displayed as a graphical view in the UrbanCode Velocity portfolio.
 
 ## Compatibility
 
@@ -14,14 +14,17 @@ UrbanCode Velocity plug-in images are located in DockerHub. To view available ve
 
 ## History
 
+### Version 3.0.19
+
+* The older versions of ASoC plug-in was not reporting critical issues. The issue is fixed.
 
 ### Version 3.0.12
 
-* Removed Manual User Access Key: From current version onwards this plugin will only support Auto Generated User Access Key feature of UrbanCode Velocity.
-* Initial Sync Date Field Added: Under the hidden properties section of add integration page for the ASoC plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync.
-* Added WorkflowId: Under the hidden properties section of add integration page for ASoC plugin a Workflow ID field is added. This field is optional and can be used to provide UbranCode Velocity WorkflowId - the ID of a Value Stream (VSM )to which ASoC vulnerability data is associated.
-* Preventing Installation on Older Versions: This version of ASoC Plugin can only be installed on UrbanCode Velocity version 2.5.0 and later
-* Making scheduled event optional: The scheduled event - Sync ASoC Data has been made optional from this version onwards. To enable the scheduled event please check the box in integration properties with label Run as a Scheduled Event.
+* **Removed Manual User Access Key:** From current version onwards this plug-in will only support Auto Generated User Access Key feature of UrbanCode Velocity.
+* **Initial Sync Date Field Added:** Under the hidden properties section of add integration page for the ASoC plug-in an Initial Sync Date field is added. This field is optional and can be used only for the first sync.
+* **Added WorkflowId:** Under the hidden properties section of add integration page for ASoC plug-in a Workflow ID field is added. This field is optional and can be used to provide UbranCode Velocity WorkflowId - the ID of a Value Stream (VSM )to which ASoC vulnerability data is associated.
+* **Preventing Installation on Older Versions:** This version of ASoC plug-in can only be installed on UrbanCode Velocity version 2.5.0 and later
+* **Making scheduled event optional:** The scheduled event - Sync ASoC Data has been made optional from this version onwards. To enable the scheduled event please check the box in integration properties with label Run as a Scheduled Event.
 
 ### Version 3.0.11
 
@@ -61,7 +64,7 @@ UrbanCode Velocity plug-in images are located in DockerHub. To view available ve
 
 ### Version 1.0.9
 
-* Update plugin version from 0.x.x to 1.x.x format.
+* Update plug-in version from 0.x.x to 1.x.x format.
 
 ### Version 0.0.4
 
@@ -70,4 +73,4 @@ UrbanCode Velocity plug-in images are located in DockerHub. To view available ve
 
 |Back to ...||Latest Version|HCL AppScan on Cloud (ASoC) |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[3.0.12](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-asoc/ucv-ext-asoc:3.0.12.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[3.0.19](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-asoc/ucv-ext-asoc:3.0.19.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

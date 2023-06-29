@@ -1,6 +1,7 @@
 
-# Cloud Foundry - Overview
+# Cloud Foundry
 
+## Overview
 
 The Cloud Foundry plug-in uses the Cloud Foundry command-line utility to interact with applications in a target Cloud Foundry system.
 
@@ -38,7 +39,7 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 #### Version 31
 
-*  Updated 'application' property default values to check for both component/cf.appName and resource/cf.app.
+* Updated 'application' property default values to check for both component/cf.appName and resource/cf.app.
 
 #### Version 30
 
@@ -46,12 +47,12 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 #### Version 27
 
-* Fixed APAR PI97459 default CF\_HOME is now created as a new temporary child of the working directory.
+* Fixed APAR PI97459 default CF_HOME is now created as a new temporary child of the working directory.
 * Updated all default application values to reference the auto-configured application resources.
 
 #### Version 26
 
-* Fixed APAR PI96390 Added CF\_COLOR environment property to not colorize CF output.
+* Fixed APAR PI96390 Added CF_COLOR environment property to not colorize CF output.
 * Fixed APAR PI96391 Removed component template modifications and created applications as resources.
 * Fixed API Endpoint discovery to correctly parse the output of the cf api command.
 * Added check to confirm CloudFoundryController role and provided error output upon failure.
@@ -72,7 +73,7 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 * Added a hidden Environment Variables property to all steps.
 * CUPS and UUPS step now has optional username and password fields.
-* CUPS and UUPS steps CF\_HOME property now has a default value.
+* CUPS and UUPS steps CF_HOME property now has a default value.
 
 #### Version 21
 
@@ -85,7 +86,7 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 #### Version 19
 
 * Username and Password properties are now optional. Allows possible authentication outside of the plugin.
-* Added an optional default value resource property to CF\_HOME.
+* Added an optional default value resource property to CF_HOME.
 
 #### Version 18
 
@@ -93,7 +94,7 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 #### Version 17
 
-* Adds ability to specify an explicit CF\_HOME for each step.
+* Adds ability to specify an explicit CF_HOME for each step.
 * Fixed APAR PI65656: Updated Execute CF Script and Execute CF Bash File steps.
 * Updated Create Service step error with the incorrect declaration of variables.
 
@@ -112,7 +113,6 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 #### Version 13
 
 * Version 13 is the first release of the standard plug-in (as opposed to the community plug-in).
-
 
 |Back to ...||Latest Version|Cloud Foundry |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |

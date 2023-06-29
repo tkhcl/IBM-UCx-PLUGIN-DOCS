@@ -1,7 +1,7 @@
 
 # Informatica
 
-### Overview
+## Overview
 
 This is a community plugin.
 
@@ -22,7 +22,7 @@ The Informatica plug-in is an open source project that is maintained by the IBM 
 * Ask Informatica plug-in specific questions on the [GitHub Issues](https://github.com/UrbanCode/Informatica-UCD/issues) page.
 * For general plug-in issues, submit questions to our [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins
 
-### Available Steps
+## Available Steps
 
 * Apply Label
 * Assign Permission
@@ -34,8 +34,6 @@ The Informatica plug-in is an open source project that is maintained by the IBM 
 * Roll Back Deployment Group
 * Run PMREP Command
 * Validate Deployment Group
-
-
 
 |Back to ...||Latest Version||||
 | :---: | :---: | :---: | :---: | :---: | :---: |

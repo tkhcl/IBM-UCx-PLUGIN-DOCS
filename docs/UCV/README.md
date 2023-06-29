@@ -26,6 +26,7 @@
 	- [HCL OneTest Server](#hcl-onetest-server)
 	- [Handlebar Reporter](#handlebar-reporter)
 	- [IBM Engineering Workflow Management (EWM)](#ibm-engineering-workflow-management-ewm)
+	- [Jenkins](#jenkins)
 	- [JUnit](#junit)
 	- [Jira](#jira)
 	- [Microsoft Visual Studio Testing](#microsoft-visual-studio-testing)
@@ -44,6 +45,7 @@
 	- [Twistlock](#twistlock)
 	- [Urbancode Deploy](#urbancode-deploy)
 	- [WhiteSource](#whitesource)
+	- [YAML Executor](#yaml-executor)
 
 # List of all Plugins
 
@@ -165,7 +167,7 @@ GitHub is a Git repository hosting service. It provides tools to manage artifact
 
 |Back to ...||GitHub |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-github/README.md)|[1.3.35](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github-1.3.35.tar.7z.001)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-github/README.md)|[1.3.46](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github:1.3.46.tar.7z.001)|
 
 ## GitHub Dependabot
 
@@ -205,7 +207,7 @@ HCL AppScan on Cloud (ASoC) is an application security offering that allows you 
 
 |Back to ...||HCL AppScan on Cloud (ASoC) |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-asoc/README.md)|[3.0.12](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-asoc/ucv-ext-asoc:3.0.12.tar.7z.001)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-asoc/README.md)|[3.0.19](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-asoc/ucv-ext-asoc:3.0.19.tar.7z.001)|
 
 ## HCL OneTest
 
@@ -235,7 +237,7 @@ Handlebars is a simple templating language. It can be used to generate HTML or o
 
 |Back to ...||Handlebar Reporter |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-handlebars-reporter/README.md)|[0.0.41](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-handlebars-reporter/ucv-ext-handlebars-reporter-0.0.41.tar.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-handlebars-reporter/README.md)|[2.0.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-handlebars-reporter/ucv-ext-handlebars-reporter:2.0.1.tar.7z.001)|
 
 ## IBM Engineering Workflow Management (EWM)
 
@@ -246,6 +248,16 @@ The IBM Engineering Workflow Management (EWM) plug-in, previously known as the I
 |Back to ...||IBM Engineering Workflow Management (EWM) |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-ewm/README.md)|[1.1.27](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-ewm/ucv-ext-ewm:1.1.27.tar)|
+
+## Jenkins
+
+A new plug-in for Jenkins works as any other plug-ins of UrbanCode Velocity. The old plugin has been renamed to Jenkins (Legacy). The Jenkins plug-in pull jobs from Jenkins and provide as an Input to the release pipelines and as an automation task in deployment plan. 
+
+---
+
+|Back to ...||Jenkins |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-jenkins/README.md)|[1.0.4](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jenkins/ucv-ext-jenkins:1.0.4.tar.7z.001)|
 
 ## JUnit
 
@@ -414,7 +426,7 @@ The Deploy Plugin for UrbanCode Velocity imports deployment data from UrbanCode 
 
 |Back to ...||Urbancode Deploy |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-ucd/README.md)|[3.3.56 - File 1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd:3.3.56.tar.7z.001) [3.3.56 - File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd:3.3.56.tar.7z.002)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-ucd/README.md)|[3.4.5](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd:3.4.5.tar.7z.001)|
 
 ## WhiteSource
 
@@ -427,3 +439,14 @@ The WhiteSource plug-in retrieves WhiteSource scan results and displays the Lice
 |Back to ...||WhiteSource |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-whitesource/README.md)|[2.0.15](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-whitesource/ucv-ext-whitesource-2.0.15.tar.zip)|
+
+## YAML Executor
+
+The YAML Executor plug-in automates the initial setup process for integrating different CI/CD tools into UrbanCode Velocity. You can define the integration configurations in a YAML file and apply it in UrbanCode Velocity to automate the integration process.
+
+---
+
+|Back to ...||YAML Executor |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-yaml-executor/README.md)|[0.0.5](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-yaml-executor/ucv-ext-yaml-executor:0.0.5.tar.7z.001)|
+

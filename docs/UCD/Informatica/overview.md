@@ -18,21 +18,19 @@ The Informatica plug-in includes the following steps:
 * Run PMREP Command
 * Validate Deployment Group
 
-### Compatibility
+## Compatibility
 
 The IBM UrbanCode Deploy automation plug-in works with Informatica Version 9.6 and later and PowerCenter 8.1.1 and later.
 
 This plug-in requires version 6.1.1 or later of IBM UrbanCode Deploy.
 
-### Installation
+## Installation
 
 No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
 
-### History
+## History
 
 Release notes can be found on the [Informatica GitHub project](https://github.com/IBM-UrbanCode/Informatica-UCD).
-
-
 
 |Back to ...||Latest Version|Informatica |||
 | :---: | :---: | :---: | :---: | :---: | :---: |

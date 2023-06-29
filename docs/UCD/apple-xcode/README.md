@@ -1,15 +1,13 @@
 
 # Apple Xcode
 
-
-### Overview
-
+## Overview
 
 The Apple Xcode plug-in includes steps that manage the continuous delivery of Apple iOS applications by interacting with simulators and devices. These steps include tasks that are related to installing and removing the application on devices and simulators, and running tests as part of a DevOps solution. The plug-in also includes steps for creating and deleting simulators.
 
-This plug-in is developed and supported by the UrbanCode Deploy Community on the IBM® DevOps Services platform. Click **Visit Project** at the top of the page to navigate to the project for further information.
+This plug-in is developed and supported by the UrbanCode Deploy Community on the IBM® DevOps Services platform.
 
-Downloads:
+## Downloads
 
 * [Apple-Xcode plug-in distribution](https://github.com/UrbanCode/Apple-Xcode-UCD/releases)
 * [Source project](https://github.com/UrbanCode/Apple-Xcode-UCD)
@@ -19,10 +17,9 @@ If you encounter issues with the plug-in, or want to send feedback:
 * See the [plug-in documentation](https://developer.ibm.com/urbancode/plugindoc/ibmucd/apple-xcode-plug/1-2/).
 * Watch the [plug-in demo video](http://youtu.be/kHD46_kCvnI).
 * Ask Apple-Xcode plug-in specific questions on the [GitHub Issues](https://github.com/UrbanCode/Apple-Xcode-UCD/issues) page.
-* For general plug-in issues, submit questions to our [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins
+* For general plug-in issues, submit questions to our [Community discussions page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins
 
-**Steps**
-
+## Steps
 
 The plug-in includes steps for creating and deleting simulators, and for starting and stopping the simulator:
 
@@ -62,7 +59,6 @@ This plug-in is supported to run only on an agent that is started from and runni
 **Installation**
 
 No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
-
 
 |Back to ...||Latest Version|
 | :---: | :---: | :---: |
