@@ -2,6 +2,7 @@
 # Artifactory Source Config - Downloads
 
 To download the plug-in, click the following version-specific links.
+- [ucd-ArtifactorySourceConfig-32.1158294.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ucd-ArtifactorySourceConfig-32.1158294.zip)
 - [ucd-ArtifactorySourceConfig-31.1158135.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ucd-ArtifactorySourceConfig-31.1158135.zip)
 - [ucd-ArtifactorySourceConfig-30.1150599.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ucd-ArtifactorySourceConfig-30.1150599.zip)
 - [ArtifactorySourceConfig-29.1098516.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ArtifactorySourceConfig-29.1098516.zip)
@@ -40,4 +41,4 @@ To download the plug-in, click the following version-specific links.
 
 |Back to ...||Latest Version|Artifactory Source Config |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[31.1158135](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ucd-ArtifactorySourceConfig-31.1158135.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Roles](roles.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[32.1158294](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ucd-ArtifactorySourceConfig-32.1158294.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Roles](roles.md)|
