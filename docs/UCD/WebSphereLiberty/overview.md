@@ -1,5 +1,7 @@
 
-# IBM WebSphere Liberty - Overview
+# IBM WebSphere Liberty
+
+## Overview
 
 The IBM WebSphere Application Server Liberty profile is a lightweight configuration of IBM WebSphere Application Server. It provides rapid deployment of applications for use in the development process.
 
@@ -51,7 +53,7 @@ To use the [Wait for Application to be STARTED](steps#wait_for_application_to_be
 
 ### Video
 
-Watch and learn: [Create a WebSphere Liberty collective and deploy applications using UrbanCode Deploy](https://www.youtube.com/watch?v=VaYQE5d96hY&feature=youtu.be). See the related example: [Creating a collective and installing a simple application](#example-installing-a-simple-web-application).
+Watch and learn: [Create a WebSphere Liberty collective and deploy applications using UrbanCode Deploy](https://www.youtube.com/watch?v=VaYQE5d96hY&feature=youtu.be). See the related example: [Creating a collective and installing a simple application](usage#example-creating-a-collective-and-installing-a-simple-application).
 
 ### History
 

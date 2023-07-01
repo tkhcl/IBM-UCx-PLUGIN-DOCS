@@ -1,8 +1,9 @@
 
-# IBM WebSphere Liberty - Usage
+# IBM WebSphere Liberty
 
+## Usage
 
-- [IBM WebSphere Liberty - Usage](#ibm-websphere-liberty---usage)
+- [IBM WebSphere Liberty](#ibm-websphere-liberty)
   - [Usage](#usage)
     - [Example: Creating a collective and installing a simple application](#example-creating-a-collective-and-installing-a-simple-application)
     - [Example: Installing an application on WebSphere Application Server Liberty Profile](#example-installing-an-application-on-websphere-application-server-liberty-profile)
@@ -11,12 +12,12 @@
 
 The [CreateCollectiveSampleApp.zip](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/WebSphereLiberty/SampleApplications/CreateCollectiveSampleApp.zip.txt) file contains an example IBM UrbanCode Deploy application that creates a WebSphere Liberty collective and deploys a simple web application to the servers in the collective. The sample application runs processes to complete the following tasks:
 
-* Create a Liberty server and collective.
-* Register a target host with the collective.
-* Upload a Liberty package file to the registered host.
-* Join Liberty member servers from the package file to the collective.
-* Start collective member servers.
-* Deploy a simple application to the collective servers.
+- Create a Liberty server and collective.
+- Register a target host with the collective.
+- Upload a Liberty package file to the registered host.
+- Join Liberty member servers from the package file to the collective.
+- Start collective member servers.
+- Deploy a simple application to the collective servers.
 
 The example IBM UrbanCode Deploy application assumes that you have two hosts. One host (the collective controller host) must be running the IBM UrbanCode Deploy agent software and also must have WebSphere Liberty installed.
 
@@ -34,9 +35,9 @@ After you import the example application archive, complete the following steps.
 
 The process runs and installs the HelloWorld application to the member servers of the Liberty collective. Browse to the following URLs to see the output of the HelloWorld applications. The application output is Hello Tom.
 
-* https://*targetHostName*:9444/HelloWorld/Hello
-* https://*targetHostName*:9445/HelloWorld/Hello
-* https://*targetHostName*:9446/HelloWorld/Hello
+- https://*targetHostName*:9444/HelloWorld/Hello
+- https://*targetHostName*:9445/HelloWorld/Hello
+- https://*targetHostName*:9446/HelloWorld/Hello
 
 You can also see information about the new collective by adding the Liberty Admin Center feature to the `server.xml` file for the controller1 server. On the collective controller host, add the following line to the `*LibertyInstallDir*/usr/servers/controller1/server.xml` file:
 
@@ -53,9 +54,9 @@ Log in to the Liberty Admin Center. For the sample application, the default admi
 The following component process installs a Java EE application on the WebSphere Application Server Liberty Profile. In this example, the application binary files are in the component. Also, the environment contains an installation of the Liberty profile and a server that is running. The process runs the following steps in order:
 
 1. The Download Artifacts step retrieves the binary files.
-2. The [Install or Update Application with Drop-ins](#install_or_update_applications_with_dropins) step installs the application.
-3. The [Start Application](#start_application) step starts the application.
-4. The [Wait for Application to be STARTED](#wait_for_application_to_be_started) step pauses the process until the application starts.
+2. The [Install or Update Application with Drop-ins](steps#install_or_update_applications_with_dropins) step installs the application.
+3. The [Start Application](steps#start_application) step starts the application.
+4. The [Wait for Application to be STARTED](steps#wait_for_application_to_be_started) step pauses the process until the application starts.
 
 [![A component process that uses the steps in the Liberty Profile plug-in to an install an application](media/examples_websphereliberty_install_app_a.gif)](media/examples_websphereliberty_install_app_a.gif)
 A component process that uses the steps in the Liberty Profile plug-in to install an application
