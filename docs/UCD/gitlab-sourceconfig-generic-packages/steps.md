@@ -14,6 +14,8 @@ Create versions and import packaged files from GitLab.
 | Access Token | String | The access token to use to authenticate with the GitLab server. | No |
 | Project Id | String | The project ID in GitLab. | Yes |
 | Package Name | Boolean | The exact name of package that must match to import a specific package. | Yes |
+| Version Name Pattern | String | If a regular expression is added then only the versions matching to that pattern will get imported.Example: To return n versions of each 1.0.*, 1.1.*, 1.2.*, and so on, use the following regular expression | No |
+| Verify Hash | Check Box | Select to verify hash values after the files are downloaded. | No |
 | Status | String | The package status. | No |
 | File Includes | String | A list of file patterns to include in the component. Separate each pattern with a new line or comma. To include all files, leave blank or type **/*. | No |
 | File Excludes | String | A list of file patterns to exclude from the component. Separate each pattern with a new line or comma. | No |
@@ -24,4 +26,4 @@ Create versions and import packaged files from GitLab.
 
 |          Back to ...          | |         Latest Version         |GitLab Generic Packages|||
 |:-----------------------------:|:------------------------------:| :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) |[1.1147446](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/gitlab-sourceconfig-generic-packages/ucd-plugins-sourceconfig-gitlab-generic-packages-1.1147446.zip)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) |[2.1158723](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/gitlab-sourceconfig-generic-packages/ucd-plugins-sourceconfig-gitlab-generic-packages-2.1158723.zip)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
