@@ -16,10 +16,12 @@ Perform the following steps to import the YAML configuration file using GitHub p
 3. In the Installed tab, click **Add Integration** for the installed GitHub plug-in.
       
    Note: If the GitHub plug-in is not installed, go to Available tab and click Install for GitHub Plug-in.
+
    ![images/1.png](images/1.png)
-4. Enter the details in the required fields to add GitHub integration. 
+5. Enter the details in the required fields to add GitHub integration. 
+
    ![images/2.png](images/2.png)
-5. Click **Add** to save the details and enable the integration.
+6. Click **Add** to save the details and enable the integration.
    
    The YAML configuration file from the GitHub repository is automatically synced to UrbanCode Velocity and displayed under Settings>External config pipeline.
 
@@ -34,24 +36,32 @@ Perform the following steps to add YAML configuration file using user interface:
 3. Click **Download sample yaml** to download the sample YAML file.
 4. Edit the sample file with the actual values of your configuration.
 5. Click **Add new config file**.
+
    ![images/3.png](images/3.png)
    Add New Config dialog opens.
-6. Click **Choose file** to select the edited file.
+7. Click **Choose file** to select the edited file.
+
    ![images/4.png](images/4.png)
-7. Click **Confirm** to upload the file.
+8. Click **Confirm** to upload the file.
+
    ![images/5.png](images/5.png)
-   The uploaded YAML configuration file is displayed in the list. 
+
+    The uploaded YAML configuration file is displayed in the list. 
+
    ![images/6.png](images/6.png)
-8. To edit the existing YAML configuration file, perform the following steps:
+10. To edit the existing YAML configuration file, perform the following steps:
     1. Click overflow menu of the YAML configuration file and then click **Edit**.
+
        ![images/7.png](images/7.png)
        The The existing YAML configuration file will download.
-    2. The Edit the downloaded YAML configuration file.
-    3. Click overflow menu of the YAML configuration file which you have edited and then click **Update**.
+    3. The Edit the downloaded YAML configuration file.
+    4. Click overflow menu of the YAML configuration file which you have edited and then click **Update**.
        Update config dialog opens.
-    4. Click **Choose file** to select the edited file.
+    5. Click **Choose file** to select the edited file.
+
        ![images/8.png](images/8.png)
-    5. Click **Confirm** to upload the file.  
+    6. Click **Confirm** to upload the file.  
+
        ![images/9.png](images/9.png)  
     The updated YAML configuration file is displayed in the list.
     
@@ -62,9 +72,11 @@ Once you have the YAML configuration file in UrbanCode Velocity, perform the fol
 1. Log in to UrbanCode Velocity.
 2. Click **Settings>External config pipeline**.
 3. Choose the required YAML configuration file in the list and click right angle bracket to preview the configuration details.
-   ![images/10.png](images/10.png) 
-4. Click **Apply** for the required YAML configuration file.
-5. Click overflow menu for the required YAML configuration file and then click View Logs to view the logs of the applied YAML configuration file.  
+
+    ![images/10.png](images/10.png) 
+5. Click **Apply** for the required YAML configuration file.
+6. Click overflow menu for the required YAML configuration file and then click View Logs to view the logs of the applied YAML configuration file.  
+
    ![images/11.png](images/11.png) 
 
 ## YAML configuration file properties
