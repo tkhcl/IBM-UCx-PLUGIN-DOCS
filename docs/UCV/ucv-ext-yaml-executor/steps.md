@@ -15,7 +15,7 @@ Perform the following steps to import the YAML configuration file using GitHub p
 2. Click **Settings>Integrations**.
 3. In the Installed tab, click **Add Integration** for the installed GitHub plug-in.    
 
-   **Note:**If the GitHub plug-in is not installed, go to Available tab and click Install for GitHub Plug-in.
+   **Note:** If the GitHub plug-in is not installed, go to Available tab and click Install for GitHub Plug-in.
 
    ![images/1.png](images/1.png)
 5. Enter the details in the required fields to add GitHub integration. 
