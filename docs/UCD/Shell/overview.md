@@ -20,13 +20,25 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 19
+
+Allow overridding of temporary directory used for running scripts.
+
 #### Version 18
 
- Revert to system temp directory
+Revert to system temp directory.
 
 #### Version 17
 
-Port plugin to Java
+Port plugin to Java.
+
+#### Version 16
+
+Updating Jettison library to 1.5.4 for CVE-2023-1436.
+
+#### Version 15
+
+Updating Jettison library for CVE-2022-45693 and CVE-2022-45685.
 
 #### Version 14
 
@@ -34,7 +46,7 @@ Fixes APAR PH27500 - Shell step will now use AGENT_HOME/var/temp as the temporar
 
 #### Version 13
 
-Updating jettison library for CVE-2022-40150 CVE-2022-40149
+Updating jettison library for CVE-2022-40150 CVE-2022-40149.
 
 #### Version 12
 
@@ -71,4 +83,4 @@ Version 5 includes a fix for a defect where the Shell plug-in was not upgraded w
 
 |Back to ...||Latest Version|Shell ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[18.1158127](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/ucd-Shell-18.1158127.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[19.1158728](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/ucd-Shell-19.1158728.zip)|
