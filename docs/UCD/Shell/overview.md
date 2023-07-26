@@ -22,7 +22,7 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 #### Version 19
 
-Allow overridding of temporary directory used for running scripts.
+Allows overriding of temporary directory used for running scripts.
 
 #### Version 18
 
@@ -30,15 +30,15 @@ Revert to system temp directory.
 
 #### Version 17
 
-Port plugin to Java.
+Port plug-in to Java.
 
 #### Version 16
 
-Updating Jettison library to 1.5.4 for CVE-2023-1436.
+Updated Jettison library to 1.5.4 for CVE-2023-1436.
 
 #### Version 15
 
-Updating Jettison library for CVE-2022-45693 and CVE-2022-45685.
+Updated Jettison library for CVE-2022-45693 and CVE-2022-45685.
 
 #### Version 14
 
@@ -46,19 +46,19 @@ Fixes APAR PH27500 - Shell step will now use AGENT_HOME/var/temp as the temporar
 
 #### Version 13
 
-Updating jettison library for CVE-2022-40150 CVE-2022-40149.
+Updated Jettison library for CVE-2022-40150 CVE-2022-40149.
 
 #### Version 12
 
-Update log4j 2.17.
+Updated log4j 2.17.
 
 #### Version 11
 
-Remove log4j functionality related to: CVE-2019-17571, CVE-2020-9488. CVE-2021-4104, CVE-2022-23302, CVE-2022-23305, CVE-2022-23307.
+Removed log4j functionality related to: CVE-2019-17571, CVE-2020-9488. CVE-2021-4104, CVE-2022-23302, CVE-2022-23305, CVE-2022-23307.
 
 #### Version 10
 
-Add compatibility with Groovy 3.
+Added compatibility with Groovy 3.
 
 #### Version 9
 
@@ -66,7 +66,7 @@ Support property file encryption.
 
 #### Version 8
 
-Add support for encrypted property files.
+Added support for encrypted property files.
 
 #### Version 7.800043
 
@@ -83,4 +83,4 @@ Version 5 includes a fix for a defect where the Shell plug-in was not upgraded w
 
 |Back to ...||Latest Version|Shell ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[19.1158728](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/ucd-Shell-19.1158728.zip)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[19.1158728](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/ucd-Shell-19.1158728.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
