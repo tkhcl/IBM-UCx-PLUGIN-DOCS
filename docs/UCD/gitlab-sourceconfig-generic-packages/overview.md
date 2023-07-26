@@ -22,6 +22,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 3
+
+* Added ability to to unzip archived files before upload as component version files.
+
 #### Version 2
 
 * Added ability to verify hash values after download.
@@ -35,4 +39,4 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 |Back to ...| |Latest Version|GitLab Generic Packages|||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[2.1158723](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/gitlab-sourceconfig-generic-packages/ucd-plugins-sourceconfig-gitlab-generic-packages-2.1158723.zip)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.1158910](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/gitlab-sourceconfig-generic-packages/ucd-plugins-sourceconfig-gitlab-generic-packages-3.1158910.zip)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
