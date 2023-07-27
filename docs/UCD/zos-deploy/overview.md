@@ -78,7 +78,9 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 #### Version 78
 
 * Fixes vulnerability CVE-2022-45693 and CVE-2022-45685
-* Fixed JMON issue - BUZ300E Internal error
+* Fixed JMON issue -
+  BUZ300E Internal error: Unknown client protocol level.
+  FEJ300E Internal error: Unknown client protocol level.
 
 #### Version 77
 
