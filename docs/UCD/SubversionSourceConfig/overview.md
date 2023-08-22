@@ -22,6 +22,14 @@ This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in
 
 ### History
 
+#### Version 26
+
+* made changes to support plugin for ucd v7.1.2.1.
+
+#### Version 25
+
+* Updated Jettison dependencies.
+
 #### Version 24
 
 * Updated log4j dependencies.
@@ -101,4 +109,4 @@ This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in
 
 |Back to ...||Latest Version|Subversion ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[24.1153955](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SubversionSourceConfig/ucd-SubversionSourceConfig-24.1153955.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[26.1159798](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SubversionSourceConfig/ucd-SubversionSourceConfig-26.1159798.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
