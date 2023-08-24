@@ -144,4 +144,4 @@ Wait for an AppScan Scan to complete.
 
 |Back to ...||Latest Version|IBM AppScan Enterprise |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[14.1105371](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan/appscan-14.1105371.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[22.1159870](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan/ucd-appscan-22.1159870.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

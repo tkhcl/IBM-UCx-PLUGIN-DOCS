@@ -17,6 +17,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 22
+
+* Added Test policy Id as a input property to Create scan step.fixed defect to update correct testpolicyId while creating a scan.
+
 #### Version 14
 
 * Added beta feature of AppScans Webhook configuration.
@@ -131,4 +135,4 @@ Initial release of the plug-in.
 
 |Back to ...||Latest Version|IBM AppScan Enterprise |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[14.1105371](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan/appscan-14.1105371.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[22.1159870](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan/ucd-appscan-22.1159870.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

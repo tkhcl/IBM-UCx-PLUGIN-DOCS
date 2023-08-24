@@ -2,6 +2,7 @@
 # IBM AppScan Enterprise - Downloads
 
 To download the plug-in, click the following version specific links.
+- [ucd-appscan-22.1159870.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan/ucd-appscan-22.1159870.zip)
 - [appscan-14.1105371.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan/appscan-14.1105371.zip)
 - [appscan-14.1101790.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan/appscan-14.1101790.zip)
 - [appscan-14.1011277.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan/appscan-14.1011277.zip)
@@ -15,4 +16,4 @@ To download the plug-in, click the following version specific links.
 
 |Back to ...||Latest Version|IBM AppScan Enterprise |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[14.1105371](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan/appscan-14.1105371.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[22.1159870](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan/ucd-appscan-22.1159870.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|
