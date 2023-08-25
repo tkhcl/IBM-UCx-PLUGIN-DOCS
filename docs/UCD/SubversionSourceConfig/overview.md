@@ -24,7 +24,7 @@ This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in
 
 #### Version 26
 
-* made changes to support plugin for ucd v7.1.2.1.
+* Fixed the package reference to "import org.apache.commons.lang3.StringUtils;" instead of "import org.apache.commons.lang.StringUtils;” in the plugin.
 
 #### Version 25
 
